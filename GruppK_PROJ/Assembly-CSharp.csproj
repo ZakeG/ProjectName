@@ -61,6 +61,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\PlayerController.cs" />
     <Compile Include="Assets\Scripts\MonoBehaviours\Camera\CameraControl.cs" />
     <Compile Include="Assets\Scripts\MonoBehaviours\DataPersistence\BehaviourEnableStateSaver.cs" />
     <Compile Include="Assets\Scripts\MonoBehaviours\DataPersistence\DataResetter.cs" />

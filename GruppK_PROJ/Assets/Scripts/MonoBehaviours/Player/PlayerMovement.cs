@@ -8,7 +8,7 @@ public class PlayerMovement : MonoBehaviour
     public Animator animator;
     public NavMeshAgent agent;
     public SaveData playerSaveData;
-    public float turnSmoothing = 15f;
+    public float turnSmoothing = 8f;
     public float speedDampTime = 0.1f;
     public float slowingSpeed = 0.175f;
     public float turnSpeedThreshold = 0.5f;
@@ -49,11 +49,10 @@ public class PlayerMovement : MonoBehaviour
     }
 
 
-    private void OnAnimatorMove()
+    /*private void OnAnimatorMove()
     {
         agent.velocity = animator.deltaPosition / Time.deltaTime;
-    }
-
+    }*/
 
     private void Update()
     {
@@ -61,13 +60,13 @@ public class PlayerMovement : MonoBehaviour
             return;
 
         float speed = agent.desiredVelocity.magnitude;
-        
+
         if (agent.remainingDistance <= agent.stoppingDistance * stopDistanceProportion)
-            Stopping (out speed);
+            Stopping(out speed);
         else if (agent.remainingDistance <= agent.stoppingDistance)
             Slowing(out speed, agent.remainingDistance);
         else if (speed > turnSpeedThreshold)
-            Moving ();
+            Moving();
         
         animator.SetFloat(hashSpeedPara, speed, speedDampTime, Time.deltaTime);
     }
@@ -123,11 +122,10 @@ public class PlayerMovement : MonoBehaviour
         PointerEventData pData = (PointerEventData)data;
 
         NavMeshHit hit;
-        if (NavMesh.SamplePosition (pData.pointerCurrentRaycast.worldPosition, out hit, navMeshSampleDistance, NavMesh.AllAreas))
+        if (NavMesh.SamplePosition(pData.pointerCurrentRaycast.worldPosition, out hit, navMeshSampleDistance, NavMesh.AllAreas))
             destinationPosition = hit.position;
         else
             destinationPosition = pData.pointerCurrentRaycast.worldPosition;
-
         agent.SetDestination(destinationPosition);
         agent.isStopped = false;
     }

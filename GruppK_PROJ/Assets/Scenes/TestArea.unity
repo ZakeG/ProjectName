@@ -573,12 +573,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'awgaawfawfawogfhaseiogsrohngbgnsoengnsegsaegnose
-
-    seghsehseghseg
-
-    eagaweg'
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: YOU WIN!!
+  textColor: {r: 0.92176676, g: 1, b: 0, a: 1}
   delay: 0
 --- !u!1 &1076450397
 GameObject:

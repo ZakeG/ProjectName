@@ -5,10 +5,17 @@ public class Inventory : MonoBehaviour
 {
     public Image[] itemImages = new Image[numItemSlots];
     public Item[] items = new Item[numItemSlots];
-
+    public int[] combinedHashes = new int[5];
 
     public const int numItemSlots = 4;
 
+    private Item itemA;
+    private Item itemB;
+    private int combinedHashOne;
+    private int combinedHashTwo;
+    private string itemName;
+    private int itemANameHash;
+    private int itemBNameHash;
 
     public void AddItem(Item itemToAdd)
     {
@@ -41,6 +48,30 @@ public class Inventory : MonoBehaviour
 
     public void OnInventoryClick(Item clickedItem)
     {
+        if (itemA == null)
+        {
+            itemA = clickedItem;
+            itemANameHash = int.Parse(itemA.itemName);
+        }
+        else if(itemB == null)
+        {
+            itemB = clickedItem;
+            itemBNameHash = int.Parse(itemB.itemName);
+            combinedHashOne = itemANameHash + itemBNameHash;
+            combinedHashTwo = itemBNameHash + itemANameHash;
 
+            for (int i = 0; i < combinedHashes.Length; i++)
+            {
+                if (combinedHashOne == combinedHashes[i])
+                {
+
+                }
+                else if (combinedHashTwo == combinedHashes[i])
+                {
+
+                }
+
+            }
+        }
     }
 }

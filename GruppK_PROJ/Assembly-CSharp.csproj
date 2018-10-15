@@ -75,6 +75,7 @@
     <Compile Include="Assets\Scripts\MonoBehaviours\Player\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\MonoBehaviours\SceneControl\SceneController.cs" />
     <Compile Include="Assets\Scripts\MonoBehaviours\SceneControl\StartingPosition.cs" />
+    <Compile Include="Assets\Scripts\ScriptableObjects\DataPersistence\ResettableScriptableObject.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\DataPersistence\SaveData.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\Interaction\Abstracts\DelayedReaction.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\Interaction\Abstracts\Reaction.cs" />
@@ -91,7 +92,6 @@
     <Compile Include="Assets\Scripts\ScriptableObjects\Interaction\Reactions\ImmediateReactions\SceneReaction.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\Interaction\Reactions\ImmediateReactions\TextReaction.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\Inventory\Item.cs" />
-    <Compile Include="Assets\Scripts\ScriptableObjects\ResettableScriptableObject.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/jono2493/Documents/GitHub/ProjectName/GruppK_PROJ/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>

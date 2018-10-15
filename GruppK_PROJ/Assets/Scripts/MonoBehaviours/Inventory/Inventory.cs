@@ -38,4 +38,9 @@ public class Inventory : MonoBehaviour
             }
         }
     }
+
+    public void OnInventoryClick(Item clickedItem)
+    {
+
+    }
 }

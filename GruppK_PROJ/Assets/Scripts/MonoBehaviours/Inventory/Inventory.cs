@@ -4,18 +4,9 @@ using UnityEngine.UI;
 public class Inventory : MonoBehaviour
 {
     public Image[] itemImages = new Image[numItemSlots];
-    public Item[] items = new Item[numItemSlots];
-    public int[] combinedHashes = new int[5];
+    public Item[] items = new Item[numItemSlots];   
 
     public const int numItemSlots = 4;
-
-    private Item itemA;
-    private Item itemB;
-    private int combinedHashOne;
-    private int combinedHashTwo;
-    private string itemName;
-    private int itemANameHash;
-    private int itemBNameHash;
 
     public void AddItem(Item itemToAdd)
     {
@@ -31,7 +22,7 @@ public class Inventory : MonoBehaviour
         }
     }
 
-    public void RemoveItem (Item itemToRemove)
+    public void RemoveItem(Item itemToRemove)
     {
         for (int i = 0; i < items.Length; i++)
         {
@@ -43,49 +34,5 @@ public class Inventory : MonoBehaviour
                 return;
             }
         }
-    }
-
-    public void ConbineItems(Item item1, Item item2)
-    {
-        RemoveItem(item1);
-        RemoveItem(item2);
- //       AddItem(item2);
-    }
-
-    public void OnInventoryClick(Item clickedItem)
-    {
-        if (itemA == null)
-        {
-            itemA = clickedItem;
-            itemANameHash = int.Parse(itemA.itemName);
-            return;
-        }
-        else if(itemB == null)
-        {
-            itemB = clickedItem;
-            itemBNameHash = int.Parse(itemB.itemName);
-            combinedHashOne = itemANameHash + itemBNameHash;
-            combinedHashTwo = itemBNameHash + itemANameHash;
-
-            for (int i = 0; i < combinedHashes.Length; i++)
-            {
-                if (combinedHashOne == combinedHashes[i])
-                {
-                    ConbineItems(itemA, itemB);
-                    itemA = null;
-                    itemB = null;
-                    return;
-                }
-                else if (combinedHashTwo == combinedHashes[i])
-                {
-                    ConbineItems(itemA, itemB);
-                    itemA = null;
-                    itemB = null;
-                    return;
-                }
-
-            }
-        }
-
     }
 }

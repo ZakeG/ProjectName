@@ -11,5 +11,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f67bd8ec6e33af4987562f6141a3bf2, type: 3}
   m_Name: SunVial
   m_EditorClassIdentifier: 
-  sprite: {fileID: 21300000, guid: dc44c16ec3f9a304a942b3468033b2ee, type: 3}
+  sprite: {fileID: 21300000, guid: d8bed8d5307d3e3479748f8edf36d3ad, type: 3}
   itemName: SunVial

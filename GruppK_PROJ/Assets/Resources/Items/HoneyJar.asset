@@ -11,5 +11,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f67bd8ec6e33af4987562f6141a3bf2, type: 3}
   m_Name: HoneyJar
   m_EditorClassIdentifier: 
-  sprite: {fileID: 21300000, guid: 6eaed97e6bed67045b48e45f16e46dfc, type: 3}
+  sprite: {fileID: 21300000, guid: 623add29c7b14dc44b84d07d9713d02b, type: 3}
   itemName: HoneyJar

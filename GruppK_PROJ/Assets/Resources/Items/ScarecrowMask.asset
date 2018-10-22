@@ -11,5 +11,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f67bd8ec6e33af4987562f6141a3bf2, type: 3}
   m_Name: ScarecrowMask
   m_EditorClassIdentifier: 
-  sprite: {fileID: 21300000, guid: fab7d2f9840fcb34caf31ab675c701fc, type: 3}
+  sprite: {fileID: 21300000, guid: a6eb7be3f0f8e9c4e8cac6f74e05bdc5, type: 3}
   itemName: ScarecrowMask

@@ -1,9 +1,9 @@
-﻿using System.Collections;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class ReactionCollection : MonoBehaviour
 {
     public Reaction[] reactions = new Reaction[0];
+
 
     private void Start ()
     {

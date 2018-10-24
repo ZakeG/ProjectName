@@ -144,17 +144,6 @@ public class PlayerMovement : MonoBehaviour
         agent.isStopped = false;
     }
 
-    public void PauseUnpauseInteraction()
-    {
-        if (handleInput)
-        {
-            handleInput = false;
-        }
-        else
-        {
-            handleInput = true;
-        }
-    }
 
     private IEnumerator WaitForInteraction ()
     {

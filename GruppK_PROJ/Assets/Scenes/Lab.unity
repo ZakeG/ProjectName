@@ -2934,7 +2934,6 @@ MonoBehaviour:
   - {fileID: 1763454078}
   - {fileID: 1889320689}
   - {fileID: 1563740997}
-  - {fileID: 926406462}
 --- !u!4 &207831571
 Transform:
   m_ObjectHideFlags: 0
@@ -4023,7 +4022,6 @@ MonoBehaviour:
   - {fileID: 1917841156}
   - {fileID: 1040969056}
   - {fileID: 1983055475}
-  - {fileID: 2097524904}
 --- !u!4 &291133473
 Transform:
   m_ObjectHideFlags: 0
@@ -5053,11 +5051,6 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 366799965}
   m_Script: {fileID: 11500000, guid: d85941078afdf3244b2a1ae50fea256c, type: 3}
---- !u!1 &366799968 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 194222, guid: d48734bd22479a14cb1a52b40aa09db4,
-    type: 2}
-  m_PrefabInternal: {fileID: 366799965}
 --- !u!1 &367986419
 GameObject:
   m_ObjectHideFlags: 0
@@ -6126,7 +6119,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d482a9551d8b074097fdb7beded4043, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 1.5
+  delay: 0
   item: {fileID: 11400000, guid: 205523f2eed48c245a0946e1a8a21492, type: 2}
 --- !u!1 &453537066
 GameObject:
@@ -9405,7 +9398,6 @@ MonoBehaviour:
   - {fileID: 1845529403}
   - {fileID: 979279997}
   - {fileID: 78951581}
-  - {fileID: 1554248517}
 --- !u!4 &643572443
 Transform:
   m_ObjectHideFlags: 0
@@ -10706,7 +10698,6 @@ MonoBehaviour:
   - {fileID: 176366651}
   - {fileID: 1759583273}
   - {fileID: 1035930655}
-  - {fileID: 758736101}
 --- !u!1 &716659582
 GameObject:
   m_ObjectHideFlags: 0
@@ -10829,7 +10820,6 @@ MonoBehaviour:
   - {fileID: 682341830}
   - {fileID: 478918366}
   - {fileID: 151224002}
-  - {fileID: 2104033562}
 --- !u!1 &718093868
 GameObject:
   m_ObjectHideFlags: 0
@@ -11256,11 +11246,6 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 719481358}
   m_Script: {fileID: 11500000, guid: d85941078afdf3244b2a1ae50fea256c, type: 3}
---- !u!1 &719481361 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 194222, guid: d48734bd22479a14cb1a52b40aa09db4,
-    type: 2}
-  m_PrefabInternal: {fileID: 719481358}
 --- !u!1 &719547501
 GameObject:
   m_ObjectHideFlags: 0
@@ -11741,10 +11726,17 @@ Transform:
   - {fileID: 358861756}
   - {fileID: 1402151954}
   m_Father: {fileID: 339063940}
+<<<<<<< HEAD
   m_RootOrder: 64
   m_LocalEulerAnglesHint: {x: 0, y: -70.64101, z: 0}
 --- !u!1001 &746976396
 Prefab:
+=======
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &767676407
+MonoBehaviour:
+>>>>>>> parent of 703a9b0... några fixes
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
@@ -14698,20 +14690,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 923574000}
   m_Mesh: {fileID: 4300000, guid: 397254879aae83a43bd5fb07362acecb, type: 3}
---- !u!114 &926406462
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  delay: 0
-  gameObject: {fileID: 2143964667}
-  activeState: 0
 --- !u!1 &927286354
 GameObject:
   m_ObjectHideFlags: 0
@@ -16571,11 +16549,6 @@ MonoBehaviour:
 --- !u!4 &1055587305 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1055587303}
---- !u!1 &1055587306 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 194222, guid: d48734bd22479a14cb1a52b40aa09db4,
     type: 2}
   m_PrefabInternal: {fileID: 1055587303}
 --- !u!1 &1056240069
@@ -22976,20 +22949,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1545929797}
   m_Mesh: {fileID: 4300000, guid: 5f6f98246e218b349b76247d3b3e6465, type: 3}
---- !u!114 &1554248517
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  delay: 0
-  gameObject: {fileID: 1710461295}
-  activeState: 0
 --- !u!1 &1555445038
 GameObject:
   m_ObjectHideFlags: 0
@@ -25451,11 +25410,6 @@ MonoBehaviour:
 --- !u!4 &1710461294 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1710461292}
---- !u!1 &1710461295 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 194222, guid: d48734bd22479a14cb1a52b40aa09db4,
     type: 2}
   m_PrefabInternal: {fileID: 1710461292}
 --- !u!1 &1711660612
@@ -31323,20 +31277,6 @@ MonoBehaviour:
   message: It's a sack with two holes in it.
   textColor: {r: 1, g: 1, b: 1, a: 1}
   delay: 0
---- !u!114 &2097524904
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  delay: 0
-  gameObject: {fileID: 1055587306}
-  activeState: 0
 --- !u!114 &2098342241
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31624,20 +31564,6 @@ Transform:
   m_Father: {fileID: 339063940}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 127.23701, z: 0}
---- !u!114 &2104033562
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  delay: 0
-  gameObject: {fileID: 366799968}
-  activeState: 0
 --- !u!114 &2110965861
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32356,10 +32282,5 @@ MonoBehaviour:
 --- !u!4 &2143964666 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4,
-    type: 2}
-  m_PrefabInternal: {fileID: 2143964664}
---- !u!1 &2143964667 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 194222, guid: d48734bd22479a14cb1a52b40aa09db4,
     type: 2}
   m_PrefabInternal: {fileID: 2143964664}

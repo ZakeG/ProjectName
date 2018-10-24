@@ -11,5 +11,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f67bd8ec6e33af4987562f6141a3bf2, type: 3}
   m_Name: Broomstick
   m_EditorClassIdentifier: 
-  sprite: {fileID: 21300000, guid: 8b09906091c9d42479be4fd63e190509, type: 3}
+  sprite: {fileID: 21300000, guid: 2fd89ed271a5d8c419b0f9892ed66a24, type: 3}
   itemName: Broomstick

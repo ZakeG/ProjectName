@@ -3,6 +3,7 @@
 public class Interactable : MonoBehaviour
 {
     public Transform interactionLocation;
+    public float interactionDuration = 0; //Endast för POC
     public ConditionCollection[] conditionCollections = new ConditionCollection[0];
     public ReactionCollection defaultReactionCollection;
 

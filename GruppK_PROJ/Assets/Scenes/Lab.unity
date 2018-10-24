@@ -9627,7 +9627,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0
+  delay: 4.5
   gameObject: {fileID: 719481361}
   activeState: 0
 --- !u!114 &767676407
@@ -11884,7 +11884,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0
+  delay: 3
   gameObject: {fileID: 2143964667}
   activeState: 0
 --- !u!1 &927286354
@@ -18375,7 +18375,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0
+  delay: 8.5
   gameObject: {fileID: 1710461295}
   activeState: 0
 --- !u!1 &1555445038
@@ -24848,7 +24848,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0
+  delay: 3.5
   gameObject: {fileID: 1055587306}
   activeState: 0
 --- !u!114 &2098342241
@@ -25073,7 +25073,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0
+  delay: 2.5
   gameObject: {fileID: 366799968}
   activeState: 0
 --- !u!114 &2110965861

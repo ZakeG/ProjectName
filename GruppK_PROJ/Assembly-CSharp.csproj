@@ -71,6 +71,7 @@
     <Compile Include="Assets\Scripts\MonoBehaviours\Interaction\DynamicCursor.cs" />
     <Compile Include="Assets\Scripts\MonoBehaviours\Interaction\Interactable.cs" />
     <Compile Include="Assets\Scripts\MonoBehaviours\Interaction\ReactionCollection.cs" />
+    <Compile Include="Assets\Scripts\MonoBehaviours\Interaction\TextManager - Backup.cs" />
     <Compile Include="Assets\Scripts\MonoBehaviours\Interaction\TextManager.cs" />
     <Compile Include="Assets\Scripts\MonoBehaviours\Inventory\Inventory.cs" />
     <Compile Include="Assets\Scripts\MonoBehaviours\Inventory\InventoryInteractable.cs" />

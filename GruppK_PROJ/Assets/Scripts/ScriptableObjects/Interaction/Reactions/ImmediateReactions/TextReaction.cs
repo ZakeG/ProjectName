@@ -4,7 +4,7 @@ public class TextReaction : Reaction
 {
     public string message;
     public Color textColor = Color.white;
-    public float delay;
+    public float order;
 
 
     private TextManager textManager;
@@ -18,6 +18,6 @@ public class TextReaction : Reaction
 
     protected override void ImmediateReaction()
     {
-        textManager.DisplayMessage (message, textColor, delay);
+        textManager.DisplayMessage (message, textColor, order);
     }
 }

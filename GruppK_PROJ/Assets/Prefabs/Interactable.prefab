@@ -164,7 +164,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 114572509625264228}
-          m_MethodName: ChangeToArrow
+          m_MethodName: ChangeToHand
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -181,7 +181,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 114572509625264228}
-          m_MethodName: ChangeToHand
+          m_MethodName: ChangeToArrow
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}

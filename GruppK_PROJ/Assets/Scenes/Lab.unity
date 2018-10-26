@@ -359,7 +359,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: I've been told to never touch it.
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  delay: 2
+  order: 0
 --- !u!1 &34536700
 GameObject:
   m_ObjectHideFlags: 0
@@ -449,7 +449,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: It's a telescope pointed at the sun.
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  delay: 0
+  order: 0
 --- !u!1001 &38214139
 Prefab:
   m_ObjectHideFlags: 0
@@ -888,7 +888,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: What's all this?
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  delay: 0
+  order: 0
 --- !u!1 &68194532
 GameObject:
   m_ObjectHideFlags: 0
@@ -1081,7 +1081,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: I shouldn't look into it.
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  delay: 2
+  order: 0
 --- !u!114 &78951581
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2270,7 +2270,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: You should be able to find all that in the lab.
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  delay: 12
+  order: 5
 --- !u!1 &155252398
 GameObject:
   m_ObjectHideFlags: 0
@@ -2330,7 +2330,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: I wonder if this bird is afraid of scarecrows.
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  delay: 0
+  order: 0
 --- !u!114 &162305833
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3439,7 +3439,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: I still have things to do here.
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  delay: 0
+  order: 0
 --- !u!114 &213207612
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3466,7 +3466,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: It's a cauldron.
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  delay: 0
+  order: 0
 --- !u!1 &223405940
 GameObject:
   m_ObjectHideFlags: 0
@@ -3556,7 +3556,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: Unfortunately, I lost all the stuff I need here in this lab.
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  delay: 6
+  order: 3
 --- !u!1 &225929323
 GameObject:
   m_ObjectHideFlags: 0
@@ -3905,7 +3905,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: It looks magical.
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  delay: 0
+  order: 0
 --- !u!1 &251672543
 GameObject:
   m_ObjectHideFlags: 0
@@ -4630,7 +4630,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: The wizard told me I need that sculpture.
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  delay: 0
+  order: 0
 --- !u!1 &310440531
 GameObject:
   m_ObjectHideFlags: 0
@@ -5166,7 +5166,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: It's a sack with two holes in it.
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  delay: 0
+  order: 0
 --- !u!114 &345664332
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5180,7 +5180,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: That's the wizard's lectern.
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  delay: 0
+  order: 0
 --- !u!1 &347461205
 GameObject:
   m_ObjectHideFlags: 0
@@ -6009,7 +6009,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: Looks like a scary mask!
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  delay: 2
+  order: 0
 --- !u!1 &393743354
 GameObject:
   m_ObjectHideFlags: 0
@@ -6236,7 +6236,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: It's a stick.
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  delay: 0
+  order: 0
 --- !u!1 &407312184
 GameObject:
   m_ObjectHideFlags: 0
@@ -6342,7 +6342,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: Here, take it.
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  delay: 8
+  order: 0
 --- !u!1 &414588708
 GameObject:
   m_ObjectHideFlags: 0
@@ -6522,7 +6522,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: This is a catastrophe!
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  delay: 0
+  order: 0
 --- !u!1 &431594625
 GameObject:
   m_ObjectHideFlags: 0
@@ -6612,7 +6612,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: A vial filled with some red liquid.
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  delay: 0
+  order: 0
 --- !u!114 &450471034
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7378,7 +7378,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: It's a wolf's head.
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  delay: 0
+  order: 0
 --- !u!1 &487179307
 GameObject:
   m_ObjectHideFlags: 0
@@ -8433,7 +8433,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: A glowing jar, filled with fireflies!
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  delay: 0
+  order: 0
 --- !u!114 &536898133
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9729,7 +9729,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: It's a glowing vial.
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  delay: 0
+  order: 0
 --- !u!1 &641869513
 GameObject:
   m_ObjectHideFlags: 0
@@ -10098,7 +10098,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: Go find it for me.
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  delay: 6
+  order: 0
 --- !u!1 &674198924
 GameObject:
   m_ObjectHideFlags: 0
@@ -10373,7 +10373,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: Take this key and go down into the basement with it.
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  delay: 10
+  order: 0
 --- !u!114 &698570203
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11661,7 +11661,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: Still, might be useful in making a phoenix feather.
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  delay: 4
+  order: 0
 --- !u!1 &737037257
 GameObject:
   m_ObjectHideFlags: 0
@@ -11751,7 +11751,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: I can use the broomstick to knock it down!
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  delay: 0
+  order: 0
 --- !u!1 &739453169
 GameObject:
   m_ObjectHideFlags: 0
@@ -11951,7 +11951,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: My quill is a phoenix feather!!!!
   textColor: {r: 1, g: 0, b: 0, a: 1}
-  delay: 6
+  order: 0
 --- !u!1001 &774562408
 Prefab:
   m_ObjectHideFlags: 0
@@ -12036,7 +12036,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: Looks like you have all the stuff, give it here!
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  delay: 0
+  order: 0
 --- !u!1 &780958084
 GameObject:
   m_ObjectHideFlags: 0
@@ -13945,7 +13945,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: I NEED it for my experiment!!!!!
   textColor: {r: 1, g: 0.033939295, b: 0, a: 1}
-  delay: 4
+  order: 0
 --- !u!1 &866150569
 GameObject:
   m_ObjectHideFlags: 0
@@ -15521,7 +15521,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: --You pull the sack over your head--
   textColor: {r: 0.8207547, g: 0.7363356, b: 0.2206746, a: 1}
-  delay: 2
+  order: 0
 --- !u!1 &974040973
 GameObject:
   m_ObjectHideFlags: 0
@@ -15735,7 +15735,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: But first you will need a sun and moon staff!
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  delay: 3
+  order: 2
 --- !u!1 &988919208
 GameObject:
   m_ObjectHideFlags: 0
@@ -16031,7 +16031,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: Its an empty vial, looks like it should be filled with light.
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  delay: 0
+  order: 0
 --- !u!1001 &1017475066
 Prefab:
   m_ObjectHideFlags: 0
@@ -17230,7 +17230,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: You can throw that other garbage on the ground.
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  delay: 12
+  order: 0
 --- !u!1 &1097294895
 GameObject:
   m_ObjectHideFlags: 0
@@ -17875,7 +17875,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: What a strange bird.
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  delay: 0
+  order: 0
 --- !u!1001 &1152882838
 Prefab:
   m_ObjectHideFlags: 0
@@ -18306,7 +18306,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: I can fill the vial with powerful sunlight here!
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  delay: 0
+  order: 0
 --- !u!1 &1170988210
 GameObject:
   m_ObjectHideFlags: 0
@@ -19652,7 +19652,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: It's a sculpture of a moon.
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  delay: 0
+  order: 0
 --- !u!1 &1279277112
 GameObject:
   m_ObjectHideFlags: 0
@@ -19755,7 +19755,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: I will need a stick, a powerful vial and a jar of fireflies.
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  delay: 9
+  order: 4
 --- !u!1 &1288596499
 GameObject:
   m_ObjectHideFlags: 0
@@ -20299,7 +20299,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: It's a jar full of fireflies.
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  delay: 0
+  order: 0
 --- !u!1001 &1326139293
 Prefab:
   m_ObjectHideFlags: 0
@@ -21746,7 +21746,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: It's a bookcase. No doubt filled with magic spells.
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  delay: 0
+  order: 0
 --- !u!1 &1412152766
 GameObject:
   m_ObjectHideFlags: 0
@@ -22516,7 +22516,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: Its a broomstick.
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  delay: 0
+  order: 0
 --- !u!1 &1474372590
 GameObject:
   m_ObjectHideFlags: 0
@@ -22651,7 +22651,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: It looks magical.
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  delay: 0
+  order: 0
 --- !u!1 &1481316222
 GameObject:
   m_ObjectHideFlags: 0
@@ -22698,7 +22698,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: Oh, it's for the the phoenix feather?
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  delay: 2
+  order: 0
 --- !u!114 &1485885879
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23412,7 +23412,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: This might be useful in making a phoenix feather.
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  delay: 2
+  order: 0
 --- !u!1 &1520112414
 GameObject:
   m_ObjectHideFlags: 0
@@ -25505,7 +25505,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: Are you ready for your first day as an apprentice?
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  delay: 0
+  order: 1
 --- !u!1 &1652608323
 GameObject:
   m_ObjectHideFlags: 0
@@ -25671,7 +25671,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: Useless.
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  delay: 2
+  order: 0
 --- !u!1 &1661311992
 GameObject:
   m_ObjectHideFlags: 0
@@ -25828,7 +25828,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: Don't you have something important to do?
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  delay: 0
+  order: 0
 --- !u!1 &1670220341
 GameObject:
   m_ObjectHideFlags: 0
@@ -26781,7 +26781,7 @@ MonoBehaviour:
 
     Thanks for playing!'
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  delay: 0
+  order: 0
 --- !u!1001 &1753974720
 Prefab:
   m_ObjectHideFlags: 0
@@ -28744,7 +28744,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: Oh look, a feather!
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  delay: 7
+  order: 0
 --- !u!1 &1853813844
 GameObject:
   m_ObjectHideFlags: 0
@@ -28790,7 +28790,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: Oh. It's just a jar of honey.
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  delay: 2
+  order: 0
 --- !u!1 &1857918833
 GameObject:
   m_ObjectHideFlags: 0
@@ -29122,7 +29122,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: I guess it was.
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  delay: 5
+  order: 0
 --- !u!1001 &1883132849
 Prefab:
   m_ObjectHideFlags: 0
@@ -29724,7 +29724,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: I can't reach it though.
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  delay: 3
+  order: 0
 --- !u!1 &1916501521
 GameObject:
   m_ObjectHideFlags: 0
@@ -30196,7 +30196,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: It's done! Here you go!
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  delay: 4
+  order: 0
 --- !u!1 &1936332524
 GameObject:
   m_ObjectHideFlags: 0
@@ -31343,7 +31343,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: All this stuff reminds me.
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  delay: 4
+  order: 0
 --- !u!114 &2029425269
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31461,7 +31461,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: Oh, I also need the moon sculpture in the window over there.
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  delay: 15
+  order: 6
 --- !u!1 &2038055349
 GameObject:
   m_ObjectHideFlags: 0
@@ -32424,7 +32424,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: It's a sack with two holes in it.
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  delay: 0
+  order: 0
 --- !u!114 &2097524904
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32452,7 +32452,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: I seem to have lost my phoenix feather!
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  delay: 2
+  order: 0
 --- !u!1 &2098647290
 GameObject:
   m_ObjectHideFlags: 0

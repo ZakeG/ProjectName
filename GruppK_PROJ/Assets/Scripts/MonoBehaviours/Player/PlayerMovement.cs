@@ -18,6 +18,7 @@ public class PlayerMovement : MonoBehaviour
     private Interactable currentInteractable;
     private Vector3 destinationPosition;
     private bool handleInput = true;
+    private bool holdForDialuge = true;
     private WaitForSeconds inputHoldWait;
 
 
@@ -114,7 +115,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void OnGroundClick(BaseEventData data)
     {
-        if(!handleInput)
+        if(!handleInput || !holdForDialuge)
             return;
         
         currentInteractable = null;
@@ -133,7 +134,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void OnInteractableClick(Interactable interactable)
     {
-        if(!handleInput)
+        if(!handleInput || !holdForDialuge)
             return;
 
         currentInteractable = interactable;
@@ -144,16 +145,9 @@ public class PlayerMovement : MonoBehaviour
         agent.isStopped = false;
     }
 
-    public void PauseUnpauseInteraction()
+    public void PauseUnpauseInteraction(bool mode)
     {
-        if (handleInput)
-        {
-            handleInput = false;
-        }
-        else
-        {
-            handleInput = true;
-        }
+            holdForDialuge = mode;
     }
 
     private IEnumerator WaitForInteraction ()

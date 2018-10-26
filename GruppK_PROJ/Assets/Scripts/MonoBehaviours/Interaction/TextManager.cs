@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using System.Collections;
 using System.Collections.Generic;
 
 public class TextManager : MonoBehaviour
@@ -8,55 +9,81 @@ public class TextManager : MonoBehaviour
     {
         public string message;
         public Color textColor;
-        public float startTime;
+        public float order;
     }
 
-
     public Text text;
-    public float displayTimePerCharacter = 0.1f;
-    public float additionalDisplayTime = 0.5f;
 
-
+    private PlayerMovement playerMovementScript;
     private List<Instruction> instructions = new List<Instruction> ();
     private float clearTime;
+    private bool dialugeStarted;
+    private int messageNumber;
 
+    private void Start()
+    {
+        playerMovementScript = GameObject.Find("Player").GetComponent<PlayerMovement>();
+        text.text = string.Empty;
+        dialugeStarted = false;
+    }
 
     private void Update ()
     {
-        if (instructions.Count > 0 && Time.time >= instructions[0].startTime)
-        {
-            text.text = instructions[0].message;
-            text.color = instructions[0].textColor;
-            instructions.RemoveAt (0);
-        }
-        else if (Time.time >= clearTime)
-        {
-            text.text = string.Empty;
+        if (dialugeStarted) {
+            if (Input.GetButtonDown("Fire1"))
+            {
+                if (messageNumber < instructions.Count)
+                {
+                    ShowNextMessage();
+                    messageNumber++;
+                }
+                else if(messageNumber >= instructions.Count)
+                {
+                    DialougeStopped();
+                }
+            }
         }
     }
 
-
-    public void DisplayMessage (string message, Color textColor, float delay)
-    {
-        float startTime = Time.time + delay;
-        float displayDuration = message.Length * displayTimePerCharacter + additionalDisplayTime;
-        float newClearTime = startTime + displayDuration;
-
-        if (newClearTime > clearTime)
-            clearTime = newClearTime;
-
+    public void DisplayMessage(string message, Color textColor, float displayOrder)
+    {  
+        float order = displayOrder;
         Instruction newInstruction = new Instruction
         {
             message = message,
             textColor = textColor,
-            startTime = startTime
+            order = order
         };
+        instructions.Add(newInstruction);
+        SortInstructions();
 
-        instructions.Add (newInstruction);
+        if (!dialugeStarted) {
+            DialougeStarted();
+        }
 
-        SortInstructions ();
     }
 
+    private void DialougeStarted()
+    {
+        text.text = instructions[0].message;
+        text.color = instructions[0].textColor;
+        messageNumber = 1;
+        dialugeStarted = true;
+        playerMovementScript.PauseUnpauseInteraction(false);
+    }
+    private void DialougeStopped()
+    {
+        dialugeStarted = false;
+        playerMovementScript.PauseUnpauseInteraction(true);
+        text.text = string.Empty;
+        instructions.Clear();
+    }
+
+    private void ShowNextMessage()
+    {
+        text.text = instructions[messageNumber].message;
+        text.color = instructions[messageNumber].textColor;
+    }
 
     private void SortInstructions ()
     {
@@ -66,7 +93,7 @@ public class TextManager : MonoBehaviour
 
             for (int j = 0; j < instructions.Count; j++)
             {
-                if (instructions[i].startTime > instructions[j].startTime)
+                if (instructions[i].order > instructions[j].order)
                 {
                     Instruction temp = instructions[i];
                     instructions[i] = instructions[j];
@@ -75,10 +102,10 @@ public class TextManager : MonoBehaviour
                     swapped = true;
                 }
             }
-
             if (!swapped)
                 break;
         }
     }
+
 }
 

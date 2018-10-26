@@ -6,21 +6,21 @@ public class TextReactionEditor : ReactionEditor
 {
     private SerializedProperty messageProperty;
     private SerializedProperty textColorProperty;
-    private SerializedProperty delayProperty;
+    private SerializedProperty orderProperty;
 
 
     private const float messageGUILines = 3f;
     private const float areaWidthOffset = 19f;
     private const string textReactionPropMessageName = "message";
     private const string textReactionPropTextColorName = "textColor";
-    private const string textReactionPropDelayName = "delay";
+    private const string textReactionPropDelayName = "order";
 
 
     protected override void Init ()
     {
         messageProperty = serializedObject.FindProperty (textReactionPropMessageName);
         textColorProperty = serializedObject.FindProperty (textReactionPropTextColorName);
-        delayProperty = serializedObject.FindProperty (textReactionPropDelayName);
+        orderProperty = serializedObject.FindProperty (textReactionPropDelayName);
     }
 
 
@@ -32,7 +32,7 @@ public class TextReactionEditor : ReactionEditor
         EditorGUILayout.EndHorizontal ();
 
         EditorGUILayout.PropertyField (textColorProperty);
-        EditorGUILayout.PropertyField (delayProperty);
+        EditorGUILayout.PropertyField (orderProperty);
     }
 
 

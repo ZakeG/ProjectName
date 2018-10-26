@@ -1,0 +1,224 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a54f0fecf5593d84985bdc0adae0cbbc, type: 3}
+  m_Name: AllConditions
+  m_EditorClassIdentifier: 
+  conditions:
+  - {fileID: 114761333550728362}
+  - {fileID: 114129520274063514}
+  - {fileID: 114149025891862836}
+  - {fileID: 114984567156805788}
+  - {fileID: 114635700267114576}
+  - {fileID: 114418454286531158}
+  - {fileID: 114113771682078070}
+  - {fileID: 114336684936229846}
+  - {fileID: 114021465253168762}
+  - {fileID: 114378766285203814}
+  - {fileID: 114446122008873964}
+  - {fileID: 114962063550835238}
+  - {fileID: 114793910634717754}
+  - {fileID: 114778350263410574}
+--- !u!114 &114021465253168762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: MoonPickedUp
+  m_EditorClassIdentifier: 
+  description: MoonPickedUp
+  satisfied: 0
+  hash: 1562209020
+--- !u!114 &114113771682078070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: WizardFeatherStartDialouge
+  m_EditorClassIdentifier: 
+  description: WizardFeatherStartDialouge
+  satisfied: 0
+  hash: -2085163072
+--- !u!114 &114129520274063514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: SunVialPickedUp
+  m_EditorClassIdentifier: 
+  description: SunVialPickedUp
+  satisfied: 0
+  hash: 1361490301
+--- !u!114 &114149025891862836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: BroomstickPickedUp
+  m_EditorClassIdentifier: 
+  description: BroomstickPickedUp
+  satisfied: 0
+  hash: -493304219
+--- !u!114 &114336684936229846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: SunVialFilled
+  m_EditorClassIdentifier: 
+  description: SunVialFilled
+  satisfied: 0
+  hash: 1051307442
+--- !u!114 &114378766285203814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: RedVialPickedUp
+  m_EditorClassIdentifier: 
+  description: RedVialPickedUp
+  satisfied: 0
+  hash: -1271910177
+--- !u!114 &114418454286531158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: WizardStartDialogue
+  m_EditorClassIdentifier: 
+  description: WizardStartDialogue
+  satisfied: 1
+  hash: 467004734
+--- !u!114 &114446122008873964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: HoneyJarPickedUp
+  m_EditorClassIdentifier: 
+  description: HoneyJarPickedUp
+  satisfied: 0
+  hash: 1642796241
+--- !u!114 &114635700267114576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: HasMask
+  m_EditorClassIdentifier: 
+  description: HasMask
+  satisfied: 0
+  hash: 1766527378
+--- !u!114 &114761333550728362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: GlowingJarPickedUp
+  m_EditorClassIdentifier: 
+  description: GlowingJarPickedUp
+  satisfied: 0
+  hash: 1360342739
+--- !u!114 &114778350263410574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: PhoenixFeatherAquired
+  m_EditorClassIdentifier: 
+  description: PhoenixFeatherAquired
+  satisfied: 0
+  hash: 1173753866
+--- !u!114 &114793910634717754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: KeyAquired
+  m_EditorClassIdentifier: 
+  description: KeyAquired
+  satisfied: 0
+  hash: 1879386995
+--- !u!114 &114962063550835238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: FeatherPickedUp
+  m_EditorClassIdentifier: 
+  description: FeatherPickedUp
+  satisfied: 0
+  hash: 1064098526
+--- !u!114 &114984567156805788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: StaffCompleted
+  m_EditorClassIdentifier: 
+  description: StaffCompleted
+  satisfied: 0
+  hash: 2045985755

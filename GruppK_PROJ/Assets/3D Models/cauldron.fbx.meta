@@ -8,24 +8,31 @@ ModelImporter:
     100004: C_Leg5
     100006: Cauldron
     100008: //RootNode
+    100010: cauldron__doesnt_really_need_uv
+    100012: pTorus30
     400000: C_handle1
     400002: C_Handle2
     400004: C_Leg5
     400006: Cauldron
     400008: //RootNode
+    400010: cauldron__doesnt_really_need_uv
+    400012: pTorus30
     2100000: lambert1
     2300000: C_handle1
     2300002: C_Handle2
     2300004: C_Leg5
     2300006: Cauldron
+    2300008: pTorus30
     3300000: C_handle1
     3300002: C_Handle2
     3300004: C_Leg5
     3300006: Cauldron
+    3300008: pTorus30
     4300000: C_Leg5
     4300002: Cauldron
     4300004: C_handle1
     4300006: C_Handle2
+    4300008: pTorus30
   externalObjects: {}
   materials:
     importMaterials: 1

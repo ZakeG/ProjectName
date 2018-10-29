@@ -1,0 +1,146 @@
+fileFormatVersion: 2
+guid: b9e3986e8ddb1cc45a45a0a1dddc768f
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: bolts
+    100002: Candle_holders
+    100004: candle_trays
+    100006: candles
+    100008: //RootNode
+    100010: flicks
+    100012: planks
+    100014: rope_or_chain
+    100016: stick
+    100018: top
+    100020: Wheel
+    100022: wheel
+    400000: bolts
+    400002: Candle_holders
+    400004: candle_trays
+    400006: candles
+    400008: //RootNode
+    400010: flicks
+    400012: planks
+    400014: rope_or_chain
+    400016: stick
+    400018: top
+    400020: Wheel
+    400022: wheel
+    2100000: lambert1
+    2300000: bolts
+    2300002: Candle_holders
+    2300004: candle_trays
+    2300006: candles
+    2300008: flicks
+    2300010: planks
+    2300012: rope_or_chain
+    2300014: stick
+    2300016: top
+    2300018: Wheel
+    2300020: wheel
+    3300000: bolts
+    3300002: Candle_holders
+    3300004: candle_trays
+    3300006: candles
+    3300008: flicks
+    3300010: planks
+    3300012: rope_or_chain
+    3300014: stick
+    3300016: top
+    3300018: Wheel
+    3300020: wheel
+    4300000: wheel
+    4300002: top
+    4300004: rope_or_chain
+    4300006: Wheel
+    4300008: stick
+    4300010: candles
+    4300012: flicks
+    4300014: planks
+    4300016: candle_trays
+    4300018: Candle_holders
+    4300020: bolts
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

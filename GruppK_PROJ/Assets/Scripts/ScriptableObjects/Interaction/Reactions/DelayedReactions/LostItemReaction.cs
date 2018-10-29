@@ -1,4 +1,4 @@
-public class LostItemReaction : DelayedReaction
+public class LostItemReaction : Reaction
 {
     public Item item;
 

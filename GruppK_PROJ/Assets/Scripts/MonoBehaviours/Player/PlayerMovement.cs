@@ -150,6 +150,7 @@ public class PlayerMovement : MonoBehaviour
             holdForDialuge = mode;
     }
 
+
     private IEnumerator WaitForInteraction ()
     {
         handleInput = false;

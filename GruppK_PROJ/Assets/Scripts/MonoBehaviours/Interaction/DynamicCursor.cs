@@ -19,6 +19,7 @@ public class DynamicCursor : MonoBehaviour {
         Cursor.SetCursor(arrow, hotSpot, cursorMode);
     }
 
+
     public void ChangeToHand()
     {
         Cursor.SetCursor(hand, hotSpot, cursorMode);

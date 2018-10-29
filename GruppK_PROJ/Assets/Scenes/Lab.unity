@@ -1052,7 +1052,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b804958e1981f9544989d65e32719692, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 1
+  order: 0
   item: {fileID: 11400000, guid: ac342687aedb03040988b68b54f101ae, type: 2}
 --- !u!114 &74031248
 MonoBehaviour:
@@ -6299,7 +6299,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d482a9551d8b074097fdb7beded4043, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 1.5
   item: {fileID: 11400000, guid: 610acd5a11a5e9e4cbc992f0636fbccf, type: 2}
 --- !u!1 &128629968
 GameObject:
@@ -7022,7 +7021,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 2
+  order: 0
   gameObject: {fileID: 1534378374}
   activeState: 0
 --- !u!114 &151451590
@@ -8219,7 +8218,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d482a9551d8b074097fdb7beded4043, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 1.5
   item: {fileID: 11400000, guid: ac342687aedb03040988b68b54f101ae, type: 2}
 --- !u!114 &219955836
 MonoBehaviour:
@@ -8459,7 +8457,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 2
+  order: 0
   gameObject: {fileID: 1437233470}
   activeState: 0
 --- !u!1 &244170066
@@ -9329,7 +9327,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d482a9551d8b074097fdb7beded4043, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 13
   item: {fileID: 11400000, guid: e5aa241776c023d47834603604fe9ddf, type: 2}
 --- !u!114 &287201364
 MonoBehaviour:
@@ -9620,7 +9617,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d482a9551d8b074097fdb7beded4043, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 2
   item: {fileID: 11400000, guid: a73109af9b391e04fa04a69eac0453fe, type: 2}
 --- !u!114 &309211793
 MonoBehaviour:
@@ -9797,7 +9793,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 4
+  order: 0
   gameObject: {fileID: 1673244473}
   activeState: 0
 --- !u!1001 &323320286
@@ -11362,7 +11358,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: Here, take it.
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  order: 0
+  order: 4
 --- !u!1 &418978736
 GameObject:
   m_ObjectHideFlags: 0
@@ -11568,7 +11564,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d482a9551d8b074097fdb7beded4043, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 1.5
   item: {fileID: 11400000, guid: 205523f2eed48c245a0946e1a8a21492, type: 2}
 --- !u!1 &451798282
 GameObject:
@@ -12217,7 +12212,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b804958e1981f9544989d65e32719692, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 3
+  order: 0
   item: {fileID: 11400000, guid: e5aa241776c023d47834603604fe9ddf, type: 2}
 --- !u!4 &483047869 stripped
 Transform:
@@ -19989,7 +19984,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: Go find it for me.
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  order: 0
+  order: 3
 --- !u!1 &674198924
 GameObject:
   m_ObjectHideFlags: 0
@@ -20264,7 +20259,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: Take this key and go down into the basement with it.
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  order: 0
+  order: 5
 --- !u!114 &698570203
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21674,7 +21669,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 4.5
+  order: 0
   gameObject: {fileID: 719481361}
   activeState: 0
 --- !u!1 &759331986
@@ -21766,7 +21761,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: My quill is a phoenix feather!!!!
   textColor: {r: 1, g: 0, b: 0, a: 1}
-  order: 0
+  order: 3
 --- !u!1001 &774562408
 Prefab:
   m_ObjectHideFlags: 0
@@ -22326,7 +22321,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d482a9551d8b074097fdb7beded4043, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0
   item: {fileID: 11400000, guid: 376ca895a7f575d45ab48f98cfb4498f, type: 2}
 --- !u!1001 &801765461
 Prefab:
@@ -22720,7 +22714,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 1
+  order: 0
   gameObject: {fileID: 1354978143}
   activeState: 0
 --- !u!1 &810144029
@@ -23377,7 +23371,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b804958e1981f9544989d65e32719692, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 2
+  order: 0
   item: {fileID: 11400000, guid: 376ca895a7f575d45ab48f98cfb4498f, type: 2}
 --- !u!1 &825233715
 GameObject:
@@ -23760,7 +23754,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: I NEED it for my experiment!!!!!
   textColor: {r: 1, g: 0.033939295, b: 0, a: 1}
-  order: 0
+  order: 2
 --- !u!1 &866150569
 GameObject:
   m_ObjectHideFlags: 0
@@ -24817,7 +24811,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 3
+  order: 0
   gameObject: {fileID: 2143964667}
   activeState: 0
 --- !u!114 &943903072
@@ -25311,7 +25305,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b804958e1981f9544989d65e32719692, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 8
+  order: 0
   item: {fileID: 11400000, guid: d8720412d29ee8a4cb5abd31d91838f2, type: 2}
 --- !u!1 &985852579
 GameObject:
@@ -25703,7 +25697,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 8
+  order: 4
   gameObject: {fileID: 834039506}
   activeState: 0
 --- !u!1001 &998096279
@@ -26101,7 +26095,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 4
+  order: 0
   gameObject: {fileID: 923574000}
   activeState: 0
 --- !u!1001 &1037670817
@@ -26257,7 +26251,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 3
+  order: 0
   gameObject: {fileID: 874605266}
   activeState: 0
 --- !u!1 &1042300047
@@ -27103,7 +27097,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: You can throw that other garbage on the ground.
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  order: 0
+  order: 6
 --- !u!1 &1097294895
 GameObject:
   m_ObjectHideFlags: 0
@@ -27946,7 +27940,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d482a9551d8b074097fdb7beded4043, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 13
   item: {fileID: 11400000, guid: c344b5ee94d101446aaebcf60aeb8005, type: 2}
 --- !u!1 &1160779214
 GameObject:
@@ -29579,7 +29572,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b804958e1981f9544989d65e32719692, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 9
+  order: 4
   item: {fileID: 11400000, guid: 053e43d77b6f2d64591150885703dd87, type: 2}
 --- !u!114 &1287249019
 MonoBehaviour:
@@ -30479,7 +30472,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 1
+  order: 0
   gameObject: {fileID: 2142247511}
   activeState: 0
 --- !u!1 &1329985576
@@ -32000,7 +31993,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d482a9551d8b074097fdb7beded4043, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 1.5
   item: {fileID: 11400000, guid: 376ca895a7f575d45ab48f98cfb4498f, type: 2}
 --- !u!1001 &1437233468
 Prefab:
@@ -32505,7 +32497,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d482a9551d8b074097fdb7beded4043, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 13
   item: {fileID: 11400000, guid: d8720412d29ee8a4cb5abd31d91838f2, type: 2}
 --- !u!114 &1469081244
 MonoBehaviour:
@@ -32702,7 +32693,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: Oh, it's for the the phoenix feather?
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  order: 0
+  order: 1
 --- !u!114 &1485885879
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32714,7 +32705,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 2
+  order: 0
   gameObject: {fileID: 1607824262}
   activeState: 0
 --- !u!1001 &1490940570
@@ -34037,7 +34028,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 8.5
+  order: 0
   gameObject: {fileID: 1710461295}
   activeState: 0
 --- !u!1 &1555445038
@@ -34159,7 +34150,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 2
+  order: 0
   gameObject: {fileID: 581121156}
   activeState: 0
 --- !u!114 &1564527253
@@ -37477,7 +37468,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b804958e1981f9544989d65e32719692, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 5
+  order: 0
   item: {fileID: 11400000, guid: c344b5ee94d101446aaebcf60aeb8005, type: 2}
 --- !u!114 &1763454078
 MonoBehaviour:
@@ -37504,7 +37495,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b804958e1981f9544989d65e32719692, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 1
+  order: 0
   item: {fileID: 11400000, guid: 610acd5a11a5e9e4cbc992f0636fbccf, type: 2}
 --- !u!1 &1767819592
 GameObject:
@@ -37821,7 +37812,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b804958e1981f9544989d65e32719692, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 11
+  order: 5
   item: {fileID: 11400000, guid: 87a14a803edad2146a5e48f3294d6fe6, type: 2}
 --- !u!1001 &1783633166
 Prefab:
@@ -39381,7 +39372,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b804958e1981f9544989d65e32719692, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 2
+  order: 0
   item: {fileID: 11400000, guid: 205523f2eed48c245a0946e1a8a21492, type: 2}
 --- !u!1 &1895367985
 GameObject:
@@ -39954,7 +39945,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b804958e1981f9544989d65e32719692, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 2
+  order: 0
   item: {fileID: 11400000, guid: a73109af9b391e04fa04a69eac0453fe, type: 2}
 --- !u!1 &1918589568
 GameObject:
@@ -40338,7 +40329,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: It's done! Here you go!
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  order: 0
+  order: 1
 --- !u!1 &1936332524
 GameObject:
   m_ObjectHideFlags: 0
@@ -45462,7 +45453,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b804958e1981f9544989d65e32719692, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 1
+  order: 0
   item: {fileID: 11400000, guid: 376ca895a7f575d45ab48f98cfb4498f, type: 2}
 --- !u!1 &1981784374
 GameObject:
@@ -46105,7 +46096,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: All this stuff reminds me.
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  order: 0
+  order: 2
 --- !u!114 &2029425269
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46207,7 +46198,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 1
+  order: 0
   gameObject: {fileID: 703614395}
   activeState: 0
 --- !u!114 &2033691373
@@ -47198,7 +47189,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 3.5
+  order: 0
   gameObject: {fileID: 1055587306}
   activeState: 0
 --- !u!114 &2098342241
@@ -47214,7 +47205,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: I seem to have lost my phoenix feather!
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  order: 0
+  order: 1
 --- !u!1 &2098647290
 GameObject:
   m_ObjectHideFlags: 0
@@ -47423,7 +47414,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 2.5
+  order: 0
   gameObject: {fileID: 366799968}
   activeState: 0
 --- !u!114 &2110965861
@@ -47864,7 +47855,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 2
+  order: 0
   gameObject: {fileID: 1397753664}
   activeState: 0
 --- !u!1 &2135744802

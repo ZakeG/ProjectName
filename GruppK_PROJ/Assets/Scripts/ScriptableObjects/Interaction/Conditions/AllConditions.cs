@@ -58,4 +58,15 @@ public class AllConditions : ResettableScriptableObject
 
         return globalCondition.satisfied == requiredCondition.satisfied;
     }
+
+    public static void SwitchLightCondition()
+    {
+        Condition[] allConditions = Instance.conditions;
+        for (int i = 0; i < allConditions.Length; i++)
+        {
+            if (allConditions[i].description == "LIGHTSTAFF")
+            {
+            }
+        }
+    }
 }

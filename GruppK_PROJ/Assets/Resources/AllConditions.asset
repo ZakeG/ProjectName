@@ -26,6 +26,7 @@ MonoBehaviour:
   - {fileID: 114962063550835238}
   - {fileID: 114793910634717754}
   - {fileID: 114778350263410574}
+  - {fileID: 114860962177382762}
 --- !u!114 &114021465253168762
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -194,6 +195,20 @@ MonoBehaviour:
   description: KeyAquired
   satisfied: 0
   hash: 1879386995
+--- !u!114 &114860962177382762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: LIGHTSTAFF
+  m_EditorClassIdentifier: 
+  description: LIGHTSTAFF
+  satisfied: 0
+  hash: -1517926864
 --- !u!114 &114962063550835238
 MonoBehaviour:
   m_ObjectHideFlags: 0

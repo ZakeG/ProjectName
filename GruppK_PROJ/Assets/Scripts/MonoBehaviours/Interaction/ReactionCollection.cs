@@ -112,12 +112,16 @@ public class ReactionCollection : MonoBehaviour
     {
         reactionsStarted = false;
         playerMovementScript.PauseUnpauseInteraction(true);
-
     }
     
     public void React ()
     {
         StartReactions();
+    }
+
+    public void ReactImmidiateReactions()
+    {
+        RunAllImmidiateReactions();
     }
 
     private void SortInstructions()

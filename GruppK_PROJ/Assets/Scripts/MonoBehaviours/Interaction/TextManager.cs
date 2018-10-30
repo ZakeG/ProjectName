@@ -16,7 +16,6 @@ public class TextManager : MonoBehaviour
 
     private PlayerMovement playerMovementScript;
     private List<Instruction> instructions = new List<Instruction> ();
-    private float clearTime;
     private bool dialugeStarted;
     private int messageNumber;
 
@@ -106,6 +105,5 @@ public class TextManager : MonoBehaviour
                 break;
         }
     }
-
 }
 

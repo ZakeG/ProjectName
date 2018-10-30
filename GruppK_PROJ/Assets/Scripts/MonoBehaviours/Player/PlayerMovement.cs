@@ -115,34 +115,38 @@ public class PlayerMovement : MonoBehaviour
 
     public void OnGroundClick(BaseEventData data)
     {
-        if(!handleInput || !holdForDialuge)
+        if (!handleInput || !holdForDialuge)
+        {
             return;
-        
-        currentInteractable = null;
-
-        PointerEventData pData = (PointerEventData)data;
-
-        NavMeshHit hit;
-        if (NavMesh.SamplePosition(pData.pointerCurrentRaycast.worldPosition, out hit, navMeshSampleDistance, NavMesh.AllAreas))
-            destinationPosition = hit.position;
+        }
         else
-            destinationPosition = pData.pointerCurrentRaycast.worldPosition;
-        agent.SetDestination(destinationPosition);
-        agent.isStopped = false;
+        {
+            currentInteractable = null;
+            PointerEventData pData = (PointerEventData)data;
+            NavMeshHit hit;
+            if (NavMesh.SamplePosition(pData.pointerCurrentRaycast.worldPosition, out hit, navMeshSampleDistance, NavMesh.AllAreas))
+                destinationPosition = hit.position;
+            else
+                destinationPosition = pData.pointerCurrentRaycast.worldPosition;
+            agent.SetDestination(destinationPosition);
+            agent.isStopped = false;
+        }
     }
 
 
     public void OnInteractableClick(Interactable interactable)
     {
-        if(!handleInput || !holdForDialuge)
+        if (!handleInput || !holdForDialuge)
+        {
             return;
-
-        currentInteractable = interactable;
-
-        destinationPosition = currentInteractable.interactionLocation.position;
-
-        agent.SetDestination(destinationPosition);
-        agent.isStopped = false;
+        }
+        else
+        {
+            currentInteractable = interactable;
+            destinationPosition = currentInteractable.interactionLocation.position;
+            agent.SetDestination(destinationPosition);
+            agent.isStopped = false;
+        }
     }
 
     public void PauseUnpauseInteraction(bool mode)

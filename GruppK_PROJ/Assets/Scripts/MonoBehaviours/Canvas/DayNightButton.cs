@@ -5,7 +5,8 @@ using UnityEngine;
 public class DayNightButton : MonoBehaviour {
 
     public GameObject[] objects = new GameObject[30];
-    public ReactionCollection defaultReactionCollection;
+    public ReactionCollection turnOnReactionCollection;
+    public ReactionCollection turnOffReactionCollection;
 
     private Condition lightStaff;
     private bool lightsOn = true;
@@ -13,12 +14,15 @@ public class DayNightButton : MonoBehaviour {
 
     public void OnClick()
     {
-        defaultReactionCollection.React();
-    }
-
-    private void Start()
-    {
-
+        if (lightsOn)
+        {
+            turnOffReactionCollection.ReactImmidiateReactions();
+        }
+        else
+        {
+            turnOnReactionCollection.ReactImmidiateReactions();
+        }
+        LightSwitch();
     }
 
     public void LightSwitch()

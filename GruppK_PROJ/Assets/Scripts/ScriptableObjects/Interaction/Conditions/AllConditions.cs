@@ -62,10 +62,14 @@ public class AllConditions : ResettableScriptableObject
     public static void SwitchLightCondition()
     {
         Condition[] allConditions = Instance.conditions;
-        for (int i = 0; i < allConditions.Length; i++)
+        if (allConditions != null && allConditions[0] != null)
         {
-            if (allConditions[i].description == "LIGHTSTAFF")
+            for (int i = 0; i < allConditions.Length; i++)
             {
+                if (allConditions[i].description == "LIGHTSTAFF")
+                {
+                    allConditions[i].satisfied = true;
+                }
             }
         }
     }

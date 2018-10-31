@@ -35,4 +35,9 @@ public class Inventory : MonoBehaviour
             }
         }
     }
+
+    public Item[] GetItemList()
+    {
+        return items;
+    }
 }

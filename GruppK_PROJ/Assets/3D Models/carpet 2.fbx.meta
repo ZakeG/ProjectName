@@ -1,66 +1,21 @@
 fileFormatVersion: 2
-guid: ab8bf803e6255ea49b1bce1fb54ac46e
+guid: 9d99ce2ffcfa4294fae8c0300d7bc1c4
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
-    100002: pCube1
-    100004: pCube10
-    100006: pCube12
-    100008: pCube19
-    100010: pCube20
-    100012: pCube21
-    100014: pCube22
-    100016: pCube5
-    100018: pCube6
-    100020: pCube7
-    100022: pCube8
+    100002: matt
+    100004: moo
     400000: //RootNode
-    400002: pCube1
-    400004: pCube10
-    400006: pCube12
-    400008: pCube19
-    400010: pCube20
-    400012: pCube21
-    400014: pCube22
-    400016: pCube5
-    400018: pCube6
-    400020: pCube7
-    400022: pCube8
+    400002: matt
+    400004: moo
     2100000: lambert1
-    2300000: pCube1
-    2300002: pCube10
-    2300004: pCube12
-    2300006: pCube19
-    2300008: pCube20
-    2300010: pCube21
-    2300012: pCube22
-    2300014: pCube5
-    2300016: pCube6
-    2300018: pCube7
-    2300020: pCube8
-    3300000: pCube1
-    3300002: pCube10
-    3300004: pCube12
-    3300006: pCube19
-    3300008: pCube20
-    3300010: pCube21
-    3300012: pCube22
-    3300014: pCube5
-    3300016: pCube6
-    3300018: pCube7
-    3300020: pCube8
-    4300000: pCube1
-    4300002: pCube5
-    4300004: pCube6
-    4300006: pCube12
-    4300008: pCube7
-    4300010: pCube8
-    4300012: pCube10
-    4300014: pCube19
-    4300016: pCube20
-    4300018: pCube21
-    4300020: pCube22
+    2300000: matt
+    2300002: moo
+    3300000: matt
+    3300002: moo
+    4300000: matt
+    4300002: moo
   externalObjects: {}
   materials:
     importMaterials: 1

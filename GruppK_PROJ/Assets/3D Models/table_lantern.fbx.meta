@@ -1,71 +1,36 @@
 fileFormatVersion: 2
-guid: 7f3faf385985f36488b2802b76d57551
+guid: 6dd8d6ae9f32b8b41b9832d7cd4df943
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: cabinet
-    100002: //RootNode
-    100004: draawers
-    100006: handle
-    100008: long_drawer
-    100010: pCube172
-    100012: pCube173
-    100014: pCube177
-    100016: pCylinder67
-    100018: pSphere33
-    100020: pSphere34
-    100022: table
-    100024: teddy
-    400000: cabinet
-    400002: //RootNode
-    400004: draawers
-    400006: handle
-    400008: long_drawer
-    400010: pCube172
-    400012: pCube173
-    400014: pCube177
-    400016: pCylinder67
-    400018: pSphere33
-    400020: pSphere34
-    400022: table
-    400024: teddy
+    100000: candle_holders
+    100002: candles1
+    100004: circles
+    100006: flick
+    100008: lantern
+    100010: //RootNode
+    400000: candle_holders
+    400002: candles1
+    400004: circles
+    400006: flick
+    400008: lantern
+    400010: //RootNode
     2100000: lambert1
-    2300000: cabinet
-    2300002: draawers
-    2300004: handle
-    2300006: long_drawer
-    2300008: pCube172
-    2300010: pCube173
-    2300012: pCube177
-    2300014: pCylinder67
-    2300016: pSphere33
-    2300018: pSphere34
-    2300020: table
-    2300022: teddy
-    3300000: cabinet
-    3300002: draawers
-    3300004: handle
-    3300006: long_drawer
-    3300008: pCube172
-    3300010: pCube173
-    3300012: pCube177
-    3300014: pCylinder67
-    3300016: pSphere33
-    3300018: pSphere34
-    3300020: table
-    3300022: teddy
-    4300000: teddy
-    4300002: handle
-    4300004: pCube173
-    4300006: pCube172
-    4300008: table
-    4300010: cabinet
-    4300012: pSphere34
-    4300014: pSphere33
-    4300016: long_drawer
-    4300018: draawers
-    4300020: pCube177
-    4300022: pCylinder67
+    2300000: candle_holders
+    2300002: candles1
+    2300004: circles
+    2300006: flick
+    2300008: lantern
+    3300000: candle_holders
+    3300002: candles1
+    3300004: circles
+    3300006: flick
+    3300008: lantern
+    4300000: circles
+    4300002: candle_holders
+    4300004: flick
+    4300006: lantern
+    4300008: candles1
   externalObjects: {}
   materials:
     importMaterials: 1

@@ -4014,7 +4014,7 @@ ParticleSystem:
       type: 0
       properties: 0
   LightsModule:
-    enabled: 1
+    enabled: 0
     ratio: 0.09
     light: {fileID: 0}
     randomDistribution: 1
@@ -4967,6 +4967,7 @@ Transform:
   m_Children:
   - {fileID: 2016107155}
   - {fileID: 400390715}
+  - {fileID: 281293034}
   m_Father: {fileID: 1355785655}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5723,7 +5724,7 @@ Transform:
   m_Children:
   - {fileID: 181255418}
   - {fileID: 1515853157}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 82395888}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &330367875
@@ -7839,15 +7840,15 @@ Prefab:
     - target: {fileID: 2300002, guid: e3e0e06a48ee9284c96869ee74b008e8, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: f9ed7eff249e510478c912804ac40af4, type: 2}
+      objectReference: {fileID: 2100000, guid: 1ea71e71c8c79a24dbd3280f865bf29a, type: 2}
     - target: {fileID: 2300000, guid: e3e0e06a48ee9284c96869ee74b008e8, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 1ec67ec9f46587d4da375496c9c8c7b9, type: 2}
+      objectReference: {fileID: 2100000, guid: 4692fbc1a3759ea41a8c75dc054c5fa2, type: 2}
     - target: {fileID: 2300016, guid: e3e0e06a48ee9284c96869ee74b008e8, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 1ec67ec9f46587d4da375496c9c8c7b9, type: 2}
+      objectReference: {fileID: 2100000, guid: 4692fbc1a3759ea41a8c75dc054c5fa2, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3e0e06a48ee9284c96869ee74b008e8, type: 3}
   m_IsPrefabAsset: 0
@@ -13589,7 +13590,7 @@ ParticleSystem:
       type: 0
       properties: 0
   LightsModule:
-    enabled: 1
+    enabled: 0
     ratio: 0.09
     light: {fileID: 0}
     randomDistribution: 1

@@ -11,6 +11,7 @@ public class ItemCombinationHandler : MonoBehaviour {
     private List<Item> combos;
     private Inventory inventory;
     private bool combineable;
+    private bool compatible;
 
     private void Start()
     {
@@ -22,9 +23,23 @@ public class ItemCombinationHandler : MonoBehaviour {
         foreach (ItemCombination ic in combinations)
         {
             combos = ic.GetList();
+            compatible = true;
             foreach (Item i in combos)
             {
-                //Check if item i in selectedItems exist in any combos if so, return a bool of true and run CombinationSucess()
+                if (selectedItems.Contains(i) && compatible)
+                {
+                    combineable = true;
+                }
+                else
+                {
+                    compatible = false;
+                    combineable = false;
+                }
+            }
+            if (combineable)
+            {
+                CombinationSucess(ic);
+                return;
             }
         }
     }
@@ -41,6 +56,15 @@ public class ItemCombinationHandler : MonoBehaviour {
         }
     }
 
+    public void DeselectAll()
+    {
+        foreach (Item i in selectedItems)
+        {
+            //Dehighligt i
+        }
+        selectedItems.Clear();
+    }
+
     private void Select(Item item)
     {
         //Highlight item
@@ -53,16 +77,14 @@ public class ItemCombinationHandler : MonoBehaviour {
         selectedItems.Remove(item);
     }
 
-    public void DeselectAll()
+    private void CombinationSucess(ItemCombination combinationRecepie)
     {
-        foreach (Item i in selectedItems)
+        combos = combinationRecepie.GetList();
+        foreach(Item i in combos)
         {
-            //Dehighligt i
+            inventory.RemoveItem(i);
         }
-        selectedItems.Clear();
-    }
-    public void CombinationSucess()
-    {
+
 
     }
 }

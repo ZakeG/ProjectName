@@ -4,7 +4,7 @@ using UnityEngine.UI;
 public class Inventory : MonoBehaviour
 {
     public Image[] itemImages = new Image[numItemSlots];
-    public Item[] items = new Item[numItemSlots];   
+    public Item[] items = new Item[numItemSlots]; 
 
     public const int numItemSlots = 4;
 
@@ -14,6 +14,7 @@ public class Inventory : MonoBehaviour
         {
             if (items[i] == null)
             {
+                itemToAdd.pickedUp.satisfied = true;
                 items[i] = itemToAdd;
                 itemImages[i].sprite = itemToAdd.sprite;
                 itemImages[i].enabled = true;
@@ -28,6 +29,7 @@ public class Inventory : MonoBehaviour
         {
             if (items[i] == itemToRemove)
             {
+                itemToRemove.pickedUp.satisfied = false;
                 items[i] = null;
                 itemImages[i].sprite = null;
                 itemImages[i].enabled = false;

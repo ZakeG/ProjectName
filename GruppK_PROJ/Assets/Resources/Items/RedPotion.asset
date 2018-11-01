@@ -13,3 +13,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: 150e4d35fd0864d43a188ed182e155f1, type: 3}
   itemName: RedPotion
+  pickedUp: {fileID: 114378766285203814, guid: fd02464d008c790478d9826aba7c7847, type: 2}

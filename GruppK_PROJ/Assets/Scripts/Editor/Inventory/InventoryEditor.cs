@@ -7,16 +7,19 @@ public class InventoryEditor : Editor
     private bool[] showItemSlots = new bool[Inventory.numItemSlots];
     private SerializedProperty itemImagesProperty;
     private SerializedProperty itemsProperty;
+    private SerializedProperty itemSlotProperty;
+
 
 
     private const string inventoryPropItemImagesName = "itemImages";
     private const string inventoryPropItemsName = "items";
-
+    private const string inventoryPropItemSlotName = "itemSlots";
 
     private void OnEnable ()
     {
         itemImagesProperty = serializedObject.FindProperty (inventoryPropItemImagesName);
         itemsProperty = serializedObject.FindProperty (inventoryPropItemsName);
+        itemSlotProperty = serializedObject.FindProperty(inventoryPropItemSlotName);
     }
 
 
@@ -44,6 +47,7 @@ public class InventoryEditor : Editor
         {
             EditorGUILayout.PropertyField (itemImagesProperty.GetArrayElementAtIndex (index));
             EditorGUILayout.PropertyField (itemsProperty.GetArrayElementAtIndex (index));
+            EditorGUILayout.PropertyField (itemSlotProperty.GetArrayElementAtIndex(index));
         }
 
         EditorGUI.indentLevel--;

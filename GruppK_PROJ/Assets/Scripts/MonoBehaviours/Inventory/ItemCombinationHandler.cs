@@ -5,16 +5,16 @@ using UnityEngine;
 public class ItemCombinationHandler : MonoBehaviour {
 
     public List<ItemCombination> combinations = new List<ItemCombination>();
-    public Reaction getResultingItem;
-    public Reaction removeUsedItems;
+    public Inventory inventory;
+    private Reaction getResultingItem;
+    private Reaction removeUsedItems;
     private List<Item> selectedItems = new List<Item>();
     private List<Item> combos;
-    private Inventory inventory;
     private bool combineable;
+    private bool compatible;
 
     private void Start()
     {
-        inventory = GameObject.Find("Inventory").GetComponent<Inventory>();
     }
 
     public void CheckSelectedForCombine()
@@ -22,23 +22,53 @@ public class ItemCombinationHandler : MonoBehaviour {
         foreach (ItemCombination ic in combinations)
         {
             combos = ic.GetList();
+            compatible = true;
             foreach (Item i in combos)
             {
-                //Check if item i in selectedItems exist in any combos if so, return a bool of true and run CombinationSucess()
+                if (selectedItems.Contains(i) && compatible)
+                {
+                    combineable = true;
+                }
+                else
+                {
+                    compatible = false;
+                    combineable = false;
+                }
+            if (combineable)
+            {
+                Debug.Log("Nu händer det grejjer vettu");
+                CombinationSucess(ic);
+                DeselectAll();
+                return;
+            }
+            }
+
+        }
+        Debug.Log("Nu händer det INTE grejjer vettu");
+    }
+
+    public void OnInventorySlotClick(GameObject itemSlot)
+    {
+        if (itemSlot.GetComponent<InventoySlot>().GetItem() != null) {
+            Item item = itemSlot.GetComponent<InventoySlot>().GetItem();
+            if (selectedItems.Contains(item))
+            {
+                Deselect(item);
+            }
+            else
+            {
+                Select(item);
             }
         }
     }
 
-    public void OnInventorySlotClick(Item item)
+    public void DeselectAll()
     {
-        if (selectedItems.Contains(item))
+        foreach (Item i in selectedItems)
         {
-            Deselect(item);
+            //Dehighlight i
         }
-        else
-        {
-            Select(item);
-        }
+        selectedItems.Clear();
     }
 
     private void Select(Item item)
@@ -53,16 +83,13 @@ public class ItemCombinationHandler : MonoBehaviour {
         selectedItems.Remove(item);
     }
 
-    public void DeselectAll()
+    private void CombinationSucess(ItemCombination combinationRecepie)
     {
-        foreach (Item i in selectedItems)
+        combos = combinationRecepie.GetList();
+        foreach(Item i in combos)
         {
-            //Dehighligt i
+            inventory.GetComponent<Inventory>().RemoveItem(i);
         }
-        selectedItems.Clear();
-    }
-    public void CombinationSucess()
-    {
-
+        inventory.GetComponent<Inventory>().AddItem(combinationRecepie.GetResultingItem());
     }
 }

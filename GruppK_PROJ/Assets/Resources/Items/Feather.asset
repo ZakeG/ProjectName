@@ -13,3 +13,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: 5371a56ef489afa4db6d47abd5f49b5e, type: 3}
   itemName: WhiteFeather
+  pickedUp: {fileID: 114962063550835238, guid: fd02464d008c790478d9826aba7c7847, type: 2}

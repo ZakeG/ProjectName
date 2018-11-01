@@ -1,11 +1,12 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using System.Collections.Generic;
 
 public class Inventory : MonoBehaviour
 {
     public Image[] itemImages = new Image[numItemSlots];
-    public Item[] items = new Item[numItemSlots]; 
-
+    public Item[] items = new Item[numItemSlots];
+    public GameObject[] itemSlots = new GameObject[numItemSlots]; 
     public const int numItemSlots = 4;
 
     public void AddItem(Item itemToAdd)
@@ -14,6 +15,7 @@ public class Inventory : MonoBehaviour
         {
             if (items[i] == null)
             {
+                itemSlots[i].GetComponent<InventoySlot>().SetItem(itemToAdd);
                 itemToAdd.pickedUp.satisfied = true;
                 items[i] = itemToAdd;
                 itemImages[i].sprite = itemToAdd.sprite;
@@ -29,6 +31,7 @@ public class Inventory : MonoBehaviour
         {
             if (items[i] == itemToRemove)
             {
+                itemSlots[i].GetComponent<InventoySlot>().RemoveItem();
                 itemToRemove.pickedUp.satisfied = false;
                 items[i] = null;
                 itemImages[i].sprite = null;

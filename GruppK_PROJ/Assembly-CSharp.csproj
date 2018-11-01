@@ -76,6 +76,7 @@
     <Compile Include="Assets\Scripts\MonoBehaviours\Inventory\BagButton.cs" />
     <Compile Include="Assets\Scripts\MonoBehaviours\Inventory\Inventory.cs" />
     <Compile Include="Assets\Scripts\MonoBehaviours\Inventory\InventoryInteractable.cs" />
+    <Compile Include="Assets\Scripts\MonoBehaviours\Inventory\InventoySlot.cs" />
     <Compile Include="Assets\Scripts\MonoBehaviours\Inventory\ItemCombinationHandler.cs" />
     <Compile Include="Assets\Scripts\MonoBehaviours\Player\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\MonoBehaviours\SceneControl\SceneController.cs" />

@@ -27,6 +27,8 @@ MonoBehaviour:
   - {fileID: 114793910634717754}
   - {fileID: 114778350263410574}
   - {fileID: 114860962177382762}
+  - {fileID: 114089761296976444}
+  - {fileID: 114932804364694962}
 --- !u!114 &114021465253168762
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41,6 +43,20 @@ MonoBehaviour:
   description: MoonPickedUp
   satisfied: 0
   hash: 1562209020
+--- !u!114 &114089761296976444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: ClamAquired
+  m_EditorClassIdentifier: 
+  description: ClamAquired
+  satisfied: 0
+  hash: -1086391437
 --- !u!114 &114113771682078070
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -209,6 +225,20 @@ MonoBehaviour:
   description: LIGHTSTAFF
   satisfied: 0
   hash: -1517926864
+--- !u!114 &114932804364694962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: DooryCrystalQuestAquired
+  m_EditorClassIdentifier: 
+  description: DooryCrystalQuestAquired
+  satisfied: 0
+  hash: -1902978946
 --- !u!114 &114962063550835238
 MonoBehaviour:
   m_ObjectHideFlags: 0

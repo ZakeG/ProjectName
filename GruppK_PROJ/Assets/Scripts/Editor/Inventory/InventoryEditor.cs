@@ -8,18 +8,21 @@ public class InventoryEditor : Editor
     private SerializedProperty itemImagesProperty;
     private SerializedProperty itemsProperty;
     private SerializedProperty itemSlotProperty;
+    private SerializedProperty highlightImagesProperty;
 
 
 
     private const string inventoryPropItemImagesName = "itemImages";
     private const string inventoryPropItemsName = "items";
     private const string inventoryPropItemSlotName = "itemSlots";
+    private const string inventoryPropHighlightImagesName = "highlightImages";
 
     private void OnEnable ()
     {
         itemImagesProperty = serializedObject.FindProperty (inventoryPropItemImagesName);
         itemsProperty = serializedObject.FindProperty (inventoryPropItemsName);
         itemSlotProperty = serializedObject.FindProperty(inventoryPropItemSlotName);
+        highlightImagesProperty = serializedObject.FindProperty(inventoryPropHighlightImagesName);
     }
 
 
@@ -48,6 +51,7 @@ public class InventoryEditor : Editor
             EditorGUILayout.PropertyField (itemImagesProperty.GetArrayElementAtIndex (index));
             EditorGUILayout.PropertyField (itemsProperty.GetArrayElementAtIndex (index));
             EditorGUILayout.PropertyField (itemSlotProperty.GetArrayElementAtIndex(index));
+            EditorGUILayout.PropertyField (highlightImagesProperty.GetArrayElementAtIndex(index));
         }
 
         EditorGUI.indentLevel--;

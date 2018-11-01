@@ -15,6 +15,7 @@ public class ItemCombinationHandler : MonoBehaviour {
 
     private void Start()
     {
+        DeselectAll();
     }
 
     public void CheckSelectedForCombine()
@@ -36,15 +37,12 @@ public class ItemCombinationHandler : MonoBehaviour {
                 }
             if (combineable)
             {
-                Debug.Log("Nu händer det grejjer vettu");
                 CombinationSucess(ic);
-                DeselectAll();
                 return;
             }
             }
 
         }
-        Debug.Log("Nu händer det INTE grejjer vettu");
     }
 
     public void OnInventorySlotClick(GameObject itemSlot)
@@ -66,25 +64,26 @@ public class ItemCombinationHandler : MonoBehaviour {
     {
         foreach (Item i in selectedItems)
         {
-            //Dehighlight i
+            inventory.GetComponent<Inventory>().DehighlightSlot(i);
         }
         selectedItems.Clear();
     }
 
     private void Select(Item item)
     {
-        //Highlight item
+        inventory.GetComponent<Inventory>().HighlightSlot(item);
         selectedItems.Add(item);
     }
 
     private void Deselect(Item item)
     {
-        //Dehighlight item
+        inventory.GetComponent<Inventory>().DehighlightSlot(item);
         selectedItems.Remove(item);
     }
 
     private void CombinationSucess(ItemCombination combinationRecepie)
     {
+        DeselectAll();
         combos = combinationRecepie.GetList();
         foreach(Item i in combos)
         {

@@ -30,6 +30,9 @@ MonoBehaviour:
   - {fileID: 114089761296976444}
   - {fileID: 114932804364694962}
   - {fileID: 114197075916628298}
+  - {fileID: 114876773733038208}
+  - {fileID: 114250745950778472}
+  - {fileID: 114166715466194848}
 --- !u!114 &114021465253168762
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -100,6 +103,20 @@ MonoBehaviour:
   description: BroomstickPickedUp
   satisfied: 0
   hash: -493304219
+--- !u!114 &114166715466194848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: FireCrystalAquired
+  m_EditorClassIdentifier: 
+  description: FireCrystalAquired
+  satisfied: 0
+  hash: -1302995480
 --- !u!114 &114197075916628298
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -114,6 +131,20 @@ MonoBehaviour:
   description: DAY
   satisfied: 0
   hash: 1929866010
+--- !u!114 &114250745950778472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: KettlePickedUp
+  m_EditorClassIdentifier: 
+  description: KettlePickedUp
+  satisfied: 0
+  hash: -2028266815
 --- !u!114 &114336684936229846
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -240,6 +271,20 @@ MonoBehaviour:
   description: LIGHTSTAFF
   satisfied: 0
   hash: -1517926864
+--- !u!114 &114876773733038208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: BoneAquired
+  m_EditorClassIdentifier: 
+  description: BoneAquired
+  satisfied: 0
+  hash: -1713681452
 --- !u!114 &114932804364694962
 MonoBehaviour:
   m_ObjectHideFlags: 0

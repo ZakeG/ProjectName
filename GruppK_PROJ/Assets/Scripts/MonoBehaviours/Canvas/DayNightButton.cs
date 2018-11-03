@@ -4,28 +4,19 @@ using UnityEngine;
 
 public class DayNightButton : MonoBehaviour {
 
-    public GameObject[] objects = new GameObject[30];
-    public ReactionCollection turnOnReactionCollection;
-    public ReactionCollection turnOffReactionCollection;
+    public Condition currentState; 
 
+    private List<GameObject> onObjectsFromScene = new List<GameObject>();
+    private List<GameObject> offObjectsFromScene = new List<GameObject>();
     private Condition lightStaff;
     private bool lightsOn = true;
 
-
     public void OnClick()
     {
-        if (lightsOn)
-        {
-            turnOffReactionCollection.ReactImmidiateReactions();
-        }
-        else
-        {
-            turnOnReactionCollection.ReactImmidiateReactions();
-        }
         LightSwitch();
     }
 
-    public void LightSwitch()
+    private void LightSwitch()
     {
         if (lightsOn)
         {
@@ -37,22 +28,49 @@ public class DayNightButton : MonoBehaviour {
         }
     }
 
-    public void LetThereBeLight()
+    private void LetThereBeLight()
     {
-        foreach (GameObject go in objects)
+        currentState.satisfied = true;
+        foreach (GameObject go in onObjectsFromScene)
         {
             go.SetActive(true);
         }
-        lightsOn = true;
-    }
-
-    public void LightsOut()
-    {
-        foreach (GameObject go in objects)
+        foreach(GameObject go in offObjectsFromScene)
         {
             go.SetActive(false);
         }
+        lightsOn = true;
+    }
+    
+    private void LightsOut()
+    {
+        currentState.satisfied = false;
+        foreach (GameObject go in onObjectsFromScene)
+        {
+            go.SetActive(false);
+        }
+        foreach (GameObject go in offObjectsFromScene)
+        {
+            go.SetActive(true);
+        }
         lightsOn = false;
     }
+
+    public void HandleOnObjects(List<GameObject> list)
+    {
+        foreach (GameObject o in list)
+        {
+            onObjectsFromScene.Add(o);
+        }
+    }
+
+    public void HandleOffObjects(List<GameObject> list)
+    {
+        foreach (GameObject o in list)
+        {
+            offObjectsFromScene.Add(o);
+        }
+    }
+
 
 }

@@ -6,8 +6,6 @@ public class ItemCombinationHandler : MonoBehaviour {
 
     public List<ItemCombination> combinations = new List<ItemCombination>();
     public Inventory inventory;
-    private Reaction getResultingItem;
-    private Reaction removeUsedItems;
     private List<Item> selectedItems = new List<Item>();
     private List<Item> combos;
     private bool combineable;
@@ -28,20 +26,21 @@ public class ItemCombinationHandler : MonoBehaviour {
             {
                 if (selectedItems.Contains(i) && compatible)
                 {
-                    combineable = true;
+                    combineable = true; 
                 }
                 else
                 {
                     compatible = false;
                     combineable = false;
                 }
+
+
+            }
             if (combineable)
             {
                 CombinationSucess(ic);
                 return;
             }
-            }
-
         }
     }
 

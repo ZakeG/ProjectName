@@ -13,4 +13,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: 76749906389ea70429b254d00cddd608, type: 3}
   itemName: PhoenixFeather
-  pickedUp: {fileID: 114778350263410574, guid: fd02464d008c790478d9826aba7c7847, type: 2}
+  pickUpCondition: {fileID: 114778350263410574, guid: fd02464d008c790478d9826aba7c7847,
+    type: 2}

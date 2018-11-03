@@ -13,4 +13,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: a6eb7be3f0f8e9c4e8cac6f74e05bdc5, type: 3}
   itemName: ScarecrowMask
-  pickedUp: {fileID: 114635700267114576, guid: fd02464d008c790478d9826aba7c7847, type: 2}
+  pickUpCondition: {fileID: 114635700267114576, guid: fd02464d008c790478d9826aba7c7847,
+    type: 2}

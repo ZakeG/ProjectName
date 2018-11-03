@@ -13,3 +13,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   itemName: Clam
+  pickUpCondition: {fileID: 114089761296976444, guid: fd02464d008c790478d9826aba7c7847,
+    type: 2}

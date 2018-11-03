@@ -29,6 +29,7 @@ MonoBehaviour:
   - {fileID: 114860962177382762}
   - {fileID: 114089761296976444}
   - {fileID: 114932804364694962}
+  - {fileID: 114197075916628298}
 --- !u!114 &114021465253168762
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -99,6 +100,20 @@ MonoBehaviour:
   description: BroomstickPickedUp
   satisfied: 0
   hash: -493304219
+--- !u!114 &114197075916628298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: DAY
+  m_EditorClassIdentifier: 
+  description: DAY
+  satisfied: 0
+  hash: 1929866010
 --- !u!114 &114336684936229846
 MonoBehaviour:
   m_ObjectHideFlags: 0

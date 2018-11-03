@@ -9,9 +9,11 @@ public class Inventory : MonoBehaviour
     public Item[] items = new Item[numItemSlots];
     public GameObject[] itemSlots = new GameObject[numItemSlots]; 
     public const int numItemSlots = 4;
+    private BagButton bagButton;
 
     public void Start()
     {
+        bagButton = GameObject.Find("Bag").GetComponent<BagButton>();
         for (int i = 0; i < items.Length; i++)
         {
                 highlightImages[i].enabled = false;
@@ -19,12 +21,13 @@ public class Inventory : MonoBehaviour
     }
     public void AddItem(Item itemToAdd)
     {
+        bagButton.ShowNewIcon();
         for (int i = 0; i < items.Length; i++)
         {
             if (items[i] == null)
             {
                 itemSlots[i].GetComponent<InventoySlot>().SetItem(itemToAdd);
-                itemToAdd.pickedUp.satisfied = true;
+                itemToAdd.pickUpCondition.satisfied = true;
                 items[i] = itemToAdd;
                 itemImages[i].sprite = itemToAdd.sprite;
                 itemImages[i].enabled = true;
@@ -35,12 +38,13 @@ public class Inventory : MonoBehaviour
 
     public void RemoveItem(Item itemToRemove)
     {
+        bagButton.ShowNewIcon();
         for (int i = 0; i < items.Length; i++)
         {
             if (items[i] == itemToRemove)
             {
                 itemSlots[i].GetComponent<InventoySlot>().RemoveItem();
-                itemToRemove.pickedUp.satisfied = false;
+                itemToRemove.pickUpCondition.satisfied = false;
                 items[i] = null;
                 itemImages[i].sprite = null;
                 itemImages[i].enabled = false;

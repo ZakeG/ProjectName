@@ -208,7 +208,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 492}
   m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
-  controlID: 38
+  controlID: 83
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -277,8 +277,8 @@ MonoBehaviour:
     y: 0
     width: 434
     height: 583
-  m_MinSize: {x: 277, y: 71}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -497,9 +497,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.40271997, y: 0.10378018, z: 0.9359065}
+    m_Target: {x: 0.617772, y: -1.1916456, z: 0.45037034}
     speed: 2
-    m_Value: {x: -0.40271997, y: 0.10378018, z: 0.9359065}
+    m_Value: {x: 0.617772, y: -1.1916456, z: 0.45037034}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -527,13 +527,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.21401173, y: 0.015911795, z: -0.004686487, w: 0.976778}
+    m_Target: {x: 0.33685336, y: -0.07930631, z: 0.027295165, w: 0.93791556}
     speed: 2
-    m_Value: {x: 0.21399342, y: 0.015910434, z: -0.004686086, w: 0.97669435}
+    m_Value: {x: 0.33682132, y: -0.07929877, z: 0.027292568, w: 0.93782634}
   m_Size:
-    m_Target: 5.9917054
+    m_Target: 4.3233247
     speed: 2
-    m_Value: 5.9917054
+    m_Value: 4.3233247
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -571,10 +571,10 @@ MonoBehaviour:
     height: 261
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
-    scrollPos: {x: 0, y: 120}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: 2294f2ffb242f3ff84cef3ff4828f4ff1c8af4ff1492f4ffe2c9f4ff5ecaf4ff46e3f7ff68eef7ff26aaf8ffa43bfdff7a60feffe6fbffff0000000042180000be180000544b0000ec4b00003c4c0000904c0000a04c0000bc4c0000884d00004c4e0000764e0000fe4f0000cc71000048720000ae720000e072000028730000de7300003e750000a27600003678000098780000a87800007c0001009c020100d2020100920401004e0d0100ce0f0100741b01001a20010040210100aa250100fa250100b8280100
+    scrollPos: {x: 0, y: 572}
+    m_SelectedIDs: c625feff
+    m_LastClickedID: -121402
+    m_ExpandedIDs: a6e4ffffcaeaffffe6fbffff000000000256000084560000b2560000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -593,7 +593,7 @@ MonoBehaviour:
       m_ClientGUIView: {fileID: 10}
     m_SearchString: 
   m_ExpandedScenes:
-  - Lab
+  - Dungeon
   m_CurrenRootInstanceID: 0
   m_LockTracker:
     m_IsLocked: 0
@@ -635,7 +635,7 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/3D Models
+    - Assets/Materials/PotionsGlassJarsCrystals
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders: []
@@ -647,7 +647,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 74310000
     m_LastClickedID: 12660
-    m_ExpandedIDs: 00000000c4090000cc090000ec090000520b00008a0b00008c0b0000a00c00002a0d00007c0d0000fa0d0000080e0000640e000044100000081100000c1100000e1100006211000080120000ee1200004a1400007a1400009a140000a01400005415000086150000601600007e16000082160000e2160000e6450000e8450000ea450000ec450000ee450000f0450000f2450000f4450000
+    m_ExpandedIDs: 00000000c4090000cc090000ec090000520b00008a0b00008c0b0000a80c0000320d0000840d0000020e0000100e00006c0e00004c1000001011000014110000161100006a11000088120000f6120000de14000016150000361500003c150000f0150000301600000a170000281700002c1700008c17000010550000125500001455000016550000185500001a5500001c5500001e550000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -672,10 +672,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 1944}
+    scrollPos: {x: 0, y: 2218}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000c4090000cc090000ec090000520b00008a0b00008c0b0000a00c00002a0d00007c0d0000fa0d0000080e0000640e000044100000081100000c1100000e1100006211000080120000ee1200004a1400007a1400009a140000a01400005415000086150000601600007e16000082160000e2160000e6450000e8450000ea450000ec450000ee450000f0450000f2450000f4450000
+    m_ExpandedIDs: ffffffff00000000c4090000cc090000ec090000520b00008a0b00008c0b0000a80c0000320d0000840d0000ce0d0000020e0000100e00006c0e00004c1000001011000014110000161100006a11000088120000f6120000de14000016150000361500003c150000f0150000301600000a170000281700002c1700008c17000010550000125500001455000016550000185500001a5500001c5500001e550000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

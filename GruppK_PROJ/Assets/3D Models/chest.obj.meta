@@ -1,0 +1,204 @@
+fileFormatVersion: 2
+guid: d0ab0a3b389647043b994a97b7dc8f8b
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Bottom_Chest1_polySurface11
+    100002: Bottom_Chest1_polySurface12
+    100004: Bottom_Chest1_polySurface13
+    100006: Bottom_Chest1_polySurface14
+    100008: Bottom_Chest1_polySurface16
+    100010: Bottom_Chest1_polySurface17_polySurface18
+    100012: Bottom_Chest1_polySurface17_polySurface19
+    100014: Bottom_Chest1_polySurface20_polySurface17
+    100016: //RootNode
+    100018: Chest1_Lid_polySurface21
+    100020: Chest1_Lid_polySurface22
+    100022: Chest1_Lock
+    100024: Chest1_Lock2
+    100026: Chest1_polySurface23_Lid
+    100028: Chest1_pTorus30
+    100030: Chest1_pTorus31
+    100032: Chest1_pTorus32
+    100034: Chest1_pTorus33
+    100036: Chest1_pTorus34
+    100038: polySurface15_Bottom_Chest1
+    400000: Bottom_Chest1_polySurface11
+    400002: Bottom_Chest1_polySurface12
+    400004: Bottom_Chest1_polySurface13
+    400006: Bottom_Chest1_polySurface14
+    400008: Bottom_Chest1_polySurface16
+    400010: Bottom_Chest1_polySurface17_polySurface18
+    400012: Bottom_Chest1_polySurface17_polySurface19
+    400014: Bottom_Chest1_polySurface20_polySurface17
+    400016: //RootNode
+    400018: Chest1_Lid_polySurface21
+    400020: Chest1_Lid_polySurface22
+    400022: Chest1_Lock
+    400024: Chest1_Lock2
+    400026: Chest1_polySurface23_Lid
+    400028: Chest1_pTorus30
+    400030: Chest1_pTorus31
+    400032: Chest1_pTorus32
+    400034: Chest1_pTorus33
+    400036: Chest1_pTorus34
+    400038: polySurface15_Bottom_Chest1
+    2100000: Bottom_Chest1_polySurface11Mat
+    2100002: Bottom_Chest1_polySurface12Mat
+    2100004: Bottom_Chest1_polySurface13Mat
+    2100006: Bottom_Chest1_polySurface14Mat
+    2100008: Bottom_Chest1_polySurface16Mat
+    2100010: Bottom_Chest1_polySurface17_polySurface18Mat
+    2100012: Bottom_Chest1_polySurface17_polySurface19Mat
+    2100014: Bottom_Chest1_polySurface20_polySurface17Mat
+    2100016: Chest1_Lid_polySurface21Mat
+    2100018: Chest1_Lid_polySurface22Mat
+    2100020: Chest1_LockMat
+    2100022: Chest1_Lock2Mat
+    2100024: Chest1_polySurface23_LidMat
+    2100026: Chest1_pTorus30Mat
+    2100028: Chest1_pTorus31Mat
+    2100030: Chest1_pTorus32Mat
+    2100032: Chest1_pTorus33Mat
+    2100034: Chest1_pTorus34Mat
+    2100036: polySurface15_Bottom_Chest1Mat
+    2300000: Bottom_Chest1_polySurface11
+    2300002: Bottom_Chest1_polySurface12
+    2300004: Bottom_Chest1_polySurface13
+    2300006: Bottom_Chest1_polySurface14
+    2300008: Bottom_Chest1_polySurface16
+    2300010: Bottom_Chest1_polySurface17_polySurface18
+    2300012: Bottom_Chest1_polySurface17_polySurface19
+    2300014: Bottom_Chest1_polySurface20_polySurface17
+    2300016: Chest1_Lid_polySurface21
+    2300018: Chest1_Lid_polySurface22
+    2300020: Chest1_Lock
+    2300022: Chest1_Lock2
+    2300024: Chest1_polySurface23_Lid
+    2300026: Chest1_pTorus30
+    2300028: Chest1_pTorus31
+    2300030: Chest1_pTorus32
+    2300032: Chest1_pTorus33
+    2300034: Chest1_pTorus34
+    2300036: polySurface15_Bottom_Chest1
+    3300000: Bottom_Chest1_polySurface11
+    3300002: Bottom_Chest1_polySurface12
+    3300004: Bottom_Chest1_polySurface13
+    3300006: Bottom_Chest1_polySurface14
+    3300008: Bottom_Chest1_polySurface16
+    3300010: Bottom_Chest1_polySurface17_polySurface18
+    3300012: Bottom_Chest1_polySurface17_polySurface19
+    3300014: Bottom_Chest1_polySurface20_polySurface17
+    3300016: Chest1_Lid_polySurface21
+    3300018: Chest1_Lid_polySurface22
+    3300020: Chest1_Lock
+    3300022: Chest1_Lock2
+    3300024: Chest1_polySurface23_Lid
+    3300026: Chest1_pTorus30
+    3300028: Chest1_pTorus31
+    3300030: Chest1_pTorus32
+    3300032: Chest1_pTorus33
+    3300034: Chest1_pTorus34
+    3300036: polySurface15_Bottom_Chest1
+    4300000: Bottom_Chest1_polySurface11
+    4300002: Bottom_Chest1_polySurface12
+    4300004: Bottom_Chest1_polySurface13
+    4300006: Bottom_Chest1_polySurface14
+    4300008: Bottom_Chest1_polySurface16
+    4300010: Bottom_Chest1_polySurface17_polySurface18
+    4300012: Bottom_Chest1_polySurface17_polySurface19
+    4300014: Bottom_Chest1_polySurface20_polySurface17
+    4300016: Chest1_Lid_polySurface21
+    4300018: Chest1_Lid_polySurface22
+    4300020: Chest1_Lock
+    4300022: Chest1_Lock2
+    4300024: Chest1_polySurface23_Lid
+    4300026: Chest1_pTorus30
+    4300028: Chest1_pTorus31
+    4300030: Chest1_pTorus32
+    4300032: Chest1_pTorus33
+    4300034: Chest1_pTorus34
+    4300036: polySurface15_Bottom_Chest1
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

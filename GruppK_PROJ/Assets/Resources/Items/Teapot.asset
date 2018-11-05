@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Name: Teapot
   m_EditorClassIdentifier: 
   sprite: {fileID: 0}
-  itemName: 
-  pickUpCondition: {fileID: 0}
+  itemName: TeaPot
+  pickUpCondition: {fileID: 114866729078210454, guid: fd02464d008c790478d9826aba7c7847,
+    type: 2}

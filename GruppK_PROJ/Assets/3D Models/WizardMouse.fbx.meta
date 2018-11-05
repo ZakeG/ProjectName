@@ -1,0 +1,197 @@
+fileFormatVersion: 2
+guid: 903f6a72455cd7a4588993331755b719
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Body
+    100002: Eye
+    100004: Eye1
+    100006: EyeLid
+    100008: EyeLid2
+    100010: EyeLid3
+    100012: EyeLid4
+    100014: Face
+    100016: group1
+    100018: Hat
+    100020: LeftEar2
+    100022: neck
+    100024: Nose
+    100026: pCube6
+    100028: polySurface1
+    100030: polySurface2
+    100032: polySurface3
+    100034: polySurface4
+    100036: RightEar3
+    100038: RightFoot
+    100040: RightHand
+    100042: RightSleeve
+    100044: Tail
+    100046: //RootNode
+    400000: Body
+    400002: Eye
+    400004: Eye1
+    400006: EyeLid
+    400008: EyeLid2
+    400010: EyeLid3
+    400012: EyeLid4
+    400014: Face
+    400016: group1
+    400018: Hat
+    400020: LeftEar2
+    400022: neck
+    400024: Nose
+    400026: pCube6
+    400028: polySurface1
+    400030: polySurface2
+    400032: polySurface3
+    400034: polySurface4
+    400036: RightEar3
+    400038: RightFoot
+    400040: RightHand
+    400042: RightSleeve
+    400044: Tail
+    400046: //RootNode
+    2100000: lambert1
+    2300000: Body
+    2300002: Eye
+    2300004: Eye1
+    2300006: EyeLid
+    2300008: EyeLid2
+    2300010: EyeLid3
+    2300012: EyeLid4
+    2300014: Face
+    2300016: Hat
+    2300018: LeftEar2
+    2300020: neck
+    2300022: Nose
+    2300024: pCube6
+    2300026: polySurface1
+    2300028: polySurface2
+    2300030: polySurface3
+    2300032: polySurface4
+    2300034: RightEar3
+    2300036: RightFoot
+    2300038: Tail
+    3300000: Body
+    3300002: Eye
+    3300004: Eye1
+    3300006: EyeLid
+    3300008: EyeLid2
+    3300010: EyeLid3
+    3300012: EyeLid4
+    3300014: Face
+    3300016: Hat
+    3300018: LeftEar2
+    3300020: neck
+    3300022: Nose
+    3300024: pCube6
+    3300026: polySurface1
+    3300028: polySurface2
+    3300030: polySurface3
+    3300032: polySurface4
+    3300034: RightEar3
+    3300036: RightFoot
+    3300038: Tail
+    4300000: Face
+    4300002: LeftEar2
+    4300004: RightEar3
+    4300006: Body
+    4300008: polySurface1
+    4300010: polySurface2
+    4300012: neck
+    4300014: Tail
+    4300016: Hat
+    4300018: RightFoot
+    4300020: polySurface3
+    4300022: polySurface4
+    4300024: Nose
+    4300026: pCube6
+    4300028: Eye1
+    4300030: EyeLid2
+    4300032: EyeLid
+    4300034: Eye
+    4300036: EyeLid3
+    4300038: EyeLid4
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.5
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

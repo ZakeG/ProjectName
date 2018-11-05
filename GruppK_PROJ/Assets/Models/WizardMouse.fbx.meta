@@ -1,83 +1,86 @@
 fileFormatVersion: 2
-guid: a23a5e7e2797a1d4db29b619dc511bb0
+guid: 1ebbcfb04b4f41340bb0b726344ccca6
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: Ears
-    100004: Ears2
-    100006: Eye
-    100008: pCylinder24
-    100010: polySurface30
-    100012: polySurface31
-    100014: polySurface32
-    100016: polySurface34
-    100018: polySurface35
-    100020: polySurface36
-    100022: polySurface43
-    100024: polySurface44
-    100026: polySurface45
-    100028: polySurface46
-    100030: polySurface47
-    100032: polySurface48
-    100034: pSphere19
-    100036: pSphere20
-    400000: //RootNode
-    400002: Ears
-    400004: Ears2
-    400006: Eye
-    400008: pCylinder24
-    400010: polySurface30
-    400012: polySurface31
-    400014: polySurface32
-    400016: polySurface34
-    400018: polySurface35
-    400020: polySurface36
-    400022: polySurface43
-    400024: polySurface44
-    400026: polySurface45
-    400028: polySurface46
-    400030: polySurface47
-    400032: polySurface48
-    400034: pSphere19
-    400036: pSphere20
+    100000: Body
+    100002: Face
+    100004: Hat
+    100006: LeftEar2
+    100008: LeftFoot
+    100010: LeftHand
+    100012: LeftSleeve
+    100014: neck
+    100016: Nose
+    100018: pCube6
+    100020: RightEar3
+    100022: RightFoot
+    100024: RightHand
+    100026: RightSleeve
+    100028: Tail
+    100030: //RootNode
+    400000: Body
+    400002: Face
+    400004: Hat
+    400006: LeftEar2
+    400008: LeftFoot
+    400010: LeftHand
+    400012: LeftSleeve
+    400014: neck
+    400016: Nose
+    400018: pCube6
+    400020: RightEar3
+    400022: RightFoot
+    400024: RightHand
+    400026: RightSleeve
+    400028: Tail
+    400030: //RootNode
     2100000: lambert1
-    2300000: polySurface30
-    2300002: polySurface32
-    2300004: polySurface35
-    2300006: polySurface36
-    2300008: polySurface43
-    2300010: polySurface44
-    2300012: polySurface45
-    2300014: polySurface46
-    2300016: polySurface47
-    2300018: polySurface48
-    2300020: pSphere19
-    2300022: pSphere20
-    3300000: polySurface30
-    3300002: polySurface32
-    3300004: polySurface35
-    3300006: polySurface36
-    3300008: polySurface43
-    3300010: polySurface44
-    3300012: polySurface45
-    3300014: polySurface46
-    3300016: polySurface47
-    3300018: polySurface48
-    3300020: pSphere19
-    3300022: pSphere20
-    4300000: polySurface35
-    4300002: polySurface36
-    4300004: polySurface43
-    4300006: polySurface44
-    4300008: polySurface45
-    4300010: polySurface46
-    4300012: pSphere19
-    4300014: pSphere20
-    4300016: polySurface30
-    4300018: polySurface32
-    4300020: polySurface47
-    4300022: polySurface48
+    2300000: Body
+    2300002: Face
+    2300004: Hat
+    2300006: LeftEar2
+    2300008: LeftFoot
+    2300010: LeftHand
+    2300012: LeftSleeve
+    2300014: neck
+    2300016: Nose
+    2300018: pCube6
+    2300020: RightEar3
+    2300022: RightFoot
+    2300024: RightHand
+    2300026: RightSleeve
+    2300028: Tail
+    3300000: Body
+    3300002: Face
+    3300004: Hat
+    3300006: LeftEar2
+    3300008: LeftFoot
+    3300010: LeftHand
+    3300012: LeftSleeve
+    3300014: neck
+    3300016: Nose
+    3300018: pCube6
+    3300020: RightEar3
+    3300022: RightFoot
+    3300024: RightHand
+    3300026: RightSleeve
+    3300028: Tail
+    4300000: Face
+    4300002: pCube6
+    4300004: RightEar3
+    4300006: LeftEar2
+    4300008: RightSleeve
+    4300010: Body
+    4300012: LeftFoot
+    4300014: Hat
+    4300016: Tail
+    4300018: neck
+    4300020: LeftSleeve
+    4300022: RightHand
+    4300024: RightFoot
+    4300026: Nose
+    4300028: LeftHand
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -109,7 +112,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 4
+    globalScale: 0.4
     meshCompression: 0
     addColliders: 0
     importVisibility: 1

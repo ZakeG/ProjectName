@@ -12,6 +12,5 @@ MonoBehaviour:
   m_Name: Ambrosia
   m_EditorClassIdentifier: 
   sprite: {fileID: 0}
-  itemName: Ambrosia
-  pickUpCondition: {fileID: 114873441715121916, guid: fd02464d008c790478d9826aba7c7847,
-    type: 2}
+  itemName: 
+  pickUpCondition: {fileID: 0}

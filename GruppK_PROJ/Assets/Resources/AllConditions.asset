@@ -33,6 +33,12 @@ MonoBehaviour:
   - {fileID: 114876773733038208}
   - {fileID: 114250745950778472}
   - {fileID: 114166715466194848}
+  - {fileID: 114504088093943498}
+  - {fileID: 114188702843383964}
+  - {fileID: 114837129450889992}
+  - {fileID: 114159093089903314}
+  - {fileID: 114842528549307944}
+  - {fileID: 114753056336311330}
 --- !u!114 &114021465253168762
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -103,6 +109,20 @@ MonoBehaviour:
   description: BroomstickPickedUp
   satisfied: 0
   hash: -493304219
+--- !u!114 &114159093089903314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: CoinPickedUp
+  m_EditorClassIdentifier: 
+  description: CoinPickedUp
+  satisfied: 0
+  hash: -1187853915
 --- !u!114 &114166715466194848
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -117,6 +137,20 @@ MonoBehaviour:
   description: FireCrystalAquired
   satisfied: 0
   hash: -1302995480
+--- !u!114 &114188702843383964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: HasCoin
+  m_EditorClassIdentifier: 
+  description: HasCoin
+  satisfied: 0
+  hash: 1129137663
 --- !u!114 &114197075916628298
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -201,6 +235,20 @@ MonoBehaviour:
   description: HoneyJarPickedUp
   satisfied: 0
   hash: 1642796241
+--- !u!114 &114504088093943498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: HasSeeds
+  m_EditorClassIdentifier: 
+  description: HasSeeds
+  satisfied: 0
+  hash: -890827829
 --- !u!114 &114635700267114576
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -215,6 +263,20 @@ MonoBehaviour:
   description: HasMask
   satisfied: 0
   hash: 1766527378
+--- !u!114 &114753056336311330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: AustraliaPickedUp
+  m_EditorClassIdentifier: 
+  description: AustraliaPickedUp
+  satisfied: 0
+  hash: -120809668
 --- !u!114 &114761333550728362
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -257,6 +319,34 @@ MonoBehaviour:
   description: KeyAquired
   satisfied: 0
   hash: 1879386995
+--- !u!114 &114837129450889992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: ApplePickedUp
+  m_EditorClassIdentifier: 
+  description: ApplePickedUp
+  satisfied: 0
+  hash: -1756528634
+--- !u!114 &114842528549307944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: SeedsPickedUp
+  m_EditorClassIdentifier: 
+  description: SeedsPickedUp
+  satisfied: 0
+  hash: -1006560515
 --- !u!114 &114860962177382762
 MonoBehaviour:
   m_ObjectHideFlags: 0

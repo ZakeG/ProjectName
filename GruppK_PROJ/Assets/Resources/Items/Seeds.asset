@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Name: Seeds
   m_EditorClassIdentifier: 
   sprite: {fileID: 0}
-  itemName: 
-  pickUpCondition: {fileID: 0}
+  itemName: Seeds
+  pickUpCondition: {fileID: 114625375335089140, guid: fd02464d008c790478d9826aba7c7847,
+    type: 2}

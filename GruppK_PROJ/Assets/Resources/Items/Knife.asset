@@ -9,9 +9,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2f67bd8ec6e33af4987562f6141a3bf2, type: 3}
-  m_Name: Teapot
+  m_Name: Knife
   m_EditorClassIdentifier: 
   sprite: {fileID: 0}
-  itemName: TeaPot
-  pickUpCondition: {fileID: 114866729078210454, guid: fd02464d008c790478d9826aba7c7847,
+  itemName: Knife
+  pickUpCondition: {fileID: 114910676192708762, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}

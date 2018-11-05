@@ -33,6 +33,35 @@ MonoBehaviour:
   - {fileID: 114876773733038208}
   - {fileID: 114250745950778472}
   - {fileID: 114166715466194848}
+  - {fileID: 114482962204328520}
+  - {fileID: 114300890788274310}
+  - {fileID: 114910676192708762}
+  - {fileID: 114873441715121916}
+  - {fileID: 114866729078210454}
+  - {fileID: 114625375335089140}
+  - {fileID: 114592725119159582}
+  - {fileID: 114591729321156866}
+  - {fileID: 114277879931845550}
+  - {fileID: 114597005427520476}
+  - {fileID: 114562889626381754}
+  - {fileID: 114236641614690346}
+  - {fileID: 114761539869981948}
+  - {fileID: 114000025939839314}
+  - {fileID: 114578005656243842}
+--- !u!114 &114000025939839314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: UnlockedSafe
+  m_EditorClassIdentifier: 
+  description: UnlockedSafe
+  satisfied: 0
+  hash: -400403384
 --- !u!114 &114021465253168762
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -73,7 +102,7 @@ MonoBehaviour:
   m_Name: WizardFeatherStartDialouge
   m_EditorClassIdentifier: 
   description: WizardFeatherStartDialouge
-  satisfied: 0
+  satisfied: 1
   hash: -2085163072
 --- !u!114 &114129520274063514
 MonoBehaviour:
@@ -131,6 +160,20 @@ MonoBehaviour:
   description: DAY
   satisfied: 0
   hash: 1929866010
+--- !u!114 &114236641614690346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: GrownTree
+  m_EditorClassIdentifier: 
+  description: GrownTree
+  satisfied: 0
+  hash: -920909270
 --- !u!114 &114250745950778472
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -145,6 +188,34 @@ MonoBehaviour:
   description: KettlePickedUp
   satisfied: 0
   hash: -2028266815
+--- !u!114 &114277879931845550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: HasCoin
+  m_EditorClassIdentifier: 
+  description: HasCoin
+  satisfied: 0
+  hash: 1129137663
+--- !u!114 &114300890788274310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: Moonpiece2
+  m_EditorClassIdentifier: 
+  description: Moonpiece2
+  satisfied: 0
+  hash: -798848149
 --- !u!114 &114336684936229846
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -201,6 +272,104 @@ MonoBehaviour:
   description: HoneyJarPickedUp
   satisfied: 0
   hash: 1642796241
+--- !u!114 &114482962204328520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: Moonpiece1
+  m_EditorClassIdentifier: 
+  description: Moonpiece1
+  satisfied: 0
+  hash: 1231805137
+--- !u!114 &114562889626381754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: HasSeeds
+  m_EditorClassIdentifier: 
+  description: HasSeeds
+  satisfied: 0
+  hash: -890827829
+--- !u!114 &114578005656243842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: LockPickPickedUp
+  m_EditorClassIdentifier: 
+  description: LockPickPickedUp
+  satisfied: 0
+  hash: 1723205653
+--- !u!114 &114591729321156866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: AustraliaPickedUp
+  m_EditorClassIdentifier: 
+  description: AustraliaPickedUp
+  satisfied: 0
+  hash: -120809668
+--- !u!114 &114592725119159582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: ScalePiecePickedUp
+  m_EditorClassIdentifier: 
+  description: ScalePiecePickedUp
+  satisfied: 0
+  hash: -270303686
+--- !u!114 &114597005427520476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: GumbalPickedUp
+  m_EditorClassIdentifier: 
+  description: GumbalPickedUp
+  satisfied: 0
+  hash: -1756968648
+--- !u!114 &114625375335089140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: SeedsPickedUp
+  m_EditorClassIdentifier: 
+  description: SeedsPickedUp
+  satisfied: 0
+  hash: -1006560515
 --- !u!114 &114635700267114576
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -229,6 +398,20 @@ MonoBehaviour:
   description: GlowingJarPickedUp
   satisfied: 0
   hash: 1360342739
+--- !u!114 &114761539869981948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: HasLockPick
+  m_EditorClassIdentifier: 
+  description: HasLockPick
+  satisfied: 0
+  hash: -1947044185
 --- !u!114 &114778350263410574
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -271,6 +454,34 @@ MonoBehaviour:
   description: LIGHTSTAFF
   satisfied: 0
   hash: -1517926864
+--- !u!114 &114866729078210454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: TeaPotPickedUp
+  m_EditorClassIdentifier: 
+  description: TeaPotPickedUp
+  satisfied: 0
+  hash: 1162811859
+--- !u!114 &114873441715121916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: AmbrosiaPickedUp
+  m_EditorClassIdentifier: 
+  description: AmbrosiaPickedUp
+  satisfied: 0
+  hash: -1055942156
 --- !u!114 &114876773733038208
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -285,6 +496,20 @@ MonoBehaviour:
   description: BoneAquired
   satisfied: 0
   hash: -1713681452
+--- !u!114 &114910676192708762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: KnifeAquired
+  m_EditorClassIdentifier: 
+  description: KnifeAquired
+  satisfied: 0
+  hash: -231153434
 --- !u!114 &114932804364694962
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -325,5 +550,5 @@ MonoBehaviour:
   m_Name: StaffCompleted
   m_EditorClassIdentifier: 
   description: StaffCompleted
-  satisfied: 0
+  satisfied: 1
   hash: 2045985755

@@ -1,16 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-- path: Assets/Scenes/Jessicas/Storm.unity
-=======
-- path: Assets/Scenes/Lab.unity
->>>>>>> parent of e2f417e... stuff with interactions
-=======
-- path: Assets/Scenes/LivingRoom.unity
->>>>>>> parent of 0ed8e12... moo?
-=======
-- path: Assets/Scenes/Lab.unity
->>>>>>> parent of e2f417e... stuff with interactions
+- path: Assets/Scenes/Persistent.unity
   isLoaded: 1
   isActive: 1

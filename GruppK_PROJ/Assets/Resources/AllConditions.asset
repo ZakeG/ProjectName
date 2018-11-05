@@ -52,6 +52,24 @@ MonoBehaviour:
   - {fileID: 114339336138375714}
   - {fileID: 114425427377283694}
   - {fileID: 114747450403530148}
+  - {fileID: 114000264106966828}
+  - {fileID: 114881335897606838}
+  - {fileID: 114114992687082830}
+  - {fileID: 114476403303460260}
+--- !u!114 &114000264106966828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: TorchPickedUp
+  m_EditorClassIdentifier: 
+  description: TorchPickedUp
+  satisfied: 0
+  hash: 415359577
 --- !u!114 &114000370960551350
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -122,6 +140,20 @@ MonoBehaviour:
   description: WizardFeatherStartDialouge
   satisfied: 0
   hash: -2085163072
+--- !u!114 &114114992687082830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: HasBucket
+  m_EditorClassIdentifier: 
+  description: HasBucket
+  satisfied: 0
+  hash: 332614929
 --- !u!114 &114129520274063514
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -374,6 +406,20 @@ MonoBehaviour:
   description: HoneyJarPickedUp
   satisfied: 0
   hash: 1642796241
+--- !u!114 &114476403303460260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: ChestPickedUp
+  m_EditorClassIdentifier: 
+  description: ChestPickedUp
+  satisfied: 0
+  hash: 1337608849
 --- !u!114 &114504088093943498
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -556,6 +602,20 @@ MonoBehaviour:
   description: BoneAquired
   satisfied: 0
   hash: -1713681452
+--- !u!114 &114881335897606838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: WaterPickedUp
+  m_EditorClassIdentifier: 
+  description: WaterPickedUp
+  satisfied: 0
+  hash: -1870712990
 --- !u!114 &114893403863706380
 MonoBehaviour:
   m_ObjectHideFlags: 0

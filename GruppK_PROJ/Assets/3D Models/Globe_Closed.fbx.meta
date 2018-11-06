@@ -1,14 +1,56 @@
 fileFormatVersion: 2
-guid: 791ea6565a996694a9838c72d9625745
+guid: 0856fd7ceec078242bfe48bda7fd8f4a
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
+    100000: arms
+    100002: Australia_slot
+    100004: ball
+    100006: Body
+    100008: Globe
+    100010: //RootNode
+    100012: half_circle
+    100014: LEgs
+    100016: ring
+    100018: Stick
+    400000: arms
+    400002: Australia_slot
+    400004: ball
+    400006: Body
+    400008: Globe
+    400010: //RootNode
+    400012: half_circle
+    400014: LEgs
+    400016: ring
+    400018: Stick
     2100000: lambert1
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: Ghost
+    2300000: arms
+    2300002: Australia_slot
+    2300004: ball
+    2300006: Body
+    2300008: Globe
+    2300010: half_circle
+    2300012: LEgs
+    2300014: ring
+    2300016: Stick
+    3300000: arms
+    3300002: Australia_slot
+    3300004: ball
+    3300006: Body
+    3300008: Globe
+    3300010: half_circle
+    3300012: LEgs
+    3300014: ring
+    3300016: Stick
+    4300000: half_circle
+    4300002: Stick
+    4300004: ball
+    4300006: Globe
+    4300008: ring
+    4300010: LEgs
+    4300012: Body
+    4300014: arms
+    4300016: Australia_slot
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -40,7 +82,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 4
+    globalScale: 3
     meshCompression: 0
     addColliders: 0
     importVisibility: 1

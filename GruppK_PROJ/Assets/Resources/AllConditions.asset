@@ -56,6 +56,12 @@ MonoBehaviour:
   - {fileID: 114881335897606838}
   - {fileID: 114114992687082830}
   - {fileID: 114476403303460260}
+  - {fileID: 114287361194795924}
+  - {fileID: 114488669246345718}
+  - {fileID: 114710624494531832}
+  - {fileID: 114855809103556806}
+  - {fileID: 114748338359087920}
+  - {fileID: 114434246571486556}
 --- !u!114 &114000264106966828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -280,6 +286,20 @@ MonoBehaviour:
   description: KettlePickedUp
   satisfied: 0
   hash: -2028266815
+--- !u!114 &114287361194795924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: HasGumball
+  m_EditorClassIdentifier: 
+  description: HasGumball
+  satisfied: 0
+  hash: -373825656
 --- !u!114 &114303500727802912
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -378,6 +398,20 @@ MonoBehaviour:
   description: AmbrosiapickedUp
   satisfied: 0
   hash: 947518370
+--- !u!114 &114434246571486556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: BonePickedUp
+  m_EditorClassIdentifier: 
+  description: BonePickedUp
+  satisfied: 0
+  hash: 1109262446
 --- !u!114 &114443800826913856
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -420,6 +454,20 @@ MonoBehaviour:
   description: ChestPickedUp
   satisfied: 0
   hash: 1337608849
+--- !u!114 &114488669246345718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: EarthCrystalPickedUp
+  m_EditorClassIdentifier: 
+  description: EarthCrystalPickedUp
+  satisfied: 0
+  hash: -1220151316
 --- !u!114 &114504088093943498
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -462,6 +510,20 @@ MonoBehaviour:
   description: HasMask
   satisfied: 0
   hash: 1766527378
+--- !u!114 &114710624494531832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: HasAmbrosiaBouquet
+  m_EditorClassIdentifier: 
+  description: HasAmbrosiaBouquet
+  satisfied: 0
+  hash: -1050697916
 --- !u!114 &114747450403530148
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -476,6 +538,20 @@ MonoBehaviour:
   description: LockpickPickedUp
   satisfied: 0
   hash: 2122830829
+--- !u!114 &114748338359087920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: HasCellKeys
+  m_EditorClassIdentifier: 
+  description: HasCellKeys
+  satisfied: 0
+  hash: -1734926601
 --- !u!114 &114753056336311330
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -560,6 +636,20 @@ MonoBehaviour:
   description: SeedsPickedUp
   satisfied: 0
   hash: -1006560515
+--- !u!114 &114855809103556806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: PlanksRemoved
+  m_EditorClassIdentifier: 
+  description: PlanksRemoved
+  satisfied: 0
+  hash: 1703327956
 --- !u!114 &114860962177382762
 MonoBehaviour:
   m_ObjectHideFlags: 0

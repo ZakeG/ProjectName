@@ -1879,7 +1879,6 @@ MonoBehaviour:
   textBeingShownP1: 
   textBeingShownP2: 
   currentPageNr: 0
-  lookingAtPage: 0
 --- !u!1001 &1639642727
 Prefab:
   m_ObjectHideFlags: 0

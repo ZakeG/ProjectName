@@ -44,7 +44,7 @@ RenderSettings:
 LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 11
-  m_GIWorkflowMode: 0
+  m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -410,7 +410,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: 
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  delay: 0
+  order: 0
 --- !u!1001 &701830661
 Prefab:
   m_ObjectHideFlags: 0
@@ -537,7 +537,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: YOU WIN!!
   textColor: {r: 0.92176676, g: 1, b: 0, a: 1}
-  delay: 0
+  order: 0
 --- !u!1 &1076450397
 GameObject:
   m_ObjectHideFlags: 0

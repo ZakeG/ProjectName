@@ -115,6 +115,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void OnGroundClick(BaseEventData data)
     {
+        Debug.Log("Trying to move");
         if (!handleInput || !holdForDialuge)
         {
             return;

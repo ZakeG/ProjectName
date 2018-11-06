@@ -11,4 +11,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Lab.unity
     guid: cb6544662a598984392133962a29f988
+  - enabled: 1
+    path: Assets/Scenes/LivingRoom.unity
+    guid: 2418f0940b496214680835273101ad80
+  - enabled: 1
+    path: Assets/Scenes/Basement.unity
+    guid: 72daf92d3c09eb94ebb499d11e38ffe5
+  - enabled: 1
+    path: Assets/Scenes/Dungeon.unity
+    guid: 2f438fbed2eb83b4a81a3839b2c90ad8
   m_configObjects: {}

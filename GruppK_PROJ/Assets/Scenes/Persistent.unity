@@ -531,7 +531,7 @@ GameObject:
   - component: {fileID: 526501760}
   - component: {fileID: 526501763}
   m_Layer: 5
-  m_Name: Staff Button
+  m_Name: StaffButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

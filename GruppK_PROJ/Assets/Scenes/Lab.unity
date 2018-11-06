@@ -15690,18 +15690,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 531897613}
   m_Mesh: {fileID: 4300000, guid: f68e26733f39a5c42b1f9cec45827f07, type: 3}
---- !u!114 &534312870
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  message: The wizard has told me to blablab bla bla bla blal bla
 --- !u!1 &534486562
 GameObject:
   m_ObjectHideFlags: 0
@@ -27184,7 +27172,7 @@ MonoBehaviour:
   - {fileID: 151451590}
   - {fileID: 2033691373}
   - {fileID: 287201364}
-  - {fileID: 534312870}
+  - {fileID: 1373818813}
 --- !u!1001 &868668074
 Prefab:
   m_ObjectHideFlags: 0
@@ -37021,6 +37009,19 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd26dac15723bf047941895f28e6c242, type: 2}
   m_IsPrefabAsset: 0
+--- !u!114 &1373818813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b804958e1981f9544989d65e32719692, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 0
+  item: {fileID: 11400000, guid: fb7e86ff87b354c4e82c7edd4d0309b2, type: 2}
 --- !u!114 &1378899237
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -3,45 +3,54 @@ guid: 0856fd7ceec078242bfe48bda7fd8f4a
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: arms
-    100002: Australia_slot
-    100004: ball
-    100006: Body
-    100008: Globe
-    100010: //RootNode
-    100012: half_circle
-    100014: LEgs
-    100016: ring
-    100018: Stick
-    400000: arms
-    400002: Australia_slot
-    400004: ball
-    400006: Body
-    400008: Globe
-    400010: //RootNode
-    400012: half_circle
-    400014: LEgs
-    400016: ring
-    400018: Stick
+    100000: africa_border1
+    100002: arms
+    100004: Australia_slot
+    100006: ball
+    100008: Body
+    100010: Globe
+    100012: //RootNode
+    100014: half_circle
+    100016: LEgs
+    100018: ring
+    100020: south_america_border1
+    100022: Stick
+    400000: africa_border1
+    400002: arms
+    400004: Australia_slot
+    400006: ball
+    400008: Body
+    400010: Globe
+    400012: //RootNode
+    400014: half_circle
+    400016: LEgs
+    400018: ring
+    400020: south_america_border1
+    400022: Stick
     2100000: lambert1
-    2300000: arms
-    2300002: Australia_slot
-    2300004: ball
-    2300006: Body
-    2300008: Globe
-    2300010: half_circle
-    2300012: LEgs
-    2300014: ring
-    2300016: Stick
-    3300000: arms
-    3300002: Australia_slot
-    3300004: ball
-    3300006: Body
-    3300008: Globe
-    3300010: half_circle
-    3300012: LEgs
-    3300014: ring
-    3300016: Stick
+    2100002: south_america_border_initialShadingGroup1
+    2300000: africa_border1
+    2300002: arms
+    2300004: Australia_slot
+    2300006: ball
+    2300008: Body
+    2300010: Globe
+    2300012: half_circle
+    2300014: LEgs
+    2300016: ring
+    2300018: south_america_border1
+    2300020: Stick
+    3300000: africa_border1
+    3300002: arms
+    3300004: Australia_slot
+    3300006: ball
+    3300008: Body
+    3300010: Globe
+    3300012: half_circle
+    3300014: LEgs
+    3300016: ring
+    3300018: south_america_border1
+    3300020: Stick
     4300000: half_circle
     4300002: Stick
     4300004: ball
@@ -49,8 +58,10 @@ ModelImporter:
     4300008: ring
     4300010: LEgs
     4300012: Body
-    4300014: arms
-    4300016: Australia_slot
+    4300014: africa_border1
+    4300016: south_america_border1
+    4300018: arms
+    4300020: Australia_slot
   externalObjects: {}
   materials:
     importMaterials: 1

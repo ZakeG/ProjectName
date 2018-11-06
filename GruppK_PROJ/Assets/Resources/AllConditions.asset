@@ -62,6 +62,13 @@ MonoBehaviour:
   - {fileID: 114855809103556806}
   - {fileID: 114748338359087920}
   - {fileID: 114434246571486556}
+  - {fileID: 114183364152752296}
+  - {fileID: 114467616167834322}
+  - {fileID: 114686047944968942}
+  - {fileID: 114573808208314410}
+  - {fileID: 114731942013876800}
+  - {fileID: 114780071348206456}
+  - {fileID: 114203895195064576}
 --- !u!114 &114000264106966828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -230,6 +237,20 @@ MonoBehaviour:
   description: TreeGrown
   satisfied: 0
   hash: 74427567
+--- !u!114 &114183364152752296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: HasAustralia
+  m_EditorClassIdentifier: 
+  description: HasAustralia
+  satisfied: 0
+  hash: 1849421182
 --- !u!114 &114188702843383964
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -258,6 +279,20 @@ MonoBehaviour:
   description: DAY
   satisfied: 0
   hash: 1929866010
+--- !u!114 &114203895195064576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: CompletedGlobe
+  m_EditorClassIdentifier: 
+  description: CompletedGlobe
+  satisfied: 0
+  hash: -2141530385
 --- !u!114 &114207286644705896
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -440,6 +475,20 @@ MonoBehaviour:
   description: HoneyJarPickedUp
   satisfied: 0
   hash: 1642796241
+--- !u!114 &114467616167834322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: HasAfrica
+  m_EditorClassIdentifier: 
+  description: HasAfrica
+  satisfied: 0
+  hash: 1654748436
 --- !u!114 &114476403303460260
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -496,6 +545,20 @@ MonoBehaviour:
   description: Moonpiece2PickedUp
   satisfied: 0
   hash: 1360949564
+--- !u!114 &114573808208314410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: AfricaPickedUp
+  m_EditorClassIdentifier: 
+  description: AfricaPickedUp
+  satisfied: 0
+  hash: -832665031
 --- !u!114 &114635700267114576
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -510,6 +573,20 @@ MonoBehaviour:
   description: HasMask
   satisfied: 0
   hash: 1766527378
+--- !u!114 &114686047944968942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: HasSouthAmerica
+  m_EditorClassIdentifier: 
+  description: HasSouthAmerica
+  satisfied: 0
+  hash: 120859751
 --- !u!114 &114710624494531832
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -524,6 +601,20 @@ MonoBehaviour:
   description: HasAmbrosiaBouquet
   satisfied: 0
   hash: -1050697916
+--- !u!114 &114731942013876800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: SouthAmericaPickedUp
+  m_EditorClassIdentifier: 
+  description: SouthAmericaPickedUp
+  satisfied: 0
+  hash: 462620941
 --- !u!114 &114747450403530148
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -594,6 +685,20 @@ MonoBehaviour:
   description: PhoenixFeatherAquired
   satisfied: 0
   hash: 1173753866
+--- !u!114 &114780071348206456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: TrapDoorPickedUp
+  m_EditorClassIdentifier: 
+  description: TrapDoorPickedUp
+  satisfied: 0
+  hash: 79335735
 --- !u!114 &114793910634717754
 MonoBehaviour:
   m_ObjectHideFlags: 0

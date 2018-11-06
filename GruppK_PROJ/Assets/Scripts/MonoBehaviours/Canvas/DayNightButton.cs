@@ -11,11 +11,6 @@ public class DayNightButton : MonoBehaviour {
     private Condition lightStaff;
     private bool lightsOn = true;
 
-    private void Start()
-    {
-        gameObject.SetActive(false);
-    }
-
     public void OnClick()
     {
         LightSwitch();
@@ -33,6 +28,29 @@ public class DayNightButton : MonoBehaviour {
         }
     }
 
+    public void HandleOnObjects(List<GameObject> list)
+    {
+        onObjectsFromScene.Clear();
+        foreach (GameObject o in list)
+        {
+            onObjectsFromScene.Add(o);
+        }
+    }
+
+    public void HandleOffObjects(List<GameObject> list)
+    {
+        offObjectsFromScene.Clear();
+        foreach (GameObject o in list)
+        {
+            offObjectsFromScene.Add(o);
+        }
+    }
+
+    public void HideButton()
+    {
+        gameObject.SetActive(false);
+    }
+
     private void LetThereBeLight()
     {
         currentState.satisfied = true;
@@ -40,13 +58,13 @@ public class DayNightButton : MonoBehaviour {
         {
             go.SetActive(true);
         }
-        foreach(GameObject go in offObjectsFromScene)
+        foreach (GameObject go in offObjectsFromScene)
         {
             go.SetActive(false);
         }
         lightsOn = true;
     }
-    
+
     private void LightsOut()
     {
         currentState.satisfied = false;
@@ -60,22 +78,5 @@ public class DayNightButton : MonoBehaviour {
         }
         lightsOn = false;
     }
-
-    public void HandleOnObjects(List<GameObject> list)
-    {
-        foreach (GameObject o in list)
-        {
-            onObjectsFromScene.Add(o);
-        }
-    }
-
-    public void HandleOffObjects(List<GameObject> list)
-    {
-        foreach (GameObject o in list)
-        {
-            offObjectsFromScene.Add(o);
-        }
-    }
-
 
 }

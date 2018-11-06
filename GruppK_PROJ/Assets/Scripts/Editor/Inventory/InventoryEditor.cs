@@ -9,6 +9,7 @@ public class InventoryEditor : Editor
     private SerializedProperty itemsProperty;
     private SerializedProperty itemSlotProperty;
     private SerializedProperty highlightImagesProperty;
+    private SerializedProperty staffObjectProperty;
 
 
 
@@ -16,6 +17,7 @@ public class InventoryEditor : Editor
     private const string inventoryPropItemsName = "items";
     private const string inventoryPropItemSlotName = "itemSlots";
     private const string inventoryPropHighlightImagesName = "highlightImages";
+    private const string inventoryPropStaffObjectName = "staffItem";
 
     private void OnEnable ()
     {
@@ -23,13 +25,14 @@ public class InventoryEditor : Editor
         itemsProperty = serializedObject.FindProperty (inventoryPropItemsName);
         itemSlotProperty = serializedObject.FindProperty(inventoryPropItemSlotName);
         highlightImagesProperty = serializedObject.FindProperty(inventoryPropHighlightImagesName);
+        staffObjectProperty = serializedObject.FindProperty(inventoryPropStaffObjectName);
     }
 
 
     public override void OnInspectorGUI ()
     {
         serializedObject.Update ();
-
+        EditorGUILayout.PropertyField(staffObjectProperty);
         for (int i = 0; i < Inventory.numItemSlots; i++)
         {
             ItemSlotGUI (i);

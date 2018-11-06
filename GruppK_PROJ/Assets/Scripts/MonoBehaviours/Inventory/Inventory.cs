@@ -7,28 +7,28 @@ public class Inventory : MonoBehaviour
     public Image[] itemImages = new Image[numItemSlots];
     public Image[] highlightImages = new Image[numItemSlots];
     public Item[] items = new Item[numItemSlots];
-    public GameObject[] itemSlots = new GameObject[numItemSlots]; 
+    public GameObject[] itemSlots = new GameObject[numItemSlots];
+    public Item staffItem;
+
     public const int numItemSlots = 4;
+
     private BagButton bagButton;
     private GameObject staffButton;
-    private Item staffItem;
-    private Object[] resourceArray;
     private bool hasStaff;
 
     void Start()
     {
-        resourceArray = Resources.LoadAll("");
-        staffItem = Resources.Load("/Items") as Item;
         staffButton = GameObject.Find("StaffButton");
         bagButton = GameObject.Find("Bag").GetComponent<BagButton>();
         for (int i = 0; i < items.Length; i++)
         {
                 highlightImages[i].enabled = false;
         }
+        staffButton.SetActive(false);
     }
+
     public void AddItem(Item itemToAdd)
     {
-        Debug.Log("To add: " + itemToAdd + " Compared to staff: " + staffItem);
         if (!hasStaff && itemToAdd == staffItem)
         {
             staffButton.SetActive(true);
@@ -93,14 +93,4 @@ public class Inventory : MonoBehaviour
     {
         return items;
     }
-    /*private Item FindStaffItem(Object[] array)
-    {
-        foreach(Object o in array)
-        {
-            if (Object.name)
-            {
-
-            }
-        }
-    }*/
 }

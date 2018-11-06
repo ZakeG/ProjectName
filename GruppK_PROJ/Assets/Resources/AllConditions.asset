@@ -71,6 +71,9 @@ MonoBehaviour:
   - {fileID: 114203895195064576}
   - {fileID: 114958520659555010}
   - {fileID: 114294629903837128}
+  - {fileID: 114605847500585344}
+  - {fileID: 114020229249517634}
+  - {fileID: 114669380657901964}
 --- !u!114 &114000264106966828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -99,6 +102,20 @@ MonoBehaviour:
   description: HasGoldTeeth
   satisfied: 0
   hash: 714667375
+--- !u!114 &114020229249517634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: MelonPickedUp
+  m_EditorClassIdentifier: 
+  description: MelonPickedUp
+  satisfied: 0
+  hash: 1422053571
 --- !u!114 &114021465253168762
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -575,6 +592,20 @@ MonoBehaviour:
   description: AfricaPickedUp
   satisfied: 0
   hash: -832665031
+--- !u!114 &114605847500585344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: HasMelon
+  m_EditorClassIdentifier: 
+  description: HasMelon
+  satisfied: 0
+  hash: -1709921099
 --- !u!114 &114635700267114576
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -589,6 +620,20 @@ MonoBehaviour:
   description: HasMask
   satisfied: 0
   hash: 1766527378
+--- !u!114 &114669380657901964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: GhostStartDialouge
+  m_EditorClassIdentifier: 
+  description: GhostStartDialouge
+  satisfied: 0
+  hash: -1389821292
 --- !u!114 &114686047944968942
 MonoBehaviour:
   m_ObjectHideFlags: 0

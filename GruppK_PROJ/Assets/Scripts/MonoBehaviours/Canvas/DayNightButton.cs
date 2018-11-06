@@ -11,6 +11,11 @@ public class DayNightButton : MonoBehaviour {
     private Condition lightStaff;
     private bool lightsOn = true;
 
+    private void Start()
+    {
+        gameObject.SetActive(false);
+    }
+
     public void OnClick()
     {
         LightSwitch();

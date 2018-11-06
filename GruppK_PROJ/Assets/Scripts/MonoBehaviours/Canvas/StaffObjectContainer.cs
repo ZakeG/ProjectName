@@ -7,12 +7,15 @@ public class StaffObjectContainer : MonoBehaviour {
     public List<GameObject> ToTurnOff = new List<GameObject>();
     private DayNightButton button;
 
-
-
-    void Start () {
-        button = GameObject.Find("Staff Button").GetComponent<DayNightButton>();
+    void Initialize()
+    {
+        button = GameObject.Find("StaffButton").GetComponent<DayNightButton>();
         button.HandleOnObjects(ToTurnOn);
         button.HandleOffObjects(ToTurnOff);
+    }
+
+    void Start () {
+        
     }
 
 

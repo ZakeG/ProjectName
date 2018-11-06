@@ -69,6 +69,8 @@ MonoBehaviour:
   - {fileID: 114731942013876800}
   - {fileID: 114780071348206456}
   - {fileID: 114203895195064576}
+  - {fileID: 114958520659555010}
+  - {fileID: 114294629903837128}
 --- !u!114 &114000264106966828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -335,6 +337,20 @@ MonoBehaviour:
   description: HasGumball
   satisfied: 0
   hash: -373825656
+--- !u!114 &114294629903837128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: HasKettle
+  m_EditorClassIdentifier: 
+  description: HasKettle
+  satisfied: 0
+  hash: 905616267
 --- !u!114 &114303500727802912
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -839,6 +855,20 @@ MonoBehaviour:
   description: DooryCrystalQuestAquired
   satisfied: 0
   hash: -1902978946
+--- !u!114 &114958520659555010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: KettlePickedUp
+  m_EditorClassIdentifier: 
+  description: KettlePickedUp
+  satisfied: 0
+  hash: -2028266815
 --- !u!114 &114962063550835238
 MonoBehaviour:
   m_ObjectHideFlags: 0

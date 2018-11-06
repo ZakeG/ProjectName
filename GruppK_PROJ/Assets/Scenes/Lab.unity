@@ -8405,18 +8405,6 @@ Transform:
   m_Father: {fileID: 1695966293}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &190465903
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  message: 1 s dfsd ghseas faw da
 --- !u!1 &190718866
 GameObject:
   m_ObjectHideFlags: 0
@@ -14978,18 +14966,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4,
     type: 2}
   m_PrefabInternal: {fileID: 494869674}
---- !u!114 &495878800
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  message: 10 rd htfh awfd afgdf bcxv  vse rd htfh awfd afgdf bcxv  vse
 --- !u!114 &502091232
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21880,18 +21856,6 @@ MonoBehaviour:
   description: WizardFeatherStartDialouge
   satisfied: 1
   hash: -2085163072
---- !u!114 &636755639
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  message: 4 serhdrjhdr serghse gsesf es fs e
 --- !u!114 &637244980
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27300,29 +27264,6 @@ MonoBehaviour:
   - {fileID: 151451590}
   - {fileID: 2033691373}
   - {fileID: 287201364}
-  - {fileID: 1036401973}
-  - {fileID: 190465903}
-  - {fileID: 2113719451}
-  - {fileID: 1844590491}
-  - {fileID: 636755639}
-  - {fileID: 1347904111}
-  - {fileID: 867851641}
-  - {fileID: 1514790562}
-  - {fileID: 1906351068}
-  - {fileID: 1731237830}
-  - {fileID: 495878800}
---- !u!114 &867851641
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  message: 6  rd htfh awfd afgdf bcxv  vse rd htfh awfd afgdf bcxv  vse
 --- !u!1001 &868668074
 Prefab:
   m_ObjectHideFlags: 0
@@ -30781,18 +30722,6 @@ MonoBehaviour:
   order: 0
   gameObject: {fileID: 923574000}
   activeState: 0
---- !u!114 &1036401973
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  message: The wizard wants me to...
 --- !u!1001 &1037670817
 Prefab:
   m_ObjectHideFlags: 0
@@ -36913,19 +36842,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1347603214}
   m_Mesh: {fileID: 4300000, guid: f68e26733f39a5c42b1f9cec45827f07, type: 3}
---- !u!114 &1347904111
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  message: 5 rd htfh awfd afgdf bcxv  vse rd htfh awfd afgdf bcxv  vse rd htfh awfd
-    afgdf bcxv  vse rd htfh awfd afgdf bcxv  vse
 --- !u!1001 &1348795920
 Prefab:
   m_ObjectHideFlags: 0
@@ -40411,19 +40327,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   order: 1
   item: {fileID: 11400000, guid: cfd5a4173eae59b4f823e458325423b1, type: 2}
---- !u!114 &1514790562
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  message: 7  rd htfh awfd  rd htfh awfd afgdf bcxv  vse rd htfh awfd afgdf bcxv  vse
-    afgdf bcxv  vse rd htfh awfd afgdf bcxv  vse rd htfh awfd afgdf bcxv  vse
 --- !u!1 &1515522202
 GameObject:
   m_ObjectHideFlags: 0
@@ -44919,18 +44822,6 @@ MonoBehaviour:
   - {fileID: 2077849686}
   - {fileID: 2010514591}
   - {fileID: 1884548118}
---- !u!114 &1731237830
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  message: 9 rd htfh awfd afgdf bcxv  vse rd htfh awfd afgdf bcxv  vse
 --- !u!1 &1735921959
 GameObject:
   m_ObjectHideFlags: 0
@@ -47266,18 +47157,6 @@ MonoBehaviour:
   - {fileID: 1765789313}
   - {fileID: 808454466}
   - {fileID: 237439404}
---- !u!114 &1844590491
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  message: 3 esgse vsd fs efse fs e
 --- !u!114 &1845529403
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48417,20 +48296,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1906012631}
   m_Mesh: {fileID: 4300000, guid: 80a736bd41b106c49bc2178c7c581c8c, type: 3}
---- !u!114 &1906351068
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  message: 8 rd htfh awfd afgdf bcxv  vse rd htfh awfd afgdf bcxv  vse  rd htfh awfd
-    afgdf bcxv  vse rd htfh awfd afgdf bcxv  vse  rd htfh awfd afgdf bcxv  vse rd
-    htfh awfd afgdf bcxv  vse
 --- !u!114 &1909800517
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56899,18 +56764,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2113324518}
   m_Mesh: {fileID: 4300000, guid: 86175ed772403a846921e35eb4cdcbe3, type: 3}
---- !u!114 &2113719451
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  message: 2 rd htfh awfd afgdf bcxv  vse
 --- !u!1 &2116656537
 GameObject:
   m_ObjectHideFlags: 0

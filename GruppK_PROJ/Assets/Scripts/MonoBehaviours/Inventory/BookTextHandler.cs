@@ -103,15 +103,23 @@ public class BookTextHandler : MonoBehaviour {
 
     public void TurnPage()
     {
-        Debug.Log("Turning to page " + currentPageNr);
-        foreach (Page p in pages)
+        if (currentPageNr == pages.Count)
         {
-            if (p.pageNr == currentPageNr)
+            textBeingShownP1 = currentPageP1;
+            textBeingShownP2 = currentPageP2;
+            UpdateBookText();
+        }
+        else
+        {
+            foreach (Page p in pages)
             {
-                textBeingShownP1 = p.text1;
-                textBeingShownP2 = p.text2;
-                UpdateBookText();
-                return;
+                if (p.pageNr == currentPageNr)
+                {
+                    textBeingShownP1 = p.text1;
+                    textBeingShownP2 = p.text2;
+                    UpdateBookText();
+                    return;
+                }
             }
         }
     }

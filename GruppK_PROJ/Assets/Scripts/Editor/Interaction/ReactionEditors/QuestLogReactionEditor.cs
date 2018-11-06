@@ -26,7 +26,6 @@ public class QuestLogReactionEditor : ReactionEditor
         EditorGUILayout.EndHorizontal();
     }
 
-
     protected override string GetFoldoutLabel()
     {
         return "Questlog Reaction";

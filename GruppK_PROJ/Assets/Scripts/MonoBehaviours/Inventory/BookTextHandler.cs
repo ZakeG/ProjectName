@@ -9,7 +9,6 @@ public class BookTextHandler : MonoBehaviour {
     public string textBeingShownP1;
     public string textBeingShownP2;
     public int currentPageNr;
-    public int lookingAtPage;
 
     private List<Page> pages;
     private Text page1;
@@ -19,8 +18,8 @@ public class BookTextHandler : MonoBehaviour {
     private string textToAdd;
     private int workingOnPage;
 
-    private const int maxCharacterCount = 480;
-    private const int line = 24;
+    private const int maxCharacterCount = 600;
+    private const int line = 43;
 
     public struct Page
     {
@@ -31,12 +30,11 @@ public class BookTextHandler : MonoBehaviour {
 
     public void Start()
     {
-        lookingAtPage = 1;
-        workingOnPage = 1;
-        currentPageNr = 1;
+        pages = new List<Page>();
+        workingOnPage = 0;
+        currentPageNr = 0;
         page1 = gameObject.GetComponent<Text>();
         page2 = secondPage.GetComponent<Text>();
-        pages = new List<Page>();
         StartBook();
     }
 
@@ -51,7 +49,7 @@ public class BookTextHandler : MonoBehaviour {
 
     public void AddText(string newText)
     {
-        string textToInput = newText + System.Environment.NewLine + "-----------------------------------------";
+        string textToInput = newText += "\n-------------------------------------------";
         string testText1 = page1.text + textToInput;
         string testText2 = page2.text + textToInput;
         if (!(testText1.Length > maxCharacterCount)) {
@@ -64,8 +62,9 @@ public class BookTextHandler : MonoBehaviour {
         else
         {
             AddNewPageToBook();
-            currentPageP1 = string.Empty + textToInput;
-            currentPageP2 = string.Empty;
+            currentPageNr++;
+            currentPageP1 = "" + textToInput;
+            currentPageP2 = "";
         }
         textBeingShownP1 = currentPageP1;
         textBeingShownP2 = currentPageP2;
@@ -75,7 +74,7 @@ public class BookTextHandler : MonoBehaviour {
     public void TurnPageForward()
     {
         currentPageNr++;
-        if (pages.Count > currentPageNr)
+        if (currentPageNr >= pages.Count+1)
         {
             currentPageNr--;
             return;
@@ -90,7 +89,7 @@ public class BookTextHandler : MonoBehaviour {
     public void TurnPageBackward()
     {
         currentPageNr--;
-        if (pages.Count < currentPageNr)
+        if (currentPageNr < 0)
         {
             currentPageNr++;
             return;
@@ -104,6 +103,7 @@ public class BookTextHandler : MonoBehaviour {
 
     public void TurnPage()
     {
+        Debug.Log("Turning to page " + currentPageNr);
         foreach (Page p in pages)
         {
             if (p.pageNr == currentPageNr)

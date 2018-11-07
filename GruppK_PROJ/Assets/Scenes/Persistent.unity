@@ -1771,7 +1771,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   resettableScriptableObjects:
   - {fileID: 11400000, guid: fd02464d008c790478d9826aba7c7847, type: 2}
-  - {fileID: 11400000, guid: 16dd762b85086c643aa49deff40db82a, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 55d72825bf06cf44e9cbc1b37812cc6f, type: 2}
+  - {fileID: 11400000, guid: 55d72825bf06cf44e9cbc1b37812cc6f, type: 2}
   - {fileID: 11400000, guid: 55d72825bf06cf44e9cbc1b37812cc6f, type: 2}
 --- !u!4 &1446455603
 Transform:

@@ -85,6 +85,15 @@ MonoBehaviour:
   - {fileID: 114419866438435280}
   - {fileID: 114316871784978968}
   - {fileID: 114446721058115782}
+  - {fileID: 114572579775588760}
+  - {fileID: 114557022747929130}
+  - {fileID: 114484754234669926}
+  - {fileID: 114641843970899782}
+  - {fileID: 114472562520000116}
+  - {fileID: 114183985439150480}
+  - {fileID: 114617419580988094}
+  - {fileID: 114237531333016098}
+  - {fileID: 114629641773030286}
 --- !u!114 &114000264106966828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -295,6 +304,20 @@ MonoBehaviour:
   description: HasAustralia
   satisfied: 0
   hash: 1849421182
+--- !u!114 &114183985439150480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: DungeonDoorAquired
+  m_EditorClassIdentifier: 
+  description: DungeonDoorAquired
+  satisfied: 0
+  hash: 497694258
 --- !u!114 &114188702843383964
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -351,6 +374,20 @@ MonoBehaviour:
   description: GoldTeethPickedUp
   satisfied: 0
   hash: 773319145
+--- !u!114 &114237531333016098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: DryPlantPickedUp
+  m_EditorClassIdentifier: 
+  description: DryPlantPickedUp
+  satisfied: 0
+  hash: -728018254
 --- !u!114 &114250745950778472
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -617,6 +654,20 @@ MonoBehaviour:
   description: HasAfrica
   satisfied: 0
   hash: 1654748436
+--- !u!114 &114472562520000116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: DragonFireQuestStarted
+  m_EditorClassIdentifier: 
+  description: DragonFireQuestStarted
+  satisfied: 0
+  hash: -217872512
 --- !u!114 &114476403303460260
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -631,6 +682,20 @@ MonoBehaviour:
   description: ChestPickedUp
   satisfied: 0
   hash: 1337608849
+--- !u!114 &114484754234669926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: GoldenAppleQuestStarted
+  m_EditorClassIdentifier: 
+  description: GoldenAppleQuestStarted
+  satisfied: 0
+  hash: -1349830514
 --- !u!114 &114488669246345718
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -659,6 +724,20 @@ MonoBehaviour:
   description: HasSeeds
   satisfied: 0
   hash: -890827829
+--- !u!114 &114557022747929130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: TrapDoorKeyQuestStarted
+  m_EditorClassIdentifier: 
+  description: TrapDoorKeyQuestStarted
+  satisfied: 0
+  hash: -512714051
 --- !u!114 &114569684155728616
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -673,6 +752,20 @@ MonoBehaviour:
   description: Moonpiece2PickedUp
   satisfied: 0
   hash: 1360949564
+--- !u!114 &114572579775588760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: AmbrosiaQuestStarted
+  m_EditorClassIdentifier: 
+  description: AmbrosiaQuestStarted
+  satisfied: 0
+  hash: 403237319
 --- !u!114 &114573808208314410
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -701,6 +794,20 @@ MonoBehaviour:
   description: HasMelon
   satisfied: 0
   hash: -1709921099
+--- !u!114 &114617419580988094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: HasDryPlant
+  m_EditorClassIdentifier: 
+  description: HasDryPlant
+  satisfied: 0
+  hash: -1494590097
 --- !u!114 &114619320260106674
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -715,6 +822,20 @@ MonoBehaviour:
   description: TeapotPickedUp
   satisfied: 0
   hash: -1009543676
+--- !u!114 &114629641773030286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: CrushedHerbsPickedUp
+  m_EditorClassIdentifier: 
+  description: CrushedHerbsPickedUp
+  satisfied: 0
+  hash: 1068547157
 --- !u!114 &114635700267114576
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -729,6 +850,20 @@ MonoBehaviour:
   description: HasMask
   satisfied: 0
   hash: 1766527378
+--- !u!114 &114641843970899782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: DungeonDoorQuestStarted
+  m_EditorClassIdentifier: 
+  description: DungeonDoorQuestStarted
+  satisfied: 0
+  hash: 725782500
 --- !u!114 &114669380657901964
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -498,8 +498,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   faderCanvasGroup: {fileID: 1708470355}
   fadeDuration: 1
-  startingSceneName: Dungeon
-  initialStartingPositionName: DungeonStartPoint
+  startingSceneName: Lab
+  initialStartingPositionName: LabStartPoint
   playerSaveData: {fileID: 11400000, guid: 55d72825bf06cf44e9cbc1b37812cc6f, type: 2}
 --- !u!4 &353158847
 Transform:
@@ -1771,9 +1771,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   resettableScriptableObjects:
   - {fileID: 11400000, guid: fd02464d008c790478d9826aba7c7847, type: 2}
-  - {fileID: 0}
-  - {fileID: 11400000, guid: 55d72825bf06cf44e9cbc1b37812cc6f, type: 2}
-  - {fileID: 11400000, guid: 55d72825bf06cf44e9cbc1b37812cc6f, type: 2}
+  - {fileID: 11400000, guid: e1fa821107c22d74296714468f88f7c4, type: 2}
+  - {fileID: 11400000, guid: aba905177fec3714798fabdc27b67ee8, type: 2}
+  - {fileID: 11400000, guid: 9b69ea13663e34d4291598a280c2938c, type: 2}
+  - {fileID: 11400000, guid: d4fe277f5ebf1e5488c85d41a691249b, type: 2}
   - {fileID: 11400000, guid: 55d72825bf06cf44e9cbc1b37812cc6f, type: 2}
 --- !u!4 &1446455603
 Transform:

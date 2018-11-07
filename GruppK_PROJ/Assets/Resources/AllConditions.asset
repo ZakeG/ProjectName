@@ -74,6 +74,9 @@ MonoBehaviour:
   - {fileID: 114605847500585344}
   - {fileID: 114020229249517634}
   - {fileID: 114669380657901964}
+  - {fileID: 114355927410736430}
+  - {fileID: 114887618442997130}
+  - {fileID: 114076243485715652}
 --- !u!114 &114000264106966828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -130,6 +133,20 @@ MonoBehaviour:
   description: MoonPickedUp
   satisfied: 0
   hash: 1562209020
+--- !u!114 &114076243485715652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: NecklaceAquired
+  m_EditorClassIdentifier: 
+  description: NecklaceAquired
+  satisfied: 0
+  hash: -605260240
 --- !u!114 &114079855327260508
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -410,6 +427,20 @@ MonoBehaviour:
   description: HasLockPick
   satisfied: 0
   hash: -1947044185
+--- !u!114 &114355927410736430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: CatStartDialouge
+  m_EditorClassIdentifier: 
+  description: CatStartDialouge
+  satisfied: 0
+  hash: -1272552845
 --- !u!114 &114378766285203814
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -872,6 +903,20 @@ MonoBehaviour:
   description: WaterPickedUp
   satisfied: 0
   hash: -1870712990
+--- !u!114 &114887618442997130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: HasGhostNecklace
+  m_EditorClassIdentifier: 
+  description: HasGhostNecklace
+  satisfied: 0
+  hash: -1890146842
 --- !u!114 &114893403863706380
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -1,21 +1,14 @@
 fileFormatVersion: 2
-guid: 3c409c47b30f60246888254eeb4f92e9
+guid: bdfbc18b203f4404290f4764dceb1819
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
-    100002: Dome1
-    100004: stand
     400000: //RootNode
-    400002: Dome1
-    400004: stand
     2100000: lambert1
-    2300000: Dome1
-    2300002: stand
-    3300000: Dome1
-    3300002: stand
-    4300000: stand
-    4300002: Dome1
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: lock_pick
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -47,7 +40,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 4
+    globalScale: 1
     meshCompression: 0
     addColliders: 0
     importVisibility: 1
@@ -88,6 +81,7 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1

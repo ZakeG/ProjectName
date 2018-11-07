@@ -13,3 +13,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprite: {fileID: 0}
   itemName: Coin
+  pickUpCondition: {fileID: 114159093089903314, guid: fd02464d008c790478d9826aba7c7847,
+    type: 2}

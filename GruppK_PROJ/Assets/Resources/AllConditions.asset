@@ -77,6 +77,14 @@ MonoBehaviour:
   - {fileID: 114355927410736430}
   - {fileID: 114887618442997130}
   - {fileID: 114076243485715652}
+  - {fileID: 114697647035877994}
+  - {fileID: 114386008892879264}
+  - {fileID: 114883678307390558}
+  - {fileID: 114619320260106674}
+  - {fileID: 114770094366030908}
+  - {fileID: 114419866438435280}
+  - {fileID: 114316871784978968}
+  - {fileID: 114446721058115782}
 --- !u!114 &114000264106966828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -399,6 +407,20 @@ MonoBehaviour:
   description: GumballAquired
   satisfied: 0
   hash: -1084624778
+--- !u!114 &114316871784978968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: LiquidGoldPickedUp
+  m_EditorClassIdentifier: 
+  description: LiquidGoldPickedUp
+  satisfied: 0
+  hash: -909187435
 --- !u!114 &114336684936229846
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -455,6 +477,20 @@ MonoBehaviour:
   description: RedVialPickedUp
   satisfied: 0
   hash: -1271910177
+--- !u!114 &114386008892879264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: BowlPickedUp
+  m_EditorClassIdentifier: 
+  description: BowlPickedUp
+  satisfied: 0
+  hash: 889592855
 --- !u!114 &114418454286531158
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -469,6 +505,20 @@ MonoBehaviour:
   description: WizardStartDialogue
   satisfied: 1
   hash: 467004734
+--- !u!114 &114419866438435280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: StringAquired
+  m_EditorClassIdentifier: 
+  description: StringAquired
+  satisfied: 0
+  hash: 158687656
 --- !u!114 &114422671205819766
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -539,6 +589,20 @@ MonoBehaviour:
   description: HoneyJarPickedUp
   satisfied: 0
   hash: 1642796241
+--- !u!114 &114446721058115782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: WaterCrystalPickedUp
+  m_EditorClassIdentifier: 
+  description: WaterCrystalPickedUp
+  satisfied: 0
+  hash: 290603084
 --- !u!114 &114467616167834322
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -637,6 +701,20 @@ MonoBehaviour:
   description: HasMelon
   satisfied: 0
   hash: -1709921099
+--- !u!114 &114619320260106674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: TeapotPickedUp
+  m_EditorClassIdentifier: 
+  description: TeapotPickedUp
+  satisfied: 0
+  hash: -1009543676
 --- !u!114 &114635700267114576
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -679,6 +757,20 @@ MonoBehaviour:
   description: HasSouthAmerica
   satisfied: 0
   hash: 120859751
+--- !u!114 &114697647035877994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: AmbrosiaBouquetAquired
+  m_EditorClassIdentifier: 
+  description: AmbrosiaBouquetAquired
+  satisfied: 0
+  hash: 449017577
 --- !u!114 &114710624494531832
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -763,6 +855,20 @@ MonoBehaviour:
   description: GlowingJarPickedUp
   satisfied: 0
   hash: 1360342739
+--- !u!114 &114770094366030908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: TeaBagAquired
+  m_EditorClassIdentifier: 
+  description: TeaBagAquired
+  satisfied: 0
+  hash: -1129622689
 --- !u!114 &114778350263410574
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -903,6 +1009,20 @@ MonoBehaviour:
   description: WaterPickedUp
   satisfied: 0
   hash: -1870712990
+--- !u!114 &114883678307390558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: TrapDoorKeyPickedUp
+  m_EditorClassIdentifier: 
+  description: TrapDoorKeyPickedUp
+  satisfied: 0
+  hash: -1873957032
 --- !u!114 &114887618442997130
 MonoBehaviour:
   m_ObjectHideFlags: 0

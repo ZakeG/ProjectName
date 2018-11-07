@@ -11,8 +11,8 @@ public class SceneController : MonoBehaviour
 
     public CanvasGroup faderCanvasGroup;
     public float fadeDuration = 1f;
-    public string startingSceneName = "SecurityRoom";
-    public string initialStartingPositionName = "DoorToMarket";
+    public string startingSceneName;
+    public string initialStartingPositionName;
     public SaveData playerSaveData;
 
     private bool isFading;

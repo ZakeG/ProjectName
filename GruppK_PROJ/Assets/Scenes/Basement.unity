@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.45065588, g: 0.50062007, b: 0.57494307, a: 1}
+  m_IndirectSpecularColor: {r: 0.45065933, g: 0.50062144, b: 0.57494175, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -19159,11 +19159,11 @@ Prefab:
     - target: {fileID: 2300016, guid: d0ab0a3b389647043b994a97b7dc8f8b, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 826f845a312b24c4ba20a72d602bc984, type: 2}
+      objectReference: {fileID: 2100000, guid: cdc6533910da0fe4d96f4c9cbffd5a46, type: 2}
     - target: {fileID: 2300014, guid: d0ab0a3b389647043b994a97b7dc8f8b, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 826f845a312b24c4ba20a72d602bc984, type: 2}
+      objectReference: {fileID: 2100000, guid: cdc6533910da0fe4d96f4c9cbffd5a46, type: 2}
     - target: {fileID: 2300026, guid: d0ab0a3b389647043b994a97b7dc8f8b, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -19195,19 +19195,19 @@ Prefab:
     - target: {fileID: 2300000, guid: d0ab0a3b389647043b994a97b7dc8f8b, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 49b92455730e63746a7b1eb442750448, type: 2}
+      objectReference: {fileID: 2100000, guid: 0aa0781f8b8c5de4bad8c687f3b37c63, type: 2}
     - target: {fileID: 2300004, guid: d0ab0a3b389647043b994a97b7dc8f8b, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 49b92455730e63746a7b1eb442750448, type: 2}
+      objectReference: {fileID: 2100000, guid: 0aa0781f8b8c5de4bad8c687f3b37c63, type: 2}
     - target: {fileID: 2300018, guid: d0ab0a3b389647043b994a97b7dc8f8b, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 49b92455730e63746a7b1eb442750448, type: 2}
+      objectReference: {fileID: 2100000, guid: 0aa0781f8b8c5de4bad8c687f3b37c63, type: 2}
     - target: {fileID: 2300024, guid: d0ab0a3b389647043b994a97b7dc8f8b, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 49b92455730e63746a7b1eb442750448, type: 2}
+      objectReference: {fileID: 2100000, guid: 0aa0781f8b8c5de4bad8c687f3b37c63, type: 2}
     - target: {fileID: 2300020, guid: d0ab0a3b389647043b994a97b7dc8f8b, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -19215,19 +19215,19 @@ Prefab:
     - target: {fileID: 2300008, guid: d0ab0a3b389647043b994a97b7dc8f8b, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 49b92455730e63746a7b1eb442750448, type: 2}
+      objectReference: {fileID: 2100000, guid: 0aa0781f8b8c5de4bad8c687f3b37c63, type: 2}
     - target: {fileID: 2300006, guid: d0ab0a3b389647043b994a97b7dc8f8b, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 49b92455730e63746a7b1eb442750448, type: 2}
+      objectReference: {fileID: 2100000, guid: 0aa0781f8b8c5de4bad8c687f3b37c63, type: 2}
     - target: {fileID: 2300002, guid: d0ab0a3b389647043b994a97b7dc8f8b, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 49b92455730e63746a7b1eb442750448, type: 2}
+      objectReference: {fileID: 2100000, guid: 0aa0781f8b8c5de4bad8c687f3b37c63, type: 2}
     - target: {fileID: 2300036, guid: d0ab0a3b389647043b994a97b7dc8f8b, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 49b92455730e63746a7b1eb442750448, type: 2}
+      objectReference: {fileID: 2100000, guid: 0aa0781f8b8c5de4bad8c687f3b37c63, type: 2}
     - target: {fileID: 2300022, guid: d0ab0a3b389647043b994a97b7dc8f8b, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 

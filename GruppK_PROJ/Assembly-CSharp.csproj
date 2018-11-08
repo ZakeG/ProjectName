@@ -64,6 +64,7 @@
     <Compile Include="Assets\Scripts\MonoBehaviours\Camera\CameraControl.cs" />
     <Compile Include="Assets\Scripts\MonoBehaviours\Canvas\DayNightButton.cs" />
     <Compile Include="Assets\Scripts\MonoBehaviours\Canvas\StaffObjectContainer.cs" />
+    <Compile Include="Assets\Scripts\MonoBehaviours\Canvas\StartMenu.cs" />
     <Compile Include="Assets\Scripts\MonoBehaviours\DataPersistence\BehaviourEnableStateSaver.cs" />
     <Compile Include="Assets\Scripts\MonoBehaviours\DataPersistence\DataResetter.cs" />
     <Compile Include="Assets\Scripts\MonoBehaviours\DataPersistence\GameObjectActivitySaver.cs" />
@@ -103,7 +104,6 @@
     <Compile Include="Assets\Scripts\ScriptableObjects\Interaction\Reactions\ImmediateReactions\TextReaction.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\Inventory\Item.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\Inventory\ItemCombination.cs" />
-    <Compile Include="Assets\StartMenu.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/jono2493/Documents/GitHub/ProjectName/GruppK_PROJ/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>

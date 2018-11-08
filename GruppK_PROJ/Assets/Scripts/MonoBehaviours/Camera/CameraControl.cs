@@ -17,13 +17,11 @@ public class CameraControl : MonoBehaviour
     private float yaw = 0.0f;
     private float pitch = 0.0f;
     private bool rotating;
-    private Vector3 originalValue;
 
     private IEnumerator Start ()
     {
         mainCamera = gameObject.GetComponentInChildren<Camera>();
         fov = mainCamera.fieldOfView;
-        originalValue = mainCamera.transform.eulerAngles;
         if (!moveCamera)
             yield break;
 

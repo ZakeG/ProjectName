@@ -697,6 +697,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentState: {fileID: 114197075916628298, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}
+  scene: {fileID: 0}
 --- !u!1 &540621778 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1325915262752100, guid: 4e8df035f829e804d8a25261ea8b2bcb,
@@ -1960,7 +1961,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Bla bla bla
+  m_Text: 'I have arrived at the wizard tower, the first thing I should do is greet
+    the wizard!
 
     ----'
 --- !u!222 &1581495543
@@ -1992,6 +1994,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1335123713}
     m_Modifications:
+    - target: {fileID: 114668889576556892, guid: 4e8df035f829e804d8a25261ea8b2bcb,
+        type: 2}
+      propertyPath: combinations.Array.size
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 224750580205128106, guid: 4e8df035f829e804d8a25261ea8b2bcb,
         type: 2}
       propertyPath: m_LocalPosition.x
@@ -2412,6 +2419,84 @@ Prefab:
       propertyPath: audioSource
       value: 
       objectReference: {fileID: 1131390653}
+    - target: {fileID: 114668889576556892, guid: 4e8df035f829e804d8a25261ea8b2bcb,
+        type: 2}
+      propertyPath: combinations.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: f5ba86c18f5080440970791220a9cb01,
+        type: 2}
+    - target: {fileID: 114668889576556892, guid: 4e8df035f829e804d8a25261ea8b2bcb,
+        type: 2}
+      propertyPath: combinations.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 816676241ba548346b671911dae8e9ba,
+        type: 2}
+    - target: {fileID: 114668889576556892, guid: 4e8df035f829e804d8a25261ea8b2bcb,
+        type: 2}
+      propertyPath: combinations.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: c53f64446d5961c4ca35cbd7ca82d2a7,
+        type: 2}
+    - target: {fileID: 114668889576556892, guid: 4e8df035f829e804d8a25261ea8b2bcb,
+        type: 2}
+      propertyPath: combinations.Array.data[3]
+      value: 
+      objectReference: {fileID: 11400000, guid: 49464520211bf044d85a4e22299bcf28,
+        type: 2}
+    - target: {fileID: 114668889576556892, guid: 4e8df035f829e804d8a25261ea8b2bcb,
+        type: 2}
+      propertyPath: combinations.Array.data[4]
+      value: 
+      objectReference: {fileID: 11400000, guid: 6725ab6fb50054c49b37af351938d2ca,
+        type: 2}
+    - target: {fileID: 114668889576556892, guid: 4e8df035f829e804d8a25261ea8b2bcb,
+        type: 2}
+      propertyPath: combinations.Array.data[5]
+      value: 
+      objectReference: {fileID: 11400000, guid: 170ea3bc0e3b3f948aed09ba1444e763,
+        type: 2}
+    - target: {fileID: 114668889576556892, guid: 4e8df035f829e804d8a25261ea8b2bcb,
+        type: 2}
+      propertyPath: combinations.Array.data[6]
+      value: 
+      objectReference: {fileID: 11400000, guid: 77aaa5c14c7752a48bb4dff011ac51b5,
+        type: 2}
+    - target: {fileID: 114668889576556892, guid: 4e8df035f829e804d8a25261ea8b2bcb,
+        type: 2}
+      propertyPath: combinations.Array.data[7]
+      value: 
+      objectReference: {fileID: 11400000, guid: a5e16e3118a6fc64195c430ad8cd7de0,
+        type: 2}
+    - target: {fileID: 114668889576556892, guid: 4e8df035f829e804d8a25261ea8b2bcb,
+        type: 2}
+      propertyPath: combinations.Array.data[8]
+      value: 
+      objectReference: {fileID: 11400000, guid: 6d8a1c1983527704d8a91ceb38213ad6,
+        type: 2}
+    - target: {fileID: 114668889576556892, guid: 4e8df035f829e804d8a25261ea8b2bcb,
+        type: 2}
+      propertyPath: combinations.Array.data[9]
+      value: 
+      objectReference: {fileID: 11400000, guid: 9692815d62711b5458f7a592e450dc7a,
+        type: 2}
+    - target: {fileID: 114668889576556892, guid: 4e8df035f829e804d8a25261ea8b2bcb,
+        type: 2}
+      propertyPath: combinations.Array.data[10]
+      value: 
+      objectReference: {fileID: 11400000, guid: 0e49afc3c10f20e4b8ca4708248a47de,
+        type: 2}
+    - target: {fileID: 114668889576556892, guid: 4e8df035f829e804d8a25261ea8b2bcb,
+        type: 2}
+      propertyPath: combinations.Array.data[11]
+      value: 
+      objectReference: {fileID: 11400000, guid: e2331a2b614d5464fb05aa2ae111575f,
+        type: 2}
+    - target: {fileID: 114668889576556892, guid: 4e8df035f829e804d8a25261ea8b2bcb,
+        type: 2}
+      propertyPath: combinations.Array.data[12]
+      value: 
+      objectReference: {fileID: 11400000, guid: bfc7aba65c4408549a5df89d9b8e3df4,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e8df035f829e804d8a25261ea8b2bcb, type: 2}
   m_IsPrefabAsset: 0

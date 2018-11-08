@@ -91,11 +91,17 @@ public class DayNightButton : MonoBehaviour {
         currentState.satisfied = !currentState.satisfied;
         foreach (GameObject go in DayObjectsFromScene)
         {
-            go.SetActive(currentState.satisfied);
+            if (!(go == null))
+            {
+                go.SetActive(currentState.satisfied);
+            }
         }
         foreach (GameObject go in NightObjectsFromScene)
         {
-            go.SetActive(!currentState.satisfied);
+            if (!(go == null))
+            {
+                go.SetActive(!currentState.satisfied);
+            }
         }
     }
 

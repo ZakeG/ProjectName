@@ -160,6 +160,20 @@ Transform:
   m_Father: {fileID: 339063940}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: -12.0060005, z: 90.00001}
+--- !u!114 &12253789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: I have a plant in the livingroom.
+  textColor: {r: 1, g: 1, b: 1, a: 1}
+  order: 7
 --- !u!114 &12827892
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -369,7 +383,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   description: FeatherStartReaction
   requiredConditions:
-  - {fileID: 32117152}
   - {fileID: 1742161021}
   reactionCollection: {fileID: 155252399}
 --- !u!114 &30735386
@@ -454,20 +467,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &32117152
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  description: StaffCompleted
-  satisfied: 1
-  hash: 2045985755
 --- !u!1 &34536700
 GameObject:
   m_ObjectHideFlags: 0
@@ -918,6 +917,20 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 05aa8aaac0a0631499d26b9159213d95, type: 2}
   m_IsPrefabAsset: 0
+--- !u!114 &56339645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: The livingroom is downstairs,
+  textColor: {r: 1, g: 1, b: 1, a: 1}
+  order: 9
 --- !u!1 &59061893
 GameObject:
   m_ObjectHideFlags: 0
@@ -1317,20 +1330,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 63732023}
   m_Mesh: {fileID: 4300000, guid: f68e26733f39a5c42b1f9cec45827f07, type: 3}
---- !u!114 &65231395
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  message: What's all this?
-  textColor: {r: 1, g: 1, b: 1, a: 1}
-  order: 0
 --- !u!114 &65706283
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6752,13 +6751,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   description: BuildStaffReacion
   requiredConditions:
-  - {fileID: 1672215599}
-  - {fileID: 245017323}
-  - {fileID: 510728004}
-  - {fileID: 1206401514}
-  - {fileID: 1708025449}
-  - {fileID: 186104243}
-  - {fileID: 1281326761}
+  - {fileID: 683201377}
+  - {fileID: 263245841}
   reactionCollection: {fileID: 1857918835}
 --- !u!1 &98978763
 GameObject:
@@ -7012,32 +7006,6 @@ Transform:
   m_Father: {fileID: 339063940}
   m_RootOrder: 49
   m_LocalEulerAnglesHint: {x: 0, y: 267.274, z: 90.00001}
---- !u!114 &111573844
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec43236ba6522584894ac80bfbcb3815, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  condition: {fileID: 114778350263410574, guid: fd02464d008c790478d9826aba7c7847,
-    type: 2}
-  satisfied: 1
---- !u!114 &115439763
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d482a9551d8b074097fdb7beded4043, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 11400000, guid: 610acd5a11a5e9e4cbc992f0636fbccf, type: 2}
 --- !u!114 &119626295
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7477,20 +7445,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 145679098}
   m_Mesh: {fileID: 4300000, guid: f68e26733f39a5c42b1f9cec45827f07, type: 3}
---- !u!114 &146193801
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec43236ba6522584894ac80bfbcb3815, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  condition: {fileID: 114761333550728362, guid: fd02464d008c790478d9826aba7c7847,
-    type: 2}
-  satisfied: 0
 --- !u!1 &146873614
 GameObject:
   m_ObjectHideFlags: 0
@@ -7624,7 +7578,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: You should be able to find all that in the lab.
+  message: 'You need to find items that represent each half of the night and day staff! '
   textColor: {r: 1, g: 1, b: 1, a: 1}
   order: 5
 --- !u!1 &155252398
@@ -7687,20 +7641,6 @@ MonoBehaviour:
   message: I wonder if this bird is afraid of scarecrows.
   textColor: {r: 1, g: 1, b: 1, a: 1}
   order: 0
---- !u!114 &162305833
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec43236ba6522584894ac80bfbcb3815, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  condition: {fileID: 114021465253168762, guid: fd02464d008c790478d9826aba7c7847,
-    type: 2}
-  satisfied: 0
 --- !u!1001 &165796967
 Prefab:
   m_ObjectHideFlags: 0
@@ -7888,27 +7828,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   reactions:
-  - {fileID: 65231395}
   - {fileID: 1483420020}
   - {fileID: 2023560931}
   - {fileID: 767676407}
   - {fileID: 411597673}
   - {fileID: 698433258}
   - {fileID: 1096977769}
-  - {fileID: 111573844}
   - {fileID: 1285533951}
   - {fileID: 996829247}
-  - {fileID: 992974236}
-  - {fileID: 364636441}
-  - {fileID: 502091232}
-  - {fileID: 1467676665}
-  - {fileID: 1159558390}
-  - {fileID: 282268093}
-  - {fileID: 1198634395}
   - {fileID: 1775427202}
   - {fileID: 467991229}
   - {fileID: 1504580960}
   - {fileID: 1493225056}
+  - {fileID: 12253789}
+  - {fileID: 1763410012}
+  - {fileID: 56339645}
+  - {fileID: 894623502}
 --- !u!1 &166737873
 GameObject:
   m_ObjectHideFlags: 0
@@ -8441,20 +8376,6 @@ MonoBehaviour:
   message: I'ts missing the top part where you put the things you wish to melt
   textColor: {r: 1, g: 1, b: 1, a: 1}
   order: 0
---- !u!114 &186104243
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  description: Moonpiece1PickedUp
-  satisfied: 1
-  hash: 1754484217
 --- !u!1 &188815371
 GameObject:
   m_ObjectHideFlags: 0
@@ -9281,18 +9202,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 211446899}
   m_Mesh: {fileID: 4300000, guid: f68e26733f39a5c42b1f9cec45827f07, type: 3}
---- !u!114 &213207612
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d482a9551d8b074097fdb7beded4043, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 11400000, guid: ac342687aedb03040988b68b54f101ae, type: 2}
 --- !u!1 &213708279
 GameObject:
   m_ObjectHideFlags: 0
@@ -9474,7 +9383,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: Unfortunately, I lost all the stuff I need here in this lab.
+  message: Unfortunately, I seem to have forgotten some of the ingredients! Before
+    you get started
   textColor: {r: 1, g: 1, b: 1, a: 1}
   order: 3
 --- !u!114 &223828894
@@ -9740,20 +9650,6 @@ Transform:
   m_Father: {fileID: 339063940}
   m_RootOrder: 64
   m_LocalEulerAnglesHint: {x: -4.8120003, y: 0, z: 0}
---- !u!114 &245017323
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  description: BroomstickPickedUp
-  satisfied: 1
-  hash: -493304219
 --- !u!1 &245028107
 GameObject:
   m_ObjectHideFlags: 0
@@ -10009,6 +9905,20 @@ MonoBehaviour:
   description: BroomstickPickedUp
   satisfied: 0
   hash: -493304219
+--- !u!114 &263245841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: WizardStartDialogue
+  satisfied: 1
+  hash: 467004734
 --- !u!1 &266297065
 GameObject:
   m_ObjectHideFlags: 0
@@ -10460,18 +10370,6 @@ MonoBehaviour:
   description: BroomstickPickedUp
   satisfied: 1
   hash: -493304219
---- !u!114 &282268093
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d482a9551d8b074097fdb7beded4043, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 11400000, guid: e5aa241776c023d47834603604fe9ddf, type: 2}
 --- !u!1 &283389558
 GameObject:
   m_ObjectHideFlags: 0
@@ -12397,20 +12295,6 @@ Transform:
   m_Father: {fileID: 339063940}
   m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: 163.80101, z: 90.00001}
---- !u!114 &364636441
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec43236ba6522584894ac80bfbcb3815, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  condition: {fileID: 114962063550835238, guid: fd02464d008c790478d9826aba7c7847,
-    type: 2}
-  satisfied: 0
 --- !u!1001 &366799965
 Prefab:
   m_ObjectHideFlags: 0
@@ -13473,9 +13357,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: Here, take it.
+  message: This reminds me.
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  order: 4
+  order: 3
 --- !u!1 &418650293
 GameObject:
   m_ObjectHideFlags: 0
@@ -13789,18 +13673,6 @@ MonoBehaviour:
   message: Inside the books there's a sculpture of a half moon
   textColor: {r: 1, g: 1, b: 1, a: 1}
   order: 0
---- !u!114 &450471034
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d482a9551d8b074097fdb7beded4043, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 11400000, guid: 205523f2eed48c245a0946e1a8a21492, type: 2}
 --- !u!1 &451798282
 GameObject:
   m_ObjectHideFlags: 0
@@ -15115,20 +14987,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4,
     type: 2}
   m_PrefabInternal: {fileID: 494869674}
---- !u!114 &502091232
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec43236ba6522584894ac80bfbcb3815, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  condition: {fileID: 114378766285203814, guid: fd02464d008c790478d9826aba7c7847,
-    type: 2}
-  satisfied: 0
 --- !u!1 &502110523
 GameObject:
   m_ObjectHideFlags: 0
@@ -15344,20 +15202,6 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!114 &510728004
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  description: StaffCompleted
-  satisfied: 0
-  hash: 2045985755
 --- !u!1 &515999806
 GameObject:
   m_ObjectHideFlags: 0
@@ -16279,8 +16123,7 @@ MonoBehaviour:
   description: FeatherReaction
   requiredConditions:
   - {fileID: 680436373}
-  - {fileID: 824562896}
-  - {fileID: 818193197}
+  - {fileID: 1658620240}
   reactionCollection: {fileID: 166555069}
 --- !u!1 &554720379
 GameObject:
@@ -22619,9 +22462,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  description: RedVialPickedUp
+  description: FakePhoenixFeatherAquired
   satisfied: 1
-  hash: -1271910177
+  hash: 483353806
 --- !u!1 &680494350
 GameObject:
   m_ObjectHideFlags: 0
@@ -22698,6 +22541,20 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 680494350}
   m_Mesh: {fileID: 4300004, guid: e316a8864f0235c469e8922f5002d45e, type: 3}
+--- !u!114 &683201377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: LIGHTSTAFF
+  satisfied: 1
+  hash: -1517926864
 --- !u!1 &683648646
 GameObject:
   m_ObjectHideFlags: 0
@@ -22834,9 +22691,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: Take this key and go down into the basement with it.
+  message: My quill is a Phoenix feather.
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  order: 5
+  order: 4
 --- !u!114 &698570203
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24808,9 +24665,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: My quill is a phoenix feather!!!!
+  message: But this is not a real Phoenix feather!
   textColor: {r: 1, g: 0, b: 0, a: 1}
-  order: 3
+  order: 2
 --- !u!1001 &770147099
 Prefab:
   m_ObjectHideFlags: 0
@@ -25127,7 +24984,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: Looks like you have all the stuff, give it here!
+  message: Looks like you created the staff! Well done!
   textColor: {r: 1, g: 1, b: 1, a: 1}
   order: 0
 --- !u!1 &780958084
@@ -25206,6 +25063,20 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 780958084}
   m_Mesh: {fileID: 4300002, guid: c4cfba6395a4739499b8d04a6aa3ff4a, type: 3}
+--- !u!114 &782550570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24dc6b17b276d6948903ade30dec71eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: LivingRoom
+  startingPointInLoadedScene: LivingRoomStartPoint
+  playerSaveData: {fileID: 11400000, guid: 55d72825bf06cf44e9cbc1b37812cc6f, type: 2}
 --- !u!1 &783892531
 GameObject:
   m_ObjectHideFlags: 0
@@ -26643,20 +26514,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 2e99d26bb8055d0488b77159769e92e9,
     type: 3}
   m_PrefabInternal: {fileID: 816767252}
---- !u!114 &818193197
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  description: FeatherPickedUp
-  satisfied: 1
-  hash: 1064098526
 --- !u!1 &818408771
 GameObject:
   m_ObjectHideFlags: 0
@@ -26809,20 +26666,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 821050528}
   m_Mesh: {fileID: 4300000, guid: f68e26733f39a5c42b1f9cec45827f07, type: 3}
---- !u!114 &824562896
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  description: HoneyJarPickedUp
-  satisfied: 1
-  hash: 1642796241
 --- !u!114 &825063499
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27504,7 +27347,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: I NEED it for my experiment!!!!!
+  message: I NEED it for my potion!!!!!
   textColor: {r: 1, g: 0.033939295, b: 0, a: 1}
   order: 2
 --- !u!1 &866150569
@@ -27558,6 +27401,8 @@ MonoBehaviour:
   - {fileID: 151451590}
   - {fileID: 2033691373}
   - {fileID: 287201364}
+  - {fileID: 1786194568}
+  - {fileID: 1590498648}
 --- !u!1001 &868668074
 Prefab:
   m_ObjectHideFlags: 0
@@ -28089,6 +27934,18 @@ Transform:
   m_Father: {fileID: 1695966293}
   m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &894623502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d482a9551d8b074097fdb7beded4043, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: 97157b220614519459e2a73bbdcdf855, type: 2}
 --- !u!1001 &898748687
 Prefab:
   m_ObjectHideFlags: 0
@@ -28555,18 +28412,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400004, guid: 67de58da1638c81408e8edfe971621f5,
     type: 3}
   m_PrefabInternal: {fileID: 907649637}
---- !u!114 &910103021
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d482a9551d8b074097fdb7beded4043, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 11400000, guid: d56b738d414441b40831ba4c7a2d2057, type: 2}
 --- !u!1001 &913275669
 Prefab:
   m_ObjectHideFlags: 0
@@ -29982,7 +29827,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: But first you will need a sun and moon staff!
+  message: I need you to gather some items for my secret potion!
   textColor: {r: 1, g: 1, b: 1, a: 1}
   order: 2
 --- !u!1 &988919208
@@ -30125,20 +29970,6 @@ Transform:
   m_Father: {fileID: 339063940}
   m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 169.656, z: 90.00001}
---- !u!114 &992974236
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec43236ba6522584894ac80bfbcb3815, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  condition: {fileID: 114446122008873964, guid: fd02464d008c790478d9826aba7c7847,
-    type: 2}
-  satisfied: 0
 --- !u!1001 &996601577
 Prefab:
   m_ObjectHideFlags: 0
@@ -30209,7 +30040,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 4
+  order: 5
   gameObject: {fileID: 834039506}
   activeState: 0
 --- !u!1001 &998096279
@@ -32669,9 +32500,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: You can throw that other garbage on the ground.
+  message: Here, take it, for safe keeping.
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  order: 6
+  order: 5
 --- !u!1 &1097294895
 GameObject:
   m_ObjectHideFlags: 0
@@ -33546,18 +33377,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 5e074f2a56373374087779628da4cc29,
     type: 3}
   m_PrefabInternal: {fileID: 1155926099}
---- !u!114 &1159558390
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d482a9551d8b074097fdb7beded4043, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 11400000, guid: c344b5ee94d101446aaebcf60aeb8005, type: 2}
 --- !u!1 &1160779214
 GameObject:
   m_ObjectHideFlags: 0
@@ -34164,18 +33983,6 @@ Transform:
   m_Father: {fileID: 339063940}
   m_RootOrder: 71
   m_LocalEulerAnglesHint: {x: 0, y: -69.263, z: 0}
---- !u!114 &1175103156
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d482a9551d8b074097fdb7beded4043, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 11400000, guid: 893b1e6a2f598084c88ed1a48d0298dc, type: 2}
 --- !u!114 &1178878956
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34474,20 +34281,6 @@ MonoBehaviour:
   description: WizardStartDialogue
   satisfied: 1
   hash: 467004734
---- !u!114 &1197468845
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec43236ba6522584894ac80bfbcb3815, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  condition: {fileID: 114336684936229846, guid: fd02464d008c790478d9826aba7c7847,
-    type: 2}
-  satisfied: 0
 --- !u!1 &1197927326
 GameObject:
   m_ObjectHideFlags: 0
@@ -34520,20 +34313,6 @@ Transform:
   m_Father: {fileID: 339063940}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1198634395
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec43236ba6522584894ac80bfbcb3815, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  condition: {fileID: 114793910634717754, guid: fd02464d008c790478d9826aba7c7847,
-    type: 2}
-  satisfied: 1
 --- !u!1 &1199021222
 GameObject:
   m_ObjectHideFlags: 0
@@ -34750,20 +34529,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1205562032}
   m_Mesh: {fileID: 4300002, guid: f68e26733f39a5c42b1f9cec45827f07, type: 3}
---- !u!114 &1206401514
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  description: SunVialFilled
-  satisfied: 1
-  hash: 1051307442
 --- !u!1 &1215545491
 GameObject:
   m_ObjectHideFlags: 0
@@ -36478,20 +36243,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1279277112}
   m_Mesh: {fileID: 4300000, guid: f68e26733f39a5c42b1f9cec45827f07, type: 3}
---- !u!114 &1281326761
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  description: Moonpiece2PickedUp
-  satisfied: 1
-  hash: 1360949564
 --- !u!114 &1285533951
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36503,7 +36254,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b804958e1981f9544989d65e32719692, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 4
+  order: 5
   item: {fileID: 11400000, guid: 053e43d77b6f2d64591150885703dd87, type: 2}
 --- !u!114 &1287249019
 MonoBehaviour:
@@ -36516,7 +36267,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: I will need a stick, a powerful vial and a jar of fireflies.
+  message: 'you''ll need to create a night and day staff! It will help you on your
+    journey. '
   textColor: {r: 1, g: 1, b: 1, a: 1}
   order: 4
 --- !u!1 &1288596499
@@ -37915,20 +37667,6 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!114 &1362380674
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec43236ba6522584894ac80bfbcb3815, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  condition: {fileID: 114984567156805788, guid: fd02464d008c790478d9826aba7c7847,
-    type: 2}
-  satisfied: 1
 --- !u!1001 &1364206486
 Prefab:
   m_ObjectHideFlags: 0
@@ -39708,18 +39446,6 @@ Transform:
   m_Father: {fileID: 1695966293}
   m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1436744691
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d482a9551d8b074097fdb7beded4043, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 11400000, guid: 376ca895a7f575d45ab48f98cfb4498f, type: 2}
 --- !u!1001 &1437233468
 Prefab:
   m_ObjectHideFlags: 0
@@ -40299,18 +40025,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1466577274}
   m_Mesh: {fileID: 4300002, guid: f68e26733f39a5c42b1f9cec45827f07, type: 3}
---- !u!114 &1467676665
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d482a9551d8b074097fdb7beded4043, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 11400000, guid: d8720412d29ee8a4cb5abd31d91838f2, type: 2}
 --- !u!114 &1469081244
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40556,9 +40270,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: Oh, it's for the the phoenix feather?
+  message: Oh, You're back.
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  order: 1
+  order: 0
 --- !u!1 &1484755962
 GameObject:
   m_ObjectHideFlags: 0
@@ -40809,7 +40523,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: Ambrosia Tea.
+  message: The wizard asked me to make some ambrosia Tea.
 --- !u!1 &1493453446
 GameObject:
   m_ObjectHideFlags: 0
@@ -41161,10 +40875,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: Okay! now the next ingridient I the Powerful mouse wizard need iss Ambrosia
+  message: Okay! The next ingridient I, the powerful mouse wizard, need is Ambrosia
     Tea!
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  order: 5
+  order: 6
 --- !u!1 &1507316239
 GameObject:
   m_ObjectHideFlags: 0
@@ -41849,6 +41563,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   reactions:
   - {fileID: 1752006394}
+  - {fileID: 782550570}
 --- !u!1 &1543203519
 GameObject:
   m_ObjectHideFlags: 0
@@ -42847,6 +42562,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1577190276}
   m_Mesh: {fileID: 4300002, guid: f68e26733f39a5c42b1f9cec45827f07, type: 3}
+--- !u!114 &1590498648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: Create night and day staff
 --- !u!1 &1593868593
 GameObject:
   m_ObjectHideFlags: 0
@@ -44258,6 +43985,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4800434665854406, guid: 39c30be837462024b8c879ec1cd59900,
     type: 2}
   m_PrefabInternal: {fileID: 974197762}
+--- !u!114 &1658620240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: WizardFeatherStartDialouge
+  satisfied: 1
+  hash: -2085163072
 --- !u!114 &1659231672
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44538,20 +44279,6 @@ Transform:
   m_Father: {fileID: 188815372}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: -33.268, z: 0}
---- !u!114 &1672215599
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  description: GlowingJarPickedUp
-  satisfied: 1
-  hash: 1360342739
 --- !u!1 &1673244473
 GameObject:
   m_ObjectHideFlags: 0
@@ -45234,20 +44961,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item: {fileID: 11400000, guid: 9ecbca1b8b638a64086b394e34e26e73, type: 2}
---- !u!114 &1708025449
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  description: MoonPickedUp
-  satisfied: 1
-  hash: 1562209020
 --- !u!1001 &1710461292
 Prefab:
   m_ObjectHideFlags: 0
@@ -46013,6 +45726,20 @@ MonoBehaviour:
   description: MoonPickedUp
   satisfied: 1
   hash: 1562209020
+--- !u!114 &1749304940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: I have more work for you!
+  textColor: {r: 1, g: 1, b: 1, a: 1}
+  order: 2
 --- !u!114 &1752006394
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46171,6 +45898,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   order: 0
   item: {fileID: 11400000, guid: c344b5ee94d101446aaebcf60aeb8005, type: 2}
+--- !u!114 &1763410012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: Take this key and go make me some tea!
+  textColor: {r: 1, g: 1, b: 1, a: 1}
+  order: 8
 --- !u!114 &1765789313
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46513,7 +46254,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b804958e1981f9544989d65e32719692, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 5
+  order: 8
   item: {fileID: 11400000, guid: 87a14a803edad2146a5e48f3294d6fe6, type: 2}
 --- !u!1001 &1783633166
 Prefab:
@@ -46752,6 +46493,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400010, guid: 4d67849ba8cf2654c99d795271e4057b,
     type: 3}
   m_PrefabInternal: {fileID: 1785822970}
+--- !u!114 &1786194568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: What are you still doing here? Chop chop!
+  textColor: {r: 1, g: 1, b: 1, a: 1}
+  order: 7
 --- !u!114 &1786344149
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47809,7 +47564,7 @@ GameObject:
   - component: {fileID: 1857918834}
   - component: {fileID: 1857918835}
   m_Layer: 0
-  m_Name: BuildStaffReaction
+  m_Name: StaffCompletedReaction
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -47841,18 +47596,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   reactions:
   - {fileID: 777306310}
-  - {fileID: 115439763}
-  - {fileID: 213207612}
-  - {fileID: 1436744691}
-  - {fileID: 1362380674}
   - {fileID: 1934903398}
-  - {fileID: 146193801}
-  - {fileID: 1931689547}
-  - {fileID: 1197468845}
-  - {fileID: 162305833}
-  - {fileID: 450471034}
-  - {fileID: 1175103156}
-  - {fileID: 910103021}
+  - {fileID: 1749304940}
 --- !u!1 &1857951429
 GameObject:
   m_ObjectHideFlags: 0
@@ -49305,20 +49050,6 @@ Transform:
   m_Father: {fileID: 1695966293}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
---- !u!114 &1931689547
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec43236ba6522584894ac80bfbcb3815, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  condition: {fileID: 114129520274063514, guid: fd02464d008c790478d9826aba7c7847,
-    type: 2}
-  satisfied: 0
 --- !u!1 &1932832590
 GameObject:
   m_ObjectHideFlags: 0
@@ -49482,7 +49213,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: It's done! Here you go!
+  message: Now give it a try! And come back to me when you're ready
   textColor: {r: 1, g: 1, b: 1, a: 1}
   order: 1
 --- !u!1 &1936332524
@@ -55423,9 +55154,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: All this stuff reminds me.
+  message: And you have the feather! Give it here!
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  order: 2
+  order: 1
 --- !u!114 &2027008303
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55617,7 +55348,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: Oh, I also need the moon sculpture in the window over there.
+  message: All you should need exists inside the lab.
   textColor: {r: 1, g: 1, b: 1, a: 1}
   order: 6
 --- !u!1 &2038055349

@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f67bd8ec6e33af4987562f6141a3bf2, type: 3}
   m_Name: GoldApple
   m_EditorClassIdentifier: 
-  sprite: {fileID: 0}
+  sprite: {fileID: 21300000, guid: 12a2f39e761e4754da38dcd8c9b3c4eb, type: 3}
   itemName: 
   pickUpCondition: {fileID: 114140620789506006, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}

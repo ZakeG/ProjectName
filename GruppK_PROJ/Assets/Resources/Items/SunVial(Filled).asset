@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Name: SunVial(Filled)
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: 10478cf9d50631845ad679c9758511d3, type: 3}
-  itemName: 
+  itemName: SunVialFilled
   pickUpCondition: {fileID: 114336684936229846, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}

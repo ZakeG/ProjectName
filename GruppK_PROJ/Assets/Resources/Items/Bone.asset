@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f67bd8ec6e33af4987562f6141a3bf2, type: 3}
   m_Name: Bone
   m_EditorClassIdentifier: 
-  sprite: {fileID: 0}
+  sprite: {fileID: 21300000, guid: 58e76879666bde5439e042e472dd7ecf, type: 3}
   itemName: Bone
   pickUpCondition: {fileID: 114434246571486556, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}

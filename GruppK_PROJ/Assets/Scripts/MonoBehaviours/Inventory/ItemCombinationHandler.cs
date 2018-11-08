@@ -40,13 +40,17 @@ public class ItemCombinationHandler : MonoBehaviour {
 
 
             }
+
             if (combineable)
             {
                 CombinationSucess(ic);
                 audioSource.PlayOneShot(done, 0.7F);
                 return;
             }
-            audioSource.PlayOneShot(fail, 0.7F);
+            else {
+                audioSource.PlayOneShot(fail, 0.7F);
+            }
+            DeselectAll();
         }
     }
 

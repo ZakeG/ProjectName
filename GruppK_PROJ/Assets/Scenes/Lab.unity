@@ -29664,6 +29664,10 @@ Prefab:
       propertyPath: NightObjects.Array.data[4]
       value: 
       objectReference: {fileID: 1258950818}
+    - target: {fileID: 1356272589219820, guid: 39c30be837462024b8c879ec1cd59900, type: 2}
+      propertyPath: m_TagString
+      value: LightsList
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 39c30be837462024b8c879ec1cd59900, type: 2}
   m_IsPrefabAsset: 0

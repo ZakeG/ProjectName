@@ -5,13 +5,14 @@ using UnityEngine;
 public class StaffObjectContainer : MonoBehaviour {
     public List<GameObject> DayObjects = new List<GameObject>();
     public List<GameObject> NightObjects = new List<GameObject>();
-    private DayNightButton button;
 
-    void Initialize()
+    public List<GameObject> GetDayList()
     {
-        button = GameObject.Find("StaffButton").GetComponent<DayNightButton>();
-        button.HandleOnObjects(DayObjects);
-        button.HandleOffObjects(NightObjects);
+        return DayObjects;
+    }
+    public List<GameObject> GetNightList()
+    {
+        return NightObjects;
     }
 
 }

@@ -16329,7 +16329,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &554922360
 Transform:
   m_ObjectHideFlags: 0
@@ -29542,6 +29542,16 @@ Prefab:
       propertyPath: ToTurnOff.Array.size
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 114870674958506440, guid: 39c30be837462024b8c879ec1cd59900,
+        type: 2}
+      propertyPath: DayObjects.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114870674958506440, guid: 39c30be837462024b8c879ec1cd59900,
+        type: 2}
+      propertyPath: NightObjects.Array.size
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4800434665854406, guid: 39c30be837462024b8c879ec1cd59900, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0.6711998
@@ -29604,6 +29614,60 @@ Prefab:
       propertyPath: ToTurnOn.Array.data[4]
       value: 
       objectReference: {fileID: 1009988496}
+    - target: {fileID: 114870674958506440, guid: 39c30be837462024b8c879ec1cd59900,
+        type: 2}
+      propertyPath: DayObjects.Array.data[0]
+      value: 
+      objectReference: {fileID: 554922359}
+    - target: {fileID: 114870674958506440, guid: 39c30be837462024b8c879ec1cd59900,
+        type: 2}
+      propertyPath: NightObjects.Array.data[0]
+      value: 
+      objectReference: {fileID: 2133693296}
+    - target: {fileID: 114870674958506440, guid: 39c30be837462024b8c879ec1cd59900,
+        type: 2}
+      propertyPath: DayObjects.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114870674958506440, guid: 39c30be837462024b8c879ec1cd59900,
+        type: 2}
+      propertyPath: DayObjects.Array.data[3]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114870674958506440, guid: 39c30be837462024b8c879ec1cd59900,
+        type: 2}
+      propertyPath: DayObjects.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114870674958506440, guid: 39c30be837462024b8c879ec1cd59900,
+        type: 2}
+      propertyPath: DayObjects.Array.data[4]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114870674958506440, guid: 39c30be837462024b8c879ec1cd59900,
+        type: 2}
+      propertyPath: NightObjects.Array.data[1]
+      value: 
+      objectReference: {fileID: 1884031980}
+    - target: {fileID: 114870674958506440, guid: 39c30be837462024b8c879ec1cd59900,
+        type: 2}
+      propertyPath: NightObjects.Array.data[2]
+      value: 
+      objectReference: {fileID: 1009988496}
+    - target: {fileID: 114870674958506440, guid: 39c30be837462024b8c879ec1cd59900,
+        type: 2}
+      propertyPath: NightObjects.Array.data[3]
+      value: 
+      objectReference: {fileID: 1276637042}
+    - target: {fileID: 114870674958506440, guid: 39c30be837462024b8c879ec1cd59900,
+        type: 2}
+      propertyPath: NightObjects.Array.data[4]
+      value: 
+      objectReference: {fileID: 1258950818}
+    - target: {fileID: 1356272589219820, guid: 39c30be837462024b8c879ec1cd59900, type: 2}
+      propertyPath: m_TagString
+      value: LightsList
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 39c30be837462024b8c879ec1cd59900, type: 2}
   m_IsPrefabAsset: 0
@@ -45077,8 +45141,8 @@ Transform:
   - {fileID: 868668075}
   - {fileID: 939283956}
   - {fileID: 1606419439}
-  - {fileID: 76304105}
   - {fileID: 1195804370}
+  - {fileID: 76304105}
   m_Father: {fileID: 31095713}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -48246,7 +48310,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1884031981
 Transform:
   m_ObjectHideFlags: 0

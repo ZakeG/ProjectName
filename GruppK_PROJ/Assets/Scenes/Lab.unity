@@ -7844,6 +7844,7 @@ MonoBehaviour:
   - {fileID: 1763410012}
   - {fileID: 56339645}
   - {fileID: 894623502}
+  - {fileID: 1461161406}
 --- !u!1 &166737873
 GameObject:
   m_ObjectHideFlags: 0
@@ -16172,7 +16173,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &554922360
 Transform:
   m_ObjectHideFlags: 0
@@ -39949,6 +39950,20 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1456671504}
   m_Mesh: {fileID: 4300002, guid: f68e26733f39a5c42b1f9cec45827f07, type: 3}
+--- !u!114 &1461161406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec43236ba6522584894ac80bfbcb3815, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  condition: {fileID: 114793910634717754, guid: fd02464d008c790478d9826aba7c7847,
+    type: 2}
+  satisfied: 1
 --- !u!1 &1466577274
 GameObject:
   m_ObjectHideFlags: 0
@@ -41562,7 +41577,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   reactions:
-  - {fileID: 1752006394}
   - {fileID: 782550570}
 --- !u!1 &1543203519
 GameObject:
@@ -45740,22 +45754,6 @@ MonoBehaviour:
   message: I have more work for you!
   textColor: {r: 1, g: 1, b: 1, a: 1}
   order: 2
---- !u!114 &1752006394
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  message: 'You win!
-
-    Thanks for playing!'
-  textColor: {r: 1, g: 1, b: 1, a: 1}
-  order: 0
 --- !u!1001 &1753974720
 Prefab:
   m_ObjectHideFlags: 0
@@ -48055,7 +48053,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1884031981
 Transform:
   m_ObjectHideFlags: 0

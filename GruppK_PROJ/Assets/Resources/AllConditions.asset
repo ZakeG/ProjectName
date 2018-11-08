@@ -112,6 +112,7 @@ MonoBehaviour:
   - {fileID: 114912099085508904}
   - {fileID: 114832383211045862}
   - {fileID: 114183979602942890}
+  - {fileID: 114889928719950154}
 --- !u!114 &114000264106966828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -166,7 +167,7 @@ MonoBehaviour:
   m_Name: MoonPickedUp
   m_EditorClassIdentifier: 
   description: MoonPickedUp
-  satisfied: 0
+  satisfied: 1
   hash: 1562209020
 --- !u!114 &114061526481146648
 MonoBehaviour:
@@ -250,7 +251,7 @@ MonoBehaviour:
   m_Name: WizardFeatherStartDialouge
   m_EditorClassIdentifier: 
   description: WizardFeatherStartDialouge
-  satisfied: 0
+  satisfied: 1
   hash: -2085163072
 --- !u!114 &114114992687082830
 MonoBehaviour:
@@ -306,7 +307,7 @@ MonoBehaviour:
   m_Name: BroomstickPickedUp
   m_EditorClassIdentifier: 
   description: BroomstickPickedUp
-  satisfied: 0
+  satisfied: 1
   hash: -493304219
 --- !u!114 &114159093089903314
 MonoBehaviour:
@@ -600,7 +601,7 @@ MonoBehaviour:
   m_Name: SunVialFilled
   m_EditorClassIdentifier: 
   description: SunVialFilled
-  satisfied: 0
+  satisfied: 1
   hash: 1051307442
 --- !u!114 &114339336138375714
 MonoBehaviour:
@@ -670,7 +671,7 @@ MonoBehaviour:
   m_Name: WizardStartDialogue
   m_EditorClassIdentifier: 
   description: WizardStartDialogue
-  satisfied: 0
+  satisfied: 1
   hash: 467004734
 --- !u!114 &114419866438435280
 MonoBehaviour:
@@ -768,7 +769,7 @@ MonoBehaviour:
   m_Name: Moonpiece1PickedUp
   m_EditorClassIdentifier: 
   description: Moonpiece1PickedUp
-  satisfied: 0
+  satisfied: 1
   hash: 1754484217
 --- !u!114 &114446122008873964
 MonoBehaviour:
@@ -880,7 +881,7 @@ MonoBehaviour:
   m_Name: Moonpiece2PickedUp
   m_EditorClassIdentifier: 
   description: Moonpiece2PickedUp
-  satisfied: 0
+  satisfied: 1
   hash: 1360949564
 --- !u!114 &114573808208314410
 MonoBehaviour:
@@ -1132,7 +1133,7 @@ MonoBehaviour:
   m_Name: GlowingJarPickedUp
   m_EditorClassIdentifier: 
   description: GlowingJarPickedUp
-  satisfied: 0
+  satisfied: 1
   hash: 1360342739
 --- !u!114 &114768765897709292
 MonoBehaviour:
@@ -1372,6 +1373,20 @@ MonoBehaviour:
   description: HasGhostNecklace
   satisfied: 0
   hash: -1890146842
+--- !u!114 &114889928719950154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: CompletedDoorStart
+  m_EditorClassIdentifier: 
+  description: CompletedDoorStart
+  satisfied: 0
+  hash: -164840168
 --- !u!114 &114893403863706380
 MonoBehaviour:
   m_ObjectHideFlags: 0

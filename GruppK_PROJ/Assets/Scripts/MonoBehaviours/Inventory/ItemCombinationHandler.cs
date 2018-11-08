@@ -10,10 +10,14 @@ public class ItemCombinationHandler : MonoBehaviour {
     private List<Item> combos;
     private bool combineable;
     private bool compatible;
+    public AudioClip done;
+    public AudioClip fail;
+    public AudioSource audioSource;
 
     private void Start()
     {
         DeselectAll();
+
     }
 
     public void CheckSelectedForCombine()
@@ -39,8 +43,10 @@ public class ItemCombinationHandler : MonoBehaviour {
             if (combineable)
             {
                 CombinationSucess(ic);
+                audioSource.PlayOneShot(done, 0.7F);
                 return;
             }
+            audioSource.PlayOneShot(fail, 0.7F);
         }
     }
 

@@ -85,6 +85,16 @@ MonoBehaviour:
   - {fileID: 114419866438435280}
   - {fileID: 114316871784978968}
   - {fileID: 114446721058115782}
+  - {fileID: 114302539501123498}
+  - {fileID: 114701939667788006}
+  - {fileID: 114334928261144884}
+  - {fileID: 114931305417899792}
+  - {fileID: 114168846910743642}
+  - {fileID: 114061526481146648}
+  - {fileID: 114932029228588310}
+  - {fileID: 114164629124617336}
+  - {fileID: 114327185746351608}
+  - {fileID: 114768765897709292}
 --- !u!114 &114000264106966828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -141,6 +151,20 @@ MonoBehaviour:
   description: MoonPickedUp
   satisfied: 0
   hash: 1562209020
+--- !u!114 &114061526481146648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: HasCrushedHerbs
+  m_EditorClassIdentifier: 
+  description: HasCrushedHerbs
+  satisfied: 0
+  hash: 412934610
 --- !u!114 &114076243485715652
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -253,6 +277,20 @@ MonoBehaviour:
   description: CoinPickedUp
   satisfied: 0
   hash: -1187853915
+--- !u!114 &114164629124617336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: HasDryPlant
+  m_EditorClassIdentifier: 
+  description: HasDryPlant
+  satisfied: 0
+  hash: -1494590097
 --- !u!114 &114166715466194848
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -267,6 +305,20 @@ MonoBehaviour:
   description: FireCrystalAquired
   satisfied: 0
   hash: -1302995480
+--- !u!114 &114168846910743642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: DragonFireQuestStart
+  m_EditorClassIdentifier: 
+  description: DragonFireQuestStart
+  satisfied: 0
+  hash: 1125978622
 --- !u!114 &114176556208166208
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -393,6 +445,20 @@ MonoBehaviour:
   description: HasKettle
   satisfied: 0
   hash: 905616267
+--- !u!114 &114302539501123498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: AmbrosiaTeaQuestStart
+  m_EditorClassIdentifier: 
+  description: AmbrosiaTeaQuestStart
+  satisfied: 0
+  hash: 1331757938
 --- !u!114 &114303500727802912
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -421,6 +487,34 @@ MonoBehaviour:
   description: LiquidGoldPickedUp
   satisfied: 0
   hash: -909187435
+--- !u!114 &114327185746351608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: PickedUpDryPlant
+  m_EditorClassIdentifier: 
+  description: PickedUpDryPlant
+  satisfied: 0
+  hash: -1599608130
+--- !u!114 &114334928261144884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: GoldAppleQuestStart
+  m_EditorClassIdentifier: 
+  description: GoldAppleQuestStart
+  satisfied: 0
+  hash: 1225229576
 --- !u!114 &114336684936229846
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -771,6 +865,20 @@ MonoBehaviour:
   description: AmbrosiaBouquetAquired
   satisfied: 0
   hash: 449017577
+--- !u!114 &114701939667788006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: BasementDoorQuestStart
+  m_EditorClassIdentifier: 
+  description: BasementDoorQuestStart
+  satisfied: 0
+  hash: -1354798160
 --- !u!114 &114710624494531832
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -855,6 +963,20 @@ MonoBehaviour:
   description: GlowingJarPickedUp
   satisfied: 0
   hash: 1360342739
+--- !u!114 &114768765897709292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: DryPlantPickedUp
+  m_EditorClassIdentifier: 
+  description: DryPlantPickedUp
+  satisfied: 0
+  hash: -728018254
 --- !u!114 &114770094366030908
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1051,6 +1173,34 @@ MonoBehaviour:
   description: GoldTeethPickedUp2
   satisfied: 0
   hash: -1020398792
+--- !u!114 &114931305417899792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: DungeonDoorQuestStart
+  m_EditorClassIdentifier: 
+  description: DungeonDoorQuestStart
+  satisfied: 0
+  hash: 162785247
+--- !u!114 &114932029228588310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: CrushedHerbsPickedUp
+  m_EditorClassIdentifier: 
+  description: CrushedHerbsPickedUp
+  satisfied: 0
+  hash: 1068547157
 --- !u!114 &114932804364694962
 MonoBehaviour:
   m_ObjectHideFlags: 0

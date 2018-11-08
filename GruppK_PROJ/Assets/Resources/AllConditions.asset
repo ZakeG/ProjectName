@@ -97,6 +97,16 @@ MonoBehaviour:
   - {fileID: 114768765897709292}
   - {fileID: 114665313107315034}
   - {fileID: 114895711230986672}
+  - {fileID: 114876404009370006}
+  - {fileID: 114496774497453180}
+  - {fileID: 114140620789506006}
+  - {fileID: 114856924687962330}
+  - {fileID: 114433527637976530}
+  - {fileID: 114632724334962776}
+  - {fileID: 114103182304860866}
+  - {fileID: 114950619393728696}
+  - {fileID: 114439637543143640}
+  - {fileID: 114739006491127474}
 --- !u!114 &114000264106966828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -209,6 +219,20 @@ MonoBehaviour:
   description: ClamAquired
   satisfied: 0
   hash: -1086391437
+--- !u!114 &114103182304860866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: CookingClam
+  m_EditorClassIdentifier: 
+  description: CookingClam
+  satisfied: 0
+  hash: -1966002766
 --- !u!114 &114113771682078070
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -251,6 +275,20 @@ MonoBehaviour:
   description: SunVialPickedUp
   satisfied: 0
   hash: 1361490301
+--- !u!114 &114140620789506006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: GoldenAppleAquired
+  m_EditorClassIdentifier: 
+  description: GoldenAppleAquired
+  satisfied: 0
+  hash: -228943506
 --- !u!114 &114149025891862836
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -643,6 +681,20 @@ MonoBehaviour:
   description: AmbrosiapickedUp
   satisfied: 0
   hash: 947518370
+--- !u!114 &114433527637976530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: DungeonDoorCompleted
+  m_EditorClassIdentifier: 
+  description: DungeonDoorCompleted
+  satisfied: 0
+  hash: -979372824
 --- !u!114 &114434246571486556
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -657,6 +709,20 @@ MonoBehaviour:
   description: BonePickedUp
   satisfied: 0
   hash: 1109262446
+--- !u!114 &114439637543143640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: HasBone
+  m_EditorClassIdentifier: 
+  description: HasBone
+  satisfied: 0
+  hash: 593653205
 --- !u!114 &114443800826913856
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -741,6 +807,20 @@ MonoBehaviour:
   description: EarthCrystalPickedUp
   satisfied: 0
   hash: -1220151316
+--- !u!114 &114496774497453180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: DragonFireAquired
+  m_EditorClassIdentifier: 
+  description: DragonFireAquired
+  satisfied: 0
+  hash: 1077765883
 --- !u!114 &114504088093943498
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -811,6 +891,20 @@ MonoBehaviour:
   description: TeapotPickedUp
   satisfied: 0
   hash: -1009543676
+--- !u!114 &114632724334962776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: AmbrosiaTeaPotAquired
+  m_EditorClassIdentifier: 
+  description: AmbrosiaTeaPotAquired
+  satisfied: 0
+  hash: -1395955485
 --- !u!114 &114635700267114576
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -923,6 +1017,20 @@ MonoBehaviour:
   description: SouthAmericaPickedUp
   satisfied: 0
   hash: 462620941
+--- !u!114 &114739006491127474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: PlantDried
+  m_EditorClassIdentifier: 
+  description: PlantDried
+  satisfied: 0
+  hash: -828106666
 --- !u!114 &114747450403530148
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1091,6 +1199,20 @@ MonoBehaviour:
   description: PlanksRemoved
   satisfied: 0
   hash: 1703327956
+--- !u!114 &114856924687962330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: HasKettleWithClam
+  m_EditorClassIdentifier: 
+  description: HasKettleWithClam
+  satisfied: 0
+  hash: -1530827892
 --- !u!114 &114860962177382762
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1119,6 +1241,20 @@ MonoBehaviour:
   description: KnifePickedUp
   satisfied: 0
   hash: -1969049019
+--- !u!114 &114876404009370006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: MortarAndPestlePickedUp
+  m_EditorClassIdentifier: 
+  description: MortarAndPestlePickedUp
+  satisfied: 0
+  hash: 1334889012
 --- !u!114 &114876773733038208
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1245,6 +1381,20 @@ MonoBehaviour:
   description: DooryCrystalQuestAquired
   satisfied: 0
   hash: -1902978946
+--- !u!114 &114950619393728696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: HasTorch
+  m_EditorClassIdentifier: 
+  description: HasTorch
+  satisfied: 0
+  hash: -885531295
 --- !u!114 &114958520659555010
 MonoBehaviour:
   m_ObjectHideFlags: 0

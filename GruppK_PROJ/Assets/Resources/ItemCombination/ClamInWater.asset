@@ -9,7 +9,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3cffb6a7149563f48bb326bd152bfd93, type: 3}
-  m_Name: awguohawehg
+  m_Name: ClamInWater
   m_EditorClassIdentifier: 
-  combination: []
-  result: {fileID: 0}
+  combination:
+  - {fileID: 11400000, guid: b188e432b92918c489b25b27b7d58dff, type: 2}
+  - {fileID: 11400000, guid: 28239737b3070654d847eebc5f12c7a8, type: 2}
+  result: {fileID: 11400000, guid: 6da6c574b9dbf0348a55d2faef72496a, type: 2}

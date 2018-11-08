@@ -340,7 +340,6 @@ MonoBehaviour:
   description: New condition collection
   requiredConditions:
   - {fileID: 2031974695}
-  - {fileID: 1367387923}
   - {fileID: 1276258452}
   reactionCollection: {fileID: 871279162}
 --- !u!1001 &23713452
@@ -1296,6 +1295,7 @@ MonoBehaviour:
   - {fileID: 507469562}
   - {fileID: 617243149}
   - {fileID: 1976135113}
+  - {fileID: 1072878760}
 --- !u!1001 &125966275
 Prefab:
   m_ObjectHideFlags: 0
@@ -36517,6 +36517,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: eb915683ff96b6f4f9d1e0aa8ed45a01,
     type: 3}
   m_PrefabInternal: {fileID: 1071410399}
+--- !u!114 &1072878760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec43236ba6522584894ac80bfbcb3815, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  condition: {fileID: 114669380657901964, guid: fd02464d008c790478d9826aba7c7847,
+    type: 2}
+  satisfied: 1
 --- !u!4 &1078331748 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: fa79f91e261822d45a10e39a7e4b3f2a,
@@ -45392,20 +45406,6 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20f585762c593f2439c56d20a8c737f4, type: 3}
   m_IsPrefabAsset: 0
---- !u!114 &1367387923
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  description: GlowingJarPickedUp
-  satisfied: 0
-  hash: 1360342739
 --- !u!1001 &1368235591
 Prefab:
   m_ObjectHideFlags: 0
@@ -47140,9 +47140,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  description: LIGHTSTAFF
-  satisfied: 1
-  hash: -1517926864
+  description: GhostStartDialouge
+  satisfied: 0
+  hash: -1389821292
 --- !u!1 &1510560326
 GameObject:
   m_ObjectHideFlags: 0

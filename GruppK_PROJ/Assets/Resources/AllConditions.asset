@@ -102,6 +102,8 @@ MonoBehaviour:
   - {fileID: 114140620789506006}
   - {fileID: 114856924687962330}
   - {fileID: 114433527637976530}
+  - {fileID: 114632724334962776}
+  - {fileID: 114103182304860866}
 --- !u!114 &114000264106966828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -214,6 +216,20 @@ MonoBehaviour:
   description: ClamAquired
   satisfied: 0
   hash: -1086391437
+--- !u!114 &114103182304860866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: CookingClam
+  m_EditorClassIdentifier: 
+  description: CookingClam
+  satisfied: 0
+  hash: -1966002766
 --- !u!114 &114113771682078070
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -858,6 +874,20 @@ MonoBehaviour:
   description: TeapotPickedUp
   satisfied: 0
   hash: -1009543676
+--- !u!114 &114632724334962776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: AmbrosiaTeaPotAquired
+  m_EditorClassIdentifier: 
+  description: AmbrosiaTeaPotAquired
+  satisfied: 0
+  hash: -1395955485
 --- !u!114 &114635700267114576
 MonoBehaviour:
   m_ObjectHideFlags: 0

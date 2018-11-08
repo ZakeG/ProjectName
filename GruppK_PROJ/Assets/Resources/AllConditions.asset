@@ -95,6 +95,8 @@ MonoBehaviour:
   - {fileID: 114164629124617336}
   - {fileID: 114327185746351608}
   - {fileID: 114768765897709292}
+  - {fileID: 114665313107315034}
+  - {fileID: 114895711230986672}
 --- !u!114 &114000264106966828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -247,7 +249,7 @@ MonoBehaviour:
   m_Name: SunVialPickedUp
   m_EditorClassIdentifier: 
   description: SunVialPickedUp
-  satisfied: 1
+  satisfied: 0
   hash: 1361490301
 --- !u!114 &114149025891862836
 MonoBehaviour:
@@ -597,7 +599,7 @@ MonoBehaviour:
   m_Name: WizardStartDialogue
   m_EditorClassIdentifier: 
   description: WizardStartDialogue
-  satisfied: 1
+  satisfied: 0
   hash: 467004734
 --- !u!114 &114419866438435280
 MonoBehaviour:
@@ -823,6 +825,20 @@ MonoBehaviour:
   description: HasMask
   satisfied: 0
   hash: 1766527378
+--- !u!114 &114665313107315034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: MoonPiece3PickedUp
+  m_EditorClassIdentifier: 
+  description: MoonPiece3PickedUp
+  satisfied: 0
+  hash: -1962861145
 --- !u!114 &114669380657901964
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1173,6 +1189,20 @@ MonoBehaviour:
   description: GoldTeethPickedUp2
   satisfied: 0
   hash: -1020398792
+--- !u!114 &114895711230986672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: fabricAquired
+  m_EditorClassIdentifier: 
+  description: fabricAquired
+  satisfied: 0
+  hash: 369850527
 --- !u!114 &114931305417899792
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -9,7 +9,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3cffb6a7149563f48bb326bd152bfd93, type: 3}
-  m_Name: CrushedHerbs
+  m_Name: TRASHCrushedHerbs
   m_EditorClassIdentifier: 
   combination:
   - {fileID: 11400000, guid: 626b739be9dae054799bdd4ffbf85247, type: 2}

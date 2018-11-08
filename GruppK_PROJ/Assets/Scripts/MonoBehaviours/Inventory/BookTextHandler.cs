@@ -49,7 +49,7 @@ public class BookTextHandler : MonoBehaviour {
 
     public void AddText(string newText)
     {
-        string textToInput = newText += "\n-------------------------------------------";
+        string textToInput = newText += "\n----";
         string testText1 = page1.text + textToInput;
         string testText2 = page2.text + textToInput;
         if (!(testText1.Length > maxCharacterCount)) {

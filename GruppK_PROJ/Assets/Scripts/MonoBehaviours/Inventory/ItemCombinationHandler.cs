@@ -13,7 +13,7 @@ public class ItemCombinationHandler : MonoBehaviour {
 
     private void Start()
     {
-        inventory.GetComponent<Inventory>().DehighlightAll();
+        DeselectAll();
     }
 
     public void CheckSelectedForCombine()

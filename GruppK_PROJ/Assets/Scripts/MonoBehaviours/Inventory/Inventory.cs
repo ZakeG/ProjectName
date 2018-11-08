@@ -4,14 +4,13 @@ using System.Collections.Generic;
 
 public class Inventory : MonoBehaviour
 {
-
     public Image[] itemImages = new Image[numItemSlots];
     public Image[] highlightImages = new Image[numItemSlots];
     public Item[] items = new Item[numItemSlots];
     public GameObject[] itemSlots = new GameObject[numItemSlots];
     public Item staffItem;
 
-    public const int numItemSlots = 10;
+    public const int numItemSlots = 4;
 
     private BagButton bagButton;
     private GameObject staffButton;
@@ -87,13 +86,6 @@ public class Inventory : MonoBehaviour
             {
                 highlightImages[i].enabled = false;
             }
-        }
-    }
-    public void DehighlightAll()
-    {
-        for (int i = 0; i < items.Length; i++)
-        {
-                highlightImages[i].enabled = false;
         }
     }
 

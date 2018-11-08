@@ -104,6 +104,8 @@ MonoBehaviour:
   - {fileID: 114433527637976530}
   - {fileID: 114632724334962776}
   - {fileID: 114103182304860866}
+  - {fileID: 114950619393728696}
+  - {fileID: 114439637543143640}
 --- !u!114 &114000264106966828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -706,6 +708,20 @@ MonoBehaviour:
   description: BonePickedUp
   satisfied: 0
   hash: 1109262446
+--- !u!114 &114439637543143640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: HasBone
+  m_EditorClassIdentifier: 
+  description: HasBone
+  satisfied: 0
+  hash: 593653205
 --- !u!114 &114443800826913856
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1350,6 +1366,20 @@ MonoBehaviour:
   description: DooryCrystalQuestAquired
   satisfied: 0
   hash: -1902978946
+--- !u!114 &114950619393728696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: HasTorch
+  m_EditorClassIdentifier: 
+  description: HasTorch
+  satisfied: 0
+  hash: -885531295
 --- !u!114 &114958520659555010
 MonoBehaviour:
   m_ObjectHideFlags: 0

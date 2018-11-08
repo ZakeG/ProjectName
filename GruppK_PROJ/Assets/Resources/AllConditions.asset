@@ -110,6 +110,8 @@ MonoBehaviour:
   - {fileID: 114609559679950854}
   - {fileID: 114287622756252222}
   - {fileID: 114912099085508904}
+  - {fileID: 114832383211045862}
+  - {fileID: 114183979602942890}
 --- !u!114 &114000264106966828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -390,6 +392,20 @@ MonoBehaviour:
   description: HasAustralia
   satisfied: 0
   hash: 1849421182
+--- !u!114 &114183979602942890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: GhostQuestCompleted
+  m_EditorClassIdentifier: 
+  description: GhostQuestCompleted
+  satisfied: 0
+  hash: -1996410440
 --- !u!114 &114188702843383964
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1188,6 +1204,20 @@ MonoBehaviour:
   description: KeyAquired
   satisfied: 0
   hash: 1879386995
+--- !u!114 &114832383211045862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: HastrapDoorKey
+  m_EditorClassIdentifier: 
+  description: HastrapDoorKey
+  satisfied: 0
+  hash: -1496588215
 --- !u!114 &114837129450889992
 MonoBehaviour:
   m_ObjectHideFlags: 0

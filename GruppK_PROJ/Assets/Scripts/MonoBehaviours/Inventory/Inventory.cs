@@ -24,7 +24,6 @@ public class Inventory : MonoBehaviour
         {
                 highlightImages[i].enabled = false;
         }
-        staffButton.SetActive(false);
     }
 
     public void AddItem(Item itemToAdd)

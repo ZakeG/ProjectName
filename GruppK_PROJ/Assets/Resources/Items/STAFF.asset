@@ -13,4 +13,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprite: {fileID: 0}
   itemName: LightStaffItem
-  pickUpCondition: {fileID: 0}
+  pickUpCondition: {fileID: 114860962177382762, guid: fd02464d008c790478d9826aba7c7847,
+    type: 2}

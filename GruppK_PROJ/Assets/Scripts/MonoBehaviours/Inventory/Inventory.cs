@@ -30,6 +30,7 @@ public class Inventory : MonoBehaviour
     {
         if (!hasStaff && itemToAdd == staffItem)
         {
+            staffItem.pickUpCondition.satisfied = true;
             staffButton.SetActive(true);
             hasStaff = true;
             return;

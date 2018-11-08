@@ -37,17 +37,15 @@ public class ItemCombinationHandler : MonoBehaviour {
                     compatible = false;
                     combineable = false;
                 }
-
-
+                if (combineable)
+                {
+                    CombinationSucess(ic);
+                    audioSource.PlayOneShot(done, 0.7F);
+                    return;
+                }
             }
-
-            if (combineable)
+           if(!combineable)
             {
-                CombinationSucess(ic);
-                audioSource.PlayOneShot(done, 0.7F);
-                return;
-            }
-            else {
                 audioSource.PlayOneShot(fail, 0.7F);
             }
             DeselectAll();

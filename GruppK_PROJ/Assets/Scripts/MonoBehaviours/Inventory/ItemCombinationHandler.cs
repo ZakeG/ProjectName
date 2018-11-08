@@ -6,7 +6,7 @@ public class ItemCombinationHandler : MonoBehaviour {
 
     public List<ItemCombination> combinations = new List<ItemCombination>();
     public Inventory inventory;
-    private List<Item> selectedItems = new List<Item>();
+    private List<Item> selectedItems;
     private List<Item> combos;
     private bool combineable;
     private bool compatible;
@@ -16,6 +16,7 @@ public class ItemCombinationHandler : MonoBehaviour {
 
     private void Start()
     {
+        selectedItems = new List<Item>();
         DeselectAll();
 
     }
@@ -37,19 +38,21 @@ public class ItemCombinationHandler : MonoBehaviour {
                     compatible = false;
                     combineable = false;
                 }
-                if (combineable)
-                {
-                    CombinationSucess(ic);
-                    audioSource.PlayOneShot(done, 0.7F);
-                    return;
-                }
             }
-           if(!combineable)
+
+            if (combineable)
             {
-                audioSource.PlayOneShot(fail, 0.7F);
+                CombinationSucess(ic);
+                audioSource.PlayOneShot(done, 0.7F);
+                return;
             }
-            DeselectAll();
+            else if(!combineable)
+            {
+  //              audioSource.PlayOneShot(fail, 0.7F);
+            }
+            
         }
+        DeselectAll();
     }
 
     public void OnInventorySlotClick(GameObject itemSlot)

@@ -4,45 +4,39 @@ using UnityEngine;
 
 public class DayNightButton : MonoBehaviour {
 
-    public Condition currentState; 
+    public Condition currentState;
+    public SceneController scene;
 
-    private List<GameObject> onObjectsFromScene = new List<GameObject>();
-    private List<GameObject> offObjectsFromScene = new List<GameObject>();
+    private List<GameObject> DayObjectsFromScene = new List<GameObject>();
+    private List<GameObject> NightObjectsFromScene = new List<GameObject>();
     private Condition lightStaff;
-    private bool lightsOn = true;
+
+    private void Start()
+    {
+        scene = GameObject.Find("SceneController").GetComponent<SceneController>();
+        scene.AfterSceneLoad += CheckLights;
+    }
 
     public void OnClick()
     {
-        LightSwitch();
-    }
-
-    private void LightSwitch()
-    {
-        if (lightsOn)
-        {
-            LightsOut();
-        }
-        else
-        {
-            LetThereBeLight();
-        }
+        ToggleLights();
     }
 
     public void HandleOnObjects(List<GameObject> list)
     {
-        onObjectsFromScene.Clear();
+        DayObjectsFromScene.Clear();
         foreach (GameObject o in list)
         {
-            onObjectsFromScene.Add(o);
+            DayObjectsFromScene.Add(o);
         }
     }
 
     public void HandleOffObjects(List<GameObject> list)
     {
-        offObjectsFromScene.Clear();
+        NightObjectsFromScene.Clear();
         foreach (GameObject o in list)
         {
-            offObjectsFromScene.Add(o);
+            NightObjectsFromScene.Add(o);
         }
     }
 
@@ -51,32 +45,42 @@ public class DayNightButton : MonoBehaviour {
         gameObject.SetActive(false);
     }
 
-    private void LetThereBeLight()
+    private void CheckLights()
     {
-        currentState.satisfied = true;
-        foreach (GameObject go in onObjectsFromScene)
+        if (currentState.satisfied == true)
         {
-            go.SetActive(true);
+            foreach (GameObject go in DayObjectsFromScene)
+            {
+                go.SetActive(true);
+            }
+            foreach (GameObject go in NightObjectsFromScene)
+            {
+                go.SetActive(false);
+            }
         }
-        foreach (GameObject go in offObjectsFromScene)
-        {
-            go.SetActive(false);
+        else if(currentState.satisfied == false) {
+            foreach (GameObject go in DayObjectsFromScene)
+            {
+                go.SetActive(false);
+            }
+            foreach (GameObject go in NightObjectsFromScene)
+            {
+                go.SetActive(true);
+            }
         }
-        lightsOn = true;
     }
 
-    private void LightsOut()
+    private void ToggleLights()
     {
-        currentState.satisfied = false;
-        foreach (GameObject go in onObjectsFromScene)
+        currentState.satisfied = !currentState.satisfied;
+        foreach (GameObject go in DayObjectsFromScene)
         {
-            go.SetActive(false);
+            go.SetActive(currentState.satisfied);
         }
-        foreach (GameObject go in offObjectsFromScene)
+        foreach (GameObject go in NightObjectsFromScene)
         {
-            go.SetActive(true);
+            go.SetActive(!currentState.satisfied);
         }
-        lightsOn = false;
     }
 
 }

@@ -340,7 +340,6 @@ MonoBehaviour:
   description: New condition collection
   requiredConditions:
   - {fileID: 2031974695}
-  - {fileID: 1367387923}
   - {fileID: 1276258452}
   reactionCollection: {fileID: 871279162}
 --- !u!1001 &23713452
@@ -45392,20 +45391,6 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20f585762c593f2439c56d20a8c737f4, type: 3}
   m_IsPrefabAsset: 0
---- !u!114 &1367387923
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  description: GlowingJarPickedUp
-  satisfied: 0
-  hash: 1360342739
 --- !u!1001 &1368235591
 Prefab:
   m_ObjectHideFlags: 0
@@ -47140,9 +47125,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  description: LIGHTSTAFF
-  satisfied: 1
-  hash: -1517926864
+  description: GhostStartDialouge
+  satisfied: 0
+  hash: -1389821292
 --- !u!1 &1510560326
 GameObject:
   m_ObjectHideFlags: 0

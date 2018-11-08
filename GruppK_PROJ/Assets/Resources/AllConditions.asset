@@ -107,6 +107,8 @@ MonoBehaviour:
   - {fileID: 114950619393728696}
   - {fileID: 114439637543143640}
   - {fileID: 114739006491127474}
+  - {fileID: 114609559679950854}
+  - {fileID: 114287622756252222}
 --- !u!114 &114000264106966828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -471,6 +473,20 @@ MonoBehaviour:
   description: HasGumball
   satisfied: 0
   hash: -373825656
+--- !u!114 &114287622756252222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: GoldInBowlAquired
+  m_EditorClassIdentifier: 
+  description: GoldInBowlAquired
+  satisfied: 0
+  hash: -2027823130
 --- !u!114 &114294629903837128
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -877,6 +893,20 @@ MonoBehaviour:
   description: HasMelon
   satisfied: 0
   hash: -1709921099
+--- !u!114 &114609559679950854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: OrangePotionAquired
+  m_EditorClassIdentifier: 
+  description: OrangePotionAquired
+  satisfied: 0
+  hash: 35833763
 --- !u!114 &114619320260106674
 MonoBehaviour:
   m_ObjectHideFlags: 0

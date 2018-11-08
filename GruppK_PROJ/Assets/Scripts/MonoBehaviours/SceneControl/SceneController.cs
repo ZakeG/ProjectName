@@ -24,6 +24,10 @@ public class SceneController : MonoBehaviour
         playerSaveData.Save (PlayerMovement.startingPositionKey, initialStartingPositionName);
 
         yield return StartCoroutine(LoadSceneAndSetActive(startingSceneName));
+        if (AfterSceneLoad != null)
+        {
+            AfterSceneLoad();
+        }
         StartCoroutine(Fade(0));
     }
 
@@ -47,7 +51,6 @@ public class SceneController : MonoBehaviour
         yield return StartCoroutine(LoadSceneAndSetActive(sceneName));
         if (AfterSceneLoad != null)
         {
-            Debug.Log("AfterSceneLoad run");
             AfterSceneLoad();
         }
         yield return StartCoroutine(Fade(0));

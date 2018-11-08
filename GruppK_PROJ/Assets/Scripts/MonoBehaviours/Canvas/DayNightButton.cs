@@ -10,11 +10,13 @@ public class DayNightButton : MonoBehaviour {
     private List<GameObject> DayObjectsFromScene = new List<GameObject>();
     private List<GameObject> NightObjectsFromScene = new List<GameObject>();
     private Condition lightStaff;
+    private StaffObjectContainer currentSceneLightContainer;
 
     private void Start()
     {
         scene = GameObject.Find("SceneController").GetComponent<SceneController>();
-        scene.AfterSceneLoad += CheckLights;
+        scene.AfterSceneLoad += OnSceneTransition;
+        HideButton();
     }
 
     public void OnClick()
@@ -22,7 +24,7 @@ public class DayNightButton : MonoBehaviour {
         ToggleLights();
     }
 
-    public void HandleOnObjects(List<GameObject> list)
+    private void HandleDayObjects(List<GameObject> list)
     {
         DayObjectsFromScene.Clear();
         foreach (GameObject o in list)
@@ -31,7 +33,7 @@ public class DayNightButton : MonoBehaviour {
         }
     }
 
-    public void HandleOffObjects(List<GameObject> list)
+    private void HandleNightObjects(List<GameObject> list)
     {
         NightObjectsFromScene.Clear();
         foreach (GameObject o in list)
@@ -42,6 +44,7 @@ public class DayNightButton : MonoBehaviour {
 
     public void HideButton()
     {
+
         gameObject.SetActive(false);
     }
 
@@ -68,6 +71,14 @@ public class DayNightButton : MonoBehaviour {
                 go.SetActive(true);
             }
         }
+    }
+    private void OnSceneTransition()
+    {
+        currentSceneLightContainer = null;
+        currentSceneLightContainer = GameObject.FindWithTag("LightsList").GetComponent<StaffObjectContainer>();
+        HandleDayObjects(currentSceneLightContainer.GetDayList());
+        HandleNightObjects(currentSceneLightContainer.GetNightList());
+        CheckLights();
     }
 
     private void ToggleLights()

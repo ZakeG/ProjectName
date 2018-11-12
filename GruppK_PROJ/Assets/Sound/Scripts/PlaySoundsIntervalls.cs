@@ -7,6 +7,7 @@ public class PlaySoundsIntervalls : MonoBehaviour {
 	private AudioSource[] sources; 
 	public AudioClip Footsteps1;
 	public AudioClip Footsteps2;
+	public AudioClip Creak;
 
 
 	public float minDelay;
@@ -18,6 +19,7 @@ public class PlaySoundsIntervalls : MonoBehaviour {
 		sources = GetComponents<AudioSource> ();
 		sources[0].clip = Footsteps1;
 		sources[1].clip = Footsteps2;
+		sources[2].clip = Creak;
 
 
 
@@ -38,6 +40,13 @@ public class PlaySoundsIntervalls : MonoBehaviour {
 			float d = Random.Range (minDelay, maxDelay);
 
 			sources [1].PlayDelayed (d);
+
+		}
+		if (!sources [2].isPlaying) {
+
+			float d = Random.Range (minDelay, maxDelay);
+
+			sources [2].PlayDelayed (d);
 
 		}
 	}

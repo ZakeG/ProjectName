@@ -167,7 +167,7 @@ MonoBehaviour:
   m_Name: MoonPickedUp
   m_EditorClassIdentifier: 
   description: MoonPickedUp
-  satisfied: 1
+  satisfied: 0
   hash: 1562209020
 --- !u!114 &114061526481146648
 MonoBehaviour:
@@ -307,7 +307,7 @@ MonoBehaviour:
   m_Name: BroomstickPickedUp
   m_EditorClassIdentifier: 
   description: BroomstickPickedUp
-  satisfied: 1
+  satisfied: 0
   hash: -493304219
 --- !u!114 &114159093089903314
 MonoBehaviour:
@@ -601,7 +601,7 @@ MonoBehaviour:
   m_Name: SunVialFilled
   m_EditorClassIdentifier: 
   description: SunVialFilled
-  satisfied: 1
+  satisfied: 0
   hash: 1051307442
 --- !u!114 &114339336138375714
 MonoBehaviour:
@@ -769,7 +769,7 @@ MonoBehaviour:
   m_Name: Moonpiece1PickedUp
   m_EditorClassIdentifier: 
   description: Moonpiece1PickedUp
-  satisfied: 1
+  satisfied: 0
   hash: 1754484217
 --- !u!114 &114446122008873964
 MonoBehaviour:
@@ -881,7 +881,7 @@ MonoBehaviour:
   m_Name: Moonpiece2PickedUp
   m_EditorClassIdentifier: 
   description: Moonpiece2PickedUp
-  satisfied: 1
+  satisfied: 0
   hash: 1360949564
 --- !u!114 &114573808208314410
 MonoBehaviour:
@@ -1133,7 +1133,7 @@ MonoBehaviour:
   m_Name: GlowingJarPickedUp
   m_EditorClassIdentifier: 
   description: GlowingJarPickedUp
-  satisfied: 1
+  satisfied: 0
   hash: 1360342739
 --- !u!114 &114768765897709292
 MonoBehaviour:

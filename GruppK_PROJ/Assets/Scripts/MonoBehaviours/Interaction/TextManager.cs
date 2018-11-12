@@ -34,12 +34,14 @@ public class TextManager : MonoBehaviour
                 if (messageNumber < instructions.Count)
                 {
                     ShowNextMessage();
-                    messageNumber++;
+                    
                 }
                 else if(messageNumber >= instructions.Count)
                 {
                     DialougeStopped();
+                    return;
                 }
+                messageNumber++;
             }
         }
     }
@@ -64,16 +66,16 @@ public class TextManager : MonoBehaviour
 
     private void DialougeStarted()
     {
+        playerMovementScript.PauseUnpauseDialouge(true);
         text.text = instructions[0].message;
         text.color = instructions[0].textColor;
         messageNumber = 1;
         dialugeStarted = true;
-        playerMovementScript.PauseUnpauseInteraction(false);
     }
     private void DialougeStopped()
     {
         dialugeStarted = false;
-        playerMovementScript.PauseUnpauseInteraction(true);
+        playerMovementScript.PauseUnpauseDialouge(false);
         text.text = string.Empty;
         instructions.Clear();
     }

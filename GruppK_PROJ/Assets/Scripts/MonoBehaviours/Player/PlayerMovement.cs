@@ -18,8 +18,10 @@ public class PlayerMovement : MonoBehaviour
     private Interactable currentInteractable;
     private Vector3 destinationPosition;
     private bool handleInput = true;
-    private bool holdForDialuge = true;
+    private bool holdForDialuge = false;
+    private bool holdForReacion = false;
     private WaitForSeconds inputHoldWait;
+
 
 
     private readonly int hashSpeedPara = Animator.StringToHash("Speed");
@@ -115,7 +117,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void OnGroundClick(BaseEventData data)
     {
-        if (!handleInput || !holdForDialuge)
+        if (holdForDialuge && holdForReacion)
         {
             return;
         }
@@ -136,7 +138,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void OnInteractableClick(Interactable interactable)
     {
-        if (!handleInput || !holdForDialuge)
+        if (holdForDialuge && holdForReacion)
         {
             return;
         }
@@ -149,9 +151,14 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    public void PauseUnpauseInteraction(bool mode)
+    public void PauseUnpauseDialouge(bool mode)
     {
             holdForDialuge = mode;
+    }
+
+    public void PauseUnpauseReaction(bool mode)
+    {
+            holdForReacion = mode;
     }
 
 

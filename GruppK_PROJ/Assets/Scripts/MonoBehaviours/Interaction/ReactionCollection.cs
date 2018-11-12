@@ -51,12 +51,14 @@ public class ReactionCollection : MonoBehaviour
                 if (reactionOrderNumber < reactions.Length)
                 {
                     RunNextReactions();
-                    reactionOrderNumber++;
+
                 }
                 else if (reactionOrderNumber >= reactions.Length)
                 {
                     ReactionsFinished();
+                    return;
                 }
+                reactionOrderNumber++;
             }
         }
     }
@@ -102,7 +104,7 @@ public class ReactionCollection : MonoBehaviour
     private void StartReactions()
     {
         reactionsStarted = true;
-        playerMovementScript.PauseUnpauseInteraction(false);
+        playerMovementScript.PauseUnpauseReaction(true);
         RunAllImmidiateReactions();
         RunNextReactions();
         reactionOrderNumber = 1;
@@ -111,7 +113,7 @@ public class ReactionCollection : MonoBehaviour
     private void ReactionsFinished()
     {
         reactionsStarted = false;
-        playerMovementScript.PauseUnpauseInteraction(true);
+        playerMovementScript.PauseUnpauseReaction(false);
     }
     
     public void React ()

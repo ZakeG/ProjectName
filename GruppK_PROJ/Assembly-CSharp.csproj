@@ -96,6 +96,7 @@
      <Compile Include="Assets\Scripts\ScriptableObjects\Interaction\Reactions\ImmediateReactions\TextReaction.cs" />
      <Compile Include="Assets\Scripts\ScriptableObjects\Inventory\Item.cs" />
      <Compile Include="Assets\Scripts\ScriptableObjects\Inventory\ItemCombination.cs" />
+     <Compile Include="Assets\Sound\Scripts\PlaySoundsIntervalls.cs" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>C:/Users/jessi/Documents/GitHub/ProjectName/GruppK_PROJ/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>

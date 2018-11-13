@@ -65,14 +65,14 @@ AudioMixerSnapshotController:
   m_SnapshotID: 3c56b1ee8757aeb4989bc7fc8033dca3
   m_FloatValues:
     ef10c9b2f34f803448d77c9d8ca0467f: -19.928473
-    697e1c3357c02884a8a21fecd19ceb94: -9.833291
+    697e1c3357c02884a8a21fecd19ceb94: -4.5603504
   m_TransitionOverrides: {}
 --- !u!243 &243757105018074908
 AudioMixerGroupController:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Music
+  m_Name: Music(Lr)
   m_AudioMixer: {fileID: 24100000}
   m_GroupID: df0659628d4a707459a816c533b2e8e6
   m_Children: []
@@ -89,7 +89,7 @@ AudioMixerGroupController:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Ambient
+  m_Name: Ambient(Lr)
   m_AudioMixer: {fileID: 24100000}
   m_GroupID: 8766771ff2821684dbcf86234650bf07
   m_Children: []

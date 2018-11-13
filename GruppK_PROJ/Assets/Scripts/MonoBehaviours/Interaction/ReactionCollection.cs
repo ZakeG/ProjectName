@@ -123,12 +123,11 @@ public class ReactionCollection : MonoBehaviour
     }
     private void ReactionsAlmostFinished()
     {
-        //Do stuff
+        //Cursor.SetCursor(cursorArrow, hotSpot, cursorMode); När det finns en cursorIneracting ta bort kommentering
     }
 
     private void ReactionsFinished()
     {
-        //Cursor.SetCursor(cursorArrow, hotSpot, cursorMode); När det finns en cursorIneracting ta bort kommentering
         reactionsStarted = false;
         playerMovementScript.PauseUnpauseReaction(false);
     }

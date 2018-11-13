@@ -5,14 +5,14 @@ using System.Collections.Generic;
 public class ItemCombination : ScriptableObject
 {
     public List<Item> combination = new List<Item>();
-    public Item result;
+    public List<Item> result;
 
     public List<Item> GetList()
     {
         return combination;
     }
 
-    public Item GetResultingItem()
+    public List<Item> GetResultingItemList()
     {
         return result;
     }

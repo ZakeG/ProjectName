@@ -12,20 +12,16 @@ public class PlayerMovement : MonoBehaviour
     public float speedDampTime = 0.1f;
     public float slowingSpeed = 0.175f;
     public float turnSpeedThreshold = 0.5f;
-    public float inputHoldDelay = 0.5f;
     
 
     private Interactable currentInteractable;
     private Vector3 destinationPosition;
-    private bool handleInput = true;
     private bool holdForDialuge = false;
     private bool holdForReacion = false;
-    private WaitForSeconds inputHoldWait;
 
 
 
     private readonly int hashSpeedPara = Animator.StringToHash("Speed");
-    private readonly int hashLocomotionTag = Animator.StringToHash("Locomotion");
 
 
     public const string startingPositionKey = "starting position";
@@ -38,8 +34,6 @@ public class PlayerMovement : MonoBehaviour
     private void Start()
     {
         agent.updateRotation = false;
-
-        inputHoldWait = new WaitForSeconds (inputHoldDelay);
 
         string startingPositionName = "";
         playerSaveData.Load(startingPositionKey, ref startingPositionName);
@@ -59,25 +53,25 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        if (agent.pathPending)
-            return;
+            if (agent.pathPending)
+                return;
 
-        float speed = agent.desiredVelocity.magnitude;
+            float speed = agent.desiredVelocity.magnitude;
 
-        if (agent.remainingDistance <= agent.stoppingDistance * stopDistanceProportion)
-            Stopping(out speed);
-        else if (agent.remainingDistance <= agent.stoppingDistance)
-            Slowing(out speed, agent.remainingDistance);
-        else if (speed > turnSpeedThreshold)
-            Moving();
-        
-        animator.SetFloat(hashSpeedPara, speed, speedDampTime, Time.deltaTime);
+            if (agent.remainingDistance <= agent.stoppingDistance * stopDistanceProportion)
+                Stopping(out speed);
+            else if (agent.remainingDistance <= agent.stoppingDistance)
+                Slowing(out speed, agent.remainingDistance);
+            else if (speed > turnSpeedThreshold)
+                Moving();
+
+            animator.SetFloat(hashSpeedPara, speed, speedDampTime, Time.deltaTime);   
     }
 
 
     private void Stopping (out float speed)
     {
-        agent.isStopped = true; ;
+        agent.isStopped = true;
 
         transform.position = destinationPosition;
         speed = 0f;
@@ -87,8 +81,6 @@ public class PlayerMovement : MonoBehaviour
             transform.rotation = currentInteractable.interactionLocation.rotation;
             currentInteractable.Interact();
             currentInteractable = null;
-
-            StartCoroutine (WaitForInteraction ());
         }
     }
 
@@ -135,7 +127,6 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-
     public void OnInteractableClick(Interactable interactable)
     {
         if (holdForDialuge && holdForReacion)
@@ -153,26 +144,32 @@ public class PlayerMovement : MonoBehaviour
 
     public void PauseUnpauseDialouge(bool mode)
     {
-            holdForDialuge = mode;
+        if (mode == false)
+        {
+
+        }
+        holdForDialuge = mode;
     }
 
     public void PauseUnpauseReaction(bool mode)
     {
+        if (mode == false)
+        {
+
+        }
             holdForReacion = mode;
     }
 
-
-    private IEnumerator WaitForInteraction ()
+    public bool GetInteractionBool()
     {
-        handleInput = false;
-
-        yield return inputHoldWait;
-
-        while (animator.GetCurrentAnimatorStateInfo (0).tagHash != hashLocomotionTag)
+        if (holdForDialuge && holdForReacion)
         {
-            yield return null;
+            return true;
         }
-
-        handleInput = true;
+        else
+        {
+            return false;
+        }
     }
+
 }

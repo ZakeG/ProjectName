@@ -8,20 +8,33 @@ public class DynamicCursor : MonoBehaviour {
     public Texture2D hand;
     private CursorMode cursorMode = CursorMode.Auto;
     private Vector2 hotSpot = Vector2.zero;
+    private bool paused;
+    private PlayerMovement player;
 
     public void Start()
     {
         Cursor.SetCursor(arrow, hotSpot, cursorMode);
+        player = GameObject.Find("Player").GetComponent<PlayerMovement>();
+    }
+
+    private void Update()
+    {
+        paused = player.GetInteractionBool();
+
     }
 
     public void ChangeToArrow()
     {
-        Cursor.SetCursor(arrow, hotSpot, cursorMode);
+        if (!paused) {
+            Cursor.SetCursor(arrow, hotSpot, cursorMode);
+        }
     }
-
 
     public void ChangeToHand()
     {
-        Cursor.SetCursor(hand, hotSpot, cursorMode);
+        if (!paused)
+        {
+            Cursor.SetCursor(hand, hotSpot, cursorMode);
+        }
     }
 }

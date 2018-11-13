@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 663aaf68d62ab2f438bfca401044c99e, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -13056,7 +13056,7 @@ Light:
   m_Type: 2
   m_Color: {r: 1, g: 0.553, b: 0, a: 1}
   m_Intensity: 10
-  m_Range: 3
+  m_Range: 2
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
@@ -19823,7 +19823,7 @@ Light:
   serializedVersion: 8
   m_Type: 1
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 0.5
+  m_Intensity: 0.4
   m_Range: 10
   m_SpotAngle: 30
   m_CookieSize: 10
@@ -50902,7 +50902,7 @@ Light:
   m_Type: 2
   m_Color: {r: 1, g: 0.553, b: 0, a: 1}
   m_Intensity: 10
-  m_Range: 3
+  m_Range: 2
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
@@ -51635,7 +51635,7 @@ Light:
   m_Type: 2
   m_Color: {r: 1, g: 0.553, b: 0, a: 1}
   m_Intensity: 10
-  m_Range: 3
+  m_Range: 2
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
@@ -52432,6 +52432,26 @@ Prefab:
     - target: {fileID: 1262866889584378, guid: 05aa8aaac0a0631499d26b9159213d95, type: 2}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 20110807577183430, guid: 05aa8aaac0a0631499d26b9159213d95,
+        type: 2}
+      propertyPath: m_ClearFlags
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 20110807577183430, guid: 05aa8aaac0a0631499d26b9159213d95,
+        type: 2}
+      propertyPath: m_BackGroundColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 20110807577183430, guid: 05aa8aaac0a0631499d26b9159213d95,
+        type: 2}
+      propertyPath: m_BackGroundColor.g
+      value: 0.69433475
+      objectReference: {fileID: 0}
+    - target: {fileID: 20110807577183430, guid: 05aa8aaac0a0631499d26b9159213d95,
+        type: 2}
+      propertyPath: m_BackGroundColor.b
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 05aa8aaac0a0631499d26b9159213d95, type: 2}
@@ -55772,16 +55792,16 @@ Light:
   m_Enabled: 1
   serializedVersion: 8
   m_Type: 2
-  m_Color: {r: 0.8490566, g: 0.4138282, b: 0.03604484, a: 1}
+  m_Color: {r: 1, g: 0.5731888, b: 0, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
-    m_Strength: 1
+    m_Strength: 0.75
     m_Bias: 0.05
     m_NormalBias: 0.4
     m_NearPlane: 0.2
@@ -78364,7 +78384,7 @@ Light:
   m_Type: 2
   m_Color: {r: 1, g: 0.553, b: 0, a: 1}
   m_Intensity: 10
-  m_Range: 3
+  m_Range: 2
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
@@ -93758,6 +93778,26 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1262866889584378, guid: 05aa8aaac0a0631499d26b9159213d95, type: 2}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 20110807577183430, guid: 05aa8aaac0a0631499d26b9159213d95,
+        type: 2}
+      propertyPath: m_ClearFlags
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 20110807577183430, guid: 05aa8aaac0a0631499d26b9159213d95,
+        type: 2}
+      propertyPath: m_BackGroundColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 20110807577183430, guid: 05aa8aaac0a0631499d26b9159213d95,
+        type: 2}
+      propertyPath: m_BackGroundColor.g
+      value: 0.69433475
+      objectReference: {fileID: 0}
+    - target: {fileID: 20110807577183430, guid: 05aa8aaac0a0631499d26b9159213d95,
+        type: 2}
+      propertyPath: m_BackGroundColor.b
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []

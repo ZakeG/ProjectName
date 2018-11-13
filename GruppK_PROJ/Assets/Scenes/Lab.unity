@@ -6802,6 +6802,7 @@ MonoBehaviour:
   requiredConditions:
   - {fileID: 683201377}
   - {fileID: 263245841}
+  - {fileID: 1867779707}
   reactionCollection: {fileID: 1857918835}
 --- !u!1 &98978763
 GameObject:
@@ -47754,6 +47755,20 @@ MonoBehaviour:
   - {fileID: 1294850526}
   - {fileID: 1527487634}
   reactionCollection: {fileID: 1686167180}
+--- !u!114 &1867779707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: StaffCompleted
+  satisfied: 0
+  hash: 2045985755
 --- !u!1 &1870237161
 GameObject:
   m_ObjectHideFlags: 0

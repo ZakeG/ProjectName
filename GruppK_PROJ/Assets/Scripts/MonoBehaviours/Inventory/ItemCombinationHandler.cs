@@ -6,9 +6,11 @@ public class ItemCombinationHandler : MonoBehaviour {
 
     public List<ItemCombination> combinations = new List<ItemCombination>();
     public Inventory inventory;
+    private Inventory inventoryScript;
     private List<Item> selectedItems;
     private List<Item> combos;
-    private bool combineable;
+    private List<Item> comboResults;
+    private bool allSelectedItemsInCombo;
     private bool compatible;
     public AudioClip done;
     public AudioClip fail;
@@ -16,6 +18,7 @@ public class ItemCombinationHandler : MonoBehaviour {
 
     private void Start()
     {
+        inventoryScript = inventory.GetComponent<Inventory>();
         selectedItems = new List<Item>();
         DeselectAll();
 
@@ -25,30 +28,34 @@ public class ItemCombinationHandler : MonoBehaviour {
     {
         foreach (ItemCombination ic in combinations)
         {
+            Debug.Log("Checking combinaton list: " + ic);
             combos = ic.GetList();
             compatible = true;
             foreach (Item i in combos)
             {
-                if (selectedItems.Contains(i) && compatible)
+                if (selectedItems.Contains(i) && combos.Count == selectedItems.Count)
                 {
-                    combineable = true; 
+                    Debug.Log("Still able to be combined");
+                    allSelectedItemsInCombo = true; 
                 }
                 else
                 {
-                    compatible = false;
-                    combineable = false;
+                    Debug.Log("No longer viable for combine");
+                    allSelectedItemsInCombo = false;
                 }
             }
 
-            if (combineable)
+            if (allSelectedItemsInCombo)
             {
+                Debug.Log("Combining");
                 CombinationSucess(ic);
                 audioSource.PlayOneShot(done, 0.7F);
-                return;
+                break;
             }
-            else if(!combineable)
+            else if(!allSelectedItemsInCombo)
             {
-  //              audioSource.PlayOneShot(fail, 0.7F);
+                Debug.Log("Not Combining");
+                //              audioSource.PlayOneShot(fail, 0.7F);
             }
             
         }
@@ -74,20 +81,20 @@ public class ItemCombinationHandler : MonoBehaviour {
     {
         foreach (Item i in selectedItems)
         {
-            inventory.GetComponent<Inventory>().DehighlightSlot(i);
+            inventoryScript.DehighlightSlot(i);
         }
         selectedItems.Clear();
     }
 
     private void Select(Item item)
     {
-        inventory.GetComponent<Inventory>().HighlightSlot(item);
+        inventoryScript.HighlightSlot(item);
         selectedItems.Add(item);
     }
 
     private void Deselect(Item item)
     {
-        inventory.GetComponent<Inventory>().DehighlightSlot(item);
+        inventoryScript.DehighlightSlot(item);
         selectedItems.Remove(item);
     }
 
@@ -95,10 +102,14 @@ public class ItemCombinationHandler : MonoBehaviour {
     {
         DeselectAll();
         combos = combinationRecepie.GetList();
-        foreach(Item i in combos)
+        comboResults = combinationRecepie.GetResultingItemList();
+        foreach (Item i in combos)
         {
             inventory.GetComponent<Inventory>().RemoveItem(i);
         }
-        inventory.GetComponent<Inventory>().AddItem(combinationRecepie.GetResultingItem());
+        foreach(Item i in comboResults)
+        {
+            inventoryScript.AddItem(i);
+        }
     }
 }

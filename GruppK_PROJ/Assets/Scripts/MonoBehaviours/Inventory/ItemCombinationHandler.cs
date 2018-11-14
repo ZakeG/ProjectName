@@ -6,11 +6,11 @@ public class ItemCombinationHandler : MonoBehaviour {
 
     public List<ItemCombination> combinations = new List<ItemCombination>();
     public Inventory inventory;
-    public Inventory inventoryScript;
+    private Inventory inventoryScript;
     private List<Item> selectedItems;
     private List<Item> combos;
     private List<Item> comboResults;
-    private bool combineable;
+    private bool allSelectedItemsInCombo;
     private bool compatible;
     public AudioClip done;
     public AudioClip fail;
@@ -32,24 +32,23 @@ public class ItemCombinationHandler : MonoBehaviour {
             compatible = true;
             foreach (Item i in combos)
             {
-                if (selectedItems.Contains(i) && compatible)
+                if (selectedItems.Contains(i) && combos.Count == selectedItems.Count)
                 {
-                    combineable = true; 
+                    allSelectedItemsInCombo = true; 
                 }
                 else
                 {
-                    compatible = false;
-                    combineable = false;
+                    allSelectedItemsInCombo = false;
                 }
             }
 
-            if (combineable)
+            if (allSelectedItemsInCombo)
             {
                 CombinationSucess(ic);
                 audioSource.PlayOneShot(done, 0.7F);
-                return;
+                break;
             }
-            else if(!combineable)
+            else if(!allSelectedItemsInCombo)
             {
   //              audioSource.PlayOneShot(fail, 0.7F);
             }
@@ -98,7 +97,6 @@ public class ItemCombinationHandler : MonoBehaviour {
     {
         DeselectAll();
         combos = combinationRecepie.GetList();
-        comboResults.Clear();
         comboResults = combinationRecepie.GetResultingItemList();
         foreach (Item i in combos)
         {

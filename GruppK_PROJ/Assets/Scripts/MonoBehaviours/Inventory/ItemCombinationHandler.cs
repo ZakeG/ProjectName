@@ -6,8 +6,10 @@ public class ItemCombinationHandler : MonoBehaviour {
 
     public List<ItemCombination> combinations = new List<ItemCombination>();
     public Inventory inventory;
+    public Inventory inventoryScript;
     private List<Item> selectedItems;
     private List<Item> combos;
+    private List<Item> comboResults;
     private bool combineable;
     private bool compatible;
     public AudioClip done;
@@ -16,6 +18,7 @@ public class ItemCombinationHandler : MonoBehaviour {
 
     private void Start()
     {
+        inventoryScript = inventory.GetComponent<Inventory>();
         selectedItems = new List<Item>();
         DeselectAll();
 
@@ -74,20 +77,20 @@ public class ItemCombinationHandler : MonoBehaviour {
     {
         foreach (Item i in selectedItems)
         {
-            inventory.GetComponent<Inventory>().DehighlightSlot(i);
+            inventoryScript.DehighlightSlot(i);
         }
         selectedItems.Clear();
     }
 
     private void Select(Item item)
     {
-        inventory.GetComponent<Inventory>().HighlightSlot(item);
+        inventoryScript.HighlightSlot(item);
         selectedItems.Add(item);
     }
 
     private void Deselect(Item item)
     {
-        inventory.GetComponent<Inventory>().DehighlightSlot(item);
+        inventoryScript.DehighlightSlot(item);
         selectedItems.Remove(item);
     }
 
@@ -95,10 +98,15 @@ public class ItemCombinationHandler : MonoBehaviour {
     {
         DeselectAll();
         combos = combinationRecepie.GetList();
-        foreach(Item i in combos)
+        comboResults.Clear();
+        comboResults = combinationRecepie.GetResultingItemList();
+        foreach (Item i in combos)
         {
             inventory.GetComponent<Inventory>().RemoveItem(i);
         }
-        inventory.GetComponent<Inventory>().AddItem(combinationRecepie.GetResultingItem());
+        foreach(Item i in comboResults)
+        {
+            inventoryScript.AddItem(i);
+        }
     }
 }

@@ -1660,6 +1660,7 @@ MonoBehaviour:
   description: New condition collection
   requiredConditions:
   - {fileID: 928579887}
+  - {fileID: 105725902}
   reactionCollection: {fileID: 266297067}
 --- !u!114 &74031248
 MonoBehaviour:
@@ -6992,6 +6993,20 @@ Transform:
   m_Father: {fileID: 1695966293}
   m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 130.931, z: 0}
+--- !u!114 &105725902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: KnifePickedUp
+  satisfied: 0
+  hash: -1969049019
 --- !u!1 &106837503
 GameObject:
   m_ObjectHideFlags: 0
@@ -7664,6 +7679,8 @@ MonoBehaviour:
   - {fileID: 864729653}
   - {fileID: 673895881}
   - {fileID: 1178878956}
+  - {fileID: 860766754}
+  - {fileID: 1541961724}
 --- !u!4 &155252400
 Transform:
   m_ObjectHideFlags: 0
@@ -7895,6 +7912,8 @@ MonoBehaviour:
   - {fileID: 56339645}
   - {fileID: 894623502}
   - {fileID: 1461161406}
+  - {fileID: 629044563}
+  - {fileID: 1077999369}
 --- !u!1 &166737873
 GameObject:
   m_ObjectHideFlags: 0
@@ -15273,6 +15292,11 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!4 &515442051 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 429794, guid: 0036c73aed31ec14fbbf45853c79fc14,
+    type: 2}
+  m_PrefabInternal: {fileID: 503029761}
 --- !u!1 &515999806
 GameObject:
   m_ObjectHideFlags: 0
@@ -21856,6 +21880,20 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 626487724}
   m_Mesh: {fileID: 4300002, guid: f68e26733f39a5c42b1f9cec45827f07, type: 3}
+--- !u!114 &629044563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: "\nThe second ingredient the wizard asked of me was some tea...I\u2019d
+    better be careful not to spill any...I should collect the rest of the ingredients
+    before returning to the wizard.\n"
 --- !u!1 &629375280
 GameObject:
   m_ObjectHideFlags: 0
@@ -22411,8 +22449,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: Go find it for me.
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: "It\u2019s crucial that you do..."
+  textColor: {r: 1, g: 0, b: 0, a: 1}
   order: 3
 --- !u!1 &674198924
 GameObject:
@@ -22612,6 +22650,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 680494350}
   m_Mesh: {fileID: 4300004, guid: e316a8864f0235c469e8922f5002d45e, type: 3}
+--- !u!114 &681595747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: '
+
+    You''ve created the day and night staff, it will help you see things that ONLY
+    lurks in the dark..'
 --- !u!114 &683201377
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27340,6 +27393,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 860160878}
   m_Mesh: {fileID: 4300002, guid: f68e26733f39a5c42b1f9cec45827f07, type: 3}
+--- !u!114 &860766754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: "\nI can\u2019t really find a phoenix feather in this place..MAYBE I could
+    make a fake one without the Great and Powerful wizard noticing..? "
 --- !u!114 &861831851
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27365,8 +27431,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: I NEED it for my potion!!!!!
-  textColor: {r: 1, g: 0.033939295, b: 0, a: 1}
+  message: Take a look around the room and see if you can find one
+  textColor: {r: 1, g: 1, b: 1, a: 1}
   order: 2
 --- !u!1 &866150569
 GameObject:
@@ -27421,6 +27487,7 @@ MonoBehaviour:
   - {fileID: 287201364}
   - {fileID: 1786194568}
   - {fileID: 1590498648}
+  - {fileID: 887066220}
 --- !u!1001 &868668074
 Prefab:
   m_ObjectHideFlags: 0
@@ -27809,6 +27876,28 @@ MonoBehaviour:
   description: CrushedHerbsPickedUp
   satisfied: 0
   hash: 1068547157
+--- !u!114 &887066220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: '
+
+    1.A staff needs a staff...right? Maybe something out of wood..
+
+    2. Something that represents the day..Maybe something bright
+
+    3. Something that represents the night...Maybe there''s a clue around here..
+
+    4. Maybe something that emmits a glow, a guiding light in the dark...
+
+'
 --- !u!1 &887398656
 GameObject:
   m_ObjectHideFlags: 0
@@ -29285,6 +29374,131 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 958126300}
   m_Mesh: {fileID: 4300002, guid: f68e26733f39a5c42b1f9cec45827f07, type: 3}
+--- !u!1 &962075430
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 962075431}
+  - component: {fileID: 962075432}
+  m_Layer: 0
+  m_Name: wind
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &962075431
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 962075430}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 515442051}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &962075432
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 962075430}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 243649860937537956, guid: ccf067d0ddedf5448a8df13bb0a8e118,
+    type: 2}
+  m_audioClip: {fileID: 8300000, guid: dcfa7009c66ca2046b42a9369f383d9a, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 100
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &963524171
 GameObject:
   m_ObjectHideFlags: 0
@@ -29398,6 +29612,131 @@ Transform:
   m_Father: {fileID: 1695966293}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &974089777
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 974089778}
+  - component: {fileID: 974089779}
+  m_Layer: 0
+  m_Name: Music
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &974089778
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 974089777}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -2.59, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1698189249}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &974089779
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 974089777}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 243220072376295968, guid: ccf067d0ddedf5448a8df13bb0a8e118,
+    type: 2}
+  m_audioClip: {fileID: 8300000, guid: 416c19a8c59766348a6cb05d122e1601, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 100
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &974197762
 Prefab:
   m_ObjectHideFlags: 0
@@ -31968,6 +32307,23 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1077319286}
   m_Mesh: {fileID: 4300002, guid: 429086a61925c6249b56fe28c383adf1, type: 3}
+--- !u!114 &1077999369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: '
+
+    1.Well..something is needed to carry the tea in..I should find a container of
+    some sort.....
+
+    2. You can''t make tea without tea..'
 --- !u!1 &1083581951
 GameObject:
   m_ObjectHideFlags: 0
@@ -37786,6 +38142,146 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: 66e6abbe729537d4eb25a7a78c2285d1,
     type: 3}
   m_PrefabInternal: {fileID: 1364206486}
+--- !u!1 &1364421930
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1364421931}
+  - component: {fileID: 1364421933}
+  - component: {fileID: 1364421932}
+  m_Layer: 0
+  m_Name: intervals
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1364421931
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1364421930}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 515442051}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1364421932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1364421930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e52ba40a76d2e9428241166e043916b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  creak: {fileID: 8300000, guid: 3c9d4ea7b6621534286c7d6df21d8722, type: 3}
+  minDelay: 15
+  maxDelay: 25
+--- !u!82 &1364421933
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1364421930}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 243726874748283502, guid: ccf067d0ddedf5448a8df13bb0a8e118,
+    type: 2}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 100
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &1365950233
 Prefab:
   m_ObjectHideFlags: 0
@@ -40213,7 +40709,7 @@ Halo:
   m_Color:
     serializedVersion: 2
     rgba: 4278701974
-  m_Size: 0.1
+  m_Size: 0.2
 --- !u!23 &1477869659
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -41655,6 +42151,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   reactions:
   - {fileID: 782550570}
+--- !u!114 &1541961724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: '
+
+    1.A feather, to create a feather a feather would be usueful...
+
+    2.Phoenixes are infamous for the fiery orange shade, I need something to replicate
+    that fierce colour.
+
+'
 --- !u!1 &1543203519
 GameObject:
   m_ObjectHideFlags: 0
@@ -42664,7 +43179,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: Create night and day staff
+  message: Create a day and night staff
 --- !u!1 &1593868593
 GameObject:
   m_ObjectHideFlags: 0
@@ -45052,6 +45567,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item: {fileID: 11400000, guid: 9ecbca1b8b638a64086b394e34e26e73, type: 2}
+--- !u!4 &1698189249 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 472252, guid: 0036c73aed31ec14fbbf45853c79fc14,
+    type: 2}
+  m_PrefabInternal: {fileID: 503029761}
 --- !u!1001 &1710461292
 Prefab:
   m_ObjectHideFlags: 0
@@ -45828,7 +46348,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: I have more work for you!
+  message: Now give it a try! And come back to me when you're ready,I have more work
+    for you!
   textColor: {r: 1, g: 1, b: 1, a: 1}
   order: 2
 --- !u!1001 &1753974720
@@ -47617,6 +48138,7 @@ MonoBehaviour:
   - {fileID: 1934903398}
   - {fileID: 1749304940}
   - {fileID: 1827668325}
+  - {fileID: 681595747}
 --- !u!1 &1857951429
 GameObject:
   m_ObjectHideFlags: 0
@@ -49247,7 +49769,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: Now give it a try! And come back to me when you're ready
+  message: "Now the staff you\u2019ve created possess the ability to make it day and
+    night in an instant, this will help you find things that might be lost in the
+    shadows..\r\n"
   textColor: {r: 1, g: 1, b: 1, a: 1}
   order: 1
 --- !u!1 &1936332524
@@ -56778,7 +57302,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: I seem to have lost my phoenix feather!
+  message: 'The first key ingredient I need from you is a phoenix feather, they are
+    extremely rare and posses a fiery orange shade. '
   textColor: {r: 1, g: 1, b: 1, a: 1}
   order: 1
 --- !u!1 &2098647290

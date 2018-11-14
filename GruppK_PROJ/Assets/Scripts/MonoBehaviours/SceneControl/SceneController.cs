@@ -7,6 +7,7 @@ public class SceneController : MonoBehaviour
 {
     public event Action BeforeSceneUnload;
     public event Action AfterSceneLoad;
+    public event Action SlowAfterSceneLoad;
 
 
     public CanvasGroup faderCanvasGroup;
@@ -28,6 +29,11 @@ public class SceneController : MonoBehaviour
         {
             AfterSceneLoad();
         }
+        if (SlowAfterSceneLoad != null)
+        {
+            SlowAfterSceneLoad();
+        }
+
         StartCoroutine(Fade(0));
     }
 
@@ -52,6 +58,10 @@ public class SceneController : MonoBehaviour
         if (AfterSceneLoad != null)
         {
             AfterSceneLoad();
+        }
+        if (SlowAfterSceneLoad != null)
+        {
+            SlowAfterSceneLoad();
         }
         yield return StartCoroutine(Fade(0));
     }

@@ -6,10 +6,14 @@ public class QuestBookButton : MonoBehaviour {
 
     public GameObject book;
     private bool bookOpen;
+    private SceneController sceneController;
 
-	void Start () {
+    void Start () {
         bookOpen = true;
+        sceneController = GameObject.Find("SceneController").GetComponent<SceneController>();
+        sceneController.BeforeSceneUnload += OpenBook;
     }
+
     public void ToggleBookOpen()
     {
         if (!bookOpen)

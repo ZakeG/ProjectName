@@ -11,7 +11,6 @@ public class ItemCombinationHandler : MonoBehaviour {
     private List<Item> combos;
     private List<Item> comboResults;
     private bool allSelectedItemsInCombo;
-    private bool compatible;
     public AudioClip done;
     public AudioClip fail;
     public AudioSource audioSource;
@@ -30,7 +29,7 @@ public class ItemCombinationHandler : MonoBehaviour {
         {
             Debug.Log("Checking combinaton list: " + ic);
             combos = ic.GetList();
-            compatible = true;
+            allSelectedItemsInCombo = true;
             foreach (Item i in combos)
             {
                 if (selectedItems.Contains(i) && combos.Count == selectedItems.Count)
@@ -42,6 +41,7 @@ public class ItemCombinationHandler : MonoBehaviour {
                 {
                     Debug.Log("No longer viable for combine");
                     allSelectedItemsInCombo = false;
+                    break;
                 }
             }
 

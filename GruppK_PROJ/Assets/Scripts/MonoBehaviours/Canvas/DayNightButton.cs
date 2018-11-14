@@ -29,7 +29,10 @@ public class DayNightButton : MonoBehaviour {
         DayObjectsFromScene.Clear();
         foreach (GameObject o in list)
         {
-            DayObjectsFromScene.Add(o);
+            if (!(o == null))
+            {
+                DayObjectsFromScene.Add(o);
+            }
         }
     }
 
@@ -38,7 +41,10 @@ public class DayNightButton : MonoBehaviour {
         NightObjectsFromScene.Clear();
         foreach (GameObject o in list)
         {
-            NightObjectsFromScene.Add(o);
+            if (!(o == null))
+            {
+                NightObjectsFromScene.Add(o);
+            }
         }
     }
 
@@ -54,32 +60,21 @@ public class DayNightButton : MonoBehaviour {
         {
             foreach (GameObject go in DayObjectsFromScene)
             {
-                if (!(go == null))
-                {
                     go.SetActive(true);
-                }
             }
             foreach (GameObject go in NightObjectsFromScene)
             {
-                if (!(go == null))
-                {
                     go.SetActive(false);
-                }
             }
         }
         else if(currentState.satisfied == false) {
             foreach (GameObject go in DayObjectsFromScene)
             {
-                if (!(go==null)) {
                     go.SetActive(false);
-                }
             }
             foreach (GameObject go in NightObjectsFromScene)
             {
-                if (!(go == null))
-                {
                     go.SetActive(true);
-                }
             }
         }
     }
@@ -97,17 +92,11 @@ public class DayNightButton : MonoBehaviour {
         currentState.satisfied = !currentState.satisfied;
         foreach (GameObject go in DayObjectsFromScene)
         {
-            if (!(go == null))
-            {
                 go.SetActive(currentState.satisfied);
-            }
         }
         foreach (GameObject go in NightObjectsFromScene)
         {
-            if (!(go == null))
-            {
                 go.SetActive(!currentState.satisfied);
-            }
         }
     }
 

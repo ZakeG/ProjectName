@@ -6,9 +6,9 @@ public class IntervalsWind : MonoBehaviour {
 
 	private AudioSource[] sources; 
 	public AudioClip creak;
+ 
 
-
-	public float minDelay;
+    public float minDelay;
 	public float maxDelay; 
 
 
@@ -18,9 +18,7 @@ public class IntervalsWind : MonoBehaviour {
 		sources[0].clip = creak;
 
 
-
-
-	}
+    }
 
 	// Update is called once per frame
 	void Update () {
@@ -31,6 +29,6 @@ public class IntervalsWind : MonoBehaviour {
 
 			sources [0].PlayDelayed (d);
 
-		}
-	}
+        }
+    }
 }

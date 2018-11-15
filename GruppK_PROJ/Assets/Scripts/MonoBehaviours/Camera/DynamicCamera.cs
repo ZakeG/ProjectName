@@ -7,7 +7,13 @@ public class DynamicCamera : MonoBehaviour {
     public GameObject cameraObject1;
     public GameObject cameraObject2;
 
-    public void MoveCamera()
+    public void OnTriggerEnter(Collider other)
+    {
+        Debug.Log("Enter");   
+    }
+
+
+    private void MoveCamera()
     {
         if (cameraObject1.activeSelf)
         {

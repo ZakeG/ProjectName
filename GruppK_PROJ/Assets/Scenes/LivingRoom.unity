@@ -1223,8 +1223,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: Hey! that's mine.
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: 'PAINTING: What are you looking at?'
+  textColor: {r: 1, g: 0.023584902, b: 0.023584902, a: 1}
   order: 0
 --- !u!1001 &40964318
 Prefab:
@@ -2037,7 +2037,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message: I'm sorry but I need that pearl more than you
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!4 &77909232 stripped
 Transform:
@@ -2245,8 +2245,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: 'Apprentice: This pieces looks familiar I should bring it with me'
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!1001 &100154388
 Prefab:
@@ -2519,8 +2519,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: 'Apprentice: Dragon...fire...it wouldn''t be so easy to just throw the
+    dragon bone into the fire right? ..'
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!1001 &117823967
 Prefab:
@@ -8443,8 +8444,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: 'Apprentice: One of the bowls on the scale is loose..i could maybe find
+    another use for it..'
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!1 &167703998
 GameObject:
@@ -8600,10 +8602,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'There''s something shining in one of the drawers..
+  message: 'Apprentice: There''s something shining in one of the drawers..
 
 '
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!1001 &172309398
 Prefab:
@@ -9919,8 +9921,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: There's a beautiful glowing blue crystal inside this clam
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: 'Apprentice: There''s a beautiful glowing blue crystal inside this clam'
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!1 &225467293
 GameObject:
@@ -10172,7 +10174,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: reactions.Array.size
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11484708, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: conditionCollections.Array.size
@@ -10751,8 +10753,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: A stocking hanger is hanging from the mantle of the fireplace
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: 'Apprentice: A stocking hanger is hanging from the mantle of the fireplace'
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!1001 &279486589
 Prefab:
@@ -12591,11 +12593,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'This looks familiar..
+  message: 'Apprentice: This looks familiar..
 
 
 '
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!1001 &367946760
 Prefab:
@@ -19131,6 +19133,68 @@ MonoBehaviour:
   - {fileID: 2017514863}
   - {fileID: 244165592}
   - {fileID: 7204834}
+--- !u!1001 &434982925
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.112
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.125
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.64
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.68693
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.68693
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.68693
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d, type: 3}
+      propertyPath: m_Name
+      value: LibraryLadder (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d, type: 3}
+  m_IsPrefabAsset: 0
 --- !u!1001 &435551702
 Prefab:
   m_ObjectHideFlags: 0
@@ -19233,8 +19297,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: 'Apprentice: Where have I seen This before ?'
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!1001 &437420644
 Prefab:
@@ -19556,7 +19620,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message: It wasn't here during the day though...
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!1 &448620398
 GameObject:
@@ -20013,8 +20077,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: "I could cook the clam over the fire... \n"
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: "Apprentice: I could cook the clam over the fire... \n"
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!114 &477089450
 MonoBehaviour:
@@ -20027,8 +20091,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: A Key!
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: 'Apprentice: A Key!'
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!1 &478720021
 GameObject:
@@ -20255,6 +20319,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 488153777}
+--- !u!114 &495759391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: I really need that stone!
+  textColor: {r: 1, g: 1, b: 1, a: 1}
+  order: 0
 --- !u!1 &498403073
 GameObject:
   m_ObjectHideFlags: 0
@@ -20390,8 +20468,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: There's something hanging from the chandelier...
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: 'Apprentice: There''s something hanging from the chandelier...'
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!1001 &514937521
 Prefab:
@@ -20495,8 +20573,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: In the safe theres a skull and some gold teeth...
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: Oh...The safe contains a few gold teeth and a skull...
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!1001 &517402030
 Prefab:
@@ -21065,7 +21143,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: reactions.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11484708, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: conditionCollections.Array.size
@@ -21380,20 +21458,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 552112919}
---- !u!114 &558065369
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  order: 1
-  gameObject: {fileID: 1327794670}
-  activeState: 0
 --- !u!114 &558755056
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26710,20 +26774,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 194222, guid: d48734bd22479a14cb1a52b40aa09db4,
     type: 2}
   m_PrefabInternal: {fileID: 582259193}
---- !u!114 &583108448
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  message: 
-  textColor: {r: 1, g: 1, b: 1, a: 1}
-  order: 0
 --- !u!1001 &584424458
 Prefab:
   m_ObjectHideFlags: 0
@@ -26948,7 +26998,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message: Maybe I could hang something on it
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!114 &596886726
 MonoBehaviour:
@@ -26961,8 +27011,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: yay!
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 1
 --- !u!1001 &600039529
 Prefab:
@@ -27523,8 +27573,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: Looks like I've got all the pieces that seems to be missing..
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: 'Apprentice: Looks like I''ve got all the pieces that seems to be missing..'
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!1001 &625790876
 Prefab:
@@ -29104,6 +29154,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 706153407}
+--- !u!114 &724142245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
+  order: 1
 --- !u!1001 &726736610
 Prefab:
   m_ObjectHideFlags: 0
@@ -29618,8 +29682,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: It unlocked!
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: 'Apprentice: It unlocked!'
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!1 &767341643
 GameObject:
@@ -30233,8 +30297,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'It''s a teapot with warm water in it... '
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: 'Apprentice: Strange it''s just water no tea.. '
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!114 &785570418
 MonoBehaviour:
@@ -31204,11 +31268,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: reactions.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11484708, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: conditionCollections.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalPosition.x
@@ -31322,6 +31386,18 @@ Prefab:
       propertyPath: reactions.Array.data[1]
       value: 
       objectReference: {fileID: 1305412154}
+    - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
+      propertyPath: reactions.Array.data[2]
+      value: 
+      objectReference: {fileID: 495759391}
+    - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
+      propertyPath: reactions.Array.data[3]
+      value: 
+      objectReference: {fileID: 887465274}
+    - target: {fileID: 11484708, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
+      propertyPath: conditionCollections.Array.data[1]
+      value: 
+      objectReference: {fileID: 1365181418}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
   m_IsPrefabAsset: 0
@@ -31589,6 +31665,20 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &847844143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 1
+  gameObject: {fileID: 1327794670}
+  activeState: 0
 --- !u!1 &848558033
 GameObject:
   m_ObjectHideFlags: 0
@@ -36626,10 +36716,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'The clams are cooking
+  message: 'Apprentice: The clam is cooking
 
 '
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!1001 &872058494
 Prefab:
@@ -36897,6 +36987,22 @@ MonoBehaviour:
   order: 1
   gameObject: {fileID: 1793748932}
   activeState: 0
+--- !u!114 &887465274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: "Painting: I don't see how that is any concern of mine!\u201D\r\n3nd interaction
+    with painting: \u201CWell...What if I find you an even better, prettier gem, would
+    you be open to trade?\r\n"
+  textColor: {r: 1, g: 1, b: 1, a: 1}
+  order: 0
 --- !u!114 &888694592
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36909,7 +37015,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message: Strange..Some of the continents are hollowed out..
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!1001 &889468385
 Prefab:
@@ -37327,8 +37433,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: Maybe I could dry these plant over the fire..
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: 'Apprentice: Maybe I could dry these plant over the fire..'
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!1001 &902852244
 Prefab:
@@ -38338,9 +38444,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 
-  textColor: {r: 1, g: 1, b: 1, a: 1}
-  order: 0
+  message: I guess it was....
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
+  order: 1
 --- !u!114 &962402216
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38366,10 +38472,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'The Door is locked I should look for a key
+  message: 'Apprentice: The Door is locked I should look for a key
 
 '
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!1001 &968680091
 Prefab:
@@ -40656,7 +40762,7 @@ MonoBehaviour:
   message: 'Maybe there''s something I could use to unlock it around here?
 
 '
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!1001 &1044176912
 Prefab:
@@ -46318,8 +46424,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: A few apple seeds are laying on this table
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: 'Apprentice: A few apple seeds are laying on this table'
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!114 &1084399068
 MonoBehaviour:
@@ -51661,7 +51767,7 @@ Prefab:
     - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: reactions.Array.data[0]
       value: 
-      objectReference: {fileID: 1802608367}
+      objectReference: {fileID: 1143732181}
     - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: reactions.Array.data[1]
       value: 
@@ -52603,6 +52709,21 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 1142693512}
+--- !u!114 &1143732181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: "Apprentice: This is a big and cozy fire but it\u2019s still just a plain
+    fire.."
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
+  order: 0
 --- !u!114 &1144583059
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53599,6 +53720,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 1164731397}
+--- !u!114 &1166046333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'PAINTING: Get your grubby little hands off my precious!...my precious...'
+  textColor: {r: 1, g: 0.023529412, b: 0.023529412, a: 1}
+  order: 0
 --- !u!1 &1166255513
 GameObject:
   m_ObjectHideFlags: 0
@@ -54686,8 +54821,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: It's open now
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: 'Apprentice: The globe is open now'
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!1 &1228084230
 GameObject:
@@ -55166,8 +55301,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: It's a globe..
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: 'Apprentice: It''s a globe..'
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!114 &1239169082
 MonoBehaviour:
@@ -55515,8 +55650,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: 'Apprentice: What do you think of this ball? '
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!1 &1259588519
 GameObject:
@@ -55631,8 +55766,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: It's desk drawers...
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: 'Apprentice: It''s desk drawers...'
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!1001 &1275850482
 Prefab:
@@ -56217,7 +56352,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message: Maybe I could trade it for something..
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!1001 &1308484226
 Prefab:
@@ -58016,6 +58151,22 @@ MonoBehaviour:
   description: HastrapDoorKey
   satisfied: 1
   hash: -1496588215
+--- !u!114 &1365181418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4900350095ceff24fbe8c1ac5f1e17c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: New condition collection
+  requiredConditions:
+  - {fileID: 1912603803}
+  - {fileID: 1890489537}
+  reactionCollection: {fileID: 1449751609}
 --- !u!114 &1370530675
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58149,8 +58300,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: A stunning work of art
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: 'Apprentice: A stunning work of art'
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!1001 &1385663645
 Prefab:
@@ -59859,6 +60010,53 @@ MonoBehaviour:
   description: CompletedGlobe
   satisfied: 1
   hash: -2141530385
+--- !u!1 &1449751607
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1449751608}
+  - component: {fileID: 1449751609}
+  m_Layer: 0
+  m_Name: GiveEarthCrystalQuestReaction
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1449751608
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1449751607}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 833011969}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1449751609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1449751607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fc7ecfe98531f2429694b8c81a6748a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  reactions:
+  - {fileID: 1166046333}
+  - {fileID: 2029996653}
+  - {fileID: 1954198877}
+  - {fileID: 1764736131}
+  - {fileID: 1968767852}
+  - {fileID: 1913639127}
 --- !u!1001 &1459925304
 Prefab:
   m_ObjectHideFlags: 0
@@ -67408,10 +67606,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'The door is locked
+  message: 'Apprentice: The door is locked
 
 '
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!1 &1537069925
 GameObject:
@@ -69481,10 +69679,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'A bunch of books
+  message: 'Apprentice: A bunch of books
 
 '
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  textColor: {r: 1, g: 0.8913304, b: 0, a: 1}
   order: 0
 --- !u!1 &1592709171
 GameObject:
@@ -74490,7 +74688,8 @@ MonoBehaviour:
   - {fileID: 813020325}
   - {fileID: 58043483}
   - {fileID: 1752507216}
-  - {fileID: 558065369}
+  - {fileID: 724142245}
+  - {fileID: 847844143}
 --- !u!1 &1613466111
 GameObject:
   m_ObjectHideFlags: 0
@@ -75876,9 +76075,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: "They\u2019re drier than the wizards jokes but they\u2019re too big to
-    fit into the teapot.  "
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: "Apprentice: They\u2019re drier than the wizards jokes but they\u2019re
+    too big to fit into the teapot.  "
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!1001 &1694390226
 Prefab:
@@ -76194,10 +76393,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'I can cook the clam to make it open up over this fire!
+  message: 'Apprentice: I can cook the clam to make it open up over this fire!
 
 '
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!114 &1711558618
 MonoBehaviour:
@@ -76910,8 +77109,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: It's a teapot with warm water in it..
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: 'Apprentice: It''s a teapot with warm water in it..'
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!114 &1743545599
 MonoBehaviour:
@@ -77422,6 +77621,21 @@ MonoBehaviour:
   condition: {fileID: 114339336138375714, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}
   satisfied: 1
+--- !u!114 &1764736131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: Well...What if I find you an even better, prettier gem, would you be open
+    to trade?
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
+  order: 0
 --- !u!1001 &1767312648
 Prefab:
   m_ObjectHideFlags: 0
@@ -78112,10 +78326,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: "Ambrosia is a rare plant that thrives in dark spaces. It it has a very
-    unique bitter taste  and is believed very nourishing. Despite its bitter taste
-    it's a common beverage for many wizards to dry the herb for brewing tea\u2026\u201DInteresting...\u201D"
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: "Apprentice: Ambrosia is a rare plant that thrives in dark spaces. It it
+    has a very unique bitter taste  and is believed very nourishing. Despite its bitter
+    taste it's a common beverage for many wizards to dry the herb for brewing tea\u2026\u201DInteresting...\u201D"
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!1001 &1788859505
 Prefab:
@@ -78825,8 +79039,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: A warm and cozy fire is burning
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: 'Apprentice: A warm and cozy fire is burning'
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!1001 &1815106171
 Prefab:
@@ -79892,8 +80106,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: It's a locked safe
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: 'Apprentice: It''s a locked safe'
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!1001 &1856303431
 Prefab:
@@ -80680,6 +80894,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 1888674768}
+--- !u!114 &1890489537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: EarthCrystalPickedUp
+  satisfied: 0
+  hash: -1220151316
 --- !u!114 &1894358757
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -80692,7 +80920,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message: As I put in all the pieces they made a click sound
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 1
 --- !u!1001 &1894949166
 Prefab:
@@ -81055,8 +81283,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'Maybe i should try and find the missing pieces that seems to be missing. '
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: 'Apprentice: Maybe i should try and find the missing pieces that seems
+    to be missing. '
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!1001 &1912411197
 Prefab:
@@ -81149,6 +81378,34 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 1912411197}
+--- !u!114 &1912603803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: DungeonDoorQuestStart
+  satisfied: 1
+  hash: 162785247
+--- !u!114 &1913639127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 
+  textColor: {r: 1, g: 1, b: 1, a: 1}
+  order: 0
 --- !u!1001 &1915277761
 Prefab:
   m_ObjectHideFlags: 0
@@ -82114,7 +82371,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   reactions:
   - {fileID: 106704432}
-  - {fileID: 583108448}
   - {fileID: 1987344577}
   - {fileID: 293622087}
   - {fileID: 1796863004}
@@ -82360,6 +82616,20 @@ Halo:
     serializedVersion: 2
     rgba: 4294964480
   m_Size: 0.1
+--- !u!114 &1954198877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: I don't see how that is any concern of mine!
+  textColor: {r: 1, g: 0.023529412, b: 0.023529412, a: 1}
+  order: 0
 --- !u!1001 &1955024991
 Prefab:
   m_ObjectHideFlags: 0
@@ -87275,6 +87545,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 1966601013}
+--- !u!114 &1968767852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: "Depends... We\u2019ll see what you bring me.."
+  textColor: {r: 1, g: 0.023529412, b: 0.023529412, a: 1}
+  order: 0
 --- !u!114 &1972685900
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -87287,7 +87571,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message: I'll just take the teeth..
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 1
 --- !u!1001 &1973581270
 Prefab:
@@ -87458,8 +87742,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: This plant looks Interesting..
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: 'Apprentice: This plant looks Interesting..'
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!1001 &1981897908
 Prefab:
@@ -87754,6 +88038,64 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 1987415518}
+--- !u!1001 &1988550705
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.141
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.124
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.68734
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.68693
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.68693
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.68693
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d, type: 3}
+  m_IsPrefabAsset: 0
 --- !u!114 &1988823071
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -92703,8 +93045,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: 'PAINTING: I suppose this gem will do as well, lets trade!'
+  textColor: {r: 1, g: 0.023529412, b: 0.023529412, a: 1}
   order: 0
 --- !u!1001 &2014706675
 Prefab:
@@ -93178,6 +93520,20 @@ MonoBehaviour:
   order: 1
   gameObject: {fileID: 293251061}
   activeState: 1
+--- !u!114 &2029996653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'Apprentice: I really need that stone!'
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
+  order: 0
 --- !u!1001 &2030549708
 Prefab:
   m_ObjectHideFlags: 0

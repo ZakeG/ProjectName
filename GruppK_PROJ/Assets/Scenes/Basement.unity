@@ -22830,6 +22830,8 @@ GameObject:
   - component: {fileID: 589885428}
   - component: {fileID: 589885430}
   - component: {fileID: 589885429}
+  - component: {fileID: 589885432}
+  - component: {fileID: 589885431}
   m_Layer: 0
   m_Name: Savers
   m_TagString: Untagged
@@ -23004,6 +23006,34 @@ MonoBehaviour:
   uniqueIdentifier: incompletedoor
   saveData: {fileID: 11400000, guid: e1fa821107c22d74296714468f88f7c4, type: 2}
   gameObjectToSave: {fileID: 1742392078}
+--- !u!114 &589885431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 589885418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f29b6054d4e0304f8b32fb4625cff19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uniqueIdentifier: particle effects night
+  saveData: {fileID: 11400000, guid: e1fa821107c22d74296714468f88f7c4, type: 2}
+  gameObjectToSave: {fileID: 571047878}
+--- !u!114 &589885432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 589885418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f29b6054d4e0304f8b32fb4625cff19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uniqueIdentifier: particle effects day
+  saveData: {fileID: 11400000, guid: e1fa821107c22d74296714468f88f7c4, type: 2}
+  gameObjectToSave: {fileID: 82395887}
 --- !u!1 &590166844
 GameObject:
   m_ObjectHideFlags: 0

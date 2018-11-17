@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: AmbrosiaHerbs
   m_EditorClassIdentifier: 
   combination:
-  - {fileID: 11400000, guid: 6704ee7deed7eca4d9f28fc875e6a907, type: 2}
   - {fileID: 11400000, guid: e569df22ad76c844fa0cf8ea84b32618, type: 2}
+  - {fileID: 11400000, guid: 6802aad1980f3b64a95629e180c18e04, type: 2}
   result:
   - {fileID: 11400000, guid: 5a393b1e7f073e549b8f868fa97aee18, type: 2}

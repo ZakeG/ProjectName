@@ -159,6 +159,21 @@ Halo:
     serializedVersion: 2
     rgba: 4293982720
   m_Size: 0.05
+--- !u!114 &3175590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: GHOST:Fine thief, you may leave. Don't let the door hit you on your way
+    out!
+  textColor: {r: 1, g: 0.023529412, b: 0.023529412, a: 1}
+  order: 3
 --- !u!4 &7102746 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 782251f16615307418228512dd61bbbc,
@@ -832,6 +847,7 @@ MonoBehaviour:
   - {fileID: 1732974182}
   - {fileID: 648707393}
   - {fileID: 641535708}
+  - {fileID: 1901729515}
 --- !u!4 &72286890 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 5e074f2a56373374087779628da4cc29,
@@ -1161,8 +1177,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: "Not so fast! I won\u2019t give you this key so easily."
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: 'CAT: Not so fast! In exchange for my unique collar'
+  textColor: {r: 1, g: 0.023529412, b: 0.023529412, a: 1}
   order: 0
 --- !u!1001 &118034373
 Prefab:
@@ -1292,10 +1308,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   reactions:
-  - {fileID: 507469562}
-  - {fileID: 617243149}
-  - {fileID: 1976135113}
-  - {fileID: 1072878760}
+  - {fileID: 586190329}
+  - {fileID: 602776802}
+  - {fileID: 1890290051}
+  - {fileID: 1945125557}
+  - {fileID: 1422243828}
+  - {fileID: 771316433}
+  - {fileID: 1050047340}
+  - {fileID: 2111043234}
+  - {fileID: 1156051670}
 --- !u!1001 &125966275
 Prefab:
   m_ObjectHideFlags: 0
@@ -2420,8 +2441,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: OOooOOoooooo
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: 'APPRENTICE: Look what I found!'
+  textColor: {r: 1, g: 0.95686275, b: 0, a: 1}
   order: 0
 --- !u!114 &272601619
 MonoBehaviour:
@@ -2434,8 +2455,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: Oooh you found the answer..
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: 'CAT: Oh you figured out the answer...how clever...'
+  textColor: {r: 1, g: 0.023529412, b: 0.023529412, a: 1}
   order: 0
 --- !u!1 &273638821
 GameObject:
@@ -3512,10 +3533,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'It''s a slice of watermelon
+  message: 'APPRENTICE: It''s a slice of watermelon
 
 '
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  textColor: {r: 1, g: 0.95686275, b: 0, a: 1}
   order: 0
 --- !u!1001 &332632514
 Prefab:
@@ -10123,8 +10144,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: Maybe Think outside the grey box...
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: 'CAT: Try thinking outside the grey box...'
+  textColor: {r: 1, g: 0.023529412, b: 0.023529412, a: 1}
   order: 0
 --- !u!1001 &471690430
 Prefab:
@@ -10217,8 +10238,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: There was a green house. Inside the green house there was a white house.
     Inside the white house there was a red house.
-  textColor: {r: 1, g: 1, b: 1, a: 1}
-  order: 0
+  textColor: {r: 1, g: 0.023529412, b: 0.023529412, a: 1}
+  order: 2
 --- !u!1001 &481500880
 Prefab:
   m_ObjectHideFlags: 0
@@ -10490,20 +10511,6 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 503293133}
   m_Script: {fileID: 11500000, guid: d85941078afdf3244b2a1ae50fea256c, type: 3}
---- !u!114 &507469562
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  message: "You! You\u2019ve stolen my necklace!"
-  textColor: {r: 1, g: 1, b: 1, a: 1}
-  order: 0
 --- !u!4 &509806754 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400004, guid: 59df1c95eea9ebb40b9a3634bc4c0087,
@@ -15797,9 +15804,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: First you must answer one of my riddles.
-  textColor: {r: 1, g: 1, b: 1, a: 1}
-  order: 0
+  message: you must answer one of my riddles.
+  textColor: {r: 1, g: 0.023529412, b: 0.023529412, a: 1}
+  order: 1
 --- !u!1001 &558292531
 Prefab:
   m_ObjectHideFlags: 0
@@ -16037,6 +16044,20 @@ MonoBehaviour:
 '
   textColor: {r: 1, g: 1, b: 1, a: 1}
   order: 0
+--- !u!114 &586190329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'GHOST: You thief!'
+  textColor: {r: 1, g: 0.023529412, b: 0.023529412, a: 1}
+  order: 0
 --- !u!1001 &590455339
 Prefab:
   m_ObjectHideFlags: 0
@@ -16258,8 +16279,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message: Inside the red house there were lots of babies. What is it?
-  textColor: {r: 1, g: 1, b: 1, a: 1}
-  order: 0
+  textColor: {r: 1, g: 0.023529412, b: 0.023529412, a: 1}
+  order: 3
 --- !u!1 &598528666
 GameObject:
   m_ObjectHideFlags: 0
@@ -16688,6 +16709,21 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd26dac15723bf047941895f28e6c242, type: 2}
   m_IsPrefabAsset: 0
+--- !u!114 &602776802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You're not going anywhere until you've returned it to me! Where are you
+    hiding it?
+  textColor: {r: 1, g: 0.023529412, b: 0.023529412, a: 1}
+  order: 1
 --- !u!1001 &604333464
 Prefab:
   m_ObjectHideFlags: 0
@@ -16808,7 +16844,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_RootOrder
-      value: 8
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 194222, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_Name
@@ -17199,21 +17235,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400016, guid: d0ab0a3b389647043b994a97b7dc8f8b,
     type: 3}
   m_PrefabInternal: {fileID: 616741872}
---- !u!114 &617243149
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  message: "My precious put it in a small golden chest a long time ago\u2026 I haven\u2019t
-    seen it since\u2026"
-  textColor: {r: 1, g: 1, b: 1, a: 1}
-  order: 0
 --- !u!1001 &621424908
 Prefab:
   m_ObjectHideFlags: 0
@@ -24294,6 +24315,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: d152a9f6b790fe2428a76335c33bb0e8,
     type: 3}
   m_PrefabInternal: {fileID: 1329483398}
+--- !u!114 &771316433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'APPRENTICE: Hmm..I think I saw one earlier...'
+  textColor: {r: 1, g: 0.95686275, b: 0, a: 1}
+  order: 5
 --- !u!114 &773925967
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24391,9 +24426,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: Jippi
-  textColor: {r: 1, g: 1, b: 1, a: 1}
-  order: 0
+  message: 'GHOST: My precious! I knew you''d taken it!'
+  textColor: {r: 1, g: 0.023529412, b: 0.023529412, a: 1}
+  order: 1
 --- !u!1001 &784543546
 Prefab:
   m_ObjectHideFlags: 0
@@ -24546,6 +24581,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: dd3ddf9b352277d45bb2499d1ee1f90b,
     type: 3}
   m_PrefabInternal: {fileID: 106686857}
+--- !u!114 &792494985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: To show me you've understood my riddle by bringing me your answer
+  textColor: {r: 1, g: 0.023529412, b: 0.023529412, a: 1}
+  order: 6
 --- !u!1001 &794849109
 Prefab:
   m_ObjectHideFlags: 0
@@ -25131,9 +25180,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1896106787}
-  - {fileID: 607184801}
   - {fileID: 1172912555}
   - {fileID: 1606045960}
+  - {fileID: 607184801}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -25481,8 +25530,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message: Alright I'll give you the key... Meow
-  textColor: {r: 1, g: 1, b: 1, a: 1}
-  order: 0
+  textColor: {r: 1, g: 0.023529412, b: 0.023529412, a: 1}
+  order: 1
 --- !u!1 &868128173
 GameObject:
   m_ObjectHideFlags: 0
@@ -30929,7 +30978,8 @@ Prefab:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
   m_IsPrefabAsset: 0
 --- !u!4 &940101018 stripped
@@ -30948,6 +30998,24 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 194222, guid: d48734bd22479a14cb1a52b40aa09db4,
     type: 2}
   m_PrefabInternal: {fileID: 940101017}
+--- !u!1 &940101021 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 105628, guid: d48734bd22479a14cb1a52b40aa09db4,
+    type: 2}
+  m_PrefabInternal: {fileID: 940101017}
+--- !u!114 &940101022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 940101021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fc7ecfe98531f2429694b8c81a6748a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  reactions:
+  - {fileID: 1987502726}
 --- !u!1 &944967484
 GameObject:
   m_ObjectHideFlags: 0
@@ -36684,11 +36752,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'The final ingridient the wizard asked for was dragon fire
+  message: 'APPRENTICE: The final ingridient the wizard asked for was dragon fire
 
 '
-  textColor: {r: 1, g: 1, b: 1, a: 1}
-  order: 2
+  textColor: {r: 1, g: 0.95686275, b: 0, a: 1}
+  order: 4
 --- !u!1001 &1026935112
 Prefab:
   m_ObjectHideFlags: 0
@@ -37325,6 +37393,20 @@ MonoBehaviour:
   order: 1
   gameObject: {fileID: 1036777841}
   activeState: 1
+--- !u!114 &1050047340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: It's locked! There must be a key around here somewhere...
+  textColor: {r: 1, g: 0.95686275, b: 0, a: 1}
+  order: 6
 --- !u!114 &1051417023
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37339,7 +37421,7 @@ MonoBehaviour:
   description: New condition collection
   requiredConditions:
   - {fileID: 1510414366}
-  reactionCollection: {fileID: 124866872}
+  reactionCollection: {fileID: 0}
 --- !u!114 &1061385189
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37432,20 +37514,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: eb915683ff96b6f4f9d1e0aa8ed45a01,
     type: 3}
   m_PrefabInternal: {fileID: 1071410399}
---- !u!114 &1072878760
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec43236ba6522584894ac80bfbcb3815, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  condition: {fileID: 114669380657901964, guid: fd02464d008c790478d9826aba7c7847,
-    type: 2}
-  satisfied: 1
 --- !u!4 &1078331748 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: fa79f91e261822d45a10e39a7e4b3f2a,
@@ -39070,6 +39138,20 @@ Transform:
   m_Father: {fileID: 1593280125}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1156051670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec43236ba6522584894ac80bfbcb3815, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  condition: {fileID: 114669380657901964, guid: fd02464d008c790478d9826aba7c7847,
+    type: 2}
+  satisfied: 1
 --- !u!4 &1161624135 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: e01b4038a41493d47af48842f8c0f119,
@@ -39167,7 +39249,7 @@ Transform:
   - {fileID: 1120405512}
   - {fileID: 337479887}
   m_Father: {fileID: 837026931}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1177384951
 Prefab:
@@ -40140,6 +40222,8 @@ MonoBehaviour:
   - {fileID: 1985561057}
   - {fileID: 1047541747}
   - {fileID: 1098231643}
+  - {fileID: 1966732911}
+  - {fileID: 792494985}
 --- !u!4 &1227297908 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: ce2e4fc2901d31042953152ecfc70d64,
@@ -41844,9 +41928,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 
-  textColor: {r: 1, g: 1, b: 1, a: 1}
-  order: 0
+  message: 'APPRENTICE: Ehm.. '
+  textColor: {r: 1, g: 0.95686275, b: 0, a: 1}
+  order: 4
 --- !u!1001 &1338878532
 Prefab:
   m_ObjectHideFlags: 0
@@ -46977,6 +47061,20 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d152a9f6b790fe2428a76335c33bb0e8, type: 3}
   m_IsPrefabAsset: 0
+--- !u!114 &1422243828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: ' and now it''s nowhere to be seen!'
+  textColor: {r: 1, g: 0.023529412, b: 0.023529412, a: 1}
+  order: 4
 --- !u!1001 &1422598363
 Prefab:
   m_ObjectHideFlags: 0
@@ -47964,7 +48062,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: Meow Meow
+  message: 'CAT: Meow Meow'
   textColor: {r: 1, g: 1, b: 1, a: 1}
   order: 0
 --- !u!1001 &1470575946
@@ -48741,6 +48839,8 @@ MonoBehaviour:
   - {fileID: 1022830491}
   - {fileID: 1061385189}
   - {fileID: 509905608}
+  - {fileID: 1872317431}
+  - {fileID: 3175590}
 --- !u!1001 &1517400296
 Prefab:
   m_ObjectHideFlags: 0
@@ -49202,8 +49302,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: It looks like a juicy slice of watermelon....
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: 'APPRENTICE: It looks like a juicy slice of watermelon....'
+  textColor: {r: 1, g: 0.95686275, b: 0, a: 1}
   order: 0
 --- !u!1001 &1570092824
 Prefab:
@@ -49954,7 +50054,7 @@ Transform:
   - {fileID: 681392046}
   - {fileID: 940101018}
   m_Father: {fileID: 837026931}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1610008547
 Prefab:
@@ -52018,6 +52118,20 @@ MonoBehaviour:
   message: There's something behind these planks..
   textColor: {r: 1, g: 1, b: 1, a: 1}
   order: 0
+--- !u!114 &1872317431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'APPRENTICE: You''ve got your necklace, now let me out of here!'
+  textColor: {r: 1, g: 0.95686275, b: 0, a: 1}
+  order: 2
 --- !u!1001 &1872707033
 Prefab:
   m_ObjectHideFlags: 0
@@ -52659,6 +52773,20 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1885747084}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1890290051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'APPRENTICE: I didn''t steal anything? What you''re talking about?'
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
+  order: 2
 --- !u!1 &1896106786
 GameObject:
   m_ObjectHideFlags: 0
@@ -52779,6 +52907,20 @@ MonoBehaviour:
   order: 1
   gameObject: {fileID: 337479888}
   activeState: 0
+--- !u!114 &1901729515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec43236ba6522584894ac80bfbcb3815, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  condition: {fileID: 114605847500585344, guid: fd02464d008c790478d9826aba7c7847,
+    type: 2}
+  satisfied: 1
 --- !u!1001 &1904430913
 Prefab:
   m_ObjectHideFlags: 0
@@ -53693,6 +53835,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item: {fileID: 11400000, guid: ab881357fcaee934b920efa9fd304bcc, type: 2}
+--- !u!114 &1945125557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'GHOST: My necklace! I put it in a small chest for safe keeping a long
+    time ago..'
+  textColor: {r: 1, g: 0.023529412, b: 0.023529412, a: 1}
+  order: 3
 --- !u!1 &1945331199 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100002, guid: b36a8ff34bc074245997b5d486e9958f,
@@ -54251,6 +54408,20 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b697a4ce70c6a447b3e68018c2194fe, type: 3}
   m_IsPrefabAsset: 0
+--- !u!114 &1966732911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'CAT: I dont have all day! Come back to me when you''ve figured it out!'
+  textColor: {r: 1, g: 0.023529412, b: 0.023529412, a: 1}
+  order: 5
 --- !u!1001 &1971053413
 Prefab:
   m_ObjectHideFlags: 0
@@ -54503,20 +54674,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 20f585762c593f2439c56d20a8c737f4,
     type: 3}
   m_PrefabInternal: {fileID: 1974507352}
---- !u!114 &1976135113
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  message: Give it back and I'll let you pass!
-  textColor: {r: 1, g: 1, b: 1, a: 1}
-  order: 0
 --- !u!1001 &1978452533
 Prefab:
   m_ObjectHideFlags: 0
@@ -54668,6 +54825,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 5b20387b016f1de4a98e60816f29fe78,
     type: 3}
   m_PrefabInternal: {fileID: 1987307215}
+--- !u!114 &1987502726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'GHOST: Booooo....you shall not pass!'
+  textColor: {r: 1, g: 0.023529412, b: 0.023529412, a: 1}
+  order: 0
 --- !u!1001 &1991786187
 Prefab:
   m_ObjectHideFlags: 0
@@ -57108,6 +57279,18 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e01b4038a41493d47af48842f8c0f119, type: 3}
   m_IsPrefabAsset: 0
+--- !u!114 &2111043234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: I better start looking for that key if I ever want to get out of here
 --- !u!1 &2112607496
 GameObject:
   m_ObjectHideFlags: 0

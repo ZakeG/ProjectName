@@ -1997,7 +1997,7 @@ Prefab:
     - target: {fileID: 114668889576556892, guid: 4e8df035f829e804d8a25261ea8b2bcb,
         type: 2}
       propertyPath: combinations.Array.size
-      value: 13
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 224750580205128106, guid: 4e8df035f829e804d8a25261ea8b2bcb,
         type: 2}
@@ -2465,7 +2465,7 @@ Prefab:
         type: 2}
       propertyPath: combinations.Array.data[7]
       value: 
-      objectReference: {fileID: 11400000, guid: a5e16e3118a6fc64195c430ad8cd7de0,
+      objectReference: {fileID: 11400000, guid: e2904a1734f06d54fafd51a6cd5b6242,
         type: 2}
     - target: {fileID: 114668889576556892, guid: 4e8df035f829e804d8a25261ea8b2bcb,
         type: 2}

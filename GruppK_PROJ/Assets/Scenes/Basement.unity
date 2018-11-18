@@ -10185,7 +10185,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'Apprentice: There''s a gold coin  and a couple of colg teeht in this chest'
+  message: "Apprentice:  I suppose it\u2019s true what they say- one person's trash
+    is another person's treasure!"
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!1001 &101436196
@@ -17746,7 +17747,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: reactions.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11484708, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: conditionCollections.Array.size
@@ -17803,7 +17804,7 @@ Prefab:
     - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: reactions.Array.data[0]
       value: 
-      objectReference: {fileID: 1594522816}
+      objectReference: {fileID: 1642156467}
     - target: {fileID: 491826, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalPosition.x
       value: 1.36
@@ -55119,20 +55120,6 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
---- !u!114 &1594522816
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  message: 
-  textColor: {r: 1, g: 1, b: 1, a: 1}
-  order: 0
 --- !u!1001 &1606948839
 Prefab:
   m_ObjectHideFlags: 0
@@ -60157,6 +60144,20 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
+--- !u!114 &1642156467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: What an interesting chest...I wonder what treasures it holds
+  textColor: {r: 1, g: 1, b: 1, a: 1}
+  order: 0
 --- !u!1001 &1644606023
 Prefab:
   m_ObjectHideFlags: 0
@@ -63809,9 +63810,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  description: DungeonDoorQuestStart
+  description: GoldAppleQuestStart
   satisfied: 1
-  hash: 162785247
+  hash: 1225229576
 --- !u!1 &1905115733
 GameObject:
   m_ObjectHideFlags: 0

@@ -1781,8 +1781,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: This thing could be useful right?
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: 'APPRENTICE: This thing could be useful right?'
+  textColor: {r: 1, g: 0.95686275, b: 0, a: 1}
   order: 0
 --- !u!1001 &226881628
 Prefab:
@@ -2357,7 +2357,6 @@ MonoBehaviour:
   - {fileID: 1189277600}
   - {fileID: 1126780846}
   - {fileID: 135994203}
-  - {fileID: 1882764906}
   - {fileID: 1899929117}
 --- !u!1001 &270839374
 Prefab:
@@ -10130,9 +10129,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 
-  textColor: {r: 1, g: 1, b: 1, a: 1}
-  order: 0
+  message: "Theres more gold in there than a pirate sees in a lifetime!\r\n"
+  textColor: {r: 1, g: 0.95686275, b: 0, a: 1}
+  order: 1
 --- !u!114 &468200554
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15444,10 +15443,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'Something is blocking the door..
+  message: 'APPRENTICE: Theres something blocking the door...
 
 '
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  textColor: {r: 1, g: 0.95686275, b: 0, a: 1}
   order: 0
 --- !u!1001 &533650516
 Prefab:
@@ -16039,10 +16038,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'A cell full of bones.....
-
-'
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: 'APPRENTICE: A cell full of bones,'
+  textColor: {r: 1, g: 0.95686275, b: 0, a: 1}
   order: 0
 --- !u!114 &586190329
 MonoBehaviour:
@@ -16620,8 +16617,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: "APPRENTICE: Success! Lets take a look at what\u2019s inside\r\n"
+  textColor: {r: 1, g: 0.95686275, b: 0, a: 1}
   order: 0
 --- !u!1001 &600982858
 Prefab:
@@ -23355,8 +23352,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: The door is locked
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: 'APPRENTICE: The cell door is locked'
+  textColor: {r: 1, g: 0.95686275, b: 0, a: 1}
   order: 0
 --- !u!1001 &709354875
 Prefab:
@@ -39096,9 +39093,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 
-  textColor: {r: 1, g: 1, b: 1, a: 1}
-  order: 0
+  message: "and I thought I was having a rough day\u2026"
+  textColor: {r: 1, g: 0.95686275, b: 0, a: 1}
+  order: 1
 --- !u!1 &1154286223
 GameObject:
   m_ObjectHideFlags: 0
@@ -39430,8 +39427,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec43236ba6522584894ac80bfbcb3815, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  condition: {fileID: 114339336138375714, guid: fd02464d008c790478d9826aba7c7847,
-    type: 2}
+  condition: {fileID: 0}
   satisfied: 0
 --- !u!1001 &1190363500
 Prefab:
@@ -41471,8 +41467,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: "APPRENTICE: I guess you could say I've got a bone to pick with you dragon...\r\n"
+  textColor: {r: 1, g: 0.95686275, b: 0, a: 1}
   order: 0
 --- !u!1001 &1322683595
 Prefab:
@@ -48063,7 +48059,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message: 'CAT: Meow Meow'
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  textColor: {r: 1, g: 0.023529412, b: 0.023529412, a: 1}
   order: 0
 --- !u!1001 &1470575946
 Prefab:
@@ -51096,10 +51092,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'A cell full of treasures...
-
-'
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: "APPRENTICE: A cell full of treasures...\r\n"
+  textColor: {r: 1, g: 0.95686275, b: 0, a: 1}
   order: 0
 --- !u!114 &1718436999
 MonoBehaviour:
@@ -51595,8 +51589,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: This dragon looks like it's flown it's last time a long time ago..
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: "APPRENTICE: This dragon looks like it's passed its expiration date\u2026"
+  textColor: {r: 1, g: 0.95686275, b: 0, a: 1}
   order: 0
 --- !u!1001 &1780142635
 Prefab:
@@ -51881,10 +51875,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'Something is taking a ride on the dragon bones....
-
-'
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: "Looks like the dragon had one more ride left in it...lucky doll...\r\n"
+  textColor: {r: 1, g: 0.95686275, b: 0, a: 1}
   order: 1
 --- !u!114 &1824690807
 MonoBehaviour:
@@ -52115,8 +52107,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: There's something behind these planks..
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: 'APPRENTICE: There''s something behind these planks...'
+  textColor: {r: 1, g: 0.95686275, b: 0, a: 1}
   order: 0
 --- !u!114 &1872317431
 MonoBehaviour:
@@ -52671,20 +52663,6 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fa79f91e261822d45a10e39a7e4b3f2a, type: 3}
   m_IsPrefabAsset: 0
---- !u!114 &1882764906
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  message: 
-  textColor: {r: 1, g: 1, b: 1, a: 1}
-  order: 1
 --- !u!1 &1885747084
 GameObject:
   m_ObjectHideFlags: 0
@@ -54753,7 +54731,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 
+  message: "I need to prove I solved the riddle by bringing the cat the answer to
+    the riddle; \r\n\"There was a green house. \r\nInside the green house there was
+    a white house. \r\nInside the white house there was a red house.\r\nInside the
+    red house there were lots of babies. What is it?\"\r\nHmm...whatever does this
+    mean?\r\""
 --- !u!1001 &1987307215
 Prefab:
   m_ObjectHideFlags: 0

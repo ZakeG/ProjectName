@@ -1,0 +1,1469 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a54f0fecf5593d84985bdc0adae0cbbc, type: 3}
+  m_Name: AllConditions
+  m_EditorClassIdentifier: 
+  conditions:
+  - {fileID: 114761333550728362}
+  - {fileID: 114129520274063514}
+  - {fileID: 114149025891862836}
+  - {fileID: 114984567156805788}
+  - {fileID: 114635700267114576}
+  - {fileID: 114418454286531158}
+  - {fileID: 114113771682078070}
+  - {fileID: 114336684936229846}
+  - {fileID: 114021465253168762}
+  - {fileID: 114378766285203814}
+  - {fileID: 114446122008873964}
+  - {fileID: 114962063550835238}
+  - {fileID: 114793910634717754}
+  - {fileID: 114778350263410574}
+  - {fileID: 114860962177382762}
+  - {fileID: 114089761296976444}
+  - {fileID: 114932804364694962}
+  - {fileID: 114197075916628298}
+  - {fileID: 114250745950778472}
+  - {fileID: 114166715466194848}
+  - {fileID: 114504088093943498}
+  - {fileID: 114837129450889992}
+  - {fileID: 114159093089903314}
+  - {fileID: 114842528549307944}
+  - {fileID: 114753056336311330}
+  - {fileID: 114873655392268402}
+  - {fileID: 114303500727802912}
+  - {fileID: 114443800826913856}
+  - {fileID: 114569684155728616}
+  - {fileID: 114176556208166208}
+  - {fileID: 114000370960551350}
+  - {fileID: 114207286644705896}
+  - {fileID: 114079855327260508}
+  - {fileID: 114893403863706380}
+  - {fileID: 114422671205819766}
+  - {fileID: 114425427377283694}
+  - {fileID: 114747450403530148}
+  - {fileID: 114000264106966828}
+  - {fileID: 114881335897606838}
+  - {fileID: 114114992687082830}
+  - {fileID: 114476403303460260}
+  - {fileID: 114488669246345718}
+  - {fileID: 114710624494531832}
+  - {fileID: 114855809103556806}
+  - {fileID: 114748338359087920}
+  - {fileID: 114434246571486556}
+  - {fileID: 114183364152752296}
+  - {fileID: 114467616167834322}
+  - {fileID: 114686047944968942}
+  - {fileID: 114573808208314410}
+  - {fileID: 114731942013876800}
+  - {fileID: 114780071348206456}
+  - {fileID: 114203895195064576}
+  - {fileID: 114958520659555010}
+  - {fileID: 114294629903837128}
+  - {fileID: 114605847500585344}
+  - {fileID: 114020229249517634}
+  - {fileID: 114669380657901964}
+  - {fileID: 114355927410736430}
+  - {fileID: 114887618442997130}
+  - {fileID: 114076243485715652}
+  - {fileID: 114697647035877994}
+  - {fileID: 114386008892879264}
+  - {fileID: 114883678307390558}
+  - {fileID: 114619320260106674}
+  - {fileID: 114770094366030908}
+  - {fileID: 114419866438435280}
+  - {fileID: 114316871784978968}
+  - {fileID: 114446721058115782}
+  - {fileID: 114302539501123498}
+  - {fileID: 114701939667788006}
+  - {fileID: 114334928261144884}
+  - {fileID: 114931305417899792}
+  - {fileID: 114168846910743642}
+  - {fileID: 114061526481146648}
+  - {fileID: 114932029228588310}
+  - {fileID: 114164629124617336}
+  - {fileID: 114327185746351608}
+  - {fileID: 114768765897709292}
+  - {fileID: 114665313107315034}
+  - {fileID: 114895711230986672}
+  - {fileID: 114876404009370006}
+  - {fileID: 114496774497453180}
+  - {fileID: 114140620789506006}
+  - {fileID: 114856924687962330}
+  - {fileID: 114433527637976530}
+  - {fileID: 114632724334962776}
+  - {fileID: 114103182304860866}
+  - {fileID: 114950619393728696}
+  - {fileID: 114439637543143640}
+  - {fileID: 114739006491127474}
+  - {fileID: 114609559679950854}
+  - {fileID: 114287622756252222}
+  - {fileID: 114912099085508904}
+  - {fileID: 114832383211045862}
+  - {fileID: 114183979602942890}
+  - {fileID: 114889928719950154}
+--- !u!114 &114000264106966828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: TorchPickedUp
+  m_EditorClassIdentifier: 
+  description: TorchPickedUp
+  satisfied: 0
+  hash: 415359577
+--- !u!114 &114000370960551350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: HasGoldTeeth
+  m_EditorClassIdentifier: 
+  description: HasGoldTeeth
+  satisfied: 0
+  hash: 714667375
+--- !u!114 &114020229249517634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: MelonPickedUp
+  m_EditorClassIdentifier: 
+  description: MelonPickedUp
+  satisfied: 0
+  hash: 1422053571
+--- !u!114 &114021465253168762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: MoonPickedUp
+  m_EditorClassIdentifier: 
+  description: MoonPickedUp
+  satisfied: 0
+  hash: 1562209020
+--- !u!114 &114061526481146648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: HasCrushedHerbs
+  m_EditorClassIdentifier: 
+  description: HasCrushedHerbs
+  satisfied: 0
+  hash: 412934610
+--- !u!114 &114076243485715652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: NecklaceAquired
+  m_EditorClassIdentifier: 
+  description: NecklaceAquired
+  satisfied: 0
+  hash: -605260240
+--- !u!114 &114079855327260508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: HasBowl
+  m_EditorClassIdentifier: 
+  description: HasBowl
+  satisfied: 0
+  hash: -1044480919
+--- !u!114 &114089761296976444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: ClamAquired
+  m_EditorClassIdentifier: 
+  description: ClamAquired
+  satisfied: 0
+  hash: -1086391437
+--- !u!114 &114103182304860866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: CookingClam
+  m_EditorClassIdentifier: 
+  description: CookingClam
+  satisfied: 0
+  hash: -1966002766
+--- !u!114 &114113771682078070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: WizardFeatherStartDialouge
+  m_EditorClassIdentifier: 
+  description: WizardFeatherStartDialouge
+  satisfied: 1
+  hash: -2085163072
+--- !u!114 &114114992687082830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: HasBucket
+  m_EditorClassIdentifier: 
+  description: HasBucket
+  satisfied: 0
+  hash: 332614929
+--- !u!114 &114129520274063514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: SunVialPickedUp
+  m_EditorClassIdentifier: 
+  description: SunVialPickedUp
+  satisfied: 0
+  hash: 1361490301
+--- !u!114 &114140620789506006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: GoldenAppleAquired
+  m_EditorClassIdentifier: 
+  description: GoldenAppleAquired
+  satisfied: 0
+  hash: -228943506
+--- !u!114 &114149025891862836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: BroomstickPickedUp
+  m_EditorClassIdentifier: 
+  description: BroomstickPickedUp
+  satisfied: 0
+  hash: -493304219
+--- !u!114 &114159093089903314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: CoinPickedUp
+  m_EditorClassIdentifier: 
+  description: CoinPickedUp
+  satisfied: 0
+  hash: -1187853915
+--- !u!114 &114164629124617336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: HasDryPlant
+  m_EditorClassIdentifier: 
+  description: HasDryPlant
+  satisfied: 0
+  hash: -1494590097
+--- !u!114 &114166715466194848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: FireCrystalAquired
+  m_EditorClassIdentifier: 
+  description: FireCrystalAquired
+  satisfied: 0
+  hash: -1302995480
+--- !u!114 &114168846910743642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: DragonFireQuestStart
+  m_EditorClassIdentifier: 
+  description: DragonFireQuestStart
+  satisfied: 0
+  hash: 1125978622
+--- !u!114 &114176556208166208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: TreeGrown
+  m_EditorClassIdentifier: 
+  description: TreeGrown
+  satisfied: 0
+  hash: 74427567
+--- !u!114 &114183364152752296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: HasAustralia
+  m_EditorClassIdentifier: 
+  description: HasAustralia
+  satisfied: 0
+  hash: 1849421182
+--- !u!114 &114183979602942890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: GhostQuestCompleted
+  m_EditorClassIdentifier: 
+  description: GhostQuestCompleted
+  satisfied: 0
+  hash: -1996410440
+--- !u!114 &114197075916628298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: DAY
+  m_EditorClassIdentifier: 
+  description: DAY
+  satisfied: 0
+  hash: 1929866010
+--- !u!114 &114203895195064576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: CompletedGlobe
+  m_EditorClassIdentifier: 
+  description: CompletedGlobe
+  satisfied: 0
+  hash: -2141530385
+--- !u!114 &114207286644705896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: GoldTeethPickedUp
+  m_EditorClassIdentifier: 
+  description: GoldTeethPickedUp
+  satisfied: 0
+  hash: 773319145
+--- !u!114 &114250745950778472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: KettlePickedUp
+  m_EditorClassIdentifier: 
+  description: KettlePickedUp
+  satisfied: 0
+  hash: -2028266815
+--- !u!114 &114287622756252222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: GoldInBowlAquired
+  m_EditorClassIdentifier: 
+  description: GoldInBowlAquired
+  satisfied: 0
+  hash: -2027823130
+--- !u!114 &114294629903837128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: HasKettle
+  m_EditorClassIdentifier: 
+  description: HasKettle
+  satisfied: 0
+  hash: 905616267
+--- !u!114 &114302539501123498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: AmbrosiaTeaQuestStart
+  m_EditorClassIdentifier: 
+  description: AmbrosiaTeaQuestStart
+  satisfied: 0
+  hash: 1331757938
+--- !u!114 &114303500727802912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: GumballAquired
+  m_EditorClassIdentifier: 
+  description: GumballAquired
+  satisfied: 0
+  hash: -1084624778
+--- !u!114 &114316871784978968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: LiquidGoldPickedUp
+  m_EditorClassIdentifier: 
+  description: LiquidGoldPickedUp
+  satisfied: 0
+  hash: -909187435
+--- !u!114 &114327185746351608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: PickedUpDryPlant
+  m_EditorClassIdentifier: 
+  description: PickedUpDryPlant
+  satisfied: 0
+  hash: -1599608130
+--- !u!114 &114334928261144884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: GoldAppleQuestStart
+  m_EditorClassIdentifier: 
+  description: GoldAppleQuestStart
+  satisfied: 0
+  hash: 1225229576
+--- !u!114 &114336684936229846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: SunVialFilled
+  m_EditorClassIdentifier: 
+  description: SunVialFilled
+  satisfied: 0
+  hash: 1051307442
+--- !u!114 &114355927410736430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: CatStartDialouge
+  m_EditorClassIdentifier: 
+  description: CatStartDialouge
+  satisfied: 0
+  hash: -1272552845
+--- !u!114 &114378766285203814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: RedVialPickedUp
+  m_EditorClassIdentifier: 
+  description: RedVialPickedUp
+  satisfied: 0
+  hash: -1271910177
+--- !u!114 &114386008892879264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: BowlPickedUp
+  m_EditorClassIdentifier: 
+  description: BowlPickedUp
+  satisfied: 0
+  hash: 889592855
+--- !u!114 &114418454286531158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: WizardStartDialogue
+  m_EditorClassIdentifier: 
+  description: WizardStartDialogue
+  satisfied: 1
+  hash: 467004734
+--- !u!114 &114419866438435280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: StringAquired
+  m_EditorClassIdentifier: 
+  description: StringAquired
+  satisfied: 0
+  hash: 158687656
+--- !u!114 &114422671205819766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: HasGoldTeeth2
+  m_EditorClassIdentifier: 
+  description: HasGoldTeeth2
+  satisfied: 0
+  hash: -940418511
+--- !u!114 &114425427377283694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: AmbrosiapickedUp
+  m_EditorClassIdentifier: 
+  description: AmbrosiapickedUp
+  satisfied: 0
+  hash: 947518370
+--- !u!114 &114433527637976530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: DungeonDoorCompleted
+  m_EditorClassIdentifier: 
+  description: DungeonDoorCompleted
+  satisfied: 0
+  hash: -979372824
+--- !u!114 &114434246571486556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: BonePickedUp
+  m_EditorClassIdentifier: 
+  description: BonePickedUp
+  satisfied: 0
+  hash: 1109262446
+--- !u!114 &114439637543143640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: HasBone
+  m_EditorClassIdentifier: 
+  description: HasBone
+  satisfied: 0
+  hash: 593653205
+--- !u!114 &114443800826913856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: Moonpiece1PickedUp
+  m_EditorClassIdentifier: 
+  description: Moonpiece1PickedUp
+  satisfied: 0
+  hash: 1754484217
+--- !u!114 &114446122008873964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: HoneyJarPickedUp
+  m_EditorClassIdentifier: 
+  description: HoneyJarPickedUp
+  satisfied: 0
+  hash: 1642796241
+--- !u!114 &114446721058115782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: WaterCrystalPickedUp
+  m_EditorClassIdentifier: 
+  description: WaterCrystalPickedUp
+  satisfied: 0
+  hash: 290603084
+--- !u!114 &114467616167834322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: HasAfrica
+  m_EditorClassIdentifier: 
+  description: HasAfrica
+  satisfied: 0
+  hash: 1654748436
+--- !u!114 &114476403303460260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: ChestPickedUp
+  m_EditorClassIdentifier: 
+  description: ChestPickedUp
+  satisfied: 0
+  hash: 1337608849
+--- !u!114 &114488669246345718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: EarthCrystalPickedUp
+  m_EditorClassIdentifier: 
+  description: EarthCrystalPickedUp
+  satisfied: 0
+  hash: -1220151316
+--- !u!114 &114496774497453180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: DragonFireAquired
+  m_EditorClassIdentifier: 
+  description: DragonFireAquired
+  satisfied: 0
+  hash: 1077765883
+--- !u!114 &114504088093943498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: HasSeeds
+  m_EditorClassIdentifier: 
+  description: HasSeeds
+  satisfied: 0
+  hash: -890827829
+--- !u!114 &114569684155728616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: Moonpiece2PickedUp
+  m_EditorClassIdentifier: 
+  description: Moonpiece2PickedUp
+  satisfied: 0
+  hash: 1360949564
+--- !u!114 &114573808208314410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: AfricaPickedUp
+  m_EditorClassIdentifier: 
+  description: AfricaPickedUp
+  satisfied: 0
+  hash: -832665031
+--- !u!114 &114605847500585344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: HasMelon
+  m_EditorClassIdentifier: 
+  description: HasMelon
+  satisfied: 0
+  hash: -1709921099
+--- !u!114 &114609559679950854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: OrangePotionAquired
+  m_EditorClassIdentifier: 
+  description: OrangePotionAquired
+  satisfied: 0
+  hash: 35833763
+--- !u!114 &114619320260106674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: TeapotPickedUp
+  m_EditorClassIdentifier: 
+  description: TeapotPickedUp
+  satisfied: 0
+  hash: -1009543676
+--- !u!114 &114632724334962776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: AmbrosiaTeaPotAquired
+  m_EditorClassIdentifier: 
+  description: AmbrosiaTeaPotAquired
+  satisfied: 0
+  hash: -1395955485
+--- !u!114 &114635700267114576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: HasMask
+  m_EditorClassIdentifier: 
+  description: HasMask
+  satisfied: 0
+  hash: 1766527378
+--- !u!114 &114665313107315034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: MoonPiece3PickedUp
+  m_EditorClassIdentifier: 
+  description: MoonPiece3PickedUp
+  satisfied: 0
+  hash: -1962861145
+--- !u!114 &114669380657901964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: GhostStartDialouge
+  m_EditorClassIdentifier: 
+  description: GhostStartDialouge
+  satisfied: 0
+  hash: -1389821292
+--- !u!114 &114686047944968942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: HasSouthAmerica
+  m_EditorClassIdentifier: 
+  description: HasSouthAmerica
+  satisfied: 0
+  hash: 120859751
+--- !u!114 &114697647035877994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: AmbrosiaBouquetAquired
+  m_EditorClassIdentifier: 
+  description: AmbrosiaBouquetAquired
+  satisfied: 0
+  hash: 449017577
+--- !u!114 &114701939667788006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: BasementDoorQuestStart
+  m_EditorClassIdentifier: 
+  description: BasementDoorQuestStart
+  satisfied: 0
+  hash: -1354798160
+--- !u!114 &114710624494531832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: HasAmbrosiaBouquet
+  m_EditorClassIdentifier: 
+  description: HasAmbrosiaBouquet
+  satisfied: 0
+  hash: -1050697916
+--- !u!114 &114731942013876800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: SouthAmericaPickedUp
+  m_EditorClassIdentifier: 
+  description: SouthAmericaPickedUp
+  satisfied: 0
+  hash: 462620941
+--- !u!114 &114739006491127474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: PlantDried
+  m_EditorClassIdentifier: 
+  description: PlantDried
+  satisfied: 0
+  hash: -828106666
+--- !u!114 &114747450403530148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: LockpickPickedUp
+  m_EditorClassIdentifier: 
+  description: LockpickPickedUp
+  satisfied: 0
+  hash: 2122830829
+--- !u!114 &114748338359087920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: HasCellKeys
+  m_EditorClassIdentifier: 
+  description: HasCellKeys
+  satisfied: 0
+  hash: -1734926601
+--- !u!114 &114753056336311330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: AustraliaPickedUp
+  m_EditorClassIdentifier: 
+  description: AustraliaPickedUp
+  satisfied: 0
+  hash: -120809668
+--- !u!114 &114761333550728362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: GlowingJarPickedUp
+  m_EditorClassIdentifier: 
+  description: GlowingJarPickedUp
+  satisfied: 0
+  hash: 1360342739
+--- !u!114 &114768765897709292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: DryPlantPickedUp
+  m_EditorClassIdentifier: 
+  description: DryPlantPickedUp
+  satisfied: 0
+  hash: -728018254
+--- !u!114 &114770094366030908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: TeaBagAquired
+  m_EditorClassIdentifier: 
+  description: TeaBagAquired
+  satisfied: 0
+  hash: -1129622689
+--- !u!114 &114778350263410574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: PhoenixFeatherAquired
+  m_EditorClassIdentifier: 
+  description: PhoenixFeatherAquired
+  satisfied: 0
+  hash: 1173753866
+--- !u!114 &114780071348206456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: TrapDoorPickedUp
+  m_EditorClassIdentifier: 
+  description: TrapDoorPickedUp
+  satisfied: 0
+  hash: 79335735
+--- !u!114 &114793910634717754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: KeyAquired
+  m_EditorClassIdentifier: 
+  description: KeyAquired
+  satisfied: 0
+  hash: 1879386995
+--- !u!114 &114832383211045862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: HastrapDoorKey
+  m_EditorClassIdentifier: 
+  description: HastrapDoorKey
+  satisfied: 0
+  hash: -1496588215
+--- !u!114 &114837129450889992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: ApplePickedUp
+  m_EditorClassIdentifier: 
+  description: ApplePickedUp
+  satisfied: 0
+  hash: -1756528634
+--- !u!114 &114842528549307944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: SeedsPickedUp
+  m_EditorClassIdentifier: 
+  description: SeedsPickedUp
+  satisfied: 0
+  hash: -1006560515
+--- !u!114 &114855809103556806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: PlanksRemoved
+  m_EditorClassIdentifier: 
+  description: PlanksRemoved
+  satisfied: 0
+  hash: 1703327956
+--- !u!114 &114856924687962330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: HasKettleWithClam
+  m_EditorClassIdentifier: 
+  description: HasKettleWithClam
+  satisfied: 0
+  hash: -1530827892
+--- !u!114 &114860962177382762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: LIGHTSTAFF
+  m_EditorClassIdentifier: 
+  description: LIGHTSTAFF
+  satisfied: 0
+  hash: -1517926864
+--- !u!114 &114873655392268402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: KnifePickedUp
+  m_EditorClassIdentifier: 
+  description: KnifePickedUp
+  satisfied: 0
+  hash: -1969049019
+--- !u!114 &114876404009370006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: MortarAndPestlePickedUp
+  m_EditorClassIdentifier: 
+  description: MortarAndPestlePickedUp
+  satisfied: 0
+  hash: 1334889012
+--- !u!114 &114881335897606838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: WaterPickedUp
+  m_EditorClassIdentifier: 
+  description: WaterPickedUp
+  satisfied: 0
+  hash: -1870712990
+--- !u!114 &114883678307390558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: TrapDoorKeyPickedUp
+  m_EditorClassIdentifier: 
+  description: TrapDoorKeyPickedUp
+  satisfied: 0
+  hash: -1873957032
+--- !u!114 &114887618442997130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: HasGhostNecklace
+  m_EditorClassIdentifier: 
+  description: HasGhostNecklace
+  satisfied: 0
+  hash: -1890146842
+--- !u!114 &114889928719950154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: CompletedDoorStart
+  m_EditorClassIdentifier: 
+  description: CompletedDoorStart
+  satisfied: 0
+  hash: -164840168
+--- !u!114 &114893403863706380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: GoldTeethPickedUp2
+  m_EditorClassIdentifier: 
+  description: GoldTeethPickedUp2
+  satisfied: 0
+  hash: -1020398792
+--- !u!114 &114895711230986672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: fabricAquired
+  m_EditorClassIdentifier: 
+  description: fabricAquired
+  satisfied: 0
+  hash: 369850527
+--- !u!114 &114912099085508904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: FakePhoenixFeatherAquired
+  m_EditorClassIdentifier: 
+  description: FakePhoenixFeatherAquired
+  satisfied: 0
+  hash: 483353806
+--- !u!114 &114931305417899792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: DungeonDoorQuestStart
+  m_EditorClassIdentifier: 
+  description: DungeonDoorQuestStart
+  satisfied: 0
+  hash: 162785247
+--- !u!114 &114932029228588310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: CrushedHerbsPickedUp
+  m_EditorClassIdentifier: 
+  description: CrushedHerbsPickedUp
+  satisfied: 0
+  hash: 1068547157
+--- !u!114 &114932804364694962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: DooryCrystalQuestAquired
+  m_EditorClassIdentifier: 
+  description: DooryCrystalQuestAquired
+  satisfied: 0
+  hash: -1902978946
+--- !u!114 &114950619393728696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: HasTorch
+  m_EditorClassIdentifier: 
+  description: HasTorch
+  satisfied: 0
+  hash: -885531295
+--- !u!114 &114958520659555010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: KettlePickedUp
+  m_EditorClassIdentifier: 
+  description: KettlePickedUp
+  satisfied: 0
+  hash: -2028266815
+--- !u!114 &114962063550835238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: FeatherPickedUp
+  m_EditorClassIdentifier: 
+  description: FeatherPickedUp
+  satisfied: 0
+  hash: 1064098526
+--- !u!114 &114984567156805788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: StaffCompleted
+  m_EditorClassIdentifier: 
+  description: StaffCompleted
+  satisfied: 0
+  hash: 2045985755

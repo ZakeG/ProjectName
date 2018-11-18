@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cffb6a7149563f48bb326bd152bfd93, type: 3}
+  m_Name: WizardsYouthPotion
+  m_EditorClassIdentifier: 
+  combination:
+  - {fileID: 11400000, guid: 377bc17998422ee49804b265a7b1ce93, type: 2}
+  - {fileID: 11400000, guid: 2a7ffa0fb6e35ef46b4461ad2377df45, type: 2}
+  - {fileID: 11400000, guid: 053e43d77b6f2d64591150885703dd87, type: 2}
+  - {fileID: 11400000, guid: 81e6b39e361aac54faf51645f58ed708, type: 2}
+  result:
+  - {fileID: 11400000, guid: 0b825b90d3645c645be58b7b6b387ed7, type: 2}

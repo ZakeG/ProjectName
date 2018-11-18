@@ -792,6 +792,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 31362624}
+--- !u!114 &31990796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 1
+  gameObject: {fileID: 703181009}
+  activeState: 0
 --- !u!1001 &33302173
 Prefab:
   m_ObjectHideFlags: 0
@@ -1943,6 +1957,7 @@ Transform:
   - {fileID: 53491493}
   - {fileID: 703181008}
   - {fileID: 537916996}
+  - {fileID: 1327794669}
   m_Father: {fileID: 2107261174}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8350,9 +8365,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  description: HasTorch
+  description: TorchPickedUp
   satisfied: 1
-  hash: -885531295
+  hash: 415359577
 --- !u!1001 &163545670
 Prefab:
   m_ObjectHideFlags: 0
@@ -9984,7 +9999,8 @@ MonoBehaviour:
   - {fileID: 515664116}
   - {fileID: 287270393}
   - {fileID: 1972685900}
-  - {fileID: 1477403882}
+  - {fileID: 438212328}
+  - {fileID: 31990796}
 --- !u!1001 &237082324
 Prefab:
   m_ObjectHideFlags: 0
@@ -19411,6 +19427,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 437420644}
+--- !u!114 &438212328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec43236ba6522584894ac80bfbcb3815, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  condition: {fileID: 114747450403530148, guid: fd02464d008c790478d9826aba7c7847,
+    type: 2}
+  satisfied: 0
 --- !u!4 &439779872
 Transform:
   m_ObjectHideFlags: 0
@@ -26650,6 +26680,7 @@ MonoBehaviour:
   - {fileID: 2028850220}
   - {fileID: 1471436573}
   - {fileID: 628288237}
+  - {fileID: 1584547127}
 --- !u!114 &580195673
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27715,8 +27746,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 1
-  gameObject: {fileID: 246012068}
-  activeState: 0
+  gameObject: {fileID: 1602942897}
+  activeState: 1
 --- !u!114 &629766765
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37937,7 +37968,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1124805776}
-  - {fileID: 1327794669}
   m_Father: {fileID: 2107261174}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -38378,7 +38408,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec43236ba6522584894ac80bfbcb3815, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  condition: {fileID: 114710624494531832, guid: fd02464d008c790478d9826aba7c7847,
+  condition: {fileID: 114697647035877994, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}
   satisfied: 0
 --- !u!1001 &953040654
@@ -52041,7 +52071,7 @@ Prefab:
       objectReference: {fileID: 367792007}
     - target: {fileID: 194222, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: reactions.Array.data[1]
@@ -52455,7 +52485,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec43236ba6522584894ac80bfbcb3815, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  condition: {fileID: 114950619393728696, guid: fd02464d008c790478d9826aba7c7847,
+  condition: {fileID: 114434246571486556, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}
   satisfied: 0
 --- !u!1001 &1136682763
@@ -52808,8 +52838,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: "Apprentice: This is a big and cozy fire but it\u2019s still just a plain
-    fire.."
+  message: 'Apprentice: It''s a big and cozy fire..'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!114 &1144583059
@@ -54265,8 +54294,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec43236ba6522584894ac80bfbcb3815, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  condition: {fileID: 114287361194795924, guid: fd02464d008c790478d9826aba7c7847,
-    type: 2}
+  condition: {fileID: 0}
   satisfied: 0
 --- !u!1001 &1196374039
 Prefab:
@@ -57519,7 +57547,7 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 916621661}
+    m_TransformParent: {fileID: 63273086}
     m_Modifications:
     - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: reactions.Array.size
@@ -57559,7 +57587,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 194222, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_Name
@@ -59562,7 +59590,7 @@ Prefab:
     - target: {fileID: 114870674958506440, guid: 39c30be837462024b8c879ec1cd59900,
         type: 2}
       propertyPath: DayObjects.Array.size
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 114870674958506440, guid: 39c30be837462024b8c879ec1cd59900,
         type: 2}
@@ -59675,12 +59703,12 @@ Prefab:
         type: 2}
       propertyPath: DayObjects.Array.data[3]
       value: 
-      objectReference: {fileID: 998220748}
+      objectReference: {fileID: 1127789322}
     - target: {fileID: 114870674958506440, guid: 39c30be837462024b8c879ec1cd59900,
         type: 2}
       propertyPath: DayObjects.Array.data[4]
       value: 
-      objectReference: {fileID: 672988716}
+      objectReference: {fileID: 1744498317}
     - target: {fileID: 114870674958506440, guid: 39c30be837462024b8c879ec1cd59900,
         type: 2}
       propertyPath: DayObjects.Array.data[5]
@@ -59739,7 +59767,7 @@ Prefab:
         type: 2}
       propertyPath: NightObjects.Array.data[8]
       value: 
-      objectReference: {fileID: 1602942897}
+      objectReference: {fileID: 1932935908}
     - target: {fileID: 114870674958506440, guid: 39c30be837462024b8c879ec1cd59900,
         type: 2}
       propertyPath: NightObjects.Array.data[9]
@@ -60824,20 +60852,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: 82062bccd52ccef429a05ee26b8da2f0,
     type: 3}
   m_PrefabInternal: {fileID: 1473077937}
---- !u!114 &1477403882
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  order: 1
-  gameObject: {fileID: 703181009}
-  activeState: 0
 --- !u!1001 &1478215887
 Prefab:
   m_ObjectHideFlags: 0
@@ -69634,6 +69648,20 @@ MonoBehaviour:
   description: AfricaPickedUp
   satisfied: 0
   hash: -832665031
+--- !u!114 &1584547127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 1
+  gameObject: {fileID: 246012068}
+  activeState: 0
 --- !u!1001 &1585903037
 Prefab:
   m_ObjectHideFlags: 0
@@ -74835,7 +74863,6 @@ MonoBehaviour:
   - {fileID: 171604444}
   - {fileID: 813020325}
   - {fileID: 58043483}
-  - {fileID: 1752507216}
   - {fileID: 724142245}
   - {fileID: 847844143}
 --- !u!1 &1613466111
@@ -77341,6 +77368,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.77000046
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 7d5cedd9768e96645a0b8975cb4e0457, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7d5cedd9768e96645a0b8975cb4e0457, type: 3}
   m_IsPrefabAsset: 0
@@ -77755,20 +77786,6 @@ Halo:
     serializedVersion: 2
     rgba: 4293787392
   m_Size: 0.05
---- !u!114 &1752507216
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec43236ba6522584894ac80bfbcb3815, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  condition: {fileID: 114339336138375714, guid: fd02464d008c790478d9826aba7c7847,
-    type: 2}
-  satisfied: 1
 --- !u!114 &1764736131
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -79068,7 +79085,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec43236ba6522584894ac80bfbcb3815, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  condition: {fileID: 114439637543143640, guid: fd02464d008c790478d9826aba7c7847,
+  condition: {fileID: 114000264106966828, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}
   satisfied: 0
 --- !u!1001 &1797145531
@@ -79254,7 +79271,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'Apprentice: A warm and cozy fire is burning'
+  message: 'Apprentice: A warm and cozy fire is burning but it''s just a plain fire..'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!1001 &1815106171
@@ -80307,9 +80324,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  description: HasBone
+  description: BonePickedUp
   satisfied: 1
-  hash: 593653205
+  hash: 1109262446
 --- !u!114 &1855072939
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -80696,9 +80713,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  description: HasDryPlant
-  satisfied: 0
-  hash: -1494590097
+  description: AmbrosiaBouquetAquired
+  satisfied: 1
+  hash: 449017577
 --- !u!1 &1872683920
 GameObject:
   m_ObjectHideFlags: 0
@@ -82008,7 +82025,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4088149040394140, guid: d43ae048690693e488c33a95d6b53299, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 1.143
+      value: 1.488
       objectReference: {fileID: 0}
     - target: {fileID: 4088149040394140, guid: d43ae048690693e488c33a95d6b53299, type: 2}
       propertyPath: m_LocalPosition.y
@@ -82016,7 +82033,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4088149040394140, guid: d43ae048690693e488c33a95d6b53299, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 0.02
+      value: 1.019
       objectReference: {fileID: 0}
     - target: {fileID: 4088149040394140, guid: d43ae048690693e488c33a95d6b53299, type: 2}
       propertyPath: m_LocalRotation.x
@@ -82047,6 +82064,11 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 1932935906}
   m_Script: {fileID: 11500000, guid: 29103d8075f789345997a0adb6a7520e, type: 3}
+--- !u!1 &1932935908 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1271867476041238, guid: d43ae048690693e488c33a95d6b53299,
+    type: 2}
+  m_PrefabInternal: {fileID: 1932935906}
 --- !u!1001 &1934911078
 Prefab:
   m_ObjectHideFlags: 0
@@ -94094,9 +94116,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  description: HasLockPick
+  description: LockpickPickedUp
   satisfied: 1
-  hash: -1947044185
+  hash: 2122830829
 --- !u!1001 &2040522898
 Prefab:
   m_ObjectHideFlags: 0

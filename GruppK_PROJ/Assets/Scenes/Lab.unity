@@ -125,7 +125,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 
+  message: 'It''s a mortar and pestle '
   textColor: {r: 1, g: 1, b: 1, a: 1}
   order: 0
 --- !u!1 &3187833
@@ -14377,6 +14377,20 @@ MonoBehaviour:
   message: Inside this book is a crescent moon sculpture
   textColor: {r: 1, g: 1, b: 1, a: 1}
   order: 0
+--- !u!114 &444114214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 3
+  gameObject: {fileID: 1753974723}
+  activeState: 1
 --- !u!1 &451798282
 GameObject:
   m_ObjectHideFlags: 0
@@ -16943,19 +16957,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 551462375}
   m_Mesh: {fileID: 4300000, guid: f68e26733f39a5c42b1f9cec45827f07, type: 3}
---- !u!114 &552356996
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b804958e1981f9544989d65e32719692, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  order: 1
-  item: {fileID: 11400000, guid: 5a393b1e7f073e549b8f868fa97aee18, type: 2}
 --- !u!114 &553550815
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21959,7 +21960,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 
+  message: used for crushing herbs and other stuff...
   textColor: {r: 1, g: 1, b: 1, a: 1}
   order: 0
 --- !u!1 &590586832
@@ -22694,6 +22695,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 629375280}
   m_Mesh: {fileID: 4300000, guid: f68e26733f39a5c42b1f9cec45827f07, type: 3}
+--- !u!114 &632131427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b804958e1981f9544989d65e32719692, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 1
+  item: {fileID: 11400000, guid: 626b739be9dae054799bdd4ffbf85247, type: 2}
 --- !u!114 &633210045
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25535,10 +25549,9 @@ MonoBehaviour:
   reactions:
   - {fileID: 341138}
   - {fileID: 582733800}
-  - {fileID: 801560773}
-  - {fileID: 776166204}
-  - {fileID: 2057344888}
-  - {fileID: 552356996}
+  - {fileID: 632131427}
+  - {fileID: 1161229316}
+  - {fileID: 1031192103}
 --- !u!4 &760584757
 Transform:
   m_ObjectHideFlags: 0
@@ -25629,20 +25642,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 763769712}
   m_Mesh: {fileID: 4300002, guid: f48328185c218f3439e8d9419116a372, type: 3}
---- !u!114 &766698421
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  description: HasDryPlant
-  satisfied: 1
-  hash: -1494590097
 --- !u!114 &767676407
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25799,20 +25798,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400004, guid: 67de58da1638c81408e8edfe971621f5,
     type: 3}
   m_PrefabInternal: {fileID: 774562408}
---- !u!114 &776166204
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec43236ba6522584894ac80bfbcb3815, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  condition: {fileID: 114164629124617336, guid: fd02464d008c790478d9826aba7c7847,
-    type: 2}
-  satisfied: 0
 --- !u!1 &776375293
 GameObject:
   m_ObjectHideFlags: 0
@@ -26479,18 +26464,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item: {fileID: 11400000, guid: 376ca895a7f575d45ab48f98cfb4498f, type: 2}
---- !u!114 &801560773
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d482a9551d8b074097fdb7beded4043, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 11400000, guid: 5a393b1e7f073e549b8f868fa97aee18, type: 2}
 --- !u!1001 &801765461
 Prefab:
   m_ObjectHideFlags: 0
@@ -27942,7 +27915,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   description: New condition collection
   requiredConditions:
-  - {fileID: 766698421}
   - {fileID: 883627285}
   - {fileID: 425009287}
   reactionCollection: {fileID: 760584756}
@@ -32435,6 +32407,20 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1031192103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 1
+  gameObject: {fileID: 1399639891}
+  activeState: 0
 --- !u!114 &1035930655
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34845,6 +34831,20 @@ Transform:
   m_Father: {fileID: 339063940}
   m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: -0.523, y: 70.273, z: -1}
+--- !u!114 &1161229316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 1
+  gameObject: {fileID: 1290973637}
+  activeState: 0
 --- !u!1 &1166346872
 GameObject:
   m_ObjectHideFlags: 0
@@ -48294,6 +48294,10 @@ Prefab:
       value: 
       objectReference: {fileID: 108802418188606864, guid: 5454f5ea064ff4f4894f905c72524554,
         type: 2}
+    - target: {fileID: 1509475594083270, guid: d43ae048690693e488c33a95d6b53299, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d43ae048690693e488c33a95d6b53299, type: 2}
   m_IsPrefabAsset: 0
@@ -48308,6 +48312,11 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 1753974720}
   m_Script: {fileID: 11500000, guid: 29103d8075f789345997a0adb6a7520e, type: 3}
+--- !u!1 &1753974723 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1509475594083270, guid: d43ae048690693e488c33a95d6b53299,
+    type: 2}
+  m_PrefabInternal: {fileID: 1753974720}
 --- !u!1 &1757073196
 GameObject:
   m_ObjectHideFlags: 0
@@ -49017,7 +49026,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec43236ba6522584894ac80bfbcb3815, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  condition: {fileID: 114188702843383964, guid: fd02464d008c790478d9826aba7c7847,
+  condition: {fileID: 114159093089903314, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}
   satisfied: 0
 --- !u!1 &1793894212
@@ -50207,6 +50216,7 @@ MonoBehaviour:
   - {fileID: 1749304940}
   - {fileID: 1827668325}
   - {fileID: 681595747}
+  - {fileID: 444114214}
 --- !u!1 &1857951429
 GameObject:
   m_ObjectHideFlags: 0
@@ -58576,20 +58586,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400004, guid: f8bcecc8ebe01de4d99a7a9a2a9739a8,
     type: 3}
   m_PrefabInternal: {fileID: 2055766328}
---- !u!114 &2057344888
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec43236ba6522584894ac80bfbcb3815, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  condition: {fileID: 114061526481146648, guid: fd02464d008c790478d9826aba7c7847,
-    type: 2}
-  satisfied: 1
 --- !u!1001 &2058671115
 Prefab:
   m_ObjectHideFlags: 0
@@ -59195,9 +59191,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  description: HasCoin
+  description: CoinPickedUp
   satisfied: 1
-  hash: 1129137663
+  hash: -1187853915
 --- !u!1 &2081911475
 GameObject:
   m_ObjectHideFlags: 0

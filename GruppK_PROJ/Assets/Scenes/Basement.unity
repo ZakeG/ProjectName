@@ -21042,6 +21042,10 @@ Prefab:
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 456018235}
+    - target: {fileID: 194222, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
   m_IsPrefabAsset: 0
@@ -22166,6 +22170,10 @@ Prefab:
     - target: {fileID: 400012, guid: 8fbf0c59a35b7734f8f32bd5ccebfab9, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.129
+      objectReference: {fileID: 0}
+    - target: {fileID: 100014, guid: 8fbf0c59a35b7734f8f32bd5ccebfab9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8fbf0c59a35b7734f8f32bd5ccebfab9, type: 3}
@@ -63349,8 +63357,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec43236ba6522584894ac80bfbcb3815, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  condition: {fileID: 114188702843383964, guid: fd02464d008c790478d9826aba7c7847,
-    type: 2}
+  condition: {fileID: 0}
   satisfied: 1
 --- !u!1 &1871543904
 GameObject:
@@ -64308,12 +64315,12 @@ Prefab:
     - target: {fileID: 114870674958506440, guid: 39c30be837462024b8c879ec1cd59900,
         type: 2}
       propertyPath: DayObjects.Array.size
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 114870674958506440, guid: 39c30be837462024b8c879ec1cd59900,
         type: 2}
       propertyPath: NightObjects.Array.size
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4800434665854406, guid: 39c30be837462024b8c879ec1cd59900, type: 2}
       propertyPath: m_LocalPosition.x
@@ -64391,7 +64398,7 @@ Prefab:
         type: 2}
       propertyPath: DayObjects.Array.data[2]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 456018236}
     - target: {fileID: 114870674958506440, guid: 39c30be837462024b8c879ec1cd59900,
         type: 2}
       propertyPath: NightObjects.Array.data[2]
@@ -64401,11 +64408,16 @@ Prefab:
         type: 2}
       propertyPath: NightObjects.Array.data[3]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2112643715}
     - target: {fileID: 1356272589219820, guid: 39c30be837462024b8c879ec1cd59900, type: 2}
       propertyPath: m_TagString
       value: LightsList
       objectReference: {fileID: 0}
+    - target: {fileID: 114870674958506440, guid: 39c30be837462024b8c879ec1cd59900,
+        type: 2}
+      propertyPath: DayObjects.Array.data[3]
+      value: 
+      objectReference: {fileID: 525867422}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 39c30be837462024b8c879ec1cd59900, type: 2}
   m_IsPrefabAsset: 0
@@ -76311,6 +76323,11 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 2112643712}
   m_Script: {fileID: 11500000, guid: 29103d8075f789345997a0adb6a7520e, type: 3}
+--- !u!1 &2112643715 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1271867476041238, guid: d43ae048690693e488c33a95d6b53299,
+    type: 2}
+  m_PrefabInternal: {fileID: 2112643712}
 --- !u!1 &2143709114
 GameObject:
   m_ObjectHideFlags: 0

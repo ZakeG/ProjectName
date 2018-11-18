@@ -8110,6 +8110,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 33.922
       objectReference: {fileID: 0}
+    - target: {fileID: 194222, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
   m_IsPrefabAsset: 0
@@ -24024,6 +24028,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f9ed7eff249e510478c912804ac40af4, type: 2}
+    - target: {fileID: 100004, guid: 7e9bf97936131944db39d7ab66f18d9f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e9bf97936131944db39d7ab66f18d9f, type: 3}
   m_IsPrefabAsset: 0
@@ -24675,6 +24683,10 @@ Prefab:
     - target: {fileID: 491826, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
       value: -90.521
+      objectReference: {fileID: 0}
+    - target: {fileID: 194222, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
@@ -29743,7 +29755,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &923574001
 Transform:
   m_ObjectHideFlags: 0
@@ -30591,7 +30603,7 @@ Prefab:
     - target: {fileID: 114870674958506440, guid: 39c30be837462024b8c879ec1cd59900,
         type: 2}
       propertyPath: DayObjects.Array.size
-      value: 2
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 114870674958506440, guid: 39c30be837462024b8c879ec1cd59900,
         type: 2}
@@ -30679,17 +30691,17 @@ Prefab:
         type: 2}
       propertyPath: DayObjects.Array.data[3]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1171241501}
     - target: {fileID: 114870674958506440, guid: 39c30be837462024b8c879ec1cd59900,
         type: 2}
       propertyPath: DayObjects.Array.data[2]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 715330938}
     - target: {fileID: 114870674958506440, guid: 39c30be837462024b8c879ec1cd59900,
         type: 2}
       propertyPath: DayObjects.Array.data[4]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 719481361}
     - target: {fileID: 114870674958506440, guid: 39c30be837462024b8c879ec1cd59900,
         type: 2}
       propertyPath: NightObjects.Array.data[1]
@@ -30724,6 +30736,36 @@ Prefab:
       propertyPath: NightObjects.Array.data[6]
       value: 
       objectReference: {fileID: 2049289649}
+    - target: {fileID: 114870674958506440, guid: 39c30be837462024b8c879ec1cd59900,
+        type: 2}
+      propertyPath: DayObjects.Array.data[5]
+      value: 
+      objectReference: {fileID: 923574000}
+    - target: {fileID: 114870674958506440, guid: 39c30be837462024b8c879ec1cd59900,
+        type: 2}
+      propertyPath: DayObjects.Array.data[6]
+      value: 
+      objectReference: {fileID: 165796969}
+    - target: {fileID: 114870674958506440, guid: 39c30be837462024b8c879ec1cd59900,
+        type: 2}
+      propertyPath: DayObjects.Array.data[7]
+      value: 
+      objectReference: {fileID: 1687744291}
+    - target: {fileID: 114870674958506440, guid: 39c30be837462024b8c879ec1cd59900,
+        type: 2}
+      propertyPath: DayObjects.Array.data[8]
+      value: 
+      objectReference: {fileID: 472009489}
+    - target: {fileID: 114870674958506440, guid: 39c30be837462024b8c879ec1cd59900,
+        type: 2}
+      propertyPath: DayObjects.Array.data[9]
+      value: 
+      objectReference: {fileID: 1802568501}
+    - target: {fileID: 114870674958506440, guid: 39c30be837462024b8c879ec1cd59900,
+        type: 2}
+      propertyPath: DayObjects.Array.data[10]
+      value: 
+      objectReference: {fileID: 1196169361}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 39c30be837462024b8c879ec1cd59900, type: 2}
   m_IsPrefabAsset: 0
@@ -35356,6 +35398,10 @@ Prefab:
       propertyPath: reactions.Array.data[0]
       value: 
       objectReference: {fileID: 2094966055}
+    - target: {fileID: 194222, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
   m_IsPrefabAsset: 0
@@ -49442,12 +49488,21 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: cef06c109a8b87e4f96bee29bc0c1bf8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cef06c109a8b87e4f96bee29bc0c1bf8, type: 3}
   m_IsPrefabAsset: 0
 --- !u!4 &1802568500 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: cef06c109a8b87e4f96bee29bc0c1bf8,
+    type: 3}
+  m_PrefabInternal: {fileID: 1802568499}
+--- !u!1 &1802568501 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: cef06c109a8b87e4f96bee29bc0c1bf8,
     type: 3}
   m_PrefabInternal: {fileID: 1802568499}
 --- !u!1 &1806624981

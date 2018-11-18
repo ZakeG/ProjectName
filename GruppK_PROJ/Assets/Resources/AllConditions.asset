@@ -415,7 +415,7 @@ MonoBehaviour:
   m_Name: DAY
   m_EditorClassIdentifier: 
   description: DAY
-  satisfied: 0
+  satisfied: 1
   hash: 1929866010
 --- !u!114 &114203895195064576
 MonoBehaviour:
@@ -429,7 +429,7 @@ MonoBehaviour:
   m_Name: CompletedGlobe
   m_EditorClassIdentifier: 
   description: CompletedGlobe
-  satisfied: 0
+  satisfied: 1
   hash: -2141530385
 --- !u!114 &114207286644705896
 MonoBehaviour:
@@ -499,7 +499,7 @@ MonoBehaviour:
   m_Name: AmbrosiaTeaQuestStart
   m_EditorClassIdentifier: 
   description: AmbrosiaTeaQuestStart
-  satisfied: 0
+  satisfied: 1
   hash: 1331757938
 --- !u!114 &114303500727802912
 MonoBehaviour:
@@ -905,7 +905,7 @@ MonoBehaviour:
   m_Name: AmbrosiaTeaPotAquired
   m_EditorClassIdentifier: 
   description: AmbrosiaTeaPotAquired
-  satisfied: 0
+  satisfied: 1
   hash: -1395955485
 --- !u!114 &114635700267114576
 MonoBehaviour:
@@ -989,7 +989,7 @@ MonoBehaviour:
   m_Name: BasementDoorQuestStart
   m_EditorClassIdentifier: 
   description: BasementDoorQuestStart
-  satisfied: 0
+  satisfied: 1
   hash: -1354798160
 --- !u!114 &114710624494531832
 MonoBehaviour:
@@ -1031,7 +1031,7 @@ MonoBehaviour:
   m_Name: PlantDried
   m_EditorClassIdentifier: 
   description: PlantDried
-  satisfied: 0
+  satisfied: 1
   hash: -828106666
 --- !u!114 &114747450403530148
 MonoBehaviour:
@@ -1129,7 +1129,7 @@ MonoBehaviour:
   m_Name: PhoenixFeatherAquired
   m_EditorClassIdentifier: 
   description: PhoenixFeatherAquired
-  satisfied: 0
+  satisfied: 1
   hash: 1173753866
 --- !u!114 &114780071348206456
 MonoBehaviour:
@@ -1157,7 +1157,7 @@ MonoBehaviour:
   m_Name: KeyAquired
   m_EditorClassIdentifier: 
   description: KeyAquired
-  satisfied: 0
+  satisfied: 1
   hash: 1879386995
 --- !u!114 &114832383211045862
 MonoBehaviour:
@@ -1171,7 +1171,7 @@ MonoBehaviour:
   m_Name: HastrapDoorKey
   m_EditorClassIdentifier: 
   description: HastrapDoorKey
-  satisfied: 0
+  satisfied: 1
   hash: -1496588215
 --- !u!114 &114837129450889992
 MonoBehaviour:
@@ -1241,7 +1241,7 @@ MonoBehaviour:
   m_Name: LIGHTSTAFF
   m_EditorClassIdentifier: 
   description: LIGHTSTAFF
-  satisfied: 0
+  satisfied: 1
   hash: -1517926864
 --- !u!114 &114873655392268402
 MonoBehaviour:
@@ -1297,7 +1297,7 @@ MonoBehaviour:
   m_Name: TrapDoorKeyPickedUp
   m_EditorClassIdentifier: 
   description: TrapDoorKeyPickedUp
-  satisfied: 0
+  satisfied: 1
   hash: -1873957032
 --- !u!114 &114887618442997130
 MonoBehaviour:
@@ -1465,5 +1465,5 @@ MonoBehaviour:
   m_Name: StaffCompleted
   m_EditorClassIdentifier: 
   description: StaffCompleted
-  satisfied: 0
+  satisfied: 1
   hash: 2045985755

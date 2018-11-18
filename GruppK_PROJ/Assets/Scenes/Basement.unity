@@ -23072,7 +23072,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uniqueIdentifier: offatday not sure if this should be here tbh
   saveData: {fileID: 11400000, guid: e1fa821107c22d74296714468f88f7c4, type: 2}
-  gameObjectToSave: {fileID: 2112643715}
+  gameObjectToSave: {fileID: 2112643716}
 --- !u!1 &590166844
 GameObject:
   m_ObjectHideFlags: 0
@@ -61483,6 +61483,14 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: e08b564a6feeb624bb91e06ea6c1a178, type: 3}
+      propertyPath: m_Name
+      value: justchillingokay
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: e08b564a6feeb624bb91e06ea6c1a178, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e08b564a6feeb624bb91e06ea6c1a178, type: 3}
   m_IsPrefabAsset: 0
@@ -76278,6 +76286,11 @@ MonoBehaviour:
 --- !u!1 &2112643715 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1271867476041238, guid: d43ae048690693e488c33a95d6b53299,
+    type: 2}
+  m_PrefabInternal: {fileID: 2112643712}
+--- !u!1 &2112643716 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1509475594083270, guid: d43ae048690693e488c33a95d6b53299,
     type: 2}
   m_PrefabInternal: {fileID: 2112643712}
 --- !u!1 &2143709114

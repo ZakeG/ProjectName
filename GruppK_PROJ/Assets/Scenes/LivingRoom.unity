@@ -13438,6 +13438,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 396431397}
+--- !u!114 &403753325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec43236ba6522584894ac80bfbcb3815, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  condition: {fileID: 114488299505747108, guid: fd02464d008c790478d9826aba7c7847,
+    type: 2}
+  satisfied: 1
 --- !u!1001 &405112303
 Prefab:
   m_ObjectHideFlags: 0
@@ -27307,6 +27321,7 @@ MonoBehaviour:
   - {fileID: 1910792201}
   - {fileID: 527135846}
   - {fileID: 2074178334}
+  - {fileID: 2143787451}
 --- !u!1001 &612743718
 Prefab:
   m_ObjectHideFlags: 0
@@ -27640,7 +27655,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'Apprentice: Looks like I''ve got all the pieces that seems to be missing..'
+  message: 'Apprentice: Looks like I''ve got all the pieces that were missing..'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!1001 &625790876
@@ -28115,7 +28130,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   reactions:
   - {fileID: 623515868}
-  - {fileID: 1724948085}
   - {fileID: 212175657}
   - {fileID: 252472366}
   - {fileID: 2049385424}
@@ -28182,7 +28196,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec43236ba6522584894ac80bfbcb3815, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  condition: {fileID: 114686047944968942, guid: fd02464d008c790478d9826aba7c7847,
+  condition: {fileID: 114731942013876800, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}
   satisfied: 0
 --- !u!1001 &678290662
@@ -38367,6 +38381,7 @@ MonoBehaviour:
   description: New condition collection
   requiredConditions:
   - {fileID: 36923598}
+  - {fileID: 2027693129}
   reactionCollection: {fileID: 610761285}
 --- !u!114 &949820884
 MonoBehaviour:
@@ -53906,7 +53921,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec43236ba6522584894ac80bfbcb3815, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  condition: {fileID: 114183364152752296, guid: fd02464d008c790478d9826aba7c7847,
+  condition: {fileID: 114753056336311330, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}
   satisfied: 0
 --- !u!1001 &1176973553
@@ -67433,7 +67448,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec43236ba6522584894ac80bfbcb3815, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  condition: {fileID: 114467616167834322, guid: fd02464d008c790478d9826aba7c7847,
+  condition: {fileID: 114573808208314410, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}
   satisfied: 0
 --- !u!1001 &1533683399
@@ -76691,20 +76706,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   order: 1
   item: {fileID: 11400000, guid: e569df22ad76c844fa0cf8ea84b32618, type: 2}
---- !u!114 &1724948085
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  message: 
-  textColor: {r: 1, g: 1, b: 1, a: 1}
-  order: 0
 --- !u!1001 &1730025636
 Prefab:
   m_ObjectHideFlags: 0
@@ -93767,6 +93768,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 2019588421}
+--- !u!114 &2027693129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: DoorQuestRecieved
+  satisfied: 1
+  hash: 1860497604
 --- !u!114 &2027986601
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -95504,8 +95519,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: "\nPiece 1. the piece you're looking for is in the down under\nPiece 2.
-    Go to the sa fari \nPiece 3. South america okay mah dude\n"
+  message: '
+
+    Piece 1. Australia piece
+
+    Piece 2. Africa piece
+
+    Piece 3. South America
+
+'
 --- !u!1 &2077199564
 GameObject:
   m_ObjectHideFlags: 0
@@ -97241,6 +97263,7 @@ MonoBehaviour:
   - {fileID: 646866265}
   - {fileID: 949820884}
   - {fileID: 1734727632}
+  - {fileID: 403753325}
 --- !u!1001 &2139662621
 Prefab:
   m_ObjectHideFlags: 0
@@ -97423,3 +97446,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 2143238679}
+--- !u!114 &2143787451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec43236ba6522584894ac80bfbcb3815, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  condition: {fileID: 114488299505747108, guid: fd02464d008c790478d9826aba7c7847,
+    type: 2}
+  satisfied: 0

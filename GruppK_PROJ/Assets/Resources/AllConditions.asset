@@ -109,6 +109,7 @@ MonoBehaviour:
   - {fileID: 114832383211045862}
   - {fileID: 114183979602942890}
   - {fileID: 114889928719950154}
+  - {fileID: 114488299505747108}
 --- !u!114 &114000264106966828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -781,6 +782,20 @@ MonoBehaviour:
   description: ChestPickedUp
   satisfied: 0
   hash: 1337608849
+--- !u!114 &114488299505747108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: DoorQuestRecieved
+  m_EditorClassIdentifier: 
+  description: DoorQuestRecieved
+  satisfied: 0
+  hash: 1860497604
 --- !u!114 &114488669246345718
 MonoBehaviour:
   m_ObjectHideFlags: 0

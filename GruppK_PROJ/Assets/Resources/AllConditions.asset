@@ -110,6 +110,7 @@ MonoBehaviour:
   - {fileID: 114183979602942890}
   - {fileID: 114889928719950154}
   - {fileID: 114488299505747108}
+  - {fileID: 114760183064950580}
 --- !u!114 &114000264106966828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1090,6 +1091,20 @@ MonoBehaviour:
   description: AustraliaPickedUp
   satisfied: 0
   hash: -120809668
+--- !u!114 &114760183064950580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: CAMERAOPTIONS
+  m_EditorClassIdentifier: 
+  description: CAMERAOPTIONS
+  satisfied: 0
+  hash: 171288596
 --- !u!114 &114761333550728362
 MonoBehaviour:
   m_ObjectHideFlags: 0

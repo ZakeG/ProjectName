@@ -19614,6 +19614,11 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 393747941}
   m_Script: {fileID: 11500000, guid: d85941078afdf3244b2a1ae50fea256c, type: 3}
+--- !u!1 &393747944 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 194222, guid: d48734bd22479a14cb1a52b40aa09db4,
+    type: 2}
+  m_PrefabInternal: {fileID: 393747941}
 --- !u!1 &393940553
 GameObject:
   m_ObjectHideFlags: 0
@@ -64277,7 +64282,7 @@ Prefab:
     - target: {fileID: 114870674958506440, guid: 39c30be837462024b8c879ec1cd59900,
         type: 2}
       propertyPath: DayObjects.Array.size
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 114870674958506440, guid: 39c30be837462024b8c879ec1cd59900,
         type: 2}
@@ -64365,12 +64370,12 @@ Prefab:
         type: 2}
       propertyPath: NightObjects.Array.data[2]
       value: 
-      objectReference: {fileID: 1956563058}
+      objectReference: {fileID: 393747944}
     - target: {fileID: 114870674958506440, guid: 39c30be837462024b8c879ec1cd59900,
         type: 2}
       propertyPath: NightObjects.Array.data[3]
       value: 
-      objectReference: {fileID: 2112643715}
+      objectReference: {fileID: 2112643716}
     - target: {fileID: 1356272589219820, guid: 39c30be837462024b8c879ec1cd59900, type: 2}
       propertyPath: m_TagString
       value: LightsList
@@ -64380,6 +64385,11 @@ Prefab:
       propertyPath: DayObjects.Array.data[3]
       value: 
       objectReference: {fileID: 525867422}
+    - target: {fileID: 114870674958506440, guid: 39c30be837462024b8c879ec1cd59900,
+        type: 2}
+      propertyPath: DayObjects.Array.data[4]
+      value: 
+      objectReference: {fileID: 1956563058}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 39c30be837462024b8c879ec1cd59900, type: 2}
   m_IsPrefabAsset: 0
@@ -65043,7 +65053,7 @@ Prefab:
       objectReference: {fileID: 1270661895}
     - target: {fileID: 194222, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
@@ -76284,11 +76294,6 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 2112643712}
   m_Script: {fileID: 11500000, guid: 29103d8075f789345997a0adb6a7520e, type: 3}
---- !u!1 &2112643715 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1271867476041238, guid: d43ae048690693e488c33a95d6b53299,
-    type: 2}
-  m_PrefabInternal: {fileID: 2112643712}
 --- !u!1 &2112643716 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1509475594083270, guid: d43ae048690693e488c33a95d6b53299,

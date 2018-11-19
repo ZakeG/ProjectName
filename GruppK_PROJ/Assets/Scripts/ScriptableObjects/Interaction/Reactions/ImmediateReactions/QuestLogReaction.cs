@@ -1,4 +1,5 @@
-﻿public class QuestLogReaction : Reaction
+﻿using UnityEngine;
+public class QuestLogReaction : Reaction
 {
     public string message;
 

@@ -25,11 +25,11 @@ public class CameraControl : MonoBehaviour
         mainCamera = gameObject.GetComponentInChildren<Camera>();
         OptionsDisabled = false;
         Debug.Log("Getcomponent ContrastEnhance needs to be added");
-        if (CameraOptionCondition.satisfied == false)
-        {
+        //if (CameraOptionCondition.satisfied == false)
+        //{
         //    mainCamera.GetComponent(ContrastEnhance).SetActive(false);
             OptionsDisabled = true;
-        }
+        //}
 
         fov = mainCamera.fieldOfView;
         if (!moveCamera)

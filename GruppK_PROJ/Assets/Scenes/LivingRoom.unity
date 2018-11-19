@@ -12104,7 +12104,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec43236ba6522584894ac80bfbcb3815, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  condition: {fileID: 114832383211045862, guid: fd02464d008c790478d9826aba7c7847,
+  condition: {fileID: 114883678307390558, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}
   satisfied: 1
 --- !u!1001 &338137994
@@ -28704,6 +28704,20 @@ MonoBehaviour:
   - {fileID: 1242065292}
   - {fileID: 1239169082}
   - {fileID: 882415521}
+--- !u!114 &697518158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 1
+  gameObject: {fileID: 1561554626}
+  activeState: 0
 --- !u!1001 &700763593
 Prefab:
   m_ObjectHideFlags: 0
@@ -29129,6 +29143,7 @@ MonoBehaviour:
   - {fileID: 1884702000}
   - {fileID: 1125328535}
   - {fileID: 1770739600}
+  - {fileID: 1457065547}
 --- !u!1001 &706153407
 Prefab:
   m_ObjectHideFlags: 0
@@ -55996,6 +56011,7 @@ MonoBehaviour:
   - {fileID: 447609860}
   - {fileID: 1370530675}
   - {fileID: 1714979144}
+  - {fileID: 697518158}
 --- !u!1001 &1282020153
 Prefab:
   m_ObjectHideFlags: 0
@@ -58339,9 +58355,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  description: HastrapDoorKey
+  description: TrapDoorKeyPickedUp
   satisfied: 1
-  hash: -1496588215
+  hash: -1873957032
 --- !u!114 &1365181418
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60234,6 +60250,20 @@ MonoBehaviour:
   - {fileID: 1764736131}
   - {fileID: 1968767852}
   - {fileID: 1913639127}
+--- !u!114 &1457065547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 1
+  gameObject: {fileID: 1774339613}
+  activeState: 0
 --- !u!1001 &1459925304
 Prefab:
   m_ObjectHideFlags: 0

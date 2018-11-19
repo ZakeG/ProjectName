@@ -1608,7 +1608,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8446c4d143f5adb4eaca21d57f8afcfb, type: 3}
       propertyPath: m_RootOrder
-      value: 47
+      value: 46
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8446c4d143f5adb4eaca21d57f8afcfb, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -10916,7 +10916,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &299256076
 Transform:
   m_ObjectHideFlags: 0
@@ -13239,7 +13239,7 @@ AudioSource:
     type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.8
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -15237,12 +15237,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 472396604}
-  m_LocalRotation: {x: -0, y: -0.9119683, z: -0, w: 0.4102608}
-  m_LocalPosition: {x: -1.997, y: 0.998, z: -1.633}
-  m_LocalScale: {x: 0.040996026, y: 0.040996026, z: 0.040996026}
+  m_LocalRotation: {x: -0, y: -0.4102608, z: -0, w: -0.9119683}
+  m_LocalPosition: {x: 1.997, y: 0.9878, z: 0.763}
+  m_LocalScale: {x: 0.040996045, y: 0.040996026, z: 0.040996045}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_Father: {fileID: 1695966293}
+  m_RootOrder: 47
   m_LocalEulerAnglesHint: {x: 0, y: -131.558, z: 0}
 --- !u!1 &476692297
 GameObject:
@@ -16042,7 +16042,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 106300, guid: 0036c73aed31ec14fbbf45853c79fc14, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0036c73aed31ec14fbbf45853c79fc14, type: 2}
@@ -28889,7 +28889,7 @@ AudioSource:
     type: 2}
   m_audioClip: {fileID: 8300000, guid: dc32216120932cf4ba93c0a10eab8cf6, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -35784,7 +35784,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400030, guid: 1ebbcfb04b4f41340bb0b726344ccca6, type: 3}
       propertyPath: m_RootOrder
-      value: 46
+      value: 45
       objectReference: {fileID: 0}
     - target: {fileID: 400030, guid: 1ebbcfb04b4f41340bb0b726344ccca6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -42616,7 +42616,7 @@ AudioSource:
     type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.8
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -47276,6 +47276,7 @@ Transform:
   - {fileID: 1606419439}
   - {fileID: 1195804370}
   - {fileID: 76304105}
+  - {fileID: 472396606}
   m_Father: {fileID: 31095713}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -47785,7 +47786,7 @@ AudioSource:
     type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.3
   m_Pitch: 1
   Loop: 0
   Mute: 0

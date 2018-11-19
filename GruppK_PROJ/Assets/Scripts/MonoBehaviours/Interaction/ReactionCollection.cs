@@ -20,6 +20,7 @@ public class ReactionCollection : MonoBehaviour
     private bool reactionsStarted;
     private int reactionOrderNumber;
 
+    private Texture2D[] tempIntList;
     private Texture2D cursorIneracting;
     private Texture2D cursorArrow;
     private CursorMode cursorMode = CursorMode.Auto;
@@ -27,8 +28,18 @@ public class ReactionCollection : MonoBehaviour
 
     private void Start ()
     {
-        //Deklarera cursorIneracting med GetResource
-        //Deklarera cursorArrow med GetResource
+        tempIntList = Resources.FindObjectsOfTypeAll<Texture2D>();
+        foreach (Texture2D t in tempIntList)
+        {
+            if (t.name == "pointer_talk")
+            {
+                cursorIneracting = t;
+            }
+            if (t.name == "pointer_walk")
+            {
+                cursorArrow = t;
+            }
+        }
         playerMovementScript = GameObject.Find("Player").GetComponent<PlayerMovement>();
         reactionsStarted = false;
         for (int i = 0; i < reactions.Length; i++)
@@ -113,7 +124,7 @@ public class ReactionCollection : MonoBehaviour
 
     private void StartReactions()
     {
-        //Cursor.SetCursor(cursorIneracting, hotSpot, cursorMode); När det finns en cursorIneracting ta bort kommentering
+        Cursor.SetCursor(cursorIneracting, hotSpot, cursorMode);
         reactionsStarted = true;
         playerMovementScript.PauseUnpauseReaction(true);
         RunAllImmidiateReactions();
@@ -123,7 +134,7 @@ public class ReactionCollection : MonoBehaviour
     }
     private void ReactionsAlmostFinished()
     {
-        //Cursor.SetCursor(cursorArrow, hotSpot, cursorMode); När det finns en cursorIneracting ta bort kommentering
+        Cursor.SetCursor(cursorArrow, hotSpot, cursorMode); 
     }
 
     private void ReactionsFinished()

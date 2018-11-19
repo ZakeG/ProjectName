@@ -16,9 +16,9 @@ public class DynamicCamera : MonoBehaviour {
         MoveCamera();
     }
 
-
-    private void MoveCamera()
+    private IEnumerator MoveCameraDelay()
     {
+        yield return new WaitForSeconds(1);
         if (cameraRigObject1.activeSelf)
         {
             cameraRigObject1.transform.GetChild(0).gameObject.SetActive(false);
@@ -32,7 +32,12 @@ public class DynamicCamera : MonoBehaviour {
             cameraRigObject1.transform.GetChild(0).gameObject.SetActive(true);
             cameraRigObject2.SetActive(false);
             cameraRigObject2.transform.GetChild(0).gameObject.SetActive(false);
-            
+
         }
+    }
+
+    private void MoveCamera()
+    {
+        StartCoroutine(MoveCameraDelay());
     } 
 }

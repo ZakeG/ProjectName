@@ -127,7 +127,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionLocation: {fileID: 491826}
-  interactionDuration: 0
   conditionCollections: []
   defaultReactionCollection: {fileID: 11441280}
 --- !u!114 &11485606
@@ -164,7 +163,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 114572509625264228}
-          m_MethodName: ChangeToHand
+          m_MethodName: ChangeToPaw
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -181,7 +180,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 114572509625264228}
-          m_MethodName: ChangeToArrow
+          m_MethodName: ChangeToFeet
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -216,5 +215,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4af565904d0e7014693ebba84614e2de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arrow: {fileID: 2800000, guid: 73492e0b9a7c30b49ad9d79d0e912b1c, type: 3}
-  hand: {fileID: 2800000, guid: 8219bfdc2f8e07c4087a040ba8777203, type: 3}
+  arrow: {fileID: 2800000, guid: 3d9638f918ebb044c87fabf0be22f27b, type: 3}
+  hand: {fileID: 2800000, guid: 98555ca68b5b0ba42b88d491440062ef, type: 3}

@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f67bd8ec6e33af4987562f6141a3bf2, type: 3}
   m_Name: Moonpiece2
   m_EditorClassIdentifier: 
-  sprite: {fileID: 21300000, guid: 9ece4cfb1cd46874bbdc5b517f652de1, type: 3}
+  sprite: {fileID: 21300000, guid: 9cbe8aa354d6371469045db4880cb8ad, type: 3}
   itemName: 
   pickUpCondition: {fileID: 114569684155728616, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}

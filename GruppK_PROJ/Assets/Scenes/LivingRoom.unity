@@ -952,7 +952,7 @@ AudioSource:
     type: 2}
   m_audioClip: {fileID: 8300000, guid: 6b296759b8bb1424cbee8b1a07592011, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.5
+  m_Volume: 0.3
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -29859,7 +29859,7 @@ AudioSource:
     type: 2}
   m_audioClip: {fileID: 8300000, guid: dc32216120932cf4ba93c0a10eab8cf6, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -30421,7 +30421,7 @@ AudioSource:
     type: 2}
   m_audioClip: {fileID: 8300000, guid: 6b296759b8bb1424cbee8b1a07592011, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.5
+  m_Volume: 0.3
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -38849,7 +38849,7 @@ AudioSource:
     type: 2}
   m_audioClip: {fileID: 8300000, guid: eb54a13f58d42ca46bd22a7b0bec8d07, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -40457,7 +40457,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!82 &1021455164
 AudioSource:
   m_ObjectHideFlags: 0
@@ -55671,7 +55671,7 @@ AudioSource:
     type: 2}
   m_audioClip: {fileID: 8300000, guid: 6b296759b8bb1424cbee8b1a07592011, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.5
+  m_Volume: 0.3
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -61095,7 +61095,7 @@ AudioSource:
     type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -61191,7 +61191,7 @@ AudioSource:
     type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -61287,7 +61287,7 @@ AudioSource:
     type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -81438,7 +81438,7 @@ AudioSource:
     type: 2}
   m_audioClip: {fileID: 8300000, guid: 6b296759b8bb1424cbee8b1a07592011, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.5
+  m_Volume: 0.3
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -95024,7 +95024,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2060869782
 Transform:
   m_ObjectHideFlags: 0

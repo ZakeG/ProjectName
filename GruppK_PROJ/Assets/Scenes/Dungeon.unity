@@ -1781,7 +1781,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'APPRENTICE: This thing could be useful right?'
+  message: 'Apprentice: This thing could be useful right?'
   textColor: {r: 1, g: 0.95686275, b: 0, a: 1}
   order: 0
 --- !u!1001 &226881628
@@ -2440,7 +2440,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'APPRENTICE: Look what I found!'
+  message: 'Apprentice: Look what I found!'
   textColor: {r: 1, g: 0.95686275, b: 0, a: 1}
   order: 0
 --- !u!114 &272601619
@@ -3532,7 +3532,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'APPRENTICE: It''s a slice of watermelon
+  message: 'Apprentice: It''s a slice of watermelon
 
 '
   textColor: {r: 1, g: 0.95686275, b: 0, a: 1}
@@ -15443,7 +15443,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'APPRENTICE: Theres something blocking the door...
+  message: 'Apprentice: Theres something blocking the door...
 
 '
   textColor: {r: 1, g: 0.95686275, b: 0, a: 1}
@@ -16038,7 +16038,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'APPRENTICE: A cell full of bones,'
+  message: 'Apprentice: A cell full of bones,'
   textColor: {r: 1, g: 0.95686275, b: 0, a: 1}
   order: 0
 --- !u!114 &586190329
@@ -16304,8 +16304,6 @@ GameObject:
   - component: {fileID: 598528685}
   - component: {fileID: 598528684}
   - component: {fileID: 598528683}
-  - component: {fileID: 598528682}
-  - component: {fileID: 598528687}
   m_Layer: 0
   m_Name: Savers
   m_TagString: Untagged
@@ -16522,20 +16520,6 @@ MonoBehaviour:
   uniqueIdentifier: Bone
   saveData: {fileID: 11400000, guid: aba905177fec3714798fabdc27b67ee8, type: 2}
   gameObjectToSave: {fileID: 2054542866}
---- !u!114 &598528682
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 598528666}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f29b6054d4e0304f8b32fb4625cff19, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  uniqueIdentifier: Daylights
-  saveData: {fileID: 11400000, guid: aba905177fec3714798fabdc27b67ee8, type: 2}
-  gameObjectToSave: {fileID: 273638821}
 --- !u!114 &598528683
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16592,20 +16576,6 @@ MonoBehaviour:
   uniqueIdentifier: Key_Necklace
   saveData: {fileID: 11400000, guid: aba905177fec3714798fabdc27b67ee8, type: 2}
   gameObjectToSave: {fileID: 616123158}
---- !u!114 &598528687
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 598528666}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f29b6054d4e0304f8b32fb4625cff19, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  uniqueIdentifier: Nightlights
-  saveData: {fileID: 11400000, guid: aba905177fec3714798fabdc27b67ee8, type: 2}
-  gameObjectToSave: {fileID: 806795157}
 --- !u!114 &600675859
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16617,7 +16587,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: "APPRENTICE: Success! Lets take a look at what\u2019s inside\r\n"
+  message: "Apprentice: Success! Lets take a look at what\u2019s inside\r\n"
   textColor: {r: 1, g: 0.95686275, b: 0, a: 1}
   order: 0
 --- !u!1001 &600982858
@@ -23352,7 +23322,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'APPRENTICE: The cell door is locked'
+  message: 'Apprentice: The cell door is locked'
   textColor: {r: 1, g: 0.95686275, b: 0, a: 1}
   order: 0
 --- !u!1001 &709354875
@@ -24323,7 +24293,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'APPRENTICE: Hmm..I think I saw one earlier...'
+  message: 'Apprentice: Hmm..I think I saw one earlier...'
   textColor: {r: 1, g: 0.95686275, b: 0, a: 1}
   order: 5
 --- !u!114 &773925967
@@ -25577,6 +25547,7 @@ MonoBehaviour:
   smoothing: 7
   offset: {x: 0, y: 0.01, z: 400}
   playerPosition: {fileID: 60106104}
+  CameraOptionCondition: {fileID: 0}
 --- !u!1001 &868378663
 Prefab:
   m_ObjectHideFlags: 0
@@ -36749,7 +36720,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'APPRENTICE: The final ingridient the wizard asked for was dragon fire
+  message: 'Apprentice: The final ingridient the wizard asked for was dragon fire
 
 '
   textColor: {r: 1, g: 0.95686275, b: 0, a: 1}
@@ -39427,7 +39398,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec43236ba6522584894ac80bfbcb3815, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  condition: {fileID: 0}
+  condition: {fileID: 114761333550728362, guid: fd02464d008c790478d9826aba7c7847,
+    type: 2}
   satisfied: 0
 --- !u!1001 &1190363500
 Prefab:
@@ -41467,7 +41439,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: "APPRENTICE: I guess you could say I've got a bone to pick with you dragon...\r\n"
+  message: "Apprentice: I guess you could say I've got a bone to pick with you dragon...\r\n"
   textColor: {r: 1, g: 0.95686275, b: 0, a: 1}
   order: 0
 --- !u!1001 &1322683595
@@ -41924,7 +41896,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'APPRENTICE: Ehm.. '
+  message: 'Apprentice: Ehm.. '
   textColor: {r: 1, g: 0.95686275, b: 0, a: 1}
   order: 4
 --- !u!1001 &1338878532
@@ -49298,7 +49270,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'APPRENTICE: It looks like a juicy slice of watermelon....'
+  message: 'Apprentice: It looks like a juicy slice of watermelon....'
   textColor: {r: 1, g: 0.95686275, b: 0, a: 1}
   order: 0
 --- !u!1001 &1570092824
@@ -51092,7 +51064,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: "APPRENTICE: A cell full of treasures...\r\n"
+  message: "Apprentice: A cell full of treasures...\r\n"
   textColor: {r: 1, g: 0.95686275, b: 0, a: 1}
   order: 0
 --- !u!114 &1718436999
@@ -51589,7 +51561,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: "APPRENTICE: This dragon looks like it's passed its expiration date\u2026"
+  message: "Apprentice: This dragon looks like it's passed its expiration date\u2026"
   textColor: {r: 1, g: 0.95686275, b: 0, a: 1}
   order: 0
 --- !u!1001 &1780142635
@@ -51773,6 +51745,7 @@ MonoBehaviour:
   smoothing: 7
   offset: {x: 0, y: 0.01, z: 400}
   playerPosition: {fileID: 60106104}
+  CameraOptionCondition: {fileID: 0}
 --- !u!4 &1798163925 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: e01b4038a41493d47af48842f8c0f119,
@@ -51889,9 +51862,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  description: HasCellKeys
+  description: LockpickPickedUp
   satisfied: 1
-  hash: -1734926601
+  hash: 2122830829
 --- !u!4 &1827481229
 Transform:
   m_ObjectHideFlags: 0
@@ -52107,7 +52080,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'APPRENTICE: There''s something behind these planks...'
+  message: 'Apprentice: There''s something behind these planks...'
   textColor: {r: 1, g: 0.95686275, b: 0, a: 1}
   order: 0
 --- !u!114 &1872317431
@@ -52121,7 +52094,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'APPRENTICE: You''ve got your necklace, now let me out of here!'
+  message: 'Apprentice: You''ve got your necklace, now let me out of here!'
   textColor: {r: 1, g: 0.95686275, b: 0, a: 1}
   order: 2
 --- !u!1001 &1872707033
@@ -52762,7 +52735,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'APPRENTICE: I didn''t steal anything? What you''re talking about?'
+  message: 'Apprentice: I didn''t steal anything? What you''re talking about?'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 2
 --- !u!1 &1896106786

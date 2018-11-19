@@ -56968,16 +56968,12 @@ GameObject:
   - component: {fileID: 1327138277}
   - component: {fileID: 1327138276}
   - component: {fileID: 1327138275}
-  - component: {fileID: 1327138274}
-  - component: {fileID: 1327138273}
   - component: {fileID: 1327138289}
   - component: {fileID: 1327138288}
   - component: {fileID: 1327138287}
   - component: {fileID: 1327138286}
   - component: {fileID: 1327138293}
   - component: {fileID: 1327138292}
-  - component: {fileID: 1327138291}
-  - component: {fileID: 1327138290}
   - component: {fileID: 1327138294}
   m_Layer: 0
   m_Name: Savers
@@ -57265,34 +57261,6 @@ MonoBehaviour:
   uniqueIdentifier: globe_closed
   saveData: {fileID: 11400000, guid: d4fe277f5ebf1e5488c85d41a691249b, type: 2}
   gameObjectToSave: {fileID: 517402032}
---- !u!114 &1327138273
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1327138252}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f29b6054d4e0304f8b32fb4625cff19, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  uniqueIdentifier: nightlight
-  saveData: {fileID: 11400000, guid: d4fe277f5ebf1e5488c85d41a691249b, type: 2}
-  gameObjectToSave: {fileID: 672988716}
---- !u!114 &1327138274
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1327138252}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f29b6054d4e0304f8b32fb4625cff19, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  uniqueIdentifier: daylight
-  saveData: {fileID: 11400000, guid: d4fe277f5ebf1e5488c85d41a691249b, type: 2}
-  gameObjectToSave: {fileID: 1224923705}
 --- !u!114 &1327138275
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57503,34 +57471,6 @@ MonoBehaviour:
   uniqueIdentifier: obtaincookclaminteractable
   saveData: {fileID: 11400000, guid: d4fe277f5ebf1e5488c85d41a691249b, type: 2}
   gameObjectToSave: {fileID: 1793748932}
---- !u!114 &1327138290
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1327138252}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f29b6054d4e0304f8b32fb4625cff19, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  uniqueIdentifier: particle effects day
-  saveData: {fileID: 11400000, guid: d4fe277f5ebf1e5488c85d41a691249b, type: 2}
-  gameObjectToSave: {fileID: 498403073}
---- !u!114 &1327138291
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1327138252}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f29b6054d4e0304f8b32fb4625cff19, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  uniqueIdentifier: particleeffectsnight
-  saveData: {fileID: 11400000, guid: d4fe277f5ebf1e5488c85d41a691249b, type: 2}
-  gameObjectToSave: {fileID: 998220748}
 --- !u!114 &1327138292
 MonoBehaviour:
   m_ObjectHideFlags: 0

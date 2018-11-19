@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f67bd8ec6e33af4987562f6141a3bf2, type: 3}
   m_Name: String
   m_EditorClassIdentifier: 
-  sprite: {fileID: 21300000, guid: ed38f0ec180dbe84191c8e7a273778f7, type: 3}
+  sprite: {fileID: 21300000, guid: 7cef5970808c8b145b23a1cedfb21cd6, type: 3}
   itemName: String
   pickUpCondition: {fileID: 114419866438435280, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}

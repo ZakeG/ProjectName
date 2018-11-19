@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f67bd8ec6e33af4987562f6141a3bf2, type: 3}
   m_Name: Full Moon
   m_EditorClassIdentifier: 
-  sprite: {fileID: 21300000, guid: afcbf8d199b1a3b4081bb3960e2f4328, type: 3}
+  sprite: {fileID: 21300000, guid: 473c7d59e12906147ad32f355978a164, type: 3}
   itemName: full moon
   pickUpCondition: {fileID: 114021465253168762, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}

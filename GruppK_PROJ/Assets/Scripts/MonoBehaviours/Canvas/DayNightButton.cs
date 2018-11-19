@@ -1,11 +1,14 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
 
 public class DayNightButton : MonoBehaviour {
 
     public Condition currentState;
     public SceneController scene;
+    public event Action OnGameObjectReaction;
 
     private List<GameObject> DayObjectsFromScene = new List<GameObject>();
     private List<GameObject> NightObjectsFromScene = new List<GameObject>();

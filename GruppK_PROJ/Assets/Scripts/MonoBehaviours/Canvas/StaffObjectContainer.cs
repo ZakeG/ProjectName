@@ -14,5 +14,4 @@ public class StaffObjectContainer : MonoBehaviour {
     {
         return NightObjects;
     }
-
 }

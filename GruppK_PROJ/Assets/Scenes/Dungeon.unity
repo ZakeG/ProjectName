@@ -39398,7 +39398,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec43236ba6522584894ac80bfbcb3815, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  condition: {fileID: 0}
+  condition: {fileID: 114761333550728362, guid: fd02464d008c790478d9826aba7c7847,
+    type: 2}
   satisfied: 0
 --- !u!1001 &1190363500
 Prefab:

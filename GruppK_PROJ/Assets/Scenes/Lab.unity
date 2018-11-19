@@ -28286,7 +28286,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 
+  message: end game
   textColor: {r: 1, g: 1, b: 1, a: 1}
   order: 0
 --- !u!1 &860160878
@@ -36692,7 +36692,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'WIZARD: peebee sucks
+  message: 'WIZARD: Oh yay! you''ve done it !
 
 '
   textColor: {r: 1, g: 1, b: 1, a: 1}

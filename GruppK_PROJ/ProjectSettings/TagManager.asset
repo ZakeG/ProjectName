@@ -6,6 +6,7 @@ TagManager:
   tags:
   - LightsList
   - QuestText0
+  - RemovedByReaction
   layers:
   - Default
   - TransparentFX

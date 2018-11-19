@@ -82,7 +82,6 @@ public class SaveData : ResettableScriptableObject
         Save(boolKeyValuePairLists, key, value);
     }
 
-
     public void Save (string key, int value)
     {
         Save(intKeyValuePairLists, key, value);

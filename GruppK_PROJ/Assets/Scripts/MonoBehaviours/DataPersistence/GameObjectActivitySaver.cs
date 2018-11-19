@@ -14,6 +14,7 @@ public class GameObjectActivitySaver : Saver
     protected override void Save()
     {
         saveData.Save(key, gameObjectToSave.activeSelf);
+        saveData.Save(key, gameObjectToSave.tag);
     }
 
 
@@ -22,6 +23,15 @@ public class GameObjectActivitySaver : Saver
         bool activeState = false;
 
         if (saveData.Load(key, ref activeState))
-            gameObjectToSave.SetActive (activeState);
+        {
+            gameObjectToSave.SetActive(activeState);
+        }
+
+        string objectTag = "";
+        if (saveData.Load(key, ref objectTag))
+        {
+            gameObjectToSave.tag = objectTag;
+        }
+
     }
 }

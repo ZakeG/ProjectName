@@ -27,19 +27,16 @@ public class ItemCombinationHandler : MonoBehaviour {
     {
         foreach (ItemCombination ic in combinations)
         {
-            Debug.Log("Checking combinaton list: " + ic);
             combos = ic.GetList();
             allSelectedItemsInCombo = true;
             foreach (Item i in combos)
             {
                 if (selectedItems.Contains(i) && combos.Count == selectedItems.Count)
                 {
-                    Debug.Log("Still able to be combined");
                     allSelectedItemsInCombo = true; 
                 }
                 else
                 {
-                    Debug.Log("No longer viable for combine");
                     allSelectedItemsInCombo = false;
                     break;
                 }
@@ -47,14 +44,12 @@ public class ItemCombinationHandler : MonoBehaviour {
 
             if (allSelectedItemsInCombo)
             {
-                Debug.Log("Combining");
                 CombinationSucess(ic);
                 audioSource.PlayOneShot(done, 0.7F);
                 break;
             }
             else if(!allSelectedItemsInCombo)
             {
-                Debug.Log("Not Combining");
                 //              audioSource.PlayOneShot(fail, 0.7F);
             }
             

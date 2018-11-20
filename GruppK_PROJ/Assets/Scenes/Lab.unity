@@ -936,7 +936,7 @@ MonoBehaviour:
   order: 1
   gameObject: {fileID: 1258950818}
   activeState: 0
-  isAffectedByStaff: 0
+  isAffectedByStaff: 1
 --- !u!114 &56339645
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13917,7 +13917,7 @@ MonoBehaviour:
   order: 1
   gameObject: {fileID: 2133693296}
   activeState: 0
-  isAffectedByStaff: 0
+  isAffectedByStaff: 1
 --- !u!1 &407312184
 GameObject:
   m_ObjectHideFlags: 0
@@ -25584,7 +25584,7 @@ MonoBehaviour:
   order: 0
   gameObject: {fileID: 719481361}
   activeState: 0
-  isAffectedByStaff: 0
+  isAffectedByStaff: 1
 --- !u!1 &759331986
 GameObject:
   m_ObjectHideFlags: 0
@@ -32722,7 +32722,7 @@ MonoBehaviour:
   order: 0
   gameObject: {fileID: 923574000}
   activeState: 0
-  isAffectedByStaff: 0
+  isAffectedByStaff: 1
 --- !u!1001 &1037670817
 Prefab:
   m_ObjectHideFlags: 0
@@ -39890,7 +39890,7 @@ MonoBehaviour:
   order: 1
   gameObject: {fileID: 1009988496}
   activeState: 0
-  isAffectedByStaff: 0
+  isAffectedByStaff: 1
 --- !u!114 &1378899237
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61312,4 +61312,4 @@ MonoBehaviour:
   order: 1
   gameObject: {fileID: 1276637042}
   activeState: 0
-  isAffectedByStaff: 0
+  isAffectedByStaff: 1

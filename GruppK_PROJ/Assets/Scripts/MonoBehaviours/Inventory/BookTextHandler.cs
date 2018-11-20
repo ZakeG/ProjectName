@@ -9,6 +9,8 @@ public class BookTextHandler : MonoBehaviour {
     public string textBeingShownP1;
     public string textBeingShownP2;
     public int currentPageNr;
+    public GameObject newIcon;
+    public QuestBookButton bookButtonScript;
 
     private List<Page> pages;
     private Text page1;
@@ -18,7 +20,7 @@ public class BookTextHandler : MonoBehaviour {
     private string textToAdd;
     private int workingOnPage;
 
-    private const int maxCharacterCount = 600;
+    private const int maxCharacterCount = 500;
     private const int line = 43;
 
     public struct Page
@@ -49,7 +51,11 @@ public class BookTextHandler : MonoBehaviour {
 
     public void AddText(string newText)
     {
-        string textToInput = newText += "\n----";
+        if (!bookButtonScript.bookOpen)
+        {
+            newIcon.SetActive(true);
+        }
+        string textToInput = newText += "\n----\n";
         string testText1 = page1.text + textToInput;
         string testText2 = page2.text + textToInput;
         if (!(testText1.Length > maxCharacterCount)) {

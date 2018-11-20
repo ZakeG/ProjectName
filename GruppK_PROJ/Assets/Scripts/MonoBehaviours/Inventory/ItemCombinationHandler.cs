@@ -41,18 +41,16 @@ public class ItemCombinationHandler : MonoBehaviour {
                     break;
                 }
             }
-
             if (allSelectedItemsInCombo)
             {
                 CombinationSucess(ic);
                 audioSource.PlayOneShot(done, 0.7F);
                 break;
             }
-            else if(!allSelectedItemsInCombo)
-            {
-                //              audioSource.PlayOneShot(fail, 0.7F);
-            }
-            
+        }
+        if (!allSelectedItemsInCombo)
+        {
+            audioSource.PlayOneShot(fail, 0.7F);
         }
         DeselectAll();
     }

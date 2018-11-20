@@ -1,11 +1,12 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ScriptableObjects\Interaction\Reactions\ImmediateReactions\QuestLogReaction.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\MonoBehaviours\Inventory\BookTextHandler.cs">
     <Files>
       <File FileName="Assets\Scripts\ScriptableObjects\Interaction\Abstracts\DelayedReaction.cs" Line="1" Column="1" />
       <File FileName="Assets\Sound\Scripts\IntervalsWind.cs" Line="1" Column="1" />
       <File FileName="Assets\Sound\Scripts\PlaySoundsIntervalls.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\ScriptableObjects\Interaction\Reactions\ImmediateReactions\QuestLogReaction.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\MonoBehaviours\Inventory\BookTextHandler.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

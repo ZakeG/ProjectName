@@ -2284,7 +2284,7 @@ Prefab:
         type: 2}
       propertyPath: fail
       value: 
-      objectReference: {fileID: 8300000, guid: 28ec547b7e7eda541b41c443c380a555, type: 3}
+      objectReference: {fileID: 8300000, guid: c48c3f3d71752f449a765956142f23c8, type: 3}
     - target: {fileID: 114668889576556892, guid: 4e8df035f829e804d8a25261ea8b2bcb,
         type: 2}
       propertyPath: audioSource

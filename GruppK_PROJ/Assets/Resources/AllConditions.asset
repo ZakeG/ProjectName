@@ -30,11 +30,9 @@ MonoBehaviour:
   - {fileID: 114089761296976444}
   - {fileID: 114932804364694962}
   - {fileID: 114197075916628298}
-  - {fileID: 114876773733038208}
   - {fileID: 114250745950778472}
   - {fileID: 114166715466194848}
   - {fileID: 114504088093943498}
-  - {fileID: 114188702843383964}
   - {fileID: 114837129450889992}
   - {fileID: 114159093089903314}
   - {fileID: 114842528549307944}
@@ -49,14 +47,12 @@ MonoBehaviour:
   - {fileID: 114079855327260508}
   - {fileID: 114893403863706380}
   - {fileID: 114422671205819766}
-  - {fileID: 114339336138375714}
   - {fileID: 114425427377283694}
   - {fileID: 114747450403530148}
   - {fileID: 114000264106966828}
   - {fileID: 114881335897606838}
   - {fileID: 114114992687082830}
   - {fileID: 114476403303460260}
-  - {fileID: 114287361194795924}
   - {fileID: 114488669246345718}
   - {fileID: 114710624494531832}
   - {fileID: 114855809103556806}
@@ -113,6 +109,9 @@ MonoBehaviour:
   - {fileID: 114832383211045862}
   - {fileID: 114183979602942890}
   - {fileID: 114889928719950154}
+  - {fileID: 114488299505747108}
+  - {fileID: 114760183064950580}
+  - {fileID: 114651070753806800}
 --- !u!114 &114000264106966828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -407,20 +406,6 @@ MonoBehaviour:
   description: GhostQuestCompleted
   satisfied: 0
   hash: -1996410440
---- !u!114 &114188702843383964
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
-  m_Name: HasCoin
-  m_EditorClassIdentifier: 
-  description: HasCoin
-  satisfied: 0
-  hash: 1129137663
 --- !u!114 &114197075916628298
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -433,7 +418,7 @@ MonoBehaviour:
   m_Name: DAY
   m_EditorClassIdentifier: 
   description: DAY
-  satisfied: 0
+  satisfied: 1
   hash: 1929866010
 --- !u!114 &114203895195064576
 MonoBehaviour:
@@ -447,7 +432,7 @@ MonoBehaviour:
   m_Name: CompletedGlobe
   m_EditorClassIdentifier: 
   description: CompletedGlobe
-  satisfied: 0
+  satisfied: 1
   hash: -2141530385
 --- !u!114 &114207286644705896
 MonoBehaviour:
@@ -477,20 +462,6 @@ MonoBehaviour:
   description: KettlePickedUp
   satisfied: 0
   hash: -2028266815
---- !u!114 &114287361194795924
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
-  m_Name: HasGumball
-  m_EditorClassIdentifier: 
-  description: HasGumball
-  satisfied: 0
-  hash: -373825656
 --- !u!114 &114287622756252222
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -531,7 +502,7 @@ MonoBehaviour:
   m_Name: AmbrosiaTeaQuestStart
   m_EditorClassIdentifier: 
   description: AmbrosiaTeaQuestStart
-  satisfied: 0
+  satisfied: 1
   hash: 1331757938
 --- !u!114 &114303500727802912
 MonoBehaviour:
@@ -603,20 +574,6 @@ MonoBehaviour:
   description: SunVialFilled
   satisfied: 0
   hash: 1051307442
---- !u!114 &114339336138375714
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
-  m_Name: HasLockPick
-  m_EditorClassIdentifier: 
-  description: HasLockPick
-  satisfied: 0
-  hash: -1947044185
 --- !u!114 &114355927410736430
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -827,6 +784,20 @@ MonoBehaviour:
   description: ChestPickedUp
   satisfied: 0
   hash: 1337608849
+--- !u!114 &114488299505747108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: DoorQuestRecieved
+  m_EditorClassIdentifier: 
+  description: DoorQuestRecieved
+  satisfied: 0
+  hash: 1860497604
 --- !u!114 &114488669246345718
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -967,6 +938,20 @@ MonoBehaviour:
   description: HasMask
   satisfied: 0
   hash: 1766527378
+--- !u!114 &114651070753806800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: CompletedWizardPotion
+  m_EditorClassIdentifier: 
+  description: CompletedWizardPotion
+  satisfied: 0
+  hash: 1124328648
 --- !u!114 &114665313107315034
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1035,7 +1020,7 @@ MonoBehaviour:
   m_Name: BasementDoorQuestStart
   m_EditorClassIdentifier: 
   description: BasementDoorQuestStart
-  satisfied: 0
+  satisfied: 1
   hash: -1354798160
 --- !u!114 &114710624494531832
 MonoBehaviour:
@@ -1077,7 +1062,7 @@ MonoBehaviour:
   m_Name: PlantDried
   m_EditorClassIdentifier: 
   description: PlantDried
-  satisfied: 0
+  satisfied: 1
   hash: -828106666
 --- !u!114 &114747450403530148
 MonoBehaviour:
@@ -1121,6 +1106,20 @@ MonoBehaviour:
   description: AustraliaPickedUp
   satisfied: 0
   hash: -120809668
+--- !u!114 &114760183064950580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: CAMERAOPTIONS
+  m_EditorClassIdentifier: 
+  description: CAMERAOPTIONS
+  satisfied: 0
+  hash: 171288596
 --- !u!114 &114761333550728362
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1175,7 +1174,7 @@ MonoBehaviour:
   m_Name: PhoenixFeatherAquired
   m_EditorClassIdentifier: 
   description: PhoenixFeatherAquired
-  satisfied: 0
+  satisfied: 1
   hash: 1173753866
 --- !u!114 &114780071348206456
 MonoBehaviour:
@@ -1203,7 +1202,7 @@ MonoBehaviour:
   m_Name: KeyAquired
   m_EditorClassIdentifier: 
   description: KeyAquired
-  satisfied: 0
+  satisfied: 1
   hash: 1879386995
 --- !u!114 &114832383211045862
 MonoBehaviour:
@@ -1217,7 +1216,7 @@ MonoBehaviour:
   m_Name: HastrapDoorKey
   m_EditorClassIdentifier: 
   description: HastrapDoorKey
-  satisfied: 0
+  satisfied: 1
   hash: -1496588215
 --- !u!114 &114837129450889992
 MonoBehaviour:
@@ -1287,7 +1286,7 @@ MonoBehaviour:
   m_Name: LIGHTSTAFF
   m_EditorClassIdentifier: 
   description: LIGHTSTAFF
-  satisfied: 0
+  satisfied: 1
   hash: -1517926864
 --- !u!114 &114873655392268402
 MonoBehaviour:
@@ -1317,20 +1316,6 @@ MonoBehaviour:
   description: MortarAndPestlePickedUp
   satisfied: 0
   hash: 1334889012
---- !u!114 &114876773733038208
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
-  m_Name: BoneAquired
-  m_EditorClassIdentifier: 
-  description: BoneAquired
-  satisfied: 0
-  hash: -1713681452
 --- !u!114 &114881335897606838
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1357,7 +1342,7 @@ MonoBehaviour:
   m_Name: TrapDoorKeyPickedUp
   m_EditorClassIdentifier: 
   description: TrapDoorKeyPickedUp
-  satisfied: 0
+  satisfied: 1
   hash: -1873957032
 --- !u!114 &114887618442997130
 MonoBehaviour:
@@ -1525,5 +1510,5 @@ MonoBehaviour:
   m_Name: StaffCompleted
   m_EditorClassIdentifier: 
   description: StaffCompleted
-  satisfied: 0
+  satisfied: 1
   hash: 2045985755

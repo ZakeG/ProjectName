@@ -13,5 +13,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: 491f6e9d4f118854f8b3b4fabd023219, type: 3}
   itemName: WizardsPotion
-  pickUpCondition: {fileID: 114496774497453180, guid: fd02464d008c790478d9826aba7c7847,
+  pickUpCondition: {fileID: 114651070753806800, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}

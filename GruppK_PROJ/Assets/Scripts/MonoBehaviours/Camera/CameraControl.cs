@@ -7,6 +7,8 @@ public class CameraControl : MonoBehaviour
     public float smoothing = 7f;
     public Vector3 offset = new Vector3 (0f, 1.5f, 0f); 
     public Transform playerPosition;
+    public Condition CameraOptionCondition;
+    private bool OptionsDisabled;
     private Camera mainCamera;
     private float fov;
     private const int maxFov = 60;
@@ -21,6 +23,14 @@ public class CameraControl : MonoBehaviour
     private IEnumerator Start ()
     {
         mainCamera = gameObject.GetComponentInChildren<Camera>();
+        OptionsDisabled = false;
+        Debug.Log("Getcomponent ContrastEnhance needs to be added");
+        //if (CameraOptionCondition.satisfied == false)
+        //{
+        //    mainCamera.GetComponent(ContrastEnhance).SetActive(false);
+            OptionsDisabled = true;
+        //}
+
         fov = mainCamera.fieldOfView;
         if (!moveCamera)
             yield break;
@@ -43,23 +53,26 @@ public class CameraControl : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetAxis("Mouse ScrollWheel") > 0f)
+        if (!OptionsDisabled)
         {
-            ZoomIn();
-        }
-        else if (Input.GetAxis("Mouse ScrollWheel") < 0f)
-        {
-            ZoomOut();
-        }
-        if (fov < maxFov)
-        {
-            if (!rotating)
+            if (Input.GetAxis("Mouse ScrollWheel") > 0f)
             {
-                rotating = true;
+                ZoomIn();
             }
-            yaw += speedH * Input.GetAxis("Mouse X");
-            pitch -= speedV * Input.GetAxis("Mouse Y");
-            mainCamera.transform.eulerAngles = new Vector3(pitch, yaw, 0.0f);
+            else if (Input.GetAxis("Mouse ScrollWheel") < 0f)
+            {
+                ZoomOut();
+            }
+            if (fov < maxFov)
+            {
+                if (!rotating)
+                {
+                    rotating = true;
+                }
+                yaw += speedH * Input.GetAxis("Mouse X");
+                pitch -= speedV * Input.GetAxis("Mouse Y");
+                mainCamera.transform.eulerAngles = new Vector3(pitch, yaw, 0.0f);
+            }
         }
     }
 

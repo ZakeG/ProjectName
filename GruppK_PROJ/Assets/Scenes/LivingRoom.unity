@@ -113,6 +113,34 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 23800000, guid: 6ec7b35301654cd468e4d1a58a074919, type: 2}
+--- !u!114 &6737369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec43236ba6522584894ac80bfbcb3815, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  condition: {fileID: 114164629124617336, guid: fd02464d008c790478d9826aba7c7847,
+    type: 2}
+  satisfied: 0
+--- !u!114 &7204834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 1
+  gameObject: {fileID: 1602942897}
+  activeState: 0
 --- !u!1001 &9016589
 Prefab:
   m_ObjectHideFlags: 0
@@ -764,6 +792,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 31362624}
+--- !u!114 &31990796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 1
+  gameObject: {fileID: 703181009}
+  activeState: 0
 --- !u!1001 &33302173
 Prefab:
   m_ObjectHideFlags: 0
@@ -855,6 +897,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 33302173}
+--- !u!114 &36923598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: BasementDoorQuestStart
+  satisfied: 1
+  hash: -1354798160
 --- !u!1 &36978068
 GameObject:
   m_ObjectHideFlags: 0
@@ -896,7 +952,7 @@ AudioSource:
     type: 2}
   m_audioClip: {fileID: 8300000, guid: 6b296759b8bb1424cbee8b1a07592011, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.5
+  m_Volume: 0.3
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -1181,8 +1237,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: Hey! that's mine.
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: 'PAINTING: What are you looking at?'
+  textColor: {r: 1, g: 0.023584902, b: 0.023584902, a: 1}
   order: 0
 --- !u!1001 &40964318
 Prefab:
@@ -1601,6 +1657,10 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 7bfca5877767b774198788cf222102b8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7bfca5877767b774198788cf222102b8, type: 3}
   m_IsPrefabAsset: 0
@@ -1614,8 +1674,12 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 2107261174}
+    m_TransformParent: {fileID: 63273086}
     m_Modifications:
+    - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
+      propertyPath: reactions.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 11484708, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: conditionCollections.Array.size
       value: 1
@@ -1650,7 +1714,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_RootOrder
-      value: 8
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 194222, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_Name
@@ -1724,6 +1788,10 @@ Prefab:
       propertyPath: conditionCollections.Array.data[0]
       value: 
       objectReference: {fileID: 2091061314}
+    - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
+      propertyPath: reactions.Array.data[0]
+      value: 
+      objectReference: {fileID: 974952589}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
   m_IsPrefabAsset: 0
@@ -1861,6 +1929,38 @@ MonoBehaviour:
   sceneName: Lab
   startingPointInLoadedScene: LabStartPoint
   playerSaveData: {fileID: 11400000, guid: 55d72825bf06cf44e9cbc1b37812cc6f, type: 2}
+--- !u!1 &63273085
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 63273086}
+  m_Layer: 0
+  m_Name: GoldenAppleQuest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &63273086
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 63273085}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 53491493}
+  - {fileID: 703181008}
+  - {fileID: 537916996}
+  - {fileID: 1327794669}
+  m_Father: {fileID: 2107261174}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &71939795
 Prefab:
   m_ObjectHideFlags: 0
@@ -1963,8 +2063,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: I'm sorry but I need that pearl more than you
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!4 &77909232 stripped
 Transform:
@@ -2046,6 +2146,9 @@ Transform:
   - {fileID: 1934956131}
   - {fileID: 1973986183}
   - {fileID: 100154389}
+  - {fileID: 1988550706}
+  - {fileID: 434982926}
+  - {fileID: 1799537463}
   m_Father: {fileID: 767341644}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2172,8 +2275,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: 'Apprentice: This pieces looks familiar I should bring it with me'
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!1001 &100154388
 Prefab:
@@ -2212,7 +2315,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9ef3b22d2456bb34c9600e4e474b6d74, type: 3}
       propertyPath: m_RootOrder
-      value: 48
+      value: 33
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9ef3b22d2456bb34c9600e4e474b6d74, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -2446,8 +2549,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: 'Apprentice: Dragon...fire...it wouldn''t be so easy to just throw the
+    dragon bone into the fire right? ..'
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!1001 &117823967
 Prefab:
@@ -2740,7 +2844,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 9d268aaeab372f24799654a550932a03, type: 3}
       propertyPath: m_RootOrder
-      value: 40
+      value: 31
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 9d268aaeab372f24799654a550932a03, type: 3}
       propertyPath: m_LocalScale.x
@@ -8237,6 +8341,19 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 159808390}
+--- !u!114 &160840791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: "\nPiece 1. the piece you're looking for is in the down under\nPiece 2.
+    Go to the sa fari \nPiece 3. South america okay mah dude\n"
 --- !u!114 &163341951
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8248,9 +8365,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  description: HasTorch
+  description: TorchPickedUp
   satisfied: 1
-  hash: -885531295
+  hash: 415359577
 --- !u!1001 &163545670
 Prefab:
   m_ObjectHideFlags: 0
@@ -8357,8 +8474,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: 'Apprentice: One of the bowls on the scale is loose..i could maybe find
+    another use for it..'
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!1 &167703998
 GameObject:
@@ -8405,6 +8523,64 @@ MonoBehaviour:
   - {fileID: 590569045}
   - {fileID: 1570636637}
   - {fileID: 526699701}
+--- !u!1001 &167726212
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1154203264}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 4d8c95139edc9374fa92348b03a4f5e1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0005
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4d8c95139edc9374fa92348b03a4f5e1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0862
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4d8c95139edc9374fa92348b03a4f5e1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0018
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4d8c95139edc9374fa92348b03a4f5e1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4d8c95139edc9374fa92348b03a4f5e1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4d8c95139edc9374fa92348b03a4f5e1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4d8c95139edc9374fa92348b03a4f5e1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4d8c95139edc9374fa92348b03a4f5e1, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4d8c95139edc9374fa92348b03a4f5e1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.6976923
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4d8c95139edc9374fa92348b03a4f5e1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.606125
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4d8c95139edc9374fa92348b03a4f5e1, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 7.2092643
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 4d8c95139edc9374fa92348b03a4f5e1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2bb841675f34c6a4aa53d4d766e4e4bd, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4d8c95139edc9374fa92348b03a4f5e1, type: 3}
+  m_IsPrefabAsset: 0
 --- !u!1 &168328533
 GameObject:
   m_ObjectHideFlags: 0
@@ -8456,10 +8632,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'There''s something shining in one of the drawers..
+  message: 'Apprentice: There''s something shining in one of the drawers..
 
 '
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!1001 &172309398
 Prefab:
@@ -8589,7 +8765,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: 8fbf0c59a35b7734f8f32bd5ccebfab9, type: 3}
       propertyPath: m_RootOrder
-      value: 22
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: 8fbf0c59a35b7734f8f32bd5ccebfab9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -8959,9 +9135,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  description: HasSouthAmerica
+  description: AustraliaPickedUp
   satisfied: 1
-  hash: 120859751
+  hash: -120809668
 --- !u!1 &189151171
 GameObject:
   m_ObjectHideFlags: 0
@@ -9002,6 +9178,108 @@ Halo:
     serializedVersion: 2
     rgba: 4278214090
   m_Size: 0.05
+--- !u!1001 &189411869
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1154203264}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 67a38cc2f263ca14a8a6ad04e50fdb86, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.022837484
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 67a38cc2f263ca14a8a6ad04e50fdb86, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.084499985
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 67a38cc2f263ca14a8a6ad04e50fdb86, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0062377015
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 67a38cc2f263ca14a8a6ad04e50fdb86, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.24582565
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 67a38cc2f263ca14a8a6ad04e50fdb86, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.89023453
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 67a38cc2f263ca14a8a6ad04e50fdb86, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.04633552
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 67a38cc2f263ca14a8a6ad04e50fdb86, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.38066426
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 67a38cc2f263ca14a8a6ad04e50fdb86, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300004, guid: 67a38cc2f263ca14a8a6ad04e50fdb86, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c944c2b22e025fa4ba9a087d9d1af184, type: 2}
+    - target: {fileID: 2300000, guid: 67a38cc2f263ca14a8a6ad04e50fdb86, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2c8375e7f7ec78f47a9bffdb4596e7d2, type: 2}
+    - target: {fileID: 2300002, guid: 67a38cc2f263ca14a8a6ad04e50fdb86, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2c8375e7f7ec78f47a9bffdb4596e7d2, type: 2}
+    - target: {fileID: 400000, guid: 67a38cc2f263ca14a8a6ad04e50fdb86, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -139.23401
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 67a38cc2f263ca14a8a6ad04e50fdb86, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 67a38cc2f263ca14a8a6ad04e50fdb86, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 67a38cc2f263ca14a8a6ad04e50fdb86, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: 67a38cc2f263ca14a8a6ad04e50fdb86, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 67a38cc2f263ca14a8a6ad04e50fdb86, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 67a38cc2f263ca14a8a6ad04e50fdb86, type: 3}
+      propertyPath: m_Name
+      value: clam_open (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 67a38cc2f263ca14a8a6ad04e50fdb86, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -15.644001
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 67a38cc2f263ca14a8a6ad04e50fdb86, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 24.701002
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 67a38cc2f263ca14a8a6ad04e50fdb86, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8300003
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 67a38cc2f263ca14a8a6ad04e50fdb86, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 67a38cc2f263ca14a8a6ad04e50fdb86, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8300003
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 67a38cc2f263ca14a8a6ad04e50fdb86, type: 3}
+  m_IsPrefabAsset: 0
 --- !u!1001 &194048030
 Prefab:
   m_ObjectHideFlags: 0
@@ -9673,22 +9951,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: There's a beautiful glowing blue crystal inside this clam
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: 'Apprentice: There''s a beautiful glowing blue crystal inside this clam'
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
---- !u!114 &223840891
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b804958e1981f9544989d65e32719692, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  order: 1
-  item: {fileID: 11400000, guid: bb9f22de68be6c24e95eed82bbc0d39a, type: 2}
 --- !u!1 &225467293
 GameObject:
   m_ObjectHideFlags: 0
@@ -9734,7 +9999,8 @@ MonoBehaviour:
   - {fileID: 515664116}
   - {fileID: 287270393}
   - {fileID: 1972685900}
-  - {fileID: 1477403882}
+  - {fileID: 438212328}
+  - {fileID: 31990796}
 --- !u!1001 &237082324
 Prefab:
   m_ObjectHideFlags: 0
@@ -9917,16 +10183,29 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 243891542}
+--- !u!114 &244165592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b804958e1981f9544989d65e32719692, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 1
+  item: {fileID: 11400000, guid: bb9f22de68be6c24e95eed82bbc0d39a, type: 2}
 --- !u!1001 &246012066
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 2107261174}
+    m_TransformParent: {fileID: 1734063289}
     m_Modifications:
     - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: reactions.Array.size
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11484708, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: conditionCollections.Array.size
@@ -9938,7 +10217,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -0.0212
+      value: -0.021200001
       objectReference: {fileID: 0}
     - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalPosition.z
@@ -9962,7 +10241,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_RootOrder
-      value: 13
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 194222, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_Name
@@ -10163,7 +10442,7 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 2107261174}
+    m_TransformParent: {fileID: 1734063289}
     m_Modifications:
     - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: reactions.Array.size
@@ -10203,7 +10482,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_RootOrder
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 194222, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_Name
@@ -10505,8 +10784,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: A stocking hanger is hanging from the mantle of the fireplace
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: 'Apprentice: A stocking hanger is hanging from the mantle of the fireplace'
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!1001 &279486589
 Prefab:
@@ -11825,7 +12104,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec43236ba6522584894ac80bfbcb3815, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  condition: {fileID: 114832383211045862, guid: fd02464d008c790478d9826aba7c7847,
+  condition: {fileID: 114883678307390558, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}
   satisfied: 1
 --- !u!1001 &338137994
@@ -12154,7 +12433,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0ccf8089ec27b9a49b4f3a9c1e4bcf94, type: 3}
       propertyPath: m_RootOrder
-      value: 37
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 0ccf8089ec27b9a49b4f3a9c1e4bcf94, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -12345,11 +12624,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'This looks familiar..
+  message: 'Apprentice: This looks familiar..
 
 
 '
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!1001 &367946760
 Prefab:
@@ -12570,7 +12849,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: ef5ab33b2369ea34bbf37d4fa7bd17d9, type: 3}
       propertyPath: m_RootOrder
-      value: 38
+      value: 29
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: ef5ab33b2369ea34bbf37d4fa7bd17d9, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -12898,20 +13177,6 @@ MonoBehaviour:
   order: 1
   gameObject: {fileID: 247544374}
   activeState: 0
---- !u!114 &385397251
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  order: 1
-  gameObject: {fileID: 1602942897}
-  activeState: 0
 --- !u!1001 &393858134
 Prefab:
   m_ObjectHideFlags: 0
@@ -13173,6 +13438,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 396431397}
+--- !u!114 &403753325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec43236ba6522584894ac80bfbcb3815, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  condition: {fileID: 114488299505747108, guid: fd02464d008c790478d9826aba7c7847,
+    type: 2}
+  satisfied: 1
 --- !u!1001 &405112303
 Prefab:
   m_ObjectHideFlags: 0
@@ -18894,74 +19173,78 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   reactions:
-  - {fileID: 1531761379}
-  - {fileID: 1794738581}
-  - {fileID: 969034756}
-  - {fileID: 1664565864}
-  - {fileID: 223840891}
-  - {fileID: 385397251}
---- !u!1001 &435112434
+  - {fileID: 1674999142}
+  - {fileID: 6737369}
+  - {fileID: 2017514863}
+  - {fileID: 244165592}
+  - {fileID: 7204834}
+--- !u!1001 &434982925
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 81985405}
     m_Modifications:
-    - target: {fileID: 472252, guid: 0036c73aed31ec14fbbf45853c79fc14, type: 2}
+    - target: {fileID: 400000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -1.5220001
       objectReference: {fileID: 0}
-    - target: {fileID: 472252, guid: 0036c73aed31ec14fbbf45853c79fc14, type: 2}
+    - target: {fileID: 400000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.185
       objectReference: {fileID: 0}
-    - target: {fileID: 472252, guid: 0036c73aed31ec14fbbf45853c79fc14, type: 2}
+    - target: {fileID: 400000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0.22000003
       objectReference: {fileID: 0}
-    - target: {fileID: 472252, guid: 0036c73aed31ec14fbbf45853c79fc14, type: 2}
+    - target: {fileID: 400000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 472252, guid: 0036c73aed31ec14fbbf45853c79fc14, type: 2}
+    - target: {fileID: 400000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0.7071068
       objectReference: {fileID: 0}
-    - target: {fileID: 472252, guid: 0036c73aed31ec14fbbf45853c79fc14, type: 2}
+    - target: {fileID: 400000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 472252, guid: 0036c73aed31ec14fbbf45853c79fc14, type: 2}
+    - target: {fileID: 400000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.7071068
       objectReference: {fileID: 0}
-    - target: {fileID: 472252, guid: 0036c73aed31ec14fbbf45853c79fc14, type: 2}
+    - target: {fileID: 400000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 35
       objectReference: {fileID: 0}
-    - target: {fileID: 8260042, guid: 0036c73aed31ec14fbbf45853c79fc14, type: 2}
-      propertyPath: m_audioClip
-      value: 
+    - target: {fileID: 400000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
       objectReference: {fileID: 0}
-    - target: {fileID: 8260042, guid: 0036c73aed31ec14fbbf45853c79fc14, type: 2}
-      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
-      value: 1
+    - target: {fileID: 400000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.68693024
       objectReference: {fileID: 0}
-    - target: {fileID: 8299186, guid: 0036c73aed31ec14fbbf45853c79fc14, type: 2}
-      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
-      value: 1
+    - target: {fileID: 400000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.68693
       objectReference: {fileID: 0}
-    - target: {fileID: 8277418, guid: 0036c73aed31ec14fbbf45853c79fc14, type: 2}
-      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
-      value: 1
+    - target: {fileID: 400000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.68693024
       objectReference: {fileID: 0}
-    - target: {fileID: 106300, guid: 0036c73aed31ec14fbbf45853c79fc14, type: 2}
+    - target: {fileID: 100000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d, type: 3}
       propertyPath: m_Name
-      value: Ambient(Day)
+      value: LibraryLadder (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 0036c73aed31ec14fbbf45853c79fc14, type: 2}
+  m_SourcePrefab: {fileID: 100100000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d, type: 3}
   m_IsPrefabAsset: 0
+--- !u!4 &434982926 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d,
+    type: 3}
+  m_PrefabInternal: {fileID: 434982925}
 --- !u!1001 &435551702
 Prefab:
   m_ObjectHideFlags: 0
@@ -19064,8 +19347,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: 'Apprentice: Where have I seen This before ?'
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!1001 &437420644
 Prefab:
@@ -19158,11 +19441,41 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 437420644}
---- !u!4 &439779872 stripped
+--- !u!114 &438212328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec43236ba6522584894ac80bfbcb3815, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  condition: {fileID: 114747450403530148, guid: fd02464d008c790478d9826aba7c7847,
+    type: 2}
+  satisfied: 0
+--- !u!4 &439779872
 Transform:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 429794, guid: 0036c73aed31ec14fbbf45853c79fc14,
     type: 2}
-  m_PrefabInternal: {fileID: 435112434}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1021455163}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 199852028}
+  - {fileID: 1248476565}
+  - {fileID: 1907066497}
+  - {fileID: 797662191}
+  - {fileID: 36978069}
+  - {fileID: 982694579}
+  - {fileID: 1479776232}
+  m_Father: {fileID: 1334240548}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &441345329
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19359,6 +19672,52 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 446611545}
+--- !u!114 &447609860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: It wasn't here during the day though...
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
+  order: 0
+--- !u!1 &448620398
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 448620399}
+  m_Layer: 0
+  m_Name: BasementQuest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &448620399
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 448620398}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 889468386}
+  - {fileID: 1774339612}
+  - {fileID: 903344676}
+  - {fileID: 1127789321}
+  m_Father: {fileID: 2107261174}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &463048856
 Prefab:
   m_ObjectHideFlags: 0
@@ -19782,10 +20141,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'Here i can cook the clam
-
-'
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: "Apprentice: I could cook the clam over the fire... \n"
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!114 &477089450
 MonoBehaviour:
@@ -19798,8 +20155,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: A Key!
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: 'Apprentice: A Key!'
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!1 &478720021
 GameObject:
@@ -19904,7 +20261,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a2a29b740fd0c494e85790327f935fe3, type: 3}
       propertyPath: m_RootOrder
-      value: 28
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a2a29b740fd0c494e85790327f935fe3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -20026,6 +20383,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 488153777}
+--- !u!114 &495759391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: I really need that stone!
+  textColor: {r: 1, g: 1, b: 1, a: 1}
+  order: 0
 --- !u!1 &498403073
 GameObject:
   m_ObjectHideFlags: 0
@@ -20161,8 +20532,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: There's something hanging from the chandelier...
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: 'Apprentice: There''s something hanging from the chandelier...'
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!1001 &514937521
 Prefab:
@@ -20266,8 +20637,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: In the safe theres a skull and some gold teeth...
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: Oh...The safe contains a few gold teeth and a skull...
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!1001 &517402030
 Prefab:
@@ -20520,6 +20891,111 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 519164557}
+--- !u!1001 &519335387
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1734063289}
+    m_Modifications:
+    - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
+      propertyPath: reactions.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -2.119
+      objectReference: {fileID: 0}
+    - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -0.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0.198
+      objectReference: {fileID: 0}
+    - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 194222, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
+      propertyPath: m_Name
+      value: BookInteractable
+      objectReference: {fileID: 0}
+    - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.30863765
+      objectReference: {fileID: 0}
+    - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.20889139
+      objectReference: {fileID: 0}
+    - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 0.32208505
+      objectReference: {fileID: 0}
+    - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
+      propertyPath: reactions.Array.data[0]
+      value: 
+      objectReference: {fileID: 1781423841}
+    - target: {fileID: 11485606, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1932935907}
+    - target: {fileID: 11485606, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnInteractableClick
+      objectReference: {fileID: 0}
+    - target: {fileID: 11485606, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11485606, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: Interactable, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 11485606, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 519335389}
+    - target: {fileID: 491826, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 1.117
+      objectReference: {fileID: 0}
+    - target: {fileID: 491826, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -2.133
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
+  m_IsPrefabAsset: 0
+--- !u!4 &519335388 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4,
+    type: 2}
+  m_PrefabInternal: {fileID: 519335387}
+--- !u!114 &519335389 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 11484708, guid: d48734bd22479a14cb1a52b40aa09db4,
+    type: 2}
+  m_PrefabInternal: {fileID: 519335387}
+  m_Script: {fileID: 11500000, guid: d85941078afdf3244b2a1ae50fea256c, type: 3}
 --- !u!1001 &521563620
 Prefab:
   m_ObjectHideFlags: 0
@@ -20716,12 +21192,26 @@ MonoBehaviour:
   order: 1
   gameObject: {fileID: 1127789322}
   activeState: 0
+--- !u!114 &527135846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: '
+
+    Find the three missing pieces for the globe.'
 --- !u!1001 &537916995
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 2107261174}
+    m_TransformParent: {fileID: 63273086}
     m_Modifications:
     - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: reactions.Array.size
@@ -20761,7 +21251,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 194222, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_Name
@@ -20838,7 +21328,7 @@ Prefab:
     - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: reactions.Array.data[0]
       value: 
-      objectReference: {fileID: 1741697580}
+      objectReference: {fileID: 1540889134}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
   m_IsPrefabAsset: 0
@@ -21040,20 +21530,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 552112919}
---- !u!114 &558065369
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  order: 1
-  gameObject: {fileID: 1327794670}
-  activeState: 0
 --- !u!114 &558755056
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26216,9 +26692,9 @@ MonoBehaviour:
   - {fileID: 1832250519}
   - {fileID: 952199003}
   - {fileID: 2028850220}
-  - {fileID: 1022134594}
   - {fileID: 1471436573}
   - {fileID: 628288237}
+  - {fileID: 1584547127}
 --- !u!114 &580195673
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26238,8 +26714,12 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 2107261174}
+    m_TransformParent: {fileID: 848558034}
     m_Modifications:
+    - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
+      propertyPath: reactions.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 11484708, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: conditionCollections.Array.size
       value: 1
@@ -26352,6 +26832,10 @@ Prefab:
       propertyPath: conditionCollections.Array.data[1]
       value: 
       objectReference: {fileID: 1147977450}
+    - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
+      propertyPath: reactions.Array.data[0]
+      value: 
+      objectReference: {fileID: 1017771963}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
   m_IsPrefabAsset: 0
@@ -26371,20 +26855,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 194222, guid: d48734bd22479a14cb1a52b40aa09db4,
     type: 2}
   m_PrefabInternal: {fileID: 582259193}
---- !u!114 &583108448
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  message: 
-  textColor: {r: 1, g: 1, b: 1, a: 1}
-  order: 0
 --- !u!1001 &584424458
 Prefab:
   m_ObjectHideFlags: 0
@@ -26609,7 +27079,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message: Maybe I could hang something on it
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!114 &596886726
 MonoBehaviour:
@@ -26622,8 +27092,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: yay!
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 1
 --- !u!1001 &600039529
 Prefab:
@@ -26807,6 +27277,51 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 603581705}
+--- !u!1 &610761283
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 610761284}
+  - component: {fileID: 610761285}
+  m_Layer: 0
+  m_Name: GetQuestLogReaction
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &610761284
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 610761283}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 889468386}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &610761285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 610761283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fc7ecfe98531f2429694b8c81a6748a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  reactions:
+  - {fileID: 1910792201}
+  - {fileID: 527135846}
+  - {fileID: 2074178334}
+  - {fileID: 2143787451}
 --- !u!1001 &612743718
 Prefab:
   m_ObjectHideFlags: 0
@@ -26898,6 +27413,146 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 612743718}
+--- !u!1 &617870503
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 617870504}
+  - component: {fileID: 617870506}
+  - component: {fileID: 617870505}
+  m_Layer: 0
+  m_Name: Thunder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &617870504
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 617870503}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 3.347, z: 0.04}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2060869782}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &617870505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 617870503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e52ba40a76d2e9428241166e043916b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  creak: {fileID: 8300000, guid: ec021f9fbe7910542a0e423516d2f3e4, type: 3}
+  minDelay: 15
+  maxDelay: 25
+--- !u!82 &617870506
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 617870503}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 243744468002321294, guid: 52c80b9ea94f8eb4ba45dbf7ca6d2be8,
+    type: 2}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &620929391
 Prefab:
   m_ObjectHideFlags: 0
@@ -27000,8 +27655,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: Looks like I've got all the pieces that seems to be missing..
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: 'Apprentice: Looks like I''ve got all the pieces that were missing..'
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!1001 &625790876
 Prefab:
@@ -27106,8 +27761,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 1
-  gameObject: {fileID: 246012068}
-  activeState: 0
+  gameObject: {fileID: 1602942897}
+  activeState: 1
 --- !u!114 &629766765
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27415,7 +28070,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0ccf8089ec27b9a49b4f3a9c1e4bcf94, type: 3}
       propertyPath: m_RootOrder
-      value: 33
+      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 0ccf8089ec27b9a49b4f3a9c1e4bcf94, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -27475,14 +28130,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   reactions:
   - {fileID: 623515868}
-  - {fileID: 1724948085}
   - {fileID: 212175657}
   - {fileID: 252472366}
   - {fileID: 2049385424}
   - {fileID: 1174770499}
   - {fileID: 1531644986}
   - {fileID: 673951412}
-  - {fileID: 1894358757}
   - {fileID: 1915613127}
   - {fileID: 1173802175}
   - {fileID: 935191784}
@@ -27543,7 +28196,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec43236ba6522584894ac80bfbcb3815, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  condition: {fileID: 114686047944968942, guid: fd02464d008c790478d9826aba7c7847,
+  condition: {fileID: 114731942013876800, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}
   satisfied: 0
 --- !u!1001 &678290662
@@ -27728,20 +28381,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 683069546}
---- !u!114 &684322422
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec43236ba6522584894ac80bfbcb3815, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  condition: {fileID: 114334928261144884, guid: fd02464d008c790478d9826aba7c7847,
-    type: 2}
-  satisfied: 1
 --- !u!1 &686021488
 GameObject:
   m_ObjectHideFlags: 0
@@ -28061,11 +28700,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   reactions:
   - {fileID: 1705788884}
-  - {fileID: 1333614327}
-  - {fileID: 1741209564}
   - {fileID: 395486726}
   - {fileID: 1242065292}
   - {fileID: 1239169082}
+  - {fileID: 882415521}
+--- !u!114 &697518158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 1
+  gameObject: {fileID: 1561554626}
+  activeState: 0
 --- !u!1001 &700763593
 Prefab:
   m_ObjectHideFlags: 0
@@ -28167,11 +28819,11 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 2107261174}
+    m_TransformParent: {fileID: 63273086}
     m_Modifications:
     - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: reactions.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11484708, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: conditionCollections.Array.size
@@ -28183,7 +28835,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0.24
+      value: 0.24000001
       objectReference: {fileID: 0}
     - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalPosition.z
@@ -28207,7 +28859,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_RootOrder
-      value: 9
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 194222, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_Name
@@ -28488,7 +29140,10 @@ MonoBehaviour:
   - {fileID: 2045469543}
   - {fileID: 1208921627}
   - {fileID: 324170918}
-  - {fileID: 684322422}
+  - {fileID: 1884702000}
+  - {fileID: 1125328535}
+  - {fileID: 1770739600}
+  - {fileID: 1457065547}
 --- !u!1001 &706153407
 Prefab:
   m_ObjectHideFlags: 0
@@ -28580,6 +29235,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 706153407}
+--- !u!114 &724142245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
+  order: 1
 --- !u!1001 &726736610
 Prefab:
   m_ObjectHideFlags: 0
@@ -28762,6 +29431,131 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 727217728}
+--- !u!1 &730929573
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 730929574}
+  - component: {fileID: 730929575}
+  m_Layer: 0
+  m_Name: fire (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &730929574
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 730929573}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.04, y: 1.001, z: -1.45}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2060869782}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &730929575
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 730929573}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 243774653086697126, guid: 52c80b9ea94f8eb4ba45dbf7ca6d2be8,
+    type: 2}
+  m_audioClip: {fileID: 8300000, guid: 6b296759b8bb1424cbee8b1a07592011, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.2
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 0
+  DopplerLevel: 1
+  MinDistance: 0.4950495
+  MaxDistance: 50
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &741282562
 Prefab:
   m_ObjectHideFlags: 0
@@ -28969,8 +29763,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: It unlocked!
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: 'Apprentice: It unlocked!'
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!1 &767341643
 GameObject:
@@ -29039,20 +29833,131 @@ MonoBehaviour:
       m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
         Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   delegates: []
---- !u!114 &770290184
-MonoBehaviour:
+--- !u!1 &771292517
+GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 771292518}
+  - component: {fileID: 771292519}
+  m_Layer: 0
+  m_Name: Crickets
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &771292518
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 771292517}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 3.347, z: 0.04}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2060869782}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &771292519
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 771292517}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  description: GoldAppleQuestStart
-  satisfied: 1
-  hash: 1225229576
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 243774653086697126, guid: 52c80b9ea94f8eb4ba45dbf7ca6d2be8,
+    type: 2}
+  m_audioClip: {fileID: 8300000, guid: dc32216120932cf4ba93c0a10eab8cf6, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.2
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 100
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &772560511
 GameObject:
   m_ObjectHideFlags: 0
@@ -29473,8 +30378,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: A pot of ambrosia tea, whatever that is..
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: 'Apprentice: Strange it''s just water no tea.. '
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!114 &785570418
 MonoBehaviour:
@@ -29531,7 +30436,7 @@ AudioSource:
     type: 2}
   m_audioClip: {fileID: 8300000, guid: 6b296759b8bb1424cbee8b1a07592011, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.5
+  m_Volume: 0.3
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -30440,15 +31345,15 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 2107261174}
+    m_TransformParent: {fileID: 848558034}
     m_Modifications:
     - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: reactions.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11484708, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: conditionCollections.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalPosition.x
@@ -30456,7 +31361,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0.461
+      value: 0.46099997
       objectReference: {fileID: 0}
     - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalPosition.z
@@ -30480,7 +31385,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_RootOrder
-      value: 11
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 194222, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_Name
@@ -30500,7 +31405,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 491826, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 1.676
+      value: 2.24
       objectReference: {fileID: 0}
     - target: {fileID: 491826, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalPosition.z
@@ -30562,6 +31467,18 @@ Prefab:
       propertyPath: reactions.Array.data[1]
       value: 
       objectReference: {fileID: 1305412154}
+    - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
+      propertyPath: reactions.Array.data[2]
+      value: 
+      objectReference: {fileID: 495759391}
+    - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
+      propertyPath: reactions.Array.data[3]
+      value: 
+      objectReference: {fileID: 887465274}
+    - target: {fileID: 11484708, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
+      propertyPath: conditionCollections.Array.data[1]
+      value: 
+      objectReference: {fileID: 1365181418}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
   m_IsPrefabAsset: 0
@@ -30829,6 +31746,52 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &847844143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 1
+  gameObject: {fileID: 1327794670}
+  activeState: 0
+--- !u!1 &848558033
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 848558034}
+  m_Layer: 0
+  m_Name: DungeonDoorQuest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &848558034
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 848558033}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 582259194}
+  - {fileID: 1793748930}
+  - {fileID: 1339064259}
+  - {fileID: 833011969}
+  m_Father: {fileID: 2107261174}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &848896017
 Prefab:
   m_ObjectHideFlags: 0
@@ -35834,10 +36797,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'The clams are cooking
+  message: 'Apprentice: The clam is cooking
 
 '
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!1001 &872058494
 Prefab:
@@ -36091,6 +37054,36 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 881891841}
+--- !u!114 &882415521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 1
+  gameObject: {fileID: 1793748932}
+  activeState: 0
+--- !u!114 &887465274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: "Painting: I don't see how that is any concern of mine!\u201D\r\n3nd interaction
+    with painting: \u201CWell...What if I find you an even better, prettier gem, would
+    you be open to trade?\r\n"
+  textColor: {r: 1, g: 1, b: 1, a: 1}
+  order: 0
 --- !u!114 &888694592
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36103,14 +37096,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message: Strange..Some of the continents are hollowed out..
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!1001 &889468385
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 2107261174}
+    m_TransformParent: {fileID: 448620399}
     m_Modifications:
     - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: reactions.Array.size
@@ -36150,7 +37143,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_RootOrder
-      value: 14
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 194222, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_Name
@@ -36239,15 +37232,19 @@ Prefab:
     - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: reactions.Array.data[2]
       value: 
-      objectReference: {fileID: 1411404679}
+      objectReference: {fileID: 160840791}
     - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: reactions.Array.data[3]
       value: 
-      objectReference: {fileID: 1765080216}
+      objectReference: {fileID: 160840791}
     - target: {fileID: 11484708, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: conditionCollections.Array.data[1]
       value: 
-      objectReference: {fileID: 1818632465}
+      objectReference: {fileID: 947381516}
+    - target: {fileID: 11484708, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
+      propertyPath: conditionCollections.Array.data[2]
+      value: 
+      objectReference: {fileID: 947381516}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
   m_IsPrefabAsset: 0
@@ -36517,8 +37514,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: Maybe I could dry these plant over the fire..
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: 'Apprentice: Maybe I could dry these plant over the fire..'
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!1001 &902852244
 Prefab:
@@ -36959,6 +37956,35 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 915606071}
+--- !u!1 &916621660
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 916621661}
+  m_Layer: 0
+  m_Name: DragonFireQuest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &916621661
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 916621660}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1124805776}
+  m_Father: {fileID: 2107261174}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &917818573
 GameObject:
   m_ObjectHideFlags: 0
@@ -37356,6 +38382,22 @@ MonoBehaviour:
   order: 1
   gameObject: {fileID: 2014706676}
   activeState: 1
+--- !u!114 &947381516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4900350095ceff24fbe8c1ac5f1e17c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: New condition collection
+  requiredConditions:
+  - {fileID: 36923598}
+  - {fileID: 2027693129}
+  reactionCollection: {fileID: 610761285}
 --- !u!114 &949820884
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37381,7 +38423,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec43236ba6522584894ac80bfbcb3815, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  condition: {fileID: 114710624494531832, guid: fd02464d008c790478d9826aba7c7847,
+  condition: {fileID: 114697647035877994, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}
   satisfied: 0
 --- !u!1001 &953040654
@@ -37483,9 +38525,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 
-  textColor: {r: 1, g: 1, b: 1, a: 1}
-  order: 0
+  message: I guess it was....
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
+  order: 1
 --- !u!114 &962402216
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37511,9 +38553,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: Maybe I should find the missing pieces from the globe and put them back
-    in their place...
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: 'Apprentice: The Door is locked I should look for a key
+
+'
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!1001 &968680091
 Prefab:
@@ -37606,19 +38649,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 968680091}
---- !u!114 &969034756
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec43236ba6522584894ac80bfbcb3815, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  condition: {fileID: 0}
-  satisfied: 0
 --- !u!1001 &969610098
 Prefab:
   m_ObjectHideFlags: 0
@@ -37675,6 +38705,20 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: bdfbc18b203f4404290f4764dceb1819,
     type: 3}
   m_PrefabInternal: {fileID: 969610098}
+--- !u!114 &974952589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'Apprentice: It''s a scale..'
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
+  order: 0
 --- !u!114 &975534593
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37820,7 +38864,7 @@ AudioSource:
     type: 2}
   m_audioClip: {fileID: 8300000, guid: eb54a13f58d42ca46bd22a7b0bec8d07, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -38065,6 +39109,30 @@ Prefab:
     - target: {fileID: 400006, guid: b0842d06c3687764ca4d77859fc34f23, type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: b0842d06c3687764ca4d77859fc34f23, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: b0842d06c3687764ca4d77859fc34f23, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b0842d06c3687764ca4d77859fc34f23, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: b0842d06c3687764ca4d77859fc34f23, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: b0842d06c3687764ca4d77859fc34f23, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: b0842d06c3687764ca4d77859fc34f23, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0842d06c3687764ca4d77859fc34f23, type: 3}
@@ -39139,7 +40207,7 @@ MonoBehaviour:
   order: 1
   gameObject: {fileID: 1791923161}
   activeState: 1
---- !u!114 &1019605748
+--- !u!114 &1017771963
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -39147,12 +40215,152 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  description: AmbrosiaTeaPotAquired
-  satisfied: 1
-  hash: -1395955485
+  message: 'Apprentice: It''s a clam with a beautiful blue pearl..'
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
+  order: 0
+--- !u!1 &1019472388
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1019472389}
+  - component: {fileID: 1019472391}
+  - component: {fileID: 1019472390}
+  m_Layer: 0
+  m_Name: owls
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1019472389
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1019472388}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 3.347, z: 0.04}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2060869782}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1019472390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1019472388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e52ba40a76d2e9428241166e043916b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  creak: {fileID: 8300000, guid: 175e6b8227bc72646a04234ee7325faa, type: 3}
+  minDelay: 25
+  maxDelay: 50
+--- !u!82 &1019472391
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1019472388}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 243744468002321294, guid: 52c80b9ea94f8eb4ba45dbf7ca6d2be8,
+    type: 2}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 0.5
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 100
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &1021333155
 Prefab:
   m_ObjectHideFlags: 0
@@ -39248,20 +40456,119 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 5e074f2a56373374087779628da4cc29,
     type: 3}
   m_PrefabInternal: {fileID: 1021333155}
---- !u!114 &1022134594
-MonoBehaviour:
+--- !u!1 &1021455163
+GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 106300, guid: 0036c73aed31ec14fbbf45853c79fc14,
+    type: 2}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 439779872}
+  - component: {fileID: 1021455164}
+  m_Layer: 0
+  m_Name: Ambient(Day)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1021455164
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 8260042, guid: 0036c73aed31ec14fbbf45853c79fc14,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1021455163}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  order: 1
-  gameObject: {fileID: 1602942897}
-  activeState: 0
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!1 &1022547989
 GameObject:
   m_ObjectHideFlags: 0
@@ -39446,7 +40753,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11484708, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: conditionCollections.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalPosition.x
@@ -39458,7 +40765,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -1.233
+      value: -1.316
       objectReference: {fileID: 0}
     - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalRotation.x
@@ -39478,7 +40785,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_RootOrder
-      value: 18
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 194222, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_Name
@@ -39556,6 +40863,10 @@ Prefab:
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 1030791416}
+    - target: {fileID: 11484708, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
+      propertyPath: conditionCollections.Array.data[1]
+      value: 
+      objectReference: {fileID: 1547056387}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
   m_IsPrefabAsset: 0
@@ -39584,7 +40895,7 @@ MonoBehaviour:
   message: 'Maybe there''s something I could use to unlock it around here?
 
 '
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!1001 &1044176912
 Prefab:
@@ -39714,7 +41025,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 9d268aaeab372f24799654a550932a03, type: 3}
       propertyPath: m_RootOrder
-      value: 29
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 9d268aaeab372f24799654a550932a03, type: 3}
       propertyPath: m_LocalScale.x
@@ -39834,18 +41145,133 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 1046150550}
---- !u!114 &1052220079
-MonoBehaviour:
+--- !u!1 &1052792019
+GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 147032, guid: 0036c73aed31ec14fbbf45853c79fc14,
+    type: 2}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1052792020}
+  - component: {fileID: 1052792021}
+  m_Layer: 0
+  m_Name: VO
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1052792020
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 474294, guid: 0036c73aed31ec14fbbf45853c79fc14,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1052792019}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1334240548}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1052792021
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 8277418, guid: 0036c73aed31ec14fbbf45853c79fc14,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1052792019}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  message: Find a Key to the basement door
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!1 &1054260615
 GameObject:
   m_ObjectHideFlags: 0
@@ -44967,6 +46393,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 1077771333}
+--- !u!114 &1081645622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: AmbrosiaTeaPotAquired
+  satisfied: 1
+  hash: -1395955485
 --- !u!1 &1082326194
 GameObject:
   m_ObjectHideFlags: 0
@@ -45117,8 +46557,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: A few apple seeds are laying on this table
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: 'Apprentice: A few apple seeds are laying on this table'
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!114 &1084399068
 MonoBehaviour:
@@ -45134,6 +46574,131 @@ MonoBehaviour:
   description: DragonFireQuestStart
   satisfied: 1
   hash: 1125978622
+--- !u!1 &1097385784
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1097385785}
+  - component: {fileID: 1097385786}
+  m_Layer: 0
+  m_Name: fire (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1097385785
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1097385784}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.896, y: 1.001, z: 1.987}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2060869782}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1097385786
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1097385784}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 243774653086697126, guid: 52c80b9ea94f8eb4ba45dbf7ca6d2be8,
+    type: 2}
+  m_audioClip: {fileID: 8300000, guid: 6b296759b8bb1424cbee8b1a07592011, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.2
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 0
+  DopplerLevel: 1
+  MinDistance: 0.4950495
+  MaxDistance: 50
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!114 &1102361584
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50222,7 +51787,7 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 2107261174}
+    m_TransformParent: {fileID: 916621661}
     m_Modifications:
     - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: reactions.Array.size
@@ -50262,7 +51827,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalScale.x
@@ -50335,7 +51900,7 @@ Prefab:
     - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: reactions.Array.data[0]
       value: 
-      objectReference: {fileID: 1802608367}
+      objectReference: {fileID: 1143732181}
     - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: reactions.Array.data[1]
       value: 
@@ -50344,6 +51909,10 @@ Prefab:
       propertyPath: conditionCollections.Array.data[0]
       value: 
       objectReference: {fileID: 365252053}
+    - target: {fileID: 194222, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
   m_IsPrefabAsset: 0
@@ -50363,6 +51932,21 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 194222, guid: d48734bd22479a14cb1a52b40aa09db4,
     type: 2}
   m_PrefabInternal: {fileID: 1124805775}
+--- !u!114 &1125328535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: "\n1.For a golden apple an apple should be required but I haven\u2019t
+    seen any apples around\u2026.actually I haven't really seen any source of food
+    around here...\n2.Then I need to find a way to make an ordinary apple into a unordinary
+    golden apple..\n"
 --- !u!114 &1125699343
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50382,7 +51966,7 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 2107261174}
+    m_TransformParent: {fileID: 448620399}
     m_Modifications:
     - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: reactions.Array.size
@@ -50422,7 +52006,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_RootOrder
-      value: 17
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 194222, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_Name
@@ -50502,7 +52086,7 @@ Prefab:
       objectReference: {fileID: 367792007}
     - target: {fileID: 194222, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: reactions.Array.data[1]
@@ -50916,7 +52500,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec43236ba6522584894ac80bfbcb3815, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  condition: {fileID: 114950619393728696, guid: fd02464d008c790478d9826aba7c7847,
+  condition: {fileID: 114434246571486556, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}
   satisfied: 0
 --- !u!1001 &1136682763
@@ -51258,6 +52842,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 1142693512}
+--- !u!114 &1143732181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'Apprentice: It''s a big and cozy fire..'
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
+  order: 0
 --- !u!114 &1144583059
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51415,7 +53013,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: 8fbf0c59a35b7734f8f32bd5ccebfab9, type: 3}
       propertyPath: m_RootOrder
-      value: 25
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: 8fbf0c59a35b7734f8f32bd5ccebfab9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -51555,20 +53153,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 1150021575}
---- !u!114 &1150299851
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  description: HasKettleWithClam
-  satisfied: 1
-  hash: -1530827892
 --- !u!114 &1150436129
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52086,20 +53670,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 1160387671}
---- !u!114 &1161496733
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec43236ba6522584894ac80bfbcb3815, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  condition: {fileID: 114701939667788006, guid: fd02464d008c790478d9826aba7c7847,
-    type: 2}
-  satisfied: 1
 --- !u!1001 &1163904815
 Prefab:
   m_ObjectHideFlags: 0
@@ -52282,6 +53852,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 1164731397}
+--- !u!114 &1166046333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'PAINTING: Get your grubby little hands off my precious!...my precious...'
+  textColor: {r: 1, g: 0.023529412, b: 0.023529412, a: 1}
+  order: 0
 --- !u!1 &1166255513
 GameObject:
   m_ObjectHideFlags: 0
@@ -52311,7 +53895,7 @@ Transform:
   - {fileID: 218587638}
   - {fileID: 893916730}
   m_Father: {fileID: 2107261174}
-  m_RootOrder: 4
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1168489038
 MonoBehaviour:
@@ -52352,7 +53936,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec43236ba6522584894ac80bfbcb3815, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  condition: {fileID: 114183364152752296, guid: fd02464d008c790478d9826aba7c7847,
+  condition: {fileID: 114753056336311330, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}
   satisfied: 0
 --- !u!1001 &1176973553
@@ -52725,8 +54309,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec43236ba6522584894ac80bfbcb3815, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  condition: {fileID: 114287361194795924, guid: fd02464d008c790478d9826aba7c7847,
-    type: 2}
+  condition: {fileID: 0}
   satisfied: 0
 --- !u!1001 &1196374039
 Prefab:
@@ -53369,8 +54952,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: It's open now
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: 'Apprentice: The globe is open now'
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!1 &1228084230
 GameObject:
@@ -53849,8 +55432,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: It's a globe..
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: 'Apprentice: It''s a globe..'
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!114 &1239169082
 MonoBehaviour:
@@ -53864,8 +55447,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 1
-  gameObject: {fileID: 1793748932}
-  activeState: 0
+  gameObject: {fileID: 1124805778}
+  activeState: 1
 --- !u!1 &1240314083
 GameObject:
   m_ObjectHideFlags: 0
@@ -54103,7 +55686,7 @@ AudioSource:
     type: 2}
   m_audioClip: {fileID: 8300000, guid: 6b296759b8bb1424cbee8b1a07592011, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.5
+  m_Volume: 0.3
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -54198,8 +55781,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: 'Apprentice: What do you think of this ball? '
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!1 &1259588519
 GameObject:
@@ -54314,8 +55897,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: It's desk drawers...
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: 'Apprentice: It''s desk drawers...'
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!1001 &1275850482
 Prefab:
@@ -54424,12 +56007,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   reactions:
-  - {fileID: 1627671481}
-  - {fileID: 1874382763}
-  - {fileID: 2122441484}
-  - {fileID: 1161496733}
-  - {fileID: 1602637448}
-  - {fileID: 1052220079}
+  - {fileID: 1979496547}
+  - {fileID: 447609860}
+  - {fileID: 1370530675}
+  - {fileID: 1714979144}
+  - {fileID: 697518158}
 --- !u!1001 &1282020153
 Prefab:
   m_ObjectHideFlags: 0
@@ -54902,7 +56484,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message: Maybe I could trade it for something..
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!1001 &1308484226
 Prefab:
@@ -54995,6 +56577,58 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 1308484226}
+--- !u!1 &1312417332
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1312417333}
+  - component: {fileID: 1312417334}
+  m_Layer: 0
+  m_Name: ReverbZone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1312417333
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1312417332}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1334240548}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!167 &1312417334
+AudioReverbZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1312417332}
+  m_Enabled: 1
+  m_MinDistance: 1
+  m_MaxDistance: 10
+  m_ReverbPreset: 3
+  m_Room: -1000
+  m_RoomHF: -454
+  m_DecayTime: 0.4
+  m_DecayHFRatio: 0.83
+  m_Reflections: -1646
+  m_ReflectionsDelay: 0.002
+  m_Reverb: 53
+  m_ReverbDelay: 0.003
+  m_HFReference: 5000
+  m_Diffusion: 100
+  m_Density: 100
+  m_LFReference: 250
+  m_RoomLF: 0
 --- !u!1001 &1321671741
 Prefab:
   m_ObjectHideFlags: 0
@@ -55004,7 +56638,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400004, guid: b9d66de4f635a5e40ada09791c4e0dd3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.411
+      value: 1.481
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: b9d66de4f635a5e40ada09791c4e0dd3, type: 3}
       propertyPath: m_LocalPosition.y
@@ -55012,7 +56646,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: b9d66de4f635a5e40ada09791c4e0dd3, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.659
+      value: -1.678
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: b9d66de4f635a5e40ada09791c4e0dd3, type: 3}
       propertyPath: m_LocalRotation.x
@@ -55190,7 +56824,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_RootOrder
-      value: 19
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 194222, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_Name
@@ -55334,12 +56968,13 @@ GameObject:
   - component: {fileID: 1327138277}
   - component: {fileID: 1327138276}
   - component: {fileID: 1327138275}
-  - component: {fileID: 1327138274}
-  - component: {fileID: 1327138273}
   - component: {fileID: 1327138289}
   - component: {fileID: 1327138288}
   - component: {fileID: 1327138287}
   - component: {fileID: 1327138286}
+  - component: {fileID: 1327138293}
+  - component: {fileID: 1327138292}
+  - component: {fileID: 1327138294}
   m_Layer: 0
   m_Name: Savers
   m_TagString: Untagged
@@ -55626,34 +57261,6 @@ MonoBehaviour:
   uniqueIdentifier: globe_closed
   saveData: {fileID: 11400000, guid: d4fe277f5ebf1e5488c85d41a691249b, type: 2}
   gameObjectToSave: {fileID: 517402032}
---- !u!114 &1327138273
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1327138252}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f29b6054d4e0304f8b32fb4625cff19, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  uniqueIdentifier: nightlight
-  saveData: {fileID: 11400000, guid: d4fe277f5ebf1e5488c85d41a691249b, type: 2}
-  gameObjectToSave: {fileID: 672988716}
---- !u!114 &1327138274
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1327138252}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f29b6054d4e0304f8b32fb4625cff19, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  uniqueIdentifier: daylight
-  saveData: {fileID: 11400000, guid: d4fe277f5ebf1e5488c85d41a691249b, type: 2}
-  gameObjectToSave: {fileID: 1224923705}
 --- !u!114 &1327138275
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55864,12 +57471,54 @@ MonoBehaviour:
   uniqueIdentifier: obtaincookclaminteractable
   saveData: {fileID: 11400000, guid: d4fe277f5ebf1e5488c85d41a691249b, type: 2}
   gameObjectToSave: {fileID: 1793748932}
+--- !u!114 &1327138292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1327138252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f29b6054d4e0304f8b32fb4625cff19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uniqueIdentifier: ambientnight
+  saveData: {fileID: 11400000, guid: d4fe277f5ebf1e5488c85d41a691249b, type: 2}
+  gameObjectToSave: {fileID: 2060869781}
+--- !u!114 &1327138293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1327138252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f29b6054d4e0304f8b32fb4625cff19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uniqueIdentifier: ambientday
+  saveData: {fileID: 11400000, guid: d4fe277f5ebf1e5488c85d41a691249b, type: 2}
+  gameObjectToSave: {fileID: 1021455163}
+--- !u!114 &1327138294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1327138252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f29b6054d4e0304f8b32fb4625cff19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uniqueIdentifier: staff
+  saveData: {fileID: 11400000, guid: d4fe277f5ebf1e5488c85d41a691249b, type: 2}
+  gameObjectToSave: {fileID: 1932935909}
 --- !u!1001 &1327794668
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 2107261174}
+    m_TransformParent: {fileID: 63273086}
     m_Modifications:
     - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: reactions.Array.size
@@ -55909,7 +57558,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_RootOrder
-      value: 10
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 194222, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_Name
@@ -56072,51 +57721,42 @@ Transform:
   m_Father: {fileID: 1224923706}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1333614327
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d482a9551d8b074097fdb7beded4043, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 11400000, guid: 6da6c574b9dbf0348a55d2faef72496a, type: 2}
---- !u!1 &1334240547 stripped
+--- !u!1 &1334240547
 GameObject:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 114248, guid: 0036c73aed31ec14fbbf45853c79fc14,
     type: 2}
-  m_PrefabInternal: {fileID: 435112434}
---- !u!4 &1334240548 stripped
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1334240548}
+  m_Layer: 0
+  m_Name: AudioParent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1334240548
 Transform:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 472252, guid: 0036c73aed31ec14fbbf45853c79fc14,
     type: 2}
-  m_PrefabInternal: {fileID: 435112434}
---- !u!167 &1334240549
-AudioReverbZone:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1334240547}
-  m_Enabled: 1
-  m_MinDistance: 10
-  m_MaxDistance: 15
-  m_ReverbPreset: 5
-  m_Room: -1000
-  m_RoomHF: -6000
-  m_DecayTime: 0.5
-  m_DecayHFRatio: 0.1
-  m_Reflections: -1376
-  m_ReflectionsDelay: 0.003
-  m_Reverb: -1104
-  m_ReverbDelay: 0.004
-  m_HFReference: 5000
-  m_Diffusion: 100
-  m_Density: 100
-  m_LFReference: 250
-  m_RoomLF: 0
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1537069926}
+  - {fileID: 1052792020}
+  - {fileID: 439779872}
+  - {fileID: 1082326195}
+  - {fileID: 2060869782}
+  - {fileID: 1312417333}
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1336777221
 Prefab:
   m_ObjectHideFlags: 0
@@ -56213,7 +57853,7 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 2107261174}
+    m_TransformParent: {fileID: 848558034}
     m_Modifications:
     - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: reactions.Array.size
@@ -56655,9 +58295,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  description: HastrapDoorKey
+  description: TrapDoorKeyPickedUp
   satisfied: 1
-  hash: -1496588215
+  hash: -1873957032
+--- !u!114 &1365181418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4900350095ceff24fbe8c1ac5f1e17c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: New condition collection
+  requiredConditions:
+  - {fileID: 1912603803}
+  - {fileID: 1890489537}
+  reactionCollection: {fileID: 1449751609}
+--- !u!114 &1370530675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 1
+  gameObject: {fileID: 1542700433}
+  activeState: 0
 --- !u!114 &1376436109
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56777,8 +58447,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: A stunning work of art
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: 'Apprentice: A stunning work of art'
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!1001 &1385663645
 Prefab:
@@ -57053,21 +58723,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 1390643144}
---- !u!114 &1391519347
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  message: '
-
-    Maybe I should find the missing pieces from the globe and put them back in their
-    place...'
 --- !u!1001 &1406380185
 Prefab:
   m_ObjectHideFlags: 0
@@ -57262,20 +58917,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 1411383542}
---- !u!114 &1411404679
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec43236ba6522584894ac80bfbcb3815, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  condition: {fileID: 114701939667788006, guid: fd02464d008c790478d9826aba7c7847,
-    type: 2}
-  satisfied: 1
 --- !u!1 &1412467179
 GameObject:
   m_ObjectHideFlags: 0
@@ -57920,7 +59561,7 @@ Prefab:
     - target: {fileID: 114870674958506440, guid: 39c30be837462024b8c879ec1cd59900,
         type: 2}
       propertyPath: DayObjects.Array.size
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 114870674958506440, guid: 39c30be837462024b8c879ec1cd59900,
         type: 2}
@@ -58023,7 +59664,7 @@ Prefab:
         type: 2}
       propertyPath: DayObjects.Array.data[2]
       value: 
-      objectReference: {fileID: 903344675}
+      objectReference: {fileID: 1021455163}
     - target: {fileID: 114870674958506440, guid: 39c30be837462024b8c879ec1cd59900,
         type: 2}
       propertyPath: NightObjects.Array.data[0]
@@ -58033,12 +59674,12 @@ Prefab:
         type: 2}
       propertyPath: DayObjects.Array.data[3]
       value: 
-      objectReference: {fileID: 998220748}
+      objectReference: {fileID: 1127789322}
     - target: {fileID: 114870674958506440, guid: 39c30be837462024b8c879ec1cd59900,
         type: 2}
       propertyPath: DayObjects.Array.data[4]
       value: 
-      objectReference: {fileID: 672988716}
+      objectReference: {fileID: 1744498317}
     - target: {fileID: 114870674958506440, guid: 39c30be837462024b8c879ec1cd59900,
         type: 2}
       propertyPath: DayObjects.Array.data[5]
@@ -58097,12 +59738,12 @@ Prefab:
         type: 2}
       propertyPath: NightObjects.Array.data[8]
       value: 
-      objectReference: {fileID: 1602942897}
+      objectReference: {fileID: 1932935908}
     - target: {fileID: 114870674958506440, guid: 39c30be837462024b8c879ec1cd59900,
         type: 2}
       propertyPath: NightObjects.Array.data[9]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2060869781}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 39c30be837462024b8c879ec1cd59900, type: 2}
   m_IsPrefabAsset: 0
@@ -58502,7 +60143,54 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 1440672826}
---- !u!114 &1442904500
+--- !u!1 &1449751607
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1449751608}
+  - component: {fileID: 1449751609}
+  m_Layer: 0
+  m_Name: GiveEarthCrystalQuestReaction
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1449751608
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1449751607}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 833011969}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1449751609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1449751607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fc7ecfe98531f2429694b8c81a6748a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  reactions:
+  - {fileID: 1166046333}
+  - {fileID: 2029996653}
+  - {fileID: 1954198877}
+  - {fileID: 1764736131}
+  - {fileID: 1968767852}
+  - {fileID: 1913639127}
+--- !u!114 &1457065547
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -58510,12 +60198,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  description: CompletedGlobe
-  satisfied: 1
-  hash: -2141530385
+  order: 1
+  gameObject: {fileID: 1774339613}
+  activeState: 0
 --- !u!1001 &1459925304
 Prefab:
   m_ObjectHideFlags: 0
@@ -59135,34 +60823,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: 82062bccd52ccef429a05ee26b8da2f0,
     type: 3}
   m_PrefabInternal: {fileID: 1473077937}
---- !u!114 &1476610731
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  description: AmbrosiaBouquetAquired
-  satisfied: 1
-  hash: 449017577
---- !u!114 &1477403882
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  order: 1
-  gameObject: {fileID: 703181009}
-  activeState: 0
 --- !u!1001 &1478215887
 Prefab:
   m_ObjectHideFlags: 0
@@ -59405,7 +61065,7 @@ AudioSource:
     type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -59501,7 +61161,7 @@ AudioSource:
     type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -59597,7 +61257,7 @@ AudioSource:
     type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -60045,6 +61705,131 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 1489389698}
+--- !u!1 &1494557684
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1494557685}
+  - component: {fileID: 1494557686}
+  m_Layer: 0
+  m_Name: rain
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1494557685
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1494557684}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 3.347, z: 0.04}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2060869782}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1494557686
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1494557684}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 243774653086697126, guid: 52c80b9ea94f8eb4ba45dbf7ca6d2be8,
+    type: 2}
+  m_audioClip: {fileID: 8300000, guid: aa9349d9b89c1ca48be23cc955e1a1cc, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 0
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 100
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1495073445
 GameObject:
   m_ObjectHideFlags: 0
@@ -65335,7 +67120,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0ccf8089ec27b9a49b4f3a9c1e4bcf94, type: 3}
       propertyPath: m_RootOrder
-      value: 32
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 0ccf8089ec27b9a49b4f3a9c1e4bcf94, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -65633,23 +67418,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec43236ba6522584894ac80bfbcb3815, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  condition: {fileID: 114467616167834322, guid: fd02464d008c790478d9826aba7c7847,
+  condition: {fileID: 114573808208314410, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}
   satisfied: 0
---- !u!114 &1531761379
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  message: 
-  textColor: {r: 1, g: 1, b: 1, a: 1}
-  order: 0
 --- !u!1001 &1533683399
 Prefab:
   m_ObjectHideFlags: 0
@@ -65741,6 +67512,131 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 1533683399}
+--- !u!1 &1533777312
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1533777313}
+  - component: {fileID: 1533777314}
+  m_Layer: 0
+  m_Name: fire (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1533777313
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1533777312}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.04, y: 1.001, z: 1.987}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2060869782}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1533777314
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1533777312}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 243774653086697126, guid: 52c80b9ea94f8eb4ba45dbf7ca6d2be8,
+    type: 2}
+  m_audioClip: {fileID: 8300000, guid: 6b296759b8bb1424cbee8b1a07592011, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.2
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 0
+  DopplerLevel: 1
+  MinDistance: 0.4950495
+  MaxDistance: 50
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &1535559496
 Prefab:
   m_ObjectHideFlags: 0
@@ -65843,11 +67739,138 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'The door is locked
+  message: 'Apprentice: The door is locked
 
 '
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
+--- !u!1 &1537069925
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 125858, guid: 0036c73aed31ec14fbbf45853c79fc14,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1537069926}
+  - component: {fileID: 1537069927}
+  m_Layer: 0
+  m_Name: FX
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1537069926
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 409056, guid: 0036c73aed31ec14fbbf45853c79fc14,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1537069925}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1334240548}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1537069927
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 8299186, guid: 0036c73aed31ec14fbbf45853c79fc14,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1537069925}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!1001 &1539823938
 Prefab:
   m_ObjectHideFlags: 0
@@ -66062,6 +68085,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 782251f16615307418228512dd61bbbc,
     type: 3}
   m_PrefabInternal: {fileID: 1540285791}
+--- !u!114 &1540889134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'Apprentice: A couple of seeds..'
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
+  order: 0
 --- !u!114 &1542206516
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66252,6 +68289,21 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 1547034235}
+--- !u!114 &1547056387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4900350095ceff24fbe8c1ac5f1e17c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: New condition collection
+  requiredConditions:
+  - {fileID: 1081645622}
+  reactionCollection: {fileID: 2138837923}
 --- !u!1 &1551549432
 GameObject:
   m_ObjectHideFlags: 0
@@ -66640,7 +68692,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: 8fbf0c59a35b7734f8f32bd5ccebfab9, type: 3}
       propertyPath: m_RootOrder
-      value: 24
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: 8fbf0c59a35b7734f8f32bd5ccebfab9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -66876,11 +68928,11 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 2107261174}
+    m_TransformParent: {fileID: 1734063289}
     m_Modifications:
     - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: reactions.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11484708, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: conditionCollections.Array.size
@@ -66916,7 +68968,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_RootOrder
-      value: 7
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 194222, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_Name
@@ -67581,6 +69633,20 @@ MonoBehaviour:
   description: AfricaPickedUp
   satisfied: 0
   hash: -832665031
+--- !u!114 &1584547127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 1
+  gameObject: {fileID: 246012068}
+  activeState: 0
 --- !u!1001 &1585903037
 Prefab:
   m_ObjectHideFlags: 0
@@ -67774,10 +69840,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'A bunch of books
+  message: 'Apprentice: A bunch of books
 
 '
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  textColor: {r: 1, g: 0.8913304, b: 0, a: 1}
   order: 0
 --- !u!1 &1592709171
 GameObject:
@@ -72588,26 +74654,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 1602195659}
---- !u!114 &1602637448
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  message: I should now find a key to the basement
-  textColor: {r: 1, g: 1, b: 1, a: 1}
-  order: 1
 --- !u!1001 &1602942895
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 2107261174}
+    m_TransformParent: {fileID: 1734063289}
     m_Modifications:
     - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: reactions.Array.size
@@ -72647,7 +74699,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_RootOrder
-      value: 12
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 194222, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_Name
@@ -72796,8 +74848,8 @@ MonoBehaviour:
   - {fileID: 171604444}
   - {fileID: 813020325}
   - {fileID: 58043483}
-  - {fileID: 1752507216}
-  - {fileID: 558065369}
+  - {fileID: 724142245}
+  - {fileID: 847844143}
 --- !u!1 &1613466111
 GameObject:
   m_ObjectHideFlags: 0
@@ -72875,7 +74927,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0ccf8089ec27b9a49b4f3a9c1e4bcf94, type: 3}
       propertyPath: m_RootOrder
-      value: 36
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 0ccf8089ec27b9a49b4f3a9c1e4bcf94, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -73125,20 +75177,6 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a4fb2bd271d24e4d9f0ae6323b27192, type: 3}
   m_IsPrefabAsset: 0
---- !u!114 &1627671481
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  order: 1
-  gameObject: {fileID: 1542700433}
-  activeState: 0
 --- !u!1001 &1628670608
 Prefab:
   m_ObjectHideFlags: 0
@@ -73603,6 +75641,131 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 1647542153}
+--- !u!1 &1649971901
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1649971902}
+  - component: {fileID: 1649971903}
+  m_Layer: 0
+  m_Name: fire (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1649971902
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1649971901}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.8959999, y: 1.001, z: -1.45}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2060869782}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1649971903
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1649971901}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 243774653086697126, guid: 52c80b9ea94f8eb4ba45dbf7ca6d2be8,
+    type: 2}
+  m_audioClip: {fileID: 8300000, guid: 6b296759b8bb1424cbee8b1a07592011, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.2
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 0
+  DopplerLevel: 1
+  MinDistance: 0.4950495
+  MaxDistance: 50
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &1651548792
 Prefab:
   m_ObjectHideFlags: 0
@@ -73813,20 +75976,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: a438d9655f630ef4ebd130490f5a650e,
     type: 3}
   m_PrefabInternal: {fileID: 1655716022}
---- !u!114 &1664565864
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  order: 1
-  gameObject: {fileID: 1542700433}
-  activeState: 0
 --- !u!114 &1666912118
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -73841,7 +75990,6 @@ MonoBehaviour:
   description: New condition collection
   requiredConditions:
   - {fileID: 1354403040}
-  - {fileID: 770290184}
   reactionCollection: {fileID: 1578241498}
 --- !u!114 &1667393801
 MonoBehaviour:
@@ -73856,9 +76004,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   description: New condition collection
   requiredConditions:
-  - {fileID: 1150299851}
   - {fileID: 1177555613}
   - {fileID: 1696086875}
+  - {fileID: 1901656088}
   reactionCollection: {fileID: 694379300}
 --- !u!114 &1668653131
 MonoBehaviour:
@@ -74076,6 +76224,21 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 782251f16615307418228512dd61bbbc,
     type: 3}
   m_PrefabInternal: {fileID: 1674495979}
+--- !u!114 &1674999142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: "Apprentice: They\u2019re drier than the wizards jokes but they\u2019re
+    too big to fit into the teapot.  "
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
+  order: 0
 --- !u!1001 &1694390226
 Prefab:
   m_ObjectHideFlags: 0
@@ -74390,10 +76553,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'I can cook the clam to make it open up over this fire!
+  message: 'Apprentice: I can cook the clam to make it open up over this fire!
 
 '
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!114 &1711558618
 MonoBehaviour:
@@ -74500,7 +76663,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 1713747186}
---- !u!114 &1724948085
+--- !u!114 &1714979144
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -74508,12 +76671,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Script: {fileID: 11500000, guid: b804958e1981f9544989d65e32719692, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 
-  textColor: {r: 1, g: 1, b: 1, a: 1}
-  order: 0
+  order: 1
+  item: {fileID: 11400000, guid: e569df22ad76c844fa0cf8ea84b32618, type: 2}
 --- !u!1001 &1730025636
 Prefab:
   m_ObjectHideFlags: 0
@@ -74645,6 +76807,53 @@ Halo:
     serializedVersion: 2
     rgba: 4278234111
   m_Size: 0.1
+--- !u!1 &1734063288
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1734063289}
+  m_Layer: 0
+  m_Name: AmbrosiaQuest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1734063289
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1734063288}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 247544373}
+  - {fileID: 1561554625}
+  - {fileID: 1602942896}
+  - {fileID: 246012067}
+  - {fileID: 519335388}
+  m_Father: {fileID: 2107261174}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1734727632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec43236ba6522584894ac80bfbcb3815, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  condition: {fileID: 114632724334962776, guid: fd02464d008c790478d9826aba7c7847,
+    type: 2}
+  satisfied: 0
 --- !u!1001 &1735629464
 Prefab:
   m_ObjectHideFlags: 0
@@ -74958,20 +77167,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 1738272079}
---- !u!114 &1741209564
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec43236ba6522584894ac80bfbcb3815, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  condition: {fileID: 114856924687962330, guid: fd02464d008c790478d9826aba7c7847,
-    type: 2}
-  satisfied: 0
 --- !u!1001 &1741570589
 Prefab:
   m_ObjectHideFlags: 0
@@ -75074,8 +77269,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: A Teapot..
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: 'Apprentice: It''s a teapot with warm water in it..'
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!114 &1743545599
 MonoBehaviour:
@@ -75157,6 +77352,10 @@ Prefab:
     - target: {fileID: 400000, guid: 7d5cedd9768e96645a0b8975cb4e0457, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.77000046
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 7d5cedd9768e96645a0b8975cb4e0457, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7d5cedd9768e96645a0b8975cb4e0457, type: 3}
@@ -75572,7 +77771,7 @@ Halo:
     serializedVersion: 2
     rgba: 4293787392
   m_Size: 0.05
---- !u!114 &1752507216
+--- !u!114 &1764736131
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -75580,24 +77779,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec43236ba6522584894ac80bfbcb3815, type: 3}
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  condition: {fileID: 114339336138375714, guid: fd02464d008c790478d9826aba7c7847,
-    type: 2}
-  satisfied: 1
---- !u!114 &1765080216
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  message: 
+  message: Well...What if I find you an even better, prettier gem, would you be open
+    to trade?
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
+  order: 0
 --- !u!1001 &1767312648
 Prefab:
   m_ObjectHideFlags: 0
@@ -75812,6 +78000,20 @@ MonoBehaviour:
   - {fileID: 188105721}
   - {fileID: 809997316}
   reactionCollection: {fileID: 666393397}
+--- !u!114 &1770739600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec43236ba6522584894ac80bfbcb3815, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  condition: {fileID: 114334928261144884, guid: fd02464d008c790478d9826aba7c7847,
+    type: 2}
+  satisfied: 1
 --- !u!1001 &1773262387
 Prefab:
   m_ObjectHideFlags: 0
@@ -75908,7 +78110,7 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 2107261174}
+    m_TransformParent: {fileID: 448620399}
     m_Modifications:
     - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: reactions.Array.size
@@ -75924,7 +78126,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -0.091
+      value: -0.09099999
       objectReference: {fileID: 0}
     - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalPosition.z
@@ -75948,7 +78150,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_RootOrder
-      value: 15
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 194222, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_Name
@@ -75968,7 +78170,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 491826, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 1.8
+      value: 2.1
       objectReference: {fileID: 0}
     - target: {fileID: 491826, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalPosition.z
@@ -76277,6 +78479,23 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 1775963436}
   m_Script: {fileID: 11500000, guid: d85941078afdf3244b2a1ae50fea256c, type: 3}
+--- !u!114 &1781423841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: "Apprentice: Ambrosia is a rare plant that thrives in dark spaces. It it
+    has a very unique bitter taste and is believed to be very nourishing. Despite
+    its bitter taste it's a common beverage for many wizards to dry the herb for brewing
+    tea\u2026\u201DInteresting...\u201D"
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
+  order: 0
 --- !u!1001 &1788859505
 Prefab:
   m_ObjectHideFlags: 0
@@ -76710,7 +78929,7 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 2107261174}
+    m_TransformParent: {fileID: 848558034}
     m_Modifications:
     - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: reactions.Array.size
@@ -76855,20 +79074,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 194222, guid: d48734bd22479a14cb1a52b40aa09db4,
     type: 2}
   m_PrefabInternal: {fileID: 1793748929}
---- !u!114 &1794738581
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  message: 
-  textColor: {r: 1, g: 1, b: 1, a: 1}
-  order: 0
 --- !u!114 &1796863004
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -76880,7 +79085,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec43236ba6522584894ac80bfbcb3815, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  condition: {fileID: 114439637543143640, guid: fd02464d008c790478d9826aba7c7847,
+  condition: {fileID: 114000264106966828, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}
   satisfied: 0
 --- !u!1001 &1797145531
@@ -76988,6 +79193,73 @@ MonoBehaviour:
   order: 0
   gameObject: {fileID: 472629804}
   activeState: 1
+--- !u!1001 &1799537462
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 81985405}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.731
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.186
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.742
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d, type: 3}
+      propertyPath: m_RootOrder
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.68693024
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.68693
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.68693024
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d, type: 3}
+      propertyPath: m_Name
+      value: LibraryLadder (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d, type: 3}
+  m_IsPrefabAsset: 0
+--- !u!4 &1799537463 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d,
+    type: 3}
+  m_PrefabInternal: {fileID: 1799537462}
 --- !u!114 &1802608367
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -76999,8 +79271,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: A warm and cozy fire is burning
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: 'Apprentice: A warm and cozy fire is burning but it''s just a plain fire..'
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!1001 &1815106171
 Prefab:
@@ -77137,21 +79409,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400016, guid: cafa460f750999549b8b4d3ba87a8cfd,
     type: 3}
   m_PrefabInternal: {fileID: 1815106171}
---- !u!114 &1818632465
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4900350095ceff24fbe8c1ac5f1e17c4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  description: New condition collection
-  requiredConditions:
-  - {fileID: 1019605748}
-  reactionCollection: {fileID: 2138837923}
 --- !u!1001 &1825959193
 Prefab:
   m_ObjectHideFlags: 0
@@ -77385,9 +79642,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  description: HasSouthAmerica
+  description: SouthAmericaPickedUp
   satisfied: 1
-  hash: 120859751
+  hash: 462620941
 --- !u!1001 &1831378109
 Prefab:
   m_ObjectHideFlags: 0
@@ -77690,7 +79947,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 074b2de46c919ef4fa40915e6a8725f2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.113
+      value: -1.037
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 074b2de46c919ef4fa40915e6a8725f2, type: 3}
       propertyPath: m_LocalRotation.x
@@ -77813,7 +80070,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 9d268aaeab372f24799654a550932a03, type: 3}
       propertyPath: m_RootOrder
-      value: 39
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 9d268aaeab372f24799654a550932a03, type: 3}
       propertyPath: m_LocalScale.x
@@ -78067,9 +80324,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  description: HasBone
+  description: BonePickedUp
   satisfied: 1
-  hash: 593653205
+  hash: 1109262446
 --- !u!114 &1855072939
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -78081,8 +80338,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: It's a locked safe
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: 'Apprentice: It''s a locked safe.'
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
 --- !u!1001 &1856303431
 Prefab:
@@ -78445,6 +80702,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 1869394528}
+--- !u!114 &1872444727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: AmbrosiaBouquetAquired
+  satisfied: 1
+  hash: 449017577
 --- !u!1 &1872683920
 GameObject:
   m_ObjectHideFlags: 0
@@ -78504,19 +80775,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item: {fileID: 11400000, guid: 676461a6c5f6b3648bc704b0bbb6f2ab, type: 2}
---- !u!114 &1874382763
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b804958e1981f9544989d65e32719692, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  order: 1
-  item: {fileID: 11400000, guid: e569df22ad76c844fa0cf8ea84b32618, type: 2}
 --- !u!1001 &1879013673
 Prefab:
   m_ObjectHideFlags: 0
@@ -78608,6 +80866,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 1879013673}
+--- !u!114 &1884702000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: '
+
+    The third ingredient the wizard asked for is a golden apple.'
 --- !u!1001 &1885030508
 Prefab:
   m_ObjectHideFlags: 0
@@ -78856,7 +81128,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 1888674768}
---- !u!114 &1894358757
+--- !u!114 &1890489537
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -78864,12 +81136,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: As I put in all the pieces they made a click sound
-  textColor: {r: 1, g: 1, b: 1, a: 1}
-  order: 1
+  description: EarthCrystalPickedUp
+  satisfied: 0
+  hash: -1220151316
 --- !u!1001 &1894949166
 Prefab:
   m_ObjectHideFlags: 0
@@ -79081,6 +81353,20 @@ Halo:
     serializedVersion: 2
     rgba: 4293787392
   m_Size: 0.05
+--- !u!114 &1901656088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: WaterCrystalPickedUp
+  satisfied: 0
+  hash: 290603084
 --- !u!1 &1907066496
 GameObject:
   m_ObjectHideFlags: 0
@@ -79122,7 +81408,7 @@ AudioSource:
     type: 2}
   m_audioClip: {fileID: 8300000, guid: 6b296759b8bb1424cbee8b1a07592011, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.5
+  m_Volume: 0.3
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -79206,6 +81492,21 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1910792201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'Apprentice: Maybe i should try and find the missing pieces that seems
+    to be missing. '
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
+  order: 0
 --- !u!1001 &1912411197
 Prefab:
   m_ObjectHideFlags: 0
@@ -79297,6 +81598,34 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 1912411197}
+--- !u!114 &1912603803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: DungeonDoorQuestStart
+  satisfied: 1
+  hash: 162785247
+--- !u!114 &1913639127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 
+  textColor: {r: 1, g: 1, b: 1, a: 1}
+  order: 0
 --- !u!1001 &1915277761
 Prefab:
   m_ObjectHideFlags: 0
@@ -79684,7 +82013,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4088149040394140, guid: d43ae048690693e488c33a95d6b53299, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 1.143
+      value: 1.488
       objectReference: {fileID: 0}
     - target: {fileID: 4088149040394140, guid: d43ae048690693e488c33a95d6b53299, type: 2}
       propertyPath: m_LocalPosition.y
@@ -79692,31 +82021,35 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4088149040394140, guid: d43ae048690693e488c33a95d6b53299, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 0.02
+      value: 1.019
       objectReference: {fileID: 0}
     - target: {fileID: 4088149040394140, guid: d43ae048690693e488c33a95d6b53299, type: 2}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4088149040394140, guid: d43ae048690693e488c33a95d6b53299, type: 2}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0.9984836
       objectReference: {fileID: 0}
     - target: {fileID: 4088149040394140, guid: d43ae048690693e488c33a95d6b53299, type: 2}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4088149040394140, guid: d43ae048690693e488c33a95d6b53299, type: 2}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.05505125
       objectReference: {fileID: 0}
     - target: {fileID: 4088149040394140, guid: d43ae048690693e488c33a95d6b53299, type: 2}
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 1571581362535554, guid: d43ae048690693e488c33a95d6b53299, type: 2}
+    - target: {fileID: 1509475594083270, guid: d43ae048690693e488c33a95d6b53299, type: 2}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4088149040394140, guid: d43ae048690693e488c33a95d6b53299, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -173.688
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d43ae048690693e488c33a95d6b53299, type: 2}
@@ -79727,6 +82060,16 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 1932935906}
   m_Script: {fileID: 11500000, guid: 29103d8075f789345997a0adb6a7520e, type: 3}
+--- !u!1 &1932935908 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1271867476041238, guid: d43ae048690693e488c33a95d6b53299,
+    type: 2}
+  m_PrefabInternal: {fileID: 1932935906}
+--- !u!1 &1932935909 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1509475594083270, guid: d43ae048690693e488c33a95d6b53299,
+    type: 2}
+  m_PrefabInternal: {fileID: 1932935906}
 --- !u!1001 &1934911078
 Prefab:
   m_ObjectHideFlags: 0
@@ -80262,7 +82605,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   reactions:
   - {fileID: 106704432}
-  - {fileID: 583108448}
   - {fileID: 1987344577}
   - {fileID: 293622087}
   - {fileID: 1796863004}
@@ -80508,6 +82850,20 @@ Halo:
     serializedVersion: 2
     rgba: 4294964480
   m_Size: 0.1
+--- !u!114 &1954198877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: I don't see how that is any concern of mine!
+  textColor: {r: 1, g: 0.023529412, b: 0.023529412, a: 1}
+  order: 0
 --- !u!1001 &1955024991
 Prefab:
   m_ObjectHideFlags: 0
@@ -80636,7 +82992,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: 8fbf0c59a35b7734f8f32bd5ccebfab9, type: 3}
       propertyPath: m_RootOrder
-      value: 23
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: 8fbf0c59a35b7734f8f32bd5ccebfab9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -80698,7 +83054,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   description: New condition collection
   requiredConditions:
-  - {fileID: 1442904500}
   - {fileID: 106372734}
   - {fileID: 1427351979}
   reactionCollection: {fileID: 705915135}
@@ -85423,6 +87778,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 1966601013}
+--- !u!114 &1968767852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: "Depends... We\u2019ll see what you bring me.."
+  textColor: {r: 1, g: 0.023529412, b: 0.023529412, a: 1}
+  order: 0
 --- !u!114 &1972685900
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -85435,7 +87804,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message: I'll just take the teeth..
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 1
 --- !u!1001 &1973581270
 Prefab:
@@ -85541,7 +87910,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 20f7cdaef42f5c74fb8ba7ab02a8dc69, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.342
+      value: -0.366
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 20f7cdaef42f5c74fb8ba7ab02a8dc69, type: 3}
       propertyPath: m_LocalPosition.z
@@ -85565,7 +87934,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 20f7cdaef42f5c74fb8ba7ab02a8dc69, type: 3}
       propertyPath: m_RootOrder
-      value: 42
+      value: 32
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 20f7cdaef42f5c74fb8ba7ab02a8dc69, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -85587,6 +87956,14 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 826f845a312b24c4ba20a72d602bc984, type: 2}
+    - target: {fileID: 100000, guid: 20f7cdaef42f5c74fb8ba7ab02a8dc69, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 20f7cdaef42f5c74fb8ba7ab02a8dc69, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20f7cdaef42f5c74fb8ba7ab02a8dc69, type: 3}
   m_IsPrefabAsset: 0
@@ -85595,6 +87972,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: 20f7cdaef42f5c74fb8ba7ab02a8dc69,
     type: 3}
   m_PrefabInternal: {fileID: 1973986182}
+--- !u!114 &1979496547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'Apprentice: This plant looks Interesting..'
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
+  order: 0
 --- !u!1001 &1981897908
 Prefab:
   m_ObjectHideFlags: 0
@@ -85888,6 +88279,69 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 1987415518}
+--- !u!1001 &1988550705
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 81985405}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.731
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.186
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.17266
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d, type: 3}
+      propertyPath: m_RootOrder
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.68693024
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.68693
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.68693024
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d, type: 3}
+  m_IsPrefabAsset: 0
+--- !u!4 &1988550706 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d,
+    type: 3}
+  m_PrefabInternal: {fileID: 1988550705}
 --- !u!114 &1988823071
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -85902,7 +88356,7 @@ MonoBehaviour:
   description: New condition collection
   requiredConditions:
   - {fileID: 1102361584}
-  - {fileID: 1476610731}
+  - {fileID: 1872444727}
   reactionCollection: {fileID: 579790331}
 --- !u!1 &1990489480
 GameObject:
@@ -90837,8 +93291,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: 'PAINTING: I suppose this gem will do as well, lets trade!'
+  textColor: {r: 1, g: 0.023529412, b: 0.023529412, a: 1}
   order: 0
 --- !u!1001 &2014706675
 Prefab:
@@ -91071,6 +93525,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 2016807658}
+--- !u!114 &2017514863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 1
+  gameObject: {fileID: 293251061}
+  activeState: 0
 --- !u!114 &2017659238
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -91270,6 +93738,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 2019588421}
+--- !u!114 &2027693129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: DoorQuestRecieved
+  satisfied: 1
+  hash: 1860497604
 --- !u!114 &2027986601
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -91298,6 +93780,20 @@ MonoBehaviour:
   order: 1
   gameObject: {fileID: 293251061}
   activeState: 1
+--- !u!114 &2029996653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'Apprentice: I really need that stone!'
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
+  order: 0
 --- !u!1001 &2030549708
 Prefab:
   m_ObjectHideFlags: 0
@@ -91634,9 +94130,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  description: HasLockPick
+  description: LockpickPickedUp
   satisfied: 1
-  hash: -1947044185
+  hash: 2122830829
 --- !u!1001 &2040522898
 Prefab:
   m_ObjectHideFlags: 0
@@ -92482,6 +94978,142 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400014, guid: 8fbf0c59a35b7734f8f32bd5ccebfab9,
     type: 3}
   m_PrefabInternal: {fileID: 1556940861}
+--- !u!1 &2060869781
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 106300, guid: 0036c73aed31ec14fbbf45853c79fc14,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2060869782}
+  - component: {fileID: 2060869783}
+  m_Layer: 0
+  m_Name: AmbientNIGHT
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &2060869782
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 429794, guid: 0036c73aed31ec14fbbf45853c79fc14,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2060869781}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2097166603}
+  - {fileID: 1533777313}
+  - {fileID: 730929574}
+  - {fileID: 1097385785}
+  - {fileID: 1649971902}
+  - {fileID: 1494557685}
+  - {fileID: 771292518}
+  - {fileID: 1019472389}
+  - {fileID: 617870504}
+  m_Father: {fileID: 1334240548}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &2060869783
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 8260042, guid: 0036c73aed31ec14fbbf45853c79fc14,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2060869781}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!1001 &2062570437
 Prefab:
   m_ObjectHideFlags: 0
@@ -92846,6 +95478,26 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 2071559352}
+--- !u!114 &2074178334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: '
+
+    Piece 1. Australia piece
+
+    Piece 2. Africa piece
+
+    Piece 3. South America piece
+
+'
 --- !u!1 &2077199564
 GameObject:
   m_ObjectHideFlags: 0
@@ -93188,6 +95840,131 @@ MonoBehaviour:
   description: GlowingJarPickedUp
   satisfied: 0
   hash: 1360342739
+--- !u!1 &2097166602
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2097166603}
+  - component: {fileID: 2097166604}
+  m_Layer: 0
+  m_Name: fire
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2097166603
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2097166602}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 1.875}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2060869782}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &2097166604
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2097166602}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 243774653086697126, guid: 52c80b9ea94f8eb4ba45dbf7ca6d2be8,
+    type: 2}
+  m_audioClip: {fileID: 8300000, guid: 6b296759b8bb1424cbee8b1a07592011, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 0
+  DopplerLevel: 1
+  MinDistance: 0.5
+  MaxDistance: 1.01
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &2098272558
 Prefab:
   m_ObjectHideFlags: 0
@@ -93391,7 +96168,7 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 2107261174}
+    m_TransformParent: {fileID: 448620399}
     m_Modifications:
     - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: reactions.Array.size
@@ -93431,7 +96208,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_RootOrder
-      value: 16
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 194222, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_Name
@@ -93559,24 +96336,12 @@ Transform:
   m_LocalPosition: {x: 0, y: 0.288, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 582259194}
-  - {fileID: 1793748930}
-  - {fileID: 1339064259}
-  - {fileID: 1124805776}
   - {fileID: 1166255514}
-  - {fileID: 537916996}
-  - {fileID: 247544373}
-  - {fileID: 1561554625}
-  - {fileID: 53491493}
-  - {fileID: 703181008}
-  - {fileID: 1327794669}
-  - {fileID: 833011969}
-  - {fileID: 1602942896}
-  - {fileID: 246012067}
-  - {fileID: 889468386}
-  - {fileID: 1774339612}
-  - {fileID: 903344676}
-  - {fileID: 1127789321}
+  - {fileID: 848558034}
+  - {fileID: 448620399}
+  - {fileID: 1734063289}
+  - {fileID: 916621661}
+  - {fileID: 63273086}
   - {fileID: 1030791415}
   - {fileID: 1326390138}
   m_Father: {fileID: 0}
@@ -94092,22 +96857,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 2120171553}
---- !u!114 &2122441484
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  message: 'I''ll take the strange plant..
-
-'
-  textColor: {r: 1, g: 1, b: 1, a: 1}
-  order: 0
 --- !u!114 &2125416123
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -94119,9 +96868,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  description: HasAfrica
+  description: AfricaPickedUp
   satisfied: 1
-  hash: 1654748436
+  hash: -832665031
 --- !u!1001 &2129394788
 Prefab:
   m_ObjectHideFlags: 0
@@ -94461,11 +97210,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2138837921}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.8783114, y: 1.1719545, z: 7.375299}
+  m_LocalScale: {x: 0.9299929, y: 3.3504708, z: 1.0147599}
   m_Children: []
-  m_Father: {fileID: 889468386}
+  m_Father: {fileID: 1030791415}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2138837923
@@ -94483,7 +97232,8 @@ MonoBehaviour:
   - {fileID: 963681074}
   - {fileID: 646866265}
   - {fileID: 949820884}
-  - {fileID: 1391519347}
+  - {fileID: 1734727632}
+  - {fileID: 403753325}
 --- !u!1001 &2139662621
 Prefab:
   m_ObjectHideFlags: 0
@@ -94666,3 +97416,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 2143238679}
+--- !u!114 &2143787451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec43236ba6522584894ac80bfbcb3815, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  condition: {fileID: 114488299505747108, guid: fd02464d008c790478d9826aba7c7847,
+    type: 2}
+  satisfied: 0

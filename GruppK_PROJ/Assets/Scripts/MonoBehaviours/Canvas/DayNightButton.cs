@@ -1,6 +1,8 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
 
 public class DayNightButton : MonoBehaviour {
 
@@ -24,12 +26,18 @@ public class DayNightButton : MonoBehaviour {
         ToggleLights();
     }
 
+    public void UpdateLightList()
+    {
+        HandleDayObjects(currentSceneLightContainer.GetDayList());
+        HandleNightObjects(currentSceneLightContainer.GetNightList());
+    }
+
     private void HandleDayObjects(List<GameObject> list)
     {
         DayObjectsFromScene.Clear();
         foreach (GameObject o in list)
         {
-            if (!(o == null))
+            if (!(o == null) && !o.CompareTag("RemovedByReaction"))
             {
                 DayObjectsFromScene.Add(o);
             }
@@ -41,7 +49,7 @@ public class DayNightButton : MonoBehaviour {
         NightObjectsFromScene.Clear();
         foreach (GameObject o in list)
         {
-            if (!(o == null))
+            if (!(o == null) && !o.CompareTag("RemovedByReaction"))
             {
                 NightObjectsFromScene.Add(o);
             }
@@ -60,21 +68,33 @@ public class DayNightButton : MonoBehaviour {
         {
             foreach (GameObject go in DayObjectsFromScene)
             {
+                if (!(go == null))
+                {
                     go.SetActive(true);
+                }
             }
             foreach (GameObject go in NightObjectsFromScene)
             {
+                if (!(go == null))
+                {
                     go.SetActive(false);
+                }
             }
         }
         else if(currentState.satisfied == false) {
             foreach (GameObject go in DayObjectsFromScene)
             {
+                if (!(go == null))
+                {
                     go.SetActive(false);
+                }
             }
             foreach (GameObject go in NightObjectsFromScene)
             {
+                if (!(go == null))
+                {
                     go.SetActive(true);
+                }
             }
         }
     }
@@ -82,10 +102,26 @@ public class DayNightButton : MonoBehaviour {
     {
         currentSceneLightContainer = null;
         currentSceneLightContainer = GameObject.FindWithTag("LightsList").GetComponent<StaffObjectContainer>();
-        HandleDayObjects(currentSceneLightContainer.GetDayList());
-        HandleNightObjects(currentSceneLightContainer.GetNightList());
+        if (gameObject.activeSelf == false)
+        {
+            HandleDayObjects(currentSceneLightContainer.GetDayList());
+            HandleNightObjects(currentSceneLightContainer.GetNightList());
+        }
+        else
+        {
+            StartCoroutine(GracePeriod());
+        }
+ 
         CheckLights();
     }
+
+    IEnumerator GracePeriod()
+    {
+        yield return new WaitForSeconds(1);
+        HandleDayObjects(currentSceneLightContainer.GetDayList());
+        HandleNightObjects(currentSceneLightContainer.GetNightList());
+    }
+
 
     private void ToggleLights()
     {

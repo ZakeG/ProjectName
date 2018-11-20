@@ -18,7 +18,7 @@ public class DynamicCamera : MonoBehaviour {
 
     private IEnumerator MoveCameraDelay()
     {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(0.5f);
         if (cameraRigObject1.activeSelf)
         {
             cameraRigObject1.transform.GetChild(0).gameObject.SetActive(false);

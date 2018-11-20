@@ -89,6 +89,15 @@ public class Inventory : MonoBehaviour
         }
     }
 
+    public void DehighlightAll()
+    {
+        for(int i = 0; i < items.Length; i++)
+        {
+            highlightImages[i].enabled = false;
+        }
+
+    }
+
     public Item[] GetItemList()
     {
         return items;

@@ -10,6 +10,7 @@ public class UsabilityOptionsButton : MonoBehaviour {
 
     void Start()
     {
+        optionsCondition.satisfied = false;
         UpdateText();
     }
 

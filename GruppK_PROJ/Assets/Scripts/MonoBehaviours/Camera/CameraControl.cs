@@ -9,7 +9,7 @@ public class CameraControl : MonoBehaviour
     public Vector3 offset = new Vector3 (0f, 1.5f, 0f); 
     public Transform playerPosition;
     public Condition CameraOptionCondition;
-    private bool OptionsDisabled;
+    private bool cameraOptions;
     private Camera mainCamera;
     private float fov;
     private const int maxFov = 60;
@@ -24,14 +24,17 @@ public class CameraControl : MonoBehaviour
     private IEnumerator Start ()
     {
         mainCamera = gameObject.GetComponentInChildren<Camera>();
-        OptionsDisabled = false;
-        Debug.Log("Getcomponent ContrastEnhance needs to be added");
         if (CameraOptionCondition.satisfied == false)
         {
             mainCamera.GetComponent<ContrastEnhance>().enabled = false;
-            OptionsDisabled = true;
+            cameraOptions = false;
         }
-
+        else
+        {
+            mainCamera.GetComponent<ContrastEnhance>().enabled = true;
+            cameraOptions = true;
+        }
+        Debug.Log("OptionsDisabled: " + cameraOptions);
         fov = mainCamera.fieldOfView;
         if (!moveCamera)
             yield break;
@@ -54,7 +57,7 @@ public class CameraControl : MonoBehaviour
 
     void Update()
     {
-        if (!OptionsDisabled)
+        if (cameraOptions)
         {
             if (Input.GetAxis("Mouse ScrollWheel") > 0f)
             {

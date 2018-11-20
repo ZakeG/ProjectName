@@ -13,6 +13,7 @@ public class TextManager : MonoBehaviour
     }
 
     public Text text;
+    public GameObject background;
 
     private PlayerMovement playerMovementScript;
     private List<Instruction> instructions = new List<Instruction> ();
@@ -51,7 +52,8 @@ public class TextManager : MonoBehaviour
     }
 
     public void DisplayMessage(string message, Color textColor, float displayOrder)
-    {  
+    {
+        background.SetActive(true);
         float order = displayOrder;
         Instruction newInstruction = new Instruction
         {
@@ -79,6 +81,8 @@ public class TextManager : MonoBehaviour
     }
     private void DialougeStopped()
     {
+        background.SetActive(false);
+
         dialugeStarted = false;
         instructions.Clear();
         playerMovementScript.PauseUnpauseDialouge(false);

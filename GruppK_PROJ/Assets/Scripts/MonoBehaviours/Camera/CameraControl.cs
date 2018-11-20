@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using UnityEngine;
+using UnityStandardAssets.ImageEffects;
 
 public class CameraControl : MonoBehaviour
 {
@@ -25,11 +26,11 @@ public class CameraControl : MonoBehaviour
         mainCamera = gameObject.GetComponentInChildren<Camera>();
         OptionsDisabled = false;
         Debug.Log("Getcomponent ContrastEnhance needs to be added");
-        //if (CameraOptionCondition.satisfied == false)
-        //{
-        //    mainCamera.GetComponent(ContrastEnhance).SetActive(false);
+        if (CameraOptionCondition.satisfied == false)
+        {
+            mainCamera.GetComponent<ContrastEnhance>().enabled = false;
             OptionsDisabled = true;
-        //}
+        }
 
         fov = mainCamera.fieldOfView;
         if (!moveCamera)

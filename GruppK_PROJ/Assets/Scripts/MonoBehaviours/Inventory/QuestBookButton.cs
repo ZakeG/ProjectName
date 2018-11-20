@@ -5,7 +5,8 @@ using UnityEngine;
 public class QuestBookButton : MonoBehaviour {
 
     public GameObject book;
-    private bool bookOpen;
+    public GameObject newIcon;
+    public bool bookOpen;
     private SceneController sceneController;
 
     void Start () {
@@ -27,6 +28,7 @@ public class QuestBookButton : MonoBehaviour {
     }
     public void OpenBook()
     {
+        newIcon.SetActive(false);
         bookOpen = true;
         book.SetActive(bookOpen);
     }

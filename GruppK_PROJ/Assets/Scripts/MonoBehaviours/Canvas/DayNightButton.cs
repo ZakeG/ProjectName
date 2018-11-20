@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 
 public class DayNightButton : MonoBehaviour {
@@ -9,6 +10,7 @@ public class DayNightButton : MonoBehaviour {
     public Condition currentState;
     public SceneController scene;
 
+    private Image staffPicRefrence;
     private List<GameObject> DayObjectsFromScene = new List<GameObject>();
     private List<GameObject> NightObjectsFromScene = new List<GameObject>();
     private Condition lightStaff;
@@ -16,6 +18,8 @@ public class DayNightButton : MonoBehaviour {
 
     private void Start()
     {
+        currentState.satisfied = true;
+        staffPicRefrence = gameObject.GetComponent<Image>();
         scene = GameObject.Find("SceneController").GetComponent<SceneController>();
         scene.AfterSceneLoad += OnSceneTransition;
         HideButton();
@@ -125,6 +129,14 @@ public class DayNightButton : MonoBehaviour {
 
     private void ToggleLights()
     {
+        if (currentState.satisfied)
+        {
+            staffPicRefrence.color = Color.white;
+        }
+        else
+        {
+            staffPicRefrence.color = Color.blue;
+        }
         currentState.satisfied = !currentState.satisfied;
         foreach (GameObject go in DayObjectsFromScene)
         {

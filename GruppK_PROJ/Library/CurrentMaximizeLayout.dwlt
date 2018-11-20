@@ -23,7 +23,11 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 613}
   m_MaxSize: {x: 18008, y: 18063}
   vertical: 1
+<<<<<<< HEAD
   controlID: 16926
+=======
+  controlID: 128
+>>>>>>> origin/PhoebeUpdatedNEW
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -127,7 +131,11 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
+<<<<<<< HEAD
   controlID: 16927
+=======
+  controlID: 129
+>>>>>>> origin/PhoebeUpdatedNEW
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -256,7 +264,11 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 492}
   m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
+<<<<<<< HEAD
   controlID: 16928
+=======
+  controlID: 52
+>>>>>>> origin/PhoebeUpdatedNEW
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -309,9 +321,15 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
     m_SelectedIDs: e0410000
     m_LastClickedID: 0
     m_ExpandedIDs: ac21f4ff4c2cf4ff4e2cf4ff0435f4ffbc46f4ffbe46f4ff604ff4ffbe6ef4ffc06ef4ff6e77f4ff768cf4ff7cb8f4ff7eb8f4ff54bdf4ff2cc1f4ffeed0f4ffbce5f4ff3af5f4ff3cf5f4ffeafdf4ff8011f5ffec1ef5ffee1ef5ff9c27f5ff603bf5ff5e4ff5ff604ff5ff0e58f5ff6490f5ff22a0f5ff24a0f5ffd2a8f5ff78bcf5ff7ed5f5ff80d5f5ff2edef5ff00f2f5ff32faf5ff34faf5ffe202f6ff3c05f6ffea2ef6ffec2ef6ff9a37f6ff5650f6fff65bf6fff85bf6ffa664f6ff7874f6fff887f6ff00fbf6ff02fbf6ffb003f7ffc017f7ff7c2af7ff8c3af7ff1681f7ff1881f7ffc689f7ff8a9df7ffa6bff7ffa8bff7ff56c8f7ff44dcf7ff74e8f7ffb8f3f7ffbaf3f7ff68fcf7ff4211f8ff882df8ff8a2df8ff3836f8ff364af8ff0068f8ff0268f8ffb070f8ff8280f8ff0494f8ffeeaef8ff32c5f8ff34c5f8ffe2cdf8ffa4e1f8ff7809f9ff7a09f9ff2812f9ff1226f9ffde6df9ffe06df9ff8e76f9ffd08bf9ff00a8f9ffd8abf9ffbcbff9fffc09faffd40dfaffc632faff9246faffa062faff7866faff6c7afaff3656fbff0e5afbff426efbffc0a7fbff98abfbff7ebffbffe6eafbff14fffbffe807fdffc00bfdff901bfdff62cbffff1cf4ffff6ef8ffff000000006cea010018ec0100bc4402007e9702005c9d020032d502000c0d030008510300f4880300f2ba0300d0c00300c8f30400ba5605009869050034ae06004eae0600a4ae060022af06004c730800
+=======
+    m_SelectedIDs: 0a1a0000
+    m_LastClickedID: 0
+    m_ExpandedIDs: 5ae4fffff4e5ffffe6fbffff00000000
+>>>>>>> origin/PhoebeUpdatedNEW
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -330,7 +348,7 @@ MonoBehaviour:
       m_ClientGUIView: {fileID: 7}
     m_SearchString: 
   m_ExpandedScenes:
-  - Persistent
+  - Dungeon
   m_CurrenRootInstanceID: 0
   m_LockTracker:
     m_IsLocked: 0
@@ -409,7 +427,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 74310000
     m_LastClickedID: 12660
+<<<<<<< HEAD
     m_ExpandedIDs: ffffffff00000000923300009a33000050340000ec340000fe3500005236000054360000ce3700001a380000f8380000fe3800004a39000094390000423c0000803c00000e3d00002a3d00002e3d0000303d0000d43e000022400000ac410000ec4100005442000038430000c0430000dc4300006e440000de44000024450000da4500004246000036490000384900003a4900003c4900003e49000040490000424900004449000046490000484900004a490000
+=======
+    m_ExpandedIDs: 00000000e00a0000e80a0000ac0b00004e0c0000d20d0000d40d0000780f0000c40f0000ae100000b41000003c1100005611000016140000e614000006150000081500000a1500000c15000072150000d616000036180000d2190000161a0000801a00006a1b0000061c0000281c0000ca1c00003a1d0000821d00003c1e0000a41e0000f0510000f2510000f4510000f6510000f8510000fa510000fc510000fe510000005200000252000004520000
+>>>>>>> origin/PhoebeUpdatedNEW
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -434,24 +456,31 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 236}
     m_SelectedIDs: e0410000
     m_LastClickedID: 16864
     m_ExpandedIDs: ffffffff00000000923300009a33000050340000ec340000fe3500005236000054360000ce3700001a380000f8380000fe3800004a39000094390000423c0000803c00000e3d00002a3d00002e3d0000303d0000d43e000022400000ac410000ec4100005442000038430000c0430000dc4300006e440000de44000024450000da4500004246000036490000384900003a4900003c4900003e49000040490000424900004449000046490000484900004a490000
+=======
+    scrollPos: {x: 0, y: 1500}
+    m_SelectedIDs: 0a1a0000
+    m_LastClickedID: 6666
+    m_ExpandedIDs: ffffffff00000000e00a0000e80a0000ac0b00004e0c0000d20d0000d40d0000780f0000c40f0000ae100000b41000003c1100005611000016140000e614000006150000081500000a1500000c15000072150000d616000036180000d2190000161a0000801a00006a1b0000061c0000281c0000ca1c00003a1d0000821d00003c1e0000a41e0000f0510000f2510000f4510000f6510000f8510000fa510000fc510000fe510000005200000252000004520000
+>>>>>>> origin/PhoebeUpdatedNEW
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Persistent
+      m_OriginalName: Persistent
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 6666
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 9}
     m_SearchString: 
@@ -462,8 +491,13 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
+<<<<<<< HEAD
     m_SelectedInstanceIDs: e0410000
     m_LastClickedInstanceID: 16864
+=======
+    m_SelectedInstanceIDs: 0a1a0000
+    m_LastClickedInstanceID: 6666
+>>>>>>> origin/PhoebeUpdatedNEW
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 
     m_RenameOverlay:

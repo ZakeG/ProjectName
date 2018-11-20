@@ -50,7 +50,7 @@ public class ItemCombinationHandler : MonoBehaviour {
             }
             else if(!allSelectedItemsInCombo)
             {
-                //              audioSource.PlayOneShot(fail, 0.7F);
+                 audioSource.PlayOneShot(fail, 0.7F);
             }
             
         }

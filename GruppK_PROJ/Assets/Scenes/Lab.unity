@@ -7324,9 +7324,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  description: HasBowl
+  description: BowlPickedUp
   satisfied: 1
-  hash: -1044480919
+  hash: 889592855
 --- !u!114 &133006023
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32415,7 +32415,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   order: 1
   gameObject: {fileID: 1196169361}
-  activeState: 0
+  activeState: 1
   isAffectedByStaff: 0
 --- !u!1 &1018256753
 GameObject:
@@ -38671,20 +38671,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1294568935}
   m_Mesh: {fileID: 4300000, guid: ed016b4aed14a8f40963218f58dbf988, type: 3}
---- !u!114 &1294850526
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  description: HasGoldTeeth2
-  satisfied: 1
-  hash: -940418511
 --- !u!1001 &1305390918
 Prefab:
   m_ObjectHideFlags: 0
@@ -42497,9 +42483,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  description: HasGoldTeeth
+  description: GoldTeethPickedUp
   satisfied: 1
-  hash: 714667375
+  hash: 773319145
 --- !u!114 &1485885879
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50684,7 +50670,6 @@ MonoBehaviour:
   description: New condition collection
   requiredConditions:
   - {fileID: 1485223812}
-  - {fileID: 1294850526}
   - {fileID: 1527487634}
   reactionCollection: {fileID: 1686167180}
 --- !u!114 &1867779707
@@ -59251,7 +59236,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   order: 1
   gameObject: {fileID: 472009489}
-  activeState: 0
+  activeState: 1
   isAffectedByStaff: 0
 --- !u!1001 &2069891568
 Prefab:

@@ -14,6 +14,7 @@ public class LostItemReaction : Reaction
 
     protected override void ImmediateReaction()
     {
+        inventory.DehighlightAll();
         inventory.RemoveItem (item);
     }
 }

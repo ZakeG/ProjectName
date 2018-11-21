@@ -46,21 +46,7 @@ public class ReactionCollection : MonoBehaviour
         {
             DelayedReaction delayedReaction = reactions[i] as DelayedReaction;
 
-            if (delayedReaction && delayedReaction is AudioReaction)
-            {
-                float o = delayedReaction.order;
-                if (delayedReaction.order == 0)
-                {
-                    delayedReaction.Init();
-                    ManageDelayedReactions(delayedReaction, delayedReaction.order);
-                }
-                else
-                {
-                    delayedReaction.Init();
-                    ManageDelayedReactions(delayedReaction, (delayedReaction.order-1));
-                }
-            }
-            else if (delayedReaction)
+            if (delayedReaction)
             {
                 delayedReaction.Init();
                 ManageDelayedReactions(delayedReaction, delayedReaction.order);

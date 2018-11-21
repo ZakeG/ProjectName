@@ -9807,6 +9807,20 @@ Transform:
   m_Father: {fileID: 535134596}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 237.01, z: 0}
+--- !u!114 &227768401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24dc6b17b276d6948903ade30dec71eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: LivingRoom
+  startingPointInLoadedScene: LivingRoomStartPoint
+  playerSaveData: {fileID: 11400000, guid: 55d72825bf06cf44e9cbc1b37812cc6f, type: 2}
 --- !u!1 &231139240
 GameObject:
   m_ObjectHideFlags: 0
@@ -16230,6 +16244,48 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &513060038
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 513060039}
+  - component: {fileID: 513060040}
+  m_Layer: 0
+  m_Name: UseDoorReaction
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &513060039
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 513060038}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1564899281}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &513060040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 513060038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fc7ecfe98531f2429694b8c81a6748a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  reactions:
+  - {fileID: 227768401}
 --- !u!4 &515442051 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 429794, guid: 0036c73aed31ec14fbbf45853c79fc14,
@@ -16526,9 +16582,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2392585f8a4e53a42a0ddc8de25e64d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   audioSource: {fileID: 717335330}
   audioClip: {fileID: 8300000, guid: 5b0e026a0ce525841a80c9d32211be2e, type: 3}
-  delay: 0
 --- !u!1 &528813385
 GameObject:
   m_ObjectHideFlags: 0
@@ -26210,20 +26266,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 780958084}
   m_Mesh: {fileID: 4300002, guid: c4cfba6395a4739499b8d04a6aa3ff4a, type: 3}
---- !u!114 &782550570
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 24dc6b17b276d6948903ade30dec71eb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneName: LivingRoom
-  startingPointInLoadedScene: LivingRoomStartPoint2
-  playerSaveData: {fileID: 11400000, guid: 55d72825bf06cf44e9cbc1b37812cc6f, type: 2}
 --- !u!1 &783892531
 GameObject:
   m_ObjectHideFlags: 0
@@ -31506,9 +31548,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2392585f8a4e53a42a0ddc8de25e64d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   audioSource: {fileID: 717335330}
   audioClip: {fileID: 8300000, guid: 8e3c28191928abb409134946cd0f9013, type: 3}
-  delay: 0
 --- !u!114 &991036998
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42161,7 +42203,8 @@ MonoBehaviour:
   smoothing: 1
   offset: {x: 0, y: 1.5, z: 0}
   playerPosition: {fileID: 1753974721}
-  CameraOptionCondition: {fileID: 0}
+  CameraOptionCondition: {fileID: 114760183064950580, guid: fd02464d008c790478d9826aba7c7847,
+    type: 2}
 --- !u!114 &1469081244
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43838,48 +43881,6 @@ Transform:
   m_Father: {fileID: 1644450053}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 61.699, z: 0}
---- !u!1 &1537677973
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1537677974}
-  - component: {fileID: 1537677975}
-  m_Layer: 0
-  m_Name: UseDoorReaction
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1537677974
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1537677973}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1564899281}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1537677975
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1537677973}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1fc7ecfe98531f2429694b8c81a6748a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  reactions:
-  - {fileID: 782550570}
 --- !u!114 &1541961724
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44168,6 +44169,7 @@ GameObject:
   - component: {fileID: 1553742156}
   - component: {fileID: 1553742155}
   - component: {fileID: 1553742154}
+  - component: {fileID: 1553742157}
   m_Layer: 0
   m_Name: Camera1
   m_TagString: Untagged
@@ -44246,6 +44248,23 @@ Transform:
   m_Father: {fileID: 2045690775}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1553742157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1553742153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3309686a9fbbe6e42a182d5e0257704c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  intensity: 1
+  threshold: 0
+  blurSpread: 1
+  separableBlurShader: {fileID: 4800000, guid: e97c14fbb5ea04c3a902cc533d7fc5d1, type: 3}
+  contrastCompositeShader: {fileID: 4800000, guid: 273404942eede4ea1883ca1fb2942507,
+    type: 3}
 --- !u!114 &1554248517
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46146,7 +46165,7 @@ MonoBehaviour:
   description: UseDoorReaction
   requiredConditions:
   - {fileID: 27248305}
-  reactionCollection: {fileID: 1537677975}
+  reactionCollection: {fileID: 513060040}
 --- !u!1 &1646148443
 GameObject:
   m_ObjectHideFlags: 0
@@ -48275,6 +48294,7 @@ GameObject:
   - component: {fileID: 1729500827}
   - component: {fileID: 1729500826}
   - component: {fileID: 1729500825}
+  - component: {fileID: 1729500828}
   m_Layer: 0
   m_Name: Camera2
   m_TagString: Untagged
@@ -48353,6 +48373,23 @@ Transform:
   m_Father: {fileID: 1467731112}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1729500828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1729500824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3309686a9fbbe6e42a182d5e0257704c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  intensity: 1
+  threshold: 0
+  blurSpread: 1
+  separableBlurShader: {fileID: 4800000, guid: e97c14fbb5ea04c3a902cc533d7fc5d1, type: 3}
+  contrastCompositeShader: {fileID: 4800000, guid: 273404942eede4ea1883ca1fb2942507,
+    type: 3}
 --- !u!1 &1735921959
 GameObject:
   m_ObjectHideFlags: 0
@@ -58765,7 +58802,8 @@ MonoBehaviour:
   smoothing: 1
   offset: {x: 0, y: 1.5, z: 0}
   playerPosition: {fileID: 1753974721}
-  CameraOptionCondition: {fileID: 0}
+  CameraOptionCondition: {fileID: 114760183064950580, guid: fd02464d008c790478d9826aba7c7847,
+    type: 2}
 --- !u!1 &2049289649 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1271867476041238, guid: d43ae048690693e488c33a95d6b53299,

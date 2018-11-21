@@ -19,7 +19,7 @@ public class DayNightButton : MonoBehaviour {
 
     private void Start()
     {
-        nightColor = new Color(2, 208, 255);
+        nightColor = new Color(0/255, 208/255, 255/255);
         currentState.satisfied = true;
         staffPicRefrence = gameObject.GetComponent<Image>();
         scene = GameObject.Find("SceneController").GetComponent<SceneController>();

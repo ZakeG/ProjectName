@@ -22,15 +22,12 @@ public class ReactionCollection : MonoBehaviour
     private AudioSource audioSource;
     private Texture2D[] tempIntList;
     private Texture2D cursorIneracting;
-    private float reactionLength;
-    private float reactionLengthCheck;
     private Texture2D cursorArrow;
     private CursorMode cursorMode = CursorMode.Auto;
     private Vector2 hotSpot = Vector2.zero;
 
     private void Start ()
     {
-        reactionLengthCheck = 0;
         tempIntList = Resources.FindObjectsOfTypeAll<Texture2D>();
         foreach (Texture2D t in tempIntList)
         {
@@ -45,8 +42,6 @@ public class ReactionCollection : MonoBehaviour
         }
         audioSource = GameObject.Find("VO").GetComponent<AudioSource>();
         playerMovementScript = GameObject.Find("Player").GetComponent<PlayerMovement>();
-        reactionsStarted = false;
-        reactionLength = 0;
         for (int i = 0; i < reactions.Length; i++)
         {
             DelayedReaction delayedReaction = reactions[i] as DelayedReaction;

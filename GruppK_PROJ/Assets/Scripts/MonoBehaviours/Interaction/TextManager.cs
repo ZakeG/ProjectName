@@ -80,8 +80,7 @@ public class TextManager : MonoBehaviour
 
     }
     private void DialougeStopped()
-    {
-        background.SetActive(false);
+    { 
 
         dialugeStarted = false;
         instructions.Clear();
@@ -89,6 +88,7 @@ public class TextManager : MonoBehaviour
     }
     private void DialougeStopping()
     {
+        background.SetActive(false);
         text.text = string.Empty;
     }
 

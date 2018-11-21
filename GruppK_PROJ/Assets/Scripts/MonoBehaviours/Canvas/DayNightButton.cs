@@ -136,6 +136,7 @@ public class DayNightButton : MonoBehaviour {
         else
         {
             staffPicRefrence.color = Color.blue;
+            //02D0FF
         }
     }
 

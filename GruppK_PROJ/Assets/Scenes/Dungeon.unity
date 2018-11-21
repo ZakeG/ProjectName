@@ -500,6 +500,10 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: b36a8ff34bc074245997b5d486e9958f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b36a8ff34bc074245997b5d486e9958f, type: 3}
   m_IsPrefabAsset: 0
@@ -742,6 +746,10 @@ Prefab:
     - target: {fileID: 4088149040394140, guid: d43ae048690693e488c33a95d6b53299, type: 2}
       propertyPath: m_RootOrder
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1509475594083270, guid: d43ae048690693e488c33a95d6b53299, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d43ae048690693e488c33a95d6b53299, type: 2}
@@ -2361,6 +2369,7 @@ MonoBehaviour:
   - {fileID: 1126780846}
   - {fileID: 135994203}
   - {fileID: 1899929117}
+  - {fileID: 1143716456}
 --- !u!1001 &270839374
 Prefab:
   m_ObjectHideFlags: 0
@@ -17943,7 +17952,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 491826, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 0.309
+      value: 0.317
       objectReference: {fileID: 0}
     - target: {fileID: 491826, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalPosition.y
@@ -18198,7 +18207,7 @@ Prefab:
       objectReference: {fileID: 1565818223}
     - target: {fileID: 491826, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -1.337
+      value: -2.841
       objectReference: {fileID: 0}
     - target: {fileID: 491826, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalRotation.x
@@ -18222,7 +18231,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 491826, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 0.373
+      value: 2.63
       objectReference: {fileID: 0}
     - target: {fileID: 491826, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalPosition.x
@@ -25623,7 +25632,8 @@ MonoBehaviour:
   smoothing: 7
   offset: {x: 0, y: 0.01, z: 400}
   playerPosition: {fileID: 60106104}
-  CameraOptionCondition: {fileID: 0}
+  CameraOptionCondition: {fileID: 114760183064950580, guid: fd02464d008c790478d9826aba7c7847,
+    type: 2}
 --- !u!1001 &868378663
 Prefab:
   m_ObjectHideFlags: 0
@@ -36466,7 +36476,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 0
+  order: 1
   gameObject: {fileID: 1120405513}
   activeState: 0
   isAffectedByStaff: 0
@@ -37483,7 +37493,7 @@ MonoBehaviour:
   description: New condition collection
   requiredConditions:
   - {fileID: 1510414366}
-  reactionCollection: {fileID: 0}
+  reactionCollection: {fileID: 124866872}
 --- !u!114 &1061385189
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38774,6 +38784,10 @@ Prefab:
       propertyPath: conditionCollections.Array.data[0]
       value: 
       objectReference: {fileID: 20185692}
+    - target: {fileID: 194222, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
   m_IsPrefabAsset: 0
@@ -39052,6 +39066,21 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd3ddf9b352277d45bb2499d1ee1f90b, type: 3}
   m_IsPrefabAsset: 0
+--- !u!114 &1143716456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 1
+  gameObject: {fileID: 337479888}
+  activeState: 0
+  isAffectedByStaff: 0
 --- !u!4 &1144066543 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: ce2e4fc2901d31042953152ecfc70d64,
@@ -39294,7 +39323,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1172912555}
   m_Layer: 0
-  m_Name: DragonFire
+  m_Name: DragonFireQuest
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -40375,9 +40404,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  description: HasGhostNecklace
+  description: ChestPickedUp
   satisfied: 1
-  hash: -1890146842
+  hash: 1337608849
 --- !u!1001 &1233919563
 Prefab:
   m_ObjectHideFlags: 0
@@ -48782,9 +48811,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  description: GhostStartDialouge
-  satisfied: 0
-  hash: -1389821292
+  description: ChestPickedUp
+  satisfied: 1
+  hash: 1337608849
 --- !u!1 &1510560326
 GameObject:
   m_ObjectHideFlags: 0
@@ -50110,7 +50139,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1606045960}
   m_Layer: 0
-  m_Name: Ghost
+  m_Name: GhostQuest
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -51774,7 +51803,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 491826, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalRotation.y
-      value: -0.8347875
+      value: -0.99961746
       objectReference: {fileID: 0}
     - target: {fileID: 491826, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalRotation.z
@@ -51782,19 +51811,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 491826, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalRotation.w
-      value: 0.5505724
+      value: 0.02765922
       objectReference: {fileID: 0}
     - target: {fileID: 491826, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -113.187004
+      value: -176.83
       objectReference: {fileID: 0}
     - target: {fileID: 491826, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 0.213
+      value: 0.205
       objectReference: {fileID: 0}
     - target: {fileID: 491826, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 0.904
+      value: 0.81
       objectReference: {fileID: 0}
     - target: {fileID: 491826, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalPosition.y
@@ -51870,7 +51899,8 @@ MonoBehaviour:
   smoothing: 7
   offset: {x: 0, y: 0.01, z: 400}
   playerPosition: {fileID: 60106104}
-  CameraOptionCondition: {fileID: 0}
+  CameraOptionCondition: {fileID: 114760183064950580, guid: fd02464d008c790478d9826aba7c7847,
+    type: 2}
 --- !u!4 &1798163925 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: e01b4038a41493d47af48842f8c0f119,
@@ -52031,7 +52061,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b804958e1981f9544989d65e32719692, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 0
+  order: 1
   item: {fileID: 11400000, guid: 02e440468402cfd41993bc6e7b045ed2, type: 2}
 --- !u!1001 &1842284992
 Prefab:
@@ -52982,8 +53012,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 1
-  gameObject: {fileID: 337479888}
-  activeState: 0
+  gameObject: {fileID: 1120405513}
+  activeState: 1
   isAffectedByStaff: 0
 --- !u!114 &1901729515
 MonoBehaviour:
@@ -55368,9 +55398,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  description: HasMelon
+  description: MelonPickedUp
   satisfied: 1
-  hash: -1709921099
+  hash: 1422053571
 --- !u!1001 &2008033546
 Prefab:
   m_ObjectHideFlags: 0
@@ -57181,7 +57211,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 0
+  order: 1
   gameObject: {fileID: 2054542866}
   activeState: 0
   isAffectedByStaff: 0

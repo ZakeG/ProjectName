@@ -28,6 +28,7 @@ public class DayNightButton : MonoBehaviour {
     public void OnClick()
     {
         ToggleLights();
+        CheckIcon();
     }
 
     public void UpdateLightList()
@@ -35,7 +36,17 @@ public class DayNightButton : MonoBehaviour {
         HandleDayObjects(currentSceneLightContainer.GetDayList());
         HandleNightObjects(currentSceneLightContainer.GetNightList());
     }
-
+    private void CheckIcon()
+    {
+        if (currentState.satisfied)
+        {
+            staffPicRefrence.color = Color.white;
+        }
+        else
+        {
+            staffPicRefrence.color = Color.blue;
+        }
+    }
     private void HandleDayObjects(List<GameObject> list)
     {
         DayObjectsFromScene.Clear();
@@ -129,14 +140,7 @@ public class DayNightButton : MonoBehaviour {
 
     private void ToggleLights()
     {
-        if (currentState.satisfied)
-        {
-            staffPicRefrence.color = Color.white;
-        }
-        else
-        {
-            staffPicRefrence.color = Color.blue;
-        }
+
         currentState.satisfied = !currentState.satisfied;
         foreach (GameObject go in DayObjectsFromScene)
         {

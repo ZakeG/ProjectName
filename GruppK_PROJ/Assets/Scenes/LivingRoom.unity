@@ -10773,6 +10773,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item: {fileID: 11400000, guid: 626583949c79b3c4eb8aa779a134a40b, type: 2}
+--- !u!114 &269667595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: The clam closed as i picked it up!...I should find a way to open it ...I
+    need that pearl...
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
+  order: 1
 --- !u!1001 &270571301
 Prefab:
   m_ObjectHideFlags: 0
@@ -20513,21 +20528,6 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2a29b740fd0c494e85790327f935fe3, type: 3}
   m_IsPrefabAsset: 0
---- !u!114 &484803145
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  order: 1
-  gameObject: {fileID: 582259196}
-  activeState: 0
-  isAffectedByStaff: 0
 --- !u!1001 &488153777
 Prefab:
   m_ObjectHideFlags: 0
@@ -38710,6 +38710,21 @@ MonoBehaviour:
 '
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
+--- !u!114 &967724206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 1
+  gameObject: {fileID: 582259196}
+  activeState: 0
+  isAffectedByStaff: 0
 --- !u!1001 &968680091
 Prefab:
   m_ObjectHideFlags: 0
@@ -79043,21 +79058,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 1797145531}
---- !u!114 &1797981394
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  order: 0
-  gameObject: {fileID: 472629804}
-  activeState: 1
-  isAffectedByStaff: 0
 --- !u!1001 &1799537462
 Prefab:
   m_ObjectHideFlags: 0
@@ -80639,10 +80639,10 @@ MonoBehaviour:
   reactions:
   - {fileID: 221380387}
   - {fileID: 1542206516}
-  - {fileID: 1797981394}
   - {fileID: 1544075840}
   - {fileID: 1150436129}
-  - {fileID: 484803145}
+  - {fileID: 269667595}
+  - {fileID: 967724206}
 --- !u!1001 &1879013673
 Prefab:
   m_ObjectHideFlags: 0

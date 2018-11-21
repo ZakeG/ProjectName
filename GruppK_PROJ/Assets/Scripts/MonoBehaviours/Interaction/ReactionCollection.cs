@@ -20,6 +20,7 @@ public class ReactionCollection : MonoBehaviour
     private bool reactionsStarted;
     private int reactionOrderNumber;
 
+    private AudioSource audioSource;
     private Texture2D[] tempIntList;
     private Texture2D cursorIneracting;
     private Texture2D cursorArrow;
@@ -40,6 +41,7 @@ public class ReactionCollection : MonoBehaviour
                 cursorArrow = t;
             }
         }
+
         playerMovementScript = GameObject.Find("Player").GetComponent<PlayerMovement>();
         reactionsStarted = false;
         for (int i = 0; i < reactions.Length; i++)

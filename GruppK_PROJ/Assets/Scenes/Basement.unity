@@ -140,7 +140,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a1a9400b6609fb4aba06d78b45ca76c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingPointName: BasementStartPoint
+  startingPointName: BasementStartPoint2
 --- !u!4 &7242613
 Transform:
   m_ObjectHideFlags: 0

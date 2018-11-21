@@ -41,7 +41,7 @@ public class ReactionCollection : MonoBehaviour
                 cursorArrow = t;
             }
         }
-        audioSource = GameObject.Find("FX").GetComponent<AudioSource>();
+        audioSource = GameObject.Find("VO").GetComponent<AudioSource>();
         playerMovementScript = GameObject.Find("Player").GetComponent<PlayerMovement>();
         reactionsStarted = false;
         for (int i = 0; i < reactions.Length; i++)

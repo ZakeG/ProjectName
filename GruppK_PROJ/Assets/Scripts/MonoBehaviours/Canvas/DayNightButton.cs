@@ -115,8 +115,9 @@ public class DayNightButton : MonoBehaviour {
         {
             StartCoroutine(GracePeriod());
         }
- 
+        
         CheckLights();
+        CheckIcon();
     }
 
     IEnumerator GracePeriod()
@@ -126,8 +127,7 @@ public class DayNightButton : MonoBehaviour {
         HandleNightObjects(currentSceneLightContainer.GetNightList());
     }
 
-
-    private void ToggleLights()
+    private void CheckIcon()
     {
         if (currentState.satisfied)
         {
@@ -137,15 +137,13 @@ public class DayNightButton : MonoBehaviour {
         {
             staffPicRefrence.color = Color.blue;
         }
+    }
+
+    private void ToggleLights()
+    {
         currentState.satisfied = !currentState.satisfied;
-        foreach (GameObject go in DayObjectsFromScene)
-        {
-                go.SetActive(currentState.satisfied);
-        }
-        foreach (GameObject go in NightObjectsFromScene)
-        {
-                go.SetActive(!currentState.satisfied);
-        }
+        CheckLights();
+        CheckIcon();
     }
 
 }

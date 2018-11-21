@@ -2325,7 +2325,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 1
-  item: {fileID: 0}
+  item: {fileID: 11400000, guid: c5c7afb191156884489d590e83733ab7, type: 2}
 --- !u!114 &97275093
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56518,9 +56518,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: '
-
-    The third ingredient the wizard asked for is a golden apple. '
+  message: 'The third ingredient the wizard asked for is a golden apple. '
 --- !u!1001 &1302295935
 Prefab:
   m_ObjectHideFlags: 0

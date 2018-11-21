@@ -22,6 +22,7 @@ public class TextManager : MonoBehaviour
     private int messageNumber;
     private Texture2D[] tempIntList;
     private Texture2D cursorArrow;
+    private Texture2D cursorIneracting;
     private CursorMode cursorMode = CursorMode.Auto;
     private Vector2 hotSpot = Vector2.zero;
 
@@ -33,6 +34,10 @@ public class TextManager : MonoBehaviour
             if (t.name == "pointer_walk")
             {
                 cursorArrow = t;
+            }
+            if (t.name == "pointer_talk")
+            {
+                cursorIneracting = t;
             }
         }
         playerMovementScript = GameObject.Find("Player").GetComponent<PlayerMovement>();
@@ -87,6 +92,7 @@ public class TextManager : MonoBehaviour
 
     private void DialougeStarted()
     {
+        Cursor.SetCursor(cursorIneracting, hotSpot, cursorMode);
         dialugeStarted = true;
         playerMovementScript.PauseUnpauseDialouge(true);
         text.text = instructions[0].message;

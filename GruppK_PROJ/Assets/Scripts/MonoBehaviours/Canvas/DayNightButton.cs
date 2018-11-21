@@ -15,9 +15,11 @@ public class DayNightButton : MonoBehaviour {
     private List<GameObject> NightObjectsFromScene = new List<GameObject>();
     private Condition lightStaff;
     private StaffObjectContainer currentSceneLightContainer;
+    private Color nightColor;
 
     private void Start()
     {
+        nightColor = new Color(2, 208, 255);
         currentState.satisfied = true;
         staffPicRefrence = gameObject.GetComponent<Image>();
         scene = GameObject.Find("SceneController").GetComponent<SceneController>();
@@ -115,7 +117,6 @@ public class DayNightButton : MonoBehaviour {
         {
             StartCoroutine(GracePeriod());
         }
-        
         CheckLights();
         CheckIcon();
     }
@@ -135,8 +136,7 @@ public class DayNightButton : MonoBehaviour {
         }
         else
         {
-            staffPicRefrence.color = Color.blue;
-            //02D0FF
+            staffPicRefrence.color = nightColor;
         }
     }
 

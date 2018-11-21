@@ -41,7 +41,7 @@ public class ReactionCollection : MonoBehaviour
                 cursorArrow = t;
             }
         }
-
+        audioSource = GameObject.Find("FX").GetComponent<AudioSource>();
         playerMovementScript = GameObject.Find("Player").GetComponent<PlayerMovement>();
         reactionsStarted = false;
         for (int i = 0; i < reactions.Length; i++)
@@ -150,6 +150,7 @@ public class ReactionCollection : MonoBehaviour
     }
     private void ReactionsAlmostFinished()
     {
+        audioSource.Stop();
         Cursor.SetCursor(cursorArrow, hotSpot, cursorMode); 
     }
 

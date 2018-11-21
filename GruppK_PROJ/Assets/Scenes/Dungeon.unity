@@ -15678,7 +15678,7 @@ Prefab:
         type: 2}
       propertyPath: NightObjects.Array.data[3]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 937239094}
     - target: {fileID: 1356272589219820, guid: 39c30be837462024b8c879ec1cd59900, type: 2}
       propertyPath: m_TagString
       value: LightsList
@@ -30973,7 +30973,7 @@ Prefab:
       objectReference: {fileID: 210763421}
     - target: {fileID: 194222, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalScale.z

@@ -19,16 +19,18 @@ public class ReactionCollection : MonoBehaviour
     private PlayerMovement playerMovementScript;
     private bool reactionsStarted;
     private int reactionOrderNumber;
-
     private AudioSource audioSource;
     private Texture2D[] tempIntList;
     private Texture2D cursorIneracting;
+    private float reactionLength;
+    private float reactionLengthCheck;
     private Texture2D cursorArrow;
     private CursorMode cursorMode = CursorMode.Auto;
     private Vector2 hotSpot = Vector2.zero;
 
     private void Start ()
     {
+        reactionLengthCheck = 0;
         tempIntList = Resources.FindObjectsOfTypeAll<Texture2D>();
         foreach (Texture2D t in tempIntList)
         {
@@ -44,13 +46,13 @@ public class ReactionCollection : MonoBehaviour
         audioSource = GameObject.Find("VO").GetComponent<AudioSource>();
         playerMovementScript = GameObject.Find("Player").GetComponent<PlayerMovement>();
         reactionsStarted = false;
+        reactionLength = 0;
         for (int i = 0; i < reactions.Length; i++)
         {
             DelayedReaction delayedReaction = reactions[i] as DelayedReaction;
 
             if (delayedReaction && delayedReaction is AudioReaction)
             {
-                float o = delayedReaction.order;
                 if (delayedReaction.order == 0)
                 {
                     delayedReaction.Init();
@@ -61,7 +63,7 @@ public class ReactionCollection : MonoBehaviour
                     delayedReaction.Init();
                     ManageDelayedReactions(delayedReaction, (delayedReaction.order-1));
                 }
-            }
+            } 
             else if (delayedReaction)
             {
                 delayedReaction.Init();
@@ -82,15 +84,15 @@ public class ReactionCollection : MonoBehaviour
         {
             if (Input.GetButtonDown("Fire1"))
             {
-                if (reactionOrderNumber < reactions.Length)
+                if (reactionOrderNumber < instructions.Count)
                 {
                     RunNextReactions();
                 }
-                else if(reactionOrderNumber == reactions.Length)
+                else if(reactionOrderNumber == instructions.Count)
                 {
                     ReactionsAlmostFinished();
                 }
-                else if (reactionOrderNumber > reactions.Length)
+                else if (reactionOrderNumber > instructions.Count)
                 {
                     ReactionsFinished();
                     return;
@@ -101,6 +103,7 @@ public class ReactionCollection : MonoBehaviour
     }
     public void ManageDelayedReactions(Reaction reaction, float displayOrder)
     {
+
         Instruction newInstruction = new Instruction
         {
             reaction = reaction,
@@ -141,11 +144,11 @@ public class ReactionCollection : MonoBehaviour
     private void StartReactions()
     {
         Cursor.SetCursor(cursorIneracting, hotSpot, cursorMode);
-        reactionsStarted = true;
         playerMovementScript.PauseUnpauseReaction(true);
+        reactionOrderNumber = 0;
         RunAllImmidiateReactions();
         RunNextReactions();
-        reactionOrderNumber = 1;
+        reactionOrderNumber++;
 
     }
     private void ReactionsAlmostFinished()
@@ -155,13 +158,14 @@ public class ReactionCollection : MonoBehaviour
     }
 
     private void ReactionsFinished()
-    {
+    {   
         reactionsStarted = false;
         playerMovementScript.PauseUnpauseReaction(false);
     }
     
     public void React ()
     {
+        reactionsStarted = true;
         StartReactions();
     }
 

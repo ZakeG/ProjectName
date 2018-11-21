@@ -8,6 +8,7 @@ public class QuestLogReaction : Reaction
 
     protected override void SpecificInit()
     {
+        Debug.Log("Message som kommer att visas i denna scen: \n" + message);
         questTextManager = FindObjectOfType<BookTextHandler>();
     }
 

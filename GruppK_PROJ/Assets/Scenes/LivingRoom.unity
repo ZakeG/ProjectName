@@ -57124,7 +57124,6 @@ GameObject:
   - component: {fileID: 1327138253}
   - component: {fileID: 1327138267}
   - component: {fileID: 1327138266}
-  - component: {fileID: 1327138265}
   - component: {fileID: 1327138264}
   - component: {fileID: 1327138263}
   - component: {fileID: 1327138262}
@@ -57333,20 +57332,6 @@ MonoBehaviour:
   uniqueIdentifier: lock_pick
   saveData: {fileID: 11400000, guid: d4fe277f5ebf1e5488c85d41a691249b, type: 2}
   gameObjectToSave: {fileID: 969610100}
---- !u!114 &1327138265
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1327138252}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f29b6054d4e0304f8b32fb4625cff19, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  uniqueIdentifier: closed_clam
-  saveData: {fileID: 11400000, guid: d4fe277f5ebf1e5488c85d41a691249b, type: 2}
-  gameObjectToSave: {fileID: 0}
 --- !u!114 &1327138266
 MonoBehaviour:
   m_ObjectHideFlags: 0

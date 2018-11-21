@@ -54005,6 +54005,11 @@ Prefab:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114166202235227262, guid: 05aa8aaac0a0631499d26b9159213d95,
+        type: 2}
+      propertyPath: moveCamera
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 05aa8aaac0a0631499d26b9159213d95, type: 2}
   m_IsPrefabAsset: 0

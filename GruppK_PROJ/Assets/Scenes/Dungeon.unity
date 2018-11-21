@@ -2369,6 +2369,7 @@ MonoBehaviour:
   - {fileID: 1126780846}
   - {fileID: 135994203}
   - {fileID: 1899929117}
+  - {fileID: 1143716456}
 --- !u!1001 &270839374
 Prefab:
   m_ObjectHideFlags: 0
@@ -17951,7 +17952,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 491826, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 0.309
+      value: 0.317
       objectReference: {fileID: 0}
     - target: {fileID: 491826, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalPosition.y
@@ -36475,7 +36476,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 0
+  order: 1
   gameObject: {fileID: 1120405513}
   activeState: 0
   isAffectedByStaff: 0
@@ -38783,6 +38784,10 @@ Prefab:
       propertyPath: conditionCollections.Array.data[0]
       value: 
       objectReference: {fileID: 20185692}
+    - target: {fileID: 194222, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
   m_IsPrefabAsset: 0
@@ -39061,6 +39066,21 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd3ddf9b352277d45bb2499d1ee1f90b, type: 3}
   m_IsPrefabAsset: 0
+--- !u!114 &1143716456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 1
+  gameObject: {fileID: 337479888}
+  activeState: 0
+  isAffectedByStaff: 0
 --- !u!4 &1144066543 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: ce2e4fc2901d31042953152ecfc70d64,
@@ -51783,7 +51803,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 491826, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalRotation.y
-      value: -0.8347875
+      value: -0.99961746
       objectReference: {fileID: 0}
     - target: {fileID: 491826, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalRotation.z
@@ -51791,19 +51811,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 491826, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalRotation.w
-      value: 0.5505724
+      value: 0.02765922
       objectReference: {fileID: 0}
     - target: {fileID: 491826, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -113.187004
+      value: -176.83
       objectReference: {fileID: 0}
     - target: {fileID: 491826, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 0.213
+      value: 0.205
       objectReference: {fileID: 0}
     - target: {fileID: 491826, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 0.904
+      value: 0.81
       objectReference: {fileID: 0}
     - target: {fileID: 491826, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalPosition.y
@@ -52041,7 +52061,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b804958e1981f9544989d65e32719692, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 0
+  order: 1
   item: {fileID: 11400000, guid: 02e440468402cfd41993bc6e7b045ed2, type: 2}
 --- !u!1001 &1842284992
 Prefab:
@@ -52992,8 +53012,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 1
-  gameObject: {fileID: 337479888}
-  activeState: 0
+  gameObject: {fileID: 1120405513}
+  activeState: 1
   isAffectedByStaff: 0
 --- !u!114 &1901729515
 MonoBehaviour:
@@ -55378,9 +55398,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  description: HasMelon
+  description: MelonPickedUp
   satisfied: 1
-  hash: -1709921099
+  hash: 1422053571
 --- !u!1001 &2008033546
 Prefab:
   m_ObjectHideFlags: 0
@@ -57191,7 +57211,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 0
+  order: 1
   gameObject: {fileID: 2054542866}
   activeState: 0
   isAffectedByStaff: 0

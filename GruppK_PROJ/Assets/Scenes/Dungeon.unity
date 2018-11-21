@@ -500,10 +500,6 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 100002, guid: b36a8ff34bc074245997b5d486e9958f, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b36a8ff34bc074245997b5d486e9958f, type: 3}
   m_IsPrefabAsset: 0
@@ -746,10 +742,6 @@ Prefab:
     - target: {fileID: 4088149040394140, guid: d43ae048690693e488c33a95d6b53299, type: 2}
       propertyPath: m_RootOrder
       value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 1509475594083270, guid: d43ae048690693e488c33a95d6b53299, type: 2}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d43ae048690693e488c33a95d6b53299, type: 2}
@@ -18206,7 +18198,7 @@ Prefab:
       objectReference: {fileID: 1565818223}
     - target: {fileID: 491826, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -2.841
+      value: -1.337
       objectReference: {fileID: 0}
     - target: {fileID: 491826, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalRotation.x
@@ -18230,7 +18222,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 491826, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 2.63
+      value: 0.373
       objectReference: {fileID: 0}
     - target: {fileID: 491826, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalPosition.x
@@ -25631,8 +25623,7 @@ MonoBehaviour:
   smoothing: 7
   offset: {x: 0, y: 0.01, z: 400}
   playerPosition: {fileID: 60106104}
-  CameraOptionCondition: {fileID: 114760183064950580, guid: fd02464d008c790478d9826aba7c7847,
-    type: 2}
+  CameraOptionCondition: {fileID: 0}
 --- !u!1001 &868378663
 Prefab:
   m_ObjectHideFlags: 0
@@ -37492,7 +37483,7 @@ MonoBehaviour:
   description: New condition collection
   requiredConditions:
   - {fileID: 1510414366}
-  reactionCollection: {fileID: 124866872}
+  reactionCollection: {fileID: 0}
 --- !u!114 &1061385189
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39303,7 +39294,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1172912555}
   m_Layer: 0
-  m_Name: DragonFireQuest
+  m_Name: DragonFire
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -40384,9 +40375,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  description: ChestPickedUp
+  description: HasGhostNecklace
   satisfied: 1
-  hash: 1337608849
+  hash: -1890146842
 --- !u!1001 &1233919563
 Prefab:
   m_ObjectHideFlags: 0
@@ -48791,9 +48782,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  description: ChestPickedUp
-  satisfied: 1
-  hash: 1337608849
+  description: GhostStartDialouge
+  satisfied: 0
+  hash: -1389821292
 --- !u!1 &1510560326
 GameObject:
   m_ObjectHideFlags: 0
@@ -50119,7 +50110,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1606045960}
   m_Layer: 0
-  m_Name: GhostQuest
+  m_Name: Ghost
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -51879,8 +51870,7 @@ MonoBehaviour:
   smoothing: 7
   offset: {x: 0, y: 0.01, z: 400}
   playerPosition: {fileID: 60106104}
-  CameraOptionCondition: {fileID: 114760183064950580, guid: fd02464d008c790478d9826aba7c7847,
-    type: 2}
+  CameraOptionCondition: {fileID: 0}
 --- !u!4 &1798163925 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: e01b4038a41493d47af48842f8c0f119,

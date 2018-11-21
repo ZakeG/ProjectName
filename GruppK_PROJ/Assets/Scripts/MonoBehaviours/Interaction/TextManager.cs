@@ -15,52 +15,33 @@ public class TextManager : MonoBehaviour
     public Text text;
     public GameObject background;
 
-
     private PlayerMovement playerMovementScript;
-    private List<Instruction> instructions = new List<Instruction>();
+    private List<Instruction> instructions = new List<Instruction> ();
     private bool dialugeStarted;
     private int messageNumber;
-    private Texture2D[] tempIntList;
-    private Texture2D cursorArrow;
-    private Texture2D cursorIneracting;
-    private CursorMode cursorMode = CursorMode.Auto;
-    private Vector2 hotSpot = Vector2.zero;
 
     private void Start()
     {
-        tempIntList = Resources.FindObjectsOfTypeAll<Texture2D>();
-        foreach (Texture2D t in tempIntList)
-        {
-            if (t.name == "pointer_walk")
-            {
-                cursorArrow = t;
-            }
-            if (t.name == "pointer_talk")
-            {
-                cursorIneracting = t;
-            }
-        }
         playerMovementScript = GameObject.Find("Player").GetComponent<PlayerMovement>();
         text.text = string.Empty;
         dialugeStarted = false;
     }
 
-    private void Update()
+    private void Update ()
     {
-        if (dialugeStarted)
-        {
+        if (dialugeStarted) {
             if (Input.GetButtonDown("Fire1"))
             {
                 if (messageNumber < instructions.Count)
                 {
                     ShowNextMessage();
-
+                    
                 }
                 else if (messageNumber == instructions.Count)
                 {
                     DialougeStopping();
                 }
-                else if (messageNumber > instructions.Count)
+                else if(messageNumber > instructions.Count)
                 {
                     DialougeStopped();
                     return;
@@ -83,8 +64,7 @@ public class TextManager : MonoBehaviour
         instructions.Add(newInstruction);
         SortInstructions();
 
-        if (!dialugeStarted)
-        {
+        if (!dialugeStarted) {
             DialougeStarted();
         }
 
@@ -92,7 +72,6 @@ public class TextManager : MonoBehaviour
 
     private void DialougeStarted()
     {
-        Cursor.SetCursor(cursorIneracting, hotSpot, cursorMode);
         dialugeStarted = true;
         playerMovementScript.PauseUnpauseDialouge(true);
         text.text = instructions[0].message;
@@ -102,14 +81,14 @@ public class TextManager : MonoBehaviour
     }
     private void DialougeStopped()
     {
+        background.SetActive(false);
+
         dialugeStarted = false;
         instructions.Clear();
         playerMovementScript.PauseUnpauseDialouge(false);
     }
     private void DialougeStopping()
     {
-        Cursor.SetCursor(cursorArrow, hotSpot, cursorMode);
-        background.SetActive(false);
         text.text = string.Empty;
     }
 
@@ -119,7 +98,7 @@ public class TextManager : MonoBehaviour
         text.color = instructions[messageNumber].textColor;
     }
 
-    private void SortInstructions()
+    private void SortInstructions ()
     {
         for (int i = 0; i < instructions.Count; i++)
         {

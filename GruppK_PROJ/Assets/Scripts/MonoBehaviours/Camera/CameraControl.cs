@@ -34,6 +34,7 @@ public class CameraControl : MonoBehaviour
             mainCamera.GetComponent<ContrastEnhance>().enabled = true;
             cameraOptions = true;
         }
+        Debug.Log("OptionsDisabled: " + cameraOptions);
         fov = mainCamera.fieldOfView;
         if (!moveCamera)
             yield break;

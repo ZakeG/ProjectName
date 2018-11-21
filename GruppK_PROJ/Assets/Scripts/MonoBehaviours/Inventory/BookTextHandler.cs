@@ -20,7 +20,7 @@ public class BookTextHandler : MonoBehaviour {
     private string textToAdd;
     private int workingOnPage;
 
-    private const int maxCharacterCount = 300;
+    private const int maxCharacterCount = 500;
     private const int line = 43;
 
     public struct Page

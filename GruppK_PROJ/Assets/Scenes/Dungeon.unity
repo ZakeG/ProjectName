@@ -963,6 +963,20 @@ MonoBehaviour:
   gameObject: {fileID: 681392047}
   activeState: 1
   isAffectedByStaff: 0
+--- !u!114 &89038046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2392585f8a4e53a42a0ddc8de25e64d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 5
+  audioSource: {fileID: 955229213}
+  audioClip: {fileID: 0}
 --- !u!1001 &95231270
 Prefab:
   m_ObjectHideFlags: 0
@@ -2164,7 +2178,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: '.....'
   textColor: {r: 1, g: 0.023529412, b: 0.023529412, a: 1}
-  order: 0
+  order: 6
 --- !u!1 &257482223
 GameObject:
   m_ObjectHideFlags: 0
@@ -2652,6 +2666,20 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &278080852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2392585f8a4e53a42a0ddc8de25e64d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 2
+  audioSource: {fileID: 955229213}
+  audioClip: {fileID: 0}
 --- !u!4 &291888148 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: ce2e4fc2901d31042953152ecfc70d64,
@@ -10025,6 +10053,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400016, guid: d0ab0a3b389647043b994a97b7dc8f8b,
     type: 3}
   m_PrefabInternal: {fileID: 446950018}
+--- !u!114 &447406266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2392585f8a4e53a42a0ddc8de25e64d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 3
+  audioSource: {fileID: 955229213}
+  audioClip: {fileID: 0}
 --- !u!114 &450200949
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16046,6 +16088,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 2b697a4ce70c6a447b3e68018c2194fe,
     type: 3}
   m_PrefabInternal: {fileID: 563147151}
+--- !u!114 &567823771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2392585f8a4e53a42a0ddc8de25e64d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 0
+  audioSource: {fileID: 955229213}
+  audioClip: {fileID: 0}
 --- !u!1001 &571876665
 Prefab:
   m_ObjectHideFlags: 0
@@ -37483,6 +37539,20 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fa79f91e261822d45a10e39a7e4b3f2a, type: 3}
   m_IsPrefabAsset: 0
+--- !u!114 &1087987030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2392585f8a4e53a42a0ddc8de25e64d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 7
+  audioSource: {fileID: 955229213}
+  audioClip: {fileID: 0}
 --- !u!1001 &1089070194
 Prefab:
   m_ObjectHideFlags: 0
@@ -37973,7 +38043,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: 'Apprentice: I didn''t steal anything? What are you talking about?!'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
+  order: 2
 --- !u!114 &1097042131
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39169,7 +39239,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: Hmm...How long ago?...
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
+  order: 5
 --- !u!4 &1167304300 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: ce2e4fc2901d31042953152ecfc70d64,
@@ -41981,7 +42051,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: 'Apprentice: The gold chest I found is locked! there must be a key somewhere...'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
+  order: 7
 --- !u!1 &1349318738
 GameObject:
   m_ObjectHideFlags: 0
@@ -47867,7 +47937,7 @@ MonoBehaviour:
   message: You're not going anywhere until you've returned it to me! Where are you
     hiding it?
   textColor: {r: 1, g: 0.023529412, b: 0.023529412, a: 1}
-  order: 0
+  order: 1
 --- !u!1 &1457780682
 GameObject:
   m_ObjectHideFlags: 0
@@ -50144,6 +50214,20 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1632304116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2392585f8a4e53a42a0ddc8de25e64d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 1
+  audioSource: {fileID: 955229213}
+  audioClip: {fileID: 0}
 --- !u!114 &1634330058
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50171,7 +50255,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: 'My necklace! I put it in a small chest for safe keeping a long time ago.. '
   textColor: {r: 1, g: 0.023529412, b: 0.023529412, a: 1}
-  order: 0
+  order: 3
 --- !u!1001 &1652682571
 Prefab:
   m_ObjectHideFlags: 0
@@ -51794,6 +51878,13 @@ MonoBehaviour:
   - {fileID: 1342763738}
   - {fileID: 2132410181}
   - {fileID: 1559417581}
+  - {fileID: 567823771}
+  - {fileID: 1632304116}
+  - {fileID: 278080852}
+  - {fileID: 447406266}
+  - {fileID: 2014775486}
+  - {fileID: 89038046}
+  - {fileID: 1087987030}
 --- !u!1 &1785639375
 GameObject:
   m_ObjectHideFlags: 0
@@ -54652,7 +54743,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: and now it's nowhere to be seen!
   textColor: {r: 1, g: 0.023529412, b: 0.023529412, a: 1}
-  order: 0
+  order: 4
 --- !u!1001 &1974507352
 Prefab:
   m_ObjectHideFlags: 0
@@ -55618,6 +55709,20 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d152a9f6b790fe2428a76335c33bb0e8, type: 3}
   m_IsPrefabAsset: 0
+--- !u!114 &2014775486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2392585f8a4e53a42a0ddc8de25e64d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 4
+  audioSource: {fileID: 955229213}
+  audioClip: {fileID: 0}
 --- !u!1001 &2022602490
 Prefab:
   m_ObjectHideFlags: 0

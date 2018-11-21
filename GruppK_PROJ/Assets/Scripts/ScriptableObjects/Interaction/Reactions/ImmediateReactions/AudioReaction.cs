@@ -8,6 +8,7 @@ public class AudioReaction : DelayedReaction
 
     protected override void ImmediateReaction()
     {
+        audioSource.Stop();
         audioSource.clip = audioClip;
         audioSource.Play();
     }

@@ -8865,7 +8865,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &178014250
 Prefab:
@@ -28434,7 +28434,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a1a9400b6609fb4aba06d78b45ca76c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingPointName: LivingRoomStartPoint
+  startingPointName: LivingRoomStartPoint2
 --- !u!4 &686021490
 Transform:
   m_ObjectHideFlags: 0
@@ -94303,7 +94303,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 22402318, guid: bd26dac15723bf047941895f28e6c242, type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 22402318, guid: bd26dac15723bf047941895f28e6c242, type: 2}
       propertyPath: m_LocalPosition.x
@@ -94335,7 +94335,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22402318, guid: bd26dac15723bf047941895f28e6c242, type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 22402318, guid: bd26dac15723bf047941895f28e6c242, type: 2}
       propertyPath: m_AnchoredPosition.x

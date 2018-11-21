@@ -1780,7 +1780,7 @@ GameObject:
   - component: {fileID: 1581495544}
   m_Layer: 5
   m_Name: BookText0
-  m_TagString: Untagged
+  m_TagString: QuestText0
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1873,7 +1873,7 @@ Prefab:
     - target: {fileID: 114668889576556892, guid: 4e8df035f829e804d8a25261ea8b2bcb,
         type: 2}
       propertyPath: combinations.Array.size
-      value: 12
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 224750580205128106, guid: 4e8df035f829e804d8a25261ea8b2bcb,
         type: 2}
@@ -2371,7 +2371,7 @@ Prefab:
         type: 2}
       propertyPath: combinations.Array.data[12]
       value: 
-      objectReference: {fileID: 11400000, guid: e2904a1734f06d54fafd51a6cd5b6242,
+      objectReference: {fileID: 11400000, guid: b3a3fe7cb46732d4089a1f5e51d5a896,
         type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e8df035f829e804d8a25261ea8b2bcb, type: 2}

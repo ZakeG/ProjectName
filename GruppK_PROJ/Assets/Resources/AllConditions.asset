@@ -112,6 +112,7 @@ MonoBehaviour:
   - {fileID: 114488299505747108}
   - {fileID: 114760183064950580}
   - {fileID: 114651070753806800}
+  - {fileID: 114538350656487978}
 --- !u!114 &114000264106966828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -236,7 +237,7 @@ MonoBehaviour:
   m_Name: CookingClam
   m_EditorClassIdentifier: 
   description: CookingClam
-  satisfied: 0
+  satisfied: 1
   hash: -1966002766
 --- !u!114 &114113771682078070
 MonoBehaviour:
@@ -292,7 +293,7 @@ MonoBehaviour:
   m_Name: GoldenAppleAquired
   m_EditorClassIdentifier: 
   description: GoldenAppleAquired
-  satisfied: 0
+  satisfied: 1
   hash: -228943506
 --- !u!114 &114149025891862836
 MonoBehaviour:
@@ -376,7 +377,7 @@ MonoBehaviour:
   m_Name: TreeGrown
   m_EditorClassIdentifier: 
   description: TreeGrown
-  satisfied: 0
+  satisfied: 1
   hash: 74427567
 --- !u!114 &114183364152752296
 MonoBehaviour:
@@ -418,7 +419,7 @@ MonoBehaviour:
   m_Name: DAY
   m_EditorClassIdentifier: 
   description: DAY
-  satisfied: 1
+  satisfied: 0
   hash: 1929866010
 --- !u!114 &114203895195064576
 MonoBehaviour:
@@ -558,7 +559,7 @@ MonoBehaviour:
   m_Name: GoldAppleQuestStart
   m_EditorClassIdentifier: 
   description: GoldAppleQuestStart
-  satisfied: 0
+  satisfied: 1
   hash: 1225229576
 --- !u!114 &114336684936229846
 MonoBehaviour:
@@ -586,7 +587,7 @@ MonoBehaviour:
   m_Name: CatStartDialouge
   m_EditorClassIdentifier: 
   description: CatStartDialouge
-  satisfied: 0
+  satisfied: 1
   hash: -1272552845
 --- !u!114 &114378766285203814
 MonoBehaviour:
@@ -684,7 +685,7 @@ MonoBehaviour:
   m_Name: DungeonDoorCompleted
   m_EditorClassIdentifier: 
   description: DungeonDoorCompleted
-  satisfied: 0
+  satisfied: 1
   hash: -979372824
 --- !u!114 &114434246571486556
 MonoBehaviour:
@@ -782,7 +783,7 @@ MonoBehaviour:
   m_Name: ChestPickedUp
   m_EditorClassIdentifier: 
   description: ChestPickedUp
-  satisfied: 0
+  satisfied: 1
   hash: 1337608849
 --- !u!114 &114488299505747108
 MonoBehaviour:
@@ -840,6 +841,20 @@ MonoBehaviour:
   description: HasSeeds
   satisfied: 0
   hash: -890827829
+--- !u!114 &114538350656487978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: CatKeyAcquired
+  m_EditorClassIdentifier: 
+  description: CatKeyAcquired
+  satisfied: 0
+  hash: 1808149864
 --- !u!114 &114569684155728616
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -880,7 +895,7 @@ MonoBehaviour:
   m_Name: HasMelon
   m_EditorClassIdentifier: 
   description: HasMelon
-  satisfied: 0
+  satisfied: 1
   hash: -1709921099
 --- !u!114 &114609559679950854
 MonoBehaviour:
@@ -978,7 +993,7 @@ MonoBehaviour:
   m_Name: GhostStartDialouge
   m_EditorClassIdentifier: 
   description: GhostStartDialouge
-  satisfied: 0
+  satisfied: 1
   hash: -1389821292
 --- !u!114 &114686047944968942
 MonoBehaviour:
@@ -1216,7 +1231,7 @@ MonoBehaviour:
   m_Name: HastrapDoorKey
   m_EditorClassIdentifier: 
   description: HastrapDoorKey
-  satisfied: 1
+  satisfied: 0
   hash: -1496588215
 --- !u!114 &114837129450889992
 MonoBehaviour:
@@ -1370,7 +1385,7 @@ MonoBehaviour:
   m_Name: CompletedDoorStart
   m_EditorClassIdentifier: 
   description: CompletedDoorStart
-  satisfied: 0
+  satisfied: 1
   hash: -164840168
 --- !u!114 &114893403863706380
 MonoBehaviour:
@@ -1426,7 +1441,7 @@ MonoBehaviour:
   m_Name: DungeonDoorQuestStart
   m_EditorClassIdentifier: 
   description: DungeonDoorQuestStart
-  satisfied: 0
+  satisfied: 1
   hash: 162785247
 --- !u!114 &114932029228588310
 MonoBehaviour:

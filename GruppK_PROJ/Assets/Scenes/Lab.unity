@@ -23063,9 +23063,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: "\nThe second ingredient the wizard asked of me was some tea...I\u2019d
-    better be careful not to spill any...I should collect the rest of the ingredients
-    before returning to the wizard.\n"
+  message: "The second ingredient the wizard asked of me was some tea...I\u2019d better
+    be careful not to spill any...I should collect the rest of the ingredients before
+    returning to the wizard.\n"
 --- !u!1 &629375280
 GameObject:
   m_ObjectHideFlags: 0
@@ -23879,10 +23879,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: '
-
-    You''ve created the day and night staff, it will help you see things that ONLY
-    lurks in the dark..'
+  message: You've created the day and night staff, it will help you see things that
+    ONLY lurks in the dark..
 --- !u!114 &683201377
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34004,10 +34002,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: '
-
-    1.Well..something is needed to carry the tea in..I should find a container of
-    some sort.....
+  message: '1.Well..something is needed to carry the tea in..I should find a container
+    of some sort.....
 
     2. You can''t make tea without tea..'
 --- !u!114 &1081344453

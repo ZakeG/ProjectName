@@ -40379,9 +40379,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  description: HasGhostNecklace
+  description: ChestPickedUp
   satisfied: 1
-  hash: -1890146842
+  hash: 1337608849
 --- !u!1001 &1233919563
 Prefab:
   m_ObjectHideFlags: 0

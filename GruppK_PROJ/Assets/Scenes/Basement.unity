@@ -6520,7 +6520,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 1
+  order: 0
   gameObject: {fileID: 525867422}
   activeState: 0
   isAffectedByStaff: 1
@@ -6810,7 +6810,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b804958e1981f9544989d65e32719692, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 1
+  order: 0
   item: {fileID: 11400000, guid: 9231a46c662f402419b949fbe1490504, type: 2}
 --- !u!1 &193189829
 GameObject:
@@ -11724,7 +11724,7 @@ Prefab:
       objectReference: {fileID: 456018235}
     - target: {fileID: 194222, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
@@ -54750,7 +54750,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: 'Apprentice: This torch could be used for carrying fire'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
+  order: 1
 --- !u!1001 &1921119000
 Prefab:
   m_ObjectHideFlags: 0

@@ -10094,7 +10094,6 @@ MonoBehaviour:
   - {fileID: 515664116}
   - {fileID: 287270393}
   - {fileID: 1972685900}
-  - {fileID: 438212328}
   - {fileID: 31990796}
 --- !u!1001 &237082324
 Prefab:
@@ -19727,20 +19726,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 437420644}
---- !u!114 &438212328
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec43236ba6522584894ac80bfbcb3815, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  condition: {fileID: 114747450403530148, guid: fd02464d008c790478d9826aba7c7847,
-    type: 2}
-  satisfied: 0
 --- !u!4 &439779872
 Transform:
   m_ObjectHideFlags: 0

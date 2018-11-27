@@ -4,36 +4,53 @@ using UnityEngine;
 
 public class DynamicCamera : MonoBehaviour {
 
-    public GameObject cameraRigObject1;
-    public GameObject cameraRigObject2;
+    public GameObject cameraRigObject;
+    public int rorationSpeed;
+    public float smoothing;
+
+    private Quaternion originalPosition;
+    private Quaternion newPosition;
+    private int direction;
+    private bool cameraRotateRight = false;
+    private bool cameraRotateLeft = false;
+    private bool cameraRotationSwitch = false;
+
+    void Start()
+    {
+        originalPosition = cameraRigObject.transform.rotation;
+        newPosition = cameraRigObject.transform.rotation;
+
+    }
+
+    void LateUpdate()
+    {
+        if (cameraRotateRight) {
+            cameraRigObject.transform.rotation = Quaternion.Slerp(cameraRigObject.transform.rotation, newPosition, Time.deltaTime * smoothing);
+        }
+        else if(cameraRotateLeft)
+        {
+            cameraRigObject.transform.rotation = Quaternion.Slerp(cameraRigObject.transform.rotation, originalPosition, Time.deltaTime * smoothing);
+        }
+
+        
+    }
 
     public void OnTriggerEnter(Collider other)
     {
-        MoveCamera();
+        RotateCamera();
     }
     public void OnTriggerExit(Collider other)
     {
-        MoveCamera();
+        RotateCamera();
+    }
+    private void SwitchDirection()
+    {
+        direction *= -1;
     }
 
-    private void MoveCamera()
+    private void RotateCamera()
     {
-        
-        if (cameraRigObject1.activeSelf)
-        {
-            cameraRigObject1.transform.GetChild(0).gameObject.SetActive(false);
-            cameraRigObject1.SetActive(false);
-            cameraRigObject2.transform.GetChild(0).gameObject.SetActive(true);
-            cameraRigObject2.SetActive(true);
-        }
-        else
-        {
-            cameraRigObject1.SetActive(true);
-            cameraRigObject1.transform.GetChild(0).gameObject.SetActive(true);
-            cameraRigObject2.SetActive(false);
-            cameraRigObject2.transform.GetChild(0).gameObject.SetActive(false);
 
-        }
     }
 
  

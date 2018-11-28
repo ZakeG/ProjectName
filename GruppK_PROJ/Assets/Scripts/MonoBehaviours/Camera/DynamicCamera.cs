@@ -1,38 +1,38 @@
-﻿using System.Collections;
+﻿using System.Linq;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class DynamicCamera : MonoBehaviour {
 
     public GameObject cameraRigObject;
+    public GameObject cameraObject;
     public int rorationSpeed;
-    public float smoothing;
 
-    private Quaternion originalPosition;
-    private Quaternion newPosition;
-    private int direction;
-    private bool cameraRotateRight = false;
-    private bool cameraRotateLeft = false;
-    private bool cameraRotationSwitch = false;
+    private int direction = 1;
+    private bool cameraRotate = false;
 
     void Start()
     {
-        originalPosition = cameraRigObject.transform.rotation;
-        newPosition = cameraRigObject.transform.rotation;
 
     }
 
-    void LateUpdate()
+    void Update()
     {
-        if (cameraRotateRight) {
-            cameraRigObject.transform.rotation = Quaternion.Slerp(cameraRigObject.transform.rotation, newPosition, Time.deltaTime * smoothing);
-        }
-        else if(cameraRotateLeft)
+        if (cameraRotate)
         {
-            cameraRigObject.transform.rotation = Quaternion.Slerp(cameraRigObject.transform.rotation, originalPosition, Time.deltaTime * smoothing);
+            cameraRigObject.transform.Rotate(Vector3.up * direction * (rorationSpeed * Time.deltaTime));
+            if (cameraRigObject.transform.eulerAngles.y >= 180)
+            {
+                SwitchDirection();
+                cameraRotate = false;
+            }
+            if (cameraRigObject.transform.eulerAngles.y <= 0)
+            {
+                SwitchDirection();
+                cameraRotate = false;
+            }
         }
-
-        
     }
 
     public void OnTriggerEnter(Collider other)
@@ -51,6 +51,11 @@ public class DynamicCamera : MonoBehaviour {
     private void RotateCamera()
     {
 
+        if (cameraRotate)
+        {
+            direction *= -1;
+        }
+        cameraRotate = true;
     }
 
  

@@ -9,8 +9,10 @@ public class CameraControl : MonoBehaviour
     public Vector3 offset = new Vector3 (0f, 1.5f, 0f); 
     public Transform playerPosition;
     public Condition CameraOptionCondition;
+
     private bool cameraOptions;
     private Camera mainCamera;
+    private Vector3 originalDir;
     private float fov;
     private const int maxFov = 60;
     private const int minFov = 10;
@@ -21,8 +23,9 @@ public class CameraControl : MonoBehaviour
     private float pitch = 0.0f;
     private bool rotating;
 
-    private IEnumerator Start ()
+    void Start ()
     {
+
         mainCamera = gameObject.GetComponentInChildren<Camera>();
         if (CameraOptionCondition.satisfied == false)
         {
@@ -35,12 +38,6 @@ public class CameraControl : MonoBehaviour
             cameraOptions = true;
         }
         fov = mainCamera.fieldOfView;
-        if (!moveCamera)
-            yield break;
-
-        yield return null;
-
-        transform.rotation = Quaternion.LookRotation(playerPosition.position - transform.position + offset);
     }
 
 
@@ -72,9 +69,12 @@ public class CameraControl : MonoBehaviour
                 {
                     rotating = true;
                 }
-                yaw += speedH * Input.GetAxis("Mouse X");
-                pitch -= speedV * Input.GetAxis("Mouse Y");
-                mainCamera.transform.eulerAngles = new Vector3(pitch, yaw, 0.0f);
+                if (rotating)
+                {
+                    yaw += speedH * Input.GetAxis("Mouse X");
+                    pitch -= speedV * Input.GetAxis("Mouse Y");
+                    mainCamera.transform.localEulerAngles = new Vector3(Mathf.Clamp(pitch, 10, 50), Mathf.Clamp(yaw, 120, 220), 0.0f);
+                }
             }
         }
     }

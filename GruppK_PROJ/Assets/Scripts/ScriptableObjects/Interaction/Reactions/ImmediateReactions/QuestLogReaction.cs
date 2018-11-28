@@ -6,6 +6,11 @@ public class QuestLogReaction : Reaction
     private BookTextHandler questTextManager;
     private BookTextHandler[] tempList;
 
+    public QuestLogReaction(string m)
+    {
+        message = m;
+    }
+
     protected override void SpecificInit()
     {
 

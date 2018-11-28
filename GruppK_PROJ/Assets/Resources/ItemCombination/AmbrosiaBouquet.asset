@@ -16,3 +16,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: e569df22ad76c844fa0cf8ea84b32618, type: 2}
   result:
   - {fileID: 11400000, guid: 4a81e6cfb88b910459e5f95825d75904, type: 2}
+  GOReactions: []
+  activeStateList: 
+  isAffectedByStaffList: 
+  QLReactions: []

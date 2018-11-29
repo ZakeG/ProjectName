@@ -20,14 +20,14 @@ public class ItemCombination : ScriptableObject
 
     private void Awake()
     {
-        if (QLReactions.Length > 0) {
+        if (QLReactions != null) {
             foreach (string s in QLReactions)
             {
                 qlrTemp = new QuestLogReaction(s);
                 questLogReactionList.Add(qlrTemp);
             }
         }
-        if (GOReactions.Length > 0)
+        if (GOReactions != null)
         {
             for(int i = 0; i > GOReactions.Length; i++ )
             {

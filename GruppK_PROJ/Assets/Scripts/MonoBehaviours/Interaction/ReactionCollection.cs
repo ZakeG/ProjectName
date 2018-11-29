@@ -16,6 +16,8 @@ public class ReactionCollection : MonoBehaviour
     private List<Instruction> immediateInstructions = new List<Instruction>();
     private List<Instruction> instructions = new List<Instruction>();
 
+    private TextManager textManager;
+    private List<Reaction> textReactions;
     private PlayerMovement playerMovementScript;
     private bool reactionsStarted;
     private int reactionOrderNumber;
@@ -28,6 +30,7 @@ public class ReactionCollection : MonoBehaviour
 
     private void Start ()
     {
+
         tempIntList = Resources.FindObjectsOfTypeAll<Texture2D>();
         foreach (Texture2D t in tempIntList)
         {
@@ -39,9 +42,11 @@ public class ReactionCollection : MonoBehaviour
             {
                 cursorArrow = t;
             }
+
         }
         audioSource = GameObject.Find("VO").GetComponent<AudioSource>();
         playerMovementScript = GameObject.Find("Player").GetComponent<PlayerMovement>();
+        textManager = GameObject.Find("MessageCanvas").GetComponent<TextManager>();
         for (int i = 0; i < reactions.Length; i++)
         {
             DelayedReaction delayedReaction = reactions[i] as DelayedReaction;
@@ -98,11 +103,15 @@ public class ReactionCollection : MonoBehaviour
     }
     public void ManageDelayedReactions(Reaction reaction, float displayOrder)
     {
+        if (reaction is TextReaction)
+        {
+            textReactions.Add(reaction);
+        }
 
         Instruction newInstruction = new Instruction
         {
-            reaction = reaction,
-            order = displayOrder
+        reaction = reaction,
+        order = displayOrder
         };
         instructions.Add(newInstruction);
         SortInstructions();
@@ -123,7 +132,7 @@ public class ReactionCollection : MonoBehaviour
         {
             if (instructions[i].order == reactionOrderNumber)
             {
-                instructions[i].reaction.React(this);
+                instructions[i].reaction.React();
             }
         }
 
@@ -132,12 +141,13 @@ public class ReactionCollection : MonoBehaviour
     {
         foreach(Instruction a in immediateInstructions)
         {
-            a.reaction.React(this);
+            a.reaction.React();
         }
     }
 
     private void StartReactions()
     {
+        textManager.HandleTextMessages(textReactions);
         Cursor.SetCursor(cursorIneracting, hotSpot, cursorMode);
         playerMovementScript.PauseUnpauseReaction(true);
         reactionOrderNumber = 0;

@@ -24,7 +24,6 @@ public class QuestLogReaction : Reaction
         }
     }
 
-
     protected override void ImmediateReaction()
     {
         questTextManager.AddText(message);

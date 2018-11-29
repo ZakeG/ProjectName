@@ -1,10 +1,9 @@
 ﻿using UnityEngine;
 
-public class TextReaction : Reaction
+public class TextReaction : DelayedReaction
 {
     public string message;
     public Color textColor = Color.white;
-    public float order;
 
 
     private TextManager textManager;
@@ -18,6 +17,6 @@ public class TextReaction : Reaction
 
     protected override void ImmediateReaction()
     {
-        textManager.DisplayMessage (message, textColor, order);
+        textManager.DisplayMessage();
     }
 }

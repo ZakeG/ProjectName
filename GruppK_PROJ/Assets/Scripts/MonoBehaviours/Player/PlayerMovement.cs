@@ -16,7 +16,6 @@ public class PlayerMovement : MonoBehaviour
 
     private Interactable currentInteractable;
     private Vector3 destinationPosition;
-    private bool holdForDialuge = false;
     private bool holdForReacion = false;
 
 
@@ -53,6 +52,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
+//        Debug.Log(GetInteractionBool());
             if (agent.pathPending)
                 return;
 
@@ -109,7 +109,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void OnGroundClick(BaseEventData data)
     {
-        if (holdForDialuge && holdForReacion)
+        if (holdForReacion)
         {
             return;
         }
@@ -129,7 +129,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void OnInteractableClick(Interactable interactable)
     {
-        if (holdForDialuge && holdForReacion)
+        if (holdForReacion)
         {
             return;
         }
@@ -140,15 +140,6 @@ public class PlayerMovement : MonoBehaviour
             agent.SetDestination(destinationPosition);
             agent.isStopped = false;
         }
-    }
-
-    public void PauseUnpauseDialouge(bool mode)
-    {
-        if (mode == false)
-        {
-
-        }
-        holdForDialuge = mode;
     }
 
     public void PauseUnpauseReaction(bool mode)
@@ -162,14 +153,7 @@ public class PlayerMovement : MonoBehaviour
 
     public bool GetInteractionBool()
     {
-        if (holdForDialuge && holdForReacion)
-        {
-            return true;
-        }
-        else
-        {
-            return false;
-        }
+        return holdForReacion;
     }
 
 }

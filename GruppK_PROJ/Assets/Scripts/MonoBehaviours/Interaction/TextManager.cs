@@ -18,33 +18,16 @@ public class TextManager : MonoBehaviour
     private PlayerMovement playerMovementScript;
     private List<Instruction> instructions = new List<Instruction> ();
     private bool dialugeStarted;
-    private Texture2D[] tempIntList;
-    private Texture2D cursorIneracting;
-    private Texture2D cursorArrow;
-    private CursorMode cursorMode = CursorMode.Auto;
-    private Vector2 hotSpot = Vector2.zero;
     private int messageNumber;
 
     private void Start()
     {
-        tempIntList = Resources.FindObjectsOfTypeAll<Texture2D>();
-        foreach (Texture2D t in tempIntList)
-        {
-            if (t.name == "pointer_talk")
-            {
-                cursorIneracting = t;
-            }
-            if (t.name == "pointer_walk")
-            {
-                cursorArrow = t;
-            }
-        }
         playerMovementScript = GameObject.Find("Player").GetComponent<PlayerMovement>();
         text.text = string.Empty;
         dialugeStarted = false;
     }
 
-    private void Update ()
+ /*   private void Update ()
     {
         if (dialugeStarted) {
             if (Input.GetButtonDown("Fire1"))
@@ -66,47 +49,54 @@ public class TextManager : MonoBehaviour
                 messageNumber++;
             }
         }
-    }
+    }*/
 
-    public void DisplayMessage(string message, Color textColor, float displayOrder)
+    public void HandleTextMessages(List<Reaction> txtReactions)
     {
-        background.SetActive(true);
-        float order = displayOrder;
+        foreach (TextReaction txtr in txtReactions)
+        {
         Instruction newInstruction = new Instruction
         {
-            message = message,
-            textColor = textColor,
-            order = order
+            message = txtr.message,
+            textColor = txtr.textColor,
+            order = txtr.order
         };
         instructions.Add(newInstruction);
         SortInstructions();
+        }
+    }
 
+    public void DisplayMessage()
+    {
         if (!dialugeStarted) {
             DialougeStarted();
         }
-
+        else if (messageNumber == instructions.Count)
+        {
+            DialougeStopped();
+            return;
+        }
+        else
+        {
+            ShowNextMessage();
+        }
+        messageNumber++;
     }
 
     private void DialougeStarted()
     {
-        Cursor.SetCursor(cursorIneracting, hotSpot, cursorMode);
         dialugeStarted = true;
-        playerMovementScript.PauseUnpauseDialouge(true);
+        background.SetActive(true);
         text.text = instructions[0].message;
         text.color = instructions[0].textColor;
         messageNumber = 1;
-
     }
-    private void DialougeStopped()
-    { 
 
+    private void DialougeStopped()
+    {
+        background.SetActive(false);
         dialugeStarted = false;
         instructions.Clear();
-        playerMovementScript.PauseUnpauseDialouge(false);
-    }
-    private void DialougeStopping()
-    {
-        Cursor.SetCursor(cursorArrow, hotSpot, cursorMode);
         background.SetActive(false);
         text.text = string.Empty;
     }
@@ -115,6 +105,8 @@ public class TextManager : MonoBehaviour
     {
         text.text = instructions[messageNumber].message;
         text.color = instructions[messageNumber].textColor;
+        messageNumber++;
+
     }
 
     private void SortInstructions ()

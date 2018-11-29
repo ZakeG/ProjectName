@@ -8,6 +8,7 @@ public class DynamicCamera : MonoBehaviour {
     public GameObject cameraRigObject;
     public GameObject cameraObject;
     public int rorationSpeed;
+    public float rotationDegrees;
 
     private int direction = 1;
     private bool cameraRotate = false;
@@ -22,7 +23,7 @@ public class DynamicCamera : MonoBehaviour {
         if (cameraRotate)
         {
             cameraRigObject.transform.Rotate(Vector3.up * direction * (rorationSpeed * Time.deltaTime));
-            if (cameraRigObject.transform.eulerAngles.y >= 180)
+            if (cameraRigObject.transform.eulerAngles.y >= rotationDegrees)
             {
                 SwitchDirection();
                 cameraRotate = false;

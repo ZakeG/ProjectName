@@ -1810,8 +1810,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 85016899}
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0.7071068, w: 0}
-  m_LocalPosition: {x: -0.9973903, y: 0.411, z: 1.525}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.397, y: 0.632, z: -0.842}
+  m_LocalScale: {x: 2.075811, y: 2.075811, z: 2.075811}
   m_Children: []
   m_Father: {fileID: 31095713}
   m_RootOrder: 3
@@ -1833,7 +1833,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
-  - {fileID: 2100000, guid: 8dad84b0e46fbde4e9f856e55047bd51, type: 2}
+  - {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2058,8 +2058,8 @@ ParticleSystem:
     startColor:
       serializedVersion: 2
       minMaxState: 2
-      minColor: {r: 0.2264151, g: 0.2264151, b: 0.2264151, a: 1}
-      maxColor: {r: 0.037004367, g: 0.03773582, b: 0.0016019917, a: 1}
+      minColor: {r: 0, g: 1, b: 0.9892149, a: 1}
+      maxColor: {r: 0.6874552, g: 0, b: 1, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -2437,7 +2437,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
-    maxNumParticles: 4
+    maxNumParticles: 1000
     size3D: 0
     rotation3D: 0
     gravityModifier:
@@ -2646,7 +2646,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 4
+      scalar: 100
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -4354,7 +4354,7 @@ ParticleSystem:
     strength:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.52
+      scalar: 1.11
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -4511,7 +4511,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     separateAxes: 0
-    frequency: 1.87
+    frequency: 2.98
     damping: 1
     octaves: 1
     octaveMultiplier: 0.5
@@ -5673,8 +5673,8 @@ ParticleSystem:
     colorOverLifetime:
       serializedVersion: 2
       minMaxState: 2
-      minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 0.9713386, g: 0.9716981, b: 0.9671146, a: 1}
+      minColor: {r: 0.99417204, g: 1, b: 0.033018887, a: 1}
+      maxColor: {r: 0, g: 1, b: 0.93607855, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -46597,9 +46597,9 @@ Transform:
   - {fileID: 1258950819}
   - {fileID: 472009490}
   - {fileID: 1503167417}
+  - {fileID: 2142247512}
   - {fileID: 96643675}
   - {fileID: 350962951}
-  - {fileID: 2142247512}
   - {fileID: 715330939}
   - {fileID: 874605265}
   m_Father: {fileID: 1695966293}
@@ -62001,7 +62001,7 @@ Transform:
   m_Children:
   - {fileID: 1769582891}
   m_Father: {fileID: 1644450053}
-  m_RootOrder: 11
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: -87.781006, y: 32.494003, z: 0}
 --- !u!1001 &2143964664
 Prefab:

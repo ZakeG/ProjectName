@@ -1797,7 +1797,7 @@ GameObject:
   - component: {fileID: 85016902}
   - component: {fileID: 85016901}
   m_Layer: 0
-  m_Name: flies
+  m_Name: 'flies(Don''t delete)(WIP) '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46594,10 +46594,10 @@ Transform:
   - {fileID: 1354978144}
   - {fileID: 703614396}
   - {fileID: 1276637041}
+  - {fileID: 2142247512}
   - {fileID: 1258950819}
   - {fileID: 472009490}
   - {fileID: 1503167417}
-  - {fileID: 2142247512}
   - {fileID: 96643675}
   - {fileID: 350962951}
   - {fileID: 715330939}
@@ -62001,7 +62001,7 @@ Transform:
   m_Children:
   - {fileID: 1769582891}
   m_Father: {fileID: 1644450053}
-  m_RootOrder: 9
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: -87.781006, y: 32.494003, z: 0}
 --- !u!1001 &2143964664
 Prefab:

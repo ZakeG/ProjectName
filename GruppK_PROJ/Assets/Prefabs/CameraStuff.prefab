@@ -196,7 +196,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraRigObject: {fileID: 1169103760167428}
+  cameraObject: {fileID: 0}
   rorationSpeed: 90
+  rotationDegrees: 0
 --- !u!114 &114098165871216012
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -244,5 +246,5 @@ MonoBehaviour:
   smoothing: 1
   offset: {x: 0, y: 1.5, z: 0}
   playerPosition: {fileID: 0}
-  CameraOptionCondition: {fileID: 114760183064950580, guid: fd02464d008c790478d9826aba7c7847,
+  ZoomOptionCondition: {fileID: 114765835322904618, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}

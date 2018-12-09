@@ -125,9 +125,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: It''s a mortar and pestle '
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!1 &3187833
 GameObject:
   m_ObjectHideFlags: 0
@@ -171,9 +171,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 7
   message: I have a plant in the livingroom.
   textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
-  order: 7
 --- !u!114 &12827892
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -185,11 +185,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: A sharp knife
 
 '
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!1 &13727679
 GameObject:
   m_ObjectHideFlags: 0
@@ -533,9 +533,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: A glowing yellow jar..'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!1 &34536700
 GameObject:
   m_ObjectHideFlags: 0
@@ -623,9 +623,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: It''s a telescope pointed at the sun.'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!1001 &35673409
 Prefab:
   m_ObjectHideFlags: 0
@@ -930,10 +930,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: I wonder if combining this with the bowl i picked up from
     the scale will work?'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!114 &51464770
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -960,9 +960,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 9
   message: The livingroom is downstairs,
   textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
-  order: 9
 --- !u!1 &59061893
 GameObject:
   m_ObjectHideFlags: 0
@@ -1659,11 +1659,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'I shouldn''t look into it. The sun is shinning too bright during the day..
 
 '
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!114 &78951581
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7132,11 +7132,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: A Mortar and Pestle
 
 '
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!1 &128629968
 GameObject:
   m_ObjectHideFlags: 0
@@ -7822,9 +7822,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 5
   message: 'You need to find items that represent each half of the night and day staff! '
   textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
-  order: 5
 --- !u!114 &154413979
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8034,9 +8034,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: I wonder if this bird is afraid of scarecrows.'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!1001 &165796967
 Prefab:
   m_ObjectHideFlags: 0
@@ -8788,9 +8788,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: I'ts missing the top part where you put the things you wish to melt
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!1 &188815371
 GameObject:
   m_ObjectHideFlags: 0
@@ -9248,9 +9248,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: A sharp knife that could be used for cutting something'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!1 &205016716
 GameObject:
   m_ObjectHideFlags: 0
@@ -9538,9 +9538,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: I still have things to do here.'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!1 &211446899
 GameObject:
   m_ObjectHideFlags: 0
@@ -9709,9 +9709,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: It''s a cauldron.'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!1 &223405940
 GameObject:
   m_ObjectHideFlags: 0
@@ -9799,10 +9799,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 3
   message: Unfortunately, I seem to have forgotten some of the ingredients! Before
     you get started
   textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
-  order: 3
 --- !u!114 &223828894
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9814,11 +9814,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: On top of the mantle is a crescent moon sculpture
 
 '
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!1 &225929323
 GameObject:
   m_ObjectHideFlags: 0
@@ -10234,9 +10234,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: A glowing yellow jar'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!1 &251672543
 GameObject:
   m_ObjectHideFlags: 0
@@ -11487,9 +11487,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: The wizard told me I need that sculpture.'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!1 &310440531
 GameObject:
   m_ObjectHideFlags: 0
@@ -11908,9 +11908,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: The poster shows the moon in 3 cheesy pieces
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!1 &329179452
 GameObject:
   m_ObjectHideFlags: 0
@@ -12605,10 +12605,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: A sack with three holes in it...it kinda looks like a mask
     of some sorts?'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!1 &347461205
 GameObject:
   m_ObjectHideFlags: 0
@@ -13953,10 +13953,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: I could try and throw these seeds into the dirt in the box
     and see what happens... '
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!1 &393743354
 GameObject:
   m_ObjectHideFlags: 0
@@ -14034,9 +14034,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 2
   message: "If you're stuck maybe try using the staff? \n"
   textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
-  order: 2
 --- !u!1 &398346584
 GameObject:
   m_ObjectHideFlags: 0
@@ -14195,9 +14195,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: It''s a broken broom'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!114 &403482225
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14387,9 +14387,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 3
   message: This reminds me...
   textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
-  order: 3
 --- !u!1 &418650293
 GameObject:
   m_ObjectHideFlags: 0
@@ -14567,9 +14567,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'WIZARD: This is a catastrophe!'
   textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
-  order: 0
 --- !u!114 &422531398
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14687,10 +14687,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: A vial filled with some red liquid. Its the first red potion
     I''ve seen so far in this lab...'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!114 &431698464
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14702,9 +14702,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: Inside this book is a crescent moon sculpture'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!114 &444114214
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15394,9 +15394,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: This could be useful for something... '
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!114 &465565821
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15828,9 +15828,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: It''s a wolf''s head.'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!114 &486071828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17139,9 +17139,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: The jar contains fireflies, it''s them creating the glow.'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!1 &539096850
 GameObject:
   m_ObjectHideFlags: 0
@@ -22405,9 +22405,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: used for crushing herbs and other stuff...
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!1 &590586832
 GameObject:
   m_ObjectHideFlags: 0
@@ -22957,9 +22957,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: I should take it with me for now
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!114 &625104020
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22971,9 +22971,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: Please let me get the gumball!......... YES!
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!1 &626487724
 GameObject:
   m_ObjectHideFlags: 0
@@ -23178,10 +23178,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: It''s a vial of some sort, the cork on the vial reminds me
     of the sun. It looks empty though'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!1 &641869513
 GameObject:
   m_ObjectHideFlags: 0
@@ -23391,9 +23391,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: An red apple is hanging from the tree'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!1 &655716814
 GameObject:
   m_ObjectHideFlags: 0
@@ -23633,10 +23633,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 3
   message: 'The first key ingredient I need from you is a phoenix feather, they are
     extremely rare and posses a fiery orange shade. '
   textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
-  order: 3
 --- !u!1 &674198924
 GameObject:
   m_ObjectHideFlags: 0
@@ -24083,9 +24083,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 4
   message: My quill is a Phoenix feather.
   textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
-  order: 4
 --- !u!114 &698570203
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25491,11 +25491,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: It''s not meant to melt gold..But maybe it could work?
 
 '
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!1 &721850166
 GameObject:
   m_ObjectHideFlags: 0
@@ -26039,9 +26039,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: I can use the broomstick to knock it down!'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!1 &739453169
 GameObject:
   m_ObjectHideFlags: 0
@@ -26397,9 +26397,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 2
   message: '... This isn''t a real Phoenix feather!'
   textColor: {r: 1, g: 0, b: 0, a: 1}
-  order: 2
 --- !u!1001 &770523578
 Prefab:
   m_ObjectHideFlags: 0
@@ -26631,9 +26631,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'WIZARD: Looks like you created the staff! Well done!'
   textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
-  order: 0
 --- !u!1 &780958084
 GameObject:
   m_ObjectHideFlags: 0
@@ -28903,9 +28903,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: end game
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  order: 0
 --- !u!1 &860160878
 GameObject:
   m_ObjectHideFlags: 0
@@ -29021,10 +29021,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 2
   message: "Here, take this list with all the ingredients I need you to get me for
     my potion! \nReturn when the list is complete!"
   textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
-  order: 2
 --- !u!1 &866150569
 GameObject:
   m_ObjectHideFlags: 0
@@ -29984,9 +29984,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 1
   message: It worked!
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 1
 --- !u!1 &905728351
 GameObject:
   m_ObjectHideFlags: 0
@@ -30324,10 +30324,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: It''s one of the missing pieces from the globe in the living
     room...'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!114 &921315643
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31101,9 +31101,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: But maybe it could work?
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  order: 0
 --- !u!1 &958126300
 GameObject:
   m_ObjectHideFlags: 0
@@ -31255,9 +31255,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: --You pull the sack over your head--
   textColor: {r: 0.8207547, g: 0.7363356, b: 0.2206746, a: 1}
-  order: 0
 --- !u!1 &974040973
 GameObject:
   m_ObjectHideFlags: 0
@@ -31834,9 +31834,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 2
   message: I need you to gather some items for my secret potion!
   textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
-  order: 2
 --- !u!1 &988919208
 GameObject:
   m_ObjectHideFlags: 0
@@ -32869,10 +32869,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: The sun vial is empty, finding a strong source of light maybe
     i could fill it up? '
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!114 &1014470577
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33091,9 +33091,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 5
   message: "It\u2019s crucial that you do..."
   textColor: {r: 1, g: 0.023529412, b: 0.023529412, a: 1}
-  order: 5
 --- !u!1 &1021661824
 GameObject:
   m_ObjectHideFlags: 0
@@ -33912,9 +33912,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 4
   message: Take a look around the room and see if you can find one
   textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
-  order: 4
 --- !u!1 &1083581951
 GameObject:
   m_ObjectHideFlags: 0
@@ -34520,9 +34520,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 5
   message: Here, take it, you'll need it later on.
   textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
-  order: 5
 --- !u!1 &1097294895
 GameObject:
   m_ObjectHideFlags: 0
@@ -34765,9 +34765,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: "Ouch! nope, rude it pecked me...\r"
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!1 &1108803825
 GameObject:
   m_ObjectHideFlags: 0
@@ -35504,10 +35504,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: I found a gold coin in the basement, Let''s try it on the
     Gumballmachine'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!114 &1138248795
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35519,12 +35519,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: What a big and beautiful bird! I wonder if it will let me
     pet it...
 
 '
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!1 &1145257350
 GameObject:
   m_ObjectHideFlags: 0
@@ -36039,9 +36039,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: I can fill the vial with powerful sunlight here!'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!1 &1168952727
 GameObject:
   m_ObjectHideFlags: 0
@@ -36467,11 +36467,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: It''s a box with dirt in it...
 
 '
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!1001 &1192637323
 Prefab:
   m_ObjectHideFlags: 0
@@ -37474,9 +37474,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: "Apprentice: A tree grew from the seeds i planted earlier. \n"
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!114 &1227561829
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37488,11 +37488,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'WIZARD: Oh yay! you''ve done it !
 
 '
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  order: 0
 --- !u!1 &1229194913
 GameObject:
   m_ObjectHideFlags: 0
@@ -38763,9 +38763,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: It reminds me of the moon...but it seems incomplete...'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!4 &1275433052
 Transform:
   m_ObjectHideFlags: 0
@@ -38984,10 +38984,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 4
   message: 'you''ll need to create a night and day staff! It will help you on your
     journey. '
   textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
-  order: 4
 --- !u!1 &1288596499
 GameObject:
   m_ObjectHideFlags: 0
@@ -39787,11 +39787,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'The jar emmits a special glow..
 
 '
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  order: 0
 --- !u!1001 &1326139293
 Prefab:
   m_ObjectHideFlags: 0
@@ -40722,9 +40722,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: I''ll just take it....'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!1 &1393684658
 GameObject:
   m_ObjectHideFlags: 0
@@ -41705,9 +41705,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: It''s a bookcase. No doubt filled with magic spells.'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!1 &1412152766
 GameObject:
   m_ObjectHideFlags: 0
@@ -42764,9 +42764,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: Its a broomstick.'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!114 &1473620799
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42946,9 +42946,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'What a fierce shade of red! '
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  order: 0
 --- !u!1 &1481316222
 GameObject:
   m_ObjectHideFlags: 0
@@ -43025,9 +43025,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: Oh, You're back.
   textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
-  order: 0
 --- !u!1 &1484755962
 GameObject:
   m_ObjectHideFlags: 0
@@ -43621,9 +43621,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: I fixed it!'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!1 &1502910563
 GameObject:
   m_ObjectHideFlags: 0
@@ -43775,10 +43775,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 6
   message: Okay! The next ingridient I, the powerful mouse wizard, need is Ambrosia
     Tea!
   textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
-  order: 6
 --- !u!1 &1507316239
 GameObject:
   m_ObjectHideFlags: 0
@@ -43866,9 +43866,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: A wax melter...'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!1 &1514015299
 GameObject:
   m_ObjectHideFlags: 0
@@ -44926,9 +44926,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: Woah! a tree grew in the blink of an eye...
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!1 &1561552383
 GameObject:
   m_ObjectHideFlags: 0
@@ -46392,9 +46392,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 1
   message: It looks whole now
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 1
 --- !u!1 &1638733430
 GameObject:
   m_ObjectHideFlags: 0
@@ -46780,9 +46780,24 @@ Prefab:
       propertyPath: playerPosition
       value: 
       objectReference: {fileID: 1753974721}
+    - target: {fileID: 114006084829120166, guid: 81ea977436dfa8c498e26e8eb64f0750,
+        type: 2}
+      propertyPath: rotationDegrees
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 114006084829120166, guid: 81ea977436dfa8c498e26e8eb64f0750,
+        type: 2}
+      propertyPath: cameraObject
+      value: 
+      objectReference: {fileID: 1646978885}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81ea977436dfa8c498e26e8eb64f0750, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &1646978885 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1747853871594344, guid: 81ea977436dfa8c498e26e8eb64f0750,
+    type: 2}
+  m_PrefabInternal: {fileID: 1646978884}
 --- !u!114 &1651973394
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46794,9 +46809,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 1
   message: 'WIZARD: Are you ready for your first day as an apprentice?'
   textColor: {r: 0.735985, g: 0.6537469, b: 0.7830189, a: 1}
-  order: 1
 --- !u!1 &1652608323
 GameObject:
   m_ObjectHideFlags: 0
@@ -46884,12 +46899,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: The wizard has quite the sweet tooth! Look at all those delicious
     sweeties and a mesmerizing.... gumball? If only I had a coin...
 
 '
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!1 &1653697769
 GameObject:
   m_ObjectHideFlags: 0
@@ -46996,9 +47011,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  order: 0
 --- !u!1 &1661311992
 GameObject:
   m_ObjectHideFlags: 0
@@ -47153,9 +47168,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 1
   message: 'WIZARD: Don''t you have something important to do?'
   textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
-  order: 1
 --- !u!1 &1670220341
 GameObject:
   m_ObjectHideFlags: 0
@@ -47311,9 +47326,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 1
   message: It melted!
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 1
 --- !u!114 &1676993397
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49021,10 +49036,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 2
   message: Now give it a try! And come back to me when you're ready,I have more work
     for you!
   textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
-  order: 2
 --- !u!1001 &1753974720
 Prefab:
   m_ObjectHideFlags: 0
@@ -49193,9 +49208,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 8
   message: Take this key and go make me some tea!
   textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
-  order: 8
 --- !u!114 &1765789313
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49789,9 +49804,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 7
   message: What are you still doing here? Chop chop!
   textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
-  order: 7
 --- !u!114 &1786344149
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51063,9 +51078,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: Oh look, a feather!
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!1 &1850338477
 GameObject:
   m_ObjectHideFlags: 0
@@ -51253,9 +51268,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: Oh. It's just a jar of honey.
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!114 &1857609949
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51267,11 +51282,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: It looks like a puzzle piece shaped like Australia
 
 '
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!1 &1857918833
 GameObject:
   m_ObjectHideFlags: 0
@@ -51700,9 +51715,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: I guess it was.
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!1001 &1883132849
 Prefab:
   m_ObjectHideFlags: 0
@@ -52468,9 +52483,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: I can't reach it though.
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!1 &1915453542
 GameObject:
   m_ObjectHideFlags: 0
@@ -53040,11 +53055,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 1
   message: "Now the staff you\u2019ve created possess the ability to make it day and
     night in an instant, this will help you find things that might be lost in the
     shadows..\r\n"
   textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
-  order: 1
 --- !u!1 &1936332524
 GameObject:
   m_ObjectHideFlags: 0
@@ -59280,9 +59295,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 1
   message: And you have the feather! Let me see!
   textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
-  order: 1
 --- !u!114 &2027008303
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59489,9 +59504,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 6
   message: All you should need exists inside the lab.
   textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
-  order: 6
 --- !u!1 &2038055349
 GameObject:
   m_ObjectHideFlags: 0
@@ -60766,9 +60781,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: This kind of reminds me of a scarecrow...'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!114 &2094966055
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60780,11 +60795,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: An empty kettle, used for cooking.
 
 '
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!114 &2097524904
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60811,10 +60826,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 1
   message: ' All the key ingredients I needed for my potion have vanished! I need
     your help, apprentice!'
   textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
-  order: 1
 --- !u!1 &2098647290
 GameObject:
   m_ObjectHideFlags: 0
@@ -61171,9 +61186,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: "Phases of the moon"'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!1 &2124711371
 GameObject:
   m_ObjectHideFlags: 0

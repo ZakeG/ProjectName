@@ -8,7 +8,7 @@ public class CameraControl : MonoBehaviour
     public float smoothing = 7f;
     public Vector3 offset = new Vector3 (0f, 1.5f, 0f); 
     public Transform playerPosition;
-    public Condition CameraOptionCondition;
+    public Condition ZoomOptionCondition;
 
     private bool cameraOptions;
     private Camera mainCamera;
@@ -27,14 +27,12 @@ public class CameraControl : MonoBehaviour
     {
 
         mainCamera = gameObject.GetComponentInChildren<Camera>();
-        if (CameraOptionCondition.satisfied == false)
+        if (ZoomOptionCondition.satisfied == false)
         {
-            mainCamera.GetComponent<ContrastEnhance>().enabled = false;
             cameraOptions = false;
         }
         else
         {
-            mainCamera.GetComponent<ContrastEnhance>().enabled = true;
             cameraOptions = true;
         }
         fov = mainCamera.fieldOfView;
@@ -53,6 +51,15 @@ public class CameraControl : MonoBehaviour
 
     void Update()
     {
+        if (ZoomOptionCondition.satisfied == false)
+        {
+            cameraOptions = false;
+        }
+        else
+        {
+            cameraOptions = true;
+        }
+
         if (cameraOptions)
         {
             if (Input.GetAxis("Mouse ScrollWheel") > 0f)

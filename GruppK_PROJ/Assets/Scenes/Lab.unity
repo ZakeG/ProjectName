@@ -961,7 +961,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 9
-  message: The livingroom is downstairs,
+  message: Okay! Now go collect the rest of the ingredients of the potion and then
+    combine them all together to make my potion. After doing this return to me and
+    I shall grant you wizardyness..
   textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
 --- !u!1 &59061893
 GameObject:
@@ -7823,7 +7825,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 4
-  message: 'You need to find items that represent each half of the night and day staff! '
+  message: For the staff you will need to find items that represent Night and Day.
   textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
 --- !u!114 &154413979
 MonoBehaviour:
@@ -9800,8 +9802,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 2
-  message: Unfortunately, I seem to have forgotten some of the ingredients! Before
-    you get started
+  message: 'Now the quest ahead will be long and difficult! You will need to find
+    and collect four main ingredients for my potion. '
   textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
 --- !u!114 &223828894
 MonoBehaviour:
@@ -14035,7 +14037,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 2
-  message: "If you're stuck maybe try using the staff? \n"
+  message: 
   textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
 --- !u!1 &398346584
 GameObject:
@@ -14567,7 +14569,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 1
+  order: 0
   message: 'WIZARD: This is a catastrophe!'
   textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
 --- !u!114 &422531398
@@ -15842,7 +15844,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'FEATHER: '
+  message: 'FEATHER: That bird over there is looking pleasantly plump! Maybe I could
+    get one from the bird...
+
+    ORANGE POTION: Phoenix feathers are a fiery orange shade, However I don''t think
+    the wizard has an orange potion laying around here though...maybe I could mix
+    something to resemble that fiery shade? '
 --- !u!1 &487179307
 GameObject:
   m_ObjectHideFlags: 0
@@ -26625,7 +26632,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 1
+  order: 0
   message: 'WIZARD: Looks like you created the staff! Well done!'
   textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
 --- !u!1 &780958084
@@ -29544,15 +29551,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: '1.A staff needs a staff...right? Maybe something out of wood..
+  message: 'FULL MOON: This piece will represent the night, when creating the staff.
 
-    2. Something that represents the day..Maybe something bright
+    SUNSHINE: You must find a way to bottle up some sunshine, this will represent
+    the day.
 
-    3. Something that represents the night...Maybe there''s a clue around here..
-
-    4. Maybe something that emmits a special glow, a guiding light in the dark...
-
-'
+    STAFF: To have a staff would be good, I recommend one out of wood perhaps? '
 --- !u!1 &887398656
 GameObject:
   m_ObjectHideFlags: 0
@@ -31755,7 +31759,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 1
-  message: I need you to gather some items for my secret potion!
+  message: The day has finally come! I will make you an official wizard!...All you
+    have to do is finish one tini tiny potion for me!
   textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
 --- !u!1 &988919208
 GameObject:
@@ -37408,7 +37413,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 1
+  order: 0
   message: 'WIZARD: Oh yay! you''ve done it !
 
 '
@@ -38905,8 +38910,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 3
-  message: 'you''ll need to create a night and day staff! It will help you on your
-    journey. '
+  message: To help you along the way you should start by creating a Day-and-Night
+    staff.
   textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
 --- !u!1 &1288596499
 GameObject:
@@ -43343,7 +43348,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'Quest Completed: meemooo'
+  message: 'Return to the wizard after collecting all the ingredients for his potion. '
 --- !u!1 &1493453446
 GameObject:
   m_ObjectHideFlags: 0
@@ -43696,7 +43701,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 6
-  message: Okay! The next ingridient I, the powerful mouse wizard, need is Ambrosia
+  message: Okay! The next ingredient I, the powerful mouse wizard, need is Ambrosia
     Tea!
   textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
 --- !u!1 &1507316239
@@ -45392,7 +45397,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: Create a day and night staff
+  message: 'Create a Day-and-Night staff, the ingredients you''ll need for the staff
+    will be: '
 --- !u!1 &1593868593
 GameObject:
   m_ObjectHideFlags: 0
@@ -46715,7 +46721,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'WIZARD: Are you ready for your first day as an apprentice?'
+  message: 'WIZARD: There you are my apprentice! I''ve been looking all over for you!'
   textColor: {r: 0.735985, g: 0.6537469, b: 0.7830189, a: 1}
 --- !u!1 &1652608323
 GameObject:
@@ -47073,7 +47079,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 1
+  order: 0
   message: 'WIZARD: Don''t you have something important to do?'
   textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
 --- !u!1 &1670220341
@@ -49114,7 +49120,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 8
-  message: Take this key and go make me some tea!
+  message: Take this key and go make me some tea! The living room is downstairs
   textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
 --- !u!114 &1765789313
 MonoBehaviour:
@@ -59410,7 +59416,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 5
-  message: All you should need exists inside the lab.
+  message: Everything you need exists inside the lab.
   textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
 --- !u!1 &2038055349
 GameObject:

@@ -196,9 +196,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraRigObject: {fileID: 1169103760167428}
-  cameraObject: {fileID: 0}
+  cameraObject: {fileID: 1747853871594344}
   rorationSpeed: 90
-  rotationDegrees: 0
+  rotationDegrees: 180
 --- !u!114 &114098165871216012
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -212,6 +212,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   intensity: 1
   threshold: 0
+  ContrastOptionCondition: {fileID: 114060387853777790, guid: fd02464d008c790478d9826aba7c7847,
+    type: 2}
   blurSpread: 1
   separableBlurShader: {fileID: 4800000, guid: e97c14fbb5ea04c3a902cc533d7fc5d1, type: 3}
   contrastCompositeShader: {fileID: 4800000, guid: 273404942eede4ea1883ca1fb2942507,

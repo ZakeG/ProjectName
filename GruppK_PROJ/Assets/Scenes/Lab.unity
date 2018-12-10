@@ -7822,7 +7822,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 5
+  order: 4
   message: 'You need to find items that represent each half of the night and day staff! '
   textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
 --- !u!114 &154413979
@@ -9799,7 +9799,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 3
+  order: 2
   message: Unfortunately, I seem to have forgotten some of the ingredients! Before
     you get started
   textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
@@ -11908,7 +11908,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 0
+  order: 2
   message: The poster shows the moon in 3 cheesy pieces
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1 &329179452
@@ -14567,7 +14567,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 0
+  order: 1
   message: 'WIZARD: This is a catastrophe!'
   textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
 --- !u!114 &422531398
@@ -23633,7 +23633,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 3
+  order: 4
   message: 'The first key ingredient I need from you is a phoenix feather, they are
     extremely rare and posses a fiery orange shade. '
   textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
@@ -26631,7 +26631,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 0
+  order: 1
   message: 'WIZARD: Looks like you created the staff! Well done!'
   textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
 --- !u!1 &780958084
@@ -27999,10 +27999,6 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 393743355}
     m_Modifications:
-    - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: reactions.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalPosition.x
       value: 2.6549773
@@ -28035,91 +28031,21 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 194222, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_Name
-      value: BookcaseInteractable0
-      objectReference: {fileID: 0}
-    - target: {fileID: 491826, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 491826, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0.6802188
-      objectReference: {fileID: 0}
-    - target: {fileID: 491826, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 491826, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 0.7330092
-      objectReference: {fileID: 0}
-    - target: {fileID: 491826, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 85.721
-      objectReference: {fileID: 0}
-    - target: {fileID: 491826, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -1.19
-      objectReference: {fileID: 0}
-    - target: {fileID: 491826, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0.017999947
-      objectReference: {fileID: 0}
-    - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -23.789001
-      objectReference: {fileID: 0}
-    - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 2.9186788
-      objectReference: {fileID: 0}
-    - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 1.1973623
-      objectReference: {fileID: 0}
-    - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 0.587334
-      objectReference: {fileID: 0}
     - target: {fileID: 11485606, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1753974722}
-    - target: {fileID: 11485606, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: OnInteractableClick
-      objectReference: {fileID: 0}
-    - target: {fileID: 11485606, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11485606, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: Interactable, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 11485606, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 814343557}
     - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: reactions.Array.data[0]
       value: 
       objectReference: {fileID: 1411640765}
-    - target: {fileID: 491826, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -0.488
+    - target: {fileID: 194222, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
+      propertyPath: m_Name
+      value: BookcaseInteractable0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
   m_IsPrefabAsset: 0
---- !u!114 &814343557 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 11484708, guid: d48734bd22479a14cb1a52b40aa09db4,
-    type: 2}
-  m_PrefabInternal: {fileID: 814343556}
-  m_Script: {fileID: 11500000, guid: d85941078afdf3244b2a1ae50fea256c, type: 3}
 --- !u!4 &814343558 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4,
@@ -28903,7 +28829,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 0
+  order: 2
   message: end game
   textColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &860160878
@@ -29021,7 +28947,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 2
+  order: 3
   message: "Here, take this list with all the ingredients I need you to get me for
     my potion! \nReturn when the list is complete!"
   textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
@@ -31834,7 +31760,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 2
+  order: 1
   message: I need you to gather some items for my secret potion!
   textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
 --- !u!1 &988919208
@@ -33091,7 +33017,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 5
+  order: 6
   message: "It\u2019s crucial that you do..."
   textColor: {r: 1, g: 0.023529412, b: 0.023529412, a: 1}
 --- !u!1 &1021661824
@@ -33912,7 +33838,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 4
+  order: 5
   message: Take a look around the room and see if you can find one
   textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
 --- !u!1 &1083581951
@@ -37488,7 +37414,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 0
+  order: 1
   message: 'WIZARD: Oh yay! you''ve done it !
 
 '
@@ -38984,7 +38910,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 4
+  order: 3
   message: 'you''ll need to create a night and day staff! It will help you on your
     journey. '
   textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
@@ -42375,7 +42301,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2392585f8a4e53a42a0ddc8de25e64d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 2
+  order: 3
   audioSource: {fileID: 717335330}
   audioClip: {fileID: 8300000, guid: 525186e4ae8196c428794c575db38f67, type: 3}
 --- !u!1 &1449727880
@@ -44642,7 +44568,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2392585f8a4e53a42a0ddc8de25e64d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 1
+  order: 2
   audioSource: {fileID: 717335330}
   audioClip: {fileID: 8300000, guid: 0a4a051fdee16ea418f5b9a781efb138, type: 3}
 --- !u!1 &1552296028
@@ -46780,24 +46706,9 @@ Prefab:
       propertyPath: playerPosition
       value: 
       objectReference: {fileID: 1753974721}
-    - target: {fileID: 114006084829120166, guid: 81ea977436dfa8c498e26e8eb64f0750,
-        type: 2}
-      propertyPath: rotationDegrees
-      value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: 114006084829120166, guid: 81ea977436dfa8c498e26e8eb64f0750,
-        type: 2}
-      propertyPath: cameraObject
-      value: 
-      objectReference: {fileID: 1646978885}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81ea977436dfa8c498e26e8eb64f0750, type: 2}
   m_IsPrefabAsset: 0
---- !u!1 &1646978885 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1747853871594344, guid: 81ea977436dfa8c498e26e8eb64f0750,
-    type: 2}
-  m_PrefabInternal: {fileID: 1646978884}
 --- !u!114 &1651973394
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46809,7 +46720,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 1
+  order: 0
   message: 'WIZARD: Are you ready for your first day as an apprentice?'
   textColor: {r: 0.735985, g: 0.6537469, b: 0.7830189, a: 1}
 --- !u!1 &1652608323
@@ -47340,7 +47251,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2392585f8a4e53a42a0ddc8de25e64d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 0
+  order: 1
   audioSource: {fileID: 717335330}
   audioClip: {fileID: 8300000, guid: 8f291efe0d581a041abbd450490604a5, type: 3}
 --- !u!1 &1678842184
@@ -49036,7 +48947,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 2
+  order: 3
   message: Now give it a try! And come back to me when you're ready,I have more work
     for you!
   textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
@@ -49804,7 +49715,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 7
+  order: 6
   message: What are you still doing here? Chop chop!
   textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
 --- !u!114 &1786344149
@@ -53055,7 +52966,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 1
+  order: 2
   message: "Now the staff you\u2019ve created possess the ability to make it day and
     night in an instant, this will help you find things that might be lost in the
     shadows..\r\n"
@@ -59504,7 +59415,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 6
+  order: 5
   message: All you should need exists inside the lab.
   textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
 --- !u!1 &2038055349
@@ -60826,7 +60737,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 1
+  order: 2
   message: ' All the key ingredients I needed for my potion have vanished! I need
     your help, apprentice!'
   textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
@@ -61186,7 +61097,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 0
+  order: 1
   message: 'Apprentice: "Phases of the moon"'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1 &2124711371

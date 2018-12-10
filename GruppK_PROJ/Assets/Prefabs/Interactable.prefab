@@ -69,28 +69,28 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 194222}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0.20610844, z: -0, w: 0.9785292}
+  m_LocalPosition: {x: 2.6549773, y: 0.03, z: 1.1229451}
+  m_LocalScale: {x: 0.587334, y: 2.9186788, z: 1.1973623}
   m_Children:
   - {fileID: 491826}
   - {fileID: 424910}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -23.789001, z: 0}
 --- !u!4 &491826
 Transform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 169354}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: 0.6802188, z: -0, w: 0.7330092}
+  m_LocalPosition: {x: -1.19, y: -0.488, z: 0.017999947}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 474418}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 85.721, z: 0}
 --- !u!65 &6512962
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -114,7 +114,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1fc7ecfe98531f2429694b8c81a6748a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  reactions: []
+  reactions:
+  - {fileID: 0}
 --- !u!114 &11484708
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -146,45 +147,11 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 0}
-          m_MethodName: 
-          m_Mode: 1
+          m_MethodName: OnInteractableClick
+          m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: 
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
-        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 114572509625264228}
-          m_MethodName: ChangeToPaw
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
-        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 114572509625264228}
-          m_MethodName: ChangeToFeet
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_ObjectArgument: {fileID: 11484708}
+            m_ObjectArgumentAssemblyTypeName: Interactable, Assembly-CSharp
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
@@ -215,5 +182,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4af565904d0e7014693ebba84614e2de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arrow: {fileID: 2800000, guid: 3d9638f918ebb044c87fabf0be22f27b, type: 3}
-  hand: {fileID: 2800000, guid: 98555ca68b5b0ba42b88d491440062ef, type: 3}
+  feet: {fileID: 2800000, guid: 1afe97130e01c954e8aa88d385db3a32, type: 3}
+  hand: {fileID: 2800000, guid: 90fef6d9c5a837b49afc3cc319e40e83, type: 3}
+  playerIsInteractingCondition: {fileID: 114837498404054592, guid: fd02464d008c790478d9826aba7c7847,
+    type: 2}

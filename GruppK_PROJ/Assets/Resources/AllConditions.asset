@@ -114,6 +114,7 @@ MonoBehaviour:
   - {fileID: 114538350656487978}
   - {fileID: 114765835322904618}
   - {fileID: 114060387853777790}
+  - {fileID: 114837498404054592}
 --- !u!114 &114000264106966828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -644,7 +645,7 @@ MonoBehaviour:
   m_Name: WizardStartDialogue
   m_EditorClassIdentifier: 
   description: WizardStartDialogue
-  satisfied: 0
+  satisfied: 1
   hash: 467004734
 --- !u!114 &114419866438435280
 MonoBehaviour:
@@ -1262,6 +1263,20 @@ MonoBehaviour:
   description: ApplePickedUp
   satisfied: 0
   hash: -1756528634
+--- !u!114 &114837498404054592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: PLAYERISINTERACTING
+  m_EditorClassIdentifier: 
+  description: PLAYERISINTERACTING
+  satisfied: 0
+  hash: 316600597
 --- !u!114 &114842528549307944
 MonoBehaviour:
   m_ObjectHideFlags: 0

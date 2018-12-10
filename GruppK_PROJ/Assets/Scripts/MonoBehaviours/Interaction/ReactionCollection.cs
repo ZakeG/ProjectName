@@ -22,18 +22,20 @@ public class ReactionCollection : MonoBehaviour
     private bool reactionsStarted;
     private int reactionOrderNumber;
     private AudioSource audioSource;
-    private Texture2D[] tempIntList;
+    private Texture2D[] tempTextureIntList;
     private Texture2D cursorIneracting;
     private Texture2D cursorArrow;
     private CursorMode cursorMode = CursorMode.Auto;
     private Vector2 hotSpot = Vector2.zero;
     private float clicksNeeded;
+    private Condition playerisInteracting;
+    private Condition[] tempConditionInitList;
 
     private void Start ()
     {
         clicksNeeded = 0;
-        tempIntList = Resources.FindObjectsOfTypeAll<Texture2D>();
-        foreach (Texture2D t in tempIntList)
+        tempTextureIntList = Resources.FindObjectsOfTypeAll<Texture2D>();
+        foreach (Texture2D t in tempTextureIntList)
         {
             if (t.name == "pointer_talk")
             {
@@ -44,6 +46,15 @@ public class ReactionCollection : MonoBehaviour
                 cursorArrow = t;
             }
         }
+        tempConditionInitList = Resources.FindObjectsOfTypeAll<Condition>();
+        foreach (Condition t in tempConditionInitList)
+        {
+            if (t.description == "PLAYERISINTERACTING")
+            {
+                playerisInteracting = t;
+            }
+        }
+
         audioSource = GameObject.Find("VO").GetComponent<AudioSource>();
         playerMovementScript = GameObject.Find("Player").GetComponent<PlayerMovement>();
         textManager = GameObject.Find("MessageCanvas").GetComponent<TextManager>();
@@ -79,7 +90,7 @@ public class ReactionCollection : MonoBehaviour
                 ManageImmidiateReactions(reactions[i], 99);
             }
         }
-        //Debug.Log(gameObject.name + " has " + clicksNeeded);
+//        Debug.Log(gameObject.name + " from " + gameObject.transform.parent.name + " has " + instructions.Count + " Reactions");
     }
 
     private void Update()
@@ -88,6 +99,13 @@ public class ReactionCollection : MonoBehaviour
         {
             if (Input.GetButtonDown("Fire1"))
             {
+                if (instructions.Count == 1)
+                {
+                    ReactionsAlmostFinished();
+                    ReactionsFinished();
+                    return;
+                }
+                reactionOrderNumber++;
                 if (reactionOrderNumber < clicksNeeded)
                 {
                     RunNextReactions();
@@ -101,7 +119,6 @@ public class ReactionCollection : MonoBehaviour
                     ReactionsFinished();
                     return;
                 }
-                reactionOrderNumber++;
             }
         }
     }
@@ -152,10 +169,9 @@ public class ReactionCollection : MonoBehaviour
         textManager.ShowTextArea();
         Cursor.SetCursor(cursorIneracting, hotSpot, cursorMode);
         playerMovementScript.PauseUnpauseReaction(true);
-        reactionOrderNumber = 1;
+        reactionOrderNumber = 0;
         RunAllImmidiateReactions();
         RunNextReactions();
-        reactionOrderNumber++;
     }
 
     private void ReactionsAlmostFinished()
@@ -168,12 +184,14 @@ public class ReactionCollection : MonoBehaviour
 
     private void ReactionsFinished()
     {
+        playerisInteracting.satisfied = false;
         reactionsStarted = false;
         playerMovementScript.PauseUnpauseReaction(false);
     }
     
     public void React ()
     {
+        playerisInteracting.satisfied = true;
         reactionsStarted = true;
         StartReactions();
     }

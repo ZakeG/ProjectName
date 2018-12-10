@@ -15842,12 +15842,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: '1.A feather, to create a feather a feather would be usueful...
-
-    2.Phoenixes are infamous for the fiery orange shade, I need something to replicate
-    that fierce colour.
-
-'
+  message: 'FEATHER: '
 --- !u!1 &487179307
 GameObject:
   m_ObjectHideFlags: 0
@@ -23061,9 +23056,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: "The second ingredient the wizard asked of me was some tea...I\u2019d better
-    be careful not to spill any...I should collect the rest of the ingredients before
-    returning to the wizard.\n"
+  message: "The second ingredient the wizard asked of me was Ambrosia tea...I\u2019d
+    better be careful not to spill any..."
 --- !u!1 &629375280
 GameObject:
   m_ObjectHideFlags: 0
@@ -33823,10 +33817,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: '1.Well..something is needed to carry the tea in..I should find a container
-    of some sort.....
-
-    2. You can''t make tea without tea..'
+  message: "TEAPOT: I need a teapot to carry the tea in. \nAMBROSIA PLANT: I need
+    the ambrosia plant for the ambrosia tea, the wizard said he had a plant in the
+    living room. \nTEABAG: I should find a teabag to put the crushed up ambrosia plant
+    in, so it doesn't spill into the water."
 --- !u!114 &1081344453
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43349,7 +43343,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: The wizard asked me to make some ambrosia Tea.
+  message: 'Quest Completed: meemooo'
 --- !u!1 &1493453446
 GameObject:
   m_ObjectHideFlags: 0

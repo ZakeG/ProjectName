@@ -21,7 +21,6 @@ public class BookTextHandler : MonoBehaviour {
     private string currentPageP2;
     private string textToAdd;
     private int workingOnPage;
-    private bool workingOnFirstPage;
 
     private const int maxCharacterCount = 300;
     private const int line = 43;
@@ -63,12 +62,11 @@ public class BookTextHandler : MonoBehaviour {
         string textToInput = newText += "\n----\n";
         string testText1 = page1.text + textToInput;
         string testText2 = page2.text + textToInput;
-        if (!(testText1.Length > maxCharacterCount) && workingOnFirstPage) {
+        if (!(testText1.Length > maxCharacterCount)) {
             currentPageP1 = page1.text + newText;
         }
         else if (!(testText2.Length > maxCharacterCount))
         {
-            workingOnFirstPage = false;
             currentPageP2 = page2.text + newText;
         }
         else
@@ -168,7 +166,6 @@ public class BookTextHandler : MonoBehaviour {
         };
         pages.Add(newPage);
         workingOnPage++;
-        workingOnFirstPage = true;
         Debug.Log(pages.Count);
     }
 }

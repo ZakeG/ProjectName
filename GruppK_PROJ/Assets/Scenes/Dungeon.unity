@@ -1511,6 +1511,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   intensity: 1
   threshold: 0
+  ContrastOptionCondition: {fileID: 0}
   blurSpread: 1
   separableBlurShader: {fileID: 4800000, guid: e97c14fbb5ea04c3a902cc533d7fc5d1, type: 3}
   contrastCompositeShader: {fileID: 4800000, guid: 273404942eede4ea1883ca1fb2942507,
@@ -1600,20 +1601,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 20f585762c593f2439c56d20a8c737f4,
     type: 3}
   m_PrefabInternal: {fileID: 183712440}
---- !u!114 &185227524
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec43236ba6522584894ac80bfbcb3815, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  condition: {fileID: 114168846910743642, guid: fd02464d008c790478d9826aba7c7847,
-    type: 2}
-  satisfied: 1
 --- !u!114 &189944321
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2252,7 +2239,9 @@ MonoBehaviour:
   - {fileID: 1089607617}
   - {fileID: 83716167}
   - {fileID: 189944321}
-  - {fileID: 185227524}
+  - {fileID: 581442430}
+  - {fileID: 1122814345}
+  - {fileID: 1202986297}
 --- !u!114 &257265890
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10755,18 +10744,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'Dragon fire ingredient
-
-
-    1.Well I can''t carry fire in my hands..So I should find something to carry it
-    with!
-
-    2. Well dragons are REALLY rare nowadays, it''s not like people just keep them
-    in their dungeons..
-
-    3. Fire, fire is needed.
-
-'
+  message: 'Quest Completed:  You''ve completed the ghosts quest for you! Onto the
+    last ingredient for the wizards potion!'
 --- !u!4 &509806754 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400004, guid: 59df1c95eea9ebb40b9a3634bc4c0087,
@@ -16284,6 +16263,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400004, guid: f27dfe21133d81049bdf6f4ec7b887c0,
     type: 3}
   m_PrefabInternal: {fileID: 571876665}
+--- !u!114 &581442430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'The last ingredient for the wizard''s potion is Dragon Fire. '
 --- !u!114 &583113506
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25782,8 +25773,7 @@ MonoBehaviour:
   smoothing: 7
   offset: {x: 0, y: 0.01, z: 400}
   playerPosition: {fileID: 60106104}
-  CameraOptionCondition: {fileID: 114760183064950580, guid: fd02464d008c790478d9826aba7c7847,
-    type: 2}
+  ZoomOptionCondition: {fileID: 0}
 --- !u!1001 &868378663
 Prefab:
   m_ObjectHideFlags: 0
@@ -38930,6 +38920,22 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 1120405511}
   m_Script: {fileID: 11500000, guid: d85941078afdf3244b2a1ae50fea256c, type: 3}
+--- !u!114 &1122814345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: "TORCH: I could use a torch to carry the fire but most of the torches around
+    here are already lit. \nBONE: Well dragons are REALLY rare nowadays, it's not
+    like people just keep em in their dungeons...\nFIRE: There is plain old fire around
+    here but not dragon fire, maybe using something from the specimen on plain fire
+    will change it? "
 --- !u!1001 &1123967994
 Prefab:
   m_ObjectHideFlags: 0
@@ -39846,6 +39852,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400004, guid: f27dfe21133d81049bdf6f4ec7b887c0,
     type: 3}
   m_PrefabInternal: {fileID: 1198210806}
+--- !u!114 &1202986297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec43236ba6522584894ac80bfbcb3815, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  condition: {fileID: 114168846910743642, guid: fd02464d008c790478d9826aba7c7847,
+    type: 2}
+  satisfied: 1
 --- !u!1 &1207059552
 GameObject:
   m_ObjectHideFlags: 0
@@ -52105,8 +52125,7 @@ MonoBehaviour:
   smoothing: 7
   offset: {x: 0, y: 0.01, z: 400}
   playerPosition: {fileID: 60106104}
-  CameraOptionCondition: {fileID: 114760183064950580, guid: fd02464d008c790478d9826aba7c7847,
-    type: 2}
+  ZoomOptionCondition: {fileID: 0}
 --- !u!4 &1798163925 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: e01b4038a41493d47af48842f8c0f119,
@@ -56606,6 +56625,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   intensity: 1
   threshold: 0
+  ContrastOptionCondition: {fileID: 0}
   blurSpread: 1
   separableBlurShader: {fileID: 4800000, guid: e97c14fbb5ea04c3a902cc533d7fc5d1, type: 3}
   contrastCompositeShader: {fileID: 4800000, guid: 273404942eede4ea1883ca1fb2942507,
@@ -58040,7 +58060,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: I better start looking for that key if I ever want to get out of here..
+  message: "The ghost mentioned a necklace being stored in a small chest, I wonder
+    if it's the same small chest I have in my inventory? I still need to find the
+    key though\n\nThe Riddle:\nThere was a green house. \nInside the green house there
+    was a white house.\nInside the white house there was a red house.\nInside the
+    red house there were lots of babies. What is it? "
 --- !u!4 &2145310249 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: dd3ddf9b352277d45bb2499d1ee1f90b,

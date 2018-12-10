@@ -165,10 +165,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: It''s raining into this well...but where is the rain coming
     from?'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!114 &21665823
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5504,10 +5504,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: "Apprentice:  I suppose it\u2019s true what they say- one person's trash
     is another person's treasure!"
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!1001 &101436196
 Prefab:
   m_ObjectHideFlags: 0
@@ -6443,6 +6443,7 @@ MonoBehaviour:
   - {fileID: 1009236273}
   - {fileID: 623541287}
   - {fileID: 383341719}
+  - {fileID: 1490558660}
 --- !u!1 &181255417
 GameObject:
   m_ObjectHideFlags: 0
@@ -6867,7 +6868,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b804958e1981f9544989d65e32719692, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 1
+  order: 0
   item: {fileID: 11400000, guid: afd826a51c7879c4dacbd10803ab5705, type: 2}
 --- !u!1001 &206134496
 Prefab:
@@ -10006,9 +10007,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: Theres something inside the fire but it's too hot to get it..
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!1 &378055257
 GameObject:
   m_ObjectHideFlags: 0
@@ -10378,9 +10379,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: The fire is out I can now reach in.'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!1 &400390711
 GameObject:
   m_ObjectHideFlags: 0
@@ -13904,11 +13905,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 1
   message: 'It worked! the door unlocked
 
 '
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 1
 --- !u!114 &636283283
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13920,9 +13921,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: Placing all the crystals in the slots worked!'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!1 &636630156
 GameObject:
   m_ObjectHideFlags: 0
@@ -21059,9 +21060,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: "\nThe four crystals seems to represent the four elements... The first
-    one, wind already seems to be placed in the door..where could the others be? \nEarth,
-    Fire and Water. \n"
+  message: "FIRE CRYSTAL: Fire crystals glow extra bright when they rest inside a
+    fire. \nWATER CRYSTALl: Water crystals are often mistaken as pearls and rests
+    inside clams at the bottom of the ocean. \nEARTH CRYSTAL: Aren't actually the
+    color of dirt but green. "
 --- !u!1001 &806274391
 Prefab:
   m_ObjectHideFlags: 0
@@ -22488,9 +22490,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: There''s something inside the cage on this shelf..'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!1 &962628310
 GameObject:
   m_ObjectHideFlags: 0
@@ -25499,10 +25501,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: There''s something inside the fire but it''s burning too hot
     to get it out...'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!114 &1140953868
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26530,9 +26532,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 1
   message: This basement is underground...
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 1
 --- !u!1 &1200130984
 GameObject:
   m_ObjectHideFlags: 0
@@ -27721,9 +27723,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: This torch is unlit'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!1001 &1280631444
 Prefab:
   m_ObjectHideFlags: 0
@@ -28339,9 +28341,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: '
-
-    Find a way through the dungeon door maybe the crystals in the door is a clue...'
+  message: Find a way to open the Dungeon door. The missing crystals in the door might
+    be a clue..
 --- !u!114 &1318001106
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28482,12 +28483,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: Looks like the door to the towers dungeon! I don''t remember
     ever being here before, It seems to be locked.
 
 '
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!1 &1355785654
 GameObject:
   m_ObjectHideFlags: 0
@@ -35156,6 +35157,19 @@ MonoBehaviour:
   gameObject: {fileID: 729135978}
   activeState: 1
   isAffectedByStaff: 0
+--- !u!114 &1490558660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'Quest completed: You''ve completed and unlocked the dungeon door! Let''s
+    see what the wizard hides in his dungeon..'
 --- !u!1001 &1491462309
 Prefab:
   m_ObjectHideFlags: 0
@@ -50724,9 +50738,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: What an interesting chest...I wonder what treasures it holds
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  order: 0
 --- !u!1001 &1644606023
 Prefab:
   m_ObjectHideFlags: 0
@@ -50809,9 +50823,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: My kettle is now filled with water'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!114 &1658854334
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50823,10 +50837,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 1
   message: Around the doors window there's four holes the top one is filled with a
     bright white crystal but the others seems to be missing..
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 1
 --- !u!1 &1660240878
 GameObject:
   m_ObjectHideFlags: 0
@@ -51977,10 +51991,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: Around the doors window there's four holes the top one is filled with a
     bright white crystal but the others seems to be missing..
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!1 &1752206915
 GameObject:
   m_ObjectHideFlags: 0
@@ -53888,9 +53902,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: If i had a bucket or something i could take some of this water with me...
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!1001 &1880969458
 Prefab:
   m_ObjectHideFlags: 0
@@ -54748,9 +54762,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 1
   message: 'Apprentice: This torch could be used for carrying fire'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 1
 --- !u!1001 &1921119000
 Prefab:
   m_ObjectHideFlags: 0
@@ -56154,11 +56168,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: This door is locked...
 
 '
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!1001 &2013454480
 Prefab:
   m_ObjectHideFlags: 0

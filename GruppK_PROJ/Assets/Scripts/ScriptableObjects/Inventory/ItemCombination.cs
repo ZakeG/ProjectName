@@ -7,11 +7,11 @@ public class ItemCombination : ScriptableObject
     public List<Item> combination = new List<Item>();
     public List<Item> result;
 
-    public GameObject[] GOReactions;
-    public bool[] activeStateList;
-    public bool[] isAffectedByStaffList;
+    public GameObject[] gameObject;
+    public bool[] activeState;
+    public bool[] isAffectedByStaff;
 
-    public string[] QLReactions;
+    public string[] questLogReaction;
 
     private List<GameObjectReaction> gameObjectReactionList;
     private List<QuestLogReaction> questLogReactionList;
@@ -20,18 +20,18 @@ public class ItemCombination : ScriptableObject
 
     private void Awake()
     {
-        if (QLReactions != null) {
-            foreach (string s in QLReactions)
+        if (questLogReaction != null) {
+            foreach (string s in questLogReaction)
             {
                 qlrTemp = new QuestLogReaction(s);
                 questLogReactionList.Add(qlrTemp);
             }
         }
-        if (GOReactions != null)
+        if (gameObject != null)
         {
-            for(int i = 0; i > GOReactions.Length; i++ )
+            for(int i = 0; i > gameObject.Length; i++ )
             {
-                gorTemp = new GameObjectReaction(GOReactions[i], activeStateList[i], isAffectedByStaffList[i]);
+                gorTemp = new GameObjectReaction(gameObject[i], activeState[i], isAffectedByStaff[i]);
                 gameObjectReactionList.Add(gorTemp);
             }
         }

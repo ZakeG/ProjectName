@@ -17,7 +17,8 @@ public class PlayerMovement : MonoBehaviour
     private Interactable currentInteractable;
     private Vector3 destinationPosition;
     private bool holdForReacion = false;
-
+    private Condition readingQuestlogCondition;
+    private Condition[] tempConditionInitList;
 
 
     private readonly int hashSpeedPara = Animator.StringToHash("Speed");
@@ -33,7 +34,14 @@ public class PlayerMovement : MonoBehaviour
     private void Start()
     {
         agent.updateRotation = false;
-
+        tempConditionInitList = Resources.FindObjectsOfTypeAll<Condition>();
+        foreach (Condition t in tempConditionInitList)
+        {
+            if (t.description == "PLAYERISREADING")
+            {
+                readingQuestlogCondition = t;
+            }
+        }
         string startingPositionName = "";
         playerSaveData.Load(startingPositionKey, ref startingPositionName);
         Transform startingPosition = StartingPosition.FindStartingPosition(startingPositionName);
@@ -52,7 +60,6 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-//        Debug.Log(GetInteractionBool());
             if (agent.pathPending)
                 return;
 
@@ -109,7 +116,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void OnGroundClick(BaseEventData data)
     {
-        if (holdForReacion)
+        if (holdForReacion || (readingQuestlogCondition.satisfied == true) || (agent.isStopped == false))
         {
             return;
         }
@@ -129,7 +136,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void OnInteractableClick(Interactable interactable)
     {
-        if (holdForReacion)
+        if (holdForReacion || (readingQuestlogCondition.satisfied == true) || (agent.isStopped == false))
         {
             return;
         }

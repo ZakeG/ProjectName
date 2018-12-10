@@ -20,10 +20,7 @@ public class Inventory : MonoBehaviour
     {
         staffButton = GameObject.Find("StaffButton");
         bagButton = GameObject.Find("BagButton").GetComponent<BagButton>();
-        for (int i = 0; i < items.Length; i++)
-        {
-                highlightImages[i].enabled = false;
-        }
+        DehighlightAll();
     }
 
     public void AddItem(Item itemToAdd)

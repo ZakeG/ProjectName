@@ -7,12 +7,26 @@ public class QuestBookButton : MonoBehaviour {
     public GameObject book;
     public GameObject newIcon;
     public bool bookOpen;
+    public Condition playerReadingCondition;
     private SceneController sceneController;
+    
 
     void Start () {
         bookOpen = true;
         sceneController = GameObject.Find("SceneController").GetComponent<SceneController>();
         sceneController.BeforeSceneUnload += OpenBook;
+    }
+
+    private void Update()
+    {
+        if (book.activeSelf == true)
+        {
+            playerReadingCondition.satisfied = true;
+        }
+        if (book.activeSelf == false)
+        {
+            playerReadingCondition.satisfied = false;
+        }
     }
 
     public void ToggleBookOpen()

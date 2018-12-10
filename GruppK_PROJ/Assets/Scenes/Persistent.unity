@@ -1634,6 +1634,8 @@ MonoBehaviour:
   book: {fileID: 1918776271}
   newIcon: {fileID: 1696183455}
   bookOpen: 0
+  playerReadingCondition: {fileID: 114071588319308866, guid: fd02464d008c790478d9826aba7c7847,
+    type: 2}
 --- !u!1 &1100556899 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1820510384714796, guid: 4e8df035f829e804d8a25261ea8b2bcb,

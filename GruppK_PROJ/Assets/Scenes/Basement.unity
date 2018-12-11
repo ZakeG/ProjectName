@@ -26065,17 +26065,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 100016, guid: d0ab0a3b389647043b994a97b7dc8f8b,
     type: 3}
   m_PrefabInternal: {fileID: 1153089174}
---- !u!122 &1153089177
-Halo:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1153089176}
-  m_Enabled: 1
-  m_Color:
-    serializedVersion: 2
-    rgba: 4286611584
-  m_Size: 5
 --- !u!4 &1165488603 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: 163d002096202f941bff67230dc8cf78,
@@ -52065,7 +52054,7 @@ GameObject:
   m_PrefabInternal: {fileID: 1742392076}
 --- !u!1 &1742392079 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 100008, guid: eb03bf1c3d822f74f90ee850c6ae279c,
+  m_CorrespondingSourceObject: {fileID: 100016, guid: eb03bf1c3d822f74f90ee850c6ae279c,
     type: 3}
   m_PrefabInternal: {fileID: 1742392076}
 --- !u!122 &1742392080
@@ -52078,7 +52067,7 @@ Halo:
   m_Color:
     serializedVersion: 2
     rgba: 4286611584
-  m_Size: 0.06
+  m_Size: 0.04
 --- !u!114 &1743326573
 MonoBehaviour:
   m_ObjectHideFlags: 0

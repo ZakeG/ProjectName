@@ -12,7 +12,7 @@ public abstract class DelayedReaction : Reaction
     }
 
 
-    public new void React (/*MonoBehaviour monoBehaviour*/)
+    public new void React (MonoBehaviour monoBehaviour)
     {
         ImmediateReaction();
     }

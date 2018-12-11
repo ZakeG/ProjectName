@@ -10,7 +10,7 @@ public class Inventory : MonoBehaviour
     public GameObject[] itemSlots = new GameObject[numItemSlots];
     public Item staffItem;
 
-    public const int numItemSlots = 12;
+    public const int numItemSlots = 10;
 
     private BagButton bagButton;
     private GameObject staffButton;

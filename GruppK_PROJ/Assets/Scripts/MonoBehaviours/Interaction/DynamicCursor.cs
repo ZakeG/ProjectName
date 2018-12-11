@@ -4,9 +4,8 @@ using UnityEngine;
 
 public class DynamicCursor : MonoBehaviour {
 
-    public Texture2D feet;
+    public Texture2D arrow;
     public Texture2D hand;
-    public Condition playerIsInteractingCondition;
     private CursorMode cursorMode = CursorMode.Auto;
     private Vector2 hotSpot = Vector2.zero;
     private bool paused;
@@ -14,7 +13,7 @@ public class DynamicCursor : MonoBehaviour {
 
     public void Start()
     {
-        Cursor.SetCursor(hand, hotSpot, cursorMode);
+        Cursor.SetCursor(arrow, hotSpot, cursorMode);
         player = GameObject.Find("Player").GetComponent<PlayerMovement>();
     }
 
@@ -24,27 +23,18 @@ public class DynamicCursor : MonoBehaviour {
 
     }
 
-    public void OnMouseEnter()
+    public void ChangeToFeet()
     {
-        if (!playerIsInteractingCondition.satisfied)
-        {
-            if (!paused)
-            {
-                Cursor.SetCursor(hand, hotSpot, cursorMode);
-            }
+        if (!paused) {
+            Cursor.SetCursor(arrow, hotSpot, cursorMode);
         }
     }
 
-    public void OnMouseExit()
+    public void ChangeToPaw()
     {
-        if (!playerIsInteractingCondition.satisfied)
+        if (!paused)
         {
-            if (!paused)
-            {
-                Cursor.SetCursor(feet, hotSpot, cursorMode);
-            }
+            Cursor.SetCursor(hand, hotSpot, cursorMode);
         }
     }
-
-    
 }

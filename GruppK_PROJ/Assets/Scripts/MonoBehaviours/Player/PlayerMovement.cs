@@ -12,28 +12,36 @@ public class PlayerMovement : MonoBehaviour
     public float speedDampTime = 0.1f;
     public float slowingSpeed = 0.175f;
     public float turnSpeedThreshold = 0.5f;
-    
+
+    [SerializeField]
+    private bool holdForReacion = false;
 
     private Interactable currentInteractable;
     private Vector3 destinationPosition;
-    private bool holdForReacion = false;
-
-
+    private Condition readingQuestlogCondition;
+    private Condition[] tempConditionInitList;
 
     private readonly int hashSpeedPara = Animator.StringToHash("Speed");
 
-
     public const string startingPositionKey = "starting position";
-
 
     private const float stopDistanceProportion = 0.1f;
     private const float navMeshSampleDistance = 4f;
+
+    
 
 
     private void Start()
     {
         agent.updateRotation = false;
-
+        tempConditionInitList = Resources.FindObjectsOfTypeAll<Condition>();
+        foreach (Condition t in tempConditionInitList)
+        {
+            if (t.description == "PLAYERISREADING")
+            {
+                readingQuestlogCondition = t;
+            }
+        }
         string startingPositionName = "";
         playerSaveData.Load(startingPositionKey, ref startingPositionName);
         Transform startingPosition = StartingPosition.FindStartingPosition(startingPositionName);
@@ -44,15 +52,8 @@ public class PlayerMovement : MonoBehaviour
         destinationPosition = transform.position;
     }
 
-
-    /*private void OnAnimatorMove()
-    {
-        agent.velocity = animator.deltaPosition / Time.deltaTime;
-    }*/
-
     private void Update()
     {
-//        Debug.Log(GetInteractionBool());
             if (agent.pathPending)
                 return;
 
@@ -109,7 +110,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void OnGroundClick(BaseEventData data)
     {
-        if (holdForReacion)
+        if (holdForReacion || (readingQuestlogCondition.satisfied == true) || (agent.isStopped == false))
         {
             return;
         }
@@ -129,7 +130,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void OnInteractableClick(Interactable interactable)
     {
-        if (holdForReacion)
+        if (holdForReacion || (readingQuestlogCondition.satisfied == true) || (agent.isStopped == false))
         {
             return;
         }

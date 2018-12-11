@@ -17,7 +17,7 @@ public class TextManager : MonoBehaviour
         savedString = string.Empty;
     }
 
-    public void DisplayMessage(string message)
+    public void DisplayMessage(string message, Color textColor)
     {
         if (!savedString.Equals(string.Empty))
         {

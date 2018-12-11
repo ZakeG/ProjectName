@@ -17,6 +17,6 @@ public class TextReaction : DelayedReaction
 
     protected override void ImmediateReaction()
     {
-        textManager.DisplayMessage(message);
+        textManager.DisplayMessage (message, textColor);
     }
 }

@@ -4,10 +4,9 @@ MonoImporter:
   externalObjects: {}
   serializedVersion: 2
   defaultReferences:
-  - feet: {instanceID: 0}
+  - arrow: {instanceID: 0}
   - hand: {instanceID: 0}
-  - playerIsInteractingCondition: {fileID: 114837498404054592, guid: fd02464d008c790478d9826aba7c7847,
-      type: 2}
+  - interacting: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

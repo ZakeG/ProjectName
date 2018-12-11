@@ -111,11 +111,11 @@ public class ItemCombinationHandler : MonoBehaviour {
         }
         foreach (GameObjectReaction gro in gameObjectList)
         {
-            gro.React();
+            gro.React(this);
         }
         foreach (QuestLogReaction qlr in questLogList)
         {
-            qlr.React();
+            qlr.React(this);
         }
     }
 }

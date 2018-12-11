@@ -12,7 +12,7 @@ public abstract class Reaction : ScriptableObject
     {}
 
 
-    public void React (/*MonoBehaviour monoBehaviour*/)
+    public void React (MonoBehaviour monoBehaviour)
     {
         ImmediateReaction ();
     }

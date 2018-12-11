@@ -52,12 +52,6 @@ public class PlayerMovement : MonoBehaviour
         destinationPosition = transform.position;
     }
 
-
-    /*private void OnAnimatorMove()
-    {
-        agent.velocity = animator.deltaPosition / Time.deltaTime;
-    }*/
-
     private void Update()
     {
             if (agent.pathPending)

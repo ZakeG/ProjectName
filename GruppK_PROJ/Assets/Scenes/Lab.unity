@@ -13986,7 +13986,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 2
+  order: 1000
   gameObject: {fileID: 456099276}
   activeState: 0
   isAffectedByStaff: 0
@@ -26333,7 +26333,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 1
+  order: 1000
   gameObject: {fileID: 719481361}
   activeState: 0
   isAffectedByStaff: 1
@@ -27172,7 +27172,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 2
+  order: 1000
   gameObject: {fileID: 1416398378}
   activeState: 0
   isAffectedByStaff: 0
@@ -28686,7 +28686,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 2
+  order: 1000
   gameObject: {fileID: 60091178}
   activeState: 0
   isAffectedByStaff: 0
@@ -30479,7 +30479,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 2
+  order: 1000
   gameObject: {fileID: 1171241501}
   activeState: 0
   isAffectedByStaff: 1
@@ -30658,7 +30658,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 1
+  order: 1000
   gameObject: {fileID: 2143964667}
   activeState: 0
   isAffectedByStaff: 0
@@ -33446,7 +33446,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 2
+  order: 1000
   gameObject: {fileID: 29962078}
   activeState: 0
   isAffectedByStaff: 0
@@ -40702,7 +40702,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 2
+  order: 1000
   gameObject: {fileID: 1009988496}
   activeState: 0
   isAffectedByStaff: 1
@@ -43158,7 +43158,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 1
+  order: 1000
   gameObject: {fileID: 1607824262}
   activeState: 0
   isAffectedByStaff: 0
@@ -49533,7 +49533,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 2
+  order: 1000
   gameObject: {fileID: 1688788939}
   activeState: 0
   isAffectedByStaff: 0
@@ -51905,7 +51905,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 2
+  order: 1000
   gameObject: {fileID: 1687744291}
   activeState: 0
   isAffectedByStaff: 0
@@ -60929,7 +60929,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 1
+  order: 1000
   gameObject: {fileID: 1055587306}
   activeState: 0
   isAffectedByStaff: 0
@@ -61066,7 +61066,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 1
+  order: 1000
   gameObject: {fileID: 366799968}
   activeState: 0
   isAffectedByStaff: 0
@@ -61673,7 +61673,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 2
+  order: 1000
   gameObject: {fileID: 1397753664}
   activeState: 0
   isAffectedByStaff: 0

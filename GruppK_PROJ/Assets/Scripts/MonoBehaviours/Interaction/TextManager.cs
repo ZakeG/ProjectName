@@ -23,8 +23,14 @@ public class TextManager : MonoBehaviour
         {
             text.text = savedString + "\n" + message;
         }
-        else
+        else if(text.color != textColor)
         {
+            ClearText();
+            text.color = textColor;
+            text.text = message;
+        }else
+        {
+            text.color = textColor;
             text.text = message;
         }
         savedString = message;

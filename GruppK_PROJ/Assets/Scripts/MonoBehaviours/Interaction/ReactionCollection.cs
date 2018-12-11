@@ -18,7 +18,6 @@ public class ReactionCollection : MonoBehaviour
 
 
     private bool reactionsStarted;
-    private bool allReactionZero;
     private int reactionOrderNumber;
     private float clicksNeeded;
     private TextManager textManager;
@@ -40,7 +39,6 @@ public class ReactionCollection : MonoBehaviour
         playerMovementScript = GameObject.Find("Player").GetComponent<PlayerMovement>();
         textManager = GameObject.Find("MessageCanvas").GetComponent<TextManager>();
         clicksNeeded = 0;
-        allReactionZero = false;
         tempTexture2DIntList = Resources.FindObjectsOfTypeAll<Texture2D>();
         foreach (Texture2D t in tempTexture2DIntList)
         {
@@ -97,13 +95,6 @@ public class ReactionCollection : MonoBehaviour
             if (delayedReaction != null && clicksNeeded < delayedReaction.order && delayedReaction.order != 1000)
             {
                 clicksNeeded = delayedReaction.order;
-            }
-        }
-        for(int i = 0; i < instructions.Count; i++)
-        {
-            if (instructions[i].order < 0 && (instructions[i].order > instructions[i-1].order))
-            {
-                allReactionZero = true;
             }
         }
 

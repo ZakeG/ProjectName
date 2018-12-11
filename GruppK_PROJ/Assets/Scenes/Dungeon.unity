@@ -15560,6 +15560,22 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e342f9e379571384096aae3ebcf69a31, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400008, guid: e342f9e379571384096aae3ebcf69a31, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e342f9e379571384096aae3ebcf69a31, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: e342f9e379571384096aae3ebcf69a31, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e342f9e379571384096aae3ebcf69a31, type: 3}
   m_IsPrefabAsset: 0
@@ -15583,6 +15599,22 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 100002, guid: e342f9e379571384096aae3ebcf69a31,
     type: 3}
   m_PrefabInternal: {fileID: 523122005}
+--- !u!1 &523122010 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: e342f9e379571384096aae3ebcf69a31,
+    type: 3}
+  m_PrefabInternal: {fileID: 523122005}
+--- !u!122 &523122011
+Halo:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 523122010}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4286611584
+  m_Size: 0.06
 --- !u!1001 &528625783
 Prefab:
   m_ObjectHideFlags: 0
@@ -40694,6 +40726,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 2b697a4ce70c6a447b3e68018c2194fe,
     type: 3}
   m_PrefabInternal: {fileID: 1239118175}
+--- !u!122 &1239118178
+Halo:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1239118176}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4286611584
+  m_Size: 0.08
 --- !u!1001 &1248423594
 Prefab:
   m_ObjectHideFlags: 0
@@ -54283,6 +54326,46 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1c25bd23fc88b46b5e1888b4694ace, type: 3}
   m_IsPrefabAsset: 0
+--- !u!1 &1946319112
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1946319113}
+  - component: {fileID: 1946319114}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1946319113
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1946319112}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.3643, y: 0.7321, z: 0.1707}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 646732}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!122 &1946319114
+Halo:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1946319112}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4286611584
+  m_Size: 0.02
 --- !u!1001 &1947628719
 Prefab:
   m_ObjectHideFlags: 0
@@ -56444,6 +56527,22 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: 40c677f76947eb94b9fa544c502570b9,
     type: 3}
   m_PrefabInternal: {fileID: 2041270986}
+--- !u!1 &2041270988 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100010, guid: 40c677f76947eb94b9fa544c502570b9,
+    type: 3}
+  m_PrefabInternal: {fileID: 2041270986}
+--- !u!122 &2041270989
+Halo:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2041270988}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4286611584
+  m_Size: 0.06
 --- !u!1001 &2046662693
 Prefab:
   m_ObjectHideFlags: 0
@@ -56716,6 +56815,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 5b20387b016f1de4a98e60816f29fe78,
     type: 3}
   m_PrefabInternal: {fileID: 2054542864}
+--- !u!122 &2054542867
+Halo:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2054542866}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4286611584
+  m_Size: 0.06
 --- !u!1 &2057102062
 GameObject:
   m_ObjectHideFlags: 0

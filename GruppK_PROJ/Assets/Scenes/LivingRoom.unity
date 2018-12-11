@@ -670,7 +670,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 1
+  order: 2
   gameObject: {fileID: 1124805778}
   activeState: 0
   isAffectedByStaff: 0
@@ -776,7 +776,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 1
+  order: 2
   gameObject: {fileID: 703181009}
   activeState: 0
   isAffectedByStaff: 1
@@ -8402,6 +8402,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: "\nPiece 1. the piece you're looking for is in the down under\nPiece 2.
     Go to the sa fari \nPiece 3. South america okay mah dude\n"
+--- !u!114 &162662586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 1
+  message: I need the blue pearl inside of the clam.
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!114 &163341951
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10030,7 +10044,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: There''s a beautiful glowing blue crystal inside this clam'
+  message: 'Apprentice: The clam closed up as i touched it....I should find a way
+    to get it to open up.'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1 &225467293
 GameObject:
@@ -13233,7 +13248,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 1
+  order: 2
   gameObject: {fileID: 247544374}
   activeState: 0
   isAffectedByStaff: 0
@@ -20226,21 +20241,6 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2a29b740fd0c494e85790327f935fe3, type: 3}
   m_IsPrefabAsset: 0
---- !u!114 &484803145
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  order: 1
-  gameObject: {fileID: 582259196}
-  activeState: 0
-  isAffectedByStaff: 0
 --- !u!1001 &488153777
 Prefab:
   m_ObjectHideFlags: 0
@@ -21138,7 +21138,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 1
+  order: 2
   gameObject: {fileID: 1127789322}
   activeState: 0
   isAffectedByStaff: 1
@@ -27087,21 +27087,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 600039529}
---- !u!114 &602916175
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  order: 1
-  gameObject: {fileID: 373270834}
-  activeState: 0
-  isAffectedByStaff: 0
 --- !u!1001 &603581705
 Prefab:
   m_ObjectHideFlags: 0
@@ -27676,7 +27661,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 1
+  order: 2
   gameObject: {fileID: 53491494}
   activeState: 0
   isAffectedByStaff: 0
@@ -28646,7 +28631,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 1
+  order: 2
   gameObject: {fileID: 1561554626}
   activeState: 0
   isAffectedByStaff: 1
@@ -29632,7 +29617,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 1
+  order: 2
   gameObject: {fileID: 537916998}
   activeState: 0
   isAffectedByStaff: 0
@@ -36055,7 +36040,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 1
+  order: 2
   gameObject: {fileID: 1327794670}
   activeState: 0
   isAffectedByStaff: 0
@@ -41378,7 +41363,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 1
+  order: 2
   gameObject: {fileID: 1793748932}
   activeState: 0
   isAffectedByStaff: 0
@@ -44612,7 +44597,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: It''s a clam with a beautiful blue pearl..'
+  message: 'Apprentice: It''s a clam with a beautiful blue pearl inside it..'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1 &1019472388
 GameObject:
@@ -56381,13 +56366,13 @@ MonoBehaviour:
   - {fileID: 2072507246}
   - {fileID: 90396254}
   - {fileID: 1862141080}
-  - {fileID: 602916175}
   - {fileID: 455555765}
   - {fileID: 631723499}
   - {fileID: 1212615527}
   - {fileID: 1439986443}
   - {fileID: 592686527}
   - {fileID: 886782670}
+  - {fileID: 1172070075}
 --- !u!1001 &1127789320
 Prefab:
   m_ObjectHideFlags: 0
@@ -58325,6 +58310,21 @@ MonoBehaviour:
   description: DungeonDoorQuestStart
   satisfied: 1
   hash: 162785247
+--- !u!114 &1172070075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 2
+  gameObject: {fileID: 373270834}
+  activeState: 0
+  isAffectedByStaff: 0
 --- !u!114 &1173802175
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63605,6 +63605,21 @@ Halo:
     serializedVersion: 2
     rgba: 4278234111
   m_Size: 0.1
+--- !u!114 &1422588329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 2
+  gameObject: {fileID: 582259196}
+  activeState: 0
+  isAffectedByStaff: 0
 --- !u!1001 &1426233424
 Prefab:
   m_ObjectHideFlags: 0
@@ -64323,7 +64338,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 1
+  order: 2
   gameObject: {fileID: 903344675}
   activeState: 0
   isAffectedByStaff: 1
@@ -80643,9 +80658,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: I can cook the clam to make it open up over this fire!
-
-'
+  message: 'Apprentice: The clam opened up from being cooked...I can now get the pearl
+    inside..'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!114 &1711558618
 MonoBehaviour:
@@ -81961,7 +81975,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 2
+  order: 3
   gameObject: {fileID: 1339064260}
   activeState: 0
   isAffectedByStaff: 0
@@ -84646,7 +84660,8 @@ MonoBehaviour:
   - {fileID: 1542206516}
   - {fileID: 1544075840}
   - {fileID: 1150436129}
-  - {fileID: 484803145}
+  - {fileID: 162662586}
+  - {fileID: 1422588329}
 --- !u!1001 &1879013673
 Prefab:
   m_ObjectHideFlags: 0
@@ -96918,7 +96933,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 1
+  order: 2
   gameObject: {fileID: 889468387}
   activeState: 0
   isAffectedByStaff: 0

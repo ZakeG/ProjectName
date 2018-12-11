@@ -16,26 +16,33 @@ public class ReactionCollection : MonoBehaviour
     private List<Instruction> immediateInstructions = new List<Instruction>();
     private List<Instruction> instructions = new List<Instruction>();
 
+
+    private bool reactionsStarted;
+    private bool allReactionZero;
+    private int reactionOrderNumber;
+    private float clicksNeeded;
     private TextManager textManager;
     private PlayerMovement playerMovementScript;
-    private bool reactionsStarted;
-    private int reactionOrderNumber;
     private AudioSource audioSource;
-    private Texture2D[] tempIntList;
+    private Texture2D[] tempTexture2DIntList;
+    private Condition[] tempConditionInitList;
     private Texture2D cursorIneracting;
     private Texture2D cursorArrow;
     private CursorMode cursorMode = CursorMode.Auto;
     private Vector2 hotSpot = Vector2.zero;
-    private float clicksNeeded;
+    private Condition playerisInteracting;
+    private DelayedReaction interactableOffReaction;
+
 
     private void Start ()
     {
-        clicksNeeded = 0;
-        textManager = GameObject.Find("MessageCanvas").GetComponent<TextManager>();
         audioSource = GameObject.Find("VO").GetComponent<AudioSource>();
         playerMovementScript = GameObject.Find("Player").GetComponent<PlayerMovement>();
-        tempIntList = Resources.FindObjectsOfTypeAll<Texture2D>();
-        foreach (Texture2D t in tempIntList)
+        textManager = GameObject.Find("MessageCanvas").GetComponent<TextManager>();
+        clicksNeeded = 0;
+        allReactionZero = false;
+        tempTexture2DIntList = Resources.FindObjectsOfTypeAll<Texture2D>();
+        foreach (Texture2D t in tempTexture2DIntList)
         {
             if (t.name == "pointer_talk")
             {
@@ -45,7 +52,16 @@ public class ReactionCollection : MonoBehaviour
             {
                 cursorArrow = t;
             }
-        }      
+        }
+        tempConditionInitList = Resources.FindObjectsOfTypeAll<Condition>();
+        foreach (Condition t in tempConditionInitList)
+        {
+            if (t.description == "PLAYERISINTERACTING")
+            {
+                playerisInteracting = t;
+            }
+        }
+
         for (int i = 0; i < reactions.Length; i++)
         {
             DelayedReaction delayedReaction = reactions[i] as DelayedReaction;
@@ -57,28 +73,43 @@ public class ReactionCollection : MonoBehaviour
                     delayedReaction.Init();
                     ManageDelayedReactions(delayedReaction, delayedReaction.order);
                 }
-                else
+               else
                 {
                     delayedReaction.Init();
                     ManageDelayedReactions(delayedReaction, (delayedReaction.order-1));
                 }
             } 
+            else if (delayedReaction && delayedReaction.order == 1000 && delayedReaction is GameObjectReaction)
+            {
+                interactableOffReaction = delayedReaction;
+            }
             else if (delayedReaction)
             {
                 delayedReaction.Init();
                 ManageDelayedReactions(delayedReaction, delayedReaction.order);
-                if (clicksNeeded < delayedReaction.order)
-                {
-                    clicksNeeded = delayedReaction.order + 1;
-                }
             }
             else
             {
                 reactions[i].Init();
                 ManageImmidiateReactions(reactions[i], 99);
             }
+
+            if (delayedReaction != null && clicksNeeded < delayedReaction.order && delayedReaction.order != 1000)
+            {
+                clicksNeeded = delayedReaction.order;
+            }
         }
-        Debug.Log(gameObject.name + " has " + clicksNeeded);
+        for(int i = 0; i < instructions.Count; i++)
+        {
+            if (instructions[i].order < 0 && (instructions[i].order > instructions[i-1].order))
+            {
+                allReactionZero = true;
+            }
+        }
+
+//        Debug.Log(gameObject.name + " from " + gameObject.transform.parent.name + " has " + instructions.Count + " Reactions");
+//        Debug.Log("Clicks needed: " + clicksNeeded);
+//        Debug.Log(interactableOffReaction);
     }
 
     private void Update()
@@ -87,6 +118,12 @@ public class ReactionCollection : MonoBehaviour
         {
             if (Input.GetButtonDown("Fire1"))
             {
+                if (clicksNeeded == 0)
+                {
+                    ReactionsAlmostFinished();
+                    ReactionsFinished();
+                }
+                reactionOrderNumber++;
                 if (reactionOrderNumber < clicksNeeded)
                 {
                     RunNextReactions();
@@ -98,9 +135,8 @@ public class ReactionCollection : MonoBehaviour
                 else if (reactionOrderNumber > clicksNeeded)
                 {
                     ReactionsFinished();
-                    return;
                 }
-                reactionOrderNumber++;
+
             }
         }
     }
@@ -135,6 +171,7 @@ public class ReactionCollection : MonoBehaviour
             }
         }
 
+
     }
     private void RunAllImmidiateReactions()
     {
@@ -152,7 +189,6 @@ public class ReactionCollection : MonoBehaviour
         reactionOrderNumber = 0;
         RunAllImmidiateReactions();
         RunNextReactions();
-        reactionOrderNumber++;
 
     }
     private void ReactionsAlmostFinished()
@@ -164,9 +200,15 @@ public class ReactionCollection : MonoBehaviour
     }
 
     private void ReactionsFinished()
-    {   
+    {
+        playerisInteracting.satisfied = false;
         reactionsStarted = false;
         playerMovementScript.PauseUnpauseReaction(false);
+        if (interactableOffReaction != null)
+        {
+            interactableOffReaction.React(this);
+        }
+        
     }
     
     public void React ()

@@ -10,39 +10,19 @@ public class Inventory : MonoBehaviour
     public GameObject[] itemSlots = new GameObject[numItemSlots];
     public Item staffItem;
 
-
-    public const int numItemSlots = 12;
+    public const int numItemSlots = 10;
 
     private BagButton bagButton;
     private GameObject staffButton;
     private bool hasStaff;
 
-    private const float speed = 10.0f;
-    private GameObject pickUpImageGameObject;
-    private Image pickUpImage;
-    private Vector3 startPosition;
-    private Vector3 endPosition;
-    private bool animationStarted;
-
     void Start()
     {
-        pickUpImageGameObject = GameObject.Find("PickUpImage");
-        pickUpImage = pickUpImageGameObject.GetComponent<Image>();
         staffButton = GameObject.Find("StaffButton");
         bagButton = GameObject.Find("BagButton").GetComponent<BagButton>();
-        startPosition = pickUpImageGameObject.transform.position;
-        endPosition = bagButton.transform.position;
-
-        DehighlightAll();
-        pickUpImageGameObject.SetActive(false);
-    }
-    private void Update()
-    {
-        PlayPickUpAnimation();
-        if (animationStarted && (pickUpImageGameObject.transform.position == endPosition))
+        for (int i = 0; i < items.Length; i++)
         {
-            ReturnPickUpAnimation();
-            animationStarted = false;
+                highlightImages[i].enabled = false;
         }
     }
 
@@ -69,28 +49,6 @@ public class Inventory : MonoBehaviour
                 return;
             }
         }
-        ItemPickedUp(itemToAdd);
-    }
-    private void ItemPickedUp(Item i)
-    {
-        pickUpImageGameObject.SetActive(true);
-        pickUpImage.sprite = i.sprite;
-        animationStarted = true;
-
-    }
-
-    private void PlayPickUpAnimation()
-    {
-        if (!animationStarted)
-        {
-            pickUpImageGameObject.transform.position = Vector2.MoveTowards(pickUpImageGameObject.transform.position, endPosition, 1);
-        }
-        
-    }
-
-    private void ReturnPickUpAnimation()
-    {
-        pickUpImageGameObject.transform.position = startPosition;
     }
 
     public void RemoveItem(Item itemToRemove)

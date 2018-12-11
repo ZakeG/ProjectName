@@ -5,17 +5,10 @@ using System.Collections.Generic;
 
 public class TextManager : MonoBehaviour
 {
-    public struct Instruction
-    {
-        public string message;
-        public Color textColor;
-        public float order;
-    }
 
     public Text text;
     public GameObject background;
-
-    private int messageNumber;
+    private int messagenumber;
     private string savedString;
 
     private void Start()
@@ -30,15 +23,8 @@ public class TextManager : MonoBehaviour
         {
             text.text = savedString + "\n" + message;
         }
-        else if(text.color != textColor)
-        {
-            text.text = string.Empty;
-            text.color = textColor;
-            text.text = message;
-        }
         else
         {
-            text.color = textColor;
             text.text = message;
         }
         savedString = message;
@@ -49,7 +35,7 @@ public class TextManager : MonoBehaviour
         text.text = string.Empty;
         savedString = string.Empty;
     }
-    
+
     public void ShowTextArea()
     {
         background.SetActive(true);

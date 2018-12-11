@@ -6,14 +6,11 @@ public class ItemCombinationHandler : MonoBehaviour {
 
     public List<ItemCombination> combinations = new List<ItemCombination>();
     public Inventory inventory;
-
     private Inventory inventoryScript;
     private List<Item> selectedItems;
     private List<Item> combos;
     private List<Item> comboResults;
     private bool allSelectedItemsInCombo;
-    private List<GameObjectReaction> gameObjectList;
-    private List<QuestLogReaction> questLogList;
     public AudioClip done;
     public AudioClip fail;
     public AudioSource audioSource;
@@ -99,8 +96,6 @@ public class ItemCombinationHandler : MonoBehaviour {
         DeselectAll();
         combos = combinationRecepie.GetList();
         comboResults = combinationRecepie.GetResultingItemList();
-        gameObjectList = combinationRecepie.GetGameObjectReactions();
-        questLogList = combinationRecepie.GetQuestLogReactions();
         foreach (Item i in combos)
         {
             inventory.GetComponent<Inventory>().RemoveItem(i);
@@ -108,14 +103,6 @@ public class ItemCombinationHandler : MonoBehaviour {
         foreach(Item i in comboResults)
         {
             inventoryScript.AddItem(i);
-        }
-        foreach (GameObjectReaction gro in gameObjectList)
-        {
-            gro.React(this);
-        }
-        foreach (QuestLogReaction qlr in questLogList)
-        {
-            qlr.React(this);
         }
     }
 }

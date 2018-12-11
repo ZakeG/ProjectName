@@ -11,17 +11,6 @@ public class GameObjectReaction : DelayedReaction
     private GameObject[] tempIntList;
     private DayNightButton buttonScript;
 
-    public GameObjectReaction(GameObject o, bool activeS, bool staffEffect)
-    {
-        gameObject = o;
-        activeState = activeS;
-        isAffectedByStaff = staffEffect;
-    }
-    public GameObject GetGameObject()
-    {
-        return gameObject;
-    }
-
     protected override void SpecificInit()
     {
         tempIntList = Resources.FindObjectsOfTypeAll<GameObject>();
@@ -36,6 +25,7 @@ public class GameObjectReaction : DelayedReaction
 
     protected override void ImmediateReaction()
     {
+        Debug.Log("Setting " + gameObject + " to " + activeState);
         gameObject.SetActive (activeState);
         if (activeState == false && isAffectedByStaff)
         {

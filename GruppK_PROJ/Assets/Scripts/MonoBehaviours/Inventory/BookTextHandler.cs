@@ -11,8 +11,6 @@ public class BookTextHandler : MonoBehaviour {
     public int currentPageNr;
     public GameObject newIcon;
     public QuestBookButton bookButtonScript;
-    public GameObject rightArrow;
-    public GameObject leftArrow;
 
     private List<Page> pages;
     private Text page1;
@@ -40,8 +38,6 @@ public class BookTextHandler : MonoBehaviour {
         page1 = gameObject.GetComponent<Text>();
         page2 = secondPage.GetComponent<Text>();
         StartBook();
-        rightArrow.SetActive(false);
-        leftArrow.SetActive(false);
     }
 
     private void StartBook()
@@ -73,8 +69,8 @@ public class BookTextHandler : MonoBehaviour {
         {
             AddNewPageToBook();
             currentPageNr++;
-            currentPageP1 = string.Empty + textToInput;
-            currentPageP2 = string.Empty;
+            currentPageP1 = "" + textToInput;
+            currentPageP2 = "";
         }
         textBeingShownP1 = currentPageP1;
         textBeingShownP2 = currentPageP2;
@@ -132,22 +128,6 @@ public class BookTextHandler : MonoBehaviour {
                 }
             }
         }
-        if ((currentPageNr - 1) < 0)
-        {
-            HideLeftArrow();
-        }else if ((currentPageNr + 1) > pages.Count)
-        {
-            HideRightArrow();
-        }
-    }
-    private void HideLeftArrow()
-    {
-        leftArrow.SetActive(false);
-    }
-
-    private void HideRightArrow()
-    {
-        rightArrow.SetActive(false);
     }
 
     private void UpdateBookText()
@@ -166,6 +146,5 @@ public class BookTextHandler : MonoBehaviour {
         };
         pages.Add(newPage);
         workingOnPage++;
-        Debug.Log(pages.Count);
     }
 }

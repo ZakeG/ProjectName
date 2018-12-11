@@ -12,23 +12,23 @@ public class PlayerMovement : MonoBehaviour
     public float speedDampTime = 0.1f;
     public float slowingSpeed = 0.175f;
     public float turnSpeedThreshold = 0.5f;
-    
+
+    [SerializeField]
+    private bool holdForReacion = false;
 
     private Interactable currentInteractable;
     private Vector3 destinationPosition;
-    private bool holdForReacion = false;
     private Condition readingQuestlogCondition;
     private Condition[] tempConditionInitList;
 
-
     private readonly int hashSpeedPara = Animator.StringToHash("Speed");
-
 
     public const string startingPositionKey = "starting position";
 
-
     private const float stopDistanceProportion = 0.1f;
     private const float navMeshSampleDistance = 4f;
+
+    
 
 
     private void Start()

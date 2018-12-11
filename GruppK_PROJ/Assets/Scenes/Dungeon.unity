@@ -1817,8 +1817,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: This thing could be useful right?'
-  textColor: {r: 1, g: 0.95686275, b: 0, a: 1}
+  message: 'Apprentice: This is one large dragon bone '
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1001 &226881628
 Prefab:
   m_ObjectHideFlags: 0
@@ -3663,10 +3663,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: It''s a slice of watermelon
+  message: 'Apprentice: It''s a juicy slice of watermelon
 
 '
-  textColor: {r: 1, g: 0.95686275, b: 0, a: 1}
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1001 &332632514
 Prefab:
   m_ObjectHideFlags: 0
@@ -10354,7 +10354,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   order: 1
   message: "Theres more gold in there than a pirate sees in a lifetime!\r\n"
-  textColor: {r: 1, g: 0.95686275, b: 0, a: 1}
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!114 &468200554
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10744,8 +10744,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'Quest Completed:  You''ve completed the ghosts quest for you! Onto the
-    last ingredient for the wizards potion!'
+  message: 'Quest Completed:  You''ve completed the ghosts quest! Onto the last ingredient
+    for the wizards potion!'
 --- !u!4 &509806754 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400004, guid: 59df1c95eea9ebb40b9a3634bc4c0087,
@@ -15701,7 +15701,7 @@ MonoBehaviour:
   message: 'Apprentice: Theres something blocking the door...
 
 '
-  textColor: {r: 1, g: 0.95686275, b: 0, a: 1}
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1001 &533650516
 Prefab:
   m_ObjectHideFlags: 0
@@ -16320,7 +16320,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   order: 0
   message: 'Apprentice: A cell full of bones,'
-  textColor: {r: 1, g: 0.95686275, b: 0, a: 1}
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1001 &590455339
 Prefab:
   m_ObjectHideFlags: 0
@@ -16854,8 +16854,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: "Apprentice: Success! Lets take a look at what\u2019s inside\r\n"
-  textColor: {r: 1, g: 0.95686275, b: 0, a: 1}
+  message: "Apprentice: Oh right! maybe the lockpick could be useful here. Success!
+    Lets take a look at what\u2019s inside\r\n"
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1001 &600982858
 Prefab:
   m_ObjectHideFlags: 0
@@ -23594,7 +23595,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   order: 0
   message: 'Apprentice: The cell door is locked'
-  textColor: {r: 1, g: 0.95686275, b: 0, a: 1}
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1001 &709354875
 Prefab:
   m_ObjectHideFlags: 0
@@ -24832,7 +24833,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 6
-  message: To show me you've understood my riddle by bringing me your answer
+  message: To show me you've understood my riddle by bringing me your answer. Meow
+    Meow.
   textColor: {r: 1, g: 0.023529412, b: 0.023529412, a: 1}
 --- !u!1001 &794849109
 Prefab:
@@ -39352,7 +39354,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   order: 1
   message: "and I thought I was having a rough day\u2026"
-  textColor: {r: 1, g: 0.95686275, b: 0, a: 1}
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1 &1154286223
 GameObject:
   m_ObjectHideFlags: 0
@@ -41733,7 +41735,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   order: 0
   message: "Apprentice: I guess you could say I've got a bone to pick with you dragon...\r\n"
-  textColor: {r: 1, g: 0.95686275, b: 0, a: 1}
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1001 &1322683595
 Prefab:
   m_ObjectHideFlags: 0
@@ -42190,7 +42192,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   order: 4
   message: 'Apprentice: Ehm.. '
-  textColor: {r: 1, g: 0.95686275, b: 0, a: 1}
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1001 &1338878532
 Prefab:
   m_ObjectHideFlags: 0
@@ -42285,7 +42287,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 7
-  message: 'Apprentice: The gold chest I found is locked! there must be a key somewhere...'
+  message: The gold chest I found is locked! there must be a key somewhere...
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1 &1349318738
 GameObject:
@@ -48760,7 +48762,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'GHOSTY: My precious! I knew you''d taken it!'
+  message: 'GHOSTY: My precious! I knew you''d taken it! Boooooo...'
   textColor: {r: 1, g: 0.023529412, b: 0.023529412, a: 1}
 --- !u!1001 &1485910526
 Prefab:
@@ -49551,7 +49553,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   order: 0
   message: 'Apprentice: It looks like a juicy slice of watermelon....'
-  textColor: {r: 1, g: 0.95686275, b: 0, a: 1}
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1001 &1570092824
 Prefab:
   m_ObjectHideFlags: 0
@@ -51416,7 +51418,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   order: 0
   message: "Apprentice: A cell full of treasures...\r\n"
-  textColor: {r: 1, g: 0.95686275, b: 0, a: 1}
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!114 &1718436999
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51928,7 +51930,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   order: 0
   message: "Apprentice: This dragon looks like it's passed its expiration date\u2026"
-  textColor: {r: 1, g: 0.95686275, b: 0, a: 1}
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1001 &1780142635
 Prefab:
   m_ObjectHideFlags: 0
@@ -52273,7 +52275,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   order: 1
   message: "Looks like the dragon had one more ride left in it...lucky doll...\r\n"
-  textColor: {r: 1, g: 0.95686275, b: 0, a: 1}
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!114 &1820983007
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52534,7 +52536,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   order: 0
   message: 'Apprentice: There''s something behind these planks...'
-  textColor: {r: 1, g: 0.95686275, b: 0, a: 1}
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1001 &1872707033
 Prefab:
   m_ObjectHideFlags: 0

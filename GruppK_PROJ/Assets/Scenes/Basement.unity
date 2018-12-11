@@ -5521,7 +5521,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: "Apprentice:  I suppose it\u2019s true what they say- one person's trash
+  message: "Apprentice: I suppose it\u2019s true what they say- one person's trash
     is another person's treasure!"
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1001 &101436196
@@ -13938,7 +13938,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 1
-  message: 'It worked! the door unlocked
+  message: 'placing the crytstals in the door worked! the door unlocked.
 
 '
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
@@ -13954,7 +13954,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: Placing all the crystals in the slots worked!'
+  message: 'Apprentice: All the crystals fit into the slots on the door. '
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1 &636630156
 GameObject:
@@ -22523,7 +22523,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: There''s something inside the cage on this shelf..'
+  message: 'Apprentice: There''s something inside the cage on this shelf..I wonder
+    what he did to end up there. '
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1 &962628310
 GameObject:
@@ -25534,8 +25535,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: There''s something inside the fire but it''s burning too hot
-    to get it out...'
+  message: 'Apprentice: There''s something inside the fire but it''s to hot to get
+    it out...'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!114 &1140953868
 MonoBehaviour:
@@ -45771,7 +45772,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 0
+  order: 1
   gameObject: {fileID: 1956563058}
   activeState: 0
   isAffectedByStaff: 1
@@ -50811,8 +50812,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: What an interesting chest...I wonder what treasures it holds
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  message: 'Apprentice: What an interesting chest...I wonder what treasures it holds'
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1001 &1644606023
 Prefab:
   m_ObjectHideFlags: 0
@@ -50911,7 +50912,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   order: 1
   message: Around the doors window there's four holes the top one is filled with a
-    bright white crystal but the others seems to be missing..
+    bright white crystal ball but the other three seems to be missing..
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1 &1660240878
 GameObject:
@@ -52079,9 +52080,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 0
-  message: Around the doors window there's four holes the top one is filled with a
-    bright white crystal but the others seems to be missing..
+  order: 1
+  message: There are symbols next to the holes in the door, the one next to the white
+    crystal ball looks like air. The other three symbols seems to represent earth,
+    water and fire.
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1 &1752206915
 GameObject:
@@ -53990,7 +53992,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 0
+  order: 2
   message: If i had a bucket or something i could take some of this water with me...
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1001 &1880969458
@@ -54850,7 +54852,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 1
+  order: 0
   message: 'Apprentice: This torch could be used for carrying fire'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1001 &1921119000

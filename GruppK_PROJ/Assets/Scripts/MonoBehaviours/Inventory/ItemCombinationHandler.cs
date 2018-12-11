@@ -15,12 +15,16 @@ public class ItemCombinationHandler : MonoBehaviour {
     public AudioClip fail;
     public AudioSource audioSource;
 
-    private void Start()
+    private void Awake()
     {
         inventoryScript = inventory.GetComponent<Inventory>();
         selectedItems = new List<Item>();
-        DeselectAll();
 
+    }
+
+    private void Start()
+    {
+        DeselectAll();
     }
 
     public void CheckSelectedForCombine()

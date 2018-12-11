@@ -33,7 +33,7 @@ public class ReactionCollection : MonoBehaviour
     private DelayedReaction interactableOffReaction;
 
 
-    private void Start ()
+    private void Awake ()
     {
         audioSource = GameObject.Find("VO").GetComponent<AudioSource>();
         playerMovementScript = GameObject.Find("Player").GetComponent<PlayerMovement>();
@@ -46,7 +46,7 @@ public class ReactionCollection : MonoBehaviour
             {
                 cursorIneracting = t;
             }
-            if (t.name == "pointer_walk")
+            else if (t.name == "pointer_walk")
             {
                 cursorArrow = t;
             }
@@ -97,7 +97,6 @@ public class ReactionCollection : MonoBehaviour
                 clicksNeeded = delayedReaction.order;
             }
         }
-
 //        Debug.Log(gameObject.name + " from " + gameObject.transform.parent.name + " has " + instructions.Count + " Reactions");
 //        Debug.Log("Clicks needed: " + clicksNeeded);
 //        Debug.Log(interactableOffReaction);

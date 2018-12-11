@@ -25,7 +25,6 @@ public class GameObjectReaction : DelayedReaction
 
     protected override void ImmediateReaction()
     {
-        Debug.Log("Setting " + gameObject + " to " + activeState);
         gameObject.SetActive (activeState);
         if (activeState == false && isAffectedByStaff)
         {

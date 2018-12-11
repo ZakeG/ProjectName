@@ -11933,6 +11933,7 @@ GameObject:
   - component: {fileID: 329179453}
   - component: {fileID: 329179455}
   - component: {fileID: 329179454}
+  - component: {fileID: 329179456}
   m_Layer: 0
   m_Name: sphere
   m_TagString: Untagged
@@ -11998,6 +11999,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 329179452}
   m_Mesh: {fileID: 4300004, guid: e0f1a337068c86f4ea82492f1a01071e, type: 3}
+--- !u!122 &329179456
+Halo:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 329179452}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4286611584
+  m_Size: 0.1
 --- !u!1001 &329874541
 Prefab:
   m_ObjectHideFlags: 0

@@ -17,6 +17,10 @@ public class GameObjectReaction : DelayedReaction
         activeState = activeS;
         isAffectedByStaff = staffEffect;
     }
+    public GameObject GetGameObject()
+    {
+        return gameObject;
+    }
 
     protected override void SpecificInit()
     {

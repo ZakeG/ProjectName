@@ -30,9 +30,14 @@ public class ReactionCollection : MonoBehaviour
     private float clicksNeeded;
     private Condition playerisInteracting;
     private Condition[] tempConditionInitList;
+    private GameObjectReaction selfInteractable;
+    private GameObjectReaction tempSelfInteractable;
 
     private void Start ()
     {
+        audioSource = GameObject.Find("VO").GetComponent<AudioSource>();
+        playerMovementScript = GameObject.Find("Player").GetComponent<PlayerMovement>();
+        textManager = GameObject.Find("MessageCanvas").GetComponent<TextManager>();
         clicksNeeded = 0;
         tempTextureIntList = Resources.FindObjectsOfTypeAll<Texture2D>();
         foreach (Texture2D t in tempTextureIntList)
@@ -54,14 +59,9 @@ public class ReactionCollection : MonoBehaviour
                 playerisInteracting = t;
             }
         }
-
-        audioSource = GameObject.Find("VO").GetComponent<AudioSource>();
-        playerMovementScript = GameObject.Find("Player").GetComponent<PlayerMovement>();
-        textManager = GameObject.Find("MessageCanvas").GetComponent<TextManager>();
         for (int i = 0; i < reactions.Length; i++)
         {
             DelayedReaction delayedReaction = reactions[i] as DelayedReaction;
-
             if (delayedReaction && delayedReaction is AudioReaction)
             {
                 if (delayedReaction.order == 0)
@@ -79,32 +79,31 @@ public class ReactionCollection : MonoBehaviour
             {
                 delayedReaction.Init();
                 ManageDelayedReactions(delayedReaction, delayedReaction.order);
-                if (clicksNeeded < delayedReaction.order)
-                {
-                    clicksNeeded = delayedReaction.order;
-                }
+
             }
             else
             {
                 reactions[i].Init();
                 ManageImmidiateReactions(reactions[i], 99);
             }
-        }
-//        Debug.Log(gameObject.name + " from " + gameObject.transform.parent.name + " has " + instructions.Count + " Reactions");
-    }
 
+            if (delayedReaction != null && clicksNeeded < delayedReaction.order)
+            {
+                clicksNeeded = delayedReaction.order;
+            }
+        }
+
+        Debug.Log(gameObject.name + " from " + gameObject.transform.parent.name + " has " + instructions.Count + " Reactions");
+        Debug.Log("Clicks needed: " + clicksNeeded);
+
+    }
+    
     private void Update()
     {
         if (reactionsStarted)
         {
             if (Input.GetButtonDown("Fire1"))
             {
-                if (instructions.Count == 1)
-                {
-                    ReactionsAlmostFinished();
-                    ReactionsFinished();
-                    return;
-                }
                 reactionOrderNumber++;
                 if (reactionOrderNumber < clicksNeeded)
                 {
@@ -117,7 +116,6 @@ public class ReactionCollection : MonoBehaviour
                 else if (reactionOrderNumber > clicksNeeded)
                 {
                     ReactionsFinished();
-                    return;
                 }
             }
         }
@@ -150,10 +148,10 @@ public class ReactionCollection : MonoBehaviour
         {
             if (instructions[i].order == reactionOrderNumber)
             {
+                Debug.Log("Running " + instructions[i].reaction.ToString() + " from " + gameObject.name);
                 instructions[i].reaction.React();
             }
         }
-
     }
 
     private void RunAllImmidiateReactions()
@@ -179,7 +177,7 @@ public class ReactionCollection : MonoBehaviour
         textManager.ClearText();
         textManager.HideTextArea();
         audioSource.Stop();
-        Cursor.SetCursor(cursorArrow, hotSpot, cursorMode); 
+        Cursor.SetCursor(cursorArrow, hotSpot, cursorMode);
     }
 
     private void ReactionsFinished()
@@ -187,6 +185,10 @@ public class ReactionCollection : MonoBehaviour
         playerisInteracting.satisfied = false;
         reactionsStarted = false;
         playerMovementScript.PauseUnpauseReaction(false);
+        if(selfInteractable != null)
+        {
+            selfInteractable.React();
+        }
     }
     
     public void React ()

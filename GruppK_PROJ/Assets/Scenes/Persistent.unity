@@ -2465,7 +2465,7 @@ MonoBehaviour:
   currentPageNr: 0
   newIcon: {fileID: 1696183455}
   bookButtonScript: {fileID: 1092984756}
-  rigthArrow: {fileID: 1779144774}
+  rightArrow: {fileID: 1779144774}
   leftArrow: {fileID: 640235304}
 --- !u!114 &1581495545
 MonoBehaviour:

@@ -107,6 +107,7 @@
     <Compile Include="Assets\Scripts\ScriptableObjects\Interaction\Reactions\ImmediateReactions\QuestLogReaction.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\Interaction\Reactions\ImmediateReactions\SceneReaction.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\Interaction\Reactions\ImmediateReactions\TextReaction.cs" />
+    <Compile Include="Assets\Scripts\ScriptableObjects\Inventory\FailedItemCombination.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\Inventory\Item.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\Inventory\ItemCombination.cs" />
     <Compile Include="Assets\Scripts\Standard Assets\Effects\ImageEffects\Scripts\Antialiasing.cs" />

@@ -18,7 +18,6 @@ public class ReactionCollection : MonoBehaviour
 
 
     private bool reactionsStarted;
-    private bool allReactionZero;
     private int reactionOrderNumber;
     private float clicksNeeded;
     private TextManager textManager;
@@ -34,13 +33,12 @@ public class ReactionCollection : MonoBehaviour
     private DelayedReaction interactableOffReaction;
 
 
-    private void Start ()
+    private void Awake ()
     {
         audioSource = GameObject.Find("VO").GetComponent<AudioSource>();
         playerMovementScript = GameObject.Find("Player").GetComponent<PlayerMovement>();
         textManager = GameObject.Find("MessageCanvas").GetComponent<TextManager>();
         clicksNeeded = 0;
-        allReactionZero = false;
         tempTexture2DIntList = Resources.FindObjectsOfTypeAll<Texture2D>();
         foreach (Texture2D t in tempTexture2DIntList)
         {
@@ -48,7 +46,7 @@ public class ReactionCollection : MonoBehaviour
             {
                 cursorIneracting = t;
             }
-            if (t.name == "pointer_walk")
+            else if (t.name == "pointer_walk")
             {
                 cursorArrow = t;
             }
@@ -99,14 +97,6 @@ public class ReactionCollection : MonoBehaviour
                 clicksNeeded = delayedReaction.order;
             }
         }
-        for(int i = 0; i < instructions.Count; i++)
-        {
-            if (instructions[i].order < 0 && (instructions[i].order > instructions[i-1].order))
-            {
-                allReactionZero = true;
-            }
-        }
-
 //        Debug.Log(gameObject.name + " from " + gameObject.transform.parent.name + " has " + instructions.Count + " Reactions");
 //        Debug.Log("Clicks needed: " + clicksNeeded);
 //        Debug.Log(interactableOffReaction);

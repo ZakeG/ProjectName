@@ -3,12 +3,13 @@ public class QuestLogReaction : Reaction
 {
     public string message;
 
-    private BookTextHandler questTextManager;
+    private BookTextHandler bookTextManager;
     private BookTextHandler[] tempList;
 
     public QuestLogReaction(string m)
     {
         message = m;
+        SpecificInit();
     }
 
     protected override void SpecificInit()
@@ -19,13 +20,13 @@ public class QuestLogReaction : Reaction
         {
             if (bth.CompareTag("QuestText0"))
             {
-                questTextManager = bth;
+                bookTextManager = bth;
             }
         }
     }
 
     protected override void ImmediateReaction()
     {
-        questTextManager.AddText(message);
+        bookTextManager.AddText(message);
     }
 }

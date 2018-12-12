@@ -29065,7 +29065,7 @@ MonoBehaviour:
   requiredConditions:
   - {fileID: 883627285}
   - {fileID: 425009287}
-  reactionCollection: {fileID: 0}
+  reactionCollection: {fileID: 1522509053}
 --- !u!1001 &841927037
 Prefab:
   m_ObjectHideFlags: 0

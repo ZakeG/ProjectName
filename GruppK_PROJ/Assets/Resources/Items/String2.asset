@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Name: String2
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: 9de615b40da7014458a189029f8da115, type: 3}
-  itemName: 
+  itemName: String2
   pickUpCondition: {fileID: 114419866438435280, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}
+  tooltipMessage: A string, used to tie things.

@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Name: Moonpiece1
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: 7ae52cea88bf2164ba298ad6ac57494c, type: 3}
-  itemName: 
+  itemName: SmallMoon2
   pickUpCondition: {fileID: 114443800826913856, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}
+  tooltipMessage: A piece of the moon. Or is it cheese?

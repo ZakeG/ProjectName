@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Name: DragonFire
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: 0d04dcd72eaca8e46a0fecd154f7cc7b, type: 3}
-  itemName: 
+  itemName: DragonFire
   pickUpCondition: {fileID: 114496774497453180, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}
+  tooltipMessage: Fire from the mighty dragon. The only fire fit for this special
+    kind of potion.

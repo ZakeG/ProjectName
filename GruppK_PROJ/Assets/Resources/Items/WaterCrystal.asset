@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Name: WaterCrystal
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: 154fb4a092637aa4e91b8f91cb0f5b61, type: 3}
-  itemName: 
+  itemName: WaterCrystal
   pickUpCondition: {fileID: 114446721058115782, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}
+  tooltipMessage: 'A strong and powerful crystal representing one of the Four Elements.
+    In this case: The Water.'

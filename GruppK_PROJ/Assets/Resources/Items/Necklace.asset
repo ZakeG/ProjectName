@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Name: Necklace
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: 0b461262d3f7d5a49b5ff020543adb7a, type: 3}
-  itemName: 
+  itemName: Necklace
   pickUpCondition: {fileID: 114076243485715652, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}
+  tooltipMessage: A beautiful necklace! Or is it just a chain made of gold?

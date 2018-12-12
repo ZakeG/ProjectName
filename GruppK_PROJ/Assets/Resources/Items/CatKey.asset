@@ -15,3 +15,4 @@ MonoBehaviour:
   itemName: CatKey
   pickUpCondition: {fileID: 114538350656487978, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}
+  tooltipMessage: A key.

@@ -15,3 +15,4 @@ MonoBehaviour:
   itemName: String
   pickUpCondition: {fileID: 114419866438435280, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}
+  tooltipMessage: A string, used to tie things.

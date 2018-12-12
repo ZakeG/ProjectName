@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Name: Knife
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: f233de9bfc6edac45806ba29d75e9017, type: 3}
-  itemName: 
+  itemName: Knife
   pickUpCondition: {fileID: 114873655392268402, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}
+  tooltipMessage: A knife!

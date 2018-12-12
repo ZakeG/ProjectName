@@ -15,3 +15,4 @@ MonoBehaviour:
   itemName: WizardsPotion
   pickUpCondition: {fileID: 114651070753806800, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}
+  tooltipMessage: 'This is the magical potion that the wizard was brewing! '

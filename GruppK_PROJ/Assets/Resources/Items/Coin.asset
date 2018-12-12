@@ -15,3 +15,5 @@ MonoBehaviour:
   itemName: Coin
   pickUpCondition: {fileID: 114159093089903314, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}
+  tooltipMessage: A coin is a flat piece of metal used as money. But I bet you already
+    knew that.

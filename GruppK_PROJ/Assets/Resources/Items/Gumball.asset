@@ -15,3 +15,5 @@ MonoBehaviour:
   itemName: Gumball
   pickUpCondition: {fileID: 114303500727802912, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}
+  tooltipMessage: "Gumball from the gumball machine. It kinda looks like that other
+    round, green thing\u2026"

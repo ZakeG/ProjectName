@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Name: SouthAmerica
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: f8998f667a3c2a64e9df9a435ba456af, type: 3}
-  itemName: 
+  itemName: SouthAmerica
   pickUpCondition: {fileID: 114731942013876800, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}
+  tooltipMessage: A puzzle piece in the shape of South America.

@@ -15,3 +15,5 @@ MonoBehaviour:
   itemName: 
   pickUpCondition: {fileID: 114316871784978968, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}
+  tooltipMessage: "This rare liquid is made of gold. Don\u2019t drink it though, it
+    used to be a tooth."

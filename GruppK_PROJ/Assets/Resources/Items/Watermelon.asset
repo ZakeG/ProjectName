@@ -15,3 +15,5 @@ MonoBehaviour:
   itemName: Watermelon
   pickUpCondition: {fileID: 114020229249517634, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}
+  tooltipMessage: "Ah! A watermelon! Green, white, red and\u2026 seeds\u2026 Is this
+    a clue?"

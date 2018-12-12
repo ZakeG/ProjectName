@@ -164,7 +164,7 @@ public class ItemCombinationHandler : MonoBehaviour {
     IEnumerator ShowDefaultFailMessage()
     {
         failMessageCanvasBackground.SetActive(true);
-        failText.text = "That doesn't work";
+        failText.text = "That doesn't work!";
         yield return new WaitForSeconds(2);
         failText.text = string.Empty;
         failMessageCanvasBackground.SetActive(false);

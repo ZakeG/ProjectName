@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Name: TrapDoorKey
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: 06c32c0baa23c0a43ae32724bdc6db43, type: 3}
-  itemName: 
+  itemName: TrapDoorKey
   pickUpCondition: {fileID: 114883678307390558, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}
+  tooltipMessage: A key.

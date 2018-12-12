@@ -15,3 +15,5 @@ MonoBehaviour:
   itemName: SunVialFilled
   pickUpCondition: {fileID: 114336684936229846, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}
+  tooltipMessage: "\u2013 Aha! The vial is now filled with sunlight! This could be
+    useful."

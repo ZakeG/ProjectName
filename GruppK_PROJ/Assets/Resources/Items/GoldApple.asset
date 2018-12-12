@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Name: GoldApple
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: 12a2f39e761e4754da38dcd8c9b3c4eb, type: 3}
-  itemName: 
+  itemName: GoldenApple
   pickUpCondition: {fileID: 114140620789506006, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}
+  tooltipMessage: "Woah! It\u2019s an golden apple! It\u2019s said that it brings
+    the gift of youth."

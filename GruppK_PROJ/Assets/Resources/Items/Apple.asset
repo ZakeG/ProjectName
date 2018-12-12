@@ -15,3 +15,4 @@ MonoBehaviour:
   itemName: 
   pickUpCondition: {fileID: 114837129450889992, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}
+  tooltipMessage: "It\u2019s an\u2026 apple?"

@@ -15,3 +15,4 @@ MonoBehaviour:
   itemName: Bone
   pickUpCondition: {fileID: 114434246571486556, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}
+  tooltipMessage: Bones from a dragon. Ignite with caution!

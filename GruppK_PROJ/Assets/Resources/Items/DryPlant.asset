@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Name: DryPlant
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: df477b9bc1bd01247b8e69bd76f80ecb, type: 3}
-  itemName: 
+  itemName: DryPlant
   pickUpCondition: {fileID: 114768765897709292, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}
+  tooltipMessage: "Dry ambrosia plant. I wonder if it\u2019s crushable\u2026?"

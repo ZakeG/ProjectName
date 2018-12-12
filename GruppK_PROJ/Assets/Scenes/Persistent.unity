@@ -3604,6 +3604,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1335123713}
     m_Modifications:
+    - target: {fileID: 114668889576556892, guid: 4e8df035f829e804d8a25261ea8b2bcb,
+        type: 2}
+      propertyPath: combinations.Array.size
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 224750580205128106, guid: 4e8df035f829e804d8a25261ea8b2bcb,
         type: 2}
       propertyPath: m_LocalPosition.x
@@ -4084,6 +4089,30 @@ Prefab:
       propertyPath: failText
       value: 
       objectReference: {fileID: 806955602}
+    - target: {fileID: 114668889576556892, guid: 4e8df035f829e804d8a25261ea8b2bcb,
+        type: 2}
+      propertyPath: combinations.Array.data[11]
+      value: 
+      objectReference: {fileID: 11400000, guid: e2331a2b614d5464fb05aa2ae111575f,
+        type: 2}
+    - target: {fileID: 114668889576556892, guid: 4e8df035f829e804d8a25261ea8b2bcb,
+        type: 2}
+      propertyPath: combinations.Array.data[12]
+      value: 
+      objectReference: {fileID: 11400000, guid: b3a3fe7cb46732d4089a1f5e51d5a896,
+        type: 2}
+    - target: {fileID: 114668889576556892, guid: 4e8df035f829e804d8a25261ea8b2bcb,
+        type: 2}
+      propertyPath: combinations.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: e2331a2b614d5464fb05aa2ae111575f,
+        type: 2}
+    - target: {fileID: 114668889576556892, guid: 4e8df035f829e804d8a25261ea8b2bcb,
+        type: 2}
+      propertyPath: combinations.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: b3a3fe7cb46732d4089a1f5e51d5a896,
+        type: 2}
     m_RemovedComponents:
     - {fileID: 114998409522770098, guid: 4e8df035f829e804d8a25261ea8b2bcb, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: 4e8df035f829e804d8a25261ea8b2bcb, type: 2}

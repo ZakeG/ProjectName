@@ -1494,7 +1494,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b804958e1981f9544989d65e32719692, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 1
+  order: 0
   item: {fileID: 11400000, guid: ac342687aedb03040988b68b54f101ae, type: 2}
 --- !u!1 &70976985
 GameObject:
@@ -40324,7 +40324,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 1
+  order: 0
   gameObject: {fileID: 2142247511}
   activeState: 0
   isAffectedByStaff: 0

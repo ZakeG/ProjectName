@@ -23,14 +23,14 @@ public class DynamicCursor : MonoBehaviour {
 
     }
 
-    public void ChangeToFeet()
+    public void OnMouseExit()
     {
         if (!paused) {
             Cursor.SetCursor(arrow, hotSpot, cursorMode);
         }
     }
 
-    public void ChangeToPaw()
+    public void OnMouseEnter()
     {
         if (!paused)
         {

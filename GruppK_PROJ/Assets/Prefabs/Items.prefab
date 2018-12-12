@@ -2479,7 +2479,15 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 6d8a1c1983527704d8a91ceb38213ad6, type: 2}
   - {fileID: 11400000, guid: 9692815d62711b5458f7a592e450dc7a, type: 2}
   - {fileID: 11400000, guid: 0e49afc3c10f20e4b8ca4708248a47de, type: 2}
-  failCombinations: []
+  - {fileID: 11400000, guid: 201ec27e0235e2140b588d79ee23388f, type: 2}
+  failCombinations:
+  - {fileID: 11400000, guid: 7a2dd7f46e915b94abdc869db4805c4d, type: 2}
+  - {fileID: 11400000, guid: 13f263f2bdf43064583c42f2e1a3cd79, type: 2}
+  - {fileID: 11400000, guid: 20dee0c72efd8cf4f89d925a6cd7e189, type: 2}
+  - {fileID: 11400000, guid: 802df627895276e43995cb39936abb47, type: 2}
+  - {fileID: 11400000, guid: ded66ad11b179ab4fbaae4fbdf4d6df7, type: 2}
+  - {fileID: 11400000, guid: b603fe960e321224eb6ea153c66c4bc9, type: 2}
+  - {fileID: 11400000, guid: 8a8a32ee7b1b0a64ab899feeb8f841de, type: 2}
   inventory: {fileID: 0}
   done: {fileID: 8300000, guid: 6ebedfdd52ec30b43bdcc131190b1aa2, type: 3}
   fail: {fileID: 8300000, guid: c48c3f3d71752f449a765956142f23c8, type: 3}

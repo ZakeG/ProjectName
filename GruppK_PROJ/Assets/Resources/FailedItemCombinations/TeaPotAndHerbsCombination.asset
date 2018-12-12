@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9432e2b6db4442640be5ac1ddebdce63, type: 3}
+  m_Name: TeaPotAndHerbsCombination
+  m_EditorClassIdentifier: 
+  failCombination:
+  - {fileID: 11400000, guid: 5a393b1e7f073e549b8f868fa97aee18, type: 2}
+  - {fileID: 11400000, guid: 524fce6ec0189d544a7f90162540d569, type: 2}
+  failMessage: I should find some type of container for the tea leaves.

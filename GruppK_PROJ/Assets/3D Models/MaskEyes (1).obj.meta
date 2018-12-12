@@ -1,16 +1,34 @@
 fileFormatVersion: 2
-guid: dcebc656707ecd048bbe988f88cf7091
+guid: 5070ec2ec79532142a843533a26d1b47
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: MaskCrinkled1
-    100002: //RootNode
-    400000: MaskCrinkled1
-    400002: //RootNode
-    2100000: MaskCrinkled1Mat
-    2300000: MaskCrinkled1
-    3300000: MaskCrinkled1
-    4300000: MaskCrinkled1
+    100000: MaskCrinkled1_polySurface64
+    100002: MaskCrinkled1_polySurface66
+    100004: MaskCrinkled1_polySurface67
+    100006: //RootNode
+    100008: polySurface62_MaskCrinkled1
+    400000: MaskCrinkled1_polySurface64
+    400002: MaskCrinkled1_polySurface66
+    400004: MaskCrinkled1_polySurface67
+    400006: //RootNode
+    400008: polySurface62_MaskCrinkled1
+    2100000: MaskCrinkled1_polySurface64Mat
+    2100002: MaskCrinkled1_polySurface66Mat
+    2100004: MaskCrinkled1_polySurface67Mat
+    2100006: polySurface62_MaskCrinkled1Mat
+    2300000: MaskCrinkled1_polySurface64
+    2300002: MaskCrinkled1_polySurface66
+    2300004: MaskCrinkled1_polySurface67
+    2300006: polySurface62_MaskCrinkled1
+    3300000: MaskCrinkled1_polySurface64
+    3300002: MaskCrinkled1_polySurface66
+    3300004: MaskCrinkled1_polySurface67
+    3300006: polySurface62_MaskCrinkled1
+    4300000: MaskCrinkled1_polySurface64
+    4300002: MaskCrinkled1_polySurface66
+    4300004: MaskCrinkled1_polySurface67
+    4300006: polySurface62_MaskCrinkled1
   externalObjects: {}
   materials:
     importMaterials: 1

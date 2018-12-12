@@ -33,7 +33,7 @@ public class ReactionCollection : MonoBehaviour
     private DelayedReaction interactableOffReaction;
 
 
-    private void Awake ()
+    private void Start ()
     {
         audioSource = GameObject.Find("VO").GetComponent<AudioSource>();
         playerMovementScript = GameObject.Find("Player").GetComponent<PlayerMovement>();
@@ -42,13 +42,16 @@ public class ReactionCollection : MonoBehaviour
         tempTexture2DIntList = Resources.FindObjectsOfTypeAll<Texture2D>();
         foreach (Texture2D t in tempTexture2DIntList)
         {
-            if (t.name == "pointer_talk")
-            {
-                cursorIneracting = t;
-            }
-            else if (t.name == "pointer_walk")
+            if (t.name == "pointer_walk")
             {
                 cursorArrow = t;
+            }
+        }
+        foreach (Texture2D t in tempTexture2DIntList)
+        {
+            if (t.name == "interacting")
+            {
+                cursorIneracting = t;
             }
         }
         tempConditionInitList = Resources.FindObjectsOfTypeAll<Condition>();

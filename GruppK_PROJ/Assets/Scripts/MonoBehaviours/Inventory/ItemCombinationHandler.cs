@@ -1,19 +1,29 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ItemCombinationHandler : MonoBehaviour {
 
     public List<ItemCombination> combinations = new List<ItemCombination>();
+    public List<FailedItemCombination> failCombinations = new List<FailedItemCombination>();
     public Inventory inventory;
-    private Inventory inventoryScript;
-    private List<Item> selectedItems;
-    private List<Item> combos;
-    private List<Item> comboResults;
-    private bool allSelectedItemsInCombo;
     public AudioClip done;
     public AudioClip fail;
     public AudioSource audioSource;
+
+
+    private Inventory inventoryScript;
+    private List<Item> selectedItems;
+    private List<Item> combos;
+    private List<Item> failCombos;
+    private List<Item> comboResults;
+    private List<QuestLogReaction> questLogReactionList;
+    private bool allSelectedItemsInCombo;
+    [SerializeField]
+    private GameObject failMessageCanvasBackground;
+    [SerializeField]
+    private Text failText;
 
     private void Awake()
     {
@@ -37,7 +47,7 @@ public class ItemCombinationHandler : MonoBehaviour {
             {
                 if (selectedItems.Contains(i) && combos.Count == selectedItems.Count)
                 {
-                    allSelectedItemsInCombo = true; 
+                    allSelectedItemsInCombo = true;
                 }
                 else
                 {
@@ -54,6 +64,7 @@ public class ItemCombinationHandler : MonoBehaviour {
         }
         if (!allSelectedItemsInCombo)
         {
+            CombinationFail();
             audioSource.PlayOneShot(fail, 0.7F);
         }
         DeselectAll();
@@ -100,13 +111,64 @@ public class ItemCombinationHandler : MonoBehaviour {
         DeselectAll();
         combos = combinationRecepie.GetList();
         comboResults = combinationRecepie.GetResultingItemList();
+        questLogReactionList = combinationRecepie.GetQuestLogReactions();
         foreach (Item i in combos)
         {
             inventory.GetComponent<Inventory>().RemoveItem(i);
         }
-        foreach(Item i in comboResults)
+        foreach (Item i in comboResults)
         {
             inventoryScript.AddItem(i);
         }
+        foreach (QuestLogReaction qlr in questLogReactionList)
+        {
+            qlr.React(this);
+        }
     }
+    private void CombinationFail()
+    {
+        foreach (FailedItemCombination FIC in failCombinations) {
+            failCombos = FIC.GetList();
+            allSelectedItemsInCombo = true;
+            foreach (Item i in failCombos)
+            {
+                if (selectedItems.Contains(i) && failCombos.Count == selectedItems.Count)
+                {
+                    allSelectedItemsInCombo = true;
+                }
+                else
+                {
+                    allSelectedItemsInCombo = false;
+                    break;
+                }
+            }
+            if (allSelectedItemsInCombo)
+            {
+                StartCoroutine(ShowFailMessage(FIC));
+                break;
+            }
+        }
+        if (!allSelectedItemsInCombo)
+        {
+            StartCoroutine(ShowDefaultFailMessage());
+        }
+    }
+    IEnumerator ShowFailMessage(FailedItemCombination fic)
+    {
+        failMessageCanvasBackground.SetActive(true);
+        failText.text = fic.GetFailMessage();
+        yield return new WaitForSeconds(2);
+        failText.text = string.Empty;
+        failMessageCanvasBackground.SetActive(false);
+    }
+    IEnumerator ShowDefaultFailMessage()
+    {
+        failMessageCanvasBackground.SetActive(true);
+        failText.text = "That doesn't work";
+        yield return new WaitForSeconds(2);
+        failText.text = string.Empty;
+        failMessageCanvasBackground.SetActive(false);
+    }
+
 }
+

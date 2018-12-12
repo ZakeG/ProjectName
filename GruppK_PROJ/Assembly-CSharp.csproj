@@ -151,6 +151,7 @@
     <Compile Include="Assets\Sound\Scripts\Intervalscrows.cs" />
     <Compile Include="Assets\Sound\Scripts\IntervalsWind.cs" />
     <Compile Include="Assets\Sound\Scripts\PlaySoundsIntervalls.cs" />
+    <Compile Include="Assets\ToolTip.cs" />
     <None Include="Assets\Scripts\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
     <None Include="Assets\Scripts\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
     <None Include="Assets\Scripts\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />

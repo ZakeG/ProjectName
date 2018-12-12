@@ -7,7 +7,6 @@ public class BagButton : MonoBehaviour {
     private GameObject inventory;
     private GameObject newIcon;
 
-	// Use this for initialization
 	void Start () {
         newIcon = GameObject.Find("NewIcon");
         newIcon.SetActive(false);

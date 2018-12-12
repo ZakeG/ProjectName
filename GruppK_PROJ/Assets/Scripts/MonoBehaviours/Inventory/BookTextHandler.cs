@@ -22,6 +22,7 @@ public class BookTextHandler : MonoBehaviour
     private string currentPageP2;
     private string textToAdd;
     private int workingOnPage;
+    private bool workingOnFirstSheet;
 
     private const int maxCharacterCount = 300;
     private const int line = 43;
@@ -52,6 +53,7 @@ public class BookTextHandler : MonoBehaviour
         textBeingShownP1 = currentPageP1;
         textBeingShownP2 = currentPageP2;
         UpdateBookText();
+        workingOnFirstSheet = true;
     }
 
     public void AddText(string newText)
@@ -63,12 +65,13 @@ public class BookTextHandler : MonoBehaviour
         string textToInput = newText += "\n----\n";
         string testText1 = page1.text + textToInput;
         string testText2 = page2.text + textToInput;
-        if (!(testText1.Length > maxCharacterCount))
+        if (!(testText1.Length > maxCharacterCount) && workingOnFirstSheet)
         {
             currentPageP1 = page1.text + newText;
         }
         else if (!(testText2.Length > maxCharacterCount))
         {
+            workingOnFirstSheet = false;
             currentPageP2 = page2.text + newText;
         }
         else
@@ -77,6 +80,7 @@ public class BookTextHandler : MonoBehaviour
             currentPageNr++;
             currentPageP1 = string.Empty + textToInput;
             currentPageP2 = string.Empty;
+            workingOnFirstSheet = true;
         }
         textBeingShownP1 = currentPageP1;
         textBeingShownP2 = currentPageP2;

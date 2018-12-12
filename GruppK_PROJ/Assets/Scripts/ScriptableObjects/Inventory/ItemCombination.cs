@@ -9,11 +9,12 @@ public class ItemCombination : ScriptableObject
 
     public string[] QLReactions;
 
-    private List<QuestLogReaction> questLogReactionList;
+    private List<QuestLogReaction> questLogReactionList = new List<QuestLogReaction>();
     private QuestLogReaction qlrTemp;
 
     private void Awake()
     {
+
         if (QLReactions != null)
         {
             foreach (string s in QLReactions)

@@ -16,7 +16,7 @@ public class PickedUpItemReaction : DelayedReaction
         tempIntList = Resources.FindObjectsOfTypeAll<AudioClip>();
         foreach (AudioClip ac in tempIntList)
         {
-            if (ac.name == "Small_Bell_Jingle")
+            if (ac.name == "Player_Item_Pickup")
             {
                 pickup = ac;
             }

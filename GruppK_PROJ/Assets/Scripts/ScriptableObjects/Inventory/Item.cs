@@ -7,4 +7,9 @@ public class Item : ScriptableObject
     public string itemName;
     public Condition pickUpCondition;
     public string tooltipMessage;
+
+    public string GetToolTipMessage()
+    {
+        return tooltipMessage;
+    }
 }

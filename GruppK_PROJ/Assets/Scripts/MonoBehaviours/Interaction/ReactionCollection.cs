@@ -101,8 +101,8 @@ public class ReactionCollection : MonoBehaviour
             }
         }
         clicksNeeded = clicksNeeded + 1;
-        Debug.Log(gameObject.name + " from " + gameObject.transform.parent.name + " has " + instructions.Count + " Reactions");
-        Debug.Log("Clicks needed: " + clicksNeeded);
+ //       Debug.Log(gameObject.name + " from " + gameObject.transform.parent.name + " has " + instructions.Count + " Reactions");
+ //       Debug.Log("Clicks needed: " + clicksNeeded);
     }
 
     private void Update()

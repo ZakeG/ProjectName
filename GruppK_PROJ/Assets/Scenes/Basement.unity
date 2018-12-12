@@ -35260,7 +35260,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'Quest completed: You''ve completed and unlocked the dungeon door! Let''s
+  message: 'Quest completed: I''ve completed and unlocked the dungeon door! Let''s
     see what the wizard hides in his dungeon..'
 --- !u!1001 &1491462309
 Prefab:

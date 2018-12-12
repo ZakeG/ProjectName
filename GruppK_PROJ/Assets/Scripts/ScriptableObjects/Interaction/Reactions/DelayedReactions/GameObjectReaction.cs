@@ -26,7 +26,7 @@ public class GameObjectReaction : DelayedReaction
     protected override void ImmediateReaction()
     {
         gameObject.SetActive (activeState);
-        if (activeState == false && isAffectedByStaff)
+        if (activeState == false && isAffectedByStaff && buttonScript != null)
         {
             gameObject.tag = "RemovedByReaction";
             UpdateList();

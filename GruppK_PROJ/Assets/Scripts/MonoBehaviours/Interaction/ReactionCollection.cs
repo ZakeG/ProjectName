@@ -23,10 +23,9 @@ public class ReactionCollection : MonoBehaviour
     private TextManager textManager;
     private PlayerMovement playerMovementScript;
     private AudioSource audioSource;
-    private Texture2D[] tempTexture2DIntList;
+    private PointerContainer[] pointerContainerList;
+    private PointerContainer pointerContainer;
     private Condition[] tempConditionInitList;
-    private Texture2D cursorIneracting;
-    private Texture2D cursorArrow;
     private CursorMode cursorMode = CursorMode.Auto;
     private Vector2 hotSpot = Vector2.zero;
     private Condition playerisInteracting;
@@ -39,19 +38,12 @@ public class ReactionCollection : MonoBehaviour
         playerMovementScript = GameObject.Find("Player").GetComponent<PlayerMovement>();
         textManager = GameObject.Find("MessageCanvas").GetComponent<TextManager>();
         clicksNeeded = 0;
-        tempTexture2DIntList = Resources.FindObjectsOfTypeAll<Texture2D>();
-        foreach (Texture2D t in tempTexture2DIntList)
+        pointerContainerList = Resources.FindObjectsOfTypeAll<PointerContainer>();
+        foreach (PointerContainer PC in pointerContainerList)
         {
-            if (t.name == "pointer_walk")
+            if (PC.name == "Pointer_Container")
             {
-                cursorArrow = t;
-            }
-        }
-        foreach (Texture2D t in tempTexture2DIntList)
-        {
-            if (t.name == "interacting")
-            {
-                cursorIneracting = t;
+                pointerContainer = PC;
             }
         }
         tempConditionInitList = Resources.FindObjectsOfTypeAll<Condition>();
@@ -177,7 +169,7 @@ public class ReactionCollection : MonoBehaviour
     private void StartReactions()
     {
         textManager.ShowTextArea();
-        Cursor.SetCursor(cursorIneracting, hotSpot, cursorMode);
+        Cursor.SetCursor(pointerContainer.interacting, hotSpot, cursorMode);
         playerMovementScript.PauseUnpauseReaction(true);
         reactionOrderNumber = 0;
         RunAllImmidiateReactions();
@@ -189,7 +181,7 @@ public class ReactionCollection : MonoBehaviour
         textManager.ClearText();
         textManager.HideTextArea();
         audioSource.Stop();
-        Cursor.SetCursor(cursorArrow, hotSpot, cursorMode); 
+        Cursor.SetCursor(pointerContainer.feet, hotSpot, cursorMode); 
     }
 
     private void ReactionsFinished()

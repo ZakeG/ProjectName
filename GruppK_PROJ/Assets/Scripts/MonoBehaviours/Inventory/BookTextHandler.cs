@@ -76,6 +76,10 @@ public class BookTextHandler : MonoBehaviour
         }
         else
         {
+            if (rightArrow.activeSelf == false) {
+                rightArrow.SetActive(false);
+                leftArrow.SetActive(false);
+            }
             AddNewPageToBook();
             currentPageNr++;
             currentPageP1 = string.Empty + textToInput;

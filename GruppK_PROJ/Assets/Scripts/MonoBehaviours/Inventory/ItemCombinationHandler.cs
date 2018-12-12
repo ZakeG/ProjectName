@@ -20,10 +20,9 @@ public class ItemCombinationHandler : MonoBehaviour {
     private List<Item> comboResults;
     private List<QuestLogReaction> questLogReactionList;
     private bool allSelectedItemsInCombo;
+    private bool failReactionExist;
     [SerializeField]
-    private GameObject failMessageCanvasBackground;
-    [SerializeField]
-    private Text failText;
+    private FailMessageHandler failMessageScript;
 
     private void Awake()
     {
@@ -64,6 +63,7 @@ public class ItemCombinationHandler : MonoBehaviour {
         }
         if (!allSelectedItemsInCombo)
         {
+
             CombinationFail();
             audioSource.PlayOneShot(fail, 0.7F);
         }
@@ -127,48 +127,31 @@ public class ItemCombinationHandler : MonoBehaviour {
     }
     private void CombinationFail()
     {
-        foreach (FailedItemCombination FIC in failCombinations) {
-            failCombos = FIC.GetList();
-            allSelectedItemsInCombo = true;
-            foreach (Item i in failCombos)
-            {
-                if (selectedItems.Contains(i) && failCombos.Count == selectedItems.Count)
-                {
-                    allSelectedItemsInCombo = true;
-                }
-                else
-                {
-                    allSelectedItemsInCombo = false;
-                    break;
-                }
-            }
-            if (allSelectedItemsInCombo)
-            {
-                StartCoroutine(ShowFailMessage(FIC));
-                break;
-            }
-        }
-        if (!allSelectedItemsInCombo)
-        {
-            StartCoroutine(ShowDefaultFailMessage());
-        }
-    }
-    IEnumerator ShowFailMessage(FailedItemCombination fic)
-    {
-        failMessageCanvasBackground.SetActive(true);
-        failText.text = fic.GetFailMessage();
-        yield return new WaitForSeconds(2);
-        failText.text = string.Empty;
-        failMessageCanvasBackground.SetActive(false);
-    }
-    IEnumerator ShowDefaultFailMessage()
-    {
-        failMessageCanvasBackground.SetActive(true);
-        failText.text = "That doesn't work!";
-        yield return new WaitForSeconds(2);
-        failText.text = string.Empty;
-        failMessageCanvasBackground.SetActive(false);
-    }
+        /*      foreach (FailedItemCombination FIC in failCombinations) {
+                  failCombos = FIC.GetList();
+                  failReactionExist = true;
+                  foreach (Item i in failCombos)
+                  {
+                      if (selectedItems.Contains(i) && failCombos.Count == selectedItems.Count)
+                      {
+                          failReactionExist = true;
+                      }
+                      else
+                      {
+                          failReactionExist = false;
+                          break;
+                      }
+                  }
+                  if (allSelectedItemsInCombo)
+                  {
+                      StartCoroutine(ShowFailMessage(FIC));
 
+                 }
+              }
+              if (!failReactionExist)
+              {*/
+        StartCoroutine(failMessageScript.ShowDefaultFailMessage());
+ //       }
+    }
 }
 

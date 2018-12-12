@@ -15,3 +15,4 @@ MonoBehaviour:
   itemName: FakePhoenixFeather
   pickUpCondition: {fileID: 114912099085508904, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}
+  tooltipMessage: The real totally not faked Phoenix Feather *ahem*

@@ -15,3 +15,4 @@ MonoBehaviour:
   itemName: AmbrosiaTeaPot
   pickUpCondition: {fileID: 114632724334962776, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}
+  tooltipMessage: Try putting the tea in the teapot. Obviously.

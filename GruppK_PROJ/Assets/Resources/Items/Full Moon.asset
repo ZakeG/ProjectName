@@ -15,3 +15,4 @@ MonoBehaviour:
   itemName: full moon
   pickUpCondition: {fileID: 114021465253168762, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}
+  tooltipMessage: A model of the moon!

@@ -15,3 +15,4 @@ MonoBehaviour:
   itemName: CrushedHerbs
   pickUpCondition: {fileID: 114932029228588310, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}
+  tooltipMessage: Crushed herbs of ambrosia. A common ingredient for a hot beverage.

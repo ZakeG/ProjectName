@@ -113,35 +113,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 23800000, guid: 6ec7b35301654cd468e4d1a58a074919, type: 2}
---- !u!114 &6737369
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec43236ba6522584894ac80bfbcb3815, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  condition: {fileID: 114164629124617336, guid: fd02464d008c790478d9826aba7c7847,
-    type: 2}
-  satisfied: 0
---- !u!114 &7204834
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  order: 1
-  gameObject: {fileID: 1602942897}
-  activeState: 0
-  isAffectedByStaff: 0
 --- !u!1001 &9016589
 Prefab:
   m_ObjectHideFlags: 0
@@ -699,7 +670,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 1
+  order: 2
   gameObject: {fileID: 1124805778}
   activeState: 0
   isAffectedByStaff: 0
@@ -805,7 +776,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 1
+  order: 1000
   gameObject: {fileID: 703181009}
   activeState: 0
   isAffectedByStaff: 1
@@ -2102,9 +2073,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: I'm sorry but I need that pearl more than you
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!4 &77909232 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400038, guid: baf4ed64d8a7c484d8d62e73ea8ad0a5,
@@ -2189,7 +2160,7 @@ Transform:
   - {fileID: 434982926}
   - {fileID: 1799537463}
   m_Father: {fileID: 767341644}
-  m_RootOrder: 3
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &82651524
 Prefab:
@@ -2353,9 +2324,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'Apprentice: This pieces looks familiar I should bring it with me'
-  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
+  message: 'Apprentice: This piece looks familiar, I should bring it with me'
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1001 &100154388
 Prefab:
   m_ObjectHideFlags: 0
@@ -2511,6 +2482,46 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 9ef3b22d2456bb34c9600e4e474b6d74,
     type: 3}
   m_PrefabInternal: {fileID: 100154388}
+--- !u!1 &101569340
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 101569341}
+  - component: {fileID: 101569342}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &101569341
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 101569340}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.0118, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 82651525}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!122 &101569342
+Halo:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 101569340}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4286611584
+  m_Size: 0.03
 --- !u!1001 &105699301
 Prefab:
   m_ObjectHideFlags: 0
@@ -2613,10 +2624,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'Apprentice: Dragon...fire...it wouldn''t be so easy to just throw the
-    dragon bone into the fire right? ..'
-  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
+  message: 'Apprentice: Dragon...fire...
+
+    it wouldn''t just be so easy to just throw the dragon bone into the fire right?
+    ..'
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1001 &117823967
 Prefab:
   m_ObjectHideFlags: 0
@@ -2871,6 +2884,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 9ebaa2887af19e7499b32fee8a1eddb4,
     type: 3}
   m_PrefabInternal: {fileID: 124348006}
+--- !u!122 &124348009
+Halo:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 124348008}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4286611584
+  m_Size: -0.06
 --- !u!1001 &125928745
 Prefab:
   m_ObjectHideFlags: 0
@@ -8431,6 +8455,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: "\nPiece 1. the piece you're looking for is in the down under\nPiece 2.
     Go to the sa fari \nPiece 3. South america okay mah dude\n"
+--- !u!114 &162662586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 1
+  message: I need the blue pearl inside of the clam.
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!114 &163341951
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8551,10 +8589,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: One of the bowls on the scale is loose..i could maybe find
     another use for it..'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!1 &167703998
 GameObject:
   m_ObjectHideFlags: 0
@@ -8709,11 +8747,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: There''s something shining in one of the drawers..
 
 '
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!1001 &172309398
 Prefab:
   m_ObjectHideFlags: 0
@@ -8805,6 +8843,56 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 172309398}
+--- !u!1 &174993940
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 1169103760167428, guid: 81ea977436dfa8c498e26e8eb64f0750,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 174993942}
+  - component: {fileID: 174993941}
+  m_Layer: 0
+  m_Name: CameraRig
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &174993941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 114743751767460276, guid: 81ea977436dfa8c498e26e8eb64f0750,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 174993940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 740e682d67841cb4ca4620d2bee866b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveCamera: 0
+  smoothing: 1
+  offset: {x: 0, y: 1.5, z: 0}
+  playerPosition: {fileID: 0}
+  ZoomOptionCondition: {fileID: 114765835322904618, guid: fd02464d008c790478d9826aba7c7847,
+    type: 2}
+--- !u!4 &174993942
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 4100661472783432, guid: 81ea977436dfa8c498e26e8eb64f0750,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 174993940}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.06}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 664216647}
+  m_Father: {fileID: 803062286}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &175492333
 Prefab:
   m_ObjectHideFlags: 0
@@ -9811,6 +9899,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 9852fa9a2abfc6b469945c6e9005699a,
     type: 3}
   m_PrefabInternal: {fileID: 1275850482}
+--- !u!122 &211199373
+Halo:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 211199371}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4286611584
+  m_Size: 0.07
 --- !u!114 &212175657
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10058,9 +10157,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'Apprentice: There''s a beautiful glowing blue crystal inside this clam'
-  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
+  message: 'Apprentice: The clam closed up as i touched it....I should find a way
+    to get it to open up.'
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1 &225467293
 GameObject:
   m_ObjectHideFlags: 0
@@ -10289,169 +10389,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 243891542}
---- !u!114 &244165592
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b804958e1981f9544989d65e32719692, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  order: 1
-  item: {fileID: 11400000, guid: bb9f22de68be6c24e95eed82bbc0d39a, type: 2}
---- !u!1001 &246012066
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1734063289}
-    m_Modifications:
-    - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: reactions.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11484708, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: conditionCollections.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0.039
-      objectReference: {fileID: 0}
-    - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -0.021200001
-      objectReference: {fileID: 0}
-    - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 1.5804
-      objectReference: {fileID: 0}
-    - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 194222, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_Name
-      value: DryPlantInteractable
-      objectReference: {fileID: 0}
-    - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 0.13053998
-      objectReference: {fileID: 0}
-    - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 0.12243723
-      objectReference: {fileID: 0}
-    - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 0.12199703
-      objectReference: {fileID: 0}
-    - target: {fileID: 491826, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0.02
-      objectReference: {fileID: 0}
-    - target: {fileID: 491826, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: -0.66
-      objectReference: {fileID: 0}
-    - target: {fileID: 491826, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 491826, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 491826, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 491826, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 491826, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 491826, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -4.46
-      objectReference: {fileID: 0}
-    - target: {fileID: 11485606, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1932935907}
-    - target: {fileID: 11485606, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: OnInteractableClick
-      objectReference: {fileID: 0}
-    - target: {fileID: 11485606, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: Interactable, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 11485606, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11485606, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 246012069}
-    - target: {fileID: 11484708, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: conditionCollections.Array.data[0]
-      value: 
-      objectReference: {fileID: 1988823071}
-    - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: reactions.Array.data[0]
-      value: 
-      objectReference: {fileID: 278509661}
-    - target: {fileID: 194222, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: reactions.Array.data[1]
-      value: 
-      objectReference: {fileID: 592574675}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-  m_IsPrefabAsset: 0
---- !u!4 &246012067 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4,
-    type: 2}
-  m_PrefabInternal: {fileID: 246012066}
---- !u!1 &246012068 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 194222, guid: d48734bd22479a14cb1a52b40aa09db4,
-    type: 2}
-  m_PrefabInternal: {fileID: 246012066}
---- !u!114 &246012069 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 11484708, guid: d48734bd22479a14cb1a52b40aa09db4,
-    type: 2}
-  m_PrefabInternal: {fileID: 246012066}
-  m_Script: {fileID: 11500000, guid: d85941078afdf3244b2a1ae50fea256c, type: 3}
 --- !u!114 &246557705
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10463,9 +10400,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'Apprentice: A key!'
-  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
+  message: 'Apprentice: A key! This must be the key to the basement.'
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1001 &247262088
 Prefab:
   m_ObjectHideFlags: 0
@@ -10802,6 +10739,46 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item: {fileID: 11400000, guid: 626583949c79b3c4eb8aa779a134a40b, type: 2}
+--- !u!1 &258831295
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 258831296}
+  - component: {fileID: 258831297}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &258831296
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 258831295}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.286, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1242138138}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!122 &258831297
+Halo:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 258831295}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4286611584
+  m_Size: 0.08
 --- !u!1001 &270571301
 Prefab:
   m_ObjectHideFlags: 0
@@ -10893,20 +10870,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 270571301}
---- !u!114 &278509661
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  message: 'Apprentice: A stocking hanger is hanging from the mantle of the fireplace'
-  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!1001 &279486589
 Prefab:
   m_ObjectHideFlags: 0
@@ -11329,6 +11292,46 @@ MonoBehaviour:
   gameObject: {fileID: 1581433941}
   activeState: 1
   isAffectedByStaff: 0
+--- !u!1 &297680375
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 297680376}
+  - component: {fileID: 297680377}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &297680376
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 297680375}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.374, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1542700432}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!122 &297680377
+Halo:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 297680375}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4286611584
+  m_Size: 0.08
 --- !u!1001 &299550332
 Prefab:
   m_ObjectHideFlags: 0
@@ -11966,7 +11969,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   order: 4
   audioSource: {fileID: 1052792021}
-  audioClip: {fileID: 8300000, guid: 42f18b070dfdfd4479fa68a8b227dc41, type: 3}
+  audioClip: {fileID: 8300000, guid: 89a824e43d1bd434685e207eb07b76ab, type: 3}
 --- !u!1001 &321150243
 Prefab:
   m_ObjectHideFlags: 0
@@ -12624,20 +12627,6 @@ Halo:
     serializedVersion: 2
     rgba: 4293787392
   m_Size: 0.05
---- !u!114 &359069488
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  description: PlantDried
-  satisfied: 1
-  hash: -828106666
 --- !u!114 &365252053
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12757,12 +12746,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: This looks familiar..
 
 
 '
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!1001 &367946760
 Prefab:
   m_ObjectHideFlags: 0
@@ -13453,7 +13442,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 1
+  order: 1000
   gameObject: {fileID: 247544374}
   activeState: 0
   isAffectedByStaff: 0
@@ -14107,9 +14096,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 1
   message: 'Apprentice: I really need that stone!'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 1
 --- !u!1001 &410824158
 Prefab:
   m_ObjectHideFlags: 0
@@ -19294,10 +19283,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 3
   message: Well... What if I find you an even better, prettier gem, would you be open
     to trade?
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 3
 --- !u!1001 &426666470
 Prefab:
   m_ObjectHideFlags: 0
@@ -19441,52 +19430,22 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 100038, guid: baf4ed64d8a7c484d8d62e73ea8ad0a5,
     type: 3}
   m_PrefabInternal: {fileID: 426666470}
---- !u!1 &430921654
+--- !u!1 &426666472 stripped
 GameObject:
+  m_CorrespondingSourceObject: {fileID: 100016, guid: baf4ed64d8a7c484d8d62e73ea8ad0a5,
+    type: 3}
+  m_PrefabInternal: {fileID: 426666470}
+--- !u!122 &426666473
+Halo:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 430921655}
-  - component: {fileID: 430921656}
-  m_Layer: 0
-  m_Name: PickUpReaction
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &430921655
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 430921654}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1602942896}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &430921656
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 430921654}
+  m_GameObject: {fileID: 426666472}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1fc7ecfe98531f2429694b8c81a6748a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  reactions:
-  - {fileID: 1674999142}
-  - {fileID: 6737369}
-  - {fileID: 2017514863}
-  - {fileID: 244165592}
-  - {fileID: 7204834}
+  m_Color:
+    serializedVersion: 2
+    rgba: 4286611584
+  m_Size: 0.06
 --- !u!1001 &434982925
 Prefab:
   m_ObjectHideFlags: 0
@@ -19656,9 +19615,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'Apprentice: Where have I seen This before ?'
-  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
+  message: 'Apprentice: Where have I seen this before ?'
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1001 &437420644
 Prefab:
   m_ObjectHideFlags: 0
@@ -19963,9 +19922,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 1
   message: It wasn't here during the day though...
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!1 &448620398
 GameObject:
   m_ObjectHideFlags: 0
@@ -20369,9 +20328,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: "Apprentice: I could cook the clam over the fire... \n"
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!1 &478720021
 GameObject:
   m_ObjectHideFlags: 0
@@ -20492,21 +20451,6 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2a29b740fd0c494e85790327f935fe3, type: 3}
   m_IsPrefabAsset: 0
---- !u!114 &484803145
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  order: 1
-  gameObject: {fileID: 582259196}
-  activeState: 0
-  isAffectedByStaff: 0
 --- !u!1001 &488153777
 Prefab:
   m_ObjectHideFlags: 0
@@ -20643,7 +20587,7 @@ Transform:
   - {fileID: 1751954634}
   - {fileID: 573008890}
   m_Father: {fileID: 767341644}
-  m_RootOrder: 4
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &511209819
 Prefab:
@@ -20747,9 +20691,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: There''s something hanging from the chandelier...'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!1001 &514937521
 Prefab:
   m_ObjectHideFlags: 0
@@ -20852,9 +20796,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 1
   message: Oh...The safe contains a few gold teeth and a skull...
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!1001 &517402030
 Prefab:
   m_ObjectHideFlags: 0
@@ -21015,6 +20959,22 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 100012, guid: 0856fd7ceec078242bfe48bda7fd8f4a,
     type: 3}
   m_PrefabInternal: {fileID: 517402030}
+--- !u!1 &517402033 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100010, guid: 0856fd7ceec078242bfe48bda7fd8f4a,
+    type: 3}
+  m_PrefabInternal: {fileID: 517402030}
+--- !u!122 &517402034
+Halo:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 517402033}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4286611584
+  m_Size: 0.22
 --- !u!1001 &519164557
 Prefab:
   m_ObjectHideFlags: 0
@@ -21115,7 +21075,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: reactions.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalPosition.x
@@ -21147,7 +21107,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 194222, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_Name
@@ -21197,6 +21157,10 @@ Prefab:
       propertyPath: m_LocalPosition.y
       value: -2.133
       objectReference: {fileID: 0}
+    - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
+      propertyPath: reactions.Array.data[1]
+      value: 
+      objectReference: {fileID: 813720848}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
   m_IsPrefabAsset: 0
@@ -21404,7 +21368,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 1
+  order: 1000
   gameObject: {fileID: 1127789322}
   activeState: 0
   isAffectedByStaff: 1
@@ -21419,9 +21383,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: '
-
-    Find the three missing pieces for the globe.'
+  message: Find the three missing pieces and complete the globe
+--- !u!114 &536517581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 1000
+  gameObject: {fileID: 1581433941}
+  activeState: 0
+  isAffectedByStaff: 0
 --- !u!1001 &537916995
 Prefab:
   m_ObjectHideFlags: 0
@@ -26863,54 +26840,6 @@ MonoBehaviour:
   condition: {fileID: 114504088093943498, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}
   satisfied: 1
---- !u!1 &579790329
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 579790330}
-  - component: {fileID: 579790331}
-  m_Layer: 0
-  m_Name: DryReaction
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &579790330
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 579790329}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 246012067}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &579790331
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 579790329}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1fc7ecfe98531f2429694b8c81a6748a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  reactions:
-  - {fileID: 902553322}
-  - {fileID: 1832250519}
-  - {fileID: 952199003}
-  - {fileID: 2028850220}
-  - {fileID: 1471436573}
-  - {fileID: 628288237}
-  - {fileID: 1584547127}
 --- !u!1001 &582259193
 Prefab:
   m_ObjectHideFlags: 0
@@ -27175,9 +27104,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'PAINTING: Get your grubby little hands off my precious!...My precious..'
   textColor: {r: 1, g: 0.023529412, b: 0.023529412, a: 1}
-  order: 0
 --- !u!1001 &589501848
 Prefab:
   m_ObjectHideFlags: 0
@@ -27298,20 +27227,6 @@ MonoBehaviour:
   order: 1
   audioSource: {fileID: 1052792021}
   audioClip: {fileID: 8300000, guid: 0455d4d9274cc614095b72bb2eb52087, type: 3}
---- !u!114 &592574675
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  message: Maybe I could hang something on it
-  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!114 &592686527
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27325,7 +27240,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   order: 4
   audioSource: {fileID: 1052792021}
-  audioClip: {fileID: 8300000, guid: 42f18b070dfdfd4479fa68a8b227dc41, type: 3}
+  audioClip: {fileID: 8300000, guid: 76320bd2f0b1ab94088f7588a167b325, type: 3}
 --- !u!1001 &600039529
 Prefab:
   m_ObjectHideFlags: 0
@@ -27417,21 +27332,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 600039529}
---- !u!114 &602916175
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  order: 1
-  gameObject: {fileID: 373270834}
-  activeState: 0
-  isAffectedByStaff: 0
 --- !u!1001 &603581705
 Prefab:
   m_ObjectHideFlags: 0
@@ -27523,6 +27423,22 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 603581705}
+--- !u!1 &608338185
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 1471970496590042, guid: 81ea977436dfa8c498e26e8eb64f0750,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 803062286}
+  m_Layer: 0
+  m_Name: CameraStuff
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &610761283
 GameObject:
   m_ObjectHideFlags: 0
@@ -27901,9 +27817,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'Apprentice: Looks like I''ve got all the pieces that were missing..'
-  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
+  message: 'Apprentice: Looks like I''ve got all the missing pieces..'
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1001 &625790876
 Prefab:
   m_ObjectHideFlags: 0
@@ -27995,21 +27911,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 625790876}
---- !u!114 &628288237
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  order: 1
-  gameObject: {fileID: 1602942897}
-  activeState: 1
-  isAffectedByStaff: 0
 --- !u!114 &629766765
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28021,7 +27922,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 1
+  order: 1000
   gameObject: {fileID: 53491494}
   activeState: 0
   isAffectedByStaff: 0
@@ -28050,9 +27951,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 5
   message: Yay!
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 5
 --- !u!1001 &642350544
 Prefab:
   m_ObjectHideFlags: 0
@@ -28306,9 +28207,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 4
   message: Hmm..I suppose this gem will do as well, let's trade!
   textColor: {r: 1, g: 0.023529412, b: 0.023529412, a: 1}
-  order: 4
 --- !u!114 &659297719
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28323,6 +28224,116 @@ MonoBehaviour:
   description: ClamAquired
   satisfied: 0
   hash: -1086391437
+--- !u!1 &664216643
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 1747853871594344, guid: 81ea977436dfa8c498e26e8eb64f0750,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 664216647}
+  - component: {fileID: 664216646}
+  - component: {fileID: 664216645}
+  - component: {fileID: 664216644}
+  m_Layer: 0
+  m_Name: Camera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &664216644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 114098165871216012, guid: 81ea977436dfa8c498e26e8eb64f0750,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 664216643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3309686a9fbbe6e42a182d5e0257704c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  intensity: 0
+  threshold: 0
+  ContrastOptionCondition: {fileID: 114060387853777790, guid: fd02464d008c790478d9826aba7c7847,
+    type: 2}
+  blurSpread: 0
+  separableBlurShader: {fileID: 4800000, guid: e97c14fbb5ea04c3a902cc533d7fc5d1, type: 3}
+  contrastCompositeShader: {fileID: 4800000, guid: 273404942eede4ea1883ca1fb2942507,
+    type: 3}
+--- !u!114 &664216645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 114438095162420460, guid: 81ea977436dfa8c498e26e8eb64f0750,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 664216643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -768656878, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EventMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_MaxRayIntersections: 0
+--- !u!20 &664216646
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 20524326605174744, guid: 81ea977436dfa8c498e26e8eb64f0750,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 664216643}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
+  m_projectionMatrixMode: 1
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &664216647
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 4622897320873268, guid: 81ea977436dfa8c498e26e8eb64f0750,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 664216643}
+  m_LocalRotation: {x: -0, y: -0.9567237, z: 0.29099804, w: 0}
+  m_LocalPosition: {x: 0.013772011, y: 2.2, z: 3.63}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 174993942}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 33.835003, y: 179.99998, z: 0}
 --- !u!1001 &664901792
 Prefab:
   m_ObjectHideFlags: 0
@@ -28423,9 +28434,6 @@ MonoBehaviour:
   - {fileID: 212175657}
   - {fileID: 252472366}
   - {fileID: 2049385424}
-  - {fileID: 1174770499}
-  - {fileID: 1531644986}
-  - {fileID: 673951412}
   - {fileID: 1915613127}
   - {fileID: 1173802175}
   - {fileID: 935191784}
@@ -28473,22 +28481,8 @@ Transform:
   - {fileID: 1347571593}
   - {fileID: 842193902}
   m_Father: {fileID: 767341644}
-  m_RootOrder: 7
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &673951412
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec43236ba6522584894ac80bfbcb3815, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  condition: {fileID: 114731942013876800, guid: fd02464d008c790478d9826aba7c7847,
-    type: 2}
-  satisfied: 0
 --- !u!1001 &678290662
 Prefab:
   m_ObjectHideFlags: 0
@@ -28991,7 +28985,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 1
+  order: 1000
   gameObject: {fileID: 1561554626}
   activeState: 0
   isAffectedByStaff: 1
@@ -29108,31 +29102,31 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 2.385
+      value: -0.012
       objectReference: {fileID: 0}
     - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0.24000001
+      value: 0.234
       objectReference: {fileID: 0}
     - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 0.242
+      value: -1.532
       objectReference: {fileID: 0}
     - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_RootOrder
@@ -29144,23 +29138,23 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalScale.x
-      value: 0.25022998
+      value: 0.19636299
       objectReference: {fileID: 0}
     - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalScale.y
-      value: 0.6604
+      value: 0.5182357
       objectReference: {fileID: 0}
     - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalScale.z
-      value: 0.4538391
+      value: 0.35614115
       objectReference: {fileID: 0}
     - target: {fileID: 491826, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -1.35
+      value: -1.65
       objectReference: {fileID: 0}
     - target: {fileID: 491826, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -0.072
+      value: -0.051
       objectReference: {fileID: 0}
     - target: {fileID: 491826, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalRotation.x
@@ -29184,7 +29178,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 491826, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -1.302
+      value: -1.608
       objectReference: {fileID: 0}
     - target: {fileID: 11485606, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -29221,6 +29215,10 @@ Prefab:
     - target: {fileID: 194222, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
@@ -29474,9 +29472,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: It's a lockpick..
-  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 1
+  message: 'It''s a lockpick..maybe I could use it to open the safe? '
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1001 &726736610
 Prefab:
   m_ObjectHideFlags: 0
@@ -29977,7 +29975,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 1
+  order: 1000
   gameObject: {fileID: 537916998}
   activeState: 0
   isAffectedByStaff: 0
@@ -29992,9 +29990,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: It unlocked!'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!1 &767341643
 GameObject:
   m_ObjectHideFlags: 0
@@ -30021,14 +30019,12 @@ Transform:
   m_LocalPosition: {x: 0.59, y: -0.31, z: -0.86}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 2138554552}
-  - {fileID: 1181253957}
-  - {fileID: 1633813273}
+  - {fileID: 803062286}
   - {fileID: 81985405}
   - {fileID: 498403074}
   - {fileID: 1224923706}
-  - {fileID: 1430590715}
   - {fileID: 672988717}
+  - {fileID: 1430590715}
   - {fileID: 998220749}
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -30608,9 +30604,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: Strange it''s just water no tea.. '
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!114 &785570418
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30641,7 +30637,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!199 &795873447
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -35461,6 +35457,22 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 798845118}
+--- !u!4 &803062286
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 4241272336592062, guid: 81ea977436dfa8c498e26e8eb64f0750,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 608338185}
+  m_LocalRotation: {x: -0, y: -1, z: 0, w: 0}
+  m_LocalPosition: {x: 0.59, y: 0.31, z: -0.86}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 174993942}
+  - {fileID: 1504260658}
+  m_Father: {fileID: 767341644}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &803599564
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35472,9 +35484,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 1
   message: Inscribed on the mantle it says "Phoebe is bald"
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  order: 1
 --- !u!114 &809997316
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35595,6 +35607,20 @@ MonoBehaviour:
   gameObject: {fileID: 969610100}
   activeState: 0
   isAffectedByStaff: 0
+--- !u!114 &813720848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 1
+  message: Despite its bitter taste it's a popular tea beverage among wizards..."Interesting.."
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1001 &817184989
 Prefab:
   m_ObjectHideFlags: 0
@@ -36400,7 +36426,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 1
+  order: 1000
   gameObject: {fileID: 1327794670}
   activeState: 0
   isAffectedByStaff: 0
@@ -41441,11 +41467,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: The clam is cooking
 
 '
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!1001 &872058494
 Prefab:
   m_ObjectHideFlags: 0
@@ -41537,20 +41563,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 872058494}
---- !u!114 &875253143
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  description: HasDryPlant
-  satisfied: 0
-  hash: -1494590097
 --- !u!114 &876578131
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41621,6 +41633,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: bd1924a59827ed2489ca35eab69bb5f2,
     type: 3}
   m_PrefabInternal: {fileID: 876834523}
+--- !u!122 &876834526
+Halo:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 876834525}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4286611584
+  m_Size: 0.04
 --- !u!114 &877886722
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41634,7 +41657,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   order: 2
   audioSource: {fileID: 1052792021}
-  audioClip: {fileID: 8300000, guid: 42f18b070dfdfd4479fa68a8b227dc41, type: 3}
+  audioClip: {fileID: 8300000, guid: 76320bd2f0b1ab94088f7588a167b325, type: 3}
 --- !u!1001 &881891841
 Prefab:
   m_ObjectHideFlags: 0
@@ -41737,7 +41760,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 1
+  order: 1000
   gameObject: {fileID: 1793748932}
   activeState: 0
   isAffectedByStaff: 0
@@ -41755,6 +41778,22 @@ MonoBehaviour:
   order: 5
   audioSource: {fileID: 1052792021}
   audioClip: {fileID: 8300000, guid: 2c95ec2eb5ae7dd4db4fead2d1d037d7, type: 3}
+--- !u!114 &887752458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'APPLE: For a golden apple an apple should be required but I haven''t seen
+    any apples around..Maybe I can grow one myself?!
+
+    MELTED GOLD: I should look for something made out of gold. Something that doesn''t
+    ook too valuable. Then I could melt it and combine it with a plain apple.'
 --- !u!114 &888694592
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41766,9 +41805,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: Strange..Some of the continents are hollowed out..
-  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
+  message: Strange..Three of the continents are missing..
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1001 &889468385
 Prefab:
   m_ObjectHideFlags: 0
@@ -42174,20 +42213,6 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b9d66de4f635a5e40ada09791c4e0dd3, type: 3}
   m_IsPrefabAsset: 0
---- !u!114 &902553322
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  message: 'Apprentice: Maybe I could dry these plant over the fire..'
-  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!1001 &902852244
 Prefab:
   m_ObjectHideFlags: 0
@@ -42442,9 +42467,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 2
   message: I don't see how that is any concern of mine!
   textColor: {r: 1, g: 0.023529412, b: 0.023529412, a: 1}
-  order: 2
 --- !u!114 &911895213
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42920,114 +42945,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 21afba848d1e47a428ed9378e001b77c,
     type: 3}
   m_PrefabInternal: {fileID: 1406380185}
---- !u!1 &926536421
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1882953723602358, guid: 05aa8aaac0a0631499d26b9159213d95,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 926536422}
-  - component: {fileID: 926536425}
-  - component: {fileID: 926536424}
-  - component: {fileID: 926536423}
-  m_Layer: 0
-  m_Name: Camera
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &926536422
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 4908075216386796, guid: 05aa8aaac0a0631499d26b9159213d95,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 926536421}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 2138554552}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 180.00002, z: 0}
---- !u!114 &926536423
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 114501118789057346, guid: 05aa8aaac0a0631499d26b9159213d95,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 926536421}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3309686a9fbbe6e42a182d5e0257704c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  intensity: 1
-  threshold: 0
-  blurSpread: 1
-  separableBlurShader: {fileID: 4800000, guid: e97c14fbb5ea04c3a902cc533d7fc5d1, type: 3}
-  contrastCompositeShader: {fileID: 4800000, guid: 273404942eede4ea1883ca1fb2942507,
-    type: 3}
---- !u!114 &926536424
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 114346677851502820, guid: 05aa8aaac0a0631499d26b9159213d95,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 926536421}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -768656878, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EventMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_MaxRayIntersections: 0
---- !u!20 &926536425
-Camera:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 20110807577183430, guid: 05aa8aaac0a0631499d26b9159213d95,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 926536421}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.4716981, g: 0.4716981, b: 0.4716981, a: 0}
-  m_projectionMatrixMode: 1
-  m_SensorSize: {x: 36, y: 24}
-  m_LensShift: {x: 0, y: 0}
-  m_FocalLength: 50
-  m_NormalizedViewPortRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
-  field of view: 60
-  orthographic: 0
-  orthographic size: 5
-  m_Depth: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
-  m_TargetEye: 3
-  m_HDR: 0
-  m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
-  m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
-  m_StereoConvergence: 10
-  m_StereoSeparation: 0.022
 --- !u!1001 &931741616
 Prefab:
   m_ObjectHideFlags: 0
@@ -43216,23 +43133,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: '
-
-    I should find the key to the basement..'
---- !u!114 &952199003
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec43236ba6522584894ac80bfbcb3815, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  condition: {fileID: 114697647035877994, guid: fd02464d008c790478d9826aba7c7847,
-    type: 2}
-  satisfied: 0
+  message: The door is locked, maybe I should take another look around the living
+    room, the globe looks interesting.
 --- !u!1001 &953040654
 Prefab:
   m_ObjectHideFlags: 0
@@ -43321,6 +43223,22 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 67a38cc2f263ca14a8a6ad04e50fdb86,
     type: 3}
   m_PrefabInternal: {fileID: 953040654}
+--- !u!1 &953040657 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100008, guid: 67a38cc2f263ca14a8a6ad04e50fdb86,
+    type: 3}
+  m_PrefabInternal: {fileID: 953040654}
+--- !u!122 &953040658
+Halo:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 953040657}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4286611584
+  m_Size: 0.06
 --- !u!114 &955794275
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43332,9 +43250,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 1
   message: I guess it was....
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 1
 --- !u!114 &959391214
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43346,23 +43264,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 2
   message: You need to show me the goods first!
   textColor: {r: 1, g: 0.023529412, b: 0.023529412, a: 1}
-  order: 2
---- !u!114 &962402216
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  description: AmbrosiaTeaQuestStart
-  satisfied: 1
-  hash: 1331757938
 --- !u!114 &963681074
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43374,11 +43278,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'Apprentice: The Door is locked I should look for a key
+  order: 0
+  message: 'Apprentice: The Door is locked... I should look for a key
 
 '
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!1001 &968680091
 Prefab:
   m_ObjectHideFlags: 0
@@ -43526,6 +43430,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: bdfbc18b203f4404290f4764dceb1819,
     type: 3}
   m_PrefabInternal: {fileID: 969610098}
+--- !u!122 &969610101
+Halo:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 969610100}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4286611584
+  m_Size: 0.04
 --- !u!114 &974952589
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43537,9 +43452,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: It''s a scale..'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!114 &975534593
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43968,6 +43883,22 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 100006, guid: b0842d06c3687764ca4d77859fc34f23,
     type: 3}
   m_PrefabInternal: {fileID: 985059637}
+--- !u!1 &985059640 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100008, guid: b0842d06c3687764ca4d77859fc34f23,
+    type: 3}
+  m_PrefabInternal: {fileID: 985059637}
+--- !u!122 &985059641
+Halo:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 985059640}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4286611584
+  m_Size: 0.12
 --- !u!1001 &986225583
 Prefab:
   m_ObjectHideFlags: 0
@@ -44462,7 +44393,7 @@ Transform:
   - {fileID: 1595132900}
   - {fileID: 1259588520}
   m_Father: {fileID: 767341644}
-  m_RootOrder: 8
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &998574045
 Prefab:
@@ -45012,9 +44943,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'Apprentice: It''s a clam with a beautiful blue pearl..'
-  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
+  message: 'Apprentice: It''s a clam with a beautiful blue pearl inside it..'
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1 &1019472388
 GameObject:
   m_ObjectHideFlags: 0
@@ -45690,11 +45621,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Maybe there''s something I could use to unlock it around here?
 
 '
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!1001 &1044176912
 Prefab:
   m_ObjectHideFlags: 0
@@ -50893,9 +50824,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: It's a globe..
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  order: 0
 --- !u!1001 &1066098194
 Prefab:
   m_ObjectHideFlags: 0
@@ -51355,9 +51286,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'Apprentice: A few apple seeds are laying on this table'
-  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
+  message: 'Apprentice: A few abnormally large apple seeds are laying on the table'
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!114 &1084399068
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51497,20 +51428,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1102361584
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  description: AmbrosiaTeaQuestStart
-  satisfied: 1
-  hash: 1331757938
 --- !u!1 &1103802909
 GameObject:
   m_ObjectHideFlags: 0
@@ -56796,13 +56713,13 @@ MonoBehaviour:
   - {fileID: 2072507246}
   - {fileID: 90396254}
   - {fileID: 1862141080}
-  - {fileID: 602916175}
   - {fileID: 455555765}
   - {fileID: 631723499}
   - {fileID: 1212615527}
   - {fileID: 1439986443}
   - {fileID: 592686527}
   - {fileID: 886782670}
+  - {fileID: 1172070075}
 --- !u!1001 &1127789320
 Prefab:
   m_ObjectHideFlags: 0
@@ -57696,9 +57613,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: It''s a big and cozy fire..'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!114 &1144583059
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58261,6 +58178,22 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 100004, guid: 7e9bf97936131944db39d7ab66f18d9f,
     type: 3}
   m_PrefabInternal: {fileID: 1154203263}
+--- !u!1 &1154203266 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100006, guid: 7e9bf97936131944db39d7ab66f18d9f,
+    type: 3}
+  m_PrefabInternal: {fileID: 1154203263}
+--- !u!122 &1154203267
+Halo:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1154203266}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4286611584
+  m_Size: 0.12
 --- !u!1 &1156852397
 GameObject:
   m_ObjectHideFlags: 0
@@ -58740,6 +58673,21 @@ MonoBehaviour:
   description: DungeonDoorQuestStart
   satisfied: 1
   hash: 162785247
+--- !u!114 &1172070075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 1000
+  gameObject: {fileID: 373270834}
+  activeState: 0
+  isAffectedByStaff: 0
 --- !u!114 &1173802175
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58755,20 +58703,6 @@ MonoBehaviour:
   gameObject: {fileID: 124348008}
   activeState: 1
   isAffectedByStaff: 0
---- !u!114 &1174770499
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec43236ba6522584894ac80bfbcb3815, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  condition: {fileID: 114753056336311330, guid: fd02464d008c790478d9826aba7c7847,
-    type: 2}
-  satisfied: 0
 --- !u!1001 &1176973553
 Prefab:
   m_ObjectHideFlags: 0
@@ -58977,56 +58911,6 @@ MonoBehaviour:
   description: DungeonDoorQuestStart
   satisfied: 1
   hash: 162785247
---- !u!4 &1181253957
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 4265230278563140, guid: 05aa8aaac0a0631499d26b9159213d95,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1181253958}
-  m_LocalRotation: {x: 0.35963854, y: 0, z: 0, w: 0.9330917}
-  m_LocalPosition: {x: 0.49, y: 1.32, z: 0.31}
-  m_LocalScale: {x: 1.1698002, y: 1.1698, z: 1.1698}
-  m_Children:
-  - {fileID: 1294368057}
-  m_Father: {fileID: 767341644}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 42.156002, y: 0, z: 0}
---- !u!1 &1181253958
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1262866889584378, guid: 05aa8aaac0a0631499d26b9159213d95,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1181253957}
-  - component: {fileID: 1181253959}
-  m_Layer: 0
-  m_Name: CameraRig2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1181253959
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 114166202235227262, guid: 05aa8aaac0a0631499d26b9159213d95,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1181253958}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 740e682d67841cb4ca4620d2bee866b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveCamera: 0
-  smoothing: 7
-  offset: {x: 0, y: 0.01, z: 400}
-  playerPosition: {fileID: 1301596986}
-  CameraOptionCondition: {fileID: 114760183064950580, guid: fd02464d008c790478d9826aba7c7847,
-    type: 2}
 --- !u!114 &1185097012
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59327,7 +59211,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   order: 2
   audioSource: {fileID: 1052792021}
-  audioClip: {fileID: 8300000, guid: 42f18b070dfdfd4479fa68a8b227dc41, type: 3}
+  audioClip: {fileID: 8300000, guid: 89a824e43d1bd434685e207eb07b76ab, type: 3}
 --- !u!114 &1212774585
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59339,9 +59223,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'PAINTING: What are you looking at?  '
   textColor: {r: 1, g: 0.023529412, b: 0.023529412, a: 1}
-  order: 0
 --- !u!1001 &1214242543
 Prefab:
   m_ObjectHideFlags: 0
@@ -59671,7 +59555,7 @@ Transform:
   - {fileID: 1896702387}
   - {fileID: 396356357}
   m_Father: {fileID: 767341644}
-  m_RootOrder: 5
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1228084230
 GameObject:
@@ -60150,9 +60034,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: It''s a globe..'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!114 &1239169082
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60280,31 +60164,31 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400002, guid: 94fb2660b03aec543ae715608bfec2a9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.78
+      value: 0.599
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 94fb2660b03aec543ae715608bfec2a9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.482
+      value: 0.457
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 94fb2660b03aec543ae715608bfec2a9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.092
+      value: 0.707
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 94fb2660b03aec543ae715608bfec2a9, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 94fb2660b03aec543ae715608bfec2a9, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 1
+      value: -0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 94fb2660b03aec543ae715608bfec2a9, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 94fb2660b03aec543ae715608bfec2a9, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 94fb2660b03aec543ae715608bfec2a9, type: 3}
       propertyPath: m_RootOrder
@@ -60312,7 +60196,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 94fb2660b03aec543ae715608bfec2a9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
+      value: -90
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 94fb2660b03aec543ae715608bfec2a9, type: 3}
       propertyPath: m_LocalScale.x
@@ -60604,9 +60488,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: It''s desk drawers...'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!1001 &1275850482
 Prefab:
   m_ObjectHideFlags: 0
@@ -61083,119 +60967,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 1294335589}
---- !u!1 &1294368056
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1882953723602358, guid: 05aa8aaac0a0631499d26b9159213d95,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1294368057}
-  - component: {fileID: 1294368060}
-  - component: {fileID: 1294368059}
-  - component: {fileID: 1294368058}
-  m_Layer: 0
-  m_Name: Camera
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1294368057
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 4908075216386796, guid: 05aa8aaac0a0631499d26b9159213d95,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1294368056}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -1.48, z: -3.868}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1181253957}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 180.00002, z: 0}
---- !u!114 &1294368058
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 114501118789057346, guid: 05aa8aaac0a0631499d26b9159213d95,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1294368056}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3309686a9fbbe6e42a182d5e0257704c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  intensity: 1
-  threshold: 0
-  blurSpread: 1
-  separableBlurShader: {fileID: 4800000, guid: e97c14fbb5ea04c3a902cc533d7fc5d1, type: 3}
-  contrastCompositeShader: {fileID: 4800000, guid: 273404942eede4ea1883ca1fb2942507,
-    type: 3}
---- !u!114 &1294368059
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 114346677851502820, guid: 05aa8aaac0a0631499d26b9159213d95,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1294368056}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -768656878, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EventMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_MaxRayIntersections: 0
---- !u!20 &1294368060
-Camera:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 20110807577183430, guid: 05aa8aaac0a0631499d26b9159213d95,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1294368056}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0, g: 0.69433475, b: 1, a: 0}
-  m_projectionMatrixMode: 1
-  m_SensorSize: {x: 36, y: 24}
-  m_LensShift: {x: 0, y: 0}
-  m_FocalLength: 50
-  m_NormalizedViewPortRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
-  field of view: 60
-  orthographic: 0
-  orthographic size: 5
-  m_Depth: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
-  m_TargetEye: 3
-  m_HDR: 0
-  m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
-  m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
-  m_StereoConvergence: 10
-  m_StereoSeparation: 0.022
---- !u!4 &1301596986 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4088149040394140, guid: d43ae048690693e488c33a95d6b53299,
-    type: 2}
-  m_PrefabInternal: {fileID: 1932935906}
 --- !u!114 &1301803979
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61207,7 +60978,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'The third ingredient the wizard asked for is a golden apple. '
+  message: 'Quest completed: I found the key to the basement! I can now go deeper! '
 --- !u!1001 &1302295935
 Prefab:
   m_ObjectHideFlags: 0
@@ -61766,7 +61537,6 @@ GameObject:
   - component: {fileID: 1327138254}
   - component: {fileID: 1327138272}
   - component: {fileID: 1327138271}
-  - component: {fileID: 1327138270}
   - component: {fileID: 1327138269}
   - component: {fileID: 1327138268}
   - component: {fileID: 1327138285}
@@ -61775,7 +61545,6 @@ GameObject:
   - component: {fileID: 1327138282}
   - component: {fileID: 1327138281}
   - component: {fileID: 1327138280}
-  - component: {fileID: 1327138279}
   - component: {fileID: 1327138278}
   - component: {fileID: 1327138277}
   - component: {fileID: 1327138276}
@@ -61783,7 +61552,6 @@ GameObject:
   - component: {fileID: 1327138289}
   - component: {fileID: 1327138288}
   - component: {fileID: 1327138287}
-  - component: {fileID: 1327138286}
   - component: {fileID: 1327138293}
   - component: {fileID: 1327138292}
   - component: {fileID: 1327138294}
@@ -62017,20 +61785,6 @@ MonoBehaviour:
   uniqueIdentifier: claminteractable
   saveData: {fileID: 11400000, guid: d4fe277f5ebf1e5488c85d41a691249b, type: 2}
   gameObjectToSave: {fileID: 582259196}
---- !u!114 &1327138270
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1327138252}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f29b6054d4e0304f8b32fb4625cff19, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  uniqueIdentifier: hanger
-  saveData: {fileID: 11400000, guid: d4fe277f5ebf1e5488c85d41a691249b, type: 2}
-  gameObjectToSave: {fileID: 1406380186}
 --- !u!114 &1327138271
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62115,20 +61869,6 @@ MonoBehaviour:
   uniqueIdentifier: globeinteractable
   saveData: {fileID: 11400000, guid: d4fe277f5ebf1e5488c85d41a691249b, type: 2}
   gameObjectToSave: {fileID: 889468387}
---- !u!114 &1327138279
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1327138252}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f29b6054d4e0304f8b32fb4625cff19, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  uniqueIdentifier: dryplantinteractable
-  saveData: {fileID: 11400000, guid: d4fe277f5ebf1e5488c85d41a691249b, type: 2}
-  gameObjectToSave: {fileID: 246012068}
 --- !u!114 &1327138280
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62213,20 +61953,6 @@ MonoBehaviour:
   uniqueIdentifier: teapotinteractable
   saveData: {fileID: 11400000, guid: d4fe277f5ebf1e5488c85d41a691249b, type: 2}
   gameObjectToSave: {fileID: 247544374}
---- !u!114 &1327138286
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1327138252}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f29b6054d4e0304f8b32fb4625cff19, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  uniqueIdentifier: dryplantpickupinteractable
-  saveData: {fileID: 11400000, guid: d4fe277f5ebf1e5488c85d41a691249b, type: 2}
-  gameObjectToSave: {fileID: 1602942897}
 --- !u!114 &1327138287
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63077,9 +62803,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 4
   message: Depends...We'll see what you bring me..
   textColor: {r: 1, g: 0.023529412, b: 0.023529412, a: 1}
-  order: 4
 --- !u!114 &1351128088
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63153,23 +62879,6 @@ MonoBehaviour:
   gameObject: {fileID: 1542700433}
   activeState: 0
   isAffectedByStaff: 1
---- !u!114 &1376436109
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4900350095ceff24fbe8c1ac5f1e17c4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  description: New condition collection
-  requiredConditions:
-  - {fileID: 359069488}
-  - {fileID: 962402216}
-  - {fileID: 875253143}
-  reactionCollection: {fileID: 430921656}
 --- !u!1001 &1379451769
 Prefab:
   m_ObjectHideFlags: 0
@@ -63272,9 +62981,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: A stunning work of art'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!1001 &1385663645
 Prefab:
   m_ObjectHideFlags: 0
@@ -63607,14 +63316,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1.7971
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 21afba848d1e47a428ed9378e001b77c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 21afba848d1e47a428ed9378e001b77c, type: 3}
   m_IsPrefabAsset: 0
---- !u!1 &1406380186 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100000, guid: 21afba848d1e47a428ed9378e001b77c,
-    type: 3}
-  m_PrefabInternal: {fileID: 1406380185}
 --- !u!1 &1407928968
 GameObject:
   m_ObjectHideFlags: 0
@@ -64083,6 +63791,21 @@ Halo:
     serializedVersion: 2
     rgba: 4278234111
   m_Size: 0.1
+--- !u!114 &1422588329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 1000
+  gameObject: {fileID: 582259196}
+  activeState: 0
+  isAffectedByStaff: 0
 --- !u!1001 &1426233424
 Prefab:
   m_ObjectHideFlags: 0
@@ -64185,9 +63908,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'PAINTING: Hey! What do you think you''re doing?!'
   textColor: {r: 1, g: 0.023529412, b: 0.023529412, a: 1}
-  order: 0
 --- !u!1001 &1429042162
 Prefab:
   m_ObjectHideFlags: 0
@@ -64441,7 +64164,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4800434665854406, guid: 39c30be837462024b8c879ec1cd59900, type: 2}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 114870674958506440, guid: 39c30be837462024b8c879ec1cd59900,
         type: 2}
@@ -64801,7 +64524,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 1
+  order: 1000
   gameObject: {fileID: 903344675}
   activeState: 0
   isAffectedByStaff: 1
@@ -65502,20 +65225,6 @@ MonoBehaviour:
   - {fileID: 942596982}
   - {fileID: 975534593}
   - {fileID: 629766765}
---- !u!114 &1471436573
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec43236ba6522584894ac80bfbcb3815, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  condition: {fileID: 114739006491127474, guid: fd02464d008c790478d9826aba7c7847,
-    type: 2}
-  satisfied: 1
 --- !u!114 &1471640337
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66359,6 +66068,67 @@ MonoBehaviour:
   description: TeapotPickedUp
   satisfied: 0
   hash: -1009543676
+--- !u!1 &1504260657
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 1346286564249446, guid: 81ea977436dfa8c498e26e8eb64f0750,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1504260658}
+  - component: {fileID: 1504260660}
+  - component: {fileID: 1504260659}
+  m_Layer: 0
+  m_Name: CameraSwitchCollider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1504260658
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 4258235508563650, guid: 81ea977436dfa8c498e26e8eb64f0750,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1504260657}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0.05, y: -0.49, z: 1.25}
+  m_LocalScale: {x: 2.3948193, y: 0.31937575, z: 5.5944033}
+  m_Children: []
+  m_Father: {fileID: 803062286}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &1504260659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 114006084829120166, guid: 81ea977436dfa8c498e26e8eb64f0750,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1504260657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0f0772b3dc47794fa5deecbc6101be7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraRigObject: {fileID: 174993940}
+  cameraObject: {fileID: 664216643}
+  rorationSpeed: 90
+  rotationDegrees: 180
+--- !u!65 &1504260660
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 65647420641004612, guid: 81ea977436dfa8c498e26e8eb64f0750,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1504260657}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1506004199
 Prefab:
   m_ObjectHideFlags: 0
@@ -71882,20 +71652,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 1530306385}
---- !u!114 &1531644986
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec43236ba6522584894ac80bfbcb3815, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  condition: {fileID: 114573808208314410, guid: fd02464d008c790478d9826aba7c7847,
-    type: 2}
-  satisfied: 0
 --- !u!1001 &1533683399
 Prefab:
   m_ObjectHideFlags: 0
@@ -72214,11 +71970,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'Apprentice: The door is locked
+  order: 0
+  message: 'Apprentice: The basement door is locked
 
 '
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!1 &1537069925
 GameObject:
   m_ObjectHideFlags: 0
@@ -72571,9 +72327,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'Apprentice: A couple of seeds..'
-  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
+  message: 'Apprentice: A couple of big apple seeds..'
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!114 &1542206516
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -73677,9 +73433,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 1
   message: 'Apprentice: You said we could trade!'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 1
 --- !u!1001 &1567963836
 Prefab:
   m_ObjectHideFlags: 0
@@ -74199,7 +73955,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 194222, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_Name
@@ -74277,6 +74033,10 @@ Prefab:
       propertyPath: m_LocalPosition.z
       value: -0.011
       objectReference: {fileID: 0}
+    - target: {fileID: 194222, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
   m_IsPrefabAsset: 0
@@ -74310,21 +74070,6 @@ MonoBehaviour:
   description: AfricaPickedUp
   satisfied: 0
   hash: -832665031
---- !u!114 &1584547127
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  order: 1
-  gameObject: {fileID: 246012068}
-  activeState: 0
-  isAffectedByStaff: 0
 --- !u!1001 &1585903037
 Prefab:
   m_ObjectHideFlags: 0
@@ -74518,11 +74263,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: A bunch of books
 
 '
   textColor: {r: 1, g: 0.8913304, b: 0, a: 1}
-  order: 0
 --- !u!1 &1592709171
 GameObject:
   m_ObjectHideFlags: 0
@@ -79332,156 +79077,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 1602195659}
---- !u!1001 &1602942895
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1734063289}
-    m_Modifications:
-    - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: reactions.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11484708, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: conditionCollections.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0.039
-      objectReference: {fileID: 0}
-    - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -0.021200001
-      objectReference: {fileID: 0}
-    - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 1.5804
-      objectReference: {fileID: 0}
-    - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 194222, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_Name
-      value: DryPlantPickUpInteractable
-      objectReference: {fileID: 0}
-    - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 0.13053998
-      objectReference: {fileID: 0}
-    - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 0.12243999
-      objectReference: {fileID: 0}
-    - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 0.121999994
-      objectReference: {fileID: 0}
-    - target: {fileID: 491826, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0.02
-      objectReference: {fileID: 0}
-    - target: {fileID: 491826, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: -0.66
-      objectReference: {fileID: 0}
-    - target: {fileID: 491826, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 491826, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 491826, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 491826, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 491826, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 491826, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -4.46
-      objectReference: {fileID: 0}
-    - target: {fileID: 11485606, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1932935907}
-    - target: {fileID: 11485606, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: OnInteractableClick
-      objectReference: {fileID: 0}
-    - target: {fileID: 11485606, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: Interactable, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 11485606, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11485606, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 1602942898}
-    - target: {fileID: 11484708, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: conditionCollections.Array.data[0]
-      value: 
-      objectReference: {fileID: 1376436109}
-    - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: reactions.Array.data[0]
-      value: 
-      objectReference: {fileID: 278509661}
-    - target: {fileID: 194222, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-      propertyPath: reactions.Array.data[1]
-      value: 
-      objectReference: {fileID: 592574675}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-  m_IsPrefabAsset: 0
---- !u!4 &1602942896 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1602942895}
---- !u!1 &1602942897 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 194222, guid: d48734bd22479a14cb1a52b40aa09db4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1602942895}
---- !u!114 &1602942898 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 11484708, guid: d48734bd22479a14cb1a52b40aa09db4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1602942895}
-  m_Script: {fileID: 11500000, guid: d85941078afdf3244b2a1ae50fea256c, type: 3}
 --- !u!1 &1613394747
 GameObject:
   m_ObjectHideFlags: 0
@@ -79623,6 +79218,46 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 0ccf8089ec27b9a49b4f3a9c1e4bcf94,
     type: 3}
   m_PrefabInternal: {fileID: 1614063295}
+--- !u!1 &1614981110
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1614981111}
+  - component: {fileID: 1614981112}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1614981111
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1614981110}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.672, z: 1.052}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 383284618}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!122 &1614981112
+Halo:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1614981110}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4286611584
+  m_Size: 0.06
 --- !u!1001 &1620743737
 Prefab:
   m_ObjectHideFlags: 0
@@ -80037,75 +79672,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 1631157063}
---- !u!1001 &1633813272
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 767341644}
-    m_Modifications:
-    - target: {fileID: 4966004170249604, guid: 01b80ed653b97164a82ac15c93ee59d4, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0.57
-      objectReference: {fileID: 0}
-    - target: {fileID: 4966004170249604, guid: 01b80ed653b97164a82ac15c93ee59d4, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -0.265
-      objectReference: {fileID: 0}
-    - target: {fileID: 4966004170249604, guid: 01b80ed653b97164a82ac15c93ee59d4, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: -2.0900002
-      objectReference: {fileID: 0}
-    - target: {fileID: 4966004170249604, guid: 01b80ed653b97164a82ac15c93ee59d4, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4966004170249604, guid: 01b80ed653b97164a82ac15c93ee59d4, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 4966004170249604, guid: 01b80ed653b97164a82ac15c93ee59d4, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4966004170249604, guid: 01b80ed653b97164a82ac15c93ee59d4, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 4966004170249604, guid: 01b80ed653b97164a82ac15c93ee59d4, type: 2}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4966004170249604, guid: 01b80ed653b97164a82ac15c93ee59d4, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 0.26609132
-      objectReference: {fileID: 0}
-    - target: {fileID: 114610116692643830, guid: 01b80ed653b97164a82ac15c93ee59d4,
-        type: 2}
-      propertyPath: cameraRigObject1
-      value: 
-      objectReference: {fileID: 2138554553}
-    - target: {fileID: 114610116692643830, guid: 01b80ed653b97164a82ac15c93ee59d4,
-        type: 2}
-      propertyPath: cameraRigObject2
-      value: 
-      objectReference: {fileID: 1181253958}
-    - target: {fileID: 4966004170249604, guid: 01b80ed653b97164a82ac15c93ee59d4, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 2.394818
-      objectReference: {fileID: 0}
-    - target: {fileID: 4966004170249604, guid: 01b80ed653b97164a82ac15c93ee59d4, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 5.594402
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 01b80ed653b97164a82ac15c93ee59d4, type: 2}
-  m_IsPrefabAsset: 0
---- !u!4 &1633813273 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4966004170249604, guid: 01b80ed653b97164a82ac15c93ee59d4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1633813272}
 --- !u!1001 &1633936452
 Prefab:
   m_ObjectHideFlags: 0
@@ -80871,9 +80437,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 3
   message: Well..What do you think?
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 3
 --- !u!1001 &1674495979
 Prefab:
   m_ObjectHideFlags: 0
@@ -80985,21 +80551,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 782251f16615307418228512dd61bbbc,
     type: 3}
   m_PrefabInternal: {fileID: 1674495979}
---- !u!114 &1674999142
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  message: "Apprentice: They\u2019re drier than the wizards jokes but they\u2019re
-    too big to fit into the teapot.  "
-  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!1001 &1694390226
 Prefab:
   m_ObjectHideFlags: 0
@@ -81314,11 +80865,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'Apprentice: I can cook the clam to make it open up over this fire!
-
-'
-  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
+  message: 'Apprentice: The clam opened up from being cooked...I can now get the pearl
+    inside..'
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!114 &1711558618
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -81595,8 +81145,6 @@ Transform:
   m_Children:
   - {fileID: 247544373}
   - {fileID: 1561554625}
-  - {fileID: 1602942896}
-  - {fileID: 246012067}
   - {fileID: 519335388}
   m_Father: {fileID: 2107261174}
   m_RootOrder: 3
@@ -82030,9 +81578,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: It''s a teapot with warm water in it..'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!114 &1743545599
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -82132,6 +81680,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 7d5cedd9768e96645a0b8975cb4e0457,
     type: 3}
   m_PrefabInternal: {fileID: 1744498316}
+--- !u!122 &1744498319
+Halo:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1744498317}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4286611584
+  m_Size: 0.07
 --- !u!1001 &1747938285
 Prefab:
   m_ObjectHideFlags: 0
@@ -82635,7 +82194,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 2
+  order: 3
   gameObject: {fileID: 1339064260}
   activeState: 0
   isAffectedByStaff: 0
@@ -83074,12 +82633,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: "Apprentice: Ambrosia is a rare plant that thrives in dark spaces. It it
-    has a very unique bitter taste and is believed to be very nourishing. Despite
-    its bitter taste it's a common beverage for many wizards to dry the herb for brewing
-    tea\u2026\u201DInteresting...\u201D"
-  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
+  message: "Apprentice: Ambrosia is a rare plant that thrives in dark spaces. \nIt
+    has a very unique bitter taste and is believed to be very nourishing."
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1001 &1788859505
 Prefab:
   m_ObjectHideFlags: 0
@@ -83841,9 +83398,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: A warm and cozy fire is burning but it''s just a plain fire..'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!1001 &1815106171
 Prefab:
   m_ObjectHideFlags: 0
@@ -84306,18 +83863,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 1831378109}
---- !u!114 &1832250519
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d482a9551d8b074097fdb7beded4043, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 11400000, guid: 4a81e6cfb88b910459e5f95825d75904, type: 2}
 --- !u!1001 &1834018764
 Prefab:
   m_ObjectHideFlags: 0
@@ -84908,9 +84453,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: It''s a locked safe.'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!1001 &1856303431
 Prefab:
   m_ObjectHideFlags: 0
@@ -85287,20 +84832,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 1869394528}
---- !u!114 &1872444727
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  description: AmbrosiaBouquetAquired
-  satisfied: 1
-  hash: 449017577
 --- !u!1 &1872683920
 GameObject:
   m_ObjectHideFlags: 0
@@ -85346,7 +84877,8 @@ MonoBehaviour:
   - {fileID: 1542206516}
   - {fileID: 1544075840}
   - {fileID: 1150436129}
-  - {fileID: 484803145}
+  - {fileID: 162662586}
+  - {fileID: 1422588329}
 --- !u!1001 &1879013673
 Prefab:
   m_ObjectHideFlags: 0
@@ -86047,10 +85579,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'Apprentice: Maybe i should try and find the missing pieces that seems
-    to be missing. '
-  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
   order: 0
+  message: 'Apprentice: I should try and find the missing pieces.'
+  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1001 &1912411197
 Prefab:
   m_ObjectHideFlags: 0
@@ -92291,9 +91822,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 2
   message: I'll just take the teeth..
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 1
 --- !u!1001 &1973581270
 Prefab:
   m_ObjectHideFlags: 0
@@ -92471,9 +92002,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: This plant looks Interesting..'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
 --- !u!1001 &1981897908
 Prefab:
   m_ObjectHideFlags: 0
@@ -92830,22 +92361,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 0e1cbfeccd9a1ab4ea384f976540b74d,
     type: 3}
   m_PrefabInternal: {fileID: 1988550705}
---- !u!114 &1988823071
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4900350095ceff24fbe8c1ac5f1e17c4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  description: New condition collection
-  requiredConditions:
-  - {fileID: 1102361584}
-  - {fileID: 1872444727}
-  reactionCollection: {fileID: 579790331}
 --- !u!1 &1990489480
 GameObject:
   m_ObjectHideFlags: 0
@@ -97634,7 +97149,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 1
+  order: 1000
   gameObject: {fileID: 889468387}
   activeState: 0
   isAffectedByStaff: 0
@@ -97780,12 +97295,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: '
-
-    1. For a golden apple an apple should be required but I haven''t seen any apples
-    around...Actually I haven''t really seen any source of food around here..
-
-    2. Then I  need to find a way to make an ordinary apple into an unordinary one..
+  message: 'The third ingredient the wizard asked for is a golden apple.
 
 '
 --- !u!1001 &2014706675
@@ -98019,21 +97529,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 2016807658}
---- !u!114 &2017514863
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  order: 1
-  gameObject: {fileID: 293251061}
-  activeState: 0
-  isAffectedByStaff: 0
 --- !u!1001 &2018915955
 Prefab:
   m_ObjectHideFlags: 0
@@ -98244,21 +97739,6 @@ MonoBehaviour:
   description: LockpickPickedUp
   satisfied: 0
   hash: 2122830829
---- !u!114 &2028850220
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  order: 1
-  gameObject: {fileID: 293251061}
-  activeState: 1
-  isAffectedByStaff: 0
 --- !u!1001 &2030549708
 Prefab:
   m_ObjectHideFlags: 0
@@ -99955,15 +99435,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: '
-
-    Piece 1. Australia piece
-
-    Piece 2. Africa piece
-
-    Piece 3. South America piece
-
-'
+  message: "AFRICA: I've heard Africa is located near the equator, it's a very warm
+    place. \nSOUTH AMERICA: Although South America is located in the south, weird...I
+    remember seeing it someplace north.\nAUSTRALIA: Also known as \"The place down
+    under\", seems like a sweet place. \n"
 --- !u!1 &2077199564
 GameObject:
   m_ObjectHideFlags: 0
@@ -100202,6 +99677,8 @@ MonoBehaviour:
   - {fileID: 88071807}
   - {fileID: 1301803979}
   - {fileID: 2008126127}
+  - {fileID: 887752458}
+  - {fileID: 536517581}
 --- !u!1001 &2089582488
 Prefab:
   m_ObjectHideFlags: 0
@@ -100736,7 +100213,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 194222, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_Name
@@ -101593,59 +101070,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 0
   message: 'Apprentice: The globe is open now. '
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
-  order: 0
---- !u!4 &2138554552
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 4265230278563140, guid: 05aa8aaac0a0631499d26b9159213d95,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2138554553}
-  m_LocalRotation: {x: -0, y: 0.93309194, z: -0.35963786, w: 0}
-  m_LocalPosition: {x: 0.49, y: 3.15, z: 1.97}
-  m_LocalScale: {x: 1.1698009, y: 1.1697999, z: 1.1698005}
-  m_Children:
-  - {fileID: 926536422}
-  m_Father: {fileID: 767341644}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 42.156002, y: -179.99998, z: 0}
---- !u!1 &2138554553
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1262866889584378, guid: 05aa8aaac0a0631499d26b9159213d95,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2138554552}
-  - component: {fileID: 2138554554}
-  m_Layer: 0
-  m_Name: CameraRig
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &2138554554
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 114166202235227262, guid: 05aa8aaac0a0631499d26b9159213d95,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2138554553}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 740e682d67841cb4ca4620d2bee866b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveCamera: 0
-  smoothing: 7
-  offset: {x: 0, y: 0.01, z: 400}
-  playerPosition: {fileID: 1301596986}
-  CameraOptionCondition: {fileID: 114760183064950580, guid: fd02464d008c790478d9826aba7c7847,
-    type: 2}
 --- !u!1 &2138837921
 GameObject:
   m_ObjectHideFlags: 0

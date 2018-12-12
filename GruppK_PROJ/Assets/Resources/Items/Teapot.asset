@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Name: Teapot
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: e360ff1e8af545946b1ddcb2b7faa313, type: 3}
-  itemName: 
+  itemName: Teapot
   pickUpCondition: {fileID: 114619320260106674, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}
+  tooltipMessage: Try putting the tea in the teapot. Obviously.

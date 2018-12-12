@@ -15,3 +15,5 @@ MonoBehaviour:
   itemName: Lock Pick
   pickUpCondition: {fileID: 114747450403530148, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}
+  tooltipMessage: "A lockpick. Great for accessing things you shouldn\u2019t have
+    access to."

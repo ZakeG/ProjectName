@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Name: Torch
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: 4493d2aa84b39b24590fb30c010a8066, type: 3}
-  itemName: 
+  itemName: Torch
   pickUpCondition: {fileID: 114000264106966828, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}
+  tooltipMessage: "It\u2019s a torch. It looks rather unlit."

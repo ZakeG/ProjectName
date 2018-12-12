@@ -15,3 +15,5 @@ MonoBehaviour:
   itemName: 
   pickUpCondition: {fileID: 114425427377283694, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}
+  tooltipMessage: A rare magical herb, said to bring the gift of immortality to whoever
+    consumes it.

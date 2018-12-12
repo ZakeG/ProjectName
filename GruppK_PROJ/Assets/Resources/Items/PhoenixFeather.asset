@@ -15,3 +15,5 @@ MonoBehaviour:
   itemName: PhoenixFeather
   pickUpCondition: {fileID: 114778350263410574, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}
+  tooltipMessage: A REAL Phoenix Feather. Phoenixes are said to obtain new life by
+    arising from the ashes of its predecessor.

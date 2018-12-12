@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Name: Seeds
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: 57783c79879d38e438975220e9321afa, type: 3}
-  itemName: 
+  itemName: Seeds
   pickUpCondition: {fileID: 114842528549307944, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}
+  tooltipMessage: "Seeds. I wonder what kind, tho. Let\u2019s grow them to find out."

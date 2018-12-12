@@ -15,3 +15,5 @@ MonoBehaviour:
   itemName: FirefliesJar
   pickUpCondition: {fileID: 114761333550728362, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}
+  tooltipMessage: A jar of fireflies, creating a beautiful glow especially visible
+    during the night.

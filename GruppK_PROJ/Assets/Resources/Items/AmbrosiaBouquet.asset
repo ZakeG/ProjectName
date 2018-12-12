@@ -15,3 +15,4 @@ MonoBehaviour:
   itemName: bouquet
   pickUpCondition: {fileID: 114697647035877994, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}
+  tooltipMessage: What a lovely bouquet of ambrosia. Maybe I should dry it?

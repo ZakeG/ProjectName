@@ -33,7 +33,7 @@ public class ReactionCollection : MonoBehaviour
     private DelayedReaction interactableOffReaction;
 
 
-    private void Awake ()
+    private void Start ()
     {
         audioSource = GameObject.Find("VO").GetComponent<AudioSource>();
         playerMovementScript = GameObject.Find("Player").GetComponent<PlayerMovement>();
@@ -42,13 +42,16 @@ public class ReactionCollection : MonoBehaviour
         tempTexture2DIntList = Resources.FindObjectsOfTypeAll<Texture2D>();
         foreach (Texture2D t in tempTexture2DIntList)
         {
-            if (t.name == "pointer_talk")
-            {
-                cursorIneracting = t;
-            }
-            else if (t.name == "pointer_walk")
+            if (t.name == "pointer_walk")
             {
                 cursorArrow = t;
+            }
+        }
+        foreach (Texture2D t in tempTexture2DIntList)
+        {
+            if (t.name == "interacting")
+            {
+                cursorIneracting = t;
             }
         }
         tempConditionInitList = Resources.FindObjectsOfTypeAll<Condition>();
@@ -97,9 +100,9 @@ public class ReactionCollection : MonoBehaviour
                 clicksNeeded = delayedReaction.order;
             }
         }
-//        Debug.Log(gameObject.name + " from " + gameObject.transform.parent.name + " has " + instructions.Count + " Reactions");
-//        Debug.Log("Clicks needed: " + clicksNeeded);
-//        Debug.Log(interactableOffReaction);
+        clicksNeeded = clicksNeeded + 1;
+        Debug.Log(gameObject.name + " from " + gameObject.transform.parent.name + " has " + instructions.Count + " Reactions");
+        Debug.Log("Clicks needed: " + clicksNeeded);
     }
 
     private void Update()
@@ -108,11 +111,11 @@ public class ReactionCollection : MonoBehaviour
         {
             if (Input.GetButtonDown("Fire1"))
             {
-                if (clicksNeeded == 0)
+ /*               if (clicksNeeded == 0)
                 {
                     ReactionsAlmostFinished();
                     ReactionsFinished();
-                }
+                }*/
                 reactionOrderNumber++;
                 if (reactionOrderNumber < clicksNeeded)
                 {

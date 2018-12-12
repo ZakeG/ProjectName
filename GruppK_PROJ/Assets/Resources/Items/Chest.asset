@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Name: Chest
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: 6f1b53bdfb3025349b1e0bf4b133c40d, type: 3}
-  itemName: 
+  itemName: Chest
   pickUpCondition: {fileID: 114476403303460260, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}
+  tooltipMessage: "A chest made of gold. I wonder what treasures are hiding in this\u2026?"

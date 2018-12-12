@@ -15,3 +15,4 @@ MonoBehaviour:
   itemName: ClamKettle
   pickUpCondition: {fileID: 114856924687962330, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}
+  tooltipMessage: "It\u2019s a kettle with a clam inside."

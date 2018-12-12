@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Name: Kettle
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: f8655ffde18a9e142b7cad87e0fff649, type: 3}
-  itemName: 
+  itemName: Kettle(Empty)
   pickUpCondition: {fileID: 114958520659555010, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}
+  tooltipMessage: "It\u2019s a kettle... that\u2019s empty\u2026 An empty kettle."

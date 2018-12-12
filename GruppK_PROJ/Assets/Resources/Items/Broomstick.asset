@@ -15,3 +15,4 @@ MonoBehaviour:
   itemName: Broomstick
   pickUpCondition: {fileID: 114149025891862836, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}
+  tooltipMessage: A broomstick without the bristles, or is it a staff?

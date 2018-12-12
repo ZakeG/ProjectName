@@ -15,3 +15,4 @@ MonoBehaviour:
   itemName: 
   pickUpCondition: {fileID: 114881335897606838, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}
+  tooltipMessage: A kettle containing water ready to boil.

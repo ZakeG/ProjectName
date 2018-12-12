@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Name: CellKey
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: ee6fb828983e63f4d8c5c3a131603738, type: 3}
-  itemName: 
+  itemName: CellKey
   pickUpCondition: {fileID: 114747450403530148, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}
+  tooltipMessage: A key.

@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Name: FireCrystal
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: da5d459ebdb004e45ad3cb2f2c0d1692, type: 3}
-  itemName: 
+  itemName: FireCrystal
   pickUpCondition: {fileID: 114166715466194848, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}
+  tooltipMessage: 'A strong and powerful crystal representing one of the Four Elements.
+    In this case: The Fire.'

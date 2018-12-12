@@ -28290,7 +28290,7 @@ Transform:
   - {fileID: 1347571593}
   - {fileID: 842193902}
   m_Father: {fileID: 767341644}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &678290662
 Prefab:
@@ -29828,8 +29828,8 @@ Transform:
   - {fileID: 81985405}
   - {fileID: 498403074}
   - {fileID: 1224923706}
-  - {fileID: 1430590715}
   - {fileID: 672988717}
+  - {fileID: 1430590715}
   - {fileID: 998220749}
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -35490,7 +35490,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 0
+  order: 1
   message: Despite its bitter taste it's a popular tea beverage among wizards..."Interesting.."
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1001 &817184989

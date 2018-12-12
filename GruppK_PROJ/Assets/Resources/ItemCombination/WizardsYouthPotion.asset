@@ -6,7 +6,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3cffb6a7149563f48bb326bd152bfd93, type: 3}
   m_Name: WizardsYouthPotion
@@ -18,3 +18,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 81e6b39e361aac54faf51645f58ed708, type: 2}
   result:
   - {fileID: 11400000, guid: 0b825b90d3645c645be58b7b6b387ed7, type: 2}
+  QLReactions:
+  - 'Quest completed: Finally! I''ve completed the wizards potion! I should return
+    to him and let him know!'

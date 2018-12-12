@@ -100,9 +100,9 @@ public class ReactionCollection : MonoBehaviour
                 clicksNeeded = delayedReaction.order;
             }
         }
-//        Debug.Log(gameObject.name + " from " + gameObject.transform.parent.name + " has " + instructions.Count + " Reactions");
-//        Debug.Log("Clicks needed: " + clicksNeeded);
-//        Debug.Log(interactableOffReaction);
+        clicksNeeded = clicksNeeded + 1;
+        Debug.Log(gameObject.name + " from " + gameObject.transform.parent.name + " has " + instructions.Count + " Reactions");
+        Debug.Log("Clicks needed: " + clicksNeeded);
     }
 
     private void Update()
@@ -111,11 +111,11 @@ public class ReactionCollection : MonoBehaviour
         {
             if (Input.GetButtonDown("Fire1"))
             {
-                if (clicksNeeded == 0)
+ /*               if (clicksNeeded == 0)
                 {
                     ReactionsAlmostFinished();
                     ReactionsFinished();
-                }
+                }*/
                 reactionOrderNumber++;
                 if (reactionOrderNumber < clicksNeeded)
                 {

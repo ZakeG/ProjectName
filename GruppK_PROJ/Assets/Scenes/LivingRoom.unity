@@ -2074,7 +2074,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: I'm sorry but I need that pearl more than you
+  message: I'm sorry but I need that pearl more than you.
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!4 &77909232 stripped
 Transform:
@@ -2325,7 +2325,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: This piece looks familiar, I should bring it with me'
+  message: This piece looks familiar, I should bring it with me
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1001 &100154388
 Prefab:
@@ -2625,10 +2625,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: Dragon...fire...
+  message: 'Dragon...fire...
 
-    it wouldn''t just be so easy to just throw the dragon bone into the fire right?
-    ..'
+    it wouldn''t just be so easy to just throw the dragon bone into the fire right?..'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1001 &117823967
 Prefab:
@@ -8590,8 +8589,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: One of the bowls on the scale is loose..i could maybe find
-    another use for it..'
+  message: One of the bowls on the scale is loose..i could maybe find another use
+    for it..
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1 &167703998
 GameObject:
@@ -8748,9 +8747,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: There''s something shining in one of the drawers..
-
-'
+  message: There's something shining in one of the drawers..
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1001 &172309398
 Prefab:
@@ -10158,8 +10155,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: The clam closed up as i touched it....I should find a way
-    to get it to open up.'
+  message: The clam closed up as i touched it....I should find a way to get it to
+    open up.
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1 &225467293
 GameObject:
@@ -10401,7 +10398,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: A key! This must be the key to the basement.'
+  message: A key! This must be the key to the basement.
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1001 &247262088
 Prefab:
@@ -12747,7 +12744,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: This looks familiar..
+  message: 'This looks familiar..
 
 
 '
@@ -14097,7 +14094,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 1
-  message: 'Apprentice: I really need that stone!'
+  message: I really need that stone!
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1001 &410824158
 Prefab:
@@ -19616,7 +19613,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: Where have I seen this before ?'
+  message: Where have I seen this before ?
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1001 &437420644
 Prefab:
@@ -20329,7 +20326,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: "Apprentice: I could cook the clam over the fire... \n"
+  message: 'I could cook the clam over the fire... '
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1 &478720021
 GameObject:
@@ -20692,7 +20689,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: There''s something hanging from the chandelier...'
+  message: There's something hanging from the chandelier...
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1001 &514937521
 Prefab:
@@ -27105,7 +27102,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'PAINTING: Get your grubby little hands off my precious!...My precious..'
+  message: Get your grubby little hands off my precious!...My precious..
   textColor: {r: 1, g: 0.023529412, b: 0.023529412, a: 1}
 --- !u!1001 &589501848
 Prefab:
@@ -27818,7 +27815,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: Looks like I''ve got all the missing pieces..'
+  message: Looks like I've got all the missing pieces..
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1001 &625790876
 Prefab:
@@ -29473,7 +29470,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 1
-  message: 'It''s a lockpick..maybe I could use it to open the safe? '
+  message: It's a lockpick.. maybe I could use it to open the safe?
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1001 &726736610
 Prefab:
@@ -29991,7 +29988,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: It unlocked!'
+  message: It unlocked!
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1 &767341643
 GameObject:
@@ -30605,7 +30602,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: Strange it''s just water no tea.. '
+  message: Strange it's just water no tea..
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!114 &785570418
 MonoBehaviour:
@@ -41468,9 +41465,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: The clam is cooking
-
-'
+  message: The clam is cooking.
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1001 &872058494
 Prefab:
@@ -41806,7 +41801,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: Strange..Three of the continents are missing..
+  message: Strange.. Three of the continents are missing..
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1001 &889468385
 Prefab:
@@ -43279,9 +43274,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: The Door is locked... I should look for a key
-
-'
+  message: The Door is locked... I should look for a key.
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1001 &968680091
 Prefab:
@@ -43453,7 +43446,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: It''s a scale..'
+  message: It's a scale..
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!114 &975534593
 MonoBehaviour:
@@ -44944,7 +44937,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: It''s a clam with a beautiful blue pearl inside it..'
+  message: It's a clam with a beautiful blue pearl inside it..
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1 &1019472388
 GameObject:
@@ -51287,7 +51280,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: A few abnormally large apple seeds are laying on the table'
+  message: A few abnormally large apple seeds are laying on the table.
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!114 &1084399068
 MonoBehaviour:
@@ -57614,7 +57607,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: It''s a big and cozy fire..'
+  message: It's a big and cozy fire..
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!114 &1144583059
 MonoBehaviour:
@@ -59224,7 +59217,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'PAINTING: What are you looking at?  '
+  message: What are you looking at?!
   textColor: {r: 1, g: 0.023529412, b: 0.023529412, a: 1}
 --- !u!1001 &1214242543
 Prefab:
@@ -60035,7 +60028,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: It''s a globe..'
+  message: It's a globe..
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!114 &1239169082
 MonoBehaviour:
@@ -60489,7 +60482,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: It''s desk drawers...'
+  message: It's desk drawers...
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1001 &1275850482
 Prefab:
@@ -62982,7 +62975,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: A stunning work of art'
+  message: A stunning work of art!
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1001 &1385663645
 Prefab:
@@ -63909,7 +63902,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'PAINTING: Hey! What do you think you''re doing?!'
+  message: Hey! What do you think you're doing?!
   textColor: {r: 1, g: 0.023529412, b: 0.023529412, a: 1}
 --- !u!1001 &1429042162
 Prefab:
@@ -71971,9 +71964,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: The basement door is locked
-
-'
+  message: The basement door is locked
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1 &1537069925
 GameObject:
@@ -72328,7 +72319,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: A couple of big apple seeds..'
+  message: A couple of big apple seeds..
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!114 &1542206516
 MonoBehaviour:
@@ -73434,7 +73425,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 1
-  message: 'Apprentice: You said we could trade!'
+  message: You said we could trade!
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1001 &1567963836
 Prefab:
@@ -74264,9 +74255,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: A bunch of books
-
-'
+  message: A bunch of books.
   textColor: {r: 1, g: 0.8913304, b: 0, a: 1}
 --- !u!1 &1592709171
 GameObject:
@@ -80866,8 +80855,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: The clam opened up from being cooked...I can now get the pearl
-    inside..'
+  message: The clam opened up from being cooked...I can now get the pearl inside..
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!114 &1711558618
 MonoBehaviour:
@@ -81579,7 +81567,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: It''s a teapot with warm water in it..'
+  message: It's a teapot with warm water in it..
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!114 &1743545599
 MonoBehaviour:
@@ -82634,8 +82622,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: "Apprentice: Ambrosia is a rare plant that thrives in dark spaces. \nIt
-    has a very unique bitter taste and is believed to be very nourishing."
+  message: 'Ambrosia is a rare plant that thrives in dark spaces.
+
+    It has a very unique bitter taste and is believed to be very nourishing.'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1001 &1788859505
 Prefab:
@@ -83399,7 +83388,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: A warm and cozy fire is burning but it''s just a plain fire..'
+  message: A warm and cozy fire is burning but it's just a plain fire..
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1001 &1815106171
 Prefab:
@@ -84454,7 +84443,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: It''s a locked safe.'
+  message: It's a locked safe. And I don't have the key.
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1001 &1856303431
 Prefab:
@@ -85580,7 +85569,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: I should try and find the missing pieces.'
+  message: I should try and find the missing pieces.
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1001 &1912411197
 Prefab:
@@ -92003,7 +91992,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: This plant looks Interesting..'
+  message: This plant looks Interesting..
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1001 &1981897908
 Prefab:
@@ -101071,7 +101060,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: The globe is open now. '
+  message: The globe is open now.
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1 &2138837921
 GameObject:

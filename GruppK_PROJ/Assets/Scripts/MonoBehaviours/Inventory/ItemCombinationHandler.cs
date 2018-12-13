@@ -16,7 +16,7 @@ public class ItemCombinationHandler : MonoBehaviour {
     private Inventory inventoryScript;
     private List<Item> selectedItems;
     private List<Item> combos;
-    private List<Item> failCombos;
+    private List<Item> failCombo;
     private List<Item> comboResults;
     private List<QuestLogReaction> questLogReactionList;
     private bool allSelectedItemsInCombo;
@@ -127,31 +127,32 @@ public class ItemCombinationHandler : MonoBehaviour {
     }
     private void CombinationFail()
     {
-        /*      foreach (FailedItemCombination FIC in failCombinations) {
-                  failCombos = FIC.GetList();
+        foreach (FailedItemCombination FIC in failCombinations) {
+                  failCombo = FIC.GetList();
                   failReactionExist = true;
-                  foreach (Item i in failCombos)
+                  foreach (Item i in failCombo)
                   {
-                      if (selectedItems.Contains(i) && failCombos.Count == selectedItems.Count)
+                      if (selectedItems.Contains(i) && failCombo.Count == selectedItems.Count)
                       {
+                          Debug.Log(failReactionExist);
                           failReactionExist = true;
                       }
                       else
                       {
-                          failReactionExist = false;
+                        Debug.Log(failReactionExist);
+                        failReactionExist = false;
                           break;
                       }
                   }
-                  if (allSelectedItemsInCombo)
+                  if (failReactionExist)
                   {
-                      StartCoroutine(ShowFailMessage(FIC));
-
-                 }
+                      StartCoroutine(failMessageScript.ShowFailMessage(FIC));
+                  }
               }
               if (!failReactionExist)
-              {*/
-        StartCoroutine(failMessageScript.ShowDefaultFailMessage());
- //       }
+              {
+                 StartCoroutine(failMessageScript.ShowDefaultFailMessage());
+              }
     }
 }
 

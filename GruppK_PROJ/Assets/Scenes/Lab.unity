@@ -551,7 +551,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: A glowing yellow jar..'
+  message: A glowing yellow jar..
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1 &34536700
 GameObject:
@@ -641,7 +641,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: It''s a telescope pointed at the sun.'
+  message: It's a telescope pointed at the sun.
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1001 &35673409
 Prefab:
@@ -1004,8 +1004,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: I wonder if combining this with the bowl I picked up from
-    the scale will work?'
+  message: I wonder if combining this with the bowl I picked up from the scale will
+    work?
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!114 &51464770
 MonoBehaviour:
@@ -1731,9 +1731,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 1
-  message: 'I shouldn''t look into it. The sun is shinning too bright during the day..
-
-'
+  message: I shouldn't look into it. The sun is shinning too bright during the day..
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!114 &78951581
 MonoBehaviour:
@@ -7246,7 +7244,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: A Mortar and Pestle
+  message: 'A Mortar and Pestle
 
 '
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
@@ -8224,7 +8222,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: I wonder if this bird is afraid of scarecrows.'
+  message: I wonder if this bird is afraid of scarecrows.
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!114 &159461645
 MonoBehaviour:
@@ -9788,7 +9786,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: I still have things to do here.'
+  message: I still have things to do here.
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1 &211446899
 GameObject:
@@ -9973,7 +9971,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: It''s a cauldron.'
+  message: It's a cauldron.
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1 &223405940
 GameObject:
@@ -10063,8 +10061,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 2
-  message: 'Now the quest ahead will be long and difficult! You will need to find
-    and collect four main ingredients for my potion. '
+  message: Now the quest ahead will be long and difficult! You will need to find and
+    collect four main ingredients for my potion.
   textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
 --- !u!114 &223828894
 MonoBehaviour:
@@ -10078,9 +10076,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: On top of the mantle is a crescent moon sculpture
-
-'
+  message: There is a crescent moon sculpture on top of the mantle.
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1 &225929323
 GameObject:
@@ -10141,7 +10137,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: Its an empty, old teabag.'
+  message: Its an empty, old teabag.
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1 &231139240
 GameObject:
@@ -11813,7 +11809,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: Looks like something I could use for the staff'
+  message: Looks like something I could use for the staff
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1 &310440531
 GameObject:
@@ -12961,8 +12957,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: A sack with three holes in it...it kinda looks like a mask
-    of some sorts?'
+  message: A sack with three holes in it...it kinda looks like a mask of some sorts?
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1 &347461205
 GameObject:
@@ -14393,8 +14388,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: I could try and throw these seeds into the dirt in the box
-    and see what happens... '
+  message: I could try and throw these seeds into the dirt in the box and see what
+    happens...
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1 &393743354
 GameObject:
@@ -14621,7 +14616,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: It''s a broken broom'
+  message: It's a broken broom
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1 &407312184
 GameObject:
@@ -15168,10 +15163,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'WIZARD: Here, take this list with all the ingredients I need you to get
-    me for my potion!
-
-'
+  message: Here, take this list with all the ingredients I need you to get me for
+    my potion!
   textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
 --- !u!114 &422531398
 MonoBehaviour:
@@ -15291,8 +15284,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: A vial filled with some red liquid. Strangely it seems to
-    be the only red potion around here.'
+  message: A vial filled with some red liquid. Strangely it seems to be the only red
+    potion around here.
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!114 &431698464
 MonoBehaviour:
@@ -15306,7 +15299,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: Inside this book is a crescent moon sculpture'
+  message: There is a crescent moon sculpture inside this book.
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!114 &444114214
 MonoBehaviour:
@@ -16066,7 +16059,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: This could be useful for some cooking if I had some water. '
+  message: This could be useful for some cooking if I had some water.
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!114 &465565821
 MonoBehaviour:
@@ -16534,7 +16527,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: It''s a wolf''s head.'
+  message: It's a wolf's head.
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!114 &486071828
 MonoBehaviour:
@@ -23974,8 +23967,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: It''s a vial of some sort, the cork on the vial reminds me
-    of the sun. It looks empty though'
+  message: It's a vial of some sort, the cork on the vial reminds me of the sun. It
+    looks empty though.
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1 &641869513
 GameObject:
@@ -24261,7 +24254,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: An red apple is hanging from the tree'
+  message: An red apple is hanging from the tree.
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1 &655716814
 GameObject:
@@ -26407,9 +26400,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: It''s not meant to melt gold..But maybe it could work?
-
-'
+  message: It's not meant to melt gold..But maybe it could work?
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1 &721850166
 GameObject:
@@ -26975,7 +26966,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: I can use the broomstick to knock it down!'
+  message: I can use the broomstick to knock it down!
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1 &739453169
 GameObject:
@@ -27518,7 +27509,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'WIZARD: Looks like you created the staff! Well done!'
+  message: Looks like you created the staff! Well done!
   textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
 --- !u!1 &780958084
 GameObject:
@@ -29874,8 +29865,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 2
-  message: 'Now the quest ahead will be long and difficult! You will need to find
-    and collect four main ingredients for my potion. '
+  message: Now the quest ahead will be long and difficult! You will need to find and
+    collect four main ingredients for my potion.
   textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
 --- !u!114 &859235809
 MonoBehaviour:
@@ -29889,8 +29880,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 1
-  message: 'Apprentice: Are you saying you made me run around the whole tower to create
-    your beard oil?!'
+  message: Are you saying you made me run around the whole tower to create your beard
+    oil?!
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1 &860160878
 GameObject:
@@ -31215,8 +31206,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: It''s one of the missing pieces from the globe in the living
-    room...'
+  message: It's one of the missing pieces from the globe in the living room...
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!114 &919497798
 MonoBehaviour:
@@ -33894,8 +33884,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: The sun vial is empty, I should find a stong source of sunlight
-    to fill it up. '
+  message: The sun vial is empty, I should find a stong source of sunlight to fill
+    it up.
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!114 &1014470577
 MonoBehaviour:
@@ -36562,8 +36552,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: I found a gold coin in the basement, Let''s try it on the
-    Gumballmachine'
+  message: I found a gold coin in the basement, Let's try it on the Gumballmachine
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!114 &1138020690
 MonoBehaviour:
@@ -36591,10 +36580,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: What a pleasantly plump bird! I wonder if it will let me pet
-    it...
-
-'
+  message: What a pleasantly plump bird! I wonder if it will let me pet it...
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1 &1145257350
 GameObject:
@@ -37096,8 +37082,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: Through the telescope lens the consentration of sunshine is
-    the strongest. I should refill the vial through it'
+  message: Through the telescope lens the consentration of sunshine is the strongest.
+    I should refill the vial through it
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1 &1168952727
 GameObject:
@@ -37525,7 +37511,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: It''s a box with soil in it...
+  message: 'It''s a box with soil in it.
 
 '
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
@@ -38559,7 +38545,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: "Apprentice: A tree grew from the seeds i planted earlier. \n"
+  message: "A tree grew from the seeds i planted earlier. \n"
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!114 &1227561829
 MonoBehaviour:
@@ -38573,8 +38559,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'WIZARD: You''re back, and you have my beard oil potion! Finally my beard
-    will look as good as new, shiny and soft.'
+  message: You're back, and you have my beard oil potion! Finally my beard will look
+    as good as new, shiny and soft.
   textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
 --- !u!1 &1229194913
 GameObject:
@@ -39887,7 +39873,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: It reminds me of the moon...but it seems incomplete...'
+  message: It reminds me of the moon...but it seems incomplete...
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!4 &1275433052
 Transform:
@@ -41819,7 +41805,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: This looks useful...I''ll just take it'
+  message: This looks useful. I'll just take it.
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1 &1393684658
 GameObject:
@@ -42845,7 +42831,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: It''s a bookcase. No doubt filled with magic spells.'
+  message: It's a bookcase. No doubt filled with magic spells.
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1 &1412152766
 GameObject:
@@ -43764,7 +43750,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: Its a wooden broomstick.'
+  message: Its a wooden broomstick.
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!114 &1473620799
 MonoBehaviour:
@@ -44025,7 +44011,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'WIZARD: Oh, You''re back.'
+  message: Oh, You're back.
   textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
 --- !u!1 &1484755962
 GameObject:
@@ -44663,7 +44649,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: I fixed it!'
+  message: I fixed it!
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1 &1502910563
 GameObject:
@@ -44919,7 +44905,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: A wax melter...'
+  message: A wax melter...
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!114 &1513122171
 MonoBehaviour:
@@ -44933,7 +44919,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: It''s an empty teabag...'
+  message: It's an empty teabag...
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1 &1514015299
 GameObject:
@@ -47505,7 +47491,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 1
-  message: 'It looks complete now. '
+  message: It looks complete now.
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1 &1638733430
 GameObject:
@@ -47874,7 +47860,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'WIZARD: There you are my apprentice! I''ve been looking all over for you!'
+  message: There you are my apprentice! I've been looking all over for you!
   textColor: {r: 0.735985, g: 0.6537469, b: 0.7830189, a: 1}
 --- !u!1 &1652608323
 GameObject:
@@ -47964,10 +47950,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: The wizard has quite the sweet tooth! Look at all those delicious
-    sweeties and a mesmerizing.... gumball? If only I had a coin...
-
-'
+  message: The wizard has quite the sweet tooth! Look at all those delicious sweeties
+    and a mesmerizing.... gumball? If only I had a coin...
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1 &1653697769
 GameObject:
@@ -48247,7 +48231,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'WIZARD: Don''t you have something important to do?'
+  message: Don't you have something important to do?
   textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
 --- !u!1 &1670220341
 GameObject:
@@ -50543,10 +50527,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Here, take this list with all the ingredients I need you to get me for
+  message: Here, take this list with all the ingredients I need you to get me for
     my potion!
-
-'
   textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
 --- !u!114 &1771323779
 MonoBehaviour:
@@ -57029,7 +57011,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: Oh. It''s just a yellow jar of honey.'
+  message: Oh. It's just a yellow jar of honey.
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!114 &1857609949
 MonoBehaviour:
@@ -57043,7 +57025,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: It looks like the continent Australia
+  message: 'It looks like the continent Australia
 
 '
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
@@ -58244,7 +58226,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 1
-  message: Too bad I can't reach it though.
+  message: Too bad I can't reach it though. Maybe if I had a stick.
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1 &1915453542
 GameObject:
@@ -58818,7 +58800,7 @@ MonoBehaviour:
   order: 1
   message: "Now the staff you\u2019ve created possess the ability to make it day and
     night in an instant, this will help you find things that might be lost in the
-    shadows..\r\n"
+    shadows..\r"
   textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
 --- !u!1 &1936332524
 GameObject:
@@ -66693,7 +66675,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: This kind of reminds me of a scarecrow...it''s quite scary'
+  message: This kind of reminds me of a scarecrow...it's quite scary
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!114 &2094966055
 MonoBehaviour:
@@ -66707,9 +66689,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: An empty kettle, used for cooking.
-
-'
+  message: An empty kettle, used for cooking.
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!114 &2097524904
 MonoBehaviour:
@@ -67097,7 +67077,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: "Phases of the moon"'
+  message: '"Phases of the moon"'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1 &2124711371
 GameObject:

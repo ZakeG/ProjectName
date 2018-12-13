@@ -166,8 +166,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: It''s raining into this well...but where is the rain coming
-    from?'
+  message: It's raining into this well...but where is the rain coming from?
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!114 &21665823
 MonoBehaviour:
@@ -5521,8 +5520,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: "Apprentice: I suppose it\u2019s true what they say- one person's trash
-    is another person's treasure!"
+  message: "I suppose it\u2019s true what they say- one person's trash is another
+    person's treasure!"
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1001 &101436196
 Prefab:
@@ -10396,7 +10395,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: The fire is out I can now reach in.'
+  message: The fire is out I can now reach in.
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1 &400390711
 GameObject:
@@ -13938,9 +13937,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 1
-  message: 'placing the crytstals in the door worked! the door unlocked.
-
-'
+  message: placing the crytstals in the door worked! the door unlocked.
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!114 &636283283
 MonoBehaviour:
@@ -13954,7 +13951,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: All the crystals fit into the slots on the door. '
+  message: 'All the crystals fit into the slots on the door. '
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1 &636630156
 GameObject:
@@ -22614,8 +22611,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: There''s something inside the cage on this shelf..I wonder
-    what he did to end up there. '
+  message: There's something inside the cage on this shelf..I wonder what he did to
+    end up there.
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1 &962628310
 GameObject:
@@ -25626,8 +25623,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: There''s something inside the fire but it''s to hot to get
-    it out...'
+  message: There's something inside the fire but it's to hot to get it out...
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!114 &1140953868
 MonoBehaviour:
@@ -27783,7 +27779,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: This torch is unlit'
+  message: This torch is unlit
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1001 &1280631444
 Prefab:
@@ -28583,10 +28579,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: Looks like the door to the towers dungeon! I don''t remember
-    ever being here before, It seems to be locked.
-
-'
+  message: Looks like the door to the towers dungeon! I don't remember ever being
+    here before, It seems to be locked.
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1 &1355785654
 GameObject:
@@ -50831,7 +50825,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: What an interesting chest...I wonder what treasures it holds'
+  message: What an interesting chest...I wonder what treasures it holds.
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1001 &1644606023
 Prefab:
@@ -50916,7 +50910,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: My kettle is now filled with water'
+  message: My kettle is now filled with water
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!114 &1658854334
 MonoBehaviour:
@@ -59245,7 +59239,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: This torch could be used for carrying fire'
+  message: This torch could be used for carrying fire
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1001 &1921119000
 Prefab:
@@ -60651,7 +60645,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: This door is locked...
+  message: 'This door is locked...
 
 '
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}

@@ -1200,7 +1200,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'CAT: Not so fast! In exchange for my unique collar'
+  message: Not so fast! In exchange for my unique collar
   textColor: {r: 1, g: 0.023529412, b: 0.023529412, a: 1}
 --- !u!1001 &118034373
 Prefab:
@@ -2449,7 +2449,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'CAT: Oh you figured out the answer...how clever...'
+  message: Oh you figured out the answer...how clever...
   textColor: {r: 1, g: 0.023529412, b: 0.023529412, a: 1}
 --- !u!1 &273638821
 GameObject:
@@ -3554,7 +3554,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: It''s a juicy slice of watermelon
+  message: 'It''s a juicy slice of watermelon
 
 '
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
@@ -10179,7 +10179,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 1
-  message: "Theres more gold in there than a pirate sees in a lifetime!\r\n"
+  message: "Theres more gold in there than a pirate sees in a lifetime!\r"
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!114 &468200554
 MonoBehaviour:
@@ -10193,7 +10193,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'CAT: Try thinking outside the grey box...'
+  message: Try thinking outside the grey box...
   textColor: {r: 1, g: 0.023529412, b: 0.023529412, a: 1}
 --- !u!1001 &471690430
 Prefab:
@@ -15528,9 +15528,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: Theres something blocking the door...
-
-'
+  message: Theres something blocking the door...
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1001 &533650516
 Prefab:
@@ -16149,7 +16147,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: A cell full of bones,'
+  message: A cell full of bones,
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1001 &590455339
 Prefab:
@@ -16684,8 +16682,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: "Apprentice: Oh right! maybe the lockpick could be useful here. Success!
-    Lets take a look at what\u2019s inside\r\n"
+  message: "Oh right! maybe the lockpick could be useful here. Success! Lets take
+    a look at what\u2019s inside\r."
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1001 &600982858
 Prefab:
@@ -23424,7 +23422,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: The cell door is locked'
+  message: The cell door is locked
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1001 &709354875
 Prefab:
@@ -38076,7 +38074,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 2
-  message: 'Apprentice: I didn''t steal anything? What are you talking about?!'
+  message: I didn't steal anything? What are you talking about?!
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!114 &1097042131
 MonoBehaviour:
@@ -38090,7 +38088,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'GHOSTY: Boooo..You shall not pass!'
+  message: Boooo..You shall not pass!
   textColor: {r: 1, g: 0.023529412, b: 0.023529412, a: 1}
 --- !u!114 &1098231643
 MonoBehaviour:
@@ -46800,7 +46798,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 4
-  message: 'Apprentice: Ehm.. '
+  message: 'Ehm.. '
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1001 &1338878532
 Prefab:
@@ -52961,7 +52959,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'CAT: Meow Meow'
+  message: Meow Meow
   textColor: {r: 1, g: 0.023529412, b: 0.023529412, a: 1}
 --- !u!1001 &1470575946
 Prefab:
@@ -53371,7 +53369,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'GHOSTY: My precious! I knew you''d taken it! Boooooo...'
+  message: My precious! I knew you'd taken it! Boooooo...
   textColor: {r: 1, g: 0.023529412, b: 0.023529412, a: 1}
 --- !u!1001 &1485910526
 Prefab:
@@ -54161,7 +54159,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: It looks like a juicy slice of watermelon....'
+  message: It looks like a juicy slice of watermelon....
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1001 &1570092824
 Prefab:
@@ -56037,7 +56035,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: "Apprentice: A cell full of treasures...\r\n"
+  message: "A cell full of treasures...\r"
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!114 &1718436999
 MonoBehaviour:
@@ -56299,7 +56297,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'GHOSTY: You thief!'
+  message: You thief!
   textColor: {r: 1, g: 0.023529412, b: 0.023529412, a: 1}
 --- !u!4 &1765742687 stripped
 Transform:
@@ -56549,7 +56547,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: "Apprentice: This dragon looks like it's passed its expiration date\u2026"
+  message: "This dragon looks like it's passed its expiration date\u2026"
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1001 &1780142635
 Prefab:
@@ -56845,7 +56843,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 1
-  message: "Looks like the dragon had one more ride left in it...lucky doll...\r\n"
+  message: "Looks like the dragon had one more ride left in it...lucky doll...\r"
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!114 &1820983007
 MonoBehaviour:
@@ -57010,7 +57008,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 1
-  message: 'Apprentice: ....'
+  message: '....'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1001 &1868249528
 Prefab:
@@ -57106,7 +57104,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: 'Apprentice: There''s something behind these planks...'
+  message: There's something behind these planks...
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1001 &1872707033
 Prefab:
@@ -59408,7 +59406,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 5
-  message: 'CAT: I dont have all day! Come back to me when you''ve figured it out!'
+  message: I dont have all day! Come back to me when you've figured it out!
   textColor: {r: 1, g: 0.023529412, b: 0.023529412, a: 1}
 --- !u!1001 &1971053413
 Prefab:

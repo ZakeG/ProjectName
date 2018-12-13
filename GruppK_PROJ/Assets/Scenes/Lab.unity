@@ -8240,6 +8240,20 @@ MonoBehaviour:
   - {fileID: 1285457678}
   - {fileID: 671405318}
   reactionCollection: {fileID: 1357991026}
+--- !u!114 &165373261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 1
+  message: I don't need it right now.
+  textColor: {r: 1, g: 0.8941177, b: 0, a: 1}
 --- !u!1001 &165796967
 Prefab:
   m_ObjectHideFlags: 0
@@ -9122,6 +9136,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   reactions:
   - {fileID: 230997313}
+  - {fileID: 1126334856}
 --- !u!1 &193640788
 GameObject:
   m_ObjectHideFlags: 0
@@ -12957,7 +12972,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: A sack with three holes in it...it kinda looks like a mask of some sorts?
+  message: A sack with three holes in it... it looks like the head of a scarecrow.
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1 &347461205
 GameObject:
@@ -13575,7 +13590,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: reactions.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 11484708, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: conditionCollections.Array.size
@@ -13693,6 +13708,10 @@ Prefab:
       propertyPath: conditionCollections.Array.data[0]
       value: 
       objectReference: {fileID: 1816798603}
+    - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
+      propertyPath: reactions.Array.data[1]
+      value: 
+      objectReference: {fileID: 669680717}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
   m_IsPrefabAsset: 0
@@ -15597,7 +15616,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: reactions.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 11484708, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: conditionCollections.Array.size
@@ -15698,7 +15717,7 @@ Prefab:
     - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: reactions.Array.data[1]
       value: 
-      objectReference: {fileID: 270823354}
+      objectReference: {fileID: 1298378626}
     - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: reactions.Array.data[2]
       value: 
@@ -16527,7 +16546,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: It's a wolf's head.
+  message: It's a wolf's head. With a broken moonsculpture on it's head!f
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!114 &486071828
 MonoBehaviour:
@@ -24498,6 +24517,20 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 660716593}
   m_Mesh: {fileID: 4300002, guid: f68e26733f39a5c42b1f9cec45827f07, type: 3}
+--- !u!114 &669680717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 1
+  message: I have dont need it right now, though.
+  textColor: {r: 1, g: 0.8941177, b: 0, a: 1}
 --- !u!114 &671405318
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24512,6 +24545,20 @@ MonoBehaviour:
   description: TeaBagAquired
   satisfied: 0
   hash: -1129622689
+--- !u!114 &673039095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 1
+  message: I should leave it alone, I have no use for it right now.
+  textColor: {r: 1, g: 0.8941177, b: 0, a: 1}
 --- !u!114 &673895881
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26063,7 +26110,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: reactions.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 11484708, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: conditionCollections.Array.size
@@ -26185,6 +26232,10 @@ Prefab:
       propertyPath: reactions.Array.data[0]
       value: 
       objectReference: {fileID: 31966803}
+    - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
+      propertyPath: reactions.Array.data[1]
+      value: 
+      objectReference: {fileID: 673039095}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
   m_IsPrefabAsset: 0
@@ -33701,7 +33752,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: reactions.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 11484708, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: conditionCollections.Array.size
@@ -33782,7 +33833,7 @@ Prefab:
     - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: reactions.Array.data[1]
       value: 
-      objectReference: {fileID: 1328606830}
+      objectReference: {fileID: 2084280707}
     - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: reactions.Array.data[2]
       value: 
@@ -34570,7 +34621,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: reactions.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 11484708, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: conditionCollections.Array.size
@@ -34667,7 +34718,7 @@ Prefab:
     - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: reactions.Array.data[1]
       value: 
-      objectReference: {fileID: 1659231672}
+      objectReference: {fileID: 1969640608}
     - target: {fileID: 11485606, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -36257,6 +36308,20 @@ Transform:
   m_Father: {fileID: 339063940}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 167.76701, z: 90.00001}
+--- !u!114 &1126334856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 1
+  message: I don't need it right now.
+  textColor: {r: 1, g: 0.8941177, b: 0, a: 1}
 --- !u!1 &1130976820
 GameObject:
   m_ObjectHideFlags: 0
@@ -36582,6 +36647,20 @@ MonoBehaviour:
   order: 0
   message: What a pleasantly plump bird! I wonder if it will let me pet it...
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
+--- !u!114 &1142872879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 1
+  message: I have no use for it right now.
+  textColor: {r: 1, g: 0.8941177, b: 0, a: 1}
 --- !u!1 &1145257350
 GameObject:
   m_ObjectHideFlags: 0
@@ -37312,7 +37391,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: reactions.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 11484708, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: conditionCollections.Array.size
@@ -37434,6 +37513,10 @@ Prefab:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
+      propertyPath: reactions.Array.data[1]
+      value: 
+      objectReference: {fileID: 1188336794}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
   m_IsPrefabAsset: 0
@@ -37515,6 +37598,20 @@ MonoBehaviour:
 
 '
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
+--- !u!114 &1188336794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 1
+  message: I don't need it right now.
+  textColor: {r: 1, g: 0.8941177, b: 0, a: 1}
 --- !u!1001 &1192637323
 Prefab:
   m_ObjectHideFlags: 0
@@ -39020,6 +39117,20 @@ MonoBehaviour:
   - {fileID: 254708821}
   - {fileID: 2134940261}
   reactionCollection: {fileID: 1393684660}
+--- !u!114 &1250712135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 1
+  message: Even if i needed it right now, which I don't, I can't reach it.
+  textColor: {r: 1, g: 0.8941177, b: 0, a: 1}
 --- !u!1001 &1252128939
 Prefab:
   m_ObjectHideFlags: 0
@@ -39873,7 +39984,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: It reminds me of the moon...but it seems incomplete...
+  message: It reminds me of the moon... but it seems incomplete...
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!4 &1275433052
 Transform:
@@ -40410,6 +40521,20 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1294568935}
   m_Mesh: {fileID: 4300000, guid: ed016b4aed14a8f40963218f58dbf988, type: 3}
+--- !u!114 &1298378626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 1
+  message: I don't need a sculpture right now though.
+  textColor: {r: 1, g: 0.8941177, b: 0, a: 1}
 --- !u!1001 &1305390918
 Prefab:
   m_ObjectHideFlags: 0
@@ -41898,7 +42023,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: reactions.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 11484708, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: conditionCollections.Array.size
@@ -41979,7 +42104,7 @@ Prefab:
     - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: reactions.Array.data[1]
       value: 
-      objectReference: {fileID: 1328606830}
+      objectReference: {fileID: 165373261}
     - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: reactions.Array.data[2]
       value: 
@@ -42111,7 +42236,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: reactions.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 11484708, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: conditionCollections.Array.size
@@ -42192,7 +42317,7 @@ Prefab:
     - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: reactions.Array.data[1]
       value: 
-      objectReference: {fileID: 1328606830}
+      objectReference: {fileID: 1838762157}
     - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: reactions.Array.data[2]
       value: 
@@ -46805,7 +46930,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: reactions.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 11484708, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: conditionCollections.Array.size
@@ -46886,7 +47011,7 @@ Prefab:
     - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: reactions.Array.data[1]
       value: 
-      objectReference: {fileID: 2032888915}
+      objectReference: {fileID: 1890979942}
     - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: reactions.Array.data[2]
       value: 
@@ -48048,20 +48173,6 @@ MonoBehaviour:
   description: WizardFeatherStartDialouge
   satisfied: 1
   hash: -2085163072
---- !u!114 &1659231672
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  order: 0
-  message: 
-  textColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1661311992
 GameObject:
   m_ObjectHideFlags: 0
@@ -48690,7 +48801,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: reactions.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 11484708, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: conditionCollections.Array.size
@@ -48820,6 +48931,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
+      propertyPath: reactions.Array.data[1]
+      value: 
+      objectReference: {fileID: 1142872879}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
   m_IsPrefabAsset: 0
@@ -56795,6 +56910,20 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1834768238}
   m_Mesh: {fileID: 4300002, guid: f68e26733f39a5c42b1f9cec45827f07, type: 3}
+--- !u!114 &1838762157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 1
+  message: I have no use for this right now.
+  textColor: {r: 1, g: 0.8941177, b: 0, a: 1}
 --- !u!114 &1843506199
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57642,6 +57771,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   order: 0
   item: {fileID: 11400000, guid: 205523f2eed48c245a0946e1a8a21492, type: 2}
+--- !u!114 &1890979942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 1
+  message: I don't need it right now.
+  textColor: {r: 1, g: 0.8941177, b: 0, a: 1}
 --- !u!1 &1895367985
 GameObject:
   m_ObjectHideFlags: 0
@@ -59525,6 +59668,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: a2a29b740fd0c494e85790327f935fe3,
     type: 3}
   m_PrefabInternal: {fileID: 1961481158}
+--- !u!114 &1969640608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 1
+  message: I have no use for a scary mask right now.
+  textColor: {r: 1, g: 0.8941177, b: 0, a: 1}
 --- !u!1 &1970479816
 GameObject:
   m_ObjectHideFlags: 0
@@ -66395,6 +66552,20 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2083964735}
   m_Mesh: {fileID: 4300002, guid: f68e26733f39a5c42b1f9cec45827f07, type: 3}
+--- !u!114 &2084280707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 1
+  message: I don't need it right now.
+  textColor: {r: 1, g: 0.8941177, b: 0, a: 1}
 --- !u!1 &2084551797
 GameObject:
   m_ObjectHideFlags: 0
@@ -66675,7 +66846,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: This kind of reminds me of a scarecrow...it's quite scary
+  message: This kind of reminds me of a scarecrow... it's quite scary!
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!114 &2094966055
 MonoBehaviour:
@@ -67763,7 +67934,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: reactions.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 11484708, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: conditionCollections.Array.size
@@ -67881,6 +68052,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: -17.668001
       objectReference: {fileID: 0}
+    - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
+      propertyPath: reactions.Array.data[1]
+      value: 
+      objectReference: {fileID: 1250712135}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
   m_IsPrefabAsset: 0

@@ -15,6 +15,7 @@ public class PlayerMovement : MonoBehaviour
 
     [SerializeField]
     private bool holdForReacion = false;
+    private bool cursorSwitch = false;
     [SerializeField]
     private Condition readingQuestlogCondition;
     [SerializeField]
@@ -138,17 +139,21 @@ public class PlayerMovement : MonoBehaviour
 
     public void PauseUnpauseReaction(bool mode)
     {
-        if (mode == false)
-        {
-
-        }
-            holdForReacion = mode;
-            playerIsInteracting.satisfied = mode;
+        holdForReacion = mode;
+    }
+    public void PauseUnpauseCursorSwitch(bool mode)
+    {
+        cursorSwitch = mode;
     }
 
     public bool GetInteractionBool()
     {
         return holdForReacion;
+    }
+
+    public bool GetCursorSwitchBool()
+    {
+        return cursorSwitch;
     }
 
 }

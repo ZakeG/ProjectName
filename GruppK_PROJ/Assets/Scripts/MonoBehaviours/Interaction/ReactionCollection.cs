@@ -23,11 +23,7 @@ public class ReactionCollection : MonoBehaviour
     private TextManager textManager;
     private PlayerMovement playerMovementScript;
     private AudioSource audioSource;
-    private PointerContainer[] pointerContainerList;
-    private PointerContainer pointerContainer;
     private Condition[] tempConditionInitList;
-    private CursorMode cursorMode = CursorMode.Auto;
-    private Vector2 hotSpot = Vector2.zero;
     private Condition playerisInteracting;
     private DelayedReaction interactableOffReaction;
 
@@ -38,14 +34,6 @@ public class ReactionCollection : MonoBehaviour
         playerMovementScript = GameObject.Find("Player").GetComponent<PlayerMovement>();
         textManager = GameObject.Find("MessageCanvas").GetComponent<TextManager>();
         clicksNeeded = 0;
-        pointerContainerList = Resources.FindObjectsOfTypeAll<PointerContainer>();
-        foreach (PointerContainer PC in pointerContainerList)
-        {
-            if (PC.name == "Pointer_Container")
-            {
-                pointerContainer = PC;
-            }
-        }
         tempConditionInitList = Resources.FindObjectsOfTypeAll<Condition>();
         foreach (Condition t in tempConditionInitList)
         {
@@ -103,22 +91,20 @@ public class ReactionCollection : MonoBehaviour
         {
             if (Input.GetButtonDown("Fire1"))
             {
- /*               if (clicksNeeded == 0)
-                {
-                    ReactionsAlmostFinished();
-                    ReactionsFinished();
-                }*/
                 reactionOrderNumber++;
                 if (reactionOrderNumber < clicksNeeded)
                 {
+                    Debug.Log("RunNextReactions() run");
                     RunNextReactions();
                 }
                 else if(reactionOrderNumber == clicksNeeded)
                 {
+                    Debug.Log("ReactionsAlmostFinished() run");
                     ReactionsAlmostFinished();
                 }
                 else if (reactionOrderNumber > clicksNeeded)
                 {
+                    Debug.Log("ReactionsFinished() run");
                     ReactionsFinished();
                 }
 
@@ -169,8 +155,8 @@ public class ReactionCollection : MonoBehaviour
     private void StartReactions()
     {
         textManager.ShowTextArea();
-//        Cursor.SetCursor(pointerContainer.interacting, hotSpot, cursorMode);
         playerMovementScript.PauseUnpauseReaction(true);
+        playerMovementScript.PauseUnpauseCursorSwitch(true);
         reactionOrderNumber = 0;
         RunAllImmidiateReactions();
         RunNextReactions();
@@ -181,14 +167,15 @@ public class ReactionCollection : MonoBehaviour
         textManager.ClearText();
         textManager.HideTextArea();
         audioSource.Stop();
-//        Cursor.SetCursor(pointerContainer.feet, hotSpot, cursorMode); 
+        playerisInteracting.satisfied = false;
+        playerMovementScript.PauseUnpauseCursorSwitch(false);
+
     }
 
     private void ReactionsFinished()
     {
-        playerisInteracting.satisfied = false;
-        reactionsStarted = false;
         playerMovementScript.PauseUnpauseReaction(false);
+        reactionsStarted = false;
         if (interactableOffReaction != null)
         {
             interactableOffReaction.React(this);

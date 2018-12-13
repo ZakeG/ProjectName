@@ -14,22 +14,23 @@ public class DynamicCursor : MonoBehaviour {
 
     public void Start()
     {
-        notSwitchedToInteracting = true;
+        notSwitchedToInteracting = false;
         Cursor.SetCursor(pc.feet, hotSpot, cursorMode);
         player = GameObject.Find("Player").GetComponent<PlayerMovement>();
     }
 
     private void Update()
     {
-        paused = player.GetInteractionBool();
+        paused = player.GetCursorSwitchBool();
 
         if (paused && notSwitchedToInteracting)
         {
             Cursor.SetCursor(pc.interacting, hotSpot, cursorMode);
             notSwitchedToInteracting = false;
         }
-        if (!paused)
+        if (!paused && !notSwitchedToInteracting)
         {
+            Cursor.SetCursor(pc.interacting, hotSpot, cursorMode);
             notSwitchedToInteracting = true;
         }
     }

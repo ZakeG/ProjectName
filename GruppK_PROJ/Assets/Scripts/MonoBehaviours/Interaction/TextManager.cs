@@ -33,7 +33,7 @@ public class TextManager : MonoBehaviour
             text.color = textColor;
             text.text = message;
         }
-        savedString = message;
+        savedString  = "<color=#FFFFFF70>" + message + "</color>";
     }
 
     public void ClearText()

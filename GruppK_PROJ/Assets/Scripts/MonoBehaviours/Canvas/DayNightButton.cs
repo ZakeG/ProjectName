@@ -10,6 +10,7 @@ public class DayNightButton : MonoBehaviour {
     public Condition currentState;
     public SceneController scene;
 
+    [SerializeField]
     private Image staffPicRefrence;
     private List<GameObject> DayObjectsFromScene = new List<GameObject>();
     private List<GameObject> NightObjectsFromScene = new List<GameObject>();
@@ -17,18 +18,27 @@ public class DayNightButton : MonoBehaviour {
     private StaffObjectContainer currentSceneLightContainer;
     private Color nightColor;
 
+    [SerializeField]
+    private GameObject arrow;
+    private bool arrowActive;
+
+    
     private void Start()
     {
+        arrowActive = true;
         nightColor = new Color(0/255, 208/255, 255/255);
         currentState.satisfied = true;
-        staffPicRefrence = gameObject.GetComponent<Image>();
-        scene = GameObject.Find("SceneController").GetComponent<SceneController>();
         scene.AfterSceneLoad += OnSceneTransition;
         HideButton();
     }
 
     public void OnClick()
     {
+        if (arrowActive && arrow != null)
+        {
+            arrow.SetActive(false);
+            arrowActive = false;
+        }
         ToggleLights();
     }
 

@@ -62,6 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\FailMessageHandler.cs" />
+    <Compile Include="Assets\OptionButton.cs" />
     <Compile Include="Assets\Scripts\MonoBehaviours\Camera\CameraControl.cs" />
     <Compile Include="Assets\Scripts\MonoBehaviours\Camera\CameraOptions.cs" />
     <Compile Include="Assets\Scripts\MonoBehaviours\Camera\DynamicCamera.cs" />

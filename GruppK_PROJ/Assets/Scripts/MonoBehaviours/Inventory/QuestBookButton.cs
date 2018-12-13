@@ -1,22 +1,20 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class QuestBookButton : MonoBehaviour {
 
     public GameObject book;
     public GameObject newIcon;
     public bool bookOpen;
-    public GameObject activeIconGameObject;
-    private SpriteRenderer activeIconSpriteRenderer;
+    private Image activeBorder;
     private SceneController sceneController;
-    private Color blackColor;
-    private Color yellowColor;
+    private Color originalColor;
 
     void Start () {
-        blackColor = new Color.black;
-        yellowColor = new Color.yellow;
-        activeIconSpriteRenderer = activeIconGameObject.GetComponent<SpriteRenderer>();
+        activeBorder = gameObject.GetComponent<Image>();
+        originalColor = activeBorder.color;
         bookOpen = true;
         sceneController = GameObject.Find("SceneController").GetComponent<SceneController>();
         sceneController.BeforeSceneUnload += OpenBook;
@@ -35,8 +33,7 @@ public class QuestBookButton : MonoBehaviour {
     }
     public void OpenBook()
     {
-        activeIconGameObject.SetActive(true);
-        activeIconSpriteRenderer.Color = yellowColor;
+        activeBorder.color = Color.yellow;
         newIcon.SetActive(false);
         bookOpen = true;
         book.SetActive(bookOpen);
@@ -44,8 +41,7 @@ public class QuestBookButton : MonoBehaviour {
 
     public void CloseBook()
     {
-        activeIconGameObject.SetActive(false);
-        activeIconSpriteRenderer.Color = blackColor;
+        activeBorder.color = originalColor;
         bookOpen = false;
         book.SetActive(bookOpen);
     }

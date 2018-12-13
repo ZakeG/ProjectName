@@ -2492,8 +2492,7 @@ MonoBehaviour:
   done: {fileID: 8300000, guid: 6ebedfdd52ec30b43bdcc131190b1aa2, type: 3}
   fail: {fileID: 8300000, guid: c48c3f3d71752f449a765956142f23c8, type: 3}
   audioSource: {fileID: 0}
-  failMessageCanvasBackground: {fileID: 0}
-  failText: {fileID: 0}
+  failMessageScript: {fileID: 0}
 --- !u!114 &114669563810201318
 MonoBehaviour:
   m_ObjectHideFlags: 1

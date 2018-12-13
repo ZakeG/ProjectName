@@ -32,7 +32,7 @@ public class ReactionCollection : MonoBehaviour
     private DelayedReaction interactableOffReaction;
 
 
-    private void Start ()
+    private void Awake ()
     {
         audioSource = GameObject.Find("VO").GetComponent<AudioSource>();
         playerMovementScript = GameObject.Find("Player").GetComponent<PlayerMovement>();
@@ -169,7 +169,7 @@ public class ReactionCollection : MonoBehaviour
     private void StartReactions()
     {
         textManager.ShowTextArea();
-        Cursor.SetCursor(pointerContainer.interacting, hotSpot, cursorMode);
+//        Cursor.SetCursor(pointerContainer.interacting, hotSpot, cursorMode);
         playerMovementScript.PauseUnpauseReaction(true);
         reactionOrderNumber = 0;
         RunAllImmidiateReactions();
@@ -181,7 +181,7 @@ public class ReactionCollection : MonoBehaviour
         textManager.ClearText();
         textManager.HideTextArea();
         audioSource.Stop();
-        Cursor.SetCursor(pointerContainer.feet, hotSpot, cursorMode); 
+//        Cursor.SetCursor(pointerContainer.feet, hotSpot, cursorMode); 
     }
 
     private void ReactionsFinished()

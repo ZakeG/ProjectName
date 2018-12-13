@@ -895,6 +895,11 @@ MonoBehaviour:
   speedDampTime: 0.1
   slowingSpeed: 0.175
   turnSpeedThreshold: 0.5
+  holdForReacion: 0
+  readingQuestlogCondition: {fileID: 114071588319308866, guid: fd02464d008c790478d9826aba7c7847,
+    type: 2}
+  playerIsInteracting: {fileID: 114837498404054592, guid: fd02464d008c790478d9826aba7c7847,
+    type: 2}
 --- !u!122 &122137507277754178
 Halo:
   m_ObjectHideFlags: 1

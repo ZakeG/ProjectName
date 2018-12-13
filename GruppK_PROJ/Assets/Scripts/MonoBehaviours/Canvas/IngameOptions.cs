@@ -11,12 +11,17 @@ public class IngameOptions : MonoBehaviour {
     public Text contrastText;
     public Text zoomText;
     public SceneController sc;
+    public GameObject UsabilityOptionsContainer;
+    public GameObject AreYouSureContainer;
     private ContrastEnhance contrastScript;
+
 
     private void Start()
     {
         sc.AfterSceneLoad += UpdateContrast;
         sc.AfterSceneLoad += UpdateZoom;
+        UsabilityOptionsContainer.SetActive(false);
+        AreYouSureContainer.SetActive(false);
         gameObject.SetActive(false);
     }
         
@@ -55,5 +60,8 @@ public class IngameOptions : MonoBehaviour {
             contrastText.text = "Off";
         }
     }
-
+    public void ExitGame()
+    {
+        Application.Quit();
+    }
 }

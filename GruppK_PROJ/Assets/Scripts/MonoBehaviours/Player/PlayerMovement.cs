@@ -15,11 +15,12 @@ public class PlayerMovement : MonoBehaviour
 
     [SerializeField]
     private bool holdForReacion = false;
-
+    [SerializeField]
+    private Condition readingQuestlogCondition;
+    [SerializeField]
+    private Condition playerIsInteracting;
     private Interactable currentInteractable;
     private Vector3 destinationPosition;
-    private Condition readingQuestlogCondition;
-    private Condition[] tempConditionInitList;
 
     private readonly int hashSpeedPara = Animator.StringToHash("Speed");
 
@@ -34,14 +35,6 @@ public class PlayerMovement : MonoBehaviour
     private void Start()
     {
         agent.updateRotation = false;
-        tempConditionInitList = Resources.FindObjectsOfTypeAll<Condition>();
-        foreach (Condition t in tempConditionInitList)
-        {
-            if (t.description == "PLAYERISREADING")
-            {
-                readingQuestlogCondition = t;
-            }
-        }
         string startingPositionName = "";
         playerSaveData.Load(startingPositionKey, ref startingPositionName);
         Transform startingPosition = StartingPosition.FindStartingPosition(startingPositionName);
@@ -150,6 +143,7 @@ public class PlayerMovement : MonoBehaviour
 
         }
             holdForReacion = mode;
+            playerIsInteracting.satisfied = mode;
     }
 
     public bool GetInteractionBool()

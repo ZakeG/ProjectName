@@ -14,6 +14,7 @@ public class ReactionCollectionEditor : EditorWithSubEditors<ReactionEditor, Rea
     private int selectedIndex;
 
 
+
     private const float dropAreaHeight = 50f;
     private const float controlSpacing = 5f;
     private const string reactionsPropName = "reactions";
@@ -27,6 +28,7 @@ public class ReactionCollectionEditor : EditorWithSubEditors<ReactionEditor, Rea
         reactionCollection = (ReactionCollection)target;
 
         reactionsProperty = serializedObject.FindProperty(reactionsPropName);
+
 
         CheckAndCreateSubEditors (reactionCollection.reactions);
 

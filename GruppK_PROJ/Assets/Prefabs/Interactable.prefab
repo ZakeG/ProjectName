@@ -182,5 +182,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4af565904d0e7014693ebba84614e2de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arrow: {fileID: 2800000, guid: 1afe97130e01c954e8aa88d385db3a32, type: 3}
-  hand: {fileID: 2800000, guid: 90fef6d9c5a837b49afc3cc319e40e83, type: 3}
+  pc: {fileID: 11400000, guid: 6a901d1d0a1f123438d00c589ad2f105, type: 2}

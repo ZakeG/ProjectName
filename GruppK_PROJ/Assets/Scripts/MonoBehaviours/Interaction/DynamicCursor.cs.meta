@@ -4,9 +4,9 @@ MonoImporter:
   externalObjects: {}
   serializedVersion: 2
   defaultReferences:
+  - pc: {fileID: 11400000, guid: 6a901d1d0a1f123438d00c589ad2f105, type: 2}
   - arrow: {instanceID: 0}
   - hand: {instanceID: 0}
-  - interacting: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

@@ -922,6 +922,34 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4,
     type: 2}
   m_PrefabInternal: {fileID: 42056836}
+--- !u!114 &43951196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: Moonpiece1PickedUp
+  satisfied: 0
+  hash: 1754484217
+--- !u!114 &46553219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 2
+  message: The first ingredient you'll need is a Phoenix feather,
+  textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
 --- !u!114 &46771951
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6747,6 +6775,20 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 93785963}
   m_Mesh: {fileID: 4300000, guid: f68e26733f39a5c42b1f9cec45827f07, type: 3}
+--- !u!114 &94110111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 0
+  message: There you are my apprentice! I've been looking all over for you!
+  textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
 --- !u!114 &95945459
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7070,6 +7112,20 @@ MonoBehaviour:
 
 '
   textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
+--- !u!114 &104897451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: BroomstickPickedUp
+  satisfied: 0
+  hash: -493304219
 --- !u!1 &106837503
 GameObject:
   m_ObjectHideFlags: 0
@@ -7258,6 +7314,20 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 128629968}
   m_Mesh: {fileID: 4300002, guid: f68e26733f39a5c42b1f9cec45827f07, type: 3}
+--- !u!114 &129044909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: EmptyTeabagAquired
+  satisfied: 0
+  hash: -1278575608
 --- !u!1 &129620614
 GameObject:
   m_ObjectHideFlags: 0
@@ -7400,6 +7470,54 @@ MonoBehaviour:
   description: BowlPickedUp
   satisfied: 1
   hash: 889592855
+--- !u!1 &131091279
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 131091280}
+  - component: {fileID: 131091281}
+  m_Layer: 0
+  m_Name: RepeatTextReactionStaffQuest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &131091280
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 131091279}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 801765462}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &131091281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 131091279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fc7ecfe98531f2429694b8c81a6748a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  reactions:
+  - {fileID: 94110111}
+  - {fileID: 1398076909}
+  - {fileID: 856156551}
+  - {fileID: 513149671}
+  - {fileID: 463057128}
+  - {fileID: 356430243}
+  - {fileID: 1423916158}
 --- !u!114 &133006023
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9801,6 +9919,20 @@ MonoBehaviour:
   gameObject: {fileID: 60091178}
   activeState: 1
   isAffectedByStaff: 0
+--- !u!114 &218824067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: WizardStartDialogue
+  satisfied: 1
+  hash: 467004734
 --- !u!114 &219955836
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11687,6 +11819,20 @@ Transform:
   m_Father: {fileID: 339063940}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &312580997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: HoneyJarPickedUp
+  satisfied: 0
+  hash: 1642796241
 --- !u!1 &314354106
 GameObject:
   m_ObjectHideFlags: 0
@@ -12862,6 +13008,51 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 347461205}
   m_Mesh: {fileID: 4300002, guid: f68e26733f39a5c42b1f9cec45827f07, type: 3}
+--- !u!1 &349190127
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 349190128}
+  - component: {fileID: 349190129}
+  m_Layer: 0
+  m_Name: RepeatTextReactionAmbrosiaTeaQuest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &349190128
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 349190127}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 801765462}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &349190129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 349190127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fc7ecfe98531f2429694b8c81a6748a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  reactions:
+  - {fileID: 1261634888}
+  - {fileID: 1581858337}
+  - {fileID: 554677995}
+  - {fileID: 447336400}
 --- !u!1001 &350625753
 Prefab:
   m_ObjectHideFlags: 0
@@ -13251,6 +13442,20 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 354693944}
   m_Script: {fileID: 11500000, guid: d85941078afdf3244b2a1ae50fea256c, type: 3}
+--- !u!114 &356430243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 5
+  message: Everything you need exists inside the lab.
+  textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
 --- !u!1 &357565930
 GameObject:
   m_ObjectHideFlags: 0
@@ -14950,6 +15155,22 @@ MonoBehaviour:
   order: 2
   audioSource: {fileID: 717335330}
   audioClip: {fileID: 8300000, guid: 6acef13e0cab7074bab9ea6777534e5c, type: 3}
+--- !u!114 &447336400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 3
+  message: and go collect the rest of the ingredients of the potion and then combine
+    them all together to make my potion. After doing this return to me and I shall
+    grant you wizardyness..
+  textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
 --- !u!1 &451798282
 GameObject:
   m_ObjectHideFlags: 0
@@ -15637,6 +15858,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   order: 1
   item: {fileID: 11400000, guid: d56b738d414441b40831ba4c7a2d2057, type: 2}
+--- !u!114 &463057128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 4
+  message: For the staff you will need to find items that represent Night and Day.
+  textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
 --- !u!114 &463135902
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15678,6 +15913,20 @@ MonoBehaviour:
   condition: {fileID: 114302539501123498, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}
   satisfied: 1
+--- !u!114 &469637530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: HasMask
+  satisfied: 0
+  hash: 1766527378
 --- !u!1001 &472009488
 Prefab:
   m_ObjectHideFlags: 0
@@ -15841,6 +16090,20 @@ Transform:
   m_Father: {fileID: 1695966293}
   m_RootOrder: 47
   m_LocalEulerAnglesHint: {x: 0, y: -131.558, z: 0}
+--- !u!114 &473897190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: AmbrosiapickedUp
+  satisfied: 0
+  hash: 947518370
 --- !u!1 &476692297
 GameObject:
   m_ObjectHideFlags: 0
@@ -16782,6 +17045,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   reactions:
   - {fileID: 227768401}
+--- !u!114 &513149671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 3
+  message: To help you along the way you should start by creating a Day-and-Night
+    staff.
+  textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
 --- !u!4 &515442051
 Transform:
   m_ObjectHideFlags: 0
@@ -17083,6 +17361,25 @@ MonoBehaviour:
   description: SunVialFilled
   satisfied: 0
   hash: 1051307442
+--- !u!114 &523273393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4900350095ceff24fbe8c1ac5f1e17c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: New condition collection
+  requiredConditions:
+  - {fileID: 2038695026}
+  - {fileID: 473897190}
+  - {fileID: 129044909}
+  - {fileID: 1425758015}
+  - {fileID: 1138020690}
+  reactionCollection: {fileID: 349190129}
 --- !u!1 &528813385
 GameObject:
   m_ObjectHideFlags: 0
@@ -17733,6 +18030,20 @@ MonoBehaviour:
   - {fileID: 680436373}
   - {fileID: 1658620240}
   reactionCollection: {fileID: 166555069}
+--- !u!114 &554677995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 2
+  message: Take the key and go make me some tea! The living room is downstairs.
+  textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
 --- !u!1 &554720379
 GameObject:
   m_ObjectHideFlags: 0
@@ -23846,6 +24157,20 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 655716814}
   m_Mesh: {fileID: 4300002, guid: f68e26733f39a5c42b1f9cec45827f07, type: 3}
+--- !u!114 &657747393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: MoonPickedUp
+  satisfied: 0
+  hash: 1562209020
 --- !u!1 &658269717
 GameObject:
   m_ObjectHideFlags: 0
@@ -26356,6 +26681,26 @@ MonoBehaviour:
   - {fileID: 1858918752}
   - {fileID: 1424845746}
   reactionCollection: {fileID: 2038055350}
+--- !u!114 &729019129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4900350095ceff24fbe8c1ac5f1e17c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: New condition collection
+  requiredConditions:
+  - {fileID: 218824067}
+  - {fileID: 104897451}
+  - {fileID: 43951196}
+  - {fileID: 919497798}
+  - {fileID: 1404768087}
+  - {fileID: 657747393}
+  reactionCollection: {fileID: 131091281}
 --- !u!114 &731015558
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27597,7 +27942,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11484708, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: conditionCollections.Array.size
-      value: 5
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalPosition.x
@@ -27739,6 +28084,18 @@ Prefab:
       propertyPath: reactions.Array.data[3]
       value: 
       objectReference: {fileID: 1938968175}
+    - target: {fileID: 11484708, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
+      propertyPath: conditionCollections.Array.data[5]
+      value: 
+      objectReference: {fileID: 729019129}
+    - target: {fileID: 11484708, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
+      propertyPath: conditionCollections.Array.data[6]
+      value: 
+      objectReference: {fileID: 2056006860}
+    - target: {fileID: 11484708, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
+      propertyPath: conditionCollections.Array.data[7]
+      value: 
+      objectReference: {fileID: 523273393}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
   m_IsPrefabAsset: 0
@@ -29323,6 +29680,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 852720755}
   m_Mesh: {fileID: 4300004, guid: ed016b4aed14a8f40963218f58dbf988, type: 3}
+--- !u!114 &856156551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 2
+  message: 'Now the quest ahead will be long and difficult! You will need to find
+    and collect four main ingredients for my potion. '
+  textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
 --- !u!114 &859235809
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30664,6 +31036,20 @@ MonoBehaviour:
   message: 'Apprentice: It''s one of the missing pieces from the globe in the living
     room...'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
+--- !u!114 &919497798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: Moonpiece2PickedUp
+  satisfied: 0
+  hash: 1360949564
 --- !u!114 &921315643
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31554,6 +31940,51 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 958126300}
   m_Mesh: {fileID: 4300002, guid: f68e26733f39a5c42b1f9cec45827f07, type: 3}
+--- !u!1 &962446508
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 962446509}
+  - component: {fileID: 962446510}
+  m_Layer: 0
+  m_Name: RepeatTextReactionFeatherQuest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &962446509
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 962446508}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 801765462}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &962446510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 962446508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fc7ecfe98531f2429694b8c81a6748a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  reactions:
+  - {fileID: 1771092886}
+  - {fileID: 1044344921}
+  - {fileID: 46553219}
+  - {fileID: 981379452}
 --- !u!1 &963524171
 GameObject:
   m_ObjectHideFlags: 0
@@ -31978,6 +32409,20 @@ MonoBehaviour:
   - {fileID: 1229536384}
   - {fileID: 1443940758}
   - {fileID: 1661644993}
+--- !u!114 &981379452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 3
+  message: return to me once you've found one.
+  textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
 --- !u!1 &985852579
 GameObject:
   m_ObjectHideFlags: 0
@@ -33840,6 +34285,20 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1042300047}
   m_Mesh: {fileID: 4300004, guid: c436bbbd92649134ca1eacfeb7a7049a, type: 3}
+--- !u!114 &1044344921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 1
+  message: Okay, I will help you get started on the first ingredient.
+  textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
 --- !u!114 &1047508511
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35924,6 +36383,20 @@ MonoBehaviour:
   message: 'Apprentice: I found a gold coin in the basement, Let''s try it on the
     Gumballmachine'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
+--- !u!114 &1138020690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: AmbrosiaTeaPotAquired
+  satisfied: 0
+  hash: -1395955485
 --- !u!114 &1138248795
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38646,6 +39119,21 @@ Halo:
     serializedVersion: 2
     rgba: 4286611584
   m_Size: 0.08
+--- !u!114 &1261634888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 0
+  message: I thought I told you earlier! The next ingredient I, the powerful mouse
+    wizard, needs is Ambrosia Tea!
+  textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
 --- !u!1 &1261860560
 GameObject:
   m_ObjectHideFlags: 0
@@ -40421,6 +40909,20 @@ MonoBehaviour:
   order: 1
   audioSource: {fileID: 717335330}
   audioClip: {fileID: 8300000, guid: 8e3c28191928abb409134946cd0f9013, type: 3}
+--- !u!114 &1341443118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: WizardFeatherStartDialouge
+  satisfied: 1
+  hash: -2085163072
 --- !u!1 &1347603214
 GameObject:
   m_ObjectHideFlags: 0
@@ -41413,6 +41915,21 @@ Transform:
   m_Father: {fileID: 339063940}
   m_RootOrder: 67
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1398076909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 1
+  message: The day has finally come! I will make you an official wizard!...All you
+    have to do is finish one tini tiny potion for me!
+  textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
 --- !u!1001 &1399639890
 Prefab:
   m_ObjectHideFlags: 0
@@ -41842,6 +42359,20 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1404022143}
   m_Mesh: {fileID: 4300000, guid: f68e26733f39a5c42b1f9cec45827f07, type: 3}
+--- !u!114 &1404768087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: SunVialPickedUp
+  satisfied: 0
+  hash: 1361490301
 --- !u!1 &1404978324
 GameObject:
   m_ObjectHideFlags: 0
@@ -42026,6 +42557,20 @@ Transform:
   m_Father: {fileID: 727256822}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1409642542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: RedVialPickedUp
+  satisfied: 0
+  hash: -1271910177
 --- !u!1 &1411631144
 GameObject:
   m_ObjectHideFlags: 0
@@ -42450,6 +42995,20 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1417444715}
   m_Mesh: {fileID: 4300000, guid: 429086a61925c6249b56fe28c383adf1, type: 3}
+--- !u!114 &1423916158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 6
+  message: What are you still doing here? Chop chop!
+  textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
 --- !u!114 &1424845746
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42464,6 +43023,20 @@ MonoBehaviour:
   description: SunVialPickedUp
   satisfied: 0
   hash: 1361490301
+--- !u!114 &1425758015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: TeapotPickedUp
+  satisfied: 0
+  hash: -1009543676
 --- !u!1 &1429496903
 GameObject:
   m_ObjectHideFlags: 0
@@ -45785,6 +46358,20 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1577190276}
   m_Mesh: {fileID: 4300002, guid: f68e26733f39a5c42b1f9cec45827f07, type: 3}
+--- !u!114 &1581858337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 1
+  message: I have a plant in the livingroom.
+  textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
 --- !u!114 &1590498648
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49757,6 +50344,23 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1770378708}
   m_Mesh: {fileID: 4300002, guid: f68e26733f39a5c42b1f9cec45827f07, type: 3}
+--- !u!114 &1771092886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 0
+  message: 'Here, take this list with all the ingredients I need you to get me for
+    my potion!
+
+'
+  textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
 --- !u!114 &1771323779
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64107,6 +64711,20 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2009330840}
   m_Mesh: {fileID: 4300008, guid: a438d9655f630ef4ebd130490f5a650e, type: 3}
+--- !u!114 &2009659090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: FeatherPickedUp
+  satisfied: 0
+  hash: 1064098526
 --- !u!114 &2010514591
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64628,6 +65246,20 @@ Transform:
   m_Father: {fileID: 1607824263}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2038695026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: AmbrosiaTeaQuestStart
+  satisfied: 1
+  hash: 1331757938
 --- !u!1001 &2042343417
 Prefab:
   m_ObjectHideFlags: 0
@@ -64834,6 +65466,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400004, guid: f8bcecc8ebe01de4d99a7a9a2a9739a8,
     type: 3}
   m_PrefabInternal: {fileID: 2055766328}
+--- !u!114 &2056006860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4900350095ceff24fbe8c1ac5f1e17c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: New condition collection
+  requiredConditions:
+  - {fileID: 1341443118}
+  - {fileID: 1409642542}
+  - {fileID: 312580997}
+  - {fileID: 469637530}
+  - {fileID: 2009659090}
+  reactionCollection: {fileID: 962446510}
 --- !u!114 &2057998017
 MonoBehaviour:
   m_ObjectHideFlags: 0

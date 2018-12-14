@@ -67,7 +67,6 @@ public class ItemCombinationHandler : MonoBehaviour {
             CombinationFail();
             audioSource.PlayOneShot(fail, 0.7F);
         }
-        DeselectAll();
     }
 
     public void OnInventorySlotClick(GameObject itemSlot)
@@ -124,6 +123,7 @@ public class ItemCombinationHandler : MonoBehaviour {
         {
             qlr.React(this);
         }
+        DeselectAll();
     }
     private void CombinationFail()
     {
@@ -139,20 +139,22 @@ public class ItemCombinationHandler : MonoBehaviour {
                       }
                       else
                       {
-                        Debug.Log(failReactionExist);
-                        failReactionExist = false;
+                          Debug.Log(failReactionExist);
+                          failReactionExist = false;
                           break;
                       }
                   }
                   if (failReactionExist)
                   {
                       StartCoroutine(failMessageScript.ShowFailMessage(FIC));
+                      break;
                   }
               }
               if (!failReactionExist)
               {
                  StartCoroutine(failMessageScript.ShowDefaultFailMessage());
               }
+        DeselectAll();
     }
 }
 

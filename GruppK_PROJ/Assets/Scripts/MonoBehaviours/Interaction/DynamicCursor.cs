@@ -30,7 +30,7 @@ public class DynamicCursor : MonoBehaviour {
         }
         if (!paused && !notSwitchedToInteracting)
         {
-            Cursor.SetCursor(pc.interacting, hotSpot, cursorMode);
+            Cursor.SetCursor(pc.feet, hotSpot, cursorMode);
             notSwitchedToInteracting = true;
         }
     }

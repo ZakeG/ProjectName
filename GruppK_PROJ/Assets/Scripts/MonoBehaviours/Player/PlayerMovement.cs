@@ -141,6 +141,7 @@ public class PlayerMovement : MonoBehaviour
     {
         holdForReacion = mode;
     }
+
     public void PauseUnpauseCursorSwitch(bool mode)
     {
         cursorSwitch = mode;

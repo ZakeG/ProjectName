@@ -72015,7 +72015,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: The basement door is locked
+  message: 'It''s the door to the basement, it''s locked. '
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1 &1537069925
 GameObject:

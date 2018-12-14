@@ -6828,7 +6828,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: There you are my apprentice! I've been looking all over for you!
+  message: 'Did you not listen to me the first time around? '
   textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
 --- !u!114 &95945459
 MonoBehaviour:
@@ -34620,7 +34620,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 1
-  message: Okay, I will help you get started on the first ingredient.
+  message: 'Have you forgotten what I told you about the first ingredient? '
   textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
 --- !u!114 &1047508511
 MonoBehaviour:
@@ -50802,8 +50802,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
-  message: Here, take this list with all the ingredients I need you to get me for
-    my potion!
+  message: 'I gave you a list of all the ingredients to my potion. It should be in
+    your questlog. '
   textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
 --- !u!114 &1771323779
 MonoBehaviour:

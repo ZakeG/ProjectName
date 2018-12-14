@@ -19,7 +19,8 @@ public class ItemCombination : ScriptableObject
         {
             foreach (string s in QLReactions)
             {
-                qlrTemp = new QuestLogReaction(s);
+                qlrTemp = ScriptableObject.CreateInstance("QuestLogReaction") as QuestLogReaction;
+                qlrTemp.ConstructionInit(s);
                 questLogReactionList.Add(qlrTemp);
             }
         }

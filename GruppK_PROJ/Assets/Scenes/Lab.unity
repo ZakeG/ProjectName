@@ -15196,6 +15196,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 4692fbc1a3759ea41a8c75dc054c5fa2, type: 2}
+    - target: {fileID: 100060, guid: 31bf7a2a5f6b8314a98853724504f6ed, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31bf7a2a5f6b8314a98853724504f6ed, type: 3}
   m_IsPrefabAsset: 0
@@ -16590,6 +16594,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: 'FEATHER: That bird over there is looking pleasantly plump! Maybe I could
     get one from the bird...
+
 
     ORANGE POTION: Phoenix feathers are a fiery orange shade, However I don''t think
     the wizard has an orange potion laying around here though...maybe I could mix
@@ -30647,8 +30652,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: 'FULL MOON: This piece will represent the night, when creating the staff.
 
+
     SUNSHINE: You must find a way to bottle up some sunshine, this will represent
     the day.
+
 
     STAFF: To have a staff would be good, I recommend one out of wood perhaps? '
 --- !u!1 &887398656
@@ -35123,10 +35130,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: "TEAPOT: I need a teapot to carry the tea in. \nAMBROSIA PLANT: I need
+  message: "TEAPOT: I need a teapot to carry the tea in. \n\nAMBROSIA PLANT: I need
     the ambrosia plant for the ambrosia tea, the wizard said he had a plant in the
-    living room. \nTEABAG: I should find a teabag to put the crushed up ambrosia plant
-    in, so it doesn't spill into the water."
+    living room. \n\nTEABAG: I should find a teabag to put the crushed up ambrosia
+    plant in, so it doesn't spill into the water."
 --- !u!1 &1083581951
 GameObject:
   m_ObjectHideFlags: 0

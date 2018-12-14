@@ -143,14 +143,6 @@ public class BookTextHandler : MonoBehaviour
                 }
             }
         }
-        if ((currentPageNr - 1) < 0)
-        {
-            HideLeftArrow();
-        }
-        else if ((currentPageNr + 1) > pages.Count)
-        {
-            HideRightArrow();
-        }
     }
     private void HideLeftArrow()
     {

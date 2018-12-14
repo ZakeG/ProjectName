@@ -6,7 +6,7 @@ public class QuestLogReaction : Reaction
     private BookTextHandler bookTextManager;
     private BookTextHandler[] tempList;
 
-    public QuestLogReaction(string m)
+    public void ConstructionInit(string m)
     {
         message = m;
         SpecificInit();

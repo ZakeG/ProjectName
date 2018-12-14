@@ -94,17 +94,17 @@ public class ReactionCollection : MonoBehaviour
                 reactionOrderNumber++;
                 if (reactionOrderNumber < clicksNeeded)
                 {
-                    Debug.Log("RunNextReactions() run");
+//                    Debug.Log("RunNextReactions() run");
                     RunNextReactions();
                 }
                 else if(reactionOrderNumber == clicksNeeded)
                 {
-                    Debug.Log("ReactionsAlmostFinished() run");
+//                    Debug.Log("ReactionsAlmostFinished() run");
                     ReactionsAlmostFinished();
                 }
                 else if (reactionOrderNumber > clicksNeeded)
                 {
-                    Debug.Log("ReactionsFinished() run");
+//                    Debug.Log("ReactionsFinished() run");
                     ReactionsFinished();
                 }
 

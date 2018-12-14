@@ -38798,10 +38798,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message: "TORCH: I could use a torch to carry the fire but most of the torches around
-    here are already lit. \nBONE: Well dragons are REALLY rare nowadays, it's not
-    like people just keep em in their dungeons...\nFIRE: There is plain old fire around
-    here but not dragon fire, maybe using something from the specimen on plain fire
-    will change it? "
+    here are already lit. \n\nBONE: Well dragons are REALLY rare nowadays, it's not
+    like people just keep em in their dungeons...\n\nFIRE: There is plain old fire
+    around here but not dragon fire, maybe using something from the specimen on plain
+    fire will change it? "
 --- !u!1001 &1123967994
 Prefab:
   m_ObjectHideFlags: 0
@@ -59784,10 +59784,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message: "I need to prove I solved the riddle by bringing the cat the answer to
-    the riddle; \r\n\"There was a green house. \r\nInside the green house there was
-    a white house. \r\nInside the white house there was a red house.\r\nInside the
-    red house there were lots of babies. What is it?\"\r\nHmm...whatever does this
-    mean?\r\""
+    the riddle; \r\n\n\"There was a green house. \r\nInside the green house there
+    was a white house. \r\nInside the white house there was a red house.\r\nInside
+    the red house there were lots of babies. What is it?\"\r\n\nHmm...whatever does
+    this mean?\r\""
 --- !u!1001 &1987307215
 Prefab:
   m_ObjectHideFlags: 0
@@ -62695,11 +62695,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: "The ghost mentioned a necklace being stored in a small chest, I wonder
+  message: The ghost mentioned a necklace being stored in a small chest, I wonder
     if it's the same small chest I have in my inventory? I still need to find the
-    key though\n\nThe Riddle:\nThere was a green house. \nInside the green house there
-    was a white house.\nInside the white house there was a red house.\nInside the
-    red house there were lots of babies. What is it? "
+    key though.
 --- !u!4 &2145310249 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: dd3ddf9b352277d45bb2499d1ee1f90b,

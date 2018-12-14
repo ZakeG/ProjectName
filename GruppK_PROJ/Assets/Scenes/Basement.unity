@@ -21226,8 +21226,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message: "FIRE CRYSTAL: Fire crystals glow extra bright when they rest inside a
-    fire. \nWATER CRYSTALl: Water crystals are often mistaken as pearls and rests
-    inside clams at the bottom of the ocean. \nEARTH CRYSTAL: Aren't actually the
+    fire. \n\nWATER CRYSTALl: Water crystals are often mistaken as pearls and rests
+    inside clams at the bottom of the ocean. \n\nEARTH CRYSTAL: Aren't actually the
     color of dirt but green. "
 --- !u!1001 &806274391
 Prefab:

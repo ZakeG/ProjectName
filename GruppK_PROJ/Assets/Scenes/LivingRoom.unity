@@ -12244,6 +12244,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 323774015}
+--- !u!114 &325568093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: GumballAquired
+  satisfied: 1
+  hash: -1084624778
 --- !u!1001 &338137994
 Prefab:
   m_ObjectHideFlags: 0
@@ -72578,6 +72592,7 @@ MonoBehaviour:
   requiredConditions:
   - {fileID: 469463002}
   - {fileID: 1495851830}
+  - {fileID: 325568093}
   reactionCollection: {fileID: 1126676405}
 --- !u!1 &1551549432
 GameObject:

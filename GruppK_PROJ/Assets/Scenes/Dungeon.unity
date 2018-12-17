@@ -15431,7 +15431,7 @@ Halo:
   m_Enabled: 1
   m_Color:
     serializedVersion: 2
-    rgba: 4278255360
+    rgba: 4286611584
   m_Size: 0.06
 --- !u!1001 &528625783
 Prefab:
@@ -16851,7 +16851,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 0.486
+      value: 0.624
       objectReference: {fileID: 0}
     - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalPosition.y
@@ -16939,7 +16939,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 491826, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -1.198
+      value: -1.75
       objectReference: {fileID: 0}
     - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: reactions.Array.data[0]
@@ -16947,7 +16947,7 @@ Prefab:
       objectReference: {fileID: 533500865}
     - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalScale.x
-      value: 0.3919389
+      value: 0.13348264
       objectReference: {fileID: 0}
     - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalScale.z
@@ -23672,7 +23672,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 0
+  order: 1000
   gameObject: {fileID: 1536191412}
   activeState: 0
   isAffectedByStaff: 0
@@ -25711,7 +25711,6 @@ MonoBehaviour:
   - {fileID: 1834006834}
   - {fileID: 2089215300}
   - {fileID: 989800265}
-  - {fileID: 1438528389}
 --- !u!114 &887287991
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30885,15 +30884,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 0.496
+      value: 0.234
       objectReference: {fileID: 0}
     - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.162
       objectReference: {fileID: 0}
     - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 1.663
+      value: 1.683
       objectReference: {fileID: 0}
     - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalRotation.x
@@ -30957,7 +30956,7 @@ Prefab:
       objectReference: {fileID: 210763421}
     - target: {fileID: 194222, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalScale.z
@@ -30969,11 +30968,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 491826, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -0.539
+      value: -0.501
       objectReference: {fileID: 0}
     - target: {fileID: 491826, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -1.472
+      value: -1.089
       objectReference: {fileID: 0}
     - target: {fileID: 491826, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalRotation.x
@@ -30998,6 +30997,10 @@ Prefab:
     - target: {fileID: 491826, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalPosition.z
       value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.7651316
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
@@ -37679,7 +37682,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 3
+  order: 1000
   gameObject: {fileID: 937239094}
   activeState: 0
   isAffectedByStaff: 1
@@ -38118,7 +38121,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 1
+  order: 1000
   gameObject: {fileID: 503293135}
   activeState: 0
   isAffectedByStaff: 0
@@ -38799,8 +38802,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message: "TORCH: I could use a torch to carry the fire but most of the torches around
-    here are already lit. \nBONE: Well dragons are REALLY rare nowadays, it's not
-    like people just keep 'em in their dungeons...\nFIRE: There is plain old fire
+    here are already lit. \n\nBONE: Well dragons are REALLY rare nowadays, it's not
+    like people just keep em in their dungeons...\n\nFIRE: There is plain old fire
     around here but not dragon fire, maybe using something from the specimen on plain
     fire will change it? "
 --- !u!1001 &1123967994
@@ -39073,7 +39076,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 1
+  order: 1000
   gameObject: {fileID: 337479888}
   activeState: 0
   isAffectedByStaff: 0
@@ -40238,7 +40241,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1220263878
 Transform:
   m_ObjectHideFlags: 0
@@ -45251,7 +45254,7 @@ Halo:
   m_Enabled: 1
   m_Color:
     serializedVersion: 2
-    rgba: 4278255360
+    rgba: 4286611584
   m_Size: 0.08
 --- !u!1001 &1248423594
 Prefab:
@@ -52492,18 +52495,6 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd3ddf9b352277d45bb2499d1ee1f90b, type: 3}
   m_IsPrefabAsset: 0
---- !u!114 &1438528389
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  message: You found a bone!
 --- !u!1001 &1440090357
 Prefab:
   m_ObjectHideFlags: 0
@@ -58978,7 +58969,7 @@ Halo:
   m_Enabled: 1
   m_Color:
     serializedVersion: 2
-    rgba: 4278255360
+    rgba: 4286611584
   m_Size: 0.02
 --- !u!1001 &1947628719
 Prefab:
@@ -59797,10 +59788,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message: "I need to prove I solved the riddle by bringing the cat the answer to
-    the riddle; \r\n\"There was a green house. \r\nInside the green house there was
-    a white house. \r\nInside the white house there was a red house.\r\nInside the
-    red house there were lots of babies. What is it?\"\r\nHmm...whatever does this
-    mean?\r\""
+    the riddle; \r\n\n\"There was a green house. \r\nInside the green house there
+    was a white house. \r\nInside the white house there was a red house.\r\nInside
+    the red house there were lots of babies. What is it?\"\r\n\nHmm...whatever does
+    this mean?\r\""
 --- !u!1001 &1987307215
 Prefab:
   m_ObjectHideFlags: 0
@@ -61171,7 +61162,7 @@ Halo:
   m_Enabled: 1
   m_Color:
     serializedVersion: 2
-    rgba: 4278255360
+    rgba: 4286611584
   m_Size: 0.06
 --- !u!1001 &2046662693
 Prefab:
@@ -61362,7 +61353,7 @@ Halo:
   m_Enabled: 1
   m_Color:
     serializedVersion: 2
-    rgba: 4278255360
+    rgba: 4286611584
   m_Size: 0.06
 --- !u!1 &2057102062
 GameObject:
@@ -62708,11 +62699,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: "The ghost mentioned a necklace being stored in a small chest, I wonder
+  message: The ghost mentioned a necklace being stored in a small chest, I wonder
     if it's the same small chest I have in my inventory? I still need to find the
-    key though\n\nThe Riddle:\nThere was a green house. \nInside the green house there
-    was a white house.\nInside the white house there was a red house.\nInside the
-    red house there were lots of babies. What is it? "
+    key though.
 --- !u!4 &2145310249 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: dd3ddf9b352277d45bb2499d1ee1f90b,

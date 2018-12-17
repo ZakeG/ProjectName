@@ -16,3 +16,5 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 691dd5c42ab4d5144b98ffa7950f2fcb, type: 2}
   result:
   - {fileID: 11400000, guid: 97157b220614519459e2a73bbdcdf855, type: 2}
+  QLReactions:
+  - You created the phoenix feather!

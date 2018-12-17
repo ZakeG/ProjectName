@@ -9,6 +9,7 @@ public class OptionButton : MonoBehaviour {
     private GameObject optionsMenu;
     private Image activeBorder;
 
+
     private Color originalColor;
     private bool optionsMenuOpen;
 

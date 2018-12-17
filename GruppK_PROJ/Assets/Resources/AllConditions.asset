@@ -118,6 +118,7 @@ MonoBehaviour:
   - {fileID: 114071588319308866}
   - {fileID: 114560551204404078}
   - {fileID: 114838205221021422}
+  - {fileID: 114371046084021316}
 --- !u!114 &114000264106966828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -622,6 +623,20 @@ MonoBehaviour:
   description: CatStartDialouge
   satisfied: 0
   hash: -1272552845
+--- !u!114 &114371046084021316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: GoToENDScene
+  m_EditorClassIdentifier: 
+  description: GoToENDScene
+  satisfied: 0
+  hash: -264425539
 --- !u!114 &114378766285203814
 MonoBehaviour:
   m_ObjectHideFlags: 0

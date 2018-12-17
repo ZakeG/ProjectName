@@ -436,6 +436,20 @@ MonoBehaviour:
   description: KeyAquired
   satisfied: 1
   hash: 1879386995
+--- !u!114 &29270514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: GoToENDScene
+  satisfied: 0
+  hash: -264425539
 --- !u!114 &29365398
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9749,7 +9763,6 @@ MonoBehaviour:
   - {fileID: 1889320689}
   - {fileID: 1563740997}
   - {fileID: 926406462}
-  - {fileID: 2037781503}
 --- !u!4 &207831571
 Transform:
   m_ObjectHideFlags: 0
@@ -10243,6 +10256,20 @@ Transform:
   m_Father: {fileID: 535134596}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 237.01, z: 0}
+--- !u!114 &226189394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24dc6b17b276d6948903ade30dec71eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: Ending
+  startingPointInLoadedScene: null
+  playerSaveData: {fileID: 11400000, guid: 55d72825bf06cf44e9cbc1b37812cc6f, type: 2}
 --- !u!114 &227768401
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10337,6 +10364,48 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &232093503
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 232093504}
+  - component: {fileID: 232093505}
+  m_Layer: 0
+  m_Name: ExitGameReaction
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &232093504
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 232093503}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1564899281}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &232093505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 232093503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fc7ecfe98531f2429694b8c81a6748a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  reactions:
+  - {fileID: 226189394}
 --- !u!1 &232883750
 GameObject:
   m_ObjectHideFlags: 0
@@ -26179,6 +26248,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400004, guid: 67de58da1638c81408e8edfe971621f5,
     type: 3}
   m_PrefabInternal: {fileID: 715699745}
+--- !u!114 &716134062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: GoToENDScene
+  satisfied: 1
+  hash: -264425539
 --- !u!1 &716174493
 GameObject:
   m_ObjectHideFlags: 0
@@ -32149,18 +32232,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 915628061}
   m_Mesh: {fileID: 4300002, guid: f68e26733f39a5c42b1f9cec45827f07, type: 3}
---- !u!114 &917446559
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  message: You picked up one of three moon pieces!
 --- !u!114 &919066454
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33623,7 +33694,7 @@ MonoBehaviour:
   - {fileID: 124664142}
   - {fileID: 1229536384}
   - {fileID: 1443940758}
-  - {fileID: 1661644993}
+  - {fileID: 1381175344}
 --- !u!114 &981379452
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40519,7 +40590,6 @@ MonoBehaviour:
   - {fileID: 1991001291}
   - {fileID: 1273007599}
   - {fileID: 1771323779}
-  - {fileID: 1963561251}
 --- !u!1 &1257610535
 GameObject:
   m_ObjectHideFlags: 0
@@ -43140,6 +43210,20 @@ MonoBehaviour:
   description: SunVialPickedUp
   satisfied: 1
   hash: 1361490301
+--- !u!114 &1381175344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec43236ba6522584894ac80bfbcb3815, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  condition: {fileID: 114371046084021316, guid: fd02464d008c790478d9826aba7c7847,
+    type: 2}
+  satisfied: 1
 --- !u!1001 &1389759044
 Prefab:
   m_ObjectHideFlags: 0
@@ -45640,7 +45724,6 @@ MonoBehaviour:
   - {fileID: 2007079430}
   - {fileID: 462465822}
   - {fileID: 390048215}
-  - {fileID: 917446559}
 --- !u!114 &1485223812
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47793,7 +47876,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11484708, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: conditionCollections.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalPosition.x
@@ -47899,6 +47982,10 @@ Prefab:
       propertyPath: m_LocalPosition.y
       value: -1.26
       objectReference: {fileID: 0}
+    - target: {fileID: 11484708, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
+      propertyPath: conditionCollections.Array.data[1]
+      value: 
+      objectReference: {fileID: 1758536479}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
   m_IsPrefabAsset: 0
@@ -49421,6 +49508,7 @@ MonoBehaviour:
   description: UseDoorReaction
   requiredConditions:
   - {fileID: 27248305}
+  - {fileID: 29270514}
   reactionCollection: {fileID: 513060040}
 --- !u!1 &1646148443
 GameObject:
@@ -49814,20 +49902,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1661311992}
   m_Mesh: {fileID: 4300000, guid: f68e26733f39a5c42b1f9cec45827f07, type: 3}
---- !u!114 &1661644993
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a931d1c243b462c46bad5f7d2aae5949, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  order: 0
-  animator: {fileID: 37461996}
-  trigger: DisappearingStartedInt= 2;
 --- !u!1001 &1662354682
 Prefab:
   m_ObjectHideFlags: 0
@@ -51945,6 +52019,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1757073196}
   m_Mesh: {fileID: 4300002, guid: f68e26733f39a5c42b1f9cec45827f07, type: 3}
+--- !u!114 &1758536479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4900350095ceff24fbe8c1ac5f1e17c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: ExitGame
+  requiredConditions:
+  - {fileID: 716134062}
+  reactionCollection: {fileID: 232093505}
 --- !u!114 &1759583273
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61251,18 +61340,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: a2a29b740fd0c494e85790327f935fe3,
     type: 3}
   m_PrefabInternal: {fileID: 1961481158}
---- !u!114 &1963561251
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  message: You picked up one of three moon pieces!
 --- !u!114 &1969640608
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67133,18 +67210,6 @@ MonoBehaviour:
   order: 5
   message: Everything you need exists inside the lab.
   textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
---- !u!114 &2037781503
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  message: You picked up one of three moon pieces!
 --- !u!1 &2038055349
 GameObject:
   m_ObjectHideFlags: 0

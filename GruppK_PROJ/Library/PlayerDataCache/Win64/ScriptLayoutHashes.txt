@@ -1,6 +1,6 @@
 WindowsStandalone
 PlayerPath?
-C:/Users/phme4638/Documents/GitHub/ProjectName/GruppK_PROJ/AweVersion/Wizards Apprentice BETA Usability.exe
+C:/Users/Joakim/Desktop/FINALBUILD/Wizard's Apprentice.exe
 SceneListBegin?
 Assets/Scenes/StartMenu.unity
 Assets/Scenes/Persistent.unity
@@ -8,6 +8,7 @@ Assets/Scenes/Lab.unity
 Assets/Scenes/LivingRoom.unity
 Assets/Scenes/Basement.unity
 Assets/Scenes/Dungeon.unity
+Assets/Scenes/Ending.unity
 SceneListEnd?
 6b6145977554529cac532f3cd9f2f58f Assembly-CSharp.dll:.StartingPosition
 8f266d34f2e93bd14ebe254948929282 Assembly-CSharp.dll:.ConditionCollection
@@ -15,7 +16,7 @@ c422dd62785a6d0afa870fbd111886ce Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
 798eba44cb4a3a3f9381d4ecdcd6af38 Assembly-CSharp.dll:.IntervalsWind
 7b803eb2910e9b4cd5e521ae07b9f7d6 Unity.TextMeshPro.dll:TMPro.TMP_Dropdown
 42c6d4740f8c8c5b548f28639031cadc Assembly-CSharp.dll:UnityStandardAssets.ImageEffects.TiltShift
-e0525276d5e9ad36483b09634296d645 Assembly-CSharp.dll:.PlayerMovement
+5c641b72c28163de76bb8362cc614332 Assembly-CSharp.dll:.PlayerMovement
 486cd95c82d8305219c352c06b776e1f UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 9e61f3535f3c55760a1cedfbd114f4af UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
 754551afe4f2531f58476bf14c510657 UnityEngine.Timeline.dll:UnityEngine.Timeline.AnimationPlayableAsset
@@ -28,9 +29,9 @@ c7dd12c15208b0447e101f80038706df UnityEngine.Timeline.dll:UnityEngine.Timeline.A
 0ddb2c46096a1e59e0dce07886ce4769 UnityEngine.Timeline.dll:UnityEngine.Timeline.GroupTrack
 0ddb2c46096a1e59e0dce07886ce4769 UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 64f3a13c1277a7f1324321d93d0ec13b UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
-d1798d4f15284445e86c01095c4ea5cb Assembly-CSharp.dll:.DynamicCursor
+26fd9e56e54dfaa72c64f98302666902 Assembly-CSharp.dll:.DynamicCursor
 51c7f2da0e648ac14d16777ffbf26e8e Assembly-CSharp.dll:UnityStandardAssets.ImageEffects.ImageEffectBase
-354863182dd3af6cdf8f8d92f3e313a8 Assembly-CSharp.dll:.DayNightButton
+4c872f3ef24a886a8a6d179c90cea995 Assembly-CSharp.dll:.DayNightButton
 d4bb4b82edd6583fb3ed02ce19889d5f Assembly-CSharp.dll:UnityStandardAssets.ImageEffects.BlurOptimized
 f6637497451c9a030c421de4a1ad5cdb Unity.TextMeshPro.dll:TMPro.TMP_ScrollbarEventHandler
 4fc8a889be082bf81fc5b0e0a52896da Assembly-CSharp.dll:UnityStandardAssets.ImageEffects.GlobalFog
@@ -107,6 +108,7 @@ e90403eeda069970e0b9de1533de13a6 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 2d58ca16854b99daea8c45e9c0f367b7 UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 16da51d1b62ef6d4ee1849350434023b UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
 24a57e6b1bd1739bc8d9cf1cbf67a532 Assembly-CSharp.dll:UnityStandardAssets.ImageEffects.NoiseAndScratches
+77b610c7f65c35980cff3571eef09d08 Assembly-CSharp.dll:.FailMessageHandler
 061b79fe1136c2f7c620c8d3badcd1e4 Assembly-CSharp.dll:.AnimationReaction
 3572e4392388bb343d5531ebc21e80ce Assembly-CSharp.dll:UnityStandardAssets.ImageEffects.Antialiasing
 a5f60c329c2f1d46dd86820ede1249c6 Assembly-CSharp.dll:UnityStandardAssets.ImageEffects.BloomAndFlares
@@ -145,6 +147,7 @@ e70adf7d789392656ae13a2ea603dfe0 Assembly-CSharp.dll:UnityStandardAssets.ImageEf
 6893169c34f2bd6e21624eac3f65cee9 Assembly-CSharp.dll:UnityStandardAssets.ImageEffects.ScreenSpaceAmbientObscurance
 382b8ef512fa8d6108723a01b57af65b UnityEngine.Analytics.dll:UnityEngine.Analytics.AnalyticsEventTracker
 d22c788799ee45d8676254eccf20e8b8 UnityEngine.Analytics.dll:UnityEngine.Analytics.AnalyticsTracker
+2aaf2a505e3cadec6d7d30db235ccb5a Assembly-CSharp.dll:.OptionButton
 956fab0d81ac024391879df455178eca Assembly-CSharp.dll:UnityStandardAssets.ImageEffects.BloomOptimized
 d75dc834c5dec688db75a55a1724c90f UnityEngine.HoloLens.dll:UnityEngine.Audio.AudioSpatializerMicrosoft
 486cd95c82d8305219c352c06b776e1f UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInput
@@ -154,6 +157,7 @@ dfd33ff9ae3ce8d7ca1f22b475ec2387 UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 3882b895590b58b55ae4f55e4a67cffb Assembly-CSharp.dll:.GameObjectActivitySaver
 96f3ea9f23b6f08e60710ebb4af49174 Unity.TextMeshPro.dll:TMPro.TMP_SpriteAsset
 418191ee6f900e0a96f65b278ca8035c Assembly-CSharp.dll:.LostItemReaction
+5171a088c32f70011af12f0291cf496d Assembly-CSharp.dll:.JulScript
 f16835701e71dd5d6fb1fed4b7aff1d8 Unity.TextMeshPro.dll:TMPro.TMP_Asset
 f5c6c8dc1d2620313012c1f25775215c Assembly-CSharp.dll:UnityStandardAssets.ImageEffects.SunShafts
 50bdd7641d1eb2257183edb3500ee0cd Assembly-CSharp.dll:.FailedItemCombination
@@ -166,12 +170,13 @@ fd4641e6ee9a39205bb51ee194b3974a Assembly-CSharp.dll:.SceneReaction
 df90f22bc5266a4c9e6af3e5ade84837 Assembly-CSharp.dll:.UsabilityOptionsButton
 1827d5101bce4e14ce638499f1432513 Assembly-CSharp.dll:UnityStandardAssets.ImageEffects.ScreenOverlay
 486cd95c82d8305219c352c06b776e1f Unity.TextMeshPro.dll:TMPro.TMP_SpriteAnimator
-cacbc09c8f29b02b666079950569c03a Assembly-CSharp.dll:.QuestLogReaction
+58195b0ea4e557d81792f44a6e62eb95 Assembly-CSharp.dll:.QuestLogReaction
 1d76690d44d4bc393b7c9522a71e133e Assembly-CSharp.dll:.ItemCombination
 785eb8ff13873ecaf6ec43ebfcf0ab7e Assembly-CSharp.dll:.BookTextHandler
 98a6852fb2e252525cbb713143ddd380 Assembly-CSharp.dll:UnityStandardAssets.ImageEffects.DepthOfField
 1f893fafe1555f26a72cd88f4edd67b4 Assembly-CSharp.dll:.SceneController
 eaf0bcdb10d442a4029d615f41d09957 Unity.TextMeshPro.dll:TMPro.TextContainer
+f3d6c485c1fea43e2d979c9b4ead720e Assembly-CSharp.dll:.PointerContainer
 d3235cf718e9c13622a8990d574eb021 Assembly-CSharp.dll:.CameraOptions
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:UnityStandardAssets.ImageEffects.PostEffectsHelper
 c3b5dd457cf7ccb2691275311c24041d Assembly-CSharp.dll:.TextReaction
@@ -214,7 +219,7 @@ e033f131358cea5a0eabf9561e781deb UnityEngine.TestRunner.dll:UnityEngine.TestTool
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.InventoySlot
 5a06c18b6aa904558ea6e46718fcc738 Assembly-CSharp.dll:UnityStandardAssets.ImageEffects.NoiseAndGrain
 41b68b5b6ae0d05f0a513926c82f9f2b Assembly-CSharp.dll:.ConditionReaction
-82441d418b20b4e8d3fc8046df91697f Assembly-CSharp.dll:.IngameOptions
+d84dcdc1e11ef132126a28b59fcedaa1 Assembly-CSharp.dll:.IngameOptions
 d75dc834c5dec688db75a55a1724c90f UnityEngine.HoloLens.dll:UnityEngine.Audio.AudioSpatializerMicrosoft
 486cd95c82d8305219c352c06b776e1f UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInput
 e1ea12ca952c81d81a9a21fdf34446ed UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule
@@ -234,10 +239,11 @@ ae0fa6aaa5e980f190fd2479500fab1a Assembly-CSharp.dll:UnityStandardAssets.ImageEf
 23e7a8c47d3061a0f60b7125574c7d57 Assembly-CSharp.dll:.StaffObjectContainer
 6aac8bc65a9ceb6ac3a526454f5b19af Assembly-CSharp.dll:.AllConditions
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.SaveData
-5882a84b9e6af8c0d31c6daa67e6c354 Assembly-CSharp.dll:.ItemCombinationHandler
+cb815d49aa98de01f5604eb685f154e7 Assembly-CSharp.dll:.ItemCombinationHandler
 2983e5366c6e645ab6eef46371a10d1b Assembly-CSharp.dll:.CameraControl
-486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.BagButton
+bdaf3fb874bde53402c6acba51794f4b Assembly-CSharp.dll:.BagButton
 e04611b8715e6833d2bd7010fc6be10b Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
+486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.ExitSceneReaction
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.StartMenu
 bd57674768d88af20344e9f680801c2d Assembly-CSharp.dll:UnityStandardAssets.ImageEffects.DepthOfFieldDeprecated
 df03e2ffa8b3251f71a6c2235d50c66b Assembly-CSharp.dll:UnityStandardAssets.ImageEffects.Fisheye
@@ -250,5 +256,6 @@ cad31ba8115e29dd33b6051cdb41a255 Assembly-CSharp.dll:.PickedUpItemReaction
 93307bd34e39d73fd24e00ec39c25a91 Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
 61459e2465ae56086fc06bf5352173a5 Assembly-CSharp.dll:.ReactionCollection
 985c690377822f41654d5f68210987d9 Assembly-CSharp.dll:UnityStandardAssets.ImageEffects.ColorCorrectionLookup
+26fd9e56e54dfaa72c64f98302666902 Assembly-CSharp.dll:.EndingScript
 f59ca19b2477a0f8545617e6a1dec4b4 Assembly-CSharp.dll:UnityStandardAssets.ImageEffects.Tonemapping
 3ad9ab48f563eac816ffc8716b94d6ab Assembly-CSharp.dll:.AudioReaction

@@ -12262,18 +12262,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 318196837}
   m_Mesh: {fileID: 4300000, guid: f68e26733f39a5c42b1f9cec45827f07, type: 3}
---- !u!114 &318846730
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  message: You picked up something yellow!
 --- !u!1001 &319554046
 Prefab:
   m_ObjectHideFlags: 0
@@ -14428,18 +14416,6 @@ MonoBehaviour:
   order: 4
   audioSource: {fileID: 717335330}
   audioClip: {fileID: 8300000, guid: 8e3c28191928abb409134946cd0f9013, type: 3}
---- !u!114 &381239478
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  message: You picked up something red!
 --- !u!1001 &384901164
 Prefab:
   m_ObjectHideFlags: 0
@@ -26303,7 +26279,6 @@ MonoBehaviour:
   - {fileID: 1759583273}
   - {fileID: 1035930655}
   - {fileID: 758736101}
-  - {fileID: 318846730}
 --- !u!1 &716659582
 GameObject:
   m_ObjectHideFlags: 0
@@ -26521,7 +26496,6 @@ MonoBehaviour:
   - {fileID: 478918366}
   - {fileID: 151224002}
   - {fileID: 2104033562}
-  - {fileID: 381239478}
 --- !u!1 &718093868
 GameObject:
   m_ObjectHideFlags: 0
@@ -39321,17 +39295,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 100006, guid: 4a75f2143ff9a2a4a8222d96c23267ab,
     type: 3}
   m_PrefabInternal: {fileID: 1196169359}
---- !u!122 &1196169362
-Halo:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1196169361}
-  m_Enabled: 1
-  m_Color:
-    serializedVersion: 2
-    rgba: 4286611584
-  m_Size: 0.12
 --- !u!114 &1196798659
 MonoBehaviour:
   m_ObjectHideFlags: 0

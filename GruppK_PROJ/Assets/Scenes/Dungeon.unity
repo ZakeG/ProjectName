@@ -25762,6 +25762,7 @@ MonoBehaviour:
   - {fileID: 1834006834}
   - {fileID: 2089215300}
   - {fileID: 989800265}
+  - {fileID: 1242249458}
 --- !u!114 &887287991
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45307,6 +45308,18 @@ Halo:
     serializedVersion: 2
     rgba: 4278255360
   m_Size: 0.08
+--- !u!114 &1242249458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You found a dragon bone!
 --- !u!1001 &1248423594
 Prefab:
   m_ObjectHideFlags: 0

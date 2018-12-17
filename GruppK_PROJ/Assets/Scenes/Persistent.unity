@@ -4265,7 +4265,8 @@ MonoBehaviour:
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: 'I have arrived at the wizard tower, the first thing I should do is greet
-    the wizard!
+    the wizard! The wizard is usually chilling on his stool by his cauldron cooking
+    up new spells.
 
     ----'
 --- !u!222 &1581495543

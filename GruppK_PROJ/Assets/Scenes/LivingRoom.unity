@@ -79866,7 +79866,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1614981110}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.672, z: 1.052}
+  m_LocalPosition: {x: 0, y: -0.653, z: 0.72}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 383284618}
@@ -79882,7 +79882,7 @@ Halo:
   m_Color:
     serializedVersion: 2
     rgba: 4278255360
-  m_Size: 0.06
+  m_Size: 0.09
 --- !u!1001 &1620743737
 Prefab:
   m_ObjectHideFlags: 0
@@ -85783,7 +85783,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: You picked up dragon fire!
+  message: You created dragon fire!
 --- !u!1 &1888065775
 GameObject:
   m_ObjectHideFlags: 0

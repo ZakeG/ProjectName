@@ -81,8 +81,6 @@ public class ReactionCollection : MonoBehaviour
             }
         }
         clicksNeeded = clicksNeeded + 1;
- //       Debug.Log(gameObject.name + " from " + gameObject.transform.parent.name + " has " + instructions.Count + " Reactions");
- //       Debug.Log("Clicks needed: " + clicksNeeded);
     }
 
     private void Update()
@@ -94,17 +92,14 @@ public class ReactionCollection : MonoBehaviour
                 reactionOrderNumber++;
                 if (reactionOrderNumber < clicksNeeded)
                 {
-//                    Debug.Log("RunNextReactions() run");
                     RunNextReactions();
                 }
                 else if(reactionOrderNumber == clicksNeeded)
                 {
-//                    Debug.Log("ReactionsAlmostFinished() run");
                     ReactionsAlmostFinished();
                 }
                 else if (reactionOrderNumber > clicksNeeded)
                 {
-//                    Debug.Log("ReactionsFinished() run");
                     ReactionsFinished();
                 }
 

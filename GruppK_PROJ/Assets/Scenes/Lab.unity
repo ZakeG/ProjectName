@@ -868,7 +868,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -0.601
+      value: -0.653
       objectReference: {fileID: 0}
     - target: {fileID: 474418, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_LocalRotation.x
@@ -8543,7 +8543,6 @@ MonoBehaviour:
   - {fileID: 698433258}
   - {fileID: 1096977769}
   - {fileID: 1285533951}
-  - {fileID: 996829247}
   - {fileID: 1775427202}
   - {fileID: 467991229}
   - {fileID: 1504580960}
@@ -9499,6 +9498,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message: You found melted gold!
+  bookTextManager: {fileID: 0}
+--- !u!114 &200190504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 0
+  message: Going to livingroom...
+  textColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &201642245
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9598,6 +9612,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message: You picked up a feather!
+  bookTextManager: {fileID: 0}
 --- !u!1 &205016716
 GameObject:
   m_ObjectHideFlags: 0
@@ -10251,20 +10266,6 @@ Transform:
   m_Father: {fileID: 535134596}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 237.01, z: 0}
---- !u!114 &226189394
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 24dc6b17b276d6948903ade30dec71eb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneName: Ending
-  startingPointInLoadedScene: null
-  playerSaveData: {fileID: 11400000, guid: 55d72825bf06cf44e9cbc1b37812cc6f, type: 2}
 --- !u!114 &227768401
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10400,7 +10401,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   reactions:
-  - {fileID: 226189394}
   - {fileID: 201642245}
 --- !u!1 &232883750
 GameObject:
@@ -17110,6 +17110,7 @@ MonoBehaviour:
     ORANGE POTION: Phoenix feathers are a fiery orange shade, However I don''t think
     the wizard has an orange potion laying around here though...maybe I could mix
     something to resemble that fiery shade? '
+  bookTextManager: {fileID: 0}
 --- !u!1 &487179307
 GameObject:
   m_ObjectHideFlags: 0
@@ -17784,6 +17785,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   reactions:
   - {fileID: 227768401}
+  - {fileID: 200190504}
 --- !u!114 &513149671
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24561,6 +24563,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: "The second ingredient the wizard asked of me was Ambrosia tea...I\u2019d
     better be careful not to spill any..."
+  bookTextManager: {fileID: 0}
 --- !u!1 &629375280
 GameObject:
   m_ObjectHideFlags: 0
@@ -25494,6 +25497,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: You've created the Day-and-Night staff, it will help you see things that
     ONLY lurks in the dark..
+  bookTextManager: {fileID: 0}
 --- !u!114 &683201377
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27631,6 +27635,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message: You found Australia!
+  bookTextManager: {fileID: 0}
 --- !u!114 &731015558
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28193,6 +28198,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message: You picked up an apple!
+  bookTextManager: {fileID: 0}
 --- !u!1001 &774562408
 Prefab:
   m_ObjectHideFlags: 0
@@ -30963,6 +30969,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: "Wizards Ingredients List:\n1. Phoenix Feather\n2. Ambrosia Tea\n3. Golden
     Apple \n4. Dragon Fire\n"
+  bookTextManager: {fileID: 0}
 --- !u!114 &861831851
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31508,6 +31515,7 @@ MonoBehaviour:
 
 
     STAFF: To have a staff would be good, I recommend one out of wood perhaps? '
+  bookTextManager: {fileID: 0}
 --- !u!1 &887398656
 GameObject:
   m_ObjectHideFlags: 0
@@ -34139,21 +34147,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400004, guid: 67de58da1638c81408e8edfe971621f5,
     type: 3}
   m_PrefabInternal: {fileID: 996601577}
---- !u!114 &996829247
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  order: 5
-  gameObject: {fileID: 0}
-  activeState: 0
-  isAffectedByStaff: 0
 --- !u!1 &997501920
 GameObject:
   m_ObjectHideFlags: 0
@@ -36230,6 +36223,7 @@ MonoBehaviour:
     the ambrosia plant for the ambrosia tea, the wizard said he had a plant in the
     living room. \n\nTEABAG: I should find a teabag to put the crushed up ambrosia
     plant in, so it doesn't spill into the water."
+  bookTextManager: {fileID: 0}
 --- !u!1 &1083581951
 GameObject:
   m_ObjectHideFlags: 0
@@ -36708,6 +36702,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message: You found a staff!
+  bookTextManager: {fileID: 0}
 --- !u!1 &1092916231
 GameObject:
   m_ObjectHideFlags: 0
@@ -40786,6 +40781,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message: You picked up full sun vial!
+  bookTextManager: {fileID: 0}
 --- !u!1 &1265328458
 GameObject:
   m_ObjectHideFlags: 0
@@ -41321,6 +41317,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message: 'You found a teabag! '
+  bookTextManager: {fileID: 0}
 --- !u!1 &1279277112
 GameObject:
   m_ObjectHideFlags: 0
@@ -46030,6 +46027,7 @@ MonoBehaviour:
   message: "Quest completed: Well done, you finished the phoenix feather! Now go collect
     the rest of the ingredients \nand return to the wizard when you've gathered them
     all."
+  bookTextManager: {fileID: 0}
 --- !u!1 &1493453446
 GameObject:
   m_ObjectHideFlags: 0
@@ -47185,6 +47183,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: "I can\u2019t really find a phoenix feather in this place...MAYBE I could
     make a fake one without the Great and Powerful wizard noticing..? "
+  bookTextManager: {fileID: 0}
 --- !u!1 &1543203519
 GameObject:
   m_ObjectHideFlags: 0
@@ -48232,6 +48231,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: 'Create a Day-and-Night staff, the ingredients you''ll need for the staff
     will be: '
+  bookTextManager: {fileID: 0}
 --- !u!1 &1593868593
 GameObject:
   m_ObjectHideFlags: 0

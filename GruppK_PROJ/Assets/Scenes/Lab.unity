@@ -550,8 +550,8 @@ Transform:
   - {fileID: 85016900}
   - {fileID: 1884031981}
   - {fileID: 1656500046}
-  - {fileID: 995823993}
   - {fileID: 644517405}
+  - {fileID: 995823993}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -16365,7 +16365,7 @@ Transform:
   m_LocalScale: {x: 0.040996045, y: 0.040996026, z: 0.040996045}
   m_Children: []
   m_Father: {fileID: 1695966293}
-  m_RootOrder: 47
+  m_RootOrder: 44
   m_LocalEulerAnglesHint: {x: 0, y: -131.558, z: 0}
 --- !u!114 &473897190
 MonoBehaviour:
@@ -31918,7 +31918,7 @@ Transform:
   - {fileID: 1307140380}
   - {fileID: 841927038}
   m_Father: {fileID: 1695966293}
-  m_RootOrder: 39
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &943006580
 GameObject:
@@ -31942,12 +31942,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 943006580}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.452, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.00026528724, y: 0.047, z: 0}
+  m_LocalScale: {x: 0.102033, y: 0.102033, z: 0.102033}
   m_Children: []
-  m_Father: {fileID: 644517405}
-  m_RootOrder: 6
+  m_Father: {fileID: 995823993}
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!122 &943006582
 Halo:
@@ -33272,7 +33272,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: e75448849419efb4f89f4e50326864c6, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: e75448849419efb4f89f4e50326864c6, type: 3}
       propertyPath: m_LocalScale.x
@@ -47342,7 +47342,7 @@ Transform:
   - {fileID: 724625680}
   - {fileID: 1199021223}
   m_Father: {fileID: 1695966293}
-  m_RootOrder: 42
+  m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: -90.469, z: 0}
 --- !u!1001 &1607824260
 Prefab:
@@ -49484,6 +49484,7 @@ Transform:
   - {fileID: 1196169360}
   - {fileID: 1802568500}
   - {fileID: 604795165}
+  - {fileID: 939283956}
   - {fileID: 460529398}
   - {fileID: 1728282103}
   - {fileID: 1662354683}
@@ -49492,15 +49493,14 @@ Transform:
   - {fileID: 1364206487}
   - {fileID: 1290973636}
   - {fileID: 723291563}
-  - {fileID: 939283956}
+  - {fileID: 1606419439}
   - {fileID: 1918687861}
   - {fileID: 2136755328}
-  - {fileID: 1606419439}
   - {fileID: 1524803744}
+  - {fileID: 472396606}
   - {fileID: 389987267}
   - {fileID: 1524231344}
   - {fileID: 868668075}
-  - {fileID: 472396606}
   - {fileID: 1195804370}
   - {fileID: 76304105}
   - {fileID: 37461997}

@@ -8602,7 +8602,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: 9ac3d670860ed2d4a85d8d85f9179602, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9ac3d670860ed2d4a85d8d85f9179602, type: 3}
@@ -8610,6 +8610,11 @@ Prefab:
 --- !u!4 &152280190 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400212, guid: 9ac3d670860ed2d4a85d8d85f9179602,
+    type: 3}
+  m_PrefabInternal: {fileID: 152280189}
+--- !u!1 &152280191 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100006, guid: 9ac3d670860ed2d4a85d8d85f9179602,
     type: 3}
   m_PrefabInternal: {fileID: 152280189}
 --- !u!1001 &153902877
@@ -85492,6 +85497,52 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 1869394528}
+--- !u!1 &1870963355
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1870963357}
+  - component: {fileID: 1870963356}
+  m_Layer: 0
+  m_Name: JulGrejjer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1870963356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1870963355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c657526dcf9ef04d87021894a736ba8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  christmasObjects:
+  - {fileID: 795873446}
+  - {fileID: 152280191}
+  - {fileID: 1932935911}
+  nonChristmasObjects:
+  - {fileID: 1932935910}
+--- !u!4 &1870963357
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1870963355}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.2878069, y: 0.095611945, z: 0.69475555}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1872683920
 GameObject:
   m_ObjectHideFlags: 0
@@ -86788,6 +86839,16 @@ GameObject:
 --- !u!1 &1932935909 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1509475594083270, guid: d43ae048690693e488c33a95d6b53299,
+    type: 2}
+  m_PrefabInternal: {fileID: 1932935906}
+--- !u!1 &1932935910 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1253854207434918, guid: d43ae048690693e488c33a95d6b53299,
+    type: 2}
+  m_PrefabInternal: {fileID: 1932935906}
+--- !u!1 &1932935911 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1943267599334992, guid: d43ae048690693e488c33a95d6b53299,
     type: 2}
   m_PrefabInternal: {fileID: 1932935906}
 --- !u!1001 &1934911078

@@ -16,6 +16,7 @@ public class BagButton : MonoBehaviour {
     [SerializeField]
     private Image bagIcon;
 
+
     private Image activeBorder;
     private Color originalColor;
 

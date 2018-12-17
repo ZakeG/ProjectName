@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class JulScript : MonoBehaviour {
 
-    public List<GameObject> gameObjectList;
+    public List<GameObject> christmasObjects;
+    public List<GameObject> nonChristmasObjects;
     private bool christmasIsOn;
 
 	void Update () {
-        if (gameObjectList.Count != 0)
+        if (christmasObjects.Count != 0 && nonChristmasObjects.Count != 0)
         {
             if (Input.GetKeyDown(KeyCode.J))
             {
@@ -26,17 +27,25 @@ public class JulScript : MonoBehaviour {
 
     private void TurnOnChristmas()
     {
-        foreach (GameObject go in gameObjectList)
+        foreach (GameObject go in christmasObjects)
         {
             go.SetActive(true);
+        }
+        foreach (GameObject ngo in nonChristmasObjects)
+        {
+            ngo.SetActive(false);
         }
     }
 
     private void TurnOffChristmas()
     {
-        foreach (GameObject go in gameObjectList)
+        foreach (GameObject go in christmasObjects)
         {
             go.SetActive(false);
+        }
+        foreach (GameObject ngo in nonChristmasObjects)
+        {
+            ngo.SetActive(true);
         }
     }
 }

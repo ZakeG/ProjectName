@@ -7354,22 +7354,6 @@ MonoBehaviour:
 
 '
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
---- !u!114 &124664142
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  order: 8
-  message: Anywho, I must get going to the annual wizard conference! Merlin is the
-    chairman this year and he doesn't take tardiness lightly! Hold down the tower
-    while I'm away!
-  textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
 --- !u!1 &128629968
 GameObject:
   m_ObjectHideFlags: 0
@@ -30326,20 +30310,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 825233715}
   m_Mesh: {fileID: 4300002, guid: f68e26733f39a5c42b1f9cec45827f07, type: 3}
---- !u!114 &827596250
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  order: 7
-  message: '...Curse...? '
-  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1 &828328985
 GameObject:
   m_ObjectHideFlags: 0
@@ -33702,10 +33672,6 @@ MonoBehaviour:
   - {fileID: 388448945}
   - {fileID: 1635103640}
   - {fileID: 1641561631}
-  - {fileID: 827596250}
-  - {fileID: 124664142}
-  - {fileID: 1229536384}
-  - {fileID: 1443940758}
   - {fileID: 1381175344}
 --- !u!114 &981379452
 MonoBehaviour:
@@ -40082,20 +40048,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1229194913}
   m_Mesh: {fileID: 4300000, guid: f68e26733f39a5c42b1f9cec45827f07, type: 3}
---- !u!114 &1229536384
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  order: 9
-  message: You're leaving already?! Wait..I..have questions..
-  textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1 &1243253196
 GameObject:
   m_ObjectHideFlags: 0
@@ -40958,7 +40910,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 3
+  order: 1000
   gameObject: {fileID: 354693946}
   activeState: 0
   isAffectedByStaff: 0
@@ -44951,20 +44903,6 @@ MonoBehaviour:
   order: 3
   audioSource: {fileID: 717335330}
   audioClip: {fileID: 8300000, guid: 525186e4ae8196c428794c575db38f67, type: 3}
---- !u!114 &1443940758
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  order: 10
-  message: Okay bye!
-  textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
 --- !u!1 &1449727880
 GameObject:
   m_ObjectHideFlags: 0
@@ -49384,8 +49322,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 6
-  message: Enough of these unpleasantries! Are you ready for the next chapter of your
-    life?! Here comes your wizard curse...ehm I mean...powers!
+  message: "Enough of these unpleasantries! Now that I\u2019m looking dapper and youthful,
+    let's leave this lab and head into town, you lead the way! "
   textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
 --- !u!1 &1643390950
 GameObject:
@@ -51932,7 +51870,11 @@ Prefab:
       value: 
       objectReference: {fileID: 108802418188606864, guid: 5454f5ea064ff4f4894f905c72524554,
         type: 2}
-    - target: {fileID: 1509475594083270, guid: d43ae048690693e488c33a95d6b53299, type: 2}
+    - target: {fileID: 1253854207434918, guid: d43ae048690693e488c33a95d6b53299, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1943267599334992, guid: d43ae048690693e488c33a95d6b53299, type: 2}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -51953,6 +51895,16 @@ MonoBehaviour:
 --- !u!1 &1753974723 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1509475594083270, guid: d43ae048690693e488c33a95d6b53299,
+    type: 2}
+  m_PrefabInternal: {fileID: 1753974720}
+--- !u!1 &1753974724 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1253854207434918, guid: d43ae048690693e488c33a95d6b53299,
+    type: 2}
+  m_PrefabInternal: {fileID: 1753974720}
+--- !u!1 &1753974725 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1943267599334992, guid: d43ae048690693e488c33a95d6b53299,
     type: 2}
   m_PrefabInternal: {fileID: 1753974720}
 --- !u!1 &1757073196
@@ -67654,6 +67606,51 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400004, guid: 41d6db0e740c6e240a96b5102541dedc,
     type: 3}
   m_PrefabInternal: {fileID: 2062810443}
+--- !u!1 &2063246010
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2063246012}
+  - component: {fileID: 2063246011}
+  m_Layer: 0
+  m_Name: JulGrejjer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2063246011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2063246010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c657526dcf9ef04d87021894a736ba8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  christmasObjects:
+  - {fileID: 1830561463}
+  - {fileID: 1753974725}
+  nonChristmasObjects:
+  - {fileID: 1753974724}
+--- !u!4 &2063246012
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2063246010}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.32190406, y: 0.108655736, z: -1.4235499}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2063668197
 GameObject:
   m_ObjectHideFlags: 0

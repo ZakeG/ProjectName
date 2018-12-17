@@ -13,7 +13,6 @@ public class EndingScript : MonoBehaviour {
 
     public void ExitToMainMenu()
     {
-        Debug.Log("baoeigjoajwfj");
         SceneManager.LoadScene("StartMenu");
     }
 }

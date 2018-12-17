@@ -15431,7 +15431,7 @@ Halo:
   m_Enabled: 1
   m_Color:
     serializedVersion: 2
-    rgba: 4286611584
+    rgba: 4278255360
   m_Size: 0.06
 --- !u!1001 &528625783
 Prefab:
@@ -25711,6 +25711,7 @@ MonoBehaviour:
   - {fileID: 1834006834}
   - {fileID: 2089215300}
   - {fileID: 989800265}
+  - {fileID: 1438528389}
 --- !u!114 &887287991
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38799,9 +38800,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: "TORCH: I could use a torch to carry the fire but most of the torches around
     here are already lit. \nBONE: Well dragons are REALLY rare nowadays, it's not
-    like people just keep em in their dungeons...\nFIRE: There is plain old fire around
-    here but not dragon fire, maybe using something from the specimen on plain fire
-    will change it? "
+    like people just keep 'em in their dungeons...\nFIRE: There is plain old fire
+    around here but not dragon fire, maybe using something from the specimen on plain
+    fire will change it? "
 --- !u!1001 &1123967994
 Prefab:
   m_ObjectHideFlags: 0
@@ -45250,7 +45251,7 @@ Halo:
   m_Enabled: 1
   m_Color:
     serializedVersion: 2
-    rgba: 4286611584
+    rgba: 4278255360
   m_Size: 0.08
 --- !u!1001 &1248423594
 Prefab:
@@ -52491,6 +52492,18 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd3ddf9b352277d45bb2499d1ee1f90b, type: 3}
   m_IsPrefabAsset: 0
+--- !u!114 &1438528389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You found a bone!
 --- !u!1001 &1440090357
 Prefab:
   m_ObjectHideFlags: 0
@@ -58965,7 +58978,7 @@ Halo:
   m_Enabled: 1
   m_Color:
     serializedVersion: 2
-    rgba: 4286611584
+    rgba: 4278255360
   m_Size: 0.02
 --- !u!1001 &1947628719
 Prefab:
@@ -61158,7 +61171,7 @@ Halo:
   m_Enabled: 1
   m_Color:
     serializedVersion: 2
-    rgba: 4286611584
+    rgba: 4278255360
   m_Size: 0.06
 --- !u!1001 &2046662693
 Prefab:
@@ -61349,7 +61362,7 @@ Halo:
   m_Enabled: 1
   m_Color:
     serializedVersion: 2
-    rgba: 4286611584
+    rgba: 4278255360
   m_Size: 0.06
 --- !u!1 &2057102062
 GameObject:

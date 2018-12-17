@@ -338,7 +338,7 @@ Halo:
   m_Enabled: 1
   m_Color:
     serializedVersion: 2
-    rgba: 4286611584
+    rgba: 4278255360
   m_Size: 0.13
 --- !u!1 &33474810
 GameObject:
@@ -10858,7 +10858,7 @@ Halo:
   m_Enabled: 1
   m_Color:
     serializedVersion: 2
-    rgba: 4286611584
+    rgba: 4278255360
   m_Size: 0.11
 --- !u!1001 &421700356
 Prefab:
@@ -11052,6 +11052,18 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: f952e568b9b38c94fb34f8aaccb43541, type: 3}
+--- !u!114 &433948817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You picked up a torch!
 --- !u!1 &437751266
 GameObject:
   m_ObjectHideFlags: 0
@@ -11770,6 +11782,18 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 194222, guid: d48734bd22479a14cb1a52b40aa09db4,
     type: 2}
   m_PrefabInternal: {fileID: 456018233}
+--- !u!114 &462085083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You found a fire crystal!
 --- !u!1001 &463806927
 Prefab:
   m_ObjectHideFlags: 0
@@ -12818,6 +12842,22 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 100014, guid: 8fbf0c59a35b7734f8f32bd5ccebfab9,
     type: 3}
   m_PrefabInternal: {fileID: 525867420}
+--- !u!1 &525867423 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100012, guid: 8fbf0c59a35b7734f8f32bd5ccebfab9,
+    type: 3}
+  m_PrefabInternal: {fileID: 525867420}
+--- !u!122 &525867424
+Halo:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 525867423}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4278255360
+  m_Size: 0.06
 --- !u!114 &527083812
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23252,6 +23292,7 @@ MonoBehaviour:
   - {fileID: 1739845511}
   - {fileID: 397749300}
   - {fileID: 112927303}
+  - {fileID: 462085083}
 --- !u!1 &988505941
 GameObject:
   m_ObjectHideFlags: 0
@@ -28454,7 +28495,7 @@ Halo:
   m_Enabled: 1
   m_Color:
     serializedVersion: 2
-    rgba: 4286611584
+    rgba: 4278255360
   m_Size: 0.1
 --- !u!114 &1316196912
 MonoBehaviour:
@@ -51606,6 +51647,7 @@ MonoBehaviour:
   - {fileID: 182162742}
   - {fileID: 1919714091}
   - {fileID: 1494960898}
+  - {fileID: 433948817}
 --- !u!1 &1708272074
 GameObject:
   m_ObjectHideFlags: 0
@@ -56745,7 +56787,7 @@ Halo:
   m_Enabled: 1
   m_Color:
     serializedVersion: 2
-    rgba: 4286611584
+    rgba: 4278255360
   m_Size: 0.04
 --- !u!114 &1743326573
 MonoBehaviour:

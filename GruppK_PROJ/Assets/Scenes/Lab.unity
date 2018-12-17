@@ -1139,8 +1139,8 @@ Halo:
   m_Enabled: 1
   m_Color:
     serializedVersion: 2
-    rgba: 4286611584
-  m_Size: 0.09
+    rgba: 4278255360
+  m_Size: 0.06
 --- !u!1 &59470839
 GameObject:
   m_ObjectHideFlags: 0
@@ -6929,7 +6929,7 @@ Halo:
   m_Enabled: 1
   m_Color:
     serializedVersion: 2
-    rgba: 4286611584
+    rgba: 4278255360
   m_Size: 0.08
 --- !u!114 &97362823
 MonoBehaviour:
@@ -9412,6 +9412,18 @@ Transform:
   m_Father: {fileID: 339063940}
   m_RootOrder: 68
   m_LocalEulerAnglesHint: {x: 0, y: -38.511, z: 0}
+--- !u!114 &199883135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You found melted gold!
 --- !u!1 &202249457
 GameObject:
   m_ObjectHideFlags: 0
@@ -9488,6 +9500,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 202249457}
   m_Mesh: {fileID: 4300002, guid: f68e26733f39a5c42b1f9cec45827f07, type: 3}
+--- !u!114 &203646659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You picked up a feather!
 --- !u!1 &205016716
 GameObject:
   m_ObjectHideFlags: 0
@@ -9614,7 +9638,7 @@ Halo:
   m_Enabled: 1
   m_Color:
     serializedVersion: 2
-    rgba: 4286611584
+    rgba: 4278255360
   m_Size: -0.03
 --- !u!1 &207831569
 GameObject:
@@ -9648,6 +9672,7 @@ MonoBehaviour:
   - {fileID: 1889320689}
   - {fileID: 1563740997}
   - {fileID: 926406462}
+  - {fileID: 2037781503}
 --- !u!4 &207831571
 Transform:
   m_ObjectHideFlags: 0
@@ -12095,6 +12120,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 318196837}
   m_Mesh: {fileID: 4300000, guid: f68e26733f39a5c42b1f9cec45827f07, type: 3}
+--- !u!114 &318846730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You picked up something yellow!
 --- !u!1001 &319554046
 Prefab:
   m_ObjectHideFlags: 0
@@ -12380,7 +12417,7 @@ Halo:
   m_Enabled: 1
   m_Color:
     serializedVersion: 2
-    rgba: 4286611584
+    rgba: 4278255360
   m_Size: 0.1
 --- !u!1001 &329874541
 Prefab:
@@ -13275,7 +13312,7 @@ Halo:
   m_Enabled: 1
   m_Color:
     serializedVersion: 2
-    rgba: 4286611584
+    rgba: 4278255360
   m_Size: 0.08
 --- !u!1 &351871226
 GameObject:
@@ -14249,6 +14286,18 @@ MonoBehaviour:
   order: 4
   audioSource: {fileID: 717335330}
   audioClip: {fileID: 8300000, guid: 8e3c28191928abb409134946cd0f9013, type: 3}
+--- !u!114 &381239478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You picked up something red!
 --- !u!1001 &384901164
 Prefab:
   m_ObjectHideFlags: 0
@@ -14780,7 +14829,7 @@ Halo:
   m_Enabled: 1
   m_Color:
     serializedVersion: 2
-    rgba: 4286611584
+    rgba: 4278255360
   m_Size: -0.11
 --- !u!1001 &409287954
 Prefab:
@@ -15999,7 +16048,7 @@ Halo:
   m_Enabled: 1
   m_Color:
     serializedVersion: 2
-    rgba: 4286611584
+    rgba: 4278255360
   m_Size: -0.07
 --- !u!1001 &461930525
 Prefab:
@@ -16240,7 +16289,7 @@ Halo:
   m_Enabled: 1
   m_Color:
     serializedVersion: 2
-    rgba: 4286611584
+    rgba: 4278255360
   m_Size: 0.06
 --- !u!1 &472396604
 GameObject:
@@ -23227,6 +23276,7 @@ MonoBehaviour:
   - {fileID: 69920976}
   - {fileID: 1328606830}
   - {fileID: 2134925740}
+  - {fileID: 1092410102}
 --- !u!1 &569949494
 GameObject:
   m_ObjectHideFlags: 0
@@ -24193,6 +24243,7 @@ MonoBehaviour:
   - {fileID: 78951581}
   - {fileID: 1554248517}
   - {fileID: 350637148}
+  - {fileID: 203646659}
 --- !u!4 &643572443
 Transform:
   m_ObjectHideFlags: 0
@@ -24276,6 +24327,7 @@ MonoBehaviour:
   - {fileID: 465565821}
   - {fileID: 615217728}
   - {fileID: 1375724414}
+  - {fileID: 730154906}
 --- !u!1 &652802140
 GameObject:
   m_ObjectHideFlags: 0
@@ -25573,7 +25625,7 @@ Halo:
   m_Enabled: 1
   m_Color:
     serializedVersion: 2
-    rgba: 4286611584
+    rgba: 4278255360
   m_Size: 0.13
 --- !u!1001 &715699745
 Prefab:
@@ -25675,6 +25727,7 @@ MonoBehaviour:
   - {fileID: 1759583273}
   - {fileID: 1035930655}
   - {fileID: 758736101}
+  - {fileID: 318846730}
 --- !u!1 &716659582
 GameObject:
   m_ObjectHideFlags: 0
@@ -25892,6 +25945,7 @@ MonoBehaviour:
   - {fileID: 478918366}
   - {fileID: 151224002}
   - {fileID: 2104033562}
+  - {fileID: 381239478}
 --- !u!1 &718093868
 GameObject:
   m_ObjectHideFlags: 0
@@ -27015,6 +27069,18 @@ MonoBehaviour:
   - {fileID: 657747393}
   - {fileID: 11549565}
   reactionCollection: {fileID: 131091281}
+--- !u!114 &730154906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You found Australia!
 --- !u!114 &731015558
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27489,6 +27555,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400004, guid: f8bcecc8ebe01de4d99a7a9a2a9739a8,
     type: 3}
   m_PrefabInternal: {fileID: 770523578}
+--- !u!114 &773925495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You picked up an apple!
 --- !u!1001 &774562408
 Prefab:
   m_ObjectHideFlags: 0
@@ -29480,7 +29558,7 @@ Halo:
   m_Enabled: 1
   m_Color:
     serializedVersion: 2
-    rgba: 4286611584
+    rgba: 4278255360
   m_Size: 0.22
 --- !u!1 &829677361
 GameObject:
@@ -31338,6 +31416,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 915628061}
   m_Mesh: {fileID: 4300002, guid: f68e26733f39a5c42b1f9cec45827f07, type: 3}
+--- !u!114 &917446559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You picked up one of three moon pieces!
 --- !u!114 &919066454
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31543,7 +31633,7 @@ Halo:
   m_Enabled: 1
   m_Color:
     serializedVersion: 2
-    rgba: 4286611584
+    rgba: 4278255360
   m_Size: 0.12
 --- !u!114 &926406462
 MonoBehaviour:
@@ -31859,7 +31949,7 @@ Halo:
   m_Enabled: 1
   m_Color:
     serializedVersion: 2
-    rgba: 4286611584
+    rgba: 4278255360
   m_Size: 0.13
 --- !u!114 &943903072
 MonoBehaviour:
@@ -35600,6 +35690,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1091865822}
   m_Mesh: {fileID: 4300002, guid: f68e26733f39a5c42b1f9cec45827f07, type: 3}
+--- !u!114 &1092410102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You found a staff!
 --- !u!1 &1092916231
 GameObject:
   m_ObjectHideFlags: 0
@@ -36357,6 +36459,7 @@ MonoBehaviour:
   - {fileID: 1039195258}
   - {fileID: 800867911}
   - {fileID: 825063499}
+  - {fileID: 1265088623}
 --- !u!4 &1124615543
 Transform:
   m_ObjectHideFlags: 0
@@ -38135,7 +38238,7 @@ Halo:
   m_Enabled: 1
   m_Color:
     serializedVersion: 2
-    rgba: 4286611584
+    rgba: 4278255360
   m_Size: 0.1
 --- !u!1 &1200703878
 GameObject:
@@ -39377,6 +39480,7 @@ MonoBehaviour:
   - {fileID: 1991001291}
   - {fileID: 1273007599}
   - {fileID: 1771323779}
+  - {fileID: 1963561251}
 --- !u!1 &1257610535
 GameObject:
   m_ObjectHideFlags: 0
@@ -39522,7 +39626,7 @@ Halo:
   m_Enabled: 1
   m_Color:
     serializedVersion: 2
-    rgba: 4286611584
+    rgba: 4278255360
   m_Size: 0.08
 --- !u!114 &1261634888
 MonoBehaviour:
@@ -39634,6 +39738,18 @@ Transform:
   m_Father: {fileID: 1695966293}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 78.600006, z: 0}
+--- !u!114 &1265088623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You picked up full sun vial!
 --- !u!1 &1265328458
 GameObject:
   m_ObjectHideFlags: 0
@@ -40157,6 +40273,18 @@ MonoBehaviour:
   order: 5
   audioSource: {fileID: 717335330}
   audioClip: {fileID: 8300000, guid: 8e3c28191928abb409134946cd0f9013, type: 3}
+--- !u!114 &1278835253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'You found a teabag! '
 --- !u!1 &1279277112
 GameObject:
   m_ObjectHideFlags: 0
@@ -41653,6 +41781,7 @@ MonoBehaviour:
   - {fileID: 7874504}
   - {fileID: 25042048}
   - {fileID: 571419251}
+  - {fileID: 1278835253}
 --- !u!1 &1358519174
 GameObject:
   m_ObjectHideFlags: 0
@@ -44320,6 +44449,7 @@ MonoBehaviour:
   - {fileID: 2007079430}
   - {fileID: 462465822}
   - {fileID: 390048215}
+  - {fileID: 917446559}
 --- !u!114 &1485223812
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44626,7 +44756,7 @@ Halo:
   m_Enabled: 1
   m_Color:
     serializedVersion: 2
-    rgba: 4286611584
+    rgba: 4278255360
   m_Size: 0.13
 --- !u!1001 &1492690692
 Prefab:
@@ -45062,7 +45192,7 @@ Halo:
   m_Enabled: 1
   m_Color:
     serializedVersion: 2
-    rgba: 4286611584
+    rgba: 4278255360
   m_Size: 0.08
 --- !u!114 &1504580960
 MonoBehaviour:
@@ -48794,6 +48924,7 @@ MonoBehaviour:
   - {fileID: 1673659940}
   - {fileID: 30735386}
   - {fileID: 834232771}
+  - {fileID: 199883135}
 --- !u!1001 &1687744289
 Prefab:
   m_ObjectHideFlags: 0
@@ -50145,6 +50276,7 @@ MonoBehaviour:
   - {fileID: 2077849686}
   - {fileID: 2010514591}
   - {fileID: 1884548118}
+  - {fileID: 773925495}
 --- !u!1 &1735921959
 GameObject:
   m_ObjectHideFlags: 0
@@ -50719,7 +50851,7 @@ Halo:
   m_Enabled: 1
   m_Color:
     serializedVersion: 2
-    rgba: 4286611584
+    rgba: 4278255360
   m_Size: 0.08
 --- !u!1 &1770378708
 GameObject:
@@ -59836,6 +59968,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: a2a29b740fd0c494e85790327f935fe3,
     type: 3}
   m_PrefabInternal: {fileID: 1961481158}
+--- !u!114 &1963561251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You picked up one of three moon pieces!
 --- !u!114 &1969640608
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65706,6 +65850,18 @@ MonoBehaviour:
   order: 5
   message: Everything you need exists inside the lab.
   textColor: {r: 0.7372549, g: 0.654902, b: 0.78431374, a: 1}
+--- !u!114 &2037781503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You picked up one of three moon pieces!
 --- !u!1 &2038055349
 GameObject:
   m_ObjectHideFlags: 0
@@ -67983,7 +68139,7 @@ Halo:
   m_Enabled: 1
   m_Color:
     serializedVersion: 2
-    rgba: 4286611584
+    rgba: 4278255360
   m_Size: 0.26
 --- !u!114 &2136953348
 MonoBehaviour:

@@ -871,6 +871,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 33302173}
+--- !u!114 &36918865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You picked up a teapot!
 --- !u!114 &36923598
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2521,7 +2533,7 @@ Halo:
   m_Enabled: 1
   m_Color:
     serializedVersion: 2
-    rgba: 4286611584
+    rgba: 4278255360
   m_Size: 0.03
 --- !u!1001 &105699301
 Prefab:
@@ -2628,7 +2640,7 @@ MonoBehaviour:
   order: 0
   message: 'Dragon...fire...
 
-    it wouldn''t just be so easy to just throw the dragon bone into the fire right?..'
+    It wouldn''t just be so easy to just throw the dragon bone into the fire right?..'
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
 --- !u!1001 &117823967
 Prefab:
@@ -2893,7 +2905,7 @@ Halo:
   m_Enabled: 1
   m_Color:
     serializedVersion: 2
-    rgba: 4286611584
+    rgba: 4278255360
   m_Size: -0.06
 --- !u!1001 &125928745
 Prefab:
@@ -9069,6 +9081,7 @@ MonoBehaviour:
   - {fileID: 590569045}
   - {fileID: 1570636637}
   - {fileID: 526699701}
+  - {fileID: 1367667206}
 --- !u!1001 &167726212
 Prefab:
   m_ObjectHideFlags: 0
@@ -10337,7 +10350,7 @@ Halo:
   m_Enabled: 1
   m_Color:
     serializedVersion: 2
-    rgba: 4286611584
+    rgba: 4278255360
   m_Size: 0.07
 --- !u!114 &212175657
 MonoBehaviour:
@@ -11210,7 +11223,7 @@ Halo:
   m_Enabled: 1
   m_Color:
     serializedVersion: 2
-    rgba: 4286611584
+    rgba: 4278255360
   m_Size: 0.08
 --- !u!1001 &270571301
 Prefab:
@@ -11303,6 +11316,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 270571301}
+--- !u!114 &278617047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You found Africa!
 --- !u!1001 &279486589
 Prefab:
   m_ObjectHideFlags: 0
@@ -11763,7 +11788,7 @@ Halo:
   m_Enabled: 1
   m_Color:
     serializedVersion: 2
-    rgba: 4286611584
+    rgba: 4278255360
   m_Size: 0.08
 --- !u!1001 &299550332
 Prefab:
@@ -19891,7 +19916,7 @@ Halo:
   m_Enabled: 1
   m_Color:
     serializedVersion: 2
-    rgba: 4286611584
+    rgba: 4278255360
   m_Size: 0.06
 --- !u!1001 &434982925
 Prefab:
@@ -21486,7 +21511,7 @@ Halo:
   m_Enabled: 1
   m_Color:
     serializedVersion: 2
-    rgba: 4286611584
+    rgba: 4278255360
   m_Size: 0.22
 --- !u!1001 &519164557
 Prefab:
@@ -29491,6 +29516,7 @@ MonoBehaviour:
   - {fileID: 1242065292}
   - {fileID: 1239169082}
   - {fileID: 882415521}
+  - {fileID: 814844505}
 --- !u!114 &697518158
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30746,6 +30772,7 @@ MonoBehaviour:
   - {fileID: 1118744820}
   - {fileID: 1434253589}
   - {fileID: 384184819}
+  - {fileID: 36918865}
 --- !u!1001 &772814817
 Prefab:
   m_ObjectHideFlags: 0
@@ -36138,6 +36165,18 @@ MonoBehaviour:
   order: 1
   message: Despite its bitter taste it's a popular tea beverage among wizards..."Interesting.."
   textColor: {r: 1, g: 0.89411765, b: 0, a: 1}
+--- !u!114 &814844505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You found a water crystal!
 --- !u!1001 &817184989
 Prefab:
   m_ObjectHideFlags: 0
@@ -42157,7 +42196,7 @@ Halo:
   m_Enabled: 1
   m_Color:
     serializedVersion: 2
-    rgba: 4286611584
+    rgba: 4278255360
   m_Size: 0.04
 --- !u!114 &877886722
 MonoBehaviour:
@@ -42309,7 +42348,7 @@ MonoBehaviour:
 
 
     MELTED GOLD: I should look for something made out of gold. Something that doesn''t
-    ook too valuable. Then I could melt it and combine it with a plain apple.'
+    look too valuable. Then I could melt it and combine it with a plain apple.'
 --- !u!114 &888694592
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42881,6 +42920,7 @@ MonoBehaviour:
   - {fileID: 1219844801}
   - {fileID: 1471640337}
   - {fileID: 1437115144}
+  - {fileID: 278617047}
 --- !u!1001 &906749803
 Prefab:
   m_ObjectHideFlags: 0
@@ -43753,7 +43793,7 @@ Halo:
   m_Enabled: 1
   m_Color:
     serializedVersion: 2
-    rgba: 4286611584
+    rgba: 4278255360
   m_Size: 0.06
 --- !u!114 &955794275
 MonoBehaviour:
@@ -43953,7 +43993,7 @@ Halo:
   m_Enabled: 1
   m_Color:
     serializedVersion: 2
-    rgba: 4286611584
+    rgba: 4278255360
   m_Size: 0.04
 --- !u!114 &974952589
 MonoBehaviour:
@@ -44411,7 +44451,7 @@ Halo:
   m_Enabled: 1
   m_Color:
     serializedVersion: 2
-    rgba: 4286611584
+    rgba: 4278255360
   m_Size: 0.12
 --- !u!1001 &986225583
 Prefab:
@@ -57234,6 +57274,7 @@ MonoBehaviour:
   - {fileID: 592686527}
   - {fileID: 886782670}
   - {fileID: 1172070075}
+  - {fileID: 1644185896}
 --- !u!1001 &1127789320
 Prefab:
   m_ObjectHideFlags: 0
@@ -58706,7 +58747,7 @@ Halo:
   m_Enabled: 1
   m_Color:
     serializedVersion: 2
-    rgba: 4286611584
+    rgba: 4278255360
   m_Size: 0.12
 --- !u!1 &1156852397
 GameObject:
@@ -61117,6 +61158,7 @@ MonoBehaviour:
   - {fileID: 1370530675}
   - {fileID: 1714979144}
   - {fileID: 697518158}
+  - {fileID: 1358292168}
 --- !u!1001 &1282020153
 Prefab:
   m_ObjectHideFlags: 0
@@ -63364,6 +63406,18 @@ MonoBehaviour:
   description: TrapDoorKeyPickedUp
   satisfied: 1
   hash: -1873957032
+--- !u!114 &1358292168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You found ambrosia!
 --- !u!114 &1358901732
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63378,6 +63432,18 @@ MonoBehaviour:
   description: BasementDoorQuestStart
   satisfied: 1
   hash: -1354798160
+--- !u!114 &1367667206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You found South America!
 --- !u!114 &1370530675
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -80412,6 +80478,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 5e074f2a56373374087779628da4cc29,
     type: 3}
   m_PrefabInternal: {fileID: 1637967701}
+--- !u!114 &1644185896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You found an earth crystal!
 --- !u!4 &1644917179 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400014, guid: 8fbf0c59a35b7734f8f32bd5ccebfab9,
@@ -82270,7 +82348,7 @@ Halo:
   m_Enabled: 1
   m_Color:
     serializedVersion: 2
-    rgba: 4286611584
+    rgba: 4278255360
   m_Size: 0.07
 --- !u!1001 &1747938285
 Prefab:
@@ -85643,6 +85721,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f68e26733f39a5c42b1f9cec45827f07,
     type: 3}
   m_PrefabInternal: {fileID: 1885030508}
+--- !u!114 &1886992077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c9651a72a8db9f4193e69b9ba2d888a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You picked up dragon fire!
 --- !u!1 &1888065775
 GameObject:
   m_ObjectHideFlags: 0
@@ -87242,6 +87332,7 @@ MonoBehaviour:
   - {fileID: 1507317918}
   - {fileID: 955794275}
   - {fileID: 30161351}
+  - {fileID: 1886992077}
 --- !u!1001 &1950285834
 Prefab:
   m_ObjectHideFlags: 0

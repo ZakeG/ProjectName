@@ -783,10 +783,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
-    - target: {fileID: 1509475594083270, guid: d43ae048690693e488c33a95d6b53299, type: 2}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d43ae048690693e488c33a95d6b53299, type: 2}
   m_IsPrefabAsset: 0
@@ -15486,7 +15482,7 @@ Halo:
   m_Enabled: 1
   m_Color:
     serializedVersion: 2
-    rgba: 4286611584
+    rgba: 4278255360
   m_Size: 0.06
 --- !u!1001 &528625783
 Prefab:
@@ -45309,7 +45305,7 @@ Halo:
   m_Enabled: 1
   m_Color:
     serializedVersion: 2
-    rgba: 4286611584
+    rgba: 4278255360
   m_Size: 0.08
 --- !u!1001 &1248423594
 Prefab:
@@ -59009,7 +59005,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1946319112}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.3643, y: 0.7321, z: 0.1707}
+  m_LocalPosition: {x: -0.3581, y: 0.7321, z: 0.1707}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 646732}
@@ -59024,7 +59020,7 @@ Halo:
   m_Enabled: 1
   m_Color:
     serializedVersion: 2
-    rgba: 4286611584
+    rgba: 4278255360
   m_Size: 0.02
 --- !u!1001 &1947628719
 Prefab:
@@ -61217,7 +61213,7 @@ Halo:
   m_Enabled: 1
   m_Color:
     serializedVersion: 2
-    rgba: 4286611584
+    rgba: 4278255360
   m_Size: 0.06
 --- !u!1001 &2046662693
 Prefab:
@@ -61408,7 +61404,7 @@ Halo:
   m_Enabled: 1
   m_Color:
     serializedVersion: 2
-    rgba: 4286611584
+    rgba: 4278255360
   m_Size: 0.06
 --- !u!1 &2057102062
 GameObject:

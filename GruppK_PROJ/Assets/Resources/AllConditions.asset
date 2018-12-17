@@ -117,6 +117,7 @@ MonoBehaviour:
   - {fileID: 114837498404054592}
   - {fileID: 114071588319308866}
   - {fileID: 114560551204404078}
+  - {fileID: 114838205221021422}
 --- !u!114 &114000264106966828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -283,7 +284,7 @@ MonoBehaviour:
   m_Name: WizardFeatherStartDialouge
   m_EditorClassIdentifier: 
   description: WizardFeatherStartDialouge
-  satisfied: 0
+  satisfied: 1
   hash: -2085163072
 --- !u!114 &114114992687082830
 MonoBehaviour:
@@ -325,7 +326,7 @@ MonoBehaviour:
   m_Name: GoldenAppleAquired
   m_EditorClassIdentifier: 
   description: GoldenAppleAquired
-  satisfied: 0
+  satisfied: 1
   hash: -228943506
 --- !u!114 &114149025891862836
 MonoBehaviour:
@@ -353,7 +354,7 @@ MonoBehaviour:
   m_Name: CoinPickedUp
   m_EditorClassIdentifier: 
   description: CoinPickedUp
-  satisfied: 0
+  satisfied: 1
   hash: -1187853915
 --- !u!114 &114164629124617336
 MonoBehaviour:
@@ -409,7 +410,7 @@ MonoBehaviour:
   m_Name: TreeGrown
   m_EditorClassIdentifier: 
   description: TreeGrown
-  satisfied: 0
+  satisfied: 1
   hash: 74427567
 --- !u!114 &114183364152752296
 MonoBehaviour:
@@ -451,7 +452,7 @@ MonoBehaviour:
   m_Name: DAY
   m_EditorClassIdentifier: 
   description: DAY
-  satisfied: 1
+  satisfied: 0
   hash: 1929866010
 --- !u!114 &114203895195064576
 MonoBehaviour:
@@ -465,7 +466,7 @@ MonoBehaviour:
   m_Name: CompletedGlobe
   m_EditorClassIdentifier: 
   description: CompletedGlobe
-  satisfied: 0
+  satisfied: 1
   hash: -2141530385
 --- !u!114 &114207286644705896
 MonoBehaviour:
@@ -535,7 +536,7 @@ MonoBehaviour:
   m_Name: AmbrosiaTeaQuestStart
   m_EditorClassIdentifier: 
   description: AmbrosiaTeaQuestStart
-  satisfied: 0
+  satisfied: 1
   hash: 1331757938
 --- !u!114 &114303500727802912
 MonoBehaviour:
@@ -591,7 +592,7 @@ MonoBehaviour:
   m_Name: GoldAppleQuestStart
   m_EditorClassIdentifier: 
   description: GoldAppleQuestStart
-  satisfied: 0
+  satisfied: 1
   hash: 1225229576
 --- !u!114 &114336684936229846
 MonoBehaviour:
@@ -815,7 +816,7 @@ MonoBehaviour:
   m_Name: ChestPickedUp
   m_EditorClassIdentifier: 
   description: ChestPickedUp
-  satisfied: 0
+  satisfied: 1
   hash: 1337608849
 --- !u!114 &114488299505747108
 MonoBehaviour:
@@ -997,7 +998,7 @@ MonoBehaviour:
   m_Name: HasMask
   m_EditorClassIdentifier: 
   description: HasMask
-  satisfied: 0
+  satisfied: 1
   hash: 1766527378
 --- !u!114 &114651070753806800
 MonoBehaviour:
@@ -1081,7 +1082,7 @@ MonoBehaviour:
   m_Name: BasementDoorQuestStart
   m_EditorClassIdentifier: 
   description: BasementDoorQuestStart
-  satisfied: 0
+  satisfied: 1
   hash: -1354798160
 --- !u!114 &114710624494531832
 MonoBehaviour:
@@ -1137,7 +1138,7 @@ MonoBehaviour:
   m_Name: LockpickPickedUp
   m_EditorClassIdentifier: 
   description: LockpickPickedUp
-  satisfied: 0
+  satisfied: 1
   hash: 2122830829
 --- !u!114 &114748338359087920
 MonoBehaviour:
@@ -1235,7 +1236,7 @@ MonoBehaviour:
   m_Name: PhoenixFeatherAquired
   m_EditorClassIdentifier: 
   description: PhoenixFeatherAquired
-  satisfied: 0
+  satisfied: 1
   hash: 1173753866
 --- !u!114 &114780071348206456
 MonoBehaviour:
@@ -1263,7 +1264,7 @@ MonoBehaviour:
   m_Name: KeyAquired
   m_EditorClassIdentifier: 
   description: KeyAquired
-  satisfied: 0
+  satisfied: 1
   hash: 1879386995
 --- !u!114 &114832383211045862
 MonoBehaviour:
@@ -1307,6 +1308,20 @@ MonoBehaviour:
   description: PLAYERISINTERACTING
   satisfied: 0
   hash: 316600597
+--- !u!114 &114838205221021422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: PaintingQuestRecieved
+  m_EditorClassIdentifier: 
+  description: PaintingQuestRecieved
+  satisfied: 0
+  hash: 1774831110
 --- !u!114 &114842528549307944
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1361,7 +1376,7 @@ MonoBehaviour:
   m_Name: LIGHTSTAFF
   m_EditorClassIdentifier: 
   description: LIGHTSTAFF
-  satisfied: 0
+  satisfied: 1
   hash: -1517926864
 --- !u!114 &114873655392268402
 MonoBehaviour:
@@ -1417,7 +1432,7 @@ MonoBehaviour:
   m_Name: TrapDoorKeyPickedUp
   m_EditorClassIdentifier: 
   description: TrapDoorKeyPickedUp
-  satisfied: 0
+  satisfied: 1
   hash: -1873957032
 --- !u!114 &114887618442997130
 MonoBehaviour:
@@ -1445,7 +1460,7 @@ MonoBehaviour:
   m_Name: CompletedDoorStart
   m_EditorClassIdentifier: 
   description: CompletedDoorStart
-  satisfied: 0
+  satisfied: 1
   hash: -164840168
 --- !u!114 &114893403863706380
 MonoBehaviour:
@@ -1501,7 +1516,7 @@ MonoBehaviour:
   m_Name: DungeonDoorQuestStart
   m_EditorClassIdentifier: 
   description: DungeonDoorQuestStart
-  satisfied: 0
+  satisfied: 1
   hash: 162785247
 --- !u!114 &114932029228588310
 MonoBehaviour:
@@ -1585,5 +1600,5 @@ MonoBehaviour:
   m_Name: StaffCompleted
   m_EditorClassIdentifier: 
   description: StaffCompleted
-  satisfied: 0
+  satisfied: 1
   hash: 2045985755

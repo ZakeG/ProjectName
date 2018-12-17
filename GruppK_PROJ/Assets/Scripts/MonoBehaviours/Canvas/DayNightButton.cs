@@ -17,6 +17,7 @@ public class DayNightButton : MonoBehaviour {
     private Condition lightStaff;
     private StaffObjectContainer currentSceneLightContainer;
     private Color nightColor;
+    private bool day;
 
     [SerializeField]
     private GameObject arrow;
@@ -25,6 +26,7 @@ public class DayNightButton : MonoBehaviour {
     
     private void Start()
     {
+        day = true;
         arrowActive = true;
         nightColor = new Color(0/255, 208/255, 255/255);
         currentState.satisfied = true;
@@ -140,7 +142,7 @@ public class DayNightButton : MonoBehaviour {
 
     private void CheckIcon()
     {
-        if (currentState.satisfied)
+        if (day)
         {
             staffPicRefrence.color = Color.white;
         }
@@ -153,6 +155,14 @@ public class DayNightButton : MonoBehaviour {
     private void ToggleLights()
     {
         currentState.satisfied = !currentState.satisfied;
+        if (day)
+        {
+            day = false;
+        }
+        else
+        {
+            day = true;
+        }
         CheckLights();
         CheckIcon();
     }

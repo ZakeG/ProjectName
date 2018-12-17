@@ -9,21 +9,27 @@ public class ItemCombination : ScriptableObject
 
     public string[] QLReactions;
 
-    private List<QuestLogReaction> questLogReactionList = new List<QuestLogReaction>();
-    private QuestLogReaction qlrTemp;
+    private BookTextHandler bookTextManager;
+    private BookTextHandler[] tempList;
 
     public void Init()
     {
-
-        if (QLReactions != null)
+        tempList = Resources.FindObjectsOfTypeAll<BookTextHandler>();
+        foreach (BookTextHandler bth in tempList)
         {
-            foreach (string s in QLReactions)
+            if (bth.CompareTag("QuestText0"))
             {
-                qlrTemp = ScriptableObject.CreateInstance("QuestLogReaction") as QuestLogReaction;
-                qlrTemp.ConstructionInit(s);
-                questLogReactionList.Add(qlrTemp);
+                bookTextManager = bth;
             }
         }
+    }
+    public void SendMessages()
+    {
+        foreach (string s in QLReactions)
+        {
+            bookTextManager.AddText(s);
+        }
+        
     }
 
     public List<Item> GetList()
@@ -34,10 +40,5 @@ public class ItemCombination : ScriptableObject
     public List<Item> GetResultingItemList()
     {
         return result;
-    }
-
-    public List<QuestLogReaction> GetQuestLogReactions()
-    {
-        return questLogReactionList;
     }
 }

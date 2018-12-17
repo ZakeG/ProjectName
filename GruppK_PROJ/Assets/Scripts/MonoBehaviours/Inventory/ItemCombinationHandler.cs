@@ -18,7 +18,6 @@ public class ItemCombinationHandler : MonoBehaviour {
     private List<Item> combos;
     private List<Item> failCombo;
     private List<Item> comboResults;
-    private List<QuestLogReaction> questLogReactionList;
     private bool allSelectedItemsInCombo;
     private bool failReactionExist;
     [SerializeField]
@@ -32,6 +31,7 @@ public class ItemCombinationHandler : MonoBehaviour {
         {
             IC.Init();
         }
+
     }
 
     private void Start()
@@ -113,7 +113,6 @@ public class ItemCombinationHandler : MonoBehaviour {
         DeselectAll();
         combos = combinationRecepie.GetList();
         comboResults = combinationRecepie.GetResultingItemList();
-        questLogReactionList = combinationRecepie.GetQuestLogReactions();
         foreach (Item i in combos)
         {
             inventory.GetComponent<Inventory>().RemoveItem(i);
@@ -122,10 +121,7 @@ public class ItemCombinationHandler : MonoBehaviour {
         {
             inventoryScript.AddItem(i);
         }
-        foreach (QuestLogReaction qlr in questLogReactionList)
-        {
-            qlr.React(this);
-        }
+        combinationRecepie.SendMessages();
         DeselectAll();
     }
     private void CombinationFail()

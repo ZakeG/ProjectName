@@ -6,7 +6,7 @@ public class JulScript : MonoBehaviour {
 
     public List<GameObject> christmasObjects;
     public List<GameObject> nonChristmasObjects;
-    private bool christmasIsOn;
+    private bool christmasIsOn = false;
 
 	void Update () {
         if (christmasObjects.Count != 0 && nonChristmasObjects.Count != 0)
@@ -35,6 +35,7 @@ public class JulScript : MonoBehaviour {
         {
             ngo.SetActive(false);
         }
+        christmasIsOn = true;
     }
 
     private void TurnOffChristmas()
@@ -47,5 +48,6 @@ public class JulScript : MonoBehaviour {
         {
             ngo.SetActive(true);
         }
+        christmasIsOn = false;
     }
 }

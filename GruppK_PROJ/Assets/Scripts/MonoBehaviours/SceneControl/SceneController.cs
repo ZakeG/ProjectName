@@ -48,7 +48,7 @@ public class SceneController : MonoBehaviour
 
     public void ClosePersistentScene()
     {
-        SceneManager.LoadSceneAsync("ExitScene");
+        SceneManager.LoadSceneAsync("Ending");
         SceneManager.UnloadSceneAsync(SceneManager.GetSceneByName("Persistent"));
     }
 

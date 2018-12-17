@@ -24,7 +24,7 @@ public class BookTextHandler : MonoBehaviour
     private int workingOnPage;
     private bool workingOnFirstSheet;
 
-    private const int maxCharacterCount = 300;
+    private const int maxCharacterCount = 270;
     private const int line = 43;
 
     public struct Page
@@ -85,7 +85,6 @@ public class BookTextHandler : MonoBehaviour
             currentPageNr++;
             currentPageP1 = string.Empty + textToInput;
             currentPageP2 = string.Empty;
-            workingOnFirstSheet = true;
         }
         textBeingShownP1 = currentPageP1;
         textBeingShownP2 = currentPageP2;
@@ -171,6 +170,6 @@ public class BookTextHandler : MonoBehaviour
         };
         pages.Add(newPage);
         workingOnPage++;
-        Debug.Log(pages.Count);
+        workingOnFirstSheet = true;
     }
 }

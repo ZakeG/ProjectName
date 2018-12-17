@@ -12,7 +12,7 @@ public class ItemCombination : ScriptableObject
     private List<QuestLogReaction> questLogReactionList = new List<QuestLogReaction>();
     private QuestLogReaction qlrTemp;
 
-    private void Awake()
+    public void Init()
     {
 
         if (QLReactions != null)

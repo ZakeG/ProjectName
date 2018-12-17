@@ -28,7 +28,10 @@ public class ItemCombinationHandler : MonoBehaviour {
     {
         inventoryScript = inventory.GetComponent<Inventory>();
         selectedItems = new List<Item>();
-
+        foreach (ItemCombination IC in combinations)
+        {
+            IC.Init();
+        }
     }
 
     private void Start()
@@ -134,12 +137,10 @@ public class ItemCombinationHandler : MonoBehaviour {
                   {
                       if (selectedItems.Contains(i) && failCombo.Count == selectedItems.Count)
                       {
-                          Debug.Log(failReactionExist);
                           failReactionExist = true;
                       }
                       else
                       {
-                          Debug.Log(failReactionExist);
                           failReactionExist = false;
                           break;
                       }

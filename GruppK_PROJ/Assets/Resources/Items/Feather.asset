@@ -15,3 +15,4 @@ MonoBehaviour:
   itemName: WhiteFeather
   pickUpCondition: {fileID: 114962063550835238, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}
+  tooltipMessage: A white feather.

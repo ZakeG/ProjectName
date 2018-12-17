@@ -10611,6 +10611,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: 'Quest Completed: I''ve completed the ghosts quest! Onto the last ingredient
     for the wizards potion!'
+  bookTextManager: {fileID: 0}
 --- !u!4 &509806754 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400004, guid: 59df1c95eea9ebb40b9a3634bc4c0087,
@@ -16174,6 +16175,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message: 'The last ingredient for the wizard''s potion is Dragon Fire. '
+  bookTextManager: {fileID: 0}
 --- !u!114 &583113506
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38858,6 +38860,7 @@ MonoBehaviour:
     like people just keep em in their dungeons...\n\nFIRE: There is plain old fire
     around here but not dragon fire, maybe using something from the specimen on plain
     fire will change it? "
+  bookTextManager: {fileID: 0}
 --- !u!1001 &1123967994
 Prefab:
   m_ObjectHideFlags: 0
@@ -39346,67 +39349,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 20f585762c593f2439c56d20a8c737f4,
     type: 3}
   m_PrefabInternal: {fileID: 1162639749}
---- !u!1 &1165182547
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1346286564249446, guid: 81ea977436dfa8c498e26e8eb64f0750,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1165182548}
-  - component: {fileID: 1165182550}
-  - component: {fileID: 1165182549}
-  m_Layer: 0
-  m_Name: CameraSwitchCollider
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1165182548
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 4258235508563650, guid: 81ea977436dfa8c498e26e8eb64f0750,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1165182547}
-  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0.1, y: -0.201, z: -1.51}
-  m_LocalScale: {x: 2.3948193, y: 0.31937575, z: 5.5944033}
-  m_Children: []
-  m_Father: {fileID: 2029870516}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!114 &1165182549
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 114006084829120166, guid: 81ea977436dfa8c498e26e8eb64f0750,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1165182547}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0f0772b3dc47794fa5deecbc6101be7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cameraRigObject: {fileID: 960434193}
-  cameraObject: {fileID: 1252136831}
-  rorationSpeed: 90
-  rotationDegrees: 180
---- !u!65 &1165182550
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 65647420641004612, guid: 81ea977436dfa8c498e26e8eb64f0750,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1165182547}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1165643359
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45320,6 +45262,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message: You found a dragon bone!
+  bookTextManager: {fileID: 0}
 --- !u!1001 &1248423594
 Prefab:
   m_ObjectHideFlags: 0
@@ -59856,6 +59799,7 @@ MonoBehaviour:
     was a white house. \r\nInside the white house there was a red house.\r\nInside
     the red house there were lots of babies. What is it?\"\r\n\nHmm...whatever does
     this mean?\r\""
+  bookTextManager: {fileID: 0}
 --- !u!1001 &1987307215
 Prefab:
   m_ObjectHideFlags: 0
@@ -60826,7 +60770,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 960434195}
-  - {fileID: 1165182548}
   m_Father: {fileID: 974468603}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -62766,6 +62709,7 @@ MonoBehaviour:
   message: The ghost mentioned a necklace being stored in a small chest, I wonder
     if it's the same small chest I have in my inventory? I still need to find the
     key though.
+  bookTextManager: {fileID: 0}
 --- !u!4 &2145310249 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: dd3ddf9b352277d45bb2499d1ee1f90b,

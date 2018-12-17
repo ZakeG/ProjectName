@@ -2,7 +2,7 @@
 public class QuestLogReaction : Reaction
 {
     public string message;
-
+    [SerializeField]
     private BookTextHandler bookTextManager;
     private BookTextHandler[] tempList;
 

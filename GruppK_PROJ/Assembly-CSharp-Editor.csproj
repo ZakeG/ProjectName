@@ -74,6 +74,7 @@
     <Compile Include="Assets\Scripts\Editor\Interaction\ReactionEditors\AudioReactionEditor.cs" />
     <Compile Include="Assets\Scripts\Editor\Interaction\ReactionEditors\BehaviourReactionEditor.cs" />
     <Compile Include="Assets\Scripts\Editor\Interaction\ReactionEditors\ConditionReactionEditor.cs" />
+    <Compile Include="Assets\Scripts\Editor\Interaction\ReactionEditors\ExitSceneReactionEditor.cs" />
     <Compile Include="Assets\Scripts\Editor\Interaction\ReactionEditors\GameObjectReactionEditor.cs" />
     <Compile Include="Assets\Scripts\Editor\Interaction\ReactionEditors\LostItemReactionEditor.cs" />
     <Compile Include="Assets\Scripts\Editor\Interaction\ReactionEditors\PickedUpReactionEditor.cs" />

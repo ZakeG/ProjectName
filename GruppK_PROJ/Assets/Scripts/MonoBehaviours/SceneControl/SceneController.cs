@@ -46,6 +46,12 @@ public class SceneController : MonoBehaviour
         }
     }
 
+    public void ClosePersistentScene()
+    {
+        SceneManager.LoadSceneAsync("ExitScene");
+        SceneManager.UnloadSceneAsync(SceneManager.GetSceneByName("Persistent"));
+    }
+
     private IEnumerator FadeAndSwitchScenes(string sceneName)
     {
         yield return StartCoroutine(Fade(1));

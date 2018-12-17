@@ -108,6 +108,7 @@
     <Compile Include="Assets\Scripts\ScriptableObjects\Interaction\Reactions\DelayedReactions\PickedUpItemReaction.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\Interaction\Reactions\ImmediateReactions\AudioReaction.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\Interaction\Reactions\ImmediateReactions\ConditionReaction.cs" />
+    <Compile Include="Assets\Scripts\ScriptableObjects\Interaction\Reactions\ImmediateReactions\ExitSceneReaction.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\Interaction\Reactions\ImmediateReactions\QuestLogReaction.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\Interaction\Reactions\ImmediateReactions\SceneReaction.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\Interaction\Reactions\ImmediateReactions\TextReaction.cs" />
